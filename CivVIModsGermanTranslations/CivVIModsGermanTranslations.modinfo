@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods von Albro wurden in diesem Mod übersetzt[NEWLINE][NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (vom 10. Juli 2021 um 19:10)[NEWLINE] * National Wonders: Expansion Pack 1 (vom 27. Sep. 2021 um 0:22)[NEWLINE][NEWLINE] * More Maritime: Seaside Sectors (vom 27. Sep. 2021 um 15:25)[NEWLINE][NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (vom 5. Juli 2021 um 19:37) [NEWLINE] * CIVILIZATION VI: CN Tower (vom 1. Apr. 2021 um 18:08)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (vom 4. Feb. 2021 um 18:54)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (vom 15. März 2021 um 21:14)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (vom 8. Juni 2021 um 21:54) [NEWLINE]</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1635462731</Created>
+    <Created>1635463464</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>Albro</SpecialThanks>
@@ -60,6 +60,6 @@
     <File>2511437298/Text/AL_STPETERS_TEXT_de_DE.xml</File>
     <File>2601169154/Text/Waterfront_EXP_Text_de_DE.xml</File>
     <File>2612473657/Text/NAT_WONDER_Text_PACK_01_de_DE.xml</File>
-    <File>ModNumbers.md</File>
+    <File>README.md</File>
   </Files>
 </Mod>
