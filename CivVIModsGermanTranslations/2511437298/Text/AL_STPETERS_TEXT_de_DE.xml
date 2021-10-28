@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_AL_STPETERSBASILICA_NAME" Language="de_DE">
+			<Text>Petersdom</Text>
+		</Replace>
+
+			<Replace Tag="LOC_BUILDING_AL_STPETERSBASILICA_DESCRIPTION" Language="de_DE">
+				<Text>+5% [ICON_CULTURE] Kultur und +5% [ICON_FAITH] Glauben in dieser Stadt für jede Hauptstadt, die Eurer Religion folgt. [ICON_GreatWork_Religious] Große-Religionskunst-Werke in dieser Stadt bekommen zusätzlich +3 [ICON_FAITH] Glauben und bieten das Dreifache an [ICON_TOURISM] Tourismus.[NEWLINE]Muss angrenzend an Eure [ICON_Capital] Hauptstadt gebaut werden und Ihr müsst eine Religion gegründet haben.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_BUILDING_AL_STPETERSBASILICA_QUOTE" Language="de_DE">
+					<Text>"Von der Kuppel des Petersdoms aus kann man jedes bemerkenswerte Objekt in Rom sehen ... Man kann ein Panorama sehen, das vielfältig, weitläufig, schön für das Auge und in der Geschichte so berühmt ist wie kein anderes in Europa."[NEWLINE]-Mark Twain</Text>
+				</Replace>	
+
+	</LocalizedText>
+</GameData>
+

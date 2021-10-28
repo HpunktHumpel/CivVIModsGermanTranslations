@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WATERFRONT DISTRICT -->
+
+		<Replace Tag="LOC_DISTRICT_WATERFRONT_NAME" Language="de_DE">
+			<Text>Hafenviertel</Text>
+		</Replace>	
+
+			<Replace Tag="LOC_DISTRICT_WATERFRONT_DESCRIPTION" Language="de_DE">
+				<Text>Ein auf einem Küstenfeld platzierter Bezirk, der Wachstum und Wohnen erhöht. Bietet +1 [ICON_Amenities] Annehmlichkeiten durch jedes angrenzende Stadtzentrum-Geländefeld. Kann nicht an einem Riff gebaut werden.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_WATERFRONT_1" Language="de_DE">
+					<Text>Als Hafenviertel einer Stadt bezeichnet man in der modernen Stadtplanung die am Ufer größerer Gewässer, wie Flüssen, Kanälen, Seen oder Meeren gelegenen Stadtteile.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_WATERFRONT_2" Language="de_DE">
+					<Text>Ab dem frühen 20. Jahrhundert wurden Kais entlang der Innenstadt langsam obsolet, nicht zuletzt dank des Niedergangs der internationalen Passagierschifffahrt, des Aufkommens automatisierter Containerterminals und der zunehmenden Größe von Spezialschiffen. Zur Belebung dieser heruntergekommenen Hafenviertel wurden daher verschiedene Wohnprojekte aufgelegt, die sich größtenteils aufgrund des potenziellen Immobilienwertes von Grundstücken mit Blick auf ein prominentes Gewässer als äußerst erfolgreich erwiesen haben.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_CityCenter_Food_Description" Language="de_DE">
+					<Text>+{1_num} [ICON_FOOD] Nahrung durch jedes angrenzende Stadtzentrum-Geländefeld {1_Num : plural 1?district; other?districts;}.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_WTR_Harbor_Food_Description" Language="de_DE">
+					<Text>+{1_num} [ICON_FOOD] Nahrung durch jeden angrenzenden Hafen-Geländefeld {1_Num : plural 1?district; other?districts;}.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_Reef_Food_Description" Language="de_DE">
+					<Text>+{1_num} [ICON_FOOD] Nahrung durch jedes angrenzende Riff-Geländefeld {1_Num : plural 1?feature; other?features;}.</Text>
+				</Replace>	
+
+				<Replace Tag="LOC_WTR_District_Food_Description" Language="de_DE">
+					<Text>+{1_num} [ICON_FOOD] Nahrung durch jedes angrenzende Bezirk-Geländefeld {1_Num : plural 1?district; other?districts;}.</Text>
+				</Replace>
+
+					<Replace Tag="LOC_WTR_Kelp_Food_Description" Language="de_DE">
+						<Text>+{1_num} [ICON_FOOD] Nahrung durch jede angrenzende Seetangwald-Ressource {1_Num : plural 1?feature; other?features;}.</Text>
+					</Replace>	
+
+					<Replace Tag="LOC_WTR_Borough_A_Food_Description" Language="de_DE">
+						<Text>+{1_num} [ICON_FOOD] Nahrung durch jede angrenzende Stadtgemeinde der Klassik {1_Num : plural 1?district; other?districts;}.</Text>
+					</Replace>	
+
+					<Replace Tag="LOC_WTR_Borough_B_Food_Description" Language="de_DE">
+						<Text>+{1_num} [ICON_FOOD] Nahrung durch jede angrenzende Stadtgemeinde der Renaissance {1_Num : plural 1?district; other?districts;}.</Text>
+					</Replace>	
+
+					<Replace Tag="LOC_WTR_Borough_C_Food_Description" Language="de_DE">
+						<Text>+{1_num} [ICON_FOOD] Nahrung durch jede angrenzende Stadtgemeinde der Moderne {1_Num : plural 1?district; other?districts;}.</Text>
+					</Replace>	
+
+		<!-- WATERFRONT DISTRICT - BUILDINGS -->
+
+		<Replace Tag="LOC_BUILDING_WTR_BREAKWATER_NAME" Language="de_DE">
+			<Text>Wellenbrecher</Text>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_WTR_BREAKWATER_DESCRIPTION" Language="de_DE">
+				<Text>+1 [ICON_FOOD] Nahrung auf allen Küstenfeldern dieser Stadt. +1 [ICON_SCIENCE] Wissenschaft durch jedes Riff-Geländefeld in dieser Stadt.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_WTR_BREAKWATER_1" Language="de_DE">
+					<Text>Wellenbrecher sind Bauwerke, die in Küstennähe gebaut werden, um einen Ankerplatz vor Wettereinflüssen und Küstenströmungen zu schützen, da sie die Intensität der Wellenbewegung in Küstengewässern reduzieren, um einen sicheren Hafen zu bieten. Sie werden auch häufig verwendet, um Strände vor Küstenerosion zu schützen.</Text>
+				</Replace>	
+
+		<Replace Tag="LOC_BUILDING_WTR_BOARDWALK_NAME" Language="de_DE">
+			<Text>Strandpromenade</Text>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_WTR_BOARDWALK_DESCRIPTION" Language="de_DE">
+				<Text>+1 [ICON_CULTURE] Kultur und +1 [ICON_FAITH] Glauben auf allen angrenzenden Feldern. Zusätzlich +1 [ICON_CULTURE] Kultur, +1 [ICON_FAITH] Glauben und +2 [ICON_FOOD] Nahrung für jedes Küstenressourcen-Geländefeld sowie jedes Feld von atemberaubender Anziehungskraft.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_WTR_BOARDWALK_1" Language="de_DE">
+					<Text>Eine Strandpromenade ist eine Promenade in einem Hafenviertel oder entlang eines Strandes. Während sie normalerweise aus einfachen Holzbrettern bestehen, wurden verschiedene prominente Promenaden aufgrund des erhöhten Fußgängerverkehrs erweitert und in einigen Fällen sogar durch Esplanaden aus haltbareren Materialien wie Beton oder Ziegeln ersetzt.</Text>
+				</Replace>	
+
+		<!-- ARSENAL DISTRICT -->
+
+		<Replace Tag="LOC_DISTRICT_ARSENAL_NAME" Language="de_DE">
+			<Text>Arsenal</Text>
+		</Replace>	
+
+			<Replace Tag="LOC_DISTRICT_ARSENAL_DESCRIPTION" Language="de_DE">
+				<Text>Ein Bezirk für militärische Marineanlagen. Kein [ICON_Movement] Fortbewegungsmalus für das Wassern und Ausschiffen von und zu diesem Geländefeld. Muss an Küste oder See-Geländefeldern neben Land gebaut werden. Kann nicht an einem Riff gebaut werden.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_DISTRICT_ARSENAL_1" Language="de_DE">
+					<Text>Im ursprünglichen Sinne des Wortes ist ein Arsenal eine militärische Einrichtung, in der Kriegsschiffe gebaut, gewartet, repariert und zusammen mit der bereitgestellten Ausrüstung und Vorräten erhalten werden. Ab dem 17. Jahrhundert verlor der Begriff Arsenal seinen ausschließlichen Bezug auf die maritime Welt und wurde mit der Lagerung und Herstellung von militärischer Ausrüstung in Verbindung gebracht.</Text>
+				</Replace>	
+
+		<!-- ARSENAL DISTRICT - BUILDINGS -->
+
+		<Replace Tag="LOC_BUILDING_ARS_WAREHOUSE_NAME" Language="de_DE">
+			<Text>Magazin</Text>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_ARS_WAREHOUSE_DESCRIPTION" Language="de_DE">
+				<Text>+25 % Kampferfahrung für alle in dieser Stadt ausgebildeten Marineeinheiten. [NEWLINE]Strategisches Ressourcen-Vorratslager +10 (auf Standardgeschwindigkeit).</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_WAREHOUSE_1" Language="de_DE">
+					<Text>Marinearsenale erfordern umfangreiche Lagerhallen bzw. Magazine, um die zahlreichen Ausrüstungsgegenstände zu beherbergen, die zum Aufstellen, Warten und Betreiben der komplexen Kriegsschiffe der damaligen Zeit erforderlich sind.</Text>
+				</Replace>	
+
+		<Replace Tag="LOC_BUILDING_ARS_DRYDOCK_NAME" Language="de_DE">
+			<Text>Trockendock</Text>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_ARS_DRYDOCK_DESCRIPTION" Language="de_DE">
+				<Text>+25 % Kampferfahrung für alle in dieser Stadt ausgebildeten Marineeinheiten. +1 [ICON_PRODUCTION] Produkiton auf jedem nicht modernisierten Küsten-Geländefeld in dieser Stadt. Zusätzlich +1 [ICON_PRODUCTION] Produktion durch jedes angrenzende Arsenal. [NEWLINE]Strategisches Ressourcen-Vorratslager +10 (auf Standardgeschwindigkeit). [NEWLINE]Ermöglicht die Ausbildung von Militärpionieren in dieser Stadt.</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_DRYDOCK_1" Language="de_DE">
+					<Text>Ein Trockendock ist ein schmales Becken, welches ein Schiff aufnehmen und wasserdicht abgeschlossen werden kann. Durch eine Absenken des Wasserspiegels im Bassin kann ein sich darin befindendes Schiff trockengelegt werde, wodurch deren Wartung, Reparatur, Bau und eventuelle Demontage ermöglicht wird.</Text>
+				</Replace>	
+
+		<Replace Tag="LOC_BUILDING_ARS_NAVALACADEMY_NAME" Language="de_DE">
+			<Text>Marineakademie</Text>
+		</Replace>	
+
+			<Replace Tag="LOC_BUILDING_ARS_NAVALACADEMY_DESCRIPTION" Language="de_DE">
+				<Text>+25 % Kampferfahrung für alle in dieser Stadt ausgebildeten Marineeinheiten. Ermöglicht die unmittelbare Ausbildung von Flotten und Armadas. Die Ausbildungskosten von Flotten und Armadas sinken um 25 %. [NEWLINE]Strategisches Ressourcen-Vorratslager +10 (auf Standardgeschwindigkeit).</Text>
+			</Replace>	
+
+				<Replace Tag="LOC_PEDIA_BUILDING_ARS_NAVALACADEMY_1" Language="de_DE">
+					<Text>Eine Marineakademie ist eine nationale Einrichtung, die eine Ausbildung für zukünftige Marineoffiziere anbietet. Die Marineausbildung fand bis zum 20. Jahrhundert gewöhnlich nur auf See statt, auch wenn die Flotte ständig vor Anker lag. So ließen sowohl die französischen als auch die britischen Marineschulen ihre Ausbildungseinrichtungen erst vor relativ kurzer Zeit an Land bauen, was in starkem Kontrast zu ihren militärischen Gegenstücken in der Armee steht, da sowohl französische als auch britische Militärakademien eine viel längere und reichere Geschichte haben.</Text>
+				</Replace>				
+
+		<!-- VANILLA DISTRICTS -->
+
+		<Replace Tag="LOC_WTR_Waterfront_Gold_Description" Language="de_DE">
+			<Text>+{1_num} [ICON_GOLD] Gold durch jeden angrenzenden Hafenviertel-Bezirk {1_Num : plural 1?district; other?districts;}.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_WTR_Arsenal_Gold_Description" Language="de_DE">
+			<Text>+{1_num} [ICON_GOLD] Gold durch jedes angrenzende Arsenal {1_Num : plural 1?district; other?districts;}.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_WTR_Arsenal_Prod_Description" Language="de_DE">
+			<Text>+{1_num} [ICON_PRODUCTION] Produktion durch jedes angrenzende Arsenal {1_Num : plural 1?district; other?districts;}.</Text>
+		</Replace>	
+
+		<!-- VANILLA BUILDINGS -->
+
+		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_GOLD] Gold auf allen Fischerboot-Verbesserungen in dieser Stadt. +2 [ICON_HOUSING] Wohnraum, wenn diese Stadt an die Küste angrenzt. +1 [ICON_TradeRoute] Handelsweg-Kapazität, wenn diese Stadt noch nicht über ein Marktgebäude verfügt.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Bonus [ICON_Production] Produktion in Höhe des Nachbarschaftsbonus dieses Hafen-Bezirks. +1 [ICON_PRODUCTION] Produktion auf allen Fischerboot-Verbesserungen in dieser Stadt. +6 [ICON_GOLD] Gold für internationale [ICON_TradeRoute] Handelswege aus dieser Stadt.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="de_DE">
+			<Text> +2 [ICON_GOLD] Gold auf allen Küsten-Geländefeldern dieser Stadt. Zusätzlich +2 [ICON_GOLD] Gold auf allen verbesserten Küstenressourcen-Geländefeldern dieser Stadt.</Text>
+		</Replace>	
+
+		<!-- VANILLA WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet jedes Mal eine weitere Marineeinheit, wenn Ihr eine Marineeinheit ausbildet. Muss an der Küste und neben einem Hafenviertel-Bezirk mit einem Arsenal-Gebäude gebaut werden.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="de_DE">
+			<Text>Muss an der Küste und neben Land oder einem Hafenviertel-Bezirk gebaut werden.</Text>
+		</Replace>	
+
+		<!-- VANILLA POICIES -->
+
+		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_EXPANSION1_DESCRIPTION" Language="de_DE">
+			<Text>Militärakademien, Marineakademien und Renaissance-Mauern generieren +2 [ICON_Science] Wissenschaft.</Text>
+		</Replace>	
+
+		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_XP2" Language="de_DE">
+			<Text>+2 [ICON_Culture] Kultur und +4 [ICON_Gold] Gold durch jedes Forschungslabor, Militärakademie, Marineakademie, Kohlekraftwerk, Ölkraftwerk und Atomkraftwerk.</Text>
+		</Replace>	
+
+	</LocalizedText>
+</GameData>
+

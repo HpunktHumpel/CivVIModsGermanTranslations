@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- IRONWORKS -->
+
+		<Replace Tag="LOC_NAT_WONDER_CL_IRONWORKS_NAME" Language="de_DE">
+			<Text>Eisenhütte</Text>
+		</Replace>
+
+			<Replace Tag="LOC_NAT_WONDER_CL_IRONWORKS_QUOTE" Language="de_DE">
+				<Text>"Warten Sie mit dem Schlagen nicht, bis das Eisen heiß ist, sondern machen Sie es heiß, indem Sie es schlagen."[NEWLINE]– William Butler Yeats</Text>
+			</Replace>
+
+			<Replace Tag="LOC_NAT_WONDER_CL_IRONWORKS_DESCRIPTION" Language="de_DE">
+				<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden. Für die Freischaltung werden mindestens 6 verbesserte strategische Ressourcen in Ihrem Reich benötigt.[NEWLINE][NEWLINE]Jede verbesserte strategische Ressource innerhalb von 4 Feldern dieses Nationalen Wunders bietet +3 [ICON_PRODUCTION] Produktion und +1 [ICON_SCIENCE] Wissenschaft in Städten mit einer Eisenhütte.[NEWLINE]Muss neben einem Industriegebiet-Bezirk gebaut werden.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_NAT_WONDER_CL_IRONWORKS_DESCRIPTION_INTERNAL" Language="de_DE">
+					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung werden mindestens 6 verbesserte strategische Ressourcen in Ihrem Reich benötigt.[ENDCOLOR][NEWLINE][NEWLINE]Jede verbesserte strategische Ressource innerhalb von 4 Feldern dieses Nationalen Wunders bietet +3 [ICON_PRODUCTION] Produktion und +1 [ICON_SCIENCE] Wissenschaft in Städten mit einer Eisenhütte.[NEWLINE]Muss neben einem Industriegebiet-Bezirk gebaut werden.</Text>
+				</Replace>		
+
+					<Replace Tag="LOC_PEDIA_NAT_WONDER_CL_IRONWORKS_1" Language="de_DE">
+						<Text>Eine Eisenhütte ist eine Einrichtung, in der Eisenerz gereinigt und zu Eisen oder Stahl verarbeitet wird. Der Prozess beginnt damit, dass das Rohmaterial extrem hoher Hitze ausgesetzt wird und führt - nach eventuellem Einmischen anderer Materialien - zu einer Form von gereinigtem Eisen oder Stahl. Die ersten Nachweise für die Eisenerzverhüttung kennt man aus der Zeit von zirka 2000–1500 v. Chr. . Eisenhütten sind in der Regel gefährliche Orte und sie erfordern harte, hoch qualifizierte und mutige Arbeiter.</Text>
+					</Replace>
+
+		<!-- FINANCIAL CENTER -->
+
+		<Replace Tag="LOC_NAT_WON_CL_FINANCE_NAME" Language="de_DE">
+			<Text>Finanzzentrum</Text>
+		</Replace>
+
+			<Replace Tag="LOC_NAT_WON_CL_FINANCE_QUOTE" Language="de_DE">
+				<Text>"Ich bin gegen Millionäre, aber es wäre gefährlich, mir die Position anzubieten."[NEWLINE]– Mark Twain</Text>
+			</Replace>
+
+			<Replace Tag="LOC_NAT_WON_CL_FINANCE_DESCRIPTION" Language="de_DE">
+				<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden. Für die Freischaltung müssen Sie mindestens 8 Händlereinheiten besitzen.[NEWLINE][NEWLINE]Internationale [ICON_TRADEROUTE] Handelswege aus dieser Stadt erhalten +1 [ICON_GOLD] Gold für jedes Bankgebäude und +2 [ICON_GOLD] Gold für jedes Börsengebäude in Ihrem Reich. Bietet angrenzenden Handelszentrum-Bezirken +100% Nachbarschaftsbonus.[NEWLINE]Muss neben einem Handelszentrum-Bezirk gebaut werden.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_NAT_WON_CL_FINANCE_DESCRIPTION_INTERNAL" Language="de_DE">
+					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung müssen Sie mindestens 8 Händlereinheiten besitzen.[ENDCOLOR][NEWLINE][NEWLINE]Internationale [ICON_TRADEROUTE] Handelswege aus dieser Stadt erhalten +1 [ICON_GOLD] Gold für jedes Bankgebäude und +2 [ICON_GOLD] Gold für jedes Börsengebäude in Ihrem Reich. Bietet angrenzenden Handelszentrum-Bezirken +100% Nachbarschaftsbonus.[NEWLINE]Muss neben einem Handelszentrum-Bezirk gebaut werden.</Text>
+				</Replace>		
+
+					<Replace Tag="LOC_PEDIA_NAT_WON_CL_FINANCE_1" Language="de_DE">
+						<Text>Ein Finanzplatz oder Finanzzentrum ist ein Standort mit einer Ansammlung von Banken, Vermögensverwaltern, Versicherungen und unterstützenden Dienstleistern für deren Aktivitäten. Zu den Teilnehmern können Finanzintermediäre wie Banken und Broker gehören, institutionelle Anleger wie Investmentmanager, Versicherer und Hedgefonds sowie Emittenten wie Unternehmen und Regierungen. Handelsaktivitäten können an Handelsplätzen wie Finanzzentren stattfinden und Clearinghäuser einbeziehen, um den Austausch von Zahlungen, Wertpapieren und Derivatetransaktionen zwischen den Teilnehmern zu überwachen.</Text>
+					</Replace>					
+
+					<Replace Tag="LOC_PEDIA_NAT_WON_CL_FINANCE_2" Language="de_DE">
+						<Text>Der Internationale Währungsfond unterteilt die großen Finanzplätze in internationale Finanzzentren wie New York City oder London, regionale Finanzzentren wie Shanghai oder Frankfurt sowie Offshore-Finanzzentren, die sich eher auf steuergetriebene Dienstleistungen spezialisieren, wie die Cayman Islands, Dublin oder Singapur. Diese Offshore-Finanzzentren sind zum Synonym für Steueroasen geworden.</Text>
+					</Replace>	
+
+		<!-- INTERNATIONAL TEREMINAL -->
+
+		<Replace Tag="LOC_NAT_WON_CL_AIRPORT_NAME" Language="de_DE">
+			<Text>Internationales Terminal</Text>
+		</Replace>
+
+			<Replace Tag="LOC_NAT_WON_CL_AIRPORT_QUOTE" Language="de_DE">
+				<Text>"Es kann kaum ein Zufall sein, dass keine Sprache der Welt jemals den Ausdruck 'So hübsch wie ein Flughafen' hervorgebracht hat."[NEWLINE]– Douglas Adams</Text>
+			</Replace>
+
+			<Replace Tag="LOC_NAT_WON_CL_AIRPORT_DESCRIPTION" Language="de_DE">
+				<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden. Für die Freischaltung müssen Sie mindestens 3 Flughafengebäude gebaut haben.[NEWLINE][NEWLINE]Jedes Flughafengebäude bietet zusätzlich +4 [ICON_PRODUCTION] Produktion für alle Flughafengebäude in Ihrem Reich. Flugplatz-Bezirke, die an das Internationale Terminal angrenzen, erhalten +2 Lufteinheit-Plätze. +100% [ICON_TOURISM] Tourismus durch Wunder für je 10 [ICON_CITIZEN] Einwohner in dieser Stadt (maximal +400%).[NEWLINE]Muss auf Flachland neben einem Flugplatz-Bezirk gebaut werden.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_NAT_WON_CL_AIRPORT_DESCRIPTION_INTERNAL" Language="de_DE">
+					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung müssen Sie mindestens 3 Flughafengebäude gebaut haben.[ENDCOLOR][NEWLINE][NEWLINE]Jedes Flughafengebäude bietet zusätzlich +4 [ICON_PRODUCTION] Produktion zu allen Flughafengebäuden in Ihrem Reich. Flugplatz-Bezirke, die an das Internationale Terminal angrenzen, erhalten +2 Lufteinheit-Plätze. +100% [ICON_TOURISM] Tourismus durch Wunder für je 10 [ICON_CITIZEN] Einwohner in dieser Stadt (maximal +400%).[NEWLINE]Muss auf Flachland neben einem Flugplatz-Bezirk gebaut werden.</Text>
+				</Replace>		
+
+					<Replace Tag="LOC_PEDIA_NAT_WON_CL_AIRPORT_1" Language="de_DE">
+						<Text>Ein internationales Terminal ist ein Abschnitt eines Flughafens mit Zoll- und Grenzkontrolleinrichtungen, der es Passagieren ermöglicht, zwischen Ländern zu reisen. Flughäfen mit internationalen Terminals sind in der Regel größer als reine Inlandsflughäfen und verfügen oft über längere Start- und Landebahnen und Einrichtungen, um die schwereren Flugzeuge aufzunehmen, die üblicherweise für internationale und interkontinentale Reisen verwendet werden.</Text>
+					</Replace>					
+
+					<Replace Tag="LOC_PEDIA_NAT_WON_CL_AIRPORT_2" Language="de_DE">
+						<Text>Im Jahr 1919 war der Hounslow Heath Aerodrome in London der erste Flughafen der Welt, der internationale Linienflüge abhielt. In den vielen Jahrzehnten seitdem sind Flughäfen mit internationalen Flügen in den meisten Großstädten alltäglich geworden. Derzeit befindet sich das größte internationale Terminal im neuen internationalen Flughafen Daxing in Peking und ist über 7,5 Millionen Quadratfuß groß, was 98 Fußballfeldern entspricht!</Text>
+					</Replace>					
+
+	</LocalizedText>
+</GameData>
+

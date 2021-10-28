@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_NAME" Language="de_DE">
+			<Text>Arecibo-Observatorium</Text>
+		</Replace>
+
+			<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_DESCRIPTION" Language="de_DE">
+				<Text>Berg-Geländefelder bieten Campus-Bezirken in allen Städten einen zusätzlichen Standard-Nachbarschaftsbonus. Gewährt 1 zufällig gewählte kostenlose Technologie. Löst für jedes abgeschlossene Weltraumrennen-Projekt ein [ICON_Techboosted] Heureka für eine zufällige Technologie aus.[NEWLINE]Muss auf Regenwald gebaut werden.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_QUOTE" Language="de_DE">
+					<Text>"Wenn Arecibo auf nichts anderes hört, hört es die Stimme der Schöpfung."[NEWLINE]–Ted Chiang</Text>
+				</Replace>		
+
+			<Replace Tag="LOC_ARECIBO_MOUNTAINS_SCIENCE" Language="de_DE">
+				<Text>+{1_num} [ICON_Science] Wissenschaft durch jedes angrenzende Berg-Geländefeld. {1_Num : plural 1?tile; other?tiles;}. (Arecibo-Observatorium)</Text>
+			</Replace>	
+
+	</LocalizedText>
+</GameData>
+

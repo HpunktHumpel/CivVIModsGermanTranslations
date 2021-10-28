@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+			<Replace Tag="LOC_WON_CL_EMPIRE_STATES_NAME" Language="de_DE">
+				<Text>Empire State Building</Text>
+			</Replace>		
+
+				<Replace Tag="LOC_WON_CL_EMPIRE_STATES_DESCRIPTION" Language="de_DE">
+					<Text>+20% [ICON_GOLD] Gold in dieser Stadt, +6 [ICON_GOLD] Gold für jedes Wunder in dieser Stadt und +50% [ICON_Tourism] Tourismus.[NEWLINE]Muss auf Flachland neben dem Stadtzentrum gebaut werden.</Text>
+				</Replace>	
+
+					<Replace Tag="LOC_WON_CL_EMPIRE_STATES_QUOTE" Language="de_DE">
+						<Text>"Wenn ich in New York bin, schaue ich mir das Empire State Building an und habe das Gefühl, es gehört mir ... oder ist es umgekehrt?"[NEWLINE]-Fay Wray</Text>
+					</Replace>	
+
+	</LocalizedText>
+</GameData>
+

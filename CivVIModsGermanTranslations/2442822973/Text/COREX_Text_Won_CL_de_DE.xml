@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+			<Replace Tag="LOC_CL_BUILDING_CN_TOWER_DESCRIPTION" Language="de_DE">
+				<Text>Städte innerhalb von 6 Geländefeldern erhalten +100% [ICON_Production] Produktion und +3 [ICON_Amenities] Annehmlichkeiten für Stadtgemeinden der Moderne. +3 [ICON_Citizen] Bürger in Städten mit einer Stadtgemeinde.[NEWLINE][NEWLINE]Muss neben einer Stadtgemeinde der Moderne gebaut werden.</Text>
+			</Replace>
+
+	</LocalizedText>
+</GameData>
+

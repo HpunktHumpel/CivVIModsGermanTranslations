@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+			<Replace Tag="LOC_WON_CL_KINKAKU_NAME" Language="de_DE">
+				<Text>Kinkaku-ji</Text>
+			</Replace>		
+
+				<Replace Tag="LOC_WON_CL_KINKAKU_DESCRIPTION" Language="de_DE">
+					<Text>Heilige-Stätte-Bezirke innerhalb von 6 Geländefeldern um dieses Wunder gewährt +2 [ICON_CULTURE] Kultur für angrenzende unverbesserte Felder und erhalten [ICON_TOURISM] Tourismus in Höhe der Hälfte ihres [ICON_FAITH] Glauben-Nachbarschaftsbonus (sobald die Technologie Luftfahrt erforscht wurde). [ICON_CULTURE] Kultur und [ICON_TOURISM] Tourismus Boni werden auf Feldern mit atemberaubender Anziehungskraft verdoppelt.[NEWLINE]Muss auf einem See-Geländefeld neben Land gebaut sein.</Text>
+				</Replace>	
+
+					<Replace Tag="LOC_WON_CL_KINKAKU_QUOTE" Language="de_DE">
+						<Text>"Der kleinste Teil des Tempels stimmte perfekt mit der gesamten komplexen Struktur überein. Es war, als würde man ein paar Musiknoten hören und einem die ganze Komposition durch den Kopf fließen lassen: welchen Teil des Goldenen Tempels ich auch aussuchen mochte, das ganze Gebäude hallte in mir wider."[NEWLINE]-Yukio Mishima</Text>
+					</Replace>	
+
+	</LocalizedText>
+</GameData>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_CL_BUILDING_CN_TOWER_NAME" Language="de_DE">
+			<Text>CN Tower</Text>
+		</Replace>
+
+			<Replace Tag="LOC_CL_BUILDING_CN_TOWER_DESCRIPTION" Language="de_DE">
+				<Text>Gewährt ein Sendezentrum in jeder Stadt mit einem Museum. Gebäude im Unterhaltungskomplex-Bezirk erhalten +4 Verbreitung und +2 [ICON_CULTURE] Kultur für regionale Effekte in dieser Stadt.[NEWLINE]Muss auf flachem Land neben einem Unterhaltungskomplex-Bezirk gebaut werden.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_CL_BUILDING_CN_TOWER_QUOTE" Language="de_DE">
+					<Text>"Nichts verbreitet sich schneller als das Licht, mit Ausnahme von schlechten Nachrichten, die ihren eigenen Sonderregeln gehorchen."[NEWLINE]–Douglas Adams</Text>
+				</Replace>	
+
+	</LocalizedText>
+</GameData>
+
