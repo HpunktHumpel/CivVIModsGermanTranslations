@@ -1,17 +1,15 @@
 # CivVIModsGermanTranslations
- Civilization VI Mods - German translations
+> Civilization VI Mods - German translations
 
  Deutsche Übersetzungen für diverse Civilization VI Mods.
 
- ## Übersetze Mods
+ ## Übersetzte Mods
 
  Folgende Mods von **Albro** wurden übersetzt:
 
  - CIVILIZATION VI: NATIONAL WONDERS (vom 10. Juli 2021 um 19:10)
  - National Wonders: Expansion Pack 1 (vom 27. Sep. 2021 um 0:22)
-
  - More Maritime: Seaside Sectors (vom 27. Sep. 2021 um 15:25)
-
  - CIVILIZATION VI: ARECIBO OBSERVATORY (vom 5. Juli 2021 um 19:37)
  - CIVILIZATION VI: CN Tower (vom 1. Apr. 2021 um 18:08)
  - CIVILIZATION VI: EMPIRE STATE BUILDING (vom 4. Feb. 2021 um 18:54)
