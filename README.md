@@ -1,7 +1,8 @@
 # CivVIModsGermanTranslations
 > Civilization VI Mods - German translations
 
-| Deutsche Übersetzungen für diverse Civilization VI Mods. | ![Logo](CivVIModsGermanTranslations_logo_small.png) |
+![Logo](CivVIModsGermanTranslations_logo_small.png)
+Deutsche Übersetzungen für diverse Civilization VI Mods.
 
 ## Übersetzte Mods
 
