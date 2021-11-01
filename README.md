@@ -24,7 +24,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 ## Installation
 
 ### Steam Workshop
-Die einfachste Möglichkeit dieses Mod in der letzten veröffentlichten Version zu installieren ist über die Steam Workshop Seite (Link folgt).
+Die einfachste Möglichkeit dieses Mod in der letzten veröffentlichten Version zu installieren ist über die Steam Workshop Seite: https://steamcommunity.com/sharedfiles/filedetails/?id=2640245490 .
 
 ### Manuelle Installation
 Für die aktuellste Version kann auch hier das Respository heruntergeladen und der dort darin enthaltene Ordner "CivVIModsGermanTranslations" in den lokalen Mod-Ordner von Civ VI kopiert werden:
