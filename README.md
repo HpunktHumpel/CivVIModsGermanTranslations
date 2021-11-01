@@ -3,21 +3,24 @@
 
  Deutsche Übersetzungen für diverse Civilization VI Mods.
 
- ## Übersetzte Mods
+## Übersetzte Mods
 
- Folgende Mods von **Albro** wurden übersetzt:
+Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 
- - CIVILIZATION VI: NATIONAL WONDERS (vom 10. Juli 2021 um 19:10)
- - National Wonders: Expansion Pack 1 (vom 27. Sep. 2021 um 0:22)
- - More Maritime: Seaside Sectors (vom 27. Sep. 2021 um 15:25)
- - CIVILIZATION VI: ARECIBO OBSERVATORY (vom 5. Juli 2021 um 19:37)
- - CIVILIZATION VI: CN Tower (vom 1. Apr. 2021 um 18:08)
- - CIVILIZATION VI: EMPIRE STATE BUILDING (vom 4. Feb. 2021 um 18:54)
- - CIVILIZATION VI: KINKAKU-JI (vom 15. März 2021 um 21:14)
- - CIVILIZATION VI: ST PETERS BASILICA (vom 8. Juni 2021 um 21:54)
+- Angryr's Ancient Policies (Angryr / Junky)
+- Cannabis and Hemp (AOM / H.Humpel)
+- Civ VI Beer (AOM / H.Humpel)
+- CIVILIZATION VI: ARECIBO OBSERVATORY (Albro / H.Humpel)
+- CIVILIZATION VI: CN Tower (Albro / H.Humpel)
+- CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)
+- CIVILIZATION VI: KINKAKU-JI (Albro / H.Humpel)
+- CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)
+- CIVLIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)
+- CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)
+- More Maritime: Seaside Sectors (Albro / H.Humpel)
 
 
- ## Installation
+## Installation
 
 ### Steam Workshop
 Die einfachste Möglichkeit dieses Mod in der letzten veröffentlichten Version zu installieren ist über die Steam Workshop Seite (Link folgt).

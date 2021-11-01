@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <!--Resources-->
+        <Row Tag="LOC_RESOURCE_AOM_CANNABIS_NAME"
+             Language="de_DE">
+            <Text>Cannabis</Text>
+        </Row>
+        <Row Tag="LOC_RESOURCE_AOM_CANNABIS_DESCRIPTION"
+             Language="de_DE">
+            <Text>Luxusressource, die eine [ICON_Amenity] Annehmlichkeit bietet.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AOM_CANNABIS_CHAPTER_HISTORY_PARA_1"
+             Language="de_DE">
+            <Text>Cannabis ist eine psychoaktive Droge aus der Cannabispflanze, die für medizinische und Freizeitzwecke verwendet wird. Cannabis hat eine uralte Geschichte des rituellen und religiösen Gebrauchs, die bis ins 5. bis 2. Jahrhundert v. Chr. zurückreichen kann.</Text>
+        </Row>
+        <Row Tag="LOC_RESOURCE_AOM_HEMP_NAME"
+             Language="de_DE">
+            <Text>Hanf</Text>
+        </Row>
+        <Row Tag="LOC_RESOURCE_AOM_HEMP_DESCRIPTION"
+             Language="de_DE">
+            <Text>Strategische Ressource, die +2 [ICON_Production] Produktion bietet und die Schiffsproduktion (von der Antike bis zur Renaissance) um 20 % erhöht. Hanfplantagen bieten zusätzliche +1 [ICON_Production] Produktion und +1 [ICON_Gold] Gold (Anstelle der normalerweise bereitgestellten +2 [ICON_Gold] Gold).</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AOM_HEMP_CHAPTER_HISTORY_PARA_1"
+             Language="de_DE">
+            <Text>Hanf ist eine Varietät der Cannabis Sativa-Pflanzenart, die speziell für die industrielle Verwendung ihrer abgeleiteten Produkte angebaut wird. Sie war vor 10.000 Jahren eine der ersten Pflanzen, die zu nutzbaren Fasern versponnen wurde. Hanf wird zur Herstellung einer Vielzahl kommerzieller und industrieller Produkte verwendet, darunter Seile, Kleidung, Lebensmittel, Papier, Textilien, Kunststoffe, Isolierungen und Biokraftstoffe. Hanf hatte insbesondere in der maritimen Industrie eine wichtige Verwendung.</Text>
+        </Row>
+
+        <!--Pantheons-->
+        <!--Shaman's Visions-->
+        <Row Tag="LOC_BELIEF_AOM_SHAMANS_VISIONS_NAME"
+             Language="de_DE">
+            <Text>Schamanenvisionen</Text>
+        </Row>
+        <Row Tag="LOC_BELIEF_AOM_SHAMANS_VISIONS_DESCRIPTION"
+             Language="de_DE">
+            <Text>+3 [ICON_Faith] Glauben durch [ICON_RESOURCE_AOM_CANNABIS] Cannabisplantagen.</Text>
+        </Row>
+
+    </LocalizedText>
+</GameData>
