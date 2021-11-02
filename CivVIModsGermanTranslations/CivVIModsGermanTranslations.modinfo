@@ -32,6 +32,9 @@
     <Criteria id="UC_Aqueduct">
       <ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
     </Criteria>
+    <Criteria id="UC_Entertainment">
+      <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
+    </Criteria>
   </ActionCriteria>
   <InGameActions>
     <UpdateText id="Nat_Wonders_UpdateText_de_DE">
@@ -89,6 +92,15 @@
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_Entertainment_de_DE">
+      <Criteria>UC_Entertainment</Criteria>
+      <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
+      <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
+      <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Default_de_DE.sql</File>
+      <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+      <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
+      <File>2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_de_DE.sql</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
@@ -104,6 +116,12 @@
     <File>2384183359/Text/CL_EMPIRE_Text_de_DE.xml</File>
     <File>2442822973/Text/COREX_Text_Won_CL_de_DE.xml</File>
     <File>2442822973/Text/COREX_Text_Won_de_DE.xml</File>
+    <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
+    <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
+    <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Default_de_DE.sql</File>
+    <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
+    <File>2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_de_DE.sql</File>
     <File>2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
     <File>2511437298/Text/AL_STPETERS_TEXT_de_DE.xml</File>
     <File>2601169154/Text/Waterfront_EXP_Text_de_DE.xml</File>
