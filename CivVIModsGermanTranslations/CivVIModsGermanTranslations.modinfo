@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="2">
   <Properties>
     <Name>Civilization VI Mods - German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVLIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel) [NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE]</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn)[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE]</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1635639225</Created>
+    <Created>1635983160</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>Angryr, Albro and AOM for their original Mods.[NEWLINE]Junky for the translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Angryr, Albro, AOM, Deliverator23 and JNR for their original Mods.[NEWLINE]Gorowynn and Junky for the translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -29,14 +29,17 @@
     <Criteria id="CityLights">
       <ModInUse>95b955fc-2dd1-41c5-989e-0265d98a28bd</ModInUse>
     </Criteria>
+    <Criteria id="Herdsman">
+      <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
+    </Criteria>
     <Criteria id="UC_Aqueduct">
       <ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
     </Criteria>
-    <Criteria id="UC_Entertainment">
-      <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
-    </Criteria>
     <Criteria id="UC_Campus">
       <ModInUse>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModInUse>
+    </Criteria>
+    <Criteria id="UC_Entertainment">
+      <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
     </Criteria>
   </ActionCriteria>
   <InGameActions>
@@ -109,29 +112,34 @@
       <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
       <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="Herdsman_de_DE">
+      <Criteria>Herdsman</Criteria>
+      <File>1564497864/Herdsman_Text_de_DE.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
     <File>1302739491/Text_de_DE.sql</File>
     <File>1302739491/Text_de_DE.xml</File>
-    <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+    <File>1564497864/Herdsman_Text_de_DE.xml</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
+    <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
-    <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Default_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
+    <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
     <File>2384183359/Text/CL_EMPIRE_Text_de_DE.xml</File>
     <File>2442822973/Text/COREX_Text_Won_CL_de_DE.xml</File>
     <File>2442822973/Text/COREX_Text_Won_de_DE.xml</File>
-    <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
-    <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Default_de_DE.sql</File>
     <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia_de_DE.sql</File>
     <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
     <File>2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_de_DE.sql</File>
+    <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
+    <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     <File>2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
     <File>2511437298/Text/AL_STPETERS_TEXT_de_DE.xml</File>
     <File>2601169154/Text/Waterfront_EXP_Text_de_DE.xml</File>
