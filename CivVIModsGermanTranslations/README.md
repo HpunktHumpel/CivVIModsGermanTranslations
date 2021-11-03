@@ -5,6 +5,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer
 902897696  | Angryr's Ancient Policies | Angryr | Junky
 1156692726 | Civ VI Beer | AOM | H.Humpel
 1302739491 | Cannabis and Hemp | AOM | H.Humpel
+2112359835 | District Expansion: Campus | JNR | Gorowynn 
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn
@@ -14,4 +15,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel
-2612473657 | CIVLIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel
+2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel

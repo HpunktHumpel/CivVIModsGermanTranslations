@@ -19,8 +19,8 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)
 - CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)
 - District Expansion: Aqueduct (JNR / Gorowynn)
-- District Expansion: Entertainment (JNR / Gorowynn)
 - District Expansion: Campus (JNR / Gorowynn)
+- District Expansion: Entertainment (JNR / Gorowynn)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
 
 
@@ -40,3 +40,13 @@ Linux : ~/.local/share/aspyr-media/Sid Meier's Civilization VI/Mods
 
 ## Weitere Pläne
 Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier integriert werden. Aktuelle Kandidaten sind die Mods der "Urban Complexity"-Reihe. Vorschläge jederzeit willkommen.
+
+## Danksagungen
+
+Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
+
+- A CityMaker, Albro, Angryr, AOM, Deliverator 23 & JNR
+
+Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
+
+- Gorowynn & Junky
