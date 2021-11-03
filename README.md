@@ -16,10 +16,11 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - CIVILIZATION VI: EMPIRE STATE BUILDING (Albro & A CityMaker / H.Humpel)
 - CIVILIZATION VI: KINKAKU-JI (Albro & Deliverator23 / H.Humpel)
 - CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)
-- CIVLIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)
+- CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)
 - CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)
 - District Expansion: Aqueduct (JNR / Gorowynn)
 - District Expansion: Entertainment (JNR / Gorowynn)
+- District Expansion: Campus (JNR / Gorowynn)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
 
 
