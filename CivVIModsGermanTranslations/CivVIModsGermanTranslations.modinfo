@@ -35,6 +35,9 @@
     <Criteria id="UC_Entertainment">
       <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
     </Criteria>
+    <Criteria id="UC_Campus">
+      <ModInUse>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModInUse>
+    </Criteria>
   </ActionCriteria>
   <InGameActions>
     <UpdateText id="Nat_Wonders_UpdateText_de_DE">
@@ -101,11 +104,18 @@
       <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
       <File>2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_Campus_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+      <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
     <File>1302739491/Text_de_DE.sql</File>
     <File>1302739491/Text_de_DE.xml</File>
+    <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+    <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
     <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
