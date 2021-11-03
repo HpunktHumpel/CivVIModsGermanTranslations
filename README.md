@@ -21,6 +21,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - District Expansion: Aqueduct (JNR / Gorowynn)
 - District Expansion: Campus (JNR / Gorowynn)
 - District Expansion: Entertainment (JNR / Gorowynn)
+- Herdsman (AOM / H.Humpel)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
 
 
