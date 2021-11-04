@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_UNIT_BOTANIST_NAME"
+             Language="de_DE">
+            <Text>Botaniker</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_BOTANIST_DESCRIPTION"
+             Language="de_DE">
+            <Text>Kann Samen sammeln und diese in Eurer Stadt anpflanzen.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BOTANIST_CHAPTER_HISTORY_PARA_1"
+             Language="de_DE">
+            <Text>Ein Botaniker ist ein Individuum, das sich mit der Wissenschaft des Pflanzenlebens beschäftigt. Die Botanik entstand in der Vorgeschichte mit der Identifizierung von essbaren, medizinischen und giftigen Pflanzen. Es folgte eine verbesserte Pflanzenzucht. Es ist einer der ältesten Zweige der Wissenschaft und das botanische Wissen reicht mehr als 10.000 Jahren zurück. Frühe botanische Texte stammen aus der Zeit vor 1100 v.Chr. Die moderne Botanik geht auf Theophrastos von Eresos (ca. 371-287 v. Chr.) zurück, der die "Naturgeschichte der Gewächse" schrieb und weithin als der Vater der Botanik gilt. Auch mittelalterliche muslimische Schriftsteller leisteten wichtige Beiträge zur Botanik.</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_GATHER_PLANT_NAME"
+             Language="de_DE">
+            <Text>Pflanze einsammeln</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_GATHER_PLANT_DESCRIPTION"
+             Language="de_DE">
+            <Text>Ermöglicht dem Botaniker das Sammeln von Samen und Zwiebeln.</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_SCHOOL_OF_BOTANY_NAME"
+             Language="de_DE">
+            <Text>Botanische Schule</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_SCHOOL_OF_BOTANY_DESCRIPTION"
+             Language="de_DE">
+            <Text>Botanische Schule</Text>
+        </Row>
+    </LocalizedText>
+</GameData>
