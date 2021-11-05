@@ -24,6 +24,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - District Expansion: Entertainment (JNR / Gorowynn)
 - Herdsman (AOM / H.Humpel)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
+- National Projects: Satellites (JNR / H.Humpel)
 - Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact / H.Humpel)
 
 
