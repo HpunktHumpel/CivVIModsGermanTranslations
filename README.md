@@ -24,6 +24,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - District Expansion: Entertainment (JNR / Gorowynn)
 - Herdsman (AOM / H.Humpel)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
+- Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact / H.Humpel)
 
 
 ## Installation
@@ -47,7 +48,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Deliverator23 & JNR
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, Deliverator23, JNR, Leugi & sukritact
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

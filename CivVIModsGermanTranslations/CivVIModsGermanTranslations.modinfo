@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="3">
   <Properties>
     <Name>Civilization VI Mods - German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn)[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE]</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn)[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE]</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1636064144</Created>
+    <Created>1636071884</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Angryr, Albro, AOM, Deliverator23 and JNR for their original Mods.[NEWLINE]Gorowynn and Junky for the translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Angryr, Albro, AOM, Deliverator23, Captain Lime, JNR, Leugi and sukritact for their original Mods.[NEWLINE]Gorowynn and Junky for the translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -34,6 +34,9 @@
     </Criteria>
     <Criteria id="Herdsman">
       <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
+    </Criteria>
+    <Criteria id="PortLime-BridgeDistricts">
+      <ModInUse>ccf5951c-1090-4241-8c14-13ab6de30300</ModInUse>
     </Criteria>
     <Criteria id="UC_Aqueduct">
       <ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
@@ -124,6 +127,10 @@
       <File>1588097397/Botanist_Text_de_DE.sql</File>
       <File>1588097397/Botanist_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="PortLime-BridgeDistricts_de_DE">
+      <Criteria>PortLime-BridgeDistricts</Criteria>
+      <File>2331527458/code/Lime Bridges - Text_de_DE.sql</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
@@ -136,6 +143,7 @@
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
+    <File>2331527458/code/Lime Bridges - Text_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Default_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
