@@ -22,6 +22,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - District Expansion: Aqueduct (JNR / Gorowynn)
 - District Expansion: Campus (JNR / Gorowynn)
 - District Expansion: Entertainment (JNR / Gorowynn)
+- Diversity City Center Buildings (D & cyj / H.Humpel)
 - Herdsman (AOM / H.Humpel)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
 - National Projects: Satellites (JNR / H.Humpel)
@@ -49,7 +50,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, Deliverator23, JNR, Leugi & sukritact
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi & sukritact
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

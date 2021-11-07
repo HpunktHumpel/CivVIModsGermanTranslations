@@ -18,5 +18,6 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel
+2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel
