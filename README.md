@@ -10,6 +10,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 
 - Angryr's Ancient Policies (Angryr / Junky)
 - Botanist (AOM / H.Humpel)
+- Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)
 - Cannabis and Hemp (AOM / H.Humpel)
 - Civ VI Beer (AOM / H.Humpel)
 - CIVILIZATION VI: ARECIBO OBSERVATORY (Albro & Deliverator23 / H.Humpel)
@@ -27,6 +28,8 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
 - National Projects: Satellites (JNR / H.Humpel)
 - Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact / H.Humpel)
+- Renewable Energy Complexity (JNR / Junky)
+- Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)
 
 
 ## Installation

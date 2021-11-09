@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_BUILDING_BRANDENBURG_GATE_NAME" Language="de_DE">
+            <Text>Brandenburger Tor</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_BRANDENBURG_GATE_DESCRIPTION" Language="de_DE">
+            <Text>+25% Kampferfahrung für alle Landeinheiten, die in dieser Stadt ausgebildet werden. 1 freier Großer General erscheint (falls verfügbar). +3 Loyalität pro Runde für Städte mit Garnisons-Einheit (nur Erweiterungen).[NEWLINE]Benötigt eine Militärakademie in dieser Stadt.[NEWLINE]Muss auf Flachland neben dem Stadtzentrum gebaut werden. Kann nicht auf Schnee gebaut werden.</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_BRANDENBURG_GATE_QUOTE" Language="de_DE">
+            <Text>"Der bleiche Tod schlägt gleichermaßen am Tor des armen Mannes wie an den Palästen der Könige." – Horaz</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BRANDENBURG_GATE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Das Brandenburger Tor ist das einzig erhaltene Stadttor Berlins. Der wunderschöne „Triumphbogen“, der 1788-91 im griechischen Stil erbaut wurde, verfügt über viele Säulen und wird von der Quadriga, einer Statue eines von vier Pferden gezogenen Wagens, überragt. Es steht am Ende der Allee „Unter den Linden“.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BRANDENBURG_GATE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+            <Text>Nach dem Zweiten Weltkrieg wurde Berlin zwischen dem von der Sowjetunion kontrollierten Teil und dem von den Vereinigten Staaten und ihren Verbündeten kontrollierten Teil aufgeteilt. Im Jahre 1961 wurde von den Sowjets die Berliner Mauer gebaut, um die beiden Teile der Stadt getrennt zu halten. Das Brandenburger Tor befand sich genau zwischen den beiden Fraktionen in einer Art „Niemandsland“, und von 1961 bis 1989 hatte keine Seite Zugang. Im Zuge der Wiedervereinigung Berlins und Deutschlands wurde das Tor 1989 wiedereröffnet.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BRANDENBURG_GATE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+            <Text>Heute steht es als stolzes Symbol der wiedervereinigten Stadt und des vereinten Landes und wird von Zehntausenden Touristen aus Ost und West besucht.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

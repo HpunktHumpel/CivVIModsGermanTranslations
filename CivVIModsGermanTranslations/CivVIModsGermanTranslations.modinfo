@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="3">
+<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="4">
   <Properties>
     <Name>Civilization VI Mods - German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn[NEWLINE] * Diversity City Center Buildings (D &amp; cyj / H.Humpel))[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * National Projects: Satellites (JNR / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE]</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn[NEWLINE] * Diversity City Center Buildings (D &amp; cyj / H.Humpel))[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * National Projects: Satellites (JNR / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE] * Renewable Energy Complexity (JNR / Junky)[NEWLINE] * Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE]</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1636304563</Created>
+    <Created>1636464758</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi and sukritact for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -27,6 +27,9 @@
     <Criteria id="Botanist">
       <ModInUse>f55f5cf1-2743-44db-b764-37e4d62ce851</ModInUse>
     </Criteria>
+    <Criteria id="BrandenburgGate">
+      <ModInUse>aab33283-4b8f-46a4-83c0-784a8bfa177e</ModInUse>
+    </Criteria>
     <Criteria id="CannabisAndHemp">
       <ModInUse>5a76eed0-18c0-4496-9944-f6f0f0e2553d</ModInUse>
     </Criteria>
@@ -42,8 +45,20 @@
     <Criteria id="Herdsman">
       <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
     </Criteria>
+    <Criteria id="MoreMaritime">
+      <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
+    </Criteria>
+    <Criteria id="NationalWonders">
+      <ModInUse>8719d97f-0db4-4c18-9863-82eb9b0c6175</ModInUse>
+    </Criteria>
+    <Criteria id="NationalWonders_EXP1">
+      <ModInUse>0fe4104b-80e1-434a-88fc-914ce2632944</ModInUse>
+    </Criteria>
     <Criteria id="PortLime-BridgeDistricts">
       <ModInUse>ccf5951c-1090-4241-8c14-13ab6de30300</ModInUse>
+    </Criteria>
+    <Criteria id="TowerBridge">
+      <ModInUse>1cfe2a52-233b-4d4c-8bdf-209ec10352c1</ModInUse>
     </Criteria>
     <Criteria id="UC_Aqueduct">
       <ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
@@ -54,18 +69,24 @@
     <Criteria id="UC_Entertainment">
       <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
     </Criteria>
+    <Criteria id="UC_RenewableEnergy">
+      <ModInUse>95f89921-a4be-4cce-841d-a6a67b48a0f8</ModInUse>
+    </Criteria>
     <Criteria id="UC_Satellites">
       <ModInUse>5b24d366-7522-4a6b-806a-b5869ef2377b</ModInUse>
     </Criteria>
   </ActionCriteria>
   <InGameActions>
     <UpdateText id="Nat_Wonders_UpdateText_de_DE">
+      <Criteria>NationalWonders</Criteria>
       <File priority="250">2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="NatWonders_EXP1_UpdateText_de_DE">
+      <Criteria>NationalWonders_EXP1</Criteria>
       <File priority="250">2612473657/Text/NAT_WONDER_Text_PACK_01_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="WTR_UpdateText_de_DE">
+      <Criteria>MoreMaritime</Criteria>
       <File priority="250">2601169154/Text/Waterfront_EXP_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="AL_STPETERSBASILICA_UpdateText_de_DE">
@@ -152,6 +173,18 @@
       </Properties>
       <File>2546679477/Texts_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_RenewableEnergy_de_DE">
+      <Criteria>UC_RenewableEnergy</Criteria>
+      <File>1660936201/Text/CB_REC_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="BrandenburgGate_de_DE">
+      <Criteria>BrandenburgGate</Criteria>
+      <File>1894176600/Text/Brandenburg_Gate_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="TowerBridge_de_DE">
+      <Criteria>TowerBridge</Criteria>
+      <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
@@ -160,7 +193,10 @@
     <File>1564497864/Herdsman_Text_de_DE.xml</File>
     <File>1588097397/Botanist_Text_de_DE.sql</File>
     <File>1588097397/Botanist_Text_de_DE.xml</File>
+    <File>1660936201/Text/CB_REC_Text_de_DE.sql</File>
+    <File>1894176600/Text/Brandenburg_Gate_Text_de_DE.xml</File>
     <File>1901462404/Text/UC_SAT_Text_de_DE.sql</File>
+    <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>

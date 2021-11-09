@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_BUILDING_TOWER_BRIDGE_NAME" Language="de_DE">
+            <Text>Tower Bridge</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_TOWER_BRIDGE_DESCRIPTION" Language="de_DE">
+            <Text>+8% [ICON_Production] Produktion in Städten auf dem Kontinent Eurer ursprünglichen Hauptstadt und +8% [ICON_Gold] Gold in Städten, nicht auf dem Kontinent Eurer ursprünglichen Hauptstadt. Verleiht +3 [ICON_Resource_Coal] Kohle pro Runde.[NEWLINE]Landeinheiten können das Gewässer überqueren, ohne zu wassern. Dient als moderne Straße und baut moderne Straßen (falls nicht vorhanden) auf Land-Geländefeldern an beiden Enden.[NEWLINE]Muss auf einem Küsten-Geländefeld gebaut werden. Die Brücke muss über das Geländefeld zwischen zwei direkt gegenüberliegenden Land-Geländefeldern führen. Links und rechts der Brücke muss jeweils mindestens ein Wasser-Geländefeld liegen. Kann nicht auf einem See gebaut werden.</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_TOWER_BRIDGE_QUOTE" Language="de_DE">
+            <Text>"Die Staatsmänner, die bauen, und die Krieger, die Erfolg haben, werden nur vom Machtinstinkt beeinflußt und von der Liebe zum Land beseelt. Das sind die Gefühle und das sind die Methoden, die Imperien bilden." - Benjamin Disraeli</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TOWER_BRIDGE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Die Tower Bridge ist eine kombinierte Klapp- und Hängebrücke in London, die zwischen 1886 und 1894 erbaut wurde. Die Brücke überquert die Themse in der Nähe des Tower of London und ist zu einem Wahrzeichen Londons geworden. Aus diesem Grund wird die Tower Bridge manchmal mit der London Bridge verwechselt, die sich etwa 800 Meter flussaufwärts befindet. Die Tower Bridge ist eine von fünf Londoner Brücken, die heute im Besitz der Bridge House Estates sind, einer gemeinnützigen Stiftung unter der Aufsicht der City of London Corporation. Sie ist die einzige Brücke des Trusts, die die City of London nicht direkt mit dem Southwark-Ufer verbindet, da sich ihr nördlicher Anlandungspunkt in Tower Hamlets befindet.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TOWER_BRIDGE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+            <Text>Die Brücke besteht aus zwei Brückentürmen, die auf der oberen Ebene durch zwei horizontale Laufstege miteinander verbunden sind, um den horizontalen Zugkräften standzuhalten, die von den hängenden Brückenteilen an den landseitigen Seiten der Türme ausgeübt werden. Die vertikalen Komponenten der Kräfte in den hängenden Abschnitten und die vertikalen Auflagerkräfte der beiden Laufstege werden von den beiden robusten Türmen getragen. Im Sockel jedes Turms sind die Klappgelenke und die Bedienmaschinerie untergebracht. Vor ihrer Restaurierung in den 2010er Jahren stammte das Farbschema der Brücke aus dem Jahr 1977, als sie zum Silbernen Jubiläum von Königin Elizabeth II. in Rot, Weiß und Blau gestrichen wurde. Später wurden seine Farben wieder in Blau und Weiß umgewandelt.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_TOWER_BRIDGE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+            <Text></Text>
+        </Replace>
+    </LocalizedText>
+</GameData>
