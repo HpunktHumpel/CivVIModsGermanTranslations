@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME" Language="de_DE">
+            <Text>Porzellanpagode</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION" Language="de_DE">
+            <Text>Gewährt 3 [ICON_RESOURCE_PORCELAIN] Porzellan, ein exklusiv hergestelltes Luxusgut, das jeweils +6 [ICON_AMENITIES] Annehmlichkeiten bietet.[NEWLINE]Muss auf Grasland, Ebene oder Tundra neben dem Stadtzentrum gebaut werden.</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_QUOTE" Language="de_DE">
+            <Text>"In der Mitte der Ebene steht ein hoher Kirchturm oder Turm aus Porzellan, der an Kosten und Können alle anderen Handwerkskünste der Chinesen weit übertrifft; womit die Chinesen der Welt den seltenen Einfallsreichtum ihrer Künstler in früheren Zeiten erklärt haben." - Johannes Nieuhof</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Der Porzellanturm von Nanjing wurde im 15. Jahrhundert von der Ming-Dynastie erbaut und war eine der außergewöhnlichsten architektonischen Errungenschaften der chinesischen Geschichte. Der Turm hatte einen Durchmesser von etwa 30 Metern und eine Höhe von 79 Metern.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+            <Text>Die Aussenwand des Gebäudes bestand aus weißen Porzellanziegeln, die wie Spiegel im Sonnenlicht glänzten. Nachts war der Turm von oben bis unten mit über 100 Lampen behängt. Der Turm stand bis 1854 im Zentrum von Nanjing, wo er während der Taiping-Rebellion zerstört wurde.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+            <Text></Text>
+        </Replace>
+        <Replace Tag="LOC_RESOURCE_PORCELAIN_NAME" Language="de_DE">
+            <Text>Porzellan</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Porzellan ist ein keramisches Material, das durch Erhitzen von Materialien, in der Regel einschließlich Kaolin, in einem Brennofen bei Temperaturen zwischen 1.200 und 1.400 °C hergestellt wird. Die Zähigkeit, Festigkeit und Lichtdurchlässigkeit von Porzellan im Vergleich zu anderen Keramikarten ergibt sich hauptsächlich aus der Verglasung und der Bildung des Minerals Mullit im Körper bei diesen hohen Temperaturen. Obwohl die Definitionen variieren, kann Porzellan in drei Hauptkategorien unterteilt werden: Hartporzellan, Weichporzellan und echtes Porzellan. Die Kategorie, zu der ein Objekt gehört, hängt von der Zusammensetzung der Paste, die verwendet wird, um den Körper des Porzellanobjekts herzustellen und den Brennbedingungen ab.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+            <Text>Porzellan entwickelte sich langsam in China und wurde (je nach verwendeter Definition) irgendwann vor etwa 2.000 bis 1.200 Jahren schließlich erreicht. Es verbreitete sich dann langsam in anderen ostasiatischen Ländern und schließlich in Europa und in den Rest der Welt. Ihr Herstellungsprozess ist anspruchsvoller als der von Steingut und Steinzeug, den beiden anderen Hauptarten der Keramik, und sie wird aufgrund ihrer Feinheit, Festigkeit und ihrer weißen Farbe als die prestigeträchtigste Art von Keramik angesehen. Es lässt sich sowohl mit Glasuren als auch mit Farbe gut kombinieren. Ebenso lässt es sich sehr gut modellieren, wodurch eine Vielzahl von dekorativen Ausarbeitungen in Geschirr, Gefäßen und Figuren möglich ist. Ebenso findet es auch häufig Verwendung in Technik und Industrie.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+            <Text>Der europäische Name, auf Deutschh Porzellan, leitet sich wegen seiner Ähnlichkeit mit der Oberfläche der Muschel vom altitalienischen 'porcellana' (Kaurimuschel) ab. Porzellan wird in einigen englischsprachigen Ländern auch als 'China' oder 'Fine China' bezeichnet, wie es erstmals bei Importen aus China zu sehen war. Zu den mit Porzellan verbundenen Eigenschaften gehören geringe Durchlässigkeit und Elastizität, beträchtliche Festigkeit, Härte, Zähigkeit, Weiße, Durchsichtigkeit und Resonanz, sowie eine hohe Beständigkeit gegenüber chemischen Belastungen und thermischen Schocks.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>
