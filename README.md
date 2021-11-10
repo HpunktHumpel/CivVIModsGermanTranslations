@@ -25,6 +25,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - District Expansion: Entertainment (JNR / Gorowynn)
 - Diversity City Center Buildings (D & cyj / H.Humpel)
 - Herdsman (AOM / H.Humpel)
+- Leaning Tower of Pisa (World Wonder) (Deliverator23 / H.Humpel)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)
 - National Projects: Satellites (JNR / H.Humpel)
 - Porcelain Tower (World Wonder) (Deliverator23 / H.Humpel)

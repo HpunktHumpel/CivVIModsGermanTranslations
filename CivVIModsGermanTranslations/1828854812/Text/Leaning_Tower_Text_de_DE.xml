@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_LEANING_TOWER_NAME" Language="de_DE">
+			<Text>Der Schiefe Turm von Pisa</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LEANING_TOWER_DESCRIPTION" Language="de_DE">
+			<Text>Hafenbezirke in Städten innerhalb von 6 Geländefeldern um dieses Wunder erhalten zusätzlich +1 [ICON_Gold] Gold für jeden angrenzenden Bezirk. +25 % Kampferfahrung für alle in dieser Stadt ausgebildeten Marineeinheiten. +100% [ICON_Tourism] Tourismus durch diese Stadt gegenüber anderen Zivilizationen mit Beginn der Moderne.[NEWLINE]Benötigt einen Hafenbezirk in dieser Stadt und muss auf Grasland oder Ebene neben dem Stadtzentrum gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LEANING_TOWER_QUOTE" Language="de_DE">
+			<Text>"Die Natur ist unerbittlich und unveränderlich, und es ist ihr gleichgültig, ob die verborgenen Gründe und Arten ihres Handelns dem Menschen verständlich sind oder nicht."[NEWLINE]- Galileo Galilei</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEANING_TOWER_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Der schiefe Turm von Pisa ist der Campanile (ein freistehender Glockenturm) der Kathedrale der italienischen Stadt Pisa, der weltweit für seine fast vier Grad Neigung bekannt ist, welche auf sein instabiles Fundament zurückzuführen ist. Der Turm befindet sich hinter dem Dom von Pisa und ist nach dem Dom und dem Baptisterium von Pisa das drittälteste Bauwerk auf dem Domplatz (Piazza del Duomo) der Stadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEANING_TOWER_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Der Turms begann sich schon während des Baus im 12. Jahrhundert aufgrund des weichen Bodens, der das Gewicht der Struktur nicht richtig tragen konnte, auf einer Seite zu neigen. In den Jahrzehnten vor der Fertigstellung des Bauwerks im 14. Jahrhundert nahm die Neigung weiter zu. Auch in der Folgezeit nahm die Neigung weiter zu, bis die Struktur schliesslich im späten 20. und frühen 21. Jahrhundert durch Sanierungsarbeiten stabilisiert und die Neigung teilweise korrigiert werden konnte.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEANING_TOWER_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Die Höhe des Turms beträgt an der niedrigen Seite 55,86 Meter über dem Boden, sowie 56,67 Meter an der hohen Seite. Die Breite der Wände beträgt an der Basis 2,44 Meter. Sein Gewicht wird auf 14.500 Tonnen geschätzt. Der Turm verfügt über 296 bzw. 294 Stufen: die siebte Etage verfügt auf der nach Norden ausgerichteten Treppe über zwei Stufen weniger. Im Jahre 1990 neigte sich der Turm in einem Winkel von 5,5 Grad. Nach Sanierungsarbeiten zwischen 1993 und 2001, welche etwa 200 Millionen Pfund kosteten, wurde dieser auf 3,97 Grad reduziert, wodurch der Überhang um 45 cm reduziert wurde. In den folgenden zwei Jahrzehnten bis 2018 verlor er weitere 4 cm an Neigung.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_LEANING_TOWER_CHAPTER_HISTORY_PARA_4" Language="de_DE">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LEANING_TOWER_HARBOR_DISTRICT_GOLD" Language="de_DE">
+			<Text>+{1_num} [ICON_Gold] Gold durch {1_Num : plural 1?angrenzenden Bezirk; other?angrenzende Bezirke;} (Der Schiefe Turm von Pisa).</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
