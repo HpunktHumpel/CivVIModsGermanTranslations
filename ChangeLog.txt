@@ -1,3 +1,9 @@
+10.11.2021
+
+- [NEW] Progressive Power Consumption (vom 15. Sep. um 11:26, Übersetzung von Junky)
+- [IMPROVED] Renewable Energy Complexity
+
+
 09.11.2021
 
 - [NEW] Renewable Energy Complexity (vom 23. Juli 2021 um 4:07, Übersetzung von Junky)

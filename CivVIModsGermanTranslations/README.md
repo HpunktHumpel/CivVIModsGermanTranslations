@@ -8,6 +8,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1660936201 | Renewable Energy Complexity | JNR | Junky | **NEW**
+1747105772 | Progressive Power Consumption | JNR | Junky | **NEW**
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | **NEW**
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | **NEW**
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3

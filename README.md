@@ -29,6 +29,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - National Projects: Satellites (JNR / H.Humpel)
 - Porcelain Tower (World Wonder) (Deliverator23 / H.Humpel)
 - Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact / H.Humpel)
+- Progressive Power Consumption (JNR / Junky)
 - Renewable Energy Complexity (JNR / Junky)
 - Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)
 
@@ -59,3 +60,6 @@ Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
 - Gorowynn & Junky
+
+
+Und zu guter Letzt natürlich auch Dank an alle, die diesem Mod einen Preis verliehen haben.
