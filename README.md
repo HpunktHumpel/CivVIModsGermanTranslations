@@ -24,6 +24,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - District Expansion: Campus (JNR / Gorowynn)
 - District Expansion: Entertainment (JNR / Gorowynn)
 - Diversity City Center Buildings (D & cyj / H.Humpel)
+- Globe Theatre (World Wonder) (Deliverator23 / H.Humpel)
 - Herdsman (AOM / H.Humpel)
 - Leaning Tower of Pisa (World Wonder) (Deliverator23 / H.Humpel)
 - More Maritime: Seaside Sectors (Albro / H.Humpel)

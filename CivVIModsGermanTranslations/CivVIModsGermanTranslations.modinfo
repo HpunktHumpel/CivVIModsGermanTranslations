@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="4">
   <Properties>
     <Name>Civilization VI Mods - German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn[NEWLINE] * Diversity City Center Buildings (D &amp; cyj / H.Humpel))[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * Leaning Tower of Pisa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * National Projects: Satellites (JNR / H.Humpel)[NEWLINE] * Porcelain Tower (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE] * Progressive Power Consumption (JNR / Junky)[NEWLINE] * Renewable Energy Complexity (JNR / Junky)[NEWLINE] * Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE]</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn[NEWLINE] * Diversity City Center Buildings (D &amp; cyj / H.Humpel))[NEWLINE] * Globe Theatre (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * Leaning Tower of Pisa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * National Projects: Satellites (JNR / H.Humpel)[NEWLINE] * Porcelain Tower (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE] * Progressive Power Consumption (JNR / Junky)[NEWLINE] * Renewable Energy Complexity (JNR / Junky)[NEWLINE] * Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE]</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1636566700</Created>
+    <Created>1636650902</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi and sukritact for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -41,6 +41,9 @@
     </Criteria>
     <Criteria id="HarmonyInDiversity_not_in_use">
       <ModInUse inverse="1">3e78c674-e4d8-4cb4-a62e-ea2338b7c7f9</ModInUse>
+    </Criteria>
+    <Criteria id="GlobeTheatre">
+      <ModInUse>be61704a-a0b5-45e5-b2d8-6dfc524c31c1</ModInUse>
     </Criteria>
     <Criteria id="Herdsman">
       <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
@@ -140,6 +143,10 @@
       </Properties>
       <File>2546679477/Texts_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="GlobeTheatre_de_DE">
+      <Criteria>GlobeTheatre</Criteria>
+      <File>1770688835/Text/Globe_Theatre_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="Herdsman_de_DE">
       <Criteria>Herdsman</Criteria>
       <File>1564497864/Herdsman_Text_de_DE.xml</File>
@@ -216,6 +223,7 @@
     <File>1588097397/Botanist_Text_de_DE.xml</File>
     <File>1660936201/Text/CB_REC_Text_de_DE.sql</File>
     <File>1747105772/Text/UC_PPC_Text_de_DE.sql</File>
+    <File>1770688835/Text/Globe_Theatre_Text_de_DE.xml</File>
     <File>1828854812/Text/Leaning_Tower_Text_de_DE.xml</File>
     <File>1889267110/Text/Porcelain_Tower_Text_de_DE.xml</File>
     <File>1894176600/Text/Brandenburg_Gate_Text_de_DE.xml</File>

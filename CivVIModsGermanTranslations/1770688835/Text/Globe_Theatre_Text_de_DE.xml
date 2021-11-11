@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_NAME" Language="de_DE">
+			<Text>Globe-Theater</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Amenities] Annehmlichkeiten in allen Städten mit einem Amphitheater. Bietet 2 [ICON_GreatWork_Writing] Großes-Literaturwerk-Plätze. 1 freier Großer Schriftsteller erscheint in der Nähe der Stadt (falls verfügbar).[NEWLINE]Muss auf Grasland, Ebene oder Tundra an einem Fluss gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_QUOTE" Language="de_DE">
+			<!-- Taken from Projekt Gutenberg: https://www.projekt-gutenberg.org/shakespr/hamlet-s/chap02.html -->
+			<Text>"Lieber Herr, wollt Ihr für die Bewirtung der Schauspieler sorgen? Hört Ihr, laßt sie gut behandeln, denn sie sind der Spiegel und die abgekürzte Chronik des Zeitalters. Es wäre Euch besser, nach dem Tode eine schlechte Grabschrift zu haben als üble Nachrede von ihnen, solange Ihr lebt."[NEWLINE]–Hamlet, 2.Akt, 2.Szene</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Das Globe-Theater wurde 1599 n.Chr. an der Maiden Lane in London von den Lord Chamberlain's Men erbaut, deren Gesellschafter William Shakespeare war. Es beinhaltete eine Reihe von Design-Innovationen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Im Jahr 1613 brannte das Globe-Theater bis auf die Grundmauern nieder, nachdem das Strohdach während einer Produktion von Heinrich VIII. durch Kanonenfeuer in Brand gesetzt wurde. Es wurde 1614 an derselben Stelle wieder aufgebaut und - bis zur Schließung durch die Puritaner 1642 - erneut in Betrieb genommen. Obwohl seine genauen Abmessungen nicht bekannt sind, so ist zumindest bekannt, dass das Globe-Theater ein dreistöckiges, kreisförmiges Open-Air-Amphitheater von etwa 30 Metern im Durchmesser war und Platz für etwa 300 Zuschauer bot.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Die Bühne war 13 Meter (43 Fuß) breit, 8 Meter (27 Fuß) tief und befand sich fünf Fuß über dem Boden, sodass Falltüren möglich waren.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_NAME" Language="de_DE">
+			<Text>Dante Alighieri</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_NAME" Language="de_DE">
+			<Text>John Donne</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_NAME" Language="de_DE">
+			<Text>Molière</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>John Donne (22. Januar 1572 – 31. März 1631) war ein englischer Dichter und Kleriker der Church of England. Er gilt als herausragender Vertreter der metaphysischen Dichtung.[NEWLINE]Seine Werke sind für ihren starken, sinnlichen Stil bekannt und umfassen Sonette, Liebesgedichte, religiöse Gedichte, lateinische Übersetzungen, Epigramme, Elegien, Lieder, Satiren und Predigten. Seine Poesie zeichnet sich durch ihre Lebendigkeit der Sprache und den Erfindungsreichtum der Metapher aus, insbesondere im Vergleich zu der seiner Zeitgenossen. Donnes Stil ist geprägt von abrupten Öffnungen und verschiedenen Paradoxien, Ironien und Verwerfungen. Diese Merkmale, zusammen mit seinen häufigen dramatischen oder alltäglichen Sprechrhythmen, seiner angespannten Syntax und seiner harten Eloquenz, waren sowohl eine Reaktion auf die Glätte der konventionellen elisabethanischen Poesie als auch eine Adaption europäischer barocker und manieristischer Techniken ins Englische. Seine frühes Schaffen war von Poesie geprägt, die ein immenses Wissen über die englische Gesellschaft trug, und er begegnete diesem Wissen mit scharfer Kritik. Ein weiteres wichtiges Thema in Donnes Poesie ist die Idee der wahren Religion, etwas, über das er viel nachgedacht hat und über das er oft theoretisiert. Er schrieb weltliche Gedichte sowie Erotik- und Liebesgedichte. Er ist besonders berühmt für seine Beherrschung metaphysischer Einbildungen.[NEWLINE]Trotz seiner großartigen Bildung und seiner poetischen Begabung lebte Donne mehrere Jahre in Armut und war stark von wohlhabenden Freunden abhängig. Er gab einen Großteil des Geldes, das er während und nach seiner Ausbildung erbte, für Frauenbildung, Literatur, Zeitvertreib und Reisen aus. Im Jahr 1601 heiratete Donne heimlich Anne More, mit der er zwölf Kinder hatte. Im Jahre 1615 wurde er zum Diakon und schliesslich zum anglikanischen Priester geweiht, obwohl er keine heiligen Orden annehmen wollte und dies nur auf Anordnung des Königs tat. Im Jahr 1621 wurde er zum Dekan der St. Paul's Cathedral in London ernannt. 1601 und 1614 war er auch Mitglied des Parlaments.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Durante di Alighiero degli Alighieri, allgemein bekannt unter seinem Pseudonym Dante Alighieri oder einfach als Dante (1265 – 1321), war ein italienischer Dichter im Spätmittelalter. Seine "Göttliche Komödie", ursprünglich Comedìa genannt und erst später von Giovanni Boccaccio als "Göttlich Komödie" bezeichnet, gilt weithin als das bedeutendste Gedicht des Mittelalters und das größte literarische Werk in italienischer Sprache. Im Spätmittelalter wurden die meisten Gedichte in lateinischer Sprache verfasst, sodass sie nur den gebildetsten Lesern zugänglich waren. In "De vulgari eloquentia" (ca. 1304, "Zwei Bücher über die Ausdruckskraft der Volkssprache") verteidigte Dante jedoch die Verwendung der Landessprache in der Literatur. Er schrieb sogar in toskanischem Dialekt für Werke wie "Vita nova" (1295, "Es beginnt das neue Leben") und die "La divina commedia" (1320, "Göttliche Komödie"). Diese höchst unorthodoxe Wahl schuf einen Präzedenzfall, dem bedeutende spätere italienische Schriftsteller wie Petrarca und Boccaccio folgen würden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Jean-Baptiste Poquelin, bekannt unter seinem Künstlernamen Molière (getauft 15. Januar 1622; gestorben 17. Februar 1673), war ein französischer Dramatiker, Schauspieler und Dichter, der weithin als einer der größten Schriftsteller der französischen Sprache und universellen Literatur gilt. Zu seinen überlieferten Werken zählen Komödien, Farcen, Tragikomödien, Comédie-ballet (Ballettkomödien) und mehr. Seine Stücke wurden in alle bedeutenden lebenden Sprachen übersetzt und werden heute häufiger in der Comédie-Française aufgeführt als die von jedem anderen Dramatiker. Sein Einfluss ist so groß, dass die französische Sprache selbst oft als "Sprache von Molière" bezeichnet wird..</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_JOHN_DONNE_1_NAME" Language="de_DE">
+			<Text>Devotions upon Emergent Occasions</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_NAME" Language="de_DE">
+			<Text>Lieder und Sonette</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_DANTE_2_NAME" Language="de_DE">
+			<Text>Paradiso</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_DANTE_1_NAME" Language="de_DE">
+			<Text>Inferno</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_MOLIERE_1_NAME" Language="de_DE">
+			<Text>Der Menschenfeind</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_MOLIERE_2_NAME" Language="de_DE">
+			<Text>Tartuffe</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_JOHN_DONNE_1_QUOTE" Language="de_DE">
+			<!-- Taken from wikipedia: https://de.wikipedia.org/wiki/John_Donne#Zitat -->
+			<Text>Niemand ist eine Insel, in sich ganz; jeder Mensch ist ein Stück des Kontinents, ein Teil des Festlandes. [...] Jedes Menschen Tod ist mein Verlust, denn ich bin Teil der Menschheit; und darum verlange nie zu wissen, wem die Stunde schlägt; sie schlägt dir selbst.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_QUOTE" Language="de_DE">
+			<Text>Wir können daran sterben, wenn wir nicht aus Liebe leben, und wenn unsere Legende nicht für Gräber und Leichenwagen geeignet ist, wird sie für Verse geeignet sein; und wenn wir keine Chronik beweisen, bauen wir in Sonetten hübsche Zimmer; ebenso wird eine gut gearbeitete Urne zur größten Asche, als Gräber von einem halben Morgen, und durch diese Hymnen werden uns alle für die Liebe heiliggesprochen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_DANTE_2_QUOTE" Language="de_DE">
+			<!-- Taken from Projekt Gutenberg: https://www.projekt-gutenberg.org/dante/komoedie/chap100.html -->
+			<Text>Hier war die Macht der Phantasie bezwungen, doch Wunsch und Will’, in Kraft aus ew’ger Ferne, ward, wie ein Rad, gleichmäßig umgeschwungen, durch Liebe, die beweget Sonn’ und Sterne.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_DANTE_1_QUOTE" Language="de_DE">
+			<!-- Taken from Projekt Gutenberg: https://www.projekt-gutenberg.org/dante/komoedie/chap002.html -->
+			<Text>Gleichwie die Blum’ im ersten Sonnenlicht, beim nächt’gen Reif gesunken und verschlossen, den Stiel erhebt und ihren Kelch entflicht; So hob die Kraft, erst schmachtend und verdrossen, in meinem Herzen sich zu gutem Mut.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_MOLIERE_1_QUOTE" Language="de_DE">
+			<!-- Taken from Projekt Gutenberg: https://www.projekt-gutenberg.org/moliere/misanthr/chap006.html -->
+			<Text>Denn wäre nur noch Redlichkeit zu finden, und wäre jeder treu, gerecht und gut, dann müßten all die Tugenden verschwinden, die uns die Kraft verleihen, ohne Fluch das Unrecht im Gefühl des Rechts zu tragen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_MOLIERE_2_QUOTE" Language="de_DE">
+			<!-- Taken from Projekt Gutenberg: https://www.projekt-gutenberg.org/moliere/tartuffe/chap002.html -->
+			<Text>Am schnellsten wird die andern schmähn, wer selbst was hat auf seinem Kerbholz stehn.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
