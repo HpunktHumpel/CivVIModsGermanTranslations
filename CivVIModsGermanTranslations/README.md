@@ -7,15 +7,15 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
-1660936201 | Renewable Energy Complexity | JNR | Junky | **NEW**
-1747105772 | Progressive Power Consumption | JNR | Junky | **NEW**
-1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | **NEW**
-1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | **NEW**
-1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | **NEW**
-1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | **NEW**
-1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | **NEW**
+1660936201 | Renewable Energy Complexity | JNR | Junky | #4
+1747105772 | Progressive Power Consumption | JNR | Junky | #4
+1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | #4
+1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | #4
+1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
+1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
+1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
-2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | **NEW**
+2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
