@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_UFFIZI_NAME" Language="de_DE">
+			<Text>Uffizien</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UFFIZI_DESCRIPTION" Language="de_DE">
+			<Text>1 freier Große Künstler erscheint in der Nähe der Stadt (falls verfügbar). Bietet 3 [ICON_GreatWork_Landscape] Großes-Kunstwerk-Plätze. Jede Stadt in Eurem Reich mit einem Kunstmuseum erhält + 1 [ICON_Culture] Kultur.[NEWLINE]Muss auf Grasland oder Ebene neben dem Stadtzentrum gebaut werden. Benötigt eine Bank in dieser Stadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UFFIZI_QUOTE" Language="de_DE">
+			<Text>"All diese Dinge haben mir die größte Befriedigung und Zufriedenheit gegeben, weil sie nicht nur zur Ehre Gottes, sondern auch zu meinem eigenen Gedenken dienen."[NEWLINE] – Cosimo de Medici</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_UFFIZI_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Ursprünglich von 1560 bis 1581 n. Chr. als Büros (auf Italienisch Uffizien) für die florentinischen Magistrate erbaut, ist die Uffizien-Galerie eines der ältesten und berühmtesten Kunstdepots der Welt und beherbergt die beste Sammlung italienischer Renaissance-Gemälde. Es beherbergt heute auch wertvolle Antiquitäten, Skulpturen und mehr als 100.000 Zeichnungen und Drucke. 1574 wurde das unvollendete Dachgeschoss in ein Depot für Kunstschätze der regierenden Familie de Medici umgewandelt. In den folgenden Jahrzehnten wurden weitere Teile des Gebäudes als Kunstgalerien und Lagerräume umgebaut. Laut Vasari versammelten sich Künstler wie da Vinci und Michelangelo in den Uffizien „zur Schönheit, zur Arbeit und zur Erholung."</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_UFFIZI_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_UFFIZI_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_BOTTICELLI_NAME" Language="de_DE">
+			<Text>Sandro Botticelli</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_RAPHAEL_NAME" Language="de_DE">
+			<Text>Raffael</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CWON_CARAVAGGIO_NAME" Language="de_DE">
+			<Text>Caravaggio</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_RAPHAEL_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Raffaello Sanzio da Urbino (1483 – 6. April 1520), bekannt als Raffael, war ein italienischer Maler und Architekt der Hochrenaissance. Seine Arbeit wird für ihre klare Form, einfache Komposition und visuelle Umsetzung des neuplatonischen Ideals der menschlichen Größe bewundert. Zusammen mit Michelangelo und Leonardo da Vinci bildet er die traditionelle Dreifaltigkeit der großen Meister dieser Zeit.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_RAPHAEL_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Raffael war enorm produktiv, leitete eine ungewöhnlich große Werkstatt und hinterließ trotz seines Todes im Alter von 37 Jahren ein umfangreiches Werk. Viele seiner Werke befinden sich im Vatikanischen Palast, wo die mit Fresken verzierten Raffael-Zimmer das zentrale und größte Werk seiner Karriere waren. Das bekannteste Werk ist "Die Schule von Athen" in den Stanzen des Vatikans. Nach seiner Schaffenszeit in Rom wurde ein Großteil seiner Arbeiten von seiner Werkstatt nach seinen Zeichnungen mit erheblichen Qualitätsverlusten ausgeführt. Er war zu Lebzeiten äußerst einflussreich, obwohl seine Arbeit außerhalb Roms hauptsächlich durch seine kollaborative Druckgrafik bekannt war.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_RAPHAEL_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Nach seinem Tod war der Einfluss seines großen Rivalen Michelangelo bis in das 18. und 19. Jahrhunderte mehr verbreitet, als Raffaels ruhigere und harmonischere Qualitäten wieder als die höheren Vorbilder galten. Seine Karriere gliedert sich naturgemäß in drei Phasen und drei Stile, die zuerst von Giorgio Vasari beschrieben wurden: seine frühen Jahre in Umbrien, dann eine Zeit von etwa vier Jahren (1504-1508), in der er die künstlerischen Traditionen von Florenz aufsaugte, gefolgt von seinen letzten hektischen und triumphalen zwölf Jahren in Rom, wo er für zwei Päpste und deren enge Mitarbeiter arbeitete.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_BOTTICELLI_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Alessandro di Mariano di Vanni Filipepi (um 1445 - 17. Mai 1510), bekannt als Sandro Botticelli, war ein italienischer Maler der Frührenaissance. Er gehörte der Florentiner Schule unter der Schirmherrschaft von Lorenzo de' Medici an, eine Bewegung, die Giorgio Vasari weniger als hundert Jahre später in seiner Vita von Botticelli als „goldenes Zeitalter“ bezeichnen sollte. Botticellis posthumer Ruf litt bis zum Ende des 19. Jahrhunderts. Seitdem gilt sein Werk als Repräsentation der linearen Anmut der Malerei der Frührenaissance.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_BOTTICELLI_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Neben den wenigen mythologischen Motiven, die heute seine bekanntesten Werke sind, malte er eine breite Palette religiöser Motive und auch einige Porträts. Er und seine Werkstatt waren vor allem für ihre Madonnen mit Kind bekannt, viele davon in runder Tondo-Form. Botticellis bekannteste Werke sind "Die Geburt der Venus" und "Primavera" ("Frühling"). Beide Werke befinden sich in den Uffizien in Florenz. Er lebte sein ganzes Leben im selben Stadtteil von Florenz, wobei er wahrscheinlich seine einzige bedeutende Zeit anderswo verbrachte: die Monate, die er 1474 in Pisa, sowie 1481-82 in Rom in der Sixtinischen Kapelle malte.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_BOTTICELLI_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Nur eines seiner Gemälde ist datiert, während andere seiner Werke mit unterschiedlicher Sicherheit aus anderen Aufzeichnungen datiert werden können. In den 1470er Jahren war er ein unabhängiger Meister, dessen Fähigkeiten und Ansehen wuchsen. Die 1480er Jahre waren sein erfolgreichstes Jahrzehnt, als all seine großen mythologischen Gemälde und viele seiner besten Madonnen entstanden. In den 1490er Jahren wurde sein Stil persönlicher und bis zu einem gewissen Grad gesitterter, und er konnte als Gegenentwurft zu der von Leonardo da Vinci (sieben Jahre jünger) und einer neuen Generation von Malern angesehen werden, die den Stil der Hochrenaissance vorantrieben, während Botticelli in gewisser Weise zum gotischen Stil zurückgekehrt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_CARAVAGGIO_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Michelangelo Merisi da Caravaggio (28. September 1571 - 18. Juli 1610) war ein italienischer Maler, der von den frühen 1590er Jahren bis 1610 in Rom, Neapel, auf Malta und Sizilien tätig war. Seine Gemälde kombinieren eine realistische Beobachtung des menschlichen Zustands, sowohl körperlich als auch emotional, mit einem dramatischen Lichteinsatz, der die Barockmalerei prägend beeinflusste.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_CARAVAGGIO_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Caravaggio beschäftigte sich mit genauer körperlicher Beobachtung mit einem dramatischen Einsatz von Hell-Dunkel, der als Tenebrismus bekannt wurde. Er machte die Technik zu einem dominierenden Stilelement, verdunkelte Schatten und durchbohrte Motive in hellen Lichtstrahlen. Caravaggio drückte anschaulich entscheidende Momente und Szenen aus, die oft von gewaltsamen Kämpfen, Folter und Tod geprägt waren. Er arbeitete schnell, mit lebenden Modellen, verzichtete lieber auf Zeichnungen und arbeitete direkt auf der Leinwand. Sein Einfluss auf den aus dem Manierismus hervorgegangenen Neubarock war tiefgreifend. Es kann direkt oder indirekt in den Werken von Peter Paul Rubens, Jusepe de Ribera, Gian Lorenzo Bernini und Rembrandt gesehen werden. Künstler der folgenden Generation, die stark unter seinem Einfluss standen, wurden "Caravaggisti" oder "Caravagesken" genannt, sowie "Tenebristen" oder "Tenebrosi" („Schattenmacher“).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_CARAVAGGIO_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Caravaggio absolvierte eine Ausbildung zum Maler in Mailand, bevor er in seinen Zwanzigern nach Rom übersiedelte. Er hat sich einen beachtlichen Namen als Künstler und als gewalttätiger, empfindlicher und provokanter Mann gemacht. Eine Schlägerei führte zu einem Todesurteil wegen Mordes und zwang ihn zur Flucht nach Neapel. Dort etablierte er sich erneut als einer der bedeutendsten italienischen Maler seiner Generation. Er reiste 1607 nach Malta und weiter nach Sizilien und erwirkte eine päpstliche Begnadigung seines Urteils. 1609 kehrte er nach Neapel zurück, wo er in einen heftigen Zusammenstoß verwickelt wurde; sein Gesicht war entstellt und Gerüchte über seinen Tod kursierten. Fragen über seinen Geisteszustand ergaben sich aus seinem unberechenbaren und bizarren Verhalten. Er starb 1610 unter ungewissen Umständen auf dem Weg von Neapel nach Rom. Berichten zufolge starb er an Fieber, aber es wurde vermutet, dass er ermordet wurde oder an einer Bleivergiftung starb.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_RAPHAEL_1_NAME" Language="de_DE">
+			<Text>Sixtinische Madonna</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_RAPHAEL_2_NAME" Language="de_DE">
+			<Text>Verklärung Christ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_RAPHAEL_3_NAME" Language="de_DE">
+			<Text>La Donna Velata</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_BOTTICELLI_1_NAME" Language="de_DE">
+			<Text>Die Geburt der Venus</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_BOTTICELLI_2_NAME" Language="de_DE">
+			<Text>Anbetung der Heiligen Drei Könige</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_BOTTICELLI_3_NAME" Language="de_DE">
+			<Text>Frühling</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_CARAVAGGIO_1_NAME" Language="de_DE">
+			<Text>Abendmahl in Emmaus</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_CARAVAGGIO_2_NAME" Language="de_DE">
+			<Text>Medusa</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_CARAVAGGIO_3_NAME" Language="de_DE">
+			<Text>Der ungläubige Thomas</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

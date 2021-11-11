@@ -10,6 +10,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1660936201 | Renewable Energy Complexity | JNR | Junky | **NEW**
 1747105772 | Progressive Power Consumption | JNR | Junky | **NEW**
 1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | **NEW**
+1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | **NEW**
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | **NEW**
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | **NEW**
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | **NEW**

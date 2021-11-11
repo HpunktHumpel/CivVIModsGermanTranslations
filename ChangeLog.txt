@@ -1,21 +1,22 @@
 11.11.2021
 
 - [NEW] Globe Theatre (World Wonder) (v1.04 vom 14. Okt. 2019 um 16:58)
+- [NEW] Uffizi (World Wonder) (v1.04 vom 21. Okt. 2019 um 11:21)
 
 
 10.11.2021
 
 - [NEW] Progressive Power Consumption (vom 15. Sep. um 11:26, Übersetzung von Junky)
 - [IMPROVED] Renewable Energy Complexity
-- [NEW] Leaning Tower of Pisa (World Wonder) (vom 12. Feb. 2021 um 3:25)
+- [NEW] Leaning Tower of Pisa (World Wonder) (v1.3 vom 12. Feb. 2021 um 3:25)
 
 
 09.11.2021
 
 - [NEW] Renewable Energy Complexity (vom 23. Juli 2021 um 4:07, Übersetzung von Junky)
-- [NEW] Brandenburg Gate (World Wonder) (vom 21. Okt. 2019 um 10:23)
-- [NEW] Porcelain Tower (World Wonder) (vom 21. Okt. 2019 um 10:17)
-- [NEW] Tower Bridge (World Wonder) (vom 20. Apr. 2020 um 18:18)
+- [NEW] Brandenburg Gate (World Wonder) (v1.11 vom 21. Okt. 2019 um 10:23)
+- [NEW] Porcelain Tower (World Wonder) (v1.2 vom 21. Okt. 2019 um 10:17)
+- [NEW] Tower Bridge (World Wonder) (v1.0 vom 20. Apr. 2020 um 18:18)
 
 
 07.11.2021

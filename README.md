@@ -34,6 +34,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 - Progressive Power Consumption (JNR / Junky)
 - Renewable Energy Complexity (JNR / Junky)
 - Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)
+- Uffizi (World Wonder) (Deliverator23 / H.Humpel)
 
 
 ## Installation
