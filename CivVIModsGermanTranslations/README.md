@@ -29,3 +29,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel | #1
+2645582640 | Aircraft Carriers Perfected | NullSpace | Junky | **NEW**

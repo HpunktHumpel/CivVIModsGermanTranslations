@@ -8,6 +8,7 @@ Deutsche Übersetzungen für diverse Civilization VI Mods.
 
 Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer):
 
+- Aircraft Carriers Perfected (NullSpace | Junky)
 - Angryr's Ancient Policies (Angryr / Junky)
 - Botanist (AOM / H.Humpel)
 - Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)
@@ -58,7 +59,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi & sukritact
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi NullSpace & sukritact
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
