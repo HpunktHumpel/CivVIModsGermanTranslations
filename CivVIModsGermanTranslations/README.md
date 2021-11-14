@@ -5,6 +5,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
+1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | **NEW**
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
