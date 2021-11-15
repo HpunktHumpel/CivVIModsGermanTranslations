@@ -12,6 +12,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 - Angryr's Ancient Policies (Angryr | Junky)
 - Botanist (AOM | H.Humpel)
 - Brandenburg Gate (World Wonder) (Deliverator23 | H.Humpel)
+- Burj Khalifa (World Wonder) (Deliverator23 | H.Humpel)
 - Cannabis and Hemp (AOM | H.Humpel)
 - Civ VI Beer (AOM | H.Humpel)
 - CIVILIZATION VI: ARECIBO OBSERVATORY (Albro & Deliverator23 | H.Humpel)

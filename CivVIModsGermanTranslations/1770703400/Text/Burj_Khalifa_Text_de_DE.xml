@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_BURJ_KHALIFA_NAME" Language="de_DE">
+			<Text>Burj Khalifa</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BURJ_KHALIFA_DESCRIPTION" Language="de_DE">
+			<Text>Verleiht  +3 [ICON_RESOURCE_OIL] Öl pro Runde. Jede Ölquellen-, Bohrinsel- und Minen-Modernisierung innerhalb von 9 Geländefeldern gewähren zusätzlich +2 [ICON_Culture] Kultur. +15% [ICON_Gold] Gold in dieser Stadt. +1 [ICON_TradeRoute] Handelswegkapazität.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BURJ_KHALIFA_QUOTE" Language="de_DE">
+			<Text>"Ich bin das Herz der Stadt und ihrer Menschen, der Marker, der definiert ... Dubais glänzender Traum. Mehr als nur ein Moment in der Zeit, ich definiere Momente für zukünftige Generationen. Ich bin Burj Khalifa." - Inschrift am Eingang</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BURJ_KHALIFA_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Der Burj Khalifa ist ein Hochhaus in Dubai in den Vereinigten Arabischen Emiraten. Mit einer Gesamthöhe von 829,8 m und einer Dachhöhe (ohne Antenne) von 828 m ist der Burj Khalifa seit seinem Richtfest im Jahr 2009 das höchste Bauwerk und Gebäude der Welt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BURJ_KHALIFA_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Der Bau des Burj Khalifa begann im Jahr 2004 und seine Außenfassade wurde fünf Jahre später im Jahr 2009 fertiggestellt. Seine Primärstruktur besteht aus Stahlbeton. Das Gebäude wurde im Jahre 2010 als Teil eines Stadtentwicklungsgebietes namens Downtown Dubai eröffnet und soll das Herzstück des großflächigen, gemischt genutzten Stadtentwicklungsgebietes sein. Die Entscheidung für den Bau des Gebäudes basiert auf der Entscheidung der Regierung, sich von einer auf Öl basierenden Wirtschaft zu diversifizieren und Dubai eine grössere internationale Anerkennung zu verschaffen. Das Gebäude hieß ursprünglich Burj Dubai, wurde aber zu Ehren des Herrschers von Abu Dhabi und Präsident der Vereinigten Arabischen Emirate, Khalifa bin Zayed Al Nahyan, umbenannt. Das Gebäude brach zahlreiche Höhenrekorde, darunter auch seine Auszeichnung als höchstes Gebäude der Welt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BURJ_KHALIFA_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Der Burj Khalifa wurde von Adrian Smith von Skidmore, Owings & Merrill entworfen, dessen Firma auch den Willis Tower und das One World Trade Center entworfen hat. Als leitender Ingenieur wurde die Hyder Consulting ausgewählt, während die NORR Group Consultants International Limited die Architektur des Projekts beaufsichtigte. Das Design leitet sich von der islamischen Architektur der Region ab, wie sie zum Beispiel in der Großen Moschee von Samarra zu finden ist. Die dreigeteilte Bodengeometrie in Y-Form wurde entwickelt, um den Wohn- und Hotelraum zu optimieren. Ein verstärkter zentraler Kern und die Flügel werden verwendet, um die Höhe des Gebäudes zu tragen. Obwohl dieser Entwurf vom Tower Palace III abgeleitet wurde, beherbergt der zentrale Kern des Burj Khalifa alle vertikalen Transportmittel, mit Ausnahme der Ausgangstreppen in jedem der Flügel. Die Struktur verfügt zusätzlich über eine Art Verkleidungssystem, das den heißen Sommertemperaturen Dubais standhalten soll. Insgesamt beherbergt der Burj Khalifa 57 Aufzüge und 8 Rolltreppen.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
