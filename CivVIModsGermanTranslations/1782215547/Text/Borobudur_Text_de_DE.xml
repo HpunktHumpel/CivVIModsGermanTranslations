@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_BOROBUDUR_NAME" Language="de_DE">
+			<Text>Borobudur</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BOROBUDUR_DESCRIPTION" Language="de_DE">
+			<Text>Handelswege zu fremden Städten gewähren +1 [ICON_Faith] Glauben für jede Luxusressource in der Zielstadt. Jede Plantagen-Modernisierung innerhalb von 6 Geländefeldern um dieses Wunder gewährt +1 [ICON_Faith] Glauben. Gewährt beim Bau 1 Apostel und 1 Guru.[NEWLINE]Benötigt einen Heilige-Stätte-Bezirk mit einem Tempel in dieser Stadt und ihr müsst eine Religion begründet haben. Muss auf Regenwald gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BOROBUDUR_QUOTE" Language="de_DE">
+			<Text>"Borobudur ist als majestätisches Kunstwerk bewundernswert. Die große Ausdehnung der Gebäudemassen, die in einigen Teilen von der üppigen Vegetation des Klimas bedeckt sind, die Schönheit und die zarte Ausführung der einzelnen Teile, die Symmetrie und Regelmäßigkeit des Ganzen." - Sir Thomas Stamford Raffles</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Borobudur ist ein buddhistischer Mahayana-Tempel aus dem 9. Jahrhundert in Indonesien, nicht weit von der Stadt Muntilan in Zentral-Java, und ist der größte buddhistische Tempel der Welt. Der Tempel besteht aus neun gestapelten Plattformen, sechs quadratischen und drei kreisförmigen, die von einer zentralen Kuppel gekrönt werden. Es ist mit 2.672 Relieftafeln und 504 Buddha-Statuen verziert. Seine zentrale Kuppel ist von 72 Buddha-Statuen umgeben, von denen jede in einem perforierten Stupa sitzt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Das Tempeldesign wurde im 9. Jahrhundert während der Herrschaft der Sailendra-Dynastie erbaut und folgt der javanisch-buddhistischen Architektur, die den indonesischen indigenen Kult der Ahnenverehrung und das buddhistische Konzept des Erreichens von Nirvana verbindet. Der Tempel demonstriert die Einflüsse der Gupta-Kunst, die Indiens Einfluss auf die Region widerspiegelt, aber es gibt genug indigene Szenen und Elemente, die Borobudur einzigartig indonesisch machen. Das Monument ist ein Schrein für den Lord Buddha und ein Ort für buddhistische Pilgerfahrten. Die Pilgerreise beginnt am Fuß des Denkmals und folgt einem Pfad um das Denkmal herum und steigt durch drei Ebenen, die symbolisch für die buddhistische Kosmologie stehen, zur Spitze auf: Kāmadhātu (die Welt der Begierde), Rupadhatu (die Welt der Formen) und Arupadhatu (die Welt der Formlosigkeit). Das Denkmal führt die Pilger durch ein umfangreiches System von Treppen und Gängen mit 1.460 erzählerischen Relieftafeln an den Wänden und den Balustraden. Borobudur besitzt eines der größten und vollständigsten Ensembles buddhistischer Reliefs der Welt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Es gibt Hinweise darauf, dass Borobudur im 9. Jahrhundert erbaut und anschließend nach dem Niedergang der Hindu-Königreiche in Java im 14. Jahrhundert und der javanischen Konversion zum Islam aufgegeben wurde. Die weltweite Kenntnis seiner Existenz wurde 1814 von Sir Thomas Stamford Raffles, dem damaligen britischen Herrscher von Java, ausgelöst, der von einheimischen Indonesiern über seine Lage informiert wurde. Borobudur wurde seitdem durch mehrere Restaurierungen erhalten. Das größte Restaurierungsprojekt wurde zwischen 1975 und 1982 von der indonesischen Regierung und der UNESCO durchgeführt, gefolgt von der Aufnahme des Denkmals in die Liste des UNESCO-Weltkulturerbes.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_4" Language="de_DE">
+			<Text>Borobudur ist der größte buddhistische Tempel der Welt und zählt neben Bagan in Myanmar und Angkor Wat in Kambodscha zu den bedeutendsten archäologischen Stätten Südostasiens. Borobudur ist nach wie vor beliebt für Pilger. Buddhisten in Indonesien feiern den Vesak-Tag am Denkmal. Borobudur ist die meistbesuchte Touristenattraktion Indonesiens.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -10,6 +10,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 
 - Aircraft Carriers Perfected (NullSpace | Junky)
 - Angryr's Ancient Policies (Angryr | Junky)
+- Borobudur (World Wonder) (Deliverator23 | H.Humpel)
 - Botanist (AOM | H.Humpel)
 - Brandenburg Gate (World Wonder) (Deliverator23 | H.Humpel)
 - Buddhas of Bamyan (World Wonder) (Deliverator23 | H.Humpel)
