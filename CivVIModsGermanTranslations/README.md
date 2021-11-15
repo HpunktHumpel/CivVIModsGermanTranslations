@@ -13,6 +13,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | #4
 1770703400 | Burj Khalifa (World Wonder) | Deliverator23 | H.Humpel | **NEW**
 1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | #4
+1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | **NEW**
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4

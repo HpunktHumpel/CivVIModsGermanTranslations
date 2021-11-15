@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_BAMYAN_NAME" Language="de_DE">
+			<Text>Buddha-Statuen von Bamiyan</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BAMYAN_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Faith] Glauben durch internationale [ICON_TradeRoute] Handelswege. Die Handelsrouten anderer Zivilisationen zu diesem Spieler gewähren sowohl dem Spieler +1 [ICON_Faith] Glauben als auch den anderen Zivilisationen +1 [ICON_Faith] Glauben. Jede Bauernhof- und Weiden-Modernisierung innerhalb von 6 Geländefeldern um dieses Wunder gewährt +1 [ICON_Faith] Glauben. Bietet +2 [ICON_Greatwork_relic] Reliquienplätze und gewährt eine kostenlose [ICON_Greatwork_relic] Reliquie.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BAMYAN_QUOTE" Language="de_DE">
+			<Text>"Im Nordosten der königlichen Stadt befindet sich ein Berg, auf dessen Abhang eine steinerne Buddhafigur in einer Höhe von 40 oder 50 Fuß steht. Seine goldenen Farbtöne funkeln von allen Seiten und seine kostbaren Ornamente blenden die Augen durch ihre Helligkeit." - Xuanzang, Aufzeichnungen über die Westlichen Gebiete aus der Großen Tang-Dynastie</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BAMYAN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Buddha-Statuen von Bamiyan waren zwei monumentale Statuen von Gautama Buddha aus dem 6. Jahrhundert, die in die Seite einer Klippe im Bamyan-Tal in der Region Hazarajat in Zentralafghanistan, 230 Kilometer nordwestlich von Kabul auf einer Höhe von 2.500 Metern, gehauen wurden. Die Statuen wurden 507 n. Chr. (die kleinere Statue) und 554 n. Chr. (die größere Statue) erbaut und repräsentierten den klassischen Mischstil der Gandhara-Kunst. Sie waren 35 bzw. 53 m groß.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BAMYAN_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Die Hauptkörper wurden direkt aus den Sandsteinfelsen gehauen, während die Details aus mit Stroh vermischtem Schlamm modelliert und mit Stuck überzogen waren. Diese Beschichtung wurde bemalt, um den Ausdruck der Gesichter, Hände und Falten der Roben hervorzuheben. Der größere Buddah war karminrot, der kleinere Buddah mehrfarbig angestrichen. Die unteren Teile der Arme der Statuen, welche Holzarmaturen trugen, wurden aus der gleichen Schlamm-Stroh-Mischung hergestellt. Es wird angenommen, dass die oberen Teile der Gesichter der Statuen aus großen Holzmasken oder Abgüssen bestanden. Die auf Fotografien zu sehenden Lochreihen hielten Holzpflöcke, die den äußeren Stuck stabilisierten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BAMYAN_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Die Statuen wurden im März 2001 von den Taliban auf Befehl des Führers Mullah Mohammed Omar gesprengt und zerstört. Zuvor hatte die Taliban-Regierung die Statuen für Götzen erklärt. Ein Gesandter, der in den folgenden Wochen die Vereinigten Staaten besuchte, berichtete, dass die Statuen zerstört wurden, um gegen die internationale Hilfe zu protestieren, die ausschließlich für die Wartung der Statuen vorgesehen waren, während in Afghanistan eine Hungersnot herrschte. Der afghanische Außenminister wiederum behauptete, dass die Zerstörung lediglich der Erzeugung eines islamisch religiösen Bildersturmes diente.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
