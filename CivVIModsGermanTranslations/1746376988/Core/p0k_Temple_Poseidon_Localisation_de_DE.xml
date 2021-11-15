@@ -1,0 +1,16 @@
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_P0K_BUILDING_TEMPLE_POSEIDON_NAME" Language="de_DE">
+			<Text>Tempel des Poseidon</Text>
+		</Row>
+		<Row Tag="LOC_P0K_BUILDING_TEMPLE_POSEIDON_DESCRIPTION" Language="de_DE">
+			<Text>Jede Fischerboote-Modernisierung innerhalb von 4 Geländefeldern um dieses Wunder gewährt +1 [ICON_AMENITIES] Annehmlichkeiten. +1 [ICON_Faith] Glauben auf allen Wasser-Geländefeldern für diese Stadt.[NEWLINE]Muss neben einer Fischerboote-Modernisierung gebaut werden.</Text>
+		</Row>
+		<Row Tag="LOC_P0K_BUILDING_TEMPLE_POSEIDON_QUOTE" Language="de_DE">
+			<Text>“Höre, Poseidon, Herrscher des tiefen Meeres, dessen flüssiger Griff den festen Boden umgibt; der auf dem Grunde der stürmischen hohen See, dunkel und tiefbrüstig seine wässerige Herrschaft behauptet.”[NEWLINE]– Orpheus</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_P0K_BUILDING_TEMPLE_POSEIDON_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Überreste des Tempel des Poseidon befinden sich auf dem Kap Sounion, 70 Kilometer südöstlich von Athen. Dieses Gebiet war bereits in der Bronzezeit ein Heiligtum und der heutige Tempel des Poseidon wurde hier erst im 5. Jahrhundert v. Chr. erbaut - dem Goldenen Zeitalter von Athen. Der Tempel des Poseidon ist dem Tempel der Hephaistion in Athen bemerkenswert ähnlich und er wurde vermutlich von demselben Architekten entworfen. Es ist bekannt, dass der Tempel des Poseidon, 60 Meter über dem Ägäischen Meer liegend, ein bekanntest und verehrtes Wahrzeichen war, da es schon aus der Ferne für die Seefahrer sichtbar war.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -9,6 +9,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
+1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | **NEW**
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
 1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | #4
 1770703400 | Burj Khalifa (World Wonder) | Deliverator23 | H.Humpel | **NEW**

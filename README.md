@@ -33,6 +33,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 - Leaning Tower of Pisa (World Wonder) (Deliverator23 | H.Humpel)
 - More Maritime: Seaside Sectors (Albro | H.Humpel)
 - National Projects: Satellites (JNR | H.Humpel)
+- p0kiehl's Temple of Poseidon (p0kiehl | H.Humpel)
 - Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)
 - Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact | H.Humpel)
 - Progressive Power Consumption (JNR | Junky)
@@ -63,7 +64,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, Shirohô & sukritact
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Shirohô & sukritact
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
