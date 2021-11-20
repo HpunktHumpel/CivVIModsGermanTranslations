@@ -11,6 +11,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
+1768673720 | Castles - Better Forts | JNR | Junky | **NEW**
 1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | #4
 1770703400 | Burj Khalifa (World Wonder) | Deliverator23 | H.Humpel | #5
 1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | #4
