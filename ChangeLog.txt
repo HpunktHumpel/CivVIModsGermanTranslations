@@ -1,4 +1,11 @@
+20.11.2021
+
+- [NEW] Raubak Natural Gas (vom 16. Aug. 2021 um 17:12, Übersetzung von Junky)
+
+
 15.11.2021
+===== Version 5 =====
+
 - [NEW] Borobudur (World Wonder) (v1.2 vom 21. Okt. 2019 um 11:24)
 - [NEW] Buddhas of Bamyan (World Wonder) (v1.1 vom 3. Juli 2019 um 17:09)
 - [NEW] Burj Khalifa (World Wonder) (v1.02 vom 14. Okt. 2019 um 17:07)

@@ -1,0 +1,59 @@
+<GameData>
+	<LocalizedText>
+		<Replace Language="de_DE" Tag="LOC_RESOURCE_GAS_NAME">
+			<Text>Erdgas</Text>
+		</Replace>
+        <Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GAS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Erdgas wurde im alten China zufällig entdeckt, da es bei der Bohrung nach Sole anfiel. Erdgas wurde von den Chinesen erstmals etwa 500 v. Chr. (möglicherweise sogar 1000 v. Chr.) genutzt. Sie entdeckten eine Möglichkeit, das aus dem Boden austretende Gas in groben Bambusrohren zu transportieren, um es zum Kochen von Salzwasser zur Salzgewinnung im Bezirk Ziliujing in Sichuan zu verwenden. 1626 wurde Erdgas in Amerika entdeckt und identifiziert. Im Jahr 1821 grub William Hart in Fredonia, New York, USA, erfolgreich die erste Erdgasquelle, was zur Gründung der Fredonia Gas Light Company führte. Die Stadt Philadelphia gründete 1836 das erste kommunale Erdgasverteilungsunternehmen. 2009 waren von den geschätzten verbleibenden förderbaren Erdgasreserven von insgesamt 850 000 km³ (200 000 m³) 66 000 km³ (16 000 m³) (oder 8 %) verbraucht worden. Ausgehend von einem geschätzten Weltverbrauch im Jahr 2015 von etwa 3400 km³ (815 cu. Mi.) Gas pro Jahr würden die geschätzten verbleibenden wirtschaftlich förderbaren Erdgasreserven bei den derzeitigen Verbrauchsraten 250 Jahre reichen. Ein jährlicher Anstieg des Verbrauchs um 2 bis 3 % könnte dazu führen, dass die derzeit förderbaren Reserven wesentlich kürzer reichen, vielleicht sogar nur 80 bis 100 Jahre.</Text>
+        </Replace>	
+		<Replace Language="de_DE" Tag="LOC_BUILDING_NATURAL_GAS_POWER_PLANT_NAME">
+			<Text>Erdgaskraftwerk</Text>
+		</Replace>
+        <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_NATURAL_GAS_POWER_PLANT_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Elektrizität, die mit Hilfe von Erdgasturbinen erzeugt wurde, wurde erstmals 1939/1940 in einer Anlage in Neuchâtel (Schweiz) für den öffentlichen Gebrauch produziert. Die Gesamtleistung der Turbine betrug 4 Megawatt (MW). Zuvor hatte Sun Oil 1937 in seinem Chemiewerk in Philadelphia eine Gasturbine zur Erzeugung von Luft und Strom für den privaten Gebrauch eingesetzt. Im Jahr 1945 erreichte eine Zweiwellen-Wiederaufheiz-Gasturbine eine Weltrekordleistung von 10 MW, gefolgt von einer kombinierten Gesamtleistung von 40 MW, die 1948 in der größten Gasanlage der Welt in Beznau, Schweiz, erzeugt wurde. Offensichtlich war die Schweiz in den 1940er Jahren ein wichtiger Standort für die aufkommenden Erdgastechnologien. 1960 beanspruchte Nordamerika sein Stück vom Kuchen, als ein Kraftwerk in Port Mann, British Columbia, mit einer Leistung von 100 MW zum größten Gaskraftwerk der Welt wurde. Ein Jahr später, 1961, wurde in Korneuburg, Österreich, das erste Kombikraftwerk in Betrieb genommen. Seitdem sind die Erzeugungskapazitäten exponentiell gestiegen, und die Technologien haben sich dramatisch weiterentwickelt. Die heutigen Gas- und Dampfturbinenkraftwerke arbeiten mit einem höheren Wirkungsgrad und geringeren Emissionen als alle anderen fossilen Kraftwerkstypen, und es ist realistisch, dass sich diese Zahlen weiter entwickeln und verbessern werden. Erdgaskraftwerke liefern mehr als die Hälfte der in Privathaushalten und Gewerbebetrieben verbrauchten Energie und 41 Prozent der von der US-Industrie genutzten Energie, wobei sie nur die Hälfte des Kohlendioxids, ein Drittel der Stickoxide und ein Prozent der Schwefeloxide eines durchschnittlichen Kohlekraftwerks erzeugen.</Text>
+        </Replace>	
+		<Replace Language="de_DE" Tag="LOC_BUILDING_NATURAL_GAS_POWER_PLANT_DESCRIPTION">
+			<Text>Wandelt automatisch eine beliebige Menge an [ICON_RESOURCE_GAS] Gas in [ICON_Power] Energie für Städte innerhalb von 6 Feldern um, die dies in jeder Runde benötigen, und zwar im Verhältnis von: [NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_GAS] Gas [ICON_PowerRight] 5 [ICON_Power] Energie[NEWLINE][ICON_Bullet]Geringer CO2-Ausstoß in die Atmosphäre[NEWLINE]Der [ICON_Production]-Produktionsbonus wird auf alle Stadtzentren innerhalb von 6 Feldern ausgeweitet, die nicht bereits einen Bonus durch ein Kraftwerksgebäude haben.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_IMPROVEMENT_GAS_WELL_NAME">
+			<Text>Erdgasquelle</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_IMPROVEMENT_GAS_WELL_DESCRIPTION">
+			<Text>Schaltet die Fähigkeit des Handwerkers frei, eine Erdgasquelle zu bauen.[NEWLINE][NEWLINE]-1 Anziehungskraft. Kann nur auf Landfeldern mit [ICON_RESOURCE_GAS] Gas gebaut werden.</Text>
+		</Replace>
+        <Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_GAS_WELL_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>1821 grub William Hart in Fredonia, New York, die erste erfolgreiche Erdgasbohrung in den USA. Schließlich wurde die Fredonia Gas Light Company gegründet und damit das erste amerikanische Erdgasversorgungsunternehmen. 1836 gründete die Stadt Philadelphia das erste kommunale Erdgasversorgungsunternehmen. Heute gibt es in den USA mehr als 900 öffentliche Gassysteme, und die Philadelphia Gas Works sind das größte und am längsten in Betrieb befindliche öffentliche Gassystem in den USA.[NEWLINE]Während des größten Teils des 19. Jahrhunderts wurde Erdgas fast ausschließlich als Lichtquelle verwendet, doch 1885 eröffnete Robert Bunsen mit der Erfindung des heute als Bunsenbrenner bekannten Geräts völlig neue Möglichkeiten zur Nutzung von Erdgas. Mit dem Bau leistungsfähiger Pipelines im 20. Jahrhundert weitete sich die Verwendung von Erdgas auf das Heizen und Kochen in Privathaushalten, auf Geräte wie Durchlauferhitzer und Herde, auf Produktions- und Verarbeitungsanlagen sowie auf Heizkessel zur Stromerzeugung aus.</Text>
+        </Replace>
+		<Replace Language="de_DE" Tag="LOC_IMPROVEMENT_OFFSHORE_GAS_RIG_NAME">
+			<Text>Erdgas-Bohrinsel</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_IMPROVEMENT_OFFSHORE_GAS_RIG_DESCRIPTION">
+			<Text>Schaltet die Fähigkeit des Handwerkers frei, einen Erdgas-Bohrinsel zu bauen.[NEWLINE][NEWLINE]-1 Anziehungskraft. Kann nur auf Küsten- oder Seefeldern mit [ICON_RESOURCE_GAS] Erdgas gebaut werden.</Text>
+		</Replace>
+        <Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_OFFSHORE_GAS_RIG_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Vor langer Zeit, wurde eine Offshore-Plattform von Naturvölkern zum Fischen, Ernten von Seetang oder Sammeln von Muscheln genutzt. Doch als die Zivilisation die vielfältigen Verwendungsmöglichkeiten für Gas und Öl entdeckte, wurden Offshore-Plattformen zu massiven Konstruktionen, die in tiefen Gewässern verankert wurden, um das Gas und Öl unter dem Meeresboden herauszupressen. Die erste Unterwasser-Ölbohrung wurde 1891 auf Plattformen auf Pfählen im Süßwassersee St. Mary's in Ohio durchgeführt. Die erste echte Offshore-Bohrinsel wurde 1896 im Summerland-Feld vor der kalifornischen Küste in der Nähe von Santa Barbara in Betrieb genommen. Bald darauf entstanden Offshore-Plattformen vor der Küste von Texas und Louisiana in den 1910er Jahren, im Kaspischen Meer bei Aserbaidschan in den 1920er Jahren, im Persischen Golf, in der Nordsee, im Campos- und Santos-Becken vor Brasilien und an allen anderen Orten, die die Ölgesellschaften ins Visier nahmen. U-Boot-Pipelines lösten schließlich das Problem, das Öl kostengünstig an Land zu bringen. Obwohl Ölplattformen teuer sind und gelegentlich eine sinkt oder leckt, überwiegen die Gewinne die Kosten ... zumindest kurzfristig.</Text>
+        </Replace>
+		<Replace Language="de_DE" Tag="LOC_PROJECT_CONVERT_REACTOR_TO_GAS">
+			<Text>Umstellung auf Erdgas</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PROJECT_CONVERT_REACTOR_TO_GAS_SHORT_NAME">
+			<Text>Umstellung auf Erdgas</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PROJECT_CONVERT_REACTOR_TO_GAS_DESCRIPTION">
+			<Text>Legt das aktuelle Kraftwerk in dieser Stadt still und ersetzt es durch das {LOC_BUILDING_NATURAL_GAS_POWER_PLANT_NAME}.[NEWLINE][NEWLINE]{LOC_BUILDING_NATURAL_GAS_POWER_PLANT_NAME}:[NEWLINE]{LOC_BUILDING_NATURAL_GAS_POWER_PLANT_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PROJECT_DECOMMISSION_GAS_POWER_PLANT_NAME">
+			<Text>Stilllegung des Erdgaskraftwerks</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PROJECT_DECOMMISSION_GAS_POWER_PLANT_SHORT_NAME">
+			<Text>Stilllegung des Erdgaskraftwerks</Text>
+		</Replace>	
+		<Replace Language="de_DE" Tag="LOC_PROJECT_DECOMMISSION_GAS_POWER_PLANT_DESCRIPTION">
+			<Text>Projekt zur Erlangung von Punkten für den Wettbewerb "Klimavereinbarungen". Entfernt das Gaskraftwerk und alle seine Auswirkungen aus dieser Stadt.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_EMERGENCY_SCORE_DECOMMISSION_GAS_POWER_PLANT_DESC">
+			<Text>Fertigstellung des Projekts "Stilllegung eines Erdgaskraftwerks".</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

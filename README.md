@@ -38,6 +38,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 - Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact | H.Humpel)
 - Progressive Power Consumption (JNR | Junky)
 - Radiant Better Unit Promotions (Shirohô | Junky)
+- Raubak Natural Gas (Searching... | Junky)
 - Renewable Energy Complexity (JNR | Junky)
 - Tower Bridge (World Wonder) (Deliverator23 | H.Humpel)
 - Uffizi (World Wonder) (Deliverator23 | H.Humpel)
@@ -64,7 +65,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Shirohô & sukritact
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô & sukritact
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
