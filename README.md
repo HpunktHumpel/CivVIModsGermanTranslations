@@ -42,6 +42,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 - Renewable Energy Complexity (JNR | Junky)
 - Tower Bridge (World Wonder) (Deliverator23 | H.Humpel)
 - Uffizi (World Wonder) (Deliverator23 | H.Humpel)
+- Unit Expansion: Medieval Pirate Unit (D | Junky)
 
 
 ## Installation

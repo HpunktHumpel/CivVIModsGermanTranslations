@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="6">
   <Properties>
     <Name>Civilization VI Mods - German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Aircraft Carriers Perfected (NullSpace / Junky)[NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Borobudur (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Buddhas of Bamyan (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Burj Khalifa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn[NEWLINE] * Diversity City Center Buildings (D &amp; cyj / H.Humpel))[NEWLINE] * Globe Theatre (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * Leaning Tower of Pisa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * National Projects: Satellites (JNR / H.Humpel)[NEWLINE] * p0kiehl's Temple of Poseidon (p0kiehl / H.Humpel)[NEWLINE] * Porcelain Tower (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE] * Progressive Power Consumption (JNR / Junky)[NEWLINE] * Radiant Better Unit Promotions (Shirohô / Junky)[NEWLINE] * Raubak Natural Gas (Searching... / Junky)[NEWLINE] * Renewable Energy Complexity (JNR / Junky)[NEWLINE] * Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Uffizi (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE]</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Aircraft Carriers Perfected (NullSpace / Junky)[NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Borobudur (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Buddhas of Bamyan (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Burj Khalifa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn[NEWLINE] * Diversity City Center Buildings (D &amp; cyj / H.Humpel))[NEWLINE] * Globe Theatre (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * Leaning Tower of Pisa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * National Projects: Satellites (JNR / H.Humpel)[NEWLINE] * p0kiehl's Temple of Poseidon (p0kiehl / H.Humpel)[NEWLINE] * Porcelain Tower (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE] * Progressive Power Consumption (JNR / Junky)[NEWLINE] * Radiant Better Unit Promotions (Shirohô / Junky)[NEWLINE] * Raubak Natural Gas (Searching... / Junky)[NEWLINE] * Renewable Energy Complexity (JNR / Junky)[NEWLINE] * Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Uffizi (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Unit Expansion: Medieval Pirate Unit (D / Junky)[NEWLINE]</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1637433055</Created>
+    <Created>1637435193</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, Searching..., Shirohô and sukritact for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -63,6 +63,9 @@
     </Criteria>
     <Criteria id="LeaningTowerOfPisa">
       <ModInUse>d1c3ef16-00ed-4d72-a468-1e584fdb85ad</ModInUse>
+    </Criteria>
+    <Criteria id="MedievalPirateUnit">
+      <ModInUse>1d396ebb-6554-4f17-ad44-c95f600b2185</ModInUse>
     </Criteria>
     <Criteria id="MoreMaritime">
       <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
@@ -196,6 +199,10 @@
       <Criteria>LeaningTowerOfPisa</Criteria>
       <File>1828854812/Text/Leaning_Tower_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="MedievalPirateUnit_de_DE">
+      <Criteria>MedievalPirateUnit</Criteria>
+      <File>2511787097/Core/DL_Texts_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="Nat_Wonders_UpdateText_de_DE">
       <Criteria>NationalWonders</Criteria>
       <File priority="250">2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
@@ -316,6 +323,7 @@
     <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     <File>2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
     <File>2511437298/Text/AL_STPETERS_TEXT_de_DE.xml</File>
+    <File>2511787097/Core/DL_Texts_de_DE.sql</File>
     <File>2546679477/Texts_de_DE.sql</File>
     <File>2557418900/Natural_gas_Text_de_DE.xml</File>
     <File>2601169154/Text/Waterfront_EXP_Text_de_DE.xml</File>
