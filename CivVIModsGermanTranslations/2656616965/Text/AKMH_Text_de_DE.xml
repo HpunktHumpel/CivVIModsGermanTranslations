@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<LocalizedText>
+	<Replace Tag="LOC_AKMH_LAUNCHBUTTON_TT" Text="Weltgeschichte" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_LAUNCHBUTTON_ALERT_SINGLE_TT" Text="" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKMH_MAIN_TITLE" Text="Weltgeschichte" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_OPTIONS_TT" Text="Optionen" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS" Text="Bewege die Maus über das Bild, um mögliche Optimierungen zu finden, und klicke mit der linken Maustaste, um sie zu erstellen. Grün markierte Objekte schalten weitere Verbesserungen frei." Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS_MULTISTYLE" Text="Klicken Sie mit der rechten Maustaste, um die verfügbaren Stile für dieses Programm zu wählen." Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS_DELETEMODE" Text="Objekte, die gelöscht werden können, sind rot hervorgehoben, wenn sich der Mauszeiger über ihnen befindet; zum Löschen doppelklicken Sie die linke Maustaste." Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_INSTRUCTIONS_DELETEMODE_HEADER" Text="[COLOR_RED]DELETE MODE ENABLED[ENDCOLOR]" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKMH_OPT_HEADER" Text="Optionen" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_OPT_GENERAL_HEADER" Text="Allgemein" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SETTINGSCANCEL" Text="Abbrechen"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_BUTTON_SETTINGSRESET" Text="Zurücksetzen"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_BUTTON_SETTINGSSAVE" Text="Sichern"   Language="de_DE" />
+	
+	<Replace Tag="LOC_AKMH_ENDGAME_TITLE" Text="DIE WELT"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_THE_KNOWN_WORLD" Text="Die bekannte Welt"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_THE_DAWN_OF_TIME" Text="Der Anbruch der Zeit"   Language="de_DE" />
+	
+	<Replace Tag="LOC_AKMH_OPT_Overlays" Text="Einblendungen"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowOwnerOverlayRB" Text="Zivilisation"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowReligionOverlayRB" Text="Religion"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_layers" Text="Ebenen"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowCities" Text="Städte"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowDevelopment" Text="Entwicklung"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowResources" Text="Ressourcen"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowFeatures" Text="Geländeart"   Language="de_DE" />
+	
+	<Replace Tag="LOC_AKMH_OPT_Pings" Text="Ereignis-Signale"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_PingCityFounded" Text="Stadt Gegründet"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_PingCityCaptured" Text="Stadt Eingenommen"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_PingCityRazed" Text="Stadt Zerstört"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_PingWonderBuilt" Text="Wunder Gebaut"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_PingSound" Text="Ton"   Language="de_DE" />
+	
+	<Replace Tag="LOC_AKMH_OPT_General" Text="Allgemein"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_DynamicCentring" Text="Dynamisches Zentrum"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_DynamicSizing" Text="Dynamische Größe"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowUnRevealed" Text="Unentdecktes Land"   Language="de_DE" />
+	<Replace Tag="LOC_AKMH_OPT_ShowInvisibleResources" Text="Unsichtbare Ressourcen"   Language="de_DE" />
+
+	<Replace Tag="LOC_AKMH_BUTTON_TOGGLEWINDOWED_TT" Text="Zeige Fenster" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_TOGGLEFULLSCREEN_TT" Text="Zeige Vollbild" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKMH_BUTTON_PLAY_TT" Text="Abspielen[NEWLINE]Rechtsklick für rückwärts" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_STOP_TT" Text="Pause" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SKIPTOSTART_TT" Text="Zum Start springen" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SKIPTOEND_TT" Text="Zum Ende springen" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_NEXTTURN_TT" Text="Nächste Runde[NEWLINE]Rechtsklick +50[ICON_TURN]" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_PREVTURN_TT" Text="Vorige Runde[NEWLINE]Rechtsklick -50[ICON_TURN]" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_BUTTON_SPEED_TT" Text="Ändere Tempo[NEWLINE]Linksklick zum Erhöhen[NEWLINE]Rechtsklick zum Verringern" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKMH_PING_CITYFOUNDED" Text="[COLOR_Civ6Green]{1_cityname} gegründet[ENDCOLOR]" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_PING_CITYRAZED" Text="[COLOR_RED]{1_cityname} zerstört[ENDCOLOR]" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_PING_CITYCAPTURED" Text="[COLOR_Civ6Yellow]{1_cityname} eingenommen[ENDCOLOR]" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_PING_WONDERBUILT" Text="[COLOR_White]{1_wondername}[ENDCOLOR]" Language="de_DE"/>
+	
+	<Replace Tag="LOC_AKMH_UPDATEFREQUENCY_INFO_HEADER" Text="Drosselung der Kartenwiedergabe" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_UPDATEFREQUENCY_INFO_TEXT" Text="Kombination der Kartengröße ({1_mapx}x{2_mapy}) und erwartete Rundenanzahl ({3_expectedturns}) heißt, nach Runde {4_fullupdatecutoff}, wird die Weltgeschichte nur jede {5_updatefreq} Runden aktualisiert" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKMH_DATASIZE_WARNING_HEADER" Text="[COLOR_RED]Kartenwiedergabe Warnung[ENDCOLOR]" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_DATASIZE_WARNING_TEXT" Text="[COLOR_RED]Weltgeschichtsdaten sind nun {1_maxsafedatasize} Bytes groß[ENDCOLOR][NEWLINE]Um mögliche Spielstandsbeschädigung zu verhindern, empfiehlt es sich den Mod abszuschalten, wenn beabsichtigt ist viele Runden weiterspielen zu wollen." Language="de_DE"/>
+
+	<Replace Tag="LOC_AKMH_SAVESPEED_WARNING_HEADER" Text="Kartenwiedergabe" Language="de_DE"/>
+	<Replace Tag="LOC_AKMH_SAVESPEED_WARNING_TEXT" Text="[COLOR_Civ6Yellow]Sicher der Weltgeschichtsdaten dauerte {1_slowsavecutoff} Sekunden[ENDCOLOR][NEWLINE]Sichern, schließen und neustarten des Spiels könnte dies beschleunigen" Language="de_DE"/>
+	
+	
+	
+</LocalizedText>
+</GameData>
+

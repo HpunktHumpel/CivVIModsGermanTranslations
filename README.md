@@ -29,6 +29,7 @@ Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 - District Expansion: Campus (JNR | Gorowynn)
 - District Expansion: Entertainment (JNR | Gorowynn)
 - Diversity City Center Buildings (D & cyj | H.Humpel)
+- Endgame Map Replay (Technoluddite | Junky)
 - Globe Theatre (World Wonder) (Deliverator23 | H.Humpel)
 - Herdsman (AOM | H.Humpel)
 - Leaning Tower of Pisa (World Wonder) (Deliverator23 | H.Humpel)
@@ -67,7 +68,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô & sukritact
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact & Technoluddite
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
