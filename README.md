@@ -42,6 +42,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Radiant Better Unit Promotions (Shirohô | Junky)
 1. Raubak Natural Gas (Searching... | Junky)
 1. Renewable Energy Complexity (JNR | Junky)
+1. Sukritact's Wat Arun (sukritact | H.Humpel)
 1. Tower Bridge (World Wonder) (Deliverator23 | H.Humpel)
 1. Uffizi (World Wonder) (Deliverator23 | H.Humpel)
 1. Unit Expansion: Medieval Pirate Unit (D | Junky)
