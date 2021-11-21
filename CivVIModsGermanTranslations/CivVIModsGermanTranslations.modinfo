@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="6">
   <Properties>
-    <Name>Civilization VI Mods - German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Folgende Mods wurden in diesem Mod übersetzt (Mod-Autor / Übersetzer)[NEWLINE][NEWLINE] * Aircraft Carriers Perfected (NullSpace / Junky)[NEWLINE] * Angryr's Ancient Policies (Angryr / Junky)[NEWLINE] * Borobudur (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Botanist (AOM / H.Humpel)[NEWLINE] * Brandenburg Gate (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Buddhas of Bamyan (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Burj Khalifa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Cannabis and Hemp (AOM / H.Humpel)[NEWLINE] * Castles - Better Forts (JNR / Junky)[NEWLINE] * Civ VI Beer (AOM / H.Humpel)[NEWLINE] * CIVILIZATION VI: ARECIBO OBSERVATORY (Albro &amp; Deliverator23 / H.Humpel) [NEWLINE] * CIVILIZATION VI: CN Tower (Albro &amp; A CityMaker / H.Humpel)[NEWLINE] * CIVILIZATION VI: EMPIRE STATE BUILDING (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: KINKAKU-JI (Albro &amp; Deliverator23 / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro / H.Humpel)[NEWLINE] * CIVILIZATION VI: ST PETERS BASILICA (Albro / H.Humpel)[NEWLINE] * District Expansion: Aqueduct (JNR / Gorowynn)[NEWLINE] * District Expansion: Campus (JNR / Gorowynn)[NEWLINE] * District Expansion: Entertainment (JNR / Gorowynn)[NEWLINE] * Diversity City Center Buildings (D &amp; cyj / H.Humpel)[NEWLINE] * Endgame Map Replay (Technoluddite / Junky)[NEWLINE] * Globe Theatre (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Herdsman (AOM / H.Humpel)[NEWLINE] * Leaning Tower of Pisa (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * More Maritime: Seaside Sectors (Albro / H.Humpel)[NEWLINE] * National Projects: Satellites (JNR / H.Humpel)[NEWLINE] * p0kiehl's Temple of Poseidon (p0kiehl / H.Humpel)[NEWLINE] * Porcelain Tower (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Port Lime - Bridge Districts (Captain Lime, Leugi &amp; sukritact / H.Humpel)[NEWLINE] * Progressive Power Consumption (JNR / Junky)[NEWLINE] * Radiant Better Unit Promotions (Shirohô / Junky)[NEWLINE] * Raubak Natural Gas (Searching... / Junky)[NEWLINE] * Renewable Energy Complexity (JNR / Junky)[NEWLINE] * Sukritact's Wat Arun (sukritact | H.Humpel)[NEWLINE] * Tower Bridge (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Uffizi (World Wonder) (Deliverator23 / H.Humpel)[NEWLINE] * Unit Expansion: Medieval Pirate Unit (D / Junky)[NEWLINE] * 【Wonder】Notre-Dame de Paris (WindFly | H.Humpel)[NEWLINE]</Description>
+    <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 39 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1637497801</Created>
+    <Created>1637520148</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite and WindFly for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -24,6 +24,9 @@
     </Criteria>
     <Criteria id="AncientPolicies">
       <ModInUse>b19b827e-f42d-4ac8-af31-522ef9c45030</ModInUse>
+    </Criteria>
+    <Criteria id="AreciboObservatory">
+      <ModInUse>5a5601c5-090c-4172-89fe-8f1da9e2b96d</ModInUse>
     </Criteria>
     <Criteria id="Beer">
       <ModInUse>e47c7d20-4ac0-4800-9f23-4ca9ca87afa3</ModInUse>
@@ -52,8 +55,14 @@
     <Criteria id="CityLights">
       <ModInUse>95b955fc-2dd1-41c5-989e-0265d98a28bd</ModInUse>
     </Criteria>
+    <Criteria id="CNTower">
+      <ModInUse>ffa02d2f-e5d4-43fd-bb97-0a4868c7b3a7</ModInUse>
+    </Criteria>
     <Criteria id="DiversityCityCenterBuildings">
       <ModInUse>632a4fa1-e907-4426-815b-8424aeb81bb0</ModInUse>
+    </Criteria>
+    <Criteria id="EmpireStateBuilding">
+      <ModInUse>ecc4e31d-8c79-4e4b-98e7-d96226cb95d9</ModInUse>
     </Criteria>
     <Criteria id="EndgameMapReplay">
       <ModInUse>da4f4000-53a0-4005-bb25-5354f781bef6</ModInUse>
@@ -66,6 +75,9 @@
     </Criteria>
     <Criteria id="Herdsman">
       <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
+    </Criteria>
+    <Criteria id="KinkakuJi">
+      <ModInUse>a3c1c60d-76e0-4088-94e2-497f5e85d888</ModInUse>
     </Criteria>
     <Criteria id="LeaningTowerOfPisa">
       <ModInUse>d1c3ef16-00ed-4d72-a468-1e584fdb85ad</ModInUse>
@@ -100,6 +112,9 @@
     <Criteria id="RaubakNaturalGas">
       <ModInUse>932db66a-b5c5-41b6-9762-8dfb73201166</ModInUse>
     </Criteria>
+    <Criteria id="StPetersBasilica">
+      <ModInUse>e5f66e35-a710-4f89-afe7-a42e3e51cf9f</ModInUse>
+    </Criteria>
     <Criteria id="SukritactsWatArun">
       <ModInUse>b21b4017-3e53-4e35-ae38-1b5d7501e6d0</ModInUse>
     </Criteria>
@@ -131,9 +146,13 @@
   <InGameActions>
     <UpdateText id="AircraftCarriersPerfected_de_DE">
       <Criteria>AircraftCarriersPerfected</Criteria>
+      <Properties>
+        <LoadOrder>1121</LoadOrder>
+      </Properties>
       <File>2645582640/CarriersLocalizationDB_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="AL_STPETERSBASILICA_UpdateText_de_DE">
+      <Criteria>StPetersBasilica</Criteria>
       <File priority="250">2511437298/Text/AL_STPETERS_TEXT_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="AncientPolicies_de_DE">
@@ -147,6 +166,7 @@
       <File>902897696/UrbanPlanning_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="Arecibo_UpdateText_de_DE">
+      <Criteria>AreciboObservatory</Criteria>
       <File priority="150">2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Beer_de_DE">
@@ -184,16 +204,20 @@
       <File>1768673720/MC_Castles_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="CL_EMPIRE_UpdateText_de_DE">
+      <Criteria>EmpireStateBuilding</Criteria>
       <File priority="200">2384183359/Text/CL_EMPIRE_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="CL_UpdateText_Kinkaku_de_DE">
+      <Criteria>KinkakuJi</Criteria>
       <File priority="150">2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="CNTower_UpdateText_de_DE">
+      <Criteria>CNTower</Criteria>
       <File>2442822973/Text/COREX_Text_Won_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="CNTower_UpdateText_CityLights_de_DE">
       <Criteria>CityLights</Criteria>
+      <Criteria>CNTower</Criteria>
       <File priority="200">2442822973/Text/COREX_Text_Won_CL_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="DiversityCityCenterBuildings_Texts_de_DE">
@@ -250,7 +274,7 @@
     <UpdateText id="RadiantBetterUnitPromotions_de_DE">
       <Criteria>RadiantBetterUnitPromotions</Criteria>
       <Properties>
-        <LoadOrder>10000</LoadOrder>
+        <LoadOrder>1120</LoadOrder>
       </Properties>
       <File>1499009957/RBUP_RadiantBetterUnitPromotions_Text_de_DE.sql</File>
     </UpdateText>
