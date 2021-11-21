@@ -46,6 +46,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Tower Bridge (World Wonder) (Deliverator23 | H.Humpel)
 1. Uffizi (World Wonder) (Deliverator23 | H.Humpel)
 1. Unit Expansion: Medieval Pirate Unit (D | Junky)
+1. 【Wonder】Notre-Dame de Paris (WindFly | H.Humpel)
 
 
 ## Installation
@@ -69,7 +70,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact & Technoluddite
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite & WindFly
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

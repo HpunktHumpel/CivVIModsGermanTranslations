@@ -10,6 +10,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
+1714267495 | 【Wonder】Notre-Dame de Paris | WindFly | H.Humpel | **NEW**
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
 1768673720 | Castles - Better Forts | JNR | Junky | **NEW**

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Local -->
+<!-- Author: aall1 -->
+<!-- German Translation: H.Humpel -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_NOTRE_DAME_NAME" Language="de_DE">
+			<Text>Notre-Dame de Paris</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NOTRE_DAME_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Faith] Glauben und +2 [ICON_Amenities] Annehmlichkeiten in dieser Stadt und in allen Städten innerhalb von 10 Geländefeldern.[NEWLINE]Muss an einem Fluss gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NOTRE_DAME_QUOTE" Language="de_DE">
+			<Text>"Die Architektur hat die großen Ideen der Menschheit festgehalten. Nicht nur jedes religiöse Symbol, sondern jeder menschliche Gedanke hat seine Seite in diesem riesigen Buch."[NEWLINE]–Victor Hugo</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NOTRE_DAME_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Notre Dame ist eine mächtige Kathedrale, die auf der „Île de la Cité“, einer Insel in der Seine in Paris, errichtet wurde. Notre Dame wurde an der Stelle einer älteren Kirche erbaut, welche ihrerseits an der Stelle eines römischen Jupitertempels errichtet wurde. Sie ist ein großartiges Beispiel gotischer Architektur und eines der größten Gebäude überhaupt. Der Bau von Notre Dame begann im Jahre 1163 und dauerte fast zwei Jahrhunderte.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NOTRE_DAME_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Notre Dame ist ein massives Steingebäude mit zwei quadratischen Türmen. Das Äußere ist mit feinen Bogenbändern und Statuen von Heiligen und Königen verziert und das Dach des Gebäudes ist mit Wasserspeiern geschmückt. Das Innere der Kathedrale ist ein langer, schmaler Raum mit Säulen, welche jede Seite säumen und zwei wunderschöne, erhöhte Galerien tragen. Brillante Buntglasfenster leuchten sanft auf den Hauptaltar, der eine Statue der Jungfrau Maria, der Schutzpatronin der Kathedrale, enthält, welche den Körper Jesu hält.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NOTRE_DAME_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Die Kathedrale wurde im Laufe der Jahre mehrmals vernachlässigt. Während der Französischen Revolution wurden viele der Schätze von Notre Dame gestohlen und das Gebäude wurde als Lagerhaus genutzt. Zu Beginn des 19. Jahrhunderts war die Kathedrale so baufällig, dass die Stadtplaner erwogen, sie abzureißen. Tatsächlich schrieb Victor Hugo "Der Glöckner von Notre Dame" unter anderem, um auf die Notlage der Kathedrale aufmerksam zu machen. Im Jahr 1871, während der kurzlebigen Pariser Kommune, wurde Notre Dame fast in Brand gesteckt. Glücklicherweise hatte die Kathedrale dies alles überstanden und wurde weitgehend in ihrer ursprünglichen Pracht restauriert.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NOTRE_DAME_CHAPTER_HISTORY_PARA_4" Language="de_DE">
+			<Text>Am 15. April 2019 um 18:50 Uhr Ortszeit fing die Kathedrale Feuer, wodurch die Turmspitze und das Eichendach einstürzten. Die beiden Türme waren jedoch sicher. Die Höhe des Schadens war zunächst unbekannt, ebenso die Brandursache. Es wurde jedoch spekuliert, dass laufende Renovierungsarbeiten für das Feuer verantwortlich waren.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NOTRE_DAME_CHAPTER_HISTORY_PARA_5" Language="de_DE">
+			<Text>Der französische Präsident Emmanuel Macron sagte, dass etwa 400 Feuerwehrleute bei der Bekämpfung des Feuers geholfen hätten. Ein Feuerwehrmann wurde bei dem Brand schwer verletzt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NOTRE_DAME_CHAPTER_HISTORY_PARA_6" Language="de_DE">
+			<Text>Viele Artefakte konnten gerettet werden bevor das Feuer auf andere Teile der Kathedrale übergriff. Wegen der laufenden Renovierungsarbeiten waren die Kupferstatuen, die sich normalerweise auf der jetzt eingestürzten Turmspitze befanden, eine Woche zuvor aus dem Gebäude entfernt worden. Das steinerne Gewölbe, das die Decke der Kathedrale bildet, blieb weitgehend erhalten und verhinderte, dass das brennende Holz in das darunterliegende Gebäude fiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_NOTRE_DAME_CHAPTER_HISTORY_PARA_7" Language="de_DE">
+			<Text>Der Milliardär François-Henri Pinault kündigte an, 100 Millionen Euro für die Renovierung bereitzustellen, und forderte gemeinsame Anstrengungen zur Finanzierung von Reparaturen. Kurz darauf versprachen der LVMH-Besitzer und Milliardär Bernard Arnault und seine Familie weitere 200 Millionen Euro für die Restaurierung „dieser außergewöhnlichen Kathedrale, die ein Symbol Frankreichs, seines Erbes und der französischen Einheit ist“ zur Verfügung zu stellen.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
