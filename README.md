@@ -35,6 +35,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Leaning Tower of Pisa (World Wonder) (Deliverator23 | H.Humpel)
 1. More Maritime: Seaside Sectors (Albro | H.Humpel)
 1. National Projects: Satellites (JNR | H.Humpel)
+1. Notre-Dame de Paris (WindFly | H.Humpel)
 1. p0kiehl's Temple of Poseidon (p0kiehl | H.Humpel)
 1. Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)
 1. Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact | H.Humpel)
@@ -46,7 +47,6 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Tower Bridge (World Wonder) (Deliverator23 | H.Humpel)
 1. Uffizi (World Wonder) (Deliverator23 | H.Humpel)
 1. Unit Expansion: Medieval Pirate Unit (D | Junky)
-1. 【Wonder】Notre-Dame de Paris (WindFly | H.Humpel)
 
 
 ## Installation

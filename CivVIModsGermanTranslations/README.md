@@ -3,17 +3,17 @@
 Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
-933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | **NEW**
+933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
-1714267495 | 【Wonder】Notre-Dame de Paris | WindFly | H.Humpel | **NEW**
+1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
-1768673720 | Castles - Better Forts | JNR | Junky | **NEW**
+1768673720 | Castles - Better Forts | JNR | Junky | #6
 1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | #4
 1770703400 | Burj Khalifa (World Wonder) | Deliverator23 | H.Humpel | #5
 1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | #4
@@ -34,10 +34,10 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel | #1
-2511787097 | Unit Expansion: Medieval Pirate Unit | D | Junky | **NEW**
+2511787097 | Unit Expansion: Medieval Pirate Unit | D | Junky | #6
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3
-2557418900 | Raubak Natural Gas | Searching... | Junky | **NEW**
+2557418900 | Raubak Natural Gas | Searching... | Junky | #6
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel | #1
 2645582640 | Aircraft Carriers Perfected | NullSpace | Junky | #5
-2656616965 | Endgame Map Replay | Technoluddite | Junky | **NEW**
+2656616965 | Endgame Map Replay | Technoluddite | Junky | #6
