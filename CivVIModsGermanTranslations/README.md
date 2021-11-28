@@ -41,6 +41,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2557418900 | Raubak Natural Gas | Searching... | Junky | #6
 2581704421 | What Did I Promise? | Technoluddite | Junky | **NEW**
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
+2608223282 | Thrones and Palaces | Technoluddite | Junky | **NEW**
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel | #1
 2645582640 | Aircraft Carriers Perfected | NullSpace | Junky | #5
 2656616965 | Endgame Map Replay | Technoluddite | Junky | #6

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<LocalizedText>
+	<Replace Tag="LOC_AKPAL_LAUNCHBUTTON_TT" Text="Palast und Thronsaal" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_LAUNCHBUTTON_ALERT_SINGLE_TT" Text="Unser Volk möchte den Palast erweitern!" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_LAUNCHBUTTON_ALERT_MULTI_TT" Text="Unser Volk möchte {1_num} Erweiterungen am Palast durchführen!" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_MAIN_TITLE" Text="{1_civadj} Palast und Thronsaal" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_TAB_PALACE" Text="Palast" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_TAB_THRONE" Text="Thronsaal" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_BUTTON_OPTIONS_TT" Text="Optionen" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_BUTTON_DELETETOGGLE_TT" Text="Zuvor gebaute Teile vollständig entfernen" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_NUM_UPGRADES_AVAILABLE_SINGLE" Text="Erweiterungen verfügbar!" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_NUM_UPGRADES_AVAILABLE_MULTI" Text="{1_num} Erweiterungen verfügbar!" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_NUM_UPGRADES_BUILT_SINGLE" Text="Eine Erweiterung erbaut" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_NUM_UPGRADES_BUILT_MULTI" Text="{1_num} Erweiterungen erbaut" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_WLTKD" Text="Unser Volk ist von unserer Herrschaft so beeindruckt, dass es angeboten hat, den Palast oder den Thronsaal zu verbessern!" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_INSTRUCTIONS" Text="Bewege die Maus über das Bild, um mögliche Erweiterungen zu finden, und klicke mit der linken Maustaste, um sie zu bauen. Grün markierte Objekte schalten weitere Erweiterungen frei." Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_MULTISTYLE" Text="Right click to cycle through available styles for this upgrade." Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_DELETEMODE" Text="Items that can be deleted are highlighted red when the pointer is over them, double left click to delete.[NEWLINE]Deleting an item does not cost an upgrade point." Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_DELETEMODE_HEADER" Text="[COLOR_RED]LÖSCH MODUS AKTIVIERT[ENDCOLOR]" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_DELETEMODE_ENABLED" Text="Löschmodus aktiv" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_DIFFICULTY_NAME_1" Text="Einfach" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_DIFFICULTY_NAME_2" Text="Ausgewogen" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_DIFFICULTY_NAME_3" Text="Hart" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_DIFFICULTY_DESC_1" Text="Unsere Leute sind Einfaltspinsel, die von fast allem beeindruckt sind, selbst von Dingen, die sie zuvor gesehen haben, werden sie sich ereifern, uns zu lobpreisen. Wir werden problemlos einen prächtigen Palast bauen und ihn vermutlich mehrmals umgestalten können." Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_DIFFICULTY_DESC_2" Text="Wenn wir immer wieder neue Dinge tun und neue Wege beschreiten, werden sie uns belohnen. Aber ein vierter 'beeindruckender' Campus? Wen schert das? Das kennt man bereits. Solange wir nicht in Stillstand geraten, ist ein prächtiger Palast zum Greifen nah."  Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_DIFFICULTY_DESC_3" Text="Man kann sich keine zynischere und abgestumpftere Bevölkerung vorstellen, nur die beeindruckendsten und weltweit führenden Leistungen werden sie motivieren. Es ist möglich, dass es uns gelingt, den Palast zu vollenden, aber wir müssen unseren Konkurrenten durch die Epochen hindurch voraus sein, um überhaupt eine Chance zu haben." Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_DIFFICULTY_DESC_3_WARNING" Text="[COLOR_RED]Nicht empfehlenswert, wenn man auf einem hohen Schwierigkeitsgrad spielt, da die KI wahrscheinlich zu viele Weltrekorde gewinnt und man nicht in der Lage ist, eine akzeptable Menge an Erweiterungen zu verdienen.[ENDCOLOR]" Language="de_DE"/>
+
+	<Replace Tag="LOC_AKPAL_OPT_HEADER" Text="Optionen" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_OPT_DIFFICULTY_HEADER" Text="Schwierigkeit" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_OPT_GENERAL_HEADER" Text="Allgemein" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_OPT_ShowInstructionsPanel" Text="Anleitungen anzeigen" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_OPT_ShowNotificationOnPointAdded" Text="Benachrichtigung anzeigen, wenn ein Punkt erzielt wird" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_BUTTON_SETTINGSCANCEL" Text="Abbrechen"   Language="de_DE" />
+	<Replace Tag="LOC_AKPAL_BUTTON_SETTINGSRESET" Text="Zurücksetzen"   Language="de_DE" />
+	<Replace Tag="LOC_AKPAL_BUTTON_SETTINGSSAVE" Text="Sichern"   Language="de_DE" />
+
+	<Replace Tag="LOC_AKPAL_OPT_GW_HEADER" Text="Große Werke" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_OPT_AllowUseOfOwnedGreatWorks" Text="Nur im Besitz befindliche Große Werke können genutzt werden" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_OPT_AllowUseOfEverOwnedGreatWorks" Text="Jedes Große Werk das wir je besaßen kann genutzt werden" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_OPT_AllowUseOfAllGreatWorks" Text="Alle Großen Werke sind nutzbar" Language="de_DE"/>
+	
+	
+	
+	<Replace Tag="LOC_AKPAL_POINTGAINED_NOTIFICATION_HEADER" Text="Punkt für Palasterweiterung erhalten" Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_POINTGAINED_NOTIFICATION_TEXT" Text="Unser Volk ist von unserer Herrschaft so beeindruckt, dass sie anbieten den Palast zu erweitern" Language="de_DE"/>
+	
+
+</LocalizedText>
+</GameData>
+
+
+
