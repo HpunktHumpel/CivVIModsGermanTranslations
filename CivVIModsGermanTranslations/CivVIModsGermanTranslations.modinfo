@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="7">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 40 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 41 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1638136167</Created>
+    <Created>1638138917</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite and WindFly for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -115,6 +115,9 @@
     <Criteria id="StPetersBasilica">
       <ModInUse>e5f66e35-a710-4f89-afe7-a42e3e51cf9f</ModInUse>
     </Criteria>
+    <Criteria id="SukritactsOceans">
+      <ModInUse>4922ba47-61e1-4b15-9281-db996b14522d</ModInUse>
+    </Criteria>
     <Criteria id="SukritactsWatArun">
       <ModInUse>b21b4017-3e53-4e35-ae38-1b5d7501e6d0</ModInUse>
     </Criteria>
@@ -144,6 +147,25 @@
     </Criteria>
     <Criteria id="WhatDidIPromise">
       <ModInUse>dc3dfc0d-e4e9-450c-8716-99c4e748d5f2</ModInUse>
+    </Criteria>
+    <Criteria id="Suk_Oceans_Rework">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Suk_Oceans_Rework_Monopolies">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
     </Criteria>
   </ActionCriteria>
   <InGameActions>
@@ -285,6 +307,22 @@
       <Criteria>RaubakNaturalGas</Criteria>
       <File>2557418900/Natural_gas_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="SukritactsOceans_de_DE">
+      <Properties>
+        <LoadOrder>7</LoadOrder>
+      </Properties>
+      <Criteria>SukritactsOceans</Criteria>
+      <Criteria>Suk_Oceans_Rework</Criteria>
+      <File>2542898147/Translations/Suk_Oceans_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="SukritactsOceansMonopolies_de_DE">
+      <Properties>
+        <LoadOrder>8</LoadOrder>
+      </Properties>
+      <Criteria>SukritactsOceans</Criteria>
+      <Criteria>Suk_Oceans_Rework_Monopolies</Criteria>
+      <File>2542898147/Core/Monopolies/Suk_AltEcon_Localisation_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SukritactsWatArun_de_DE">
       <Criteria>SukritactsWatArun</Criteria>
       <File>933787677/Core/Suk_Wat_Arun_Localisation_de_DE.sql</File>
@@ -385,6 +423,8 @@
     <File>2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
     <File>2511437298/Text/AL_STPETERS_TEXT_de_DE.xml</File>
     <File>2511787097/Core/DL_Texts_de_DE.sql</File>
+    <File>2542898147/Core/Monopolies/Suk_AltEcon_Localisation_de_DE.sql</File>
+    <File>2542898147/Translations/Suk_Oceans_Localisation_de_DE.sql</File>
     <File>2546679477/Texts_de_DE.sql</File>
     <File>2557418900/Natural_gas_Text_de_DE.xml</File>
     <File>2581704421/Text/AKWDIP_Text_de_DE.xml</File>
