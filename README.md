@@ -31,6 +31,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Diversity City Center Buildings (D & cyj | H.Humpel)
 1. Endgame Map Replay (Technoluddite | Junky)
 1. Globe Theatre (World Wonder) (Deliverator23 | H.Humpel)
+1. Greatest Cities (Technoluddite | Junky)
 1. Herdsman (AOM | H.Humpel)
 1. Leaning Tower of Pisa (World Wonder) (Deliverator23 | H.Humpel)
 1. More Maritime: Seaside Sectors (Albro | H.Humpel)

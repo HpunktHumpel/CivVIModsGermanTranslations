@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<LocalizedText>
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_CulturePT" Text="Kulturellste Stadt ({1} [ICON_CULTURE] pro Runde)"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_Defense" Text="Stärkste verteidigte Stadt ({1} [ICON_STRENGTH])"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_FaithPT" Text="Gläubigste Stadt ({1} [ICON_FAITH] pro Runde)"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_GoldPT" Text="Reichste Stadt ({1} [ICON_GOLD] pro Runde)"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_Happiness" Text="Glücklichste Stadt (+{1} [ICON_AMENITIES])"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_Population" Text="Größte Stadt ({1} [ICON_CITIZEN])"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_ProductionPT" Text="Produktivste Stadt ({1} [ICON_PRODUCTION] pro Runde)"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_AWARD_HIGHEST_SciencePT" Text="Wissenschaftlichste Stadt ({1} [ICON_SCIENCE] pro Runde)"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_BUTTON_OPTIONS_TT" Text="Optionen"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_BUTTON_SETTINGSCANCEL" Text="Abbrechen"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_BUTTON_SETTINGSRESET" Text="Zurücksetzen"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_BUTTON_SETTINGSSAVE" Text="Sichern"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CAPITALCITY_TT" Text="Hauptstadt von {1_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITIES_BUTTON" Text="Bedeutendste Städte"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITIES_TAB_EMPIRE" Text="Imperium"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITIES_TAB_WONDERS" Text="Weltwunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITIES_TAB_WORLD" Text="Welt"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITIES_TITLE" Text="Die großartigsten Städte der Welt"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITIES_TITLE_HISTORIC" Text="{1_author}'s großartigsten Städte aus der/dem {2_era}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITYFOUNDED" Text="{1_civ}{2_occupied}, gegründet {3_year}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITYFOUNDEDBYSOMEONEELSE" Text="{1_civ}{2_occupied}, gegründet {3_year} durch {4_origciv}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITYFOUNDEDUNKNOWN" Text="{1_civ}{2_occupied}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITYOCCUPIED" Text=" (Besetzt)"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITYRAZED" Text=" ZERSTÖRT"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_CAPTURED" Text="{1_year}: Eingenommen durch {2_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_DEFECTED" Text="{1_year}: Übergelaufen zu {2_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_FOUNDED" Text="{1_year}: {2_city} gegründet durch {3_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_FOUNDEDONRUINS" Text="{1_year}: {2_city} gegründet durch {3_civ} auf den Ruinen von {4_oldcity}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_LIBERATEDBY" Text="{1_year}: Befreit durch {2_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_OCCUPIED" Text="{1_year}: Besetzt von {2_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_RAZED" Text="{1_year}: Ausgelöscht durch {2_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_RENAMED" Text="{1_year}: Umbenannt zu {2_name}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_RETURNEDTO" Text="{1_year}: Zurückgegeben an {2_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_TRADED" Text="{1_year}: Ausgetauscht an {2_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_CITY_HISTORY_UNKNOWN" Text="{1_year}: Unbekanntes Ereignis {2_name}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_CITY" Text="Stadt"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_DATEBUILT" Text="Erbaut um"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_LOCATION" Text="Standort"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_OWNER" Text="Besitzer"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_POPULATION" Text="Bevölkerung"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_RANK" Text="Rang"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_SPECIAL" Text="Besonderes"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_WONDER" Text="Name"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_COL_WONDERS" Text="Wunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_DEFAULTOPTIONS_NOTIFICATION_HEADER" Text="Greatest Cities Optionen Erinnerung"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_DEFAULTOPTIONS_NOTIFICATION_TEXT_OFF" Text="[NEWLINE]Zum Optionsbildschirm gelangt man, indem man hier klickt, oder indem man auf das Zahnradsymbol oben links im Fenster der Bedeutendsten Städte klickt.[NEWLINE][NEWLINE]Mod Great Cities Rewards nicht erkannt: Zeitalterabschluss Belohnungen sind [COLOR_RED]abgeschaltet[ENDCOLOR].[NEWLINE]"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_DEFAULTOPTIONS_NOTIFICATION_TEXT_ON" Text="[NEWLINE]Zum Optionsbildschirm gelangt man, indem man hier klickt, oder indem man auf das Zahnradsymbol oben links im Fenster der Bedeutendsten Städte klickt.[NEWLINE][NEWLINE]Mod Great Cities Rewards erkannt: Zeitalterabschluss Belohnungen sind [COLOR_GREEN]aktiviert[ENDCOLOR].[NEWLINE]"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_ENDOFERARANK_NOTIFICATION_HEADER" Text="Bedeutendste Städte in der Epoche {1_era}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_ENDOFERARANK_NOTIFICATION_TEXT" Text="{1_person} hat eine Studie über die Städte der Welt abgeschlossen und erklärt, dass die {2_civ} Stadt von {3_city} die bedeutendste Stadt in der/dem {4_era} ist. "   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_ENDOFERARANK_UNKNOWNWINNER_NOTIFICATION_TEXT" Text="{1_person} hat eine Studie über die Städte der Welt abgeschlossen und erklärt, dass unsere Stadt {2_city} die {3_rank} bedeutendste Stadt in der/dem {4_era} ist. "   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_ERADROPDOWN_CURRENTERA" Text="Heute {1_year}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_HOLYCITY_TT" Text="Heilige Stadt des {1_religion}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_MINORCAPITALCITY_TT" Text="Hauptstadt des Stadtstaates"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_DebugMode" Text="Debug-Modus aktivieren"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ForDiscoveredCities" Text="Entdeckte Städte"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ForUndiscoverCities" Text="Unbekannte Städte"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_GENERAL" Text="Allgemein"   Language="de_DE" />					
+	<Replace Tag="LOC_AKGC_OPT_GrantEndofEraAwards" Text="Auszeichnung der Spitzenstädte am Ende jeder Epoche."   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_IncludeMinors" Text="Stadtstaaten einbeziehen"   Language="de_DE" />	
+	<Replace Tag="LOC_AKGC_OPT_NumOwnCitiesToShow" Text="Eigene Städte einblenden"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_NumWorldCitiesToShow" Text="Weltstädte anzeigen"   Language="de_DE" />					
+	<Replace Tag="LOC_AKGC_OPT_ShowBestOfBonusesForDiscoveredCities" Text="Zeige höchste Boni"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowBestOfBonusesForUndiscoveredCities" Text="Zeige höchste Boni"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowCapitalForUndiscoveredCities" Text="Zeige Hauptstadt"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowCityDetailsForDiscoveredCities" Text="Zeige Stadtdetails"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowCityDetailsForUndiscoveredCities" Text="Zeige Stadtdetails"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowCityNamesForUndiscoveredCities" Text="Zeige Name"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowHolyCityForUndiscoveredCities" Text="Zeige Heilige Stadt"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowLineNumbersOnCityLists" Text="Zeige Zeilennummern auf Stadtlisten"   Language="de_DE" />	
+	<Replace Tag="LOC_AKGC_OPT_ShowOwnerForUnmetCivs" Text="Zeige Besitzer"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowRevealedUnderConstructionWonders" Text="Zeige sichtbare im Bau befindliche Wunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowScoreBreakdownForDiscoveredCities" Text="Zeige Punkte Aufschlüsselung"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowScoreBreakdownForUndiscoveredCities" Text="Zeige Punkte Aufschlüsselung"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowUnRevealedUnderConstructionWonders" Text="Zeige nicht-sichtbare im Bau befindliche Wunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowWonderProgress" Text="Zeige Fortschritt der Fertigstellung von Wunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowWondersForDiscoveredCities" Text="Zeige Wunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_ShowWondersForUndiscoveredCities" Text="Zeige Wunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_OPT_WonderList" Text="Weltwunder Liste"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMAMENITIES" Text="{1_score} durch Annehmlichkeiten"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMDAMAGE" Text="{1_score} durch beschädigte Infrastruktur"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMDISTRICTSANDBUILDINGS" Text="{1_score} durch Entwicklung"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMHOLYCITY" Text="{1_relscore} durch Heilige Stadt des {2_rel}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMLAND" Text="{1_score} durch Land"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMPOPULATION" Text="{1_score} durch Bevölkerung"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMTOPCPT" Text="{1_score} durch höchste [ICON_CULTURE] pro Runde"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMTOPFPT" Text="{1_score} durch höchsten [ICON_FAITH] pro Runde"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMTOPGPT" Text="{1_score} durch höchstes [ICON_GOLD] pro Runde"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMTOPPPT" Text="{1_score} durch höchste [ICON_PRODUCTION] pro Runde"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMTOPSPT" Text="{1_score} durch höchste [ICON_SCIENCE] pro Runde"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_FROMWONDERS" Text="{1_score} durch Wunder"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_SCORE_TOTAL" Text="{1_score} Gesamt"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_UNDISCOVERED_CITY" Text="Unbekannte Stadt"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_UNKNOWN_AUTHOR" Text="Ein unbekannter Gelehrter"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_WONDER_BUILTBY" Text="Errichtet durch {1_civ}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_WONDER_DESTROYED" Text="ZERSTÖRT[NEWLINE]durch {1_civ}[NEWLINE]{2_date}"   Language="de_DE" />
+	<Replace Tag="LOC_AKGC_WONDER_UNDERCONSTRUCTION" Text="Im[NEWLINE]Bau"   Language="de_DE" />
+
+</LocalizedText>
+
+</GameData>
