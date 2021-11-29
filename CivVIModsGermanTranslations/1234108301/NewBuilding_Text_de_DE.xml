@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_YELLOW_CRANE_NAME" Language="de_DE">
+			<Text>Kranichpagode</Text>
+		</Replace>
+		<!-- The description of the building, used in various places. -->
+		<Replace Tag="LOC_BUILDING_YELLOW_CRANE_DESCRIPTION" Language="de_DE">
+			<Text>Jedes Mal, wenn Ihr einen Großen Schriftsteller aktiviert, erhaltet Ihr 30% Eures aktuellen Gesamtbetrags an [ICON_GreatWriter] Großer Schriftsteller-Punkten.[NEWLINE][NEWLINE]Muss auf einem Hügel an einem Fluss gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YELLOW_CRANE_QUOTE" Language="de_DE">
+			<Text>-Meine alten Freunde haben sich vom Westen verabschiedet,[NEWLINE]hier an der Kranichpagode, in der Weidenwolke des dritten Monats gehen sie nach Yangzhou.[NEWLINE]——Li Bai</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YELLOW_CRANE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Kranichpagode (Huánghè Lóu) - auch Gelber Kranichturm genannt - ist ein traditioneller chinesischer Turm in Wuhan in Zentralchina. Die heutige Struktur wurde 1981 erbaut, aber der Turm existiert in verschiedenen Formen seit mindestens 223 n. Chr. Die Kranichpagode befindet sich auf dem Schlangenhügel (She Shan), einen Kilometer vom ursprünglichen Standort entfernt. Es liegt am Ufer des Jangtse im Bezirk Wuchang, Wuhan, in der Provinz Hubei in Zentralchina.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YELLOW_CRANE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Der ursprüngliche Standort des Turms befand sich am sogenannten „Gelben Kranichfelsen“, einem Ort westlich von Xiakou. Auf den Yuanhe-Karten und Aufzeichnungen der Präfekturen und Grafschaften wurde vermerkt, dass nach dem Bau der Festung von Xiakou durch Sun Quan, dem Gründer des Königreichs Ost-Wu, an dieser Stelle ein Turm gebaut und nach dem „Gelben Kranichfelsen“ benannt wurde.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_YELLOW_CRANE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Der Turm wurde mehrere Male sowohl durch Kriege als auch durch Feuer zerstört. Allein in der Ming- und Qing-Dynastie wurde der Turm zwölfmal zerstört und wiederaufgebaut und zu zehn verschiedenen Anlässen repariert. Der letzte Turm am ursprünglichen Standort wurde 1868 erbaut und 1884 zerstört. 1957 wurde die Wuhan-Yangtze-Brücke mit einem Brückenbock auf dem Gelände des Gelben Kranichturms gebaut. 1981 baute die Stadtregierung von Wuhan den Turm an einem neuen Standort, etwa 1 km vom ursprünglichen Standort entfernt, wieder auf. Der heutige Turm wurde 1985 fertiggestellt</Text>
+		</Replace>
+
+		<Replace Tag="LOC_NOTIFIER_GREATWRITER_YELLOWCRANE_GPP" Language="de_DE">
+			<Text> [ICON_GreatWriter] Großer Schriftsteller-Punkte durch die Kranichpagode verdient!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -5,6 +5,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
+1234108301 | Yellow Crane Tower | WindFly | H.Humpel | **NEW**
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1564497864 | Herdsman | AOM | H.Humpel | #2
