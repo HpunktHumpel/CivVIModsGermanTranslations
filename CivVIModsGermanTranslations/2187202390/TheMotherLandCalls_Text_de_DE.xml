@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_NAME" Language="de_DE">
+			<Text>Mutter-Heimat-Statue</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_DESCRIPTION" Language="de_DE">
+			<Text>Gewährt einen kostenlosen [ICON_GreatGeneral] Großer General, +10 Loyalität in all Euren Städten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_MOTHERLAND_CALLS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Mutter-Heimat-Statue wurde 1967 als Denkmal für die Macht der Sowjetunion und als Mahnmal für diejenigen, die während der Schlacht von Stalingrad ihr Leben ließen, erbaut. Die Statue ist mit 91 Metern bis zur Schwertspitze die höchste nicht-religiöse Statue der Welt. Zur Statue führen 200 Stufen, eine für jeden Tag der Schlacht von Stalingrad.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MOTHERLAND_CALLS_QUOTE" Language="de_DE">
+			<Text>“Eines der Kennzeichen einer großen Nation ist die Fähigkeit, sich nach einem Sturz wieder aufzurichten.”[NEWLINE]– Vasily Osipovich Klyuchevsky</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

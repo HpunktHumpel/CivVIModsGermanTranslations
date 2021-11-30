@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="7">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 44 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 45 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1638229229</Created>
+    <Created>1638280089</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite and WindFly for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -90,6 +90,9 @@
     </Criteria>
     <Criteria id="MoreMaritime">
       <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
+    </Criteria>
+    <Criteria id="MotherlandCalls">
+      <ModInUse>ce086704-334c-43cd-b26a-478365503137</ModInUse>
     </Criteria>
     <Criteria id="NationalWonders">
       <ModInUse>8719d97f-0db4-4c18-9863-82eb9b0c6175</ModInUse>
@@ -285,6 +288,10 @@
       <Criteria>MedievalPirateUnit</Criteria>
       <File>2511787097/Core/DL_Texts_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="MotherlandCalls_de_DE">
+      <Criteria>MotherlandCalls</Criteria>
+      <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="Nat_Wonders_UpdateText_de_DE">
       <Criteria>NationalWonders</Criteria>
       <File priority="250">2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
@@ -425,6 +432,7 @@
     <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+    <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
     <File>2331527458/code/Lime Bridges - Text_de_DE.sql</File>
