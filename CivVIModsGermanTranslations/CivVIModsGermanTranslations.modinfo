@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="7">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 49 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 50 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1638741416</Created>
+    <Created>1638743095</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, Eps, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite and WindFly for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -85,6 +85,9 @@
     <Criteria id="KinkakuJi">
       <ModInUse>a3c1c60d-76e0-4088-94e2-497f5e85d888</ModInUse>
     </Criteria>
+    <Criteria id="LatinAmericanResources">
+      <ModInUse>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModInUse>
+    </Criteria>
     <Criteria id="LeaningTowerOfPisa">
       <ModInUse>d1c3ef16-00ed-4d72-a468-1e584fdb85ad</ModInUse>
     </Criteria>
@@ -123,6 +126,9 @@
     </Criteria>
     <Criteria id="RaubakNaturalGas">
       <ModInUse>932db66a-b5c5-41b6-9762-8dfb73201166</ModInUse>
+    </Criteria>
+    <Criteria id="Resourceful2">
+      <ModInUse>23879c66-7cbb-4320-a891-ad24026f1b6b</ModInUse>
     </Criteria>
     <Criteria id="StPetersBasilica">
       <ModInUse>e5f66e35-a710-4f89-afe7-a42e3e51cf9f</ModInUse>
@@ -172,53 +178,14 @@
     <Criteria id="YellowCraneTower">
       <ModInUse>9f162187-9342-47ca-9085-78fc3f80f25d</ModInUse>
     </Criteria>
-    <Criteria id="Suk_Oceans_Rework">
-      <ConfigurationValueMatches>
-        <Group>Game</Group>
-        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
-        <Value>1</Value>
-      </ConfigurationValueMatches>
-    </Criteria>
-    <Criteria id="Suk_Oceans_Rework_Monopolies">
-      <ConfigurationValueMatches>
-        <Group>Game</Group>
-        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
-        <Value>1</Value>
-      </ConfigurationValueMatches>
-      <ConfigurationValueMatches>
-        <Group>Game</Group>
-        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
-        <Value>1</Value>
-      </ConfigurationValueMatches>
-    </Criteria>
     <Criteria id="NFP_01">
       <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
     </Criteria>
     <!-- Maya & Gran Colombia DLC -->
-    <Criteria id="Mod_Wet">
-      <ModInUse>73b1478a-73bf-4907-8914-b1b5acca388b</ModInUse>
-    </Criteria>
-    <!-- Wetlands -->
-    <Criteria id="MOD_Latin">
-      <ModInUse>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModInUse>
-    </Criteria>
-    <!-- Latin American Resources -->
     <Criteria id="MOD_Suk">
       <ModInUse>37fdca0b-9275-4235-9c18-c7ec348f930e</ModInUse>
     </Criteria>
     <!-- Sukritact's Resources -->
-    <Criteria id="MOD_Suk_Oceans">
-      <ConfigurationValueMatches>
-        <Group>Game</Group>
-        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
-        <Value>1</Value>
-      </ConfigurationValueMatches>
-    </Criteria>
-    <!-- Sukritact's Oceans -->
-    <Criteria id="MOD_R2">
-      <ModInUse>23879c66-7cbb-4320-a891-ad24026f1b6b</ModInUse>
-    </Criteria>
-    <!-- Resourceful 2 -->
     <Criteria id="MOD_BTT">
       <ModInUse>23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse>
     </Criteria>
@@ -232,6 +199,33 @@
     </Criteria>
     <!-- Better Tech Tree (UI) - 6T -->
     <Criteria id="Monopolies_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="MOD_Suk_Oceans">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <!-- Sukritact's Oceans -->
+    <Criteria id="Suk_Oceans_Rework">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Suk_Oceans_Rework_Monopolies">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
       <ConfigurationValueMatches>
         <Group>Game</Group>
         <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
@@ -349,6 +343,21 @@
       <Criteria>Herdsman</Criteria>
       <File>1564497864/Herdsman_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="LatinAmericanResources_de_DE">
+      <Criteria>LatinAmericanResources</Criteria>
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <File>2155632734/Core/Leu_p0k_Resources_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="LatinAmericanResources_Monopolies_de_DE">
+      <Criteria>LatinAmericanResources</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>2155632734/Core_MODE/LatResources_Monopolies_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="LeaningTowerOfPisa_de_DE">
       <Criteria>LeaningTowerOfPisa</Criteria>
       <File>1828854812/Text/Leaning_Tower_Text_de_DE.xml</File>
@@ -455,15 +464,17 @@
       </Properties>
       <File>2497071692/Text/RIB_Text_NFP_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_TextModSupport_Wetlands_de_DE" criteria="Mod_Wet">
+    <UpdateText id="UC_BRI_TextModSupport_Wetlands_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>Wetlands</Criteria>
       <Properties>
         <LoadOrder>415</LoadOrder>
       </Properties>
       <File>2497071692/Text/ModSupport/RIB_Text_Wetlands_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_TextModSupport_Latin_de_DE" criteria="MOD_Latin">
+    <UpdateText id="UC_BRI_TextModSupport_Latin_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>LatinAmericanResources</Criteria>
       <Properties>
         <LoadOrder>416</LoadOrder>
       </Properties>
@@ -483,8 +494,9 @@
       </Properties>
       <File>2497071692/Text/ModSupport/RIB_Text_Suk_Oceans_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_TextModSupport_Resourceful_de_DE" criteria="MOD_R2">
+    <UpdateText id="UC_BRI_TextModSupport_Resourceful_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>Resourceful2</Criteria>
       <Properties>
         <LoadOrder>419</LoadOrder>
       </Properties>
@@ -578,6 +590,8 @@
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2135724456/Text/Wetlands_Text_de_DE.sql</File>
+    <File>2155632734/Core/Leu_p0k_Resources_Localisation_de_DE.sql</File>
+    <File>2155632734/Core_MODE/LatResources_Monopolies_Text_de_DE.sql</File>
     <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
