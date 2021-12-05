@@ -21,8 +21,8 @@
 
 	<Replace Tag="LOC_AKPAL_WLTKD" Text="Unser Volk ist von unserer Herrschaft so beeindruckt, dass es angeboten hat, den Palast oder den Thronsaal zu verbessern!" Language="de_DE"/>
 	<Replace Tag="LOC_AKPAL_INSTRUCTIONS" Text="Bewege die Maus über das Bild, um mögliche Erweiterungen zu finden, und klicke mit der linken Maustaste, um sie zu bauen. Grün markierte Objekte schalten weitere Erweiterungen frei." Language="de_DE"/>
-	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_MULTISTYLE" Text="Right click to cycle through available styles for this upgrade." Language="de_DE"/>
-	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_DELETEMODE" Text="Items that can be deleted are highlighted red when the pointer is over them, double left click to delete.[NEWLINE]Deleting an item does not cost an upgrade point." Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_MULTISTYLE" Text="Klicke mit der rechten Maustaste, um die verfügbaren Stile für diese Erweiterung durchzugehen." Language="de_DE"/>
+	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_DELETEMODE" Text="Gegenstände, die gelöscht werden können, werden rot hervorgehoben, wenn sich der Mauszeiger über ihnen befindet; zum Löschen mit der linken Maustaste doppelklicken[NEWLINE]Das Löschen eines Elements kostet keinen Erweiterungs-Punkt." Language="de_DE"/>
 	<Replace Tag="LOC_AKPAL_INSTRUCTIONS_DELETEMODE_HEADER" Text="[COLOR_RED]LÖSCH MODUS AKTIVIERT[ENDCOLOR]" Language="de_DE"/>
 
 	<Replace Tag="LOC_AKPAL_DELETEMODE_ENABLED" Text="Löschmodus aktiv" Language="de_DE"/>
