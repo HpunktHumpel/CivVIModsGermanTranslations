@@ -34,6 +34,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
+2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | **NEW**
 2494925002 | Greatest Cities | Technoluddite | Junky | **NEW**
 2497071692 | Bonus Resource Improvements | JNR | Junky | **NEW**
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1

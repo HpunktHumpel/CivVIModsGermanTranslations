@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="7">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 46 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 47 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1638734186</Created>
+    <Created>1638737402</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite and WindFly for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -87,6 +87,9 @@
     </Criteria>
     <Criteria id="MedievalPirateUnit">
       <ModInUse>1d396ebb-6554-4f17-ad44-c95f600b2185</ModInUse>
+    </Criteria>
+    <Criteria id="MonopolyPlusProductAndCorporationAdjustments">
+      <ModInUse>a64e1c66-ce48-4d80-8225-47402db353aa</ModInUse>
     </Criteria>
     <Criteria id="MoreMaritime">
       <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
@@ -222,6 +225,13 @@
       <ModInUse>89cedcae-a9c5-42d5-badf-cb011ccac69d</ModInUse>
     </Criteria>
     <!-- Better Tech Tree (UI) - 6T -->
+    <Criteria id="Monopolies_Mode">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
   </ActionCriteria>
   <InGameActions>
     <UpdateText id="AircraftCarriersPerfected_de_DE">
@@ -330,6 +340,15 @@
     <UpdateText id="MedievalPirateUnit_de_DE">
       <Criteria>MedievalPirateUnit</Criteria>
       <File>2511787097/Core/DL_Texts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MonopolyPlusProductAndCorporationAdjustments_de_DE">
+      <Criteria>MonopolyPlusProductAndCorporationAdjustments</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>2479195330/Text/MonopolyPlus_Texts_de_DE.sql</File>
+      <File>2479195330/Text/MonopolyPlusAdjustments_GreatPeopleTexts_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="MotherlandCalls_de_DE">
       <Criteria>MotherlandCalls</Criteria>
@@ -556,6 +575,8 @@
     <File>2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_de_DE.sql</File>
     <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
     <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
+    <File>2479195330/Text/MonopolyPlusAdjustments_GreatPeopleTexts_de_DE.sql</File>
+    <File>2479195330/Text/MonopolyPlus_Texts_de_DE.sql</File>
     <File>2494925002/Text/AKGC_Text_de_DE.xml</File>
     <File>2497071692/Text/ModSupport/RIB_Text_Latin_de_DE.sql</File>
     <File>2497071692/Text/ModSupport/RIB_Text_Resourceful_de_DE.sql</File>
