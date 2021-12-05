@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>		
+		<Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSTWEAK" Language="de_DE"><Text>+1 [ICON_SCIENCE] Wissenschaft und [ICON_CULTURE] Kultur von internationalen [ICON_TradeRoute] Handelsrouten. Erhalte einen zufälligen Technologie-Bonus, wenn ein anderer Spieler einen [ICON_GreatEngineer] Großen Ingenieur rekrutiert, und einen Ausrichtungs-Bonus, wenn ein anderer Spieler einen [ICON_GreatArtist] Großen Künstler oder [ICON_GreatMusician] Musiker rekrutiert.</Text></Row>
+	</LocalizedText>
+</GameData>

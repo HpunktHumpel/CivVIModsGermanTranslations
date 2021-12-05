@@ -31,6 +31,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. District Expansion: Entertainment (JNR | Gorowynn)
 1. Diversity City Center Buildings (D & cyj | H.Humpel)
 1. Endgame Map Replay (Technoluddite | Junky)
+1. EpsTweak for Catch-Up (Eps | Junky)
 1. Globe Theatre (World Wonder) (Deliverator23 | H.Humpel)
 1. Greatest Cities (Technoluddite | Junky)
 1. Herdsman (AOM | H.Humpel)
@@ -79,7 +80,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite & WindFly
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, Eps, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite & WindFly
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
