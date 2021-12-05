@@ -3,6 +3,7 @@
 - [NEW] Bonus Resource Improvements (vom 22. Juli 2021 um 7:57, Übersetzung von Junky)
 - [NEW] Monopoly++: Product and Corporation Adjustments (vom 7. Mai 2021 um 21:47, Übersetzung von Junky)
 - [NEW] Wetlands (vom 27. Apr. 2021 um 15:21, Übersetzung von Junky)
+- [IMPROVED] Renewable Energy Complexity
 - [IMPROVED] Thrones and Palaces
 
 
