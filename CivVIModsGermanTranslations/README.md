@@ -35,6 +35,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2494925002 | Greatest Cities | Technoluddite | Junky | **NEW**
+2497071692 | Bonus Resource Improvements | JNR | Junky | **NEW**
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel | #1
 2511787097 | Unit Expansion: Medieval Pirate Unit | D | Junky | #6

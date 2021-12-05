@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="7">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 45 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 46 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1638730282</Created>
+    <Created>1638734186</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite and WindFly for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -136,6 +136,9 @@
     <Criteria id="UC_Aqueduct">
       <ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
     </Criteria>
+    <Criteria id="UC_BonusResourceImprovements">
+      <ModInUse>48a2ffab-93d4-4ec4-bc92-a84dc3e063b9</ModInUse>
+    </Criteria>
     <Criteria id="UC_Campus">
       <ModInUse>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModInUse>
     </Criteria>
@@ -179,6 +182,46 @@
         <Value>1</Value>
       </ConfigurationValueMatches>
     </Criteria>
+    <Criteria id="NFP_01">
+      <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+    </Criteria>
+    <!-- Maya & Gran Colombia DLC -->
+    <Criteria id="Mod_Wet">
+      <ModInUse>73b1478a-73bf-4907-8914-b1b5acca388b</ModInUse>
+    </Criteria>
+    <!-- Wetlands -->
+    <Criteria id="MOD_Latin">
+      <ModInUse>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModInUse>
+    </Criteria>
+    <!-- Latin American Resources -->
+    <Criteria id="MOD_Suk">
+      <ModInUse>37fdca0b-9275-4235-9c18-c7ec348f930e</ModInUse>
+    </Criteria>
+    <!-- Sukritact's Resources -->
+    <Criteria id="MOD_Suk_Oceans">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <!-- Sukritact's Oceans -->
+    <Criteria id="MOD_R2">
+      <ModInUse>23879c66-7cbb-4320-a891-ad24026f1b6b</ModInUse>
+    </Criteria>
+    <!-- Resourceful 2 -->
+    <Criteria id="MOD_BTT">
+      <ModInUse>23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse>
+    </Criteria>
+    <!-- Better Tech Tree (UI) -->
+    <Criteria id="MOD_No_BTT">
+      <ModInUse inverse="1">23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse>
+    </Criteria>
+    <!-- Better Tech Tree (UI) -->
+    <Criteria id="MOD_6T_BTT">
+      <ModInUse>89cedcae-a9c5-42d5-badf-cb011ccac69d</ModInUse>
+    </Criteria>
+    <!-- Better Tech Tree (UI) - 6T -->
   </ActionCriteria>
   <InGameActions>
     <UpdateText id="AircraftCarriersPerfected_de_DE">
@@ -363,6 +406,69 @@
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_BRI_TextBase_de_DE">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>413</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/RIB_Text_Base_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_TextNFP_de_DE" criteria="NFP_01">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>414</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/RIB_Text_NFP_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_TextModSupport_Wetlands_de_DE" criteria="Mod_Wet">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>415</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/ModSupport/RIB_Text_Wetlands_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_TextModSupport_Latin_de_DE" criteria="MOD_Latin">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>416</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/ModSupport/RIB_Text_Latin_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_TextModSupport_Suk_de_DE" criteria="MOD_Suk">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>417</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/ModSupport/RIB_Text_Suk_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_TextModSupport_Suk_Oceans_de_DE" criteria="MOD_Suk_Oceans">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>418</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/ModSupport/RIB_Text_Suk_Oceans_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_TextModSupport_Resourceful_de_DE" criteria="MOD_R2">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>419</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/ModSupport/RIB_Text_Resourceful_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_Text_TechCivic_de_DE" criteria="MOD_No_BTT">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/RIB_Text_TechCivic_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BRI_Text_TechCivic_BTT_de_DE" criteria="MOD_BTT">
+      <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>2497071692/Text/ModSupport/RIB_Text_TechCivic_BTT_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UC_Campus_de_DE">
       <Criteria>UC_Campus</Criteria>
       <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
@@ -451,6 +557,15 @@
     <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
     <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     <File>2494925002/Text/AKGC_Text_de_DE.xml</File>
+    <File>2497071692/Text/ModSupport/RIB_Text_Latin_de_DE.sql</File>
+    <File>2497071692/Text/ModSupport/RIB_Text_Resourceful_de_DE.sql</File>
+    <File>2497071692/Text/ModSupport/RIB_Text_Suk_de_DE.sql</File>
+    <File>2497071692/Text/ModSupport/RIB_Text_Suk_Oceans_de_DE.sql</File>
+    <File>2497071692/Text/ModSupport/RIB_Text_TechCivic_BTT_de_DE.sql</File>
+    <File>2497071692/Text/ModSupport/RIB_Text_Wetlands_de_DE.sql</File>
+    <File>2497071692/Text/RIB_Text_Base_de_DE.sql</File>
+    <File>2497071692/Text/RIB_Text_NFP_de_DE.sql</File>
+    <File>2497071692/Text/RIB_Text_TechCivic_de_DE.sql</File>
     <File>2503076363/Text/NAT_WONDER_Text_de_DE.xml</File>
     <File>2511437298/Text/AL_STPETERS_TEXT_de_DE.xml</File>
     <File>2511787097/Core/DL_Texts_de_DE.sql</File>

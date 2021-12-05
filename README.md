@@ -10,6 +10,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 
 1. Aircraft Carriers Perfected (NullSpace | Junky)
 1. Angryr's Ancient Policies (Angryr | Junky)
+1. Bonus Resource Improvements (JNR | Junky)
 1. Borobudur (World Wonder) (Deliverator23 | H.Humpel)
 1. Botanist (AOM | H.Humpel)
 1. Brandenburg Gate (World Wonder) (Deliverator23 | H.Humpel)
