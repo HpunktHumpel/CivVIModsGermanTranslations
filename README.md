@@ -59,6 +59,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Wetlands (JNR | Junky)
 1. What Did I Promise? (Technoluddite | Junky)
 1. Yellow Crane Tower (WindFly | H.Humpel)
+1. Zee's Strategic Resource Overhaul (_Zee | Junky)
 
 
 ## Installation
@@ -82,7 +83,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, Eps, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite & WindFly
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, Eps, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly & _Zee
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

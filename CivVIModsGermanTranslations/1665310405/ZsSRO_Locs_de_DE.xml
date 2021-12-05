@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Oil Power 4 to 6 -->
+		<Replace Language="de_DE" Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION">
+			<Text>Wandelt automatisch eine beliebige Menge [ICON_RESOURCE_OIL] Öl in [ICON_Power] Energie für Städte innerhalb von 6 Feldern um, die es jede Runde benötigen, im Verhältnis von: [NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_OIL] Öl [ICON_PowerRight] 6 [ICON_Power] Energie[NEWLINE][ICON_Bullet]Moderater CO2-Ausstoß in die Atmosphäre[NEWLINE]Der [ICON_Production]-Produktionsbonus wird auf alle Stadtzentren innerhalb von 6 Feldern angewendet, die nicht bereits einen Bonus durch ein Kraftwerksgebäude haben.</Text>
+		</Replace>
+		<!-- Nuclear Power 16 to 10 -->
+		<Replace Language="de_DE" Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION">
+			<Text>Wandelt automatisch eine beliebige Menge [ICON_RESOURCE_URANIUM] Uran in [ICON_Power] Energie für Städte innerhalb von 6 Feldern um, die es benötigen, und zwar im Verhältnis von: [NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_URANIUM] Uran [ICON_PowerRight] 10 [ICON_Power] Energie[NEWLINE][ICON_Bullet]Minimale CO2-Emissionen in die Atmosphäre[NEWLINE]Wenn ein Kernkraftwerk einmal gebaut wurde, erhöht sich mit zunehmendem Alter die Wahrscheinlichkeit eines nuklearen Unfalls. Der [ICON_Production]Produktions- und [ICON_Science]Wissenschaftsbonus wird auf alle Stadtzentren innerhalb von 6 Feldern angewendet, die nicht bereits einen Bonus durch den Bau eines Kraftwerks haben.</Text>
+		</Replace>	
+		<!-- Orbital Laser Aluminum 30 to 100 -->
+		<Replace Language="de_DE" Tag="LOC_PROJECT_ORBITAL_LASER_DESCRIPTION">
+			<Text>Benötigt 100 [ICON_RESOURCE_ALUMINUM] Aluminium, um mit dem Bau zu beginnen. Raumfahrtprojekt, das die Exoplaneten-Expeditionsgeschwindigkeit um +1 Lichtjahr pro Runde erhöht und dadurch den Wissenschaftssieg beschleunigt.</Text>
+		</Replace>	
+	</LocalizedText>
+</GameData>
