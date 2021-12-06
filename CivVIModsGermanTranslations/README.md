@@ -4,16 +4,16 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
-1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | **NEW**
+1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
-1234108301 | Yellow Crane Tower | WindFly | H.Humpel | **NEW**
+1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
-1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | **NEW**
-1710103474 | Three Gorges Dam | WindFly | H.Humpel | **NEW**
+1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
+1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
@@ -29,29 +29,29 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
-2135724456 | Wetlands | JNR | Junky | **NEW**
-2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | **NEW**
-2187202390 | Motherland Calls | WindFly | H.Humpel | **NEW**
+2135724456 | Wetlands | JNR | Junky | #7
+2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
+2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
-2449611115 | EpsTweak for Catch-Up | Eps | Junky | **NEW**
+2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
-2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | **NEW**
-2494925002 | Greatest Cities | Technoluddite | Junky | **NEW**
-2497071692 | Bonus Resource Improvements | JNR | Junky | **NEW**
+2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | #7
+2494925002 | Greatest Cities | Technoluddite | Junky | #7
+2497071692 | Bonus Resource Improvements | JNR | Junky | #7
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel | #1
 2511787097 | Unit Expansion: Medieval Pirate Unit | D | Junky | #6
-2542898147 | Sukritact's Oceans | sukritact | Junky | **NEW**
+2542898147 | Sukritact's Oceans | sukritact | Junky | #7
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3
 2557418900 | Raubak Natural Gas | Searching... | Junky | #6
-2581704421 | What Did I Promise? | Technoluddite | Junky | **NEW**
+2581704421 | What Did I Promise? | Technoluddite | Junky | #7
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
-2608223282 | Thrones and Palaces | Technoluddite | Junky | **NEW**
+2608223282 | Thrones and Palaces | Technoluddite | Junky | #7
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel | #1
 2645582640 | Aircraft Carriers Perfected | NullSpace | Junky | #5
 2656616965 | Endgame Map Replay | Technoluddite | Junky | #6

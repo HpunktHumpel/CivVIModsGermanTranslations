@@ -1,4 +1,5 @@
 05.12.2021
+===== Version 7 =====
 
 - [NEW] Bonus Resource Improvements (vom 22. Juli 2021 um 7:57, Übersetzung von Junky)
 - [NEW] EpsTweak for Catch-Up (vom 9. Mai 2021 um 22:10, Übersetzung von Junky)
