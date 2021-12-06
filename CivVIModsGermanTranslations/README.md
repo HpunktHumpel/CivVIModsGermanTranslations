@@ -13,6 +13,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1588097397 | Botanist | AOM | H.Humpel | #3
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | **NEW**
+1710103474 | Three Gorges Dam | WindFly | H.Humpel | **NEW**
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4

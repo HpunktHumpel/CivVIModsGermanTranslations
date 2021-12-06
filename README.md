@@ -52,6 +52,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Sukritact's Oceans (sukritact | Junky)
 1. Sukritact's Resources (Deliverator23 & sukritact | Junky)
 1. Sukritact's Wat Arun (sukritact | H.Humpel)
+1. Three Gorges Dam (WindFly | H.Humpel)
 1. Thrones and Palaces (Technoluddite | Junky)
 1. Tower Bridge (World Wonder) (Deliverator23 | H.Humpel)
 1. Uffizi (World Wonder) (Deliverator23 | H.Humpel)

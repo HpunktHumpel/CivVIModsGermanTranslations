@@ -5,6 +5,7 @@
 - [NEW] Latin American Resources (vom 12. Feb. 2021 um 22:03, Übersetzung von Junky)
 - [NEW] Monopoly++: Product and Corporation Adjustments (vom 7. Mai 2021 um 21:47, Übersetzung von Junky)
 - [NEW] Sukritact's Resources (vom 3. Juli 2021 um 6:28 , Übersetzung von Junky)
+- [NEW] Three Gorges Dam (vom 15. Apr. 2019 um 13:53)
 - [NEW] Wetlands (vom 27. Apr. 2021 um 15:21, Übersetzung von Junky)
 - [NEW] Zee's Strategic Resource Overhaul (vom 28. Juli 2021 um 1:44, Übersetzung von Junky)
 - [IMPROVED] Renewable Energy Complexity
