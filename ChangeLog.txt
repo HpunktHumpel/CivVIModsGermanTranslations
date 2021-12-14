@@ -1,5 +1,6 @@
 14.12.2021
 
+- [NEW] Steel and Thunder: Unique Units (vom 21. Sep. 2021 um 13:24, Übersetzung von Junky)
 - [NEW] Sukritact's Egypt Rework (vom 30. Apr. 2021 um 15:29, Übersetzung von Junky)
 - [NEW] Zee's Decommission Power Plant (vom 7. Nov. 2019 um 4:25, Übersetzung von Junky)
 - [NEW] Zee's Properly Timed Eras (vom  30. Jan. 2021 um 6:04, Übersetzung von Junky)
@@ -12,8 +13,8 @@
 - [NEW] EpsTweak for Catch-Up (vom 9. Mai 2021 um 22:10, Übersetzung von Junky)
 - [NEW] Latin American Resources (vom 12. Feb. 2021 um 22:03, Übersetzung von Junky)
 - [NEW] Monopoly++: Product and Corporation Adjustments (vom 7. Mai 2021 um 21:47, Übersetzung von Junky)
-- [NEW] Sukritact's Resources (vom 3. Juli 2021 um 6:28 , Übersetzung von Junky)
-- [NEW] Three Gorges Dam (vom 15. Apr. 2019 um 13:53)
+- [NEW] Sukritact's Resources (vom 3. Juli 2021 um 6:28, Übersetzung von Junky)
+- [NEW] Three Gorges Dam (vom 15. Apr. 2019 um 13:53, Übersetzung von H.Humpel)
 - [NEW] Wetlands (vom 27. Apr. 2021 um 15:21, Übersetzung von Junky)
 - [NEW] Zee's Strategic Resource Overhaul (vom 28. Juli 2021 um 1:44, Übersetzung von Junky)
 - [IMPROVED] Renewable Energy Complexity
@@ -22,8 +23,8 @@
 
 30.11.2021
 
-- [NEW] Motherland Calls (vom 4. Aug. 2020 um 13:48)
-- [NEW] Yellow Crane Tower (vom 8. Juli 2020 um 15:09)
+- [NEW] Motherland Calls (vom 4. Aug. 2020 um 13:48, Übersetzung von H.Humpel)
+- [NEW] Yellow Crane Tower (vom 8. Juli 2020 um 15:09, Übersetzung von H.Humpel)
 
 
 28.11.2021
@@ -37,8 +38,8 @@
 21.11.2021
 ===== Version 6 =====
 
-- [NEW] Notre-Dame de Paris (vom 16. Apr. 2019 um 16:10)
-- [NEW] Sukritact's Wat Arun (vom 29. Mai 2017 um 1:04)
+- [NEW] Notre-Dame de Paris (vom 16. Apr. 2019 um 16:10, Übersetzung von H.Humpel)
+- [NEW] Sukritact's Wat Arun (vom 29. Mai 2017 um 1:04, Übersetzung von H.Humpel)
 
 
 20.11.2021
@@ -52,10 +53,10 @@
 15.11.2021
 ===== Version 5 =====
 
-- [NEW] Borobudur (World Wonder) (v1.2 vom 21. Okt. 2019 um 11:24)
-- [NEW] Buddhas of Bamyan (World Wonder) (v1.1 vom 3. Juli 2019 um 17:09)
-- [NEW] Burj Khalifa (World Wonder) (v1.02 vom 14. Okt. 2019 um 17:07)
-- [NEW] p0kiehl's Temple of Poseidon (vom 31. Mai 2019 um 4:24)
+- [NEW] Borobudur (World Wonder) (v1.2 vom 21. Okt. 2019 um 11:24, Übersetzung von H.Humpel)
+- [NEW] Buddhas of Bamyan (World Wonder) (v1.1 vom 3. Juli 2019 um 17:09, Übersetzung von H.Humpel)
+- [NEW] Burj Khalifa (World Wonder) (v1.02 vom 14. Okt. 2019 um 17:07, Übersetzung von H.Humpel)
+- [NEW] p0kiehl's Temple of Poseidon (vom 31. Mai 2019 um 4:24, Übersetzung von H.Humpel)
 
 
 14.11.2021
@@ -67,44 +68,44 @@
 11.11.2021
 ===== Version 4 =====
 
-- [NEW] Globe Theatre (World Wonder) (v1.04 vom 14. Okt. 2019 um 16:58)
-- [NEW] Uffizi (World Wonder) (v1.04 vom 21. Okt. 2019 um 11:21)
+- [NEW] Globe Theatre (World Wonder) (v1.04 vom 14. Okt. 2019 um 16:58, Übersetzung von H.Humpel)
+- [NEW] Uffizi (World Wonder) (v1.04 vom 21. Okt. 2019 um 11:21, Übersetzung von H.Humpel)
 
 
 10.11.2021
 
 - [NEW] Progressive Power Consumption (vom 15. Sep. um 11:26, Übersetzung von Junky)
 - [IMPROVED] Renewable Energy Complexity
-- [NEW] Leaning Tower of Pisa (World Wonder) (v1.3 vom 12. Feb. 2021 um 3:25)
+- [NEW] Leaning Tower of Pisa (World Wonder) (v1.3 vom 12. Feb. 2021 um 3:25, Übersetzung von H.Humpel)
 
 
 09.11.2021
 
 - [NEW] Renewable Energy Complexity (vom 23. Juli 2021 um 4:07, Übersetzung von Junky)
-- [NEW] Brandenburg Gate (World Wonder) (v1.11 vom 21. Okt. 2019 um 10:23)
-- [NEW] Porcelain Tower (World Wonder) (v1.2 vom 21. Okt. 2019 um 10:17)
-- [NEW] Tower Bridge (World Wonder) (v1.0 vom 20. Apr. 2020 um 18:18)
+- [NEW] Brandenburg Gate (World Wonder) (v1.11 vom 21. Okt. 2019 um 10:23, Übersetzung von H.Humpel)
+- [NEW] Porcelain Tower (World Wonder) (v1.2 vom 21. Okt. 2019 um 10:17, Übersetzung von H.Humpel)
+- [NEW] Tower Bridge (World Wonder) (v1.0 vom 20. Apr. 2020 um 18:18, Übersetzung von H.Humpel)
 
 
 07.11.2021
 ===== Version 3 =====
 
-- [NEW] Diversity City Center Buildings (vom 14. Juli 2021 um 10:11)
+- [NEW] Diversity City Center Buildings (vom 14. Juli 2021 um 10:11, Übersetzung von H.Humpel)
 
 
 06.11.2021
 
-- [NEW] National Projects: Satellites (vom 20. Juli 2021 um 8:52)
+- [NEW] National Projects: Satellites (vom 20. Juli 2021 um 8:52, Übersetzung von H.Humpel)
 
 
 05.11.2021
 
-- [NEW] Port Lime - Bridge Districts (vom 23. Dez. 2020 um 22:31)
+- [NEW] Port Lime - Bridge Districts (vom 23. Dez. 2020 um 22:31, Übersetzung von H.Humpel)
 
 
 04.11.2021
 
-- [NEW] Botanist (vom 7. Nov. 2019 um 2:19)
+- [NEW] Botanist (vom 7. Nov. 2019 um 2:19, Übersetzung von H.Humpel)
 
 
 03.11.2021
@@ -113,14 +114,14 @@
 - [NEW] District Expansion: Aqueduct (vom 20. Feb. 2021 um 19:01, Übersetzung von Gorowynn)
 - [NEW] District Expansion: Campus (vom 19. Okt. 2021 um 0:16, Übersetzung von Gorowynn)
 - [NEW] District Expansion: Entertainment (vom 20. Juli 2021 um 4:50, Übersetzung von Gorowynn)
-- [NEW] Herdsman (vom 16. Feb. 2019 um 16:00)
+- [NEW] Herdsman (vom 16. Feb. 2019 um 16:00, Übersetzung von H.Humpel)
 
 
 01.11.2021
 
 - [NEW] Angryr's Ancient Policies (vom 31. Juli 2020 um 2:17, Übersetzung von Junky)
-- [NEW] Civ VI Beer (vom 16. Feb. 2019 um 16:08)
-- [NEW] Cannabis and Hemp (vom 16. Feb. 2019 um 16:04)
+- [NEW] Civ VI Beer (vom 16. Feb. 2019 um 16:08, Übersetzung von H.Humpel)
+- [NEW] Cannabis and Hemp (vom 16. Feb. 2019 um 16:04, Übersetzung von H.Humpel)
 
 
 29.10.2021
@@ -128,11 +129,11 @@
 
 Initial release.
 
-- [NEW] CIVILIZATION VI: NATIONAL WONDERS (vom 10. Juli 2021 um 19:10)
-- [NEW] CIVLIZATION VI: NATIONAL WONDERS PACK 1 (vom 27. Sep. 2021 um 0:22)
-- [NEW] More Maritime: Seaside Sectors (vom 27. Sep. 2021 um 15:25)
-- [NEW] CIVILIZATION VI: ARECIBO OBSERVATORY (vom 5. Juli 2021 um 19:37)
-- [NEW] CIVILIZATION VI: CN Tower (vom 1. Apr. 2021 um 18:08)
-- [NEW] CIVILIZATION VI: EMPIRE STATE BUILDING (vom 4. Feb. 2021 um 18:54)
-- [NEW] CIVILIZATION VI: KINKAKU-JI (vom 15. März 2021 um 21:14)
-- [NEW] CIVILIZATION VI: ST PETERS BASILICA (vom 8. Juni 2021 um 21:54)
+- [NEW] CIVILIZATION VI: NATIONAL WONDERS (vom 10. Juli 2021 um 19:10, Übersetzung von H.Humpel)
+- [NEW] CIVLIZATION VI: NATIONAL WONDERS PACK 1 (vom 27. Sep. 2021 um 0:22, Übersetzung von H.Humpel)
+- [NEW] More Maritime: Seaside Sectors (vom 27. Sep. 2021 um 15:25, Übersetzung von H.Humpel)
+- [NEW] CIVILIZATION VI: ARECIBO OBSERVATORY (vom 5. Juli 2021 um 19:37, Übersetzung von H.Humpel)
+- [NEW] CIVILIZATION VI: CN Tower (vom 1. Apr. 2021 um 18:08, Übersetzung von H.Humpel)
+- [NEW] CIVILIZATION VI: EMPIRE STATE BUILDING (vom 4. Feb. 2021 um 18:54, Übersetzung von H.Humpel)
+- [NEW] CIVILIZATION VI: KINKAKU-JI (vom 15. März 2021 um 21:14, Übersetzung von H.Humpel)
+- [NEW] CIVILIZATION VI: ST PETERS BASILICA (vom 8. Juni 2021 um 21:54, Übersetzung von H.Humpel)

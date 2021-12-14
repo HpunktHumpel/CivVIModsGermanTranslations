@@ -49,6 +49,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Radiant Better Unit Promotions (Shirohô | Junky)
 1. Raubak Natural Gas (Searching... | Junky)
 1. Renewable Energy Complexity (JNR | Junky)
+1. Steel and Thunder: Unique Units (Deliverator23, janboruta & chimp | Junky)
 1. Sukritact's Egypt Rework (sukritact | Junky)
 1. Sukritact's Oceans (sukritact | Junky)
 1. Sukritact's Resources (Deliverator23 & sukritact | Junky)
@@ -87,7 +88,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, Eps, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly & _Zee
+- A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly & _Zee
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
