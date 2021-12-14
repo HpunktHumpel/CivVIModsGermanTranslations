@@ -60,6 +60,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Wetlands (JNR | Junky)
 1. What Did I Promise? (Technoluddite | Junky)
 1. Yellow Crane Tower (WindFly | H.Humpel)
+1. Zee's Decommission Power Plant (_Zee | Junky)
 1. Zee's Strategic Resource Overhaul (_Zee | Junky)
 
 

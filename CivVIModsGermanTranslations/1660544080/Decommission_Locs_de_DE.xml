@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- localizations for the decommission power plant project -->
+		<Replace Tag="LOC_PROJECT_CONVERT_REACTOR_TO_DISMANTLED" Language='de_DE'>
+			<Text>Kraftwerk stilllegen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CONVERT_REACTOR_TO_DISMANTLED_SHORT_NAME" Language='de_DE'>
+			<Text>Kraftwerk stilllegen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CONVERT_REACTOR_TO_DISMANTLED_DESCRIPTION" Language='de_DE'>
+			<Text>Nimmt das derzeitige Kraftwerk in dieser Stadt außer Betrieb und reißt es ab. Dadurch wird der Ressourcenverbrauch reduziert, aber die gesamte Stadt bleibt ohne Strom, es sei denn, Sie haben Alternativen in petto.</Text>
+		</Replace>		
+		<Replace Tag="LOC_PROJECT_CONVERT_REACTOR_TO_DISMANTLED_NUKE" Language='de_DE'>
+			<Text>Atomkraftwerk stilllegen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CONVERT_REACTOR_TO_DISMANTLED_NUKE_SHORT_NAME" Language='de_DE'>
+			<Text>Atomkraftwerk stilllegen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CONVERT_REACTOR_TO_DISMANTLED_NUKE_DESCRIPTION" Language='de_DE'>
+			<Text>Nimmt das Atomkraftwerk in dieser Stadt außer Betrieb und reißt es ab, wodurch zwar der Ressourcenverbrauch gesenkt wird, aber die gesamte Stadt ohne Strom bleibt, es sei denn, Sie haben Alternativen parat.[NEWLINE][NEWLINE]Dieser Vorgang dauert länger als bei nicht radioaktiven Kraftwerken, da die ordnungsgemäßen Verfahren zur sicheren Abschaltung und Entsorgung des radioaktiven Materials aufwändiger sind als der einfache Abriss des Gebäudes.</Text>
+		</Replace>	
+	</LocalizedText>
+</GameData>
