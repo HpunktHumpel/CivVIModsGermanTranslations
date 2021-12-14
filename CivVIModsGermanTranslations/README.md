@@ -14,6 +14,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | **NEW**
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
+1676363302 | Zee's Properly Timed Eras | _Zee | Junky | **NEW**
 1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
