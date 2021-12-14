@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="8">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 57 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 58 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1639519479</Created>
+    <Created>1639524925</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -164,6 +164,9 @@
     <Criteria id="UC_Campus">
       <ModInUse>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModInUse>
     </Criteria>
+    <Criteria id="UC_Commerce">
+      <ModInUse>52c17bf1-d630-42c8-a2d6-f20d8e019993</ModInUse>
+    </Criteria>
     <Criteria id="UC_Entertainment">
       <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
     </Criteria>
@@ -224,6 +227,82 @@
       <ModInUse inverse="1">f30353f2-8760-4f8d-a28e-08fb6445f627</ModInUse>
       <ModInUse inverse="1">1053759f-6c27-4684-930f-870917dd37d3</ModInUse>
     </Criteria>
+    <!-- UC Commerce Criteria -->
+    <Criteria id="UC">
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="CS_GatheringStorm">
+      <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+      <!-- Ethiopia DLC -->
+      <ModInUse inverse="1">4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>
+      <!-- ReCiv CSB -->
+      <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+      <!-- CIVITAS CSE -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="CS_CSB">
+      <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+      <!-- Ethiopia DLC -->
+      <ModInUse>4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>
+      <!-- ReCiv CSB -->
+      <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+      <!-- CIVITAS CSE -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="CS_Ethiopia">
+      <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+      <!-- Ethiopia DLC -->
+      <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+      <!-- CIVITAS CSE -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="CS_CSE">
+      <ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+      <!-- CIVITAS CSE -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="CS_CSE_Ethiopia">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="MOD_CX">
+      <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>
+      <!-- Civilizations Expanded -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="MOD_MMSS">
+      <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
+      <!-- More Maritime: Seaside Sectors -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
     <Criteria id="Monopolies_Mode">
       <ConfigurationValueMatches>
         <Group>Game</Group>
@@ -271,6 +350,20 @@
     <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
       <Criteria>SukritactsEgyptRework</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_FrontEnd_ConfigText_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>Text/UC_COM_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_FrontEnd_CX_Config_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_CX_de_DE.sql</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -590,6 +683,78 @@
       <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
       <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_Commerce_TextBase_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/UC_COM_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextCS_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>CS_GatheringStorm</Criteria>
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/UC_COM_Text_CS_GS_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextCS_Ethiopia_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>CS_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/UC_COM_Text_CS_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextModSupport_CSB_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>CS_CSB</Criteria>
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/ModSupport/UC_COM_Text_CS_CSB_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextModSupport_CSE_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>CS_CSE</Criteria>
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Default_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>223</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextModSupport_CX_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>MOD_CX</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/ModSupport/UC_COM_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextModSupport_RwF_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/ModSupport/UC_COM_Text_RwF.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Commerce_TextModSupport_MMSS_de_DE">
+      <Criteria>UC_Commerce</Criteria>
+      <Criteria>MOD_MMSS</Criteria>
+      <Properties>
+        <LoadOrder>520</LoadOrder>
+      </Properties>
+      <File>2056401784/Text/ModSupport/UC_COM_Text_MMSS_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UC_Entertainment_de_DE">
       <Criteria>UC_Entertainment</Criteria>
       <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
@@ -683,6 +848,15 @@
     <File>1889267110/Text/Porcelain_Tower_Text_de_DE.xml</File>
     <File>1894176600/Text/Brandenburg_Gate_Text_de_DE.xml</File>
     <File>1901462404/Text/UC_SAT_Text_de_DE.sql</File>
+    <File>2056401784/Text/ModSupport/UC_COM_Text_CS_CSB_de_DE.sql</File>
+    <File>2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Default_de_DE.sql</File>
+    <File>2056401784/Text/ModSupport/UC_COM_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    <File>2056401784/Text/ModSupport/UC_COM_Text_CX_de_DE.sql</File>
+    <File>2056401784/Text/ModSupport/UC_COM_Text_MMSS_de_DE.sql</File>
+    <File>2056401784/Text/ModSupport/UC_COM_Text_RwF_de_DE.sql</File>
+    <File>2056401784/Text/UC_COM_Text_CS_Ethiopia_de_DE.sql</File>
+    <File>2056401784/Text/UC_COM_Text_CS_GS_de_DE.sql</File>
+    <File>2056401784/Text/UC_COM_Text_de_DE.sql</File>
     <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>

@@ -28,6 +28,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. CIVILIZATION VI: ST PETERS BASILICA (Albro | H.Humpel)
 1. District Expansion: Aqueduct (JNR | Gorowynn)
 1. District Expansion: Campus (JNR | Gorowynn)
+1. District Expansion: Commerce (JNR | Junky)
 1. District Expansion: Entertainment (JNR | Gorowynn)
 1. Diversity City Center Buildings (D & cyj | H.Humpel)
 1. Endgame Map Replay (Technoluddite | Junky)
