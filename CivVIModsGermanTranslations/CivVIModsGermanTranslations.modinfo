@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="8">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 55 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 56 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1639516071</Created>
+    <Created>1639517709</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, cyj, D, Deliverator23, Eps, JNR, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -70,9 +70,6 @@
     <Criteria id="EpsTweakForCatchUp">
       <ModInUse>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModInUse>
     </Criteria>
-    <Criteria id="HarmonyInDiversity_not_in_use">
-      <ModInUse inverse="1">3e78c674-e4d8-4cb4-a62e-ea2338b7c7f9</ModInUse>
-    </Criteria>
     <Criteria id="GlobeTheatre">
       <ModInUse>be61704a-a0b5-45e5-b2d8-6dfc524c31c1</ModInUse>
     </Criteria>
@@ -132,6 +129,9 @@
     </Criteria>
     <Criteria id="StPetersBasilica">
       <ModInUse>e5f66e35-a710-4f89-afe7-a42e3e51cf9f</ModInUse>
+    </Criteria>
+    <Criteria id="SukritactsEgyptRework">
+      <ModInUse>8b858b76-6a79-4a30-a388-2316c4fbf496</ModInUse>
     </Criteria>
     <Criteria id="SukritactsOceans">
       <ModInUse>4922ba47-61e1-4b15-9281-db996b14522d</ModInUse>
@@ -213,6 +213,13 @@
       <ModInUse>89cedcae-a9c5-42d5-badf-cb011ccac69d</ModInUse>
     </Criteria>
     <!-- Better Tech Tree (UI) - 6T -->
+    <Criteria id="HarmonyInDiversity_not_in_use">
+      <ModInUse inverse="1">3e78c674-e4d8-4cb4-a62e-ea2338b7c7f9</ModInUse>
+    </Criteria>
+    <Criteria id="Rosetta_Conflict">
+      <ModInUse inverse="1">f30353f2-8760-4f8d-a28e-08fb6445f627</ModInUse>
+      <ModInUse inverse="1">1053759f-6c27-4684-930f-870917dd37d3</ModInUse>
+    </Criteria>
     <Criteria id="Monopolies_Mode">
       <ConfigurationValueMatches>
         <Group>Game</Group>
@@ -252,6 +259,10 @@
     <UpdateText id="EpsTweakForCatchUp_FrontEnd_de_DE">
       <Criteria>EpsTweakForCatchUp</Criteria>
       <File>2449611115/Core/GameText_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
+      <Criteria>SukritactsEgyptRework</Criteria>
+      <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -428,6 +439,18 @@
     <UpdateText id="RaubakNaturalGas_de_DE">
       <Criteria>RaubakNaturalGas</Criteria>
       <File>2557418900/Natural_gas_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="SukritactsEgyptRework_de_DE">
+      <Criteria>SukritactsEgyptRework</Criteria>
+      <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="SukritactsEgyptRework_CityList_de_DE">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>SukritactsEgyptRework</Criteria>
+      <Criteria>Rosetta_Conflict</Criteria>
+      <File>2423310185/Core/Localisation/Suk_EgyptRework_CityListText_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SukritactsOceans_de_DE">
       <Properties>
@@ -663,6 +686,8 @@
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
     <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
     <File>2384183359/Text/CL_EMPIRE_Text_de_DE.xml</File>
+    <File>2423310185/Core/Localisation/Suk_EgyptRework_CityListText_de_DE.sql</File>
+    <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
     <File>2442822973/Text/COREX_Text_Won_CL_de_DE.xml</File>
     <File>2442822973/Text/COREX_Text_Won_de_DE.xml</File>
     <File>2449611115/Core/GameText_de_DE.xml</File>

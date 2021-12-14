@@ -49,6 +49,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Radiant Better Unit Promotions (Shirohô | Junky)
 1. Raubak Natural Gas (Searching... | Junky)
 1. Renewable Energy Complexity (JNR | Junky)
+1. Sukritact's Egypt Rework (sukritact | Junky)
 1. Sukritact's Oceans (sukritact | Junky)
 1. Sukritact's Resources (Deliverator23 & sukritact | Junky)
 1. Sukritact's Wat Arun (sukritact | H.Humpel)
