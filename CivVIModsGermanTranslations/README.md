@@ -8,6 +8,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
+1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | **NEW**
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | **NEW**
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1564497864 | Herdsman | AOM | H.Humpel | #2

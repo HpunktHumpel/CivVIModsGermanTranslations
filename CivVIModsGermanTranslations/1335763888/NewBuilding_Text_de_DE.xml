@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_BUILDING_SAIGYOU_AYAKASHI_NAME" Language="de_DE">
+      <Text>Saigyou Ayakashi</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SAIGYOU_AYAKASHI_DESCRIPTION" Language="de_DE">
+      <Text>Eliminiere zum Zeitpunkt der Fertigstellung des Wunders alle Militäreinheiten, die nicht dem Besitzer gehören, mit der Chance von (2/Anzahl der lebenden Zivilisationen) und bietet im Anschluss die Anzahl der eliminierten Einheiten * 10 an [ICON_Culture] Kultur.[NEWLINE]+3 Anziehungskraft für alle Geländefelder in dieser Stadt.[NEWLINE][NEWLINE]Muss in Eurer Hauptstadt und neben einem Theaterplatz gebaut werden.[NEWLINE]Muss auf Ebene oder Grasland gebaut werden.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SAIGYOU_AYAKASHI_QUOTE" Language="de_DE">
+      <Text>Elegant blühend, Kirschblüten von Bokusenji[NEWLINE] - Border of Life</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SAIGYOU_AYAKASHI_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+      <Text>Der Saigyou Ayakashi ist ein Youkai-Kirschblütenbaum und die größte Kirschblüte in den Gärten von Hakugyokurou. Er existiert schon länger in der Unterwelt als die Geisterprinzessin Yuyuko Saigyouji selbst. Einige der Geister in der Unterwelt können erinnern sich daran, dass der Saigyou Ayakashi die schönsten Blüten hatte, die sie je gesehen hatten. Aber der Kirschbaum hat seit Ewigkeiten nicht mehr geblüht. Es scheint im Saigyou Ayakashi ein mächtiges Siegel zu geben, welches ihm die meiste Energie entzieht und ihn somit im Frühling überhaupt nicht blühen lässt. Ob der Baum etwas versiegelt oder ob der Baum selbst versiegelt wird, bleibt den meisten Außenstehenden ein Rätsel.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>
