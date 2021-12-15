@@ -12,6 +12,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
+1657288046 | Ski Resort Complexity | JNR | H.Humpel | **NEW**
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | **NEW**
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
