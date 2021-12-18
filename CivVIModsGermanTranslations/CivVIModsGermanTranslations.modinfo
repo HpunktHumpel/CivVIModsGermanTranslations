@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 60 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1639531672</Created>
+    <Created>1639867832</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -233,7 +233,7 @@
       <ModInUse inverse="1">f30353f2-8760-4f8d-a28e-08fb6445f627</ModInUse>
       <ModInUse inverse="1">1053759f-6c27-4684-930f-870917dd37d3</ModInUse>
     </Criteria>
-    <!-- UC Commerce Criteria -->
+    <!-- UC Criteria -->
     <Criteria id="UC">
       <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
       <!-- Golden Age -->
@@ -301,6 +301,16 @@
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
       <!-- Harmony in Diversity - UC Patch -->
     </Criteria>
+    <!-- UC Campus Criteria -->
+    <Criteria id="MOD_PPC">
+      <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>
+      <!-- Progressive Power Consumption -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <!-- UC Commerce Criteria -->
     <Criteria id="MOD_MMSS">
       <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
       <!-- More Maritime: Seaside Sectors -->
@@ -356,6 +366,18 @@
     <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
       <Criteria>SukritactsEgyptRework</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Campus_FrontEnd_ConfigText_de_DE">
+      <Properties>
+        <LoadOrder>240</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Campus_FrontEnd_TextModSupport_CX_Config_de_DE">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Commerce_FrontEnd_ConfigText_de_DE">
       <Criteria>UC_Commerce</Criteria>
@@ -632,8 +654,9 @@
       </Properties>
       <File>2497071692/Text/RIB_Text_Base_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_TextNFP_de_DE" criteria="NFP_01">
+    <UpdateText id="UC_BRI_TextNFP_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>NFP_01</Criteria>
       <Properties>
         <LoadOrder>414</LoadOrder>
       </Properties>
@@ -655,15 +678,17 @@
       </Properties>
       <File>2497071692/Text/ModSupport/RIB_Text_Latin_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_TextModSupport_Suk_de_DE" criteria="MOD_Suk">
+    <UpdateText id="UC_BRI_TextModSupport_Suk_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>MOD_Suk</Criteria>
       <Properties>
         <LoadOrder>417</LoadOrder>
       </Properties>
       <File>2497071692/Text/ModSupport/RIB_Text_Suk_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_TextModSupport_Suk_Oceans_de_DE" criteria="MOD_Suk_Oceans">
+    <UpdateText id="UC_BRI_TextModSupport_Suk_Oceans_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>MOD_Suk_Oceans</Criteria>
       <Properties>
         <LoadOrder>418</LoadOrder>
       </Properties>
@@ -677,24 +702,45 @@
       </Properties>
       <File>2497071692/Text/ModSupport/RIB_Text_Resourceful_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_Text_TechCivic_de_DE" criteria="MOD_No_BTT">
+    <UpdateText id="UC_BRI_Text_TechCivic_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>MOD_No_BTT</Criteria>
       <Properties>
         <LoadOrder>1300</LoadOrder>
       </Properties>
       <File>2497071692/Text/RIB_Text_TechCivic_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_BRI_Text_TechCivic_BTT_de_DE" criteria="MOD_BTT">
+    <UpdateText id="UC_BRI_Text_TechCivic_BTT_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
+      <Criteria>MOD_BTT</Criteria>
       <Properties>
         <LoadOrder>1300</LoadOrder>
       </Properties>
       <File>2497071692/Text/ModSupport/RIB_Text_TechCivic_BTT_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_Campus_de_DE">
+    <UpdateText id="UC_Campus_TextBase_de_DE">
       <Criteria>UC_Campus</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>240</LoadOrder>
+      </Properties>
       <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Campus_TextModSupport_CX_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <Criteria>MOD_CX</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
       <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Campus_TextModSupport_RwF_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/ModSupport/UC_CMP_Text_RwF_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Commerce_TextBase_de_DE">
       <Criteria>UC_Commerce</Criteria>
@@ -874,6 +920,7 @@
     <File>2056401784/Text/UC_COM_Text_de_DE.sql</File>
     <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
+    <File>2112359835/Text/ModSupport/UC_CMP_Text_RwF_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2135724456/Text/Wetlands_Text_de_DE.sql</File>
     <File>2155632734/Core/Leu_p0k_Resources_Localisation_de_DE.sql</File>
