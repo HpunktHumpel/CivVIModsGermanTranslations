@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 60 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1639867832</Created>
+    <Created>1639870936</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -301,6 +301,15 @@
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
       <!-- Harmony in Diversity - UC Patch -->
     </Criteria>
+    <!-- UC Aqueduct Criteria -->
+    <Criteria id="MOD_Suk_Khmer">
+      <ModInUse>0be03c78-49f0-473f-9865-6a5004994397</ModInUse>
+      <!-- Sukritact's Khmer Rework (Baray) -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
     <!-- UC Campus Criteria -->
     <Criteria id="MOD_PPC">
       <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>
@@ -366,6 +375,25 @@
     <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
       <Criteria>SukritactsEgyptRework</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Aqueduct_ConfigText_de_DE">
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
+      <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_AqueductTextModSupport_CX_Config_de_DE">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
+      <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_AqueductTextModSupport_Suk_Khmer_de_DE">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Campus_FrontEnd_ConfigText_de_DE">
       <Properties>
@@ -639,13 +667,46 @@
       <Criteria>TowerBridge</Criteria>
       <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
     </UpdateText>
-    <UpdateText id="UC_Aqueduct_de_DE">
+    <UpdateText id="UC_Aqueduct_TextBase_de_DE">
       <Criteria>UC_Aqueduct</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
       <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
-      <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Aqueduct_TextModSupport_CSE_de_DE">
+      <Criteria>UC_Aqueduct</Criteria>
+      <Criteria>CS_CSE</Criteria>
+      <Properties>
+        <LoadOrder>312</LoadOrder>
+      </Properties>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Default_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Aqueduct_TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Aqueduct</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>313</LoadOrder>
+      </Properties>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Aqueduct_TextModSupport_CX_de_DE">
+      <Criteria>UC_Aqueduct</Criteria>
+      <Criteria>MOD_CX</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Aqueduct_TextModSupport_Suk_Khmer_de_DE">
+      <Criteria>UC_Aqueduct</Criteria>
+      <Criteria>MOD_Suk_Khmer</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_BRI_TextBase_de_DE">
       <Criteria>UC_BonusResourceImprovements</Criteria>
