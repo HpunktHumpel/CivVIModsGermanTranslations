@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 60 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1639870936</Created>
+    <Created>1639872415</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -310,7 +310,7 @@
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
       <!-- Harmony in Diversity - UC Patch -->
     </Criteria>
-    <!-- UC Campus Criteria -->
+    <!-- UC Campus & UC Entertainment Criteria -->
     <Criteria id="MOD_PPC">
       <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>
       <!-- Progressive Power Consumption -->
@@ -323,6 +323,18 @@
     <Criteria id="MOD_MMSS">
       <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
       <!-- More Maritime: Seaside Sectors -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <!-- UC Entertainment Criteria -->
+    <Criteria id="MOD_Suk_Oceans">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
       <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
       <!-- Golden Age -->
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
@@ -420,6 +432,18 @@
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2056401784/Text/ModSupport/UC_COM_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Entertainment_ConfigText_de_DE">
+      <Properties>
+        <LoadOrder>270</LoadOrder>
+      </Properties>
+      <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Entertainment_TextModSupport_CX_Config_de_DE">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -875,14 +899,53 @@
       </Properties>
       <File>2056401784/Text/ModSupport/UC_COM_Text_MMSS_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_Entertainment_de_DE">
+    <UpdateText id="UC_Entertainment_TextBase_de_DE">
       <Criteria>UC_Entertainment</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>270</LoadOrder>
+      </Properties>
       <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
-      <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Entertainment_TextModSupport_CSE_de_DE">
+      <Criteria>UC_Entertainment</Criteria>
+      <Criteria>CS_CSE</Criteria>
+      <Properties>
+        <LoadOrder>272</LoadOrder>
+      </Properties>
       <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Default_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Entertainment_TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Entertainment</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>273</LoadOrder>
+      </Properties>
       <File>2474028548/Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Entertainment_TextModSupport_CX_de_DE">
+      <Criteria>UC_Entertainment</Criteria>
+      <Criteria>MOD_CX</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
       <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Entertainment_TextModSupport_Suk_Oceans_de_DE">
+      <Criteria>UC_Entertainment</Criteria>
+      <Criteria>MOD_Suk_Oceans</Criteria>
+      <Properties>
+        <LoadOrder>273</LoadOrder>
+      </Properties>
       <File>2474028548/Text/ModSupport/UC_ENT_Text_Suk_Oceans_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Entertainment_TextName_de_DE">
+      <Criteria>UC_Entertainment</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_ProgressivePowerConsumption_de_DE">
       <Criteria>UC_ProgressivePowerConsumption</Criteria>
