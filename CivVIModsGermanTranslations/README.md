@@ -8,16 +8,16 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
-1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | **NEW**
-1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | **NEW**
+1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
+1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
-1657288046 | Ski Resort Complexity | JNR | H.Humpel | **NEW**
-1660544080 | Zee's Decommission Power Plant | _Zee | Junky | **NEW**
+1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
+1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
-1676363302 | Zee's Properly Timed Eras | _Zee | Junky | **NEW**
+1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
@@ -32,7 +32,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
-2056401784 | District Expansion: Commerce | JNR | Junky | **NEW**
+2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
@@ -43,7 +43,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
-2423310185 | Sukritact's Egypt Rework | sukritact | Junky | **NEW**
+2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
