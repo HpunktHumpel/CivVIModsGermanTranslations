@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="8">
+<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 60 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 61 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1639872415</Created>
+    <Created>1639996046</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -127,6 +127,9 @@
     </Criteria>
     <Criteria id="RaubakNaturalGas">
       <ModInUse>932db66a-b5c5-41b6-9762-8dfb73201166</ModInUse>
+    </Criteria>
+    <Criteria id="RequestedPantheons">
+      <ModInUse>ef3d3f18-490d-4244-866a-d8687d6570df</ModInUse>
     </Criteria>
     <Criteria id="Resourceful2">
       <ModInUse>23879c66-7cbb-4320-a891-ad24026f1b6b</ModInUse>
@@ -380,6 +383,10 @@
       <Criteria>EpsTweakForCatchUp</Criteria>
       <File>2449611115/Core/GameText_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="RequestedPantheons_FrontEnd_de_DE">
+      <Criteria>RequestedPantheons</Criteria>
+      <File>1888611021/Pantheons_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SteelAndThunderUniqueUnits_FrontEnd_de_DE">
       <Criteria>SteelAndThunderUniqueUnits</Criteria>
       <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
@@ -388,20 +395,20 @@
       <Criteria>SukritactsEgyptRework</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_Aqueduct_ConfigText_de_DE">
+    <UpdateText id="UC_Aqueduct_FrontEnd_ConfigText_de_DE">
       <Properties>
         <LoadOrder>310</LoadOrder>
       </Properties>
       <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_AqueductTextModSupport_CX_Config_de_DE">
+    <UpdateText id="UC_Aqueduct_FrontEnd_TextModSupport_CX_Config_de_DE">
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_AqueductTextModSupport_Suk_Khmer_de_DE">
+    <UpdateText id="UC_Aqueduct_FrontEnd_TextModSupport_Suk_Khmer_de_DE">
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
@@ -433,13 +440,13 @@
       </Properties>
       <File>2056401784/Text/ModSupport/UC_COM_Text_CX_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_Entertainment_ConfigText_de_DE">
+    <UpdateText id="UC_Entertainment_FrontEnd_ConfigText_de_DE">
       <Properties>
         <LoadOrder>270</LoadOrder>
       </Properties>
       <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="UC_Entertainment_TextModSupport_CX_Config_de_DE">
+    <UpdateText id="UC_Entertainment_FrontEnd_TextModSupport_CX_Config_de_DE">
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
@@ -624,11 +631,15 @@
       <Criteria>RaubakNaturalGas</Criteria>
       <File>2557418900/Natural_gas_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="RequestedPantheons_de_DE">
+      <Criteria>RequestedPantheons</Criteria>
+      <File>1888611021/Pantheons_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SkiResortComplexity_de_DE">
       <Criteria>SkiResortComplexity</Criteria>
       <File>1657288046/II_SR_Text_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="SteelAndThunderUniqueUnits_FrontEnd_de_DE">
+    <UpdateText id="SteelAndThunderUniqueUnits_de_DE">
       <Criteria>SteelAndThunderUniqueUnits</Criteria>
       <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
     </UpdateText>
@@ -1030,6 +1041,7 @@
     <File>1782215547/Text/Borobudur_Text_de_DE.xml</File>
     <File>1782222841/Text/Bamyan_Text_de_DE.xml</File>
     <File>1828854812/Text/Leaning_Tower_Text_de_DE.xml</File>
+    <File>1888611021/Pantheons_Text_de_DE.sql</File>
     <File>1889267110/Text/Porcelain_Tower_Text_de_DE.xml</File>
     <File>1894176600/Text/Brandenburg_Gate_Text_de_DE.xml</File>
     <File>1901462404/Text/UC_SAT_Text_de_DE.sql</File>
