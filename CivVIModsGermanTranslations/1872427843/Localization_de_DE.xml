@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UNITOPERATION_EMIGRATION_DESCRIPTION"	Language="de_DE" Text="In diese Stadt auswandern. Diese Einheit zu ihrer Bevölkerung hinzufügen. Verbraucht den Siedler."/>
+		<Row Tag="LOC_UNITOPERATION_EMIGRATION_NAME"		Language="de_DE" Text="Auswandern"/>
+
+		<Update>
+			<Where Tag="LOC_UNIT_SETTLER_DESCRIPTION" Language="de_DE"/>
+			<Set Text="Kann neue Städte gründen. Reduziert bei Fertigstellung die [ICON_Citizen] Bevölkerung der Stadt um 1.[NEWLINE]Kann in Städte auswandern und +1 [ICON_Citizen] Bevölkerung hinzufügen. Verbraucht dabei den Siedler."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION" Language="de_DE"/>
+			<Set Text="+100% [ICON_Production] Produktion für Siedler in dieser Stadt."/>
+		</Update>
+	</LocalizedText>
+</GameData>
