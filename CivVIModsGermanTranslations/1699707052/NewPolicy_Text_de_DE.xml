@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_POLICY_MOD_ECOFASCISM_NAME" Language="de_DE">
+			<Text>Ökofaschismus</Text>
+		</Row>
+
+		<Row Tag="LOC_POLICY_MOD_ECOFASCISM_DESCRIPTION" Language="de_DE">
+			<Text>+2 Anziehungskraft für Geländefelder in Eurem Reich, aber auch -3 [ICON_Amenities] Annehmlichkeiten in jeder Stadt.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MOD_ECOFASCISM_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Ökofaschismus ist ein politisches Modell, das in totalitären Regierungen funktioniert und sich dem Schutz der Natur auf Kosten radikaler Maßnahmen wie militärischer Gewalt verschrieben hat.</Text>
+		</Row>
+
+
+	</LocalizedText>
+</GameData>

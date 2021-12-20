@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 62 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 63 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640006440</Created>
+    <Created>1640019021</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -73,6 +73,9 @@
     </Criteria>
     <Criteria id="EndgameMapReplay">
       <ModInUse>da4f4000-53a0-4005-bb25-5354f781bef6</ModInUse>
+    </Criteria>
+    <Criteria id="EnvironmentalisticPolicy">
+      <ModInUse>1808a03a-da90-483c-bad1-3b92035e5c22</ModInUse>
     </Criteria>
     <Criteria id="EpsTweakForCatchUp">
       <ModInUse>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModInUse>
@@ -550,6 +553,10 @@
     <UpdateText id="EndgameMapReplay_de_DE">
       <Criteria>EndgameMapReplay</Criteria>
       <File>2656616965/Text/AKMH_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="EnvironmentalisticPolicy_de_DE">
+      <Criteria>EnvironmentalisticPolicy</Criteria>
+      <File>1699707052/NewPolicy_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="EpsTweakForCatchUp_de_DE">
       <Criteria>EpsTweakForCatchUp</Criteria>
@@ -1037,6 +1044,7 @@
     <File>1660936201/Text/CB_REC_Text_de_DE.sql</File>
     <File>1665310405/ZsSRO_Locs_de_DE.xml</File>
     <File>1676363302/ConfigText_de_DE.sql</File>
+    <File>1699707052/NewPolicy_Text_de_DE.xml</File>
     <File>1710103474/Data_Local_de_DE.xml</File>
     <File>1714267495/Data_Local_de_DE.xml</File>
     <File>1746376988/Core/p0k_Temple_Poseidon_Localisation_de_DE.xml</File>
