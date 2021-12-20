@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Milits -->
+		<Row Tag="LOC_UNIT_MILITS_NAME" Language="de_DE"> 
+			<Text>Miliz</Text>
+		</Row>    
+		<Row Tag="LOC_UNIT_MILITS_DESCRIPTION" Language="de_DE">
+			<Text>Einfache Kampfeinheit. Am besten gegen berittene Einheiten. Billig, aber kosten Bevölkerung.</Text>
+		</Row>
+
+		<!-- Rider -->
+		<Row Tag="LOC_UNIT_RIDER_NAME" Language="de_DE">
+			<Text>Kundschafter</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RIDER_DESCRIPTION" Language="de_DE">
+			<Text>Frühe berittene Einheit. Schwach, aber mit höherer Bewegung.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
