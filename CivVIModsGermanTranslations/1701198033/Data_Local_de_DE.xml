@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Local -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 3/28/2019 5:25:48 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WAR_PANDA_NAME" Language="de_DE">
+			<Text>Eisenfressende Bestie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WAR_PANDA_DESCRIPTION" Language="de_DE">
+			<Text>Chinas einzigartige schwere Kavallerieeinheit der Antike. Kann sich durch Wälder und Regenwald bewegen und sehen. Bietet 1 [ICON_Amenities] Annehmlichkeiten als Garnisons-Einheit für Städte.</Text>
+		</Replace>
+		<Replace Tag="LOC_FORMATION_CLASS_PANDA_NAME" Language="de_DE">
+			<Text>Panda</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_PANDA_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die "Eisenfressende Bestie" wird heute auch "Panda" genannt. In alten Büchern sind auch die Bezeichnungen „Pi Xiu“, „Zou Yu“ und andere zu finden. "Er Ya" zeichnet seine Bilder "bärenartig, kleiner Kopf und Füße, schwarz-weiß gestreift, kann Kupfer, Eisen und Bambus fressen", womit es den Namen des Eisenfressenden Tieres schuf. Nach den "Aufzeichnungen des Großen Historikers" wurden Pandas - zusammen mit anderen Wildtieren wie Bären, Tigern und Wölfen - vom Kaiser Huang domestiziert, um die Streitkräfte von Kaiser Yan zu bekämpfen. Über die Jahrhunderte wurde der Panda somit zum Symbol der "mutigen Armee". Das Bild des starken Pandas ist in den Köpfen der Menschen seit der Antike zu finden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_PANDA_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Nach Tausenden von Jahren sind Pandas aktuell vom Aussterben bedroht. Nur noch knapp 2000 von ihnen sind in freier Wildbahn gesichtet worden. Obwohl sie noch immer die Gewohnheiten von Fleischfressern beibehalten, ist ihr Grundnahrungsmittel im Grunde Bambus geworden. Ihre Tapferkeitsbilder haben sich um 180 Grad gedreht und sie sind zu einem liebenswerten dicken Bären geworden, der von Menschen auf der ganzen Welt geliebt wird. Pandas kämpfen schon lange nicht mehr für Menschen oder symbolisieren Heldentum, sondern sie sind mit einem ganz anderen Stil für die Menschen wieder zu einem "Schatz" geworden.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
