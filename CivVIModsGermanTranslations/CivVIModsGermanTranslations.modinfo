@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 65 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 66 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640029289</Created>
+    <Created>1640121291</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -91,6 +91,9 @@
     </Criteria>
     <Criteria id="Herdsman">
       <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
+    </Criteria>
+    <Criteria id="Immigration">
+      <ModInUse>f7534f11-987c-4011-b6d4-9b29a794af15</ModInUse>
     </Criteria>
     <Criteria id="KinkakuJi">
       <ModInUse>a3c1c60d-76e0-4088-94e2-497f5e85d888</ModInUse>
@@ -591,6 +594,13 @@
       <Criteria>Herdsman</Criteria>
       <File>1564497864/Herdsman_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="Immigration_de_DE">
+      <Criteria>Immigration</Criteria>
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>1673810086/Data_Localization_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="LatinAmericanResources_de_DE">
       <Criteria>LatinAmericanResources</Criteria>
       <Properties>
@@ -1067,6 +1077,7 @@
     <File>1660544080/Decommission_Locs_de_DE.xml</File>
     <File>1660936201/Text/CB_REC_Text_de_DE.sql</File>
     <File>1665310405/ZsSRO_Locs_de_DE.xml</File>
+    <File>1673810086/Data_Localization_de_DE.xml</File>
     <File>1676363302/ConfigText_de_DE.sql</File>
     <File>1681965868/NewUnit_Text_de_DE.xml</File>
     <File>1699707052/NewPolicy_Text_de_DE.xml</File>

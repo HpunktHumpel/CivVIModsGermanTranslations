@@ -17,6 +17,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
+1673810086 | Immigration - Move your population | WindFly | H.Humpel | **NEW**
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1681965868 | AOK_Units | anders | H.Humpel | **NEW**
 1699707052 | Environmentalistic Policy | weraptor | H.Humpel | **NEW**

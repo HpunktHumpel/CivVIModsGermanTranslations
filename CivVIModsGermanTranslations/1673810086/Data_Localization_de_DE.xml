@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Localization -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 3/4/2019 5:27:12 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_ONE_NAME" Language="de_DE">
+			<Text>Umsiedler (1-fach)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_TWO_NAME" Language="de_DE">
+			<Text>Umsiedler (2-fach)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_THREE_NAME" Language="de_DE">
+			<Text>Umsiedler (3-fach)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_FOUR_NAME" Language="de_DE">
+			<Text>Umsiedler (4-fach)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_FIVE_NAME" Language="de_DE">
+			<Text>Umsiedler (5-fach)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_ONE_DESCRIPTION" Language="de_DE">
+			<Text>Reduziert bei Abschluss die [ICON_Citizen] Bevölkerung dieser Stadt um 1.[NEWLINE]Erhöht bei der Verwendung die [ICON_Citizen] Bevölkerung einer Ziel-Stadt um 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_TWO_DESCRIPTION" Language="de_DE">
+			<Text>Reduziert bei Abschluss die [ICON_Citizen] Bevölkerung dieser Stadt um 2.[NEWLINE]Erhöht bei der Verwendung die [ICON_Citizen] Bevölkerung einer Ziel-Stadt um 2.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_THREE_DESCRIPTION" Language="de_DE">
+			<Text>Reduziert bei Abschluss die [ICON_Citizen] Bevölkerung dieser Stadt um 3.[NEWLINE]Erhöht bei der Verwendung die [ICON_Citizen] Bevölkerung einer Ziel-Stadt um 3.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_FOUR_DESCRIPTION" Language="de_DE">
+			<Text>Reduziert bei Abschluss die [ICON_Citizen] Bevölkerung dieser Stadt um 4.[NEWLINE]Erhöht bei der Verwendung die [ICON_Citizen] Bevölkerung einer Ziel-Stadt um 4.</Text>
+		</Replace>
+		    <Replace Tag="LOC_UNIT_IMMIGRATION_FIVE_DESCRIPTION" Language="de_DE">
+			<Text>Reduziert bei Abschluss die [ICON_Citizen] Bevölkerung dieser Stadt um 5.[NEWLINE]Erhöht bei der Verwendung die [ICON_Citizen] Bevölkerung einer Ziel-Stadt um 5.[NEWLINE]Erhaltet nach der Verwendung einen kostenlosen Militäringenieur bei der Regierungsform Faschismus, einen kostenlosen Handwerker bei der Regierungsform Kommunismus oder einen freien Händler bei der Regierungsform Demokratie.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_IMMIGRATION_NAME" Language="de_DE">
+			<Text>Umsiedlung</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_IMMIGRATION_NAME" Language="de_DE">
+			<Text>Erhöhung der Bevölkerungszahl</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_IMMIGRATION_DESCRIPTION" Language="de_DE">
+			<Text>Erhöht die [ICON_Citizen] Bevölkerung einer Stadt. (Verwendet dies, wenn sich die Einheit im Stadtzentrum der Zielstadt befindet.)</Text>
+		</Replace>
+		    <Replace Tag="LOC_POLICY_MIGRATION_POLICY_NAME" Language="de_DE">
+			<Text>Staatliche Umsiedlung</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MIGRATION_POLICY_DESCRIPTION" Language="de_DE">
+			<Text>+30% [ICON_Production] Produktion für Umsiedler. +1 [ICON_Movement] Bewegung für alle Umsiedler-Einheiten.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
