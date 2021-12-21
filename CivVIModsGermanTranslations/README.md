@@ -11,6 +11,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
+1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | **NEW**
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
