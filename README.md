@@ -28,6 +28,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. CIVILIZATION VI: NATIONAL WONDERS (Albro | H.Humpel)
 1. CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro | H.Humpel)
 1. CIVILIZATION VI: ST PETERS BASILICA (Albro | H.Humpel)
+1. Covfefe (DesertMoonGW | H.Humpel)
 1. District Expansion: Aqueduct (JNR | Gorowynn)
 1. District Expansion: Campus (JNR | Gorowynn)
 1. District Expansion: Commerce (JNR | Junky)
@@ -99,7 +100,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly & _Zee
+- A CityMaker, Albro, anders, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly & _Zee
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

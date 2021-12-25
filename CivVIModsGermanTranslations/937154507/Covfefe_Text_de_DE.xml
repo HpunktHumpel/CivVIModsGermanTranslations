@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- The name of the policy. -->
+		<Row Tag="LOC_POLICY_COVFEFE_NAME" Language="de_DE">
+			<Text>Covfefe</Text>
+		</Row>
+
+		<!-- The description of the policy. -->
+		<Row Tag="LOC_POLICY_COVFEFE_DESCRIPTION" Language="de_DE">
+			<Text>-20 [ICON_Science] Wissenschaft, +20 [ICON_Faith] Glauben</Text>
+		</Row>
+
+		<!-- Civilopedia information about the policy. -->
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COVFEFE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>"Covfefe" ist ein Wort, das US-Präsident Donald Trump am 31. Mai 2017 um 00:06 Uhr EDT, möglicherweise versehentlich, geprägt hat, als er eine Nachricht von der Twitter-App seines iPhones sendete, die lautete: "Trotz der ständig negativen Presse-Covfefe" ["Despite the constant negative press covfefe"].</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COVFEFE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Der anscheinend unvollständige Tweet wurde Hunderttausende Mal geliked und retweetet, was ihn zu einem der beliebtesten Tweets des Jahres 2017 machte, da die Leute über die Bedeutung von "Covfefe" spekulierten. Um 5:48 Uhr EDT wurde der Tweet gelöscht, und um 6:09 Uhr EDT twitterte Trumps Account: „Wer kann die wahre Bedeutung von ‚Covfefe‘ herausfinden??? Viel Spaß!“ ["Who can figure out the true meaning of 'covfefe' ??? Enjoy!"]</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COVFEFE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Der englische Originaltext wurde "unverhohlen aus dem Wikipedia-Artikel 'Covfefe' gestohlen".</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -5,6 +5,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | **NEW**
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
+937154507  | Covfefe | DesertMoonGW | H.Humpel | **NEW**
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
