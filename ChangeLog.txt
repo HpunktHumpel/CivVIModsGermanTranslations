@@ -5,6 +5,11 @@
 - [NEW] Trading Post Improvement (vom 25. März 2017 um 19:29, Übersetzung von H.Humpel)
 
 
+22.12.2021
+
+- [BUGFIX] Sukritact's Oceans
+
+
 21.12.2021
 
 - [NEW] Immigration - Move your population (vom 6. März 2019 um 2:28, Übersetzung von H.Humpel)
