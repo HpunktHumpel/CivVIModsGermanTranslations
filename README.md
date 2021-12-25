@@ -64,6 +64,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Sukritact's Oceans (sukritact | Junky)
 1. Sukritact's Resources (Deliverator23 & sukritact | Junky)
 1. Sukritact's Wat Arun (sukritact | H.Humpel)
+1. The Draft (blkbutterfly | H.Humpel)
 1. Three Gorges Dam (WindFly | H.Humpel)
 1. Thrones and Palaces (Technoluddite | Junky)
 1. Tide Mill Building (Sailor Cat | H.Humpel)
@@ -100,7 +101,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly & _Zee
+- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly & _Zee
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

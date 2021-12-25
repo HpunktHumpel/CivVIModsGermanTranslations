@@ -8,6 +8,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 937154507  | Covfefe | DesertMoonGW | H.Humpel | **NEW**
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
+1166015050 | The Draft | blkbutterfly | H.Humpel | **NEW**
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Draft_Text -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 10/12/2017 1:19:32 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_NAME" Language="de_DE">
+			<Text>Wehrpflicht</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION" Language="de_DE">
+			<Text>Unterhaltskosten für Einheiten werden um 6 [ICON_Gold] Gold pro Runde und Einheit reduziert. Allerdings -1 [ICON_Amenities] Annehmlichkeiten in Euren Städten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LEVEE_EN_MASSE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>In den Vereinigten Staaten wurde die Wehrpflicht von der Regierung in vier Konflikten eingesetzt: dem Amerikanischen Bürgerkrieg, dem Ersten Weltkrieg, dem Zweiten Weltkrieg und dem Kalten Krieg (einschließlich des Korea- und des Vietnamkriegs). Die dritte Einführung der Wehrpflicht wurde im Jahre 1940 durch den "Selective Training and Service Act" ermöglicht. Es war der erste Friedensentwurf des Landes. Von 1940 bis 1973 wurden sowohl in Friedens- als auch in Konfliktzeiten Männer eingezogen, um offene Stellen in den Streitkräften der Vereinigten Staaten zu besetzen, die nicht auf freiwilliger Basis besetzt werden konnten. Die Einberufung wurde beendet, als die US-Streitkräfte zu einer rein freiwilligen Militäreinheit übergingen. Das "Selective Service System" bleibt jedoch als Notfallplan bestehen. Alle männlichen Zivilisten im Alter zwischen 18 und 25 Jahren müssen sich registrieren, damit die Einberufung bei Bedarf ohne weiteres wieder aufgenommen werden kann.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
