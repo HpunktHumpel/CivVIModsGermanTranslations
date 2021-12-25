@@ -2,6 +2,7 @@
 
 Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
+891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | **NEW**
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7

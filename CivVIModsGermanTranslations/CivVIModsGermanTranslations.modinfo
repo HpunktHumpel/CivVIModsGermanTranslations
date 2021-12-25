@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 67 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 68 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640182387</Created>
+    <Created>1640453377</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, Captain Lime, chimp, cyj, D, Deliverator23, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -181,6 +181,9 @@
     </Criteria>
     <Criteria id="TowerBridge">
       <ModInUse>1cfe2a52-233b-4d4c-8bdf-209ec10352c1</ModInUse>
+    </Criteria>
+    <Criteria id="TradingPostImprovement">
+      <ModInUse>2a9464e0-c8ee-4dd6-b810-c4aa8e68d87c</ModInUse>
     </Criteria>
     <Criteria id="UC_Aqueduct">
       <ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
@@ -761,6 +764,10 @@
       <Criteria>TowerBridge</Criteria>
       <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="TradingPostImprovement_de_DE">
+      <Criteria>TradingPostImprovement</Criteria>
+      <File>891130600/GameText_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="UC_Aqueduct_TextBase_de_DE">
       <Criteria>UC_Aqueduct</Criteria>
       <Criteria>UC</Criteria>
@@ -1172,6 +1179,7 @@
     <File>2612473657/Text/NAT_WONDER_Text_PACK_01_de_DE.xml</File>
     <File>2645582640/CarriersLocalizationDB_de_DE.sql</File>
     <File>2656616965/Text/AKMH_Text_de_DE.xml</File>
+    <File>891130600/GameText_de_DE.xml</File>
     <File>902897696/Caravansaries_Text_de_DE.sql</File>
     <File>902897696/Discipline_Text_de_DE.sql</File>
     <File>902897696/GodKing_Text_de_DE.sql</File>

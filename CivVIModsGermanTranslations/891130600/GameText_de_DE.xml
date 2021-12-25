@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_GOLD] Gold für jede Handelsposten-Verbesserung.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TRADING_POST_NAME" Language="de_DE">
+			<Text>Handelsposten</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_TRADING_POST_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, Handelsposten zu bauen.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold.[NEWLINE]+1 [ICON_GOLD] Gold nach Erforschung des Wirtschaftswesens.[NEWLINE]+1 [ICON_GOLD] Gold wenn an einen Fluss angrenzend.[NEWLINE]+1 [ICON_GOLD] Gold wenn an eine Luxus-Ressource angrenzend.[NEWLINE]+1 [ICON_GOLD] Gold wenn an einen Handelszentrum-Bezirk angrenzend.[NEWLINE][NEWLINE]Kann auf Grasland, Ebene, Wüste und Tundra gebaut werden.[NEWLINE]Kann in Wäldern und Regenwald gebaut werden, ohne dass diese entfernt werden müssen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_TRADING_POST_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Handelsposten sind Außenposten, an denen Jäger und Fallensteller ihre Waren an Zivilisten verkaufen können, um Nahrung, Waffen, Whisky, Gold und alle anderen Insignien der Gesellschaft zu erwerben. Sie können viel Wohlstand für eine Gesellschaft erwirtschaften.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
