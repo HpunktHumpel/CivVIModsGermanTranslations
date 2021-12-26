@@ -57,6 +57,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Progressive Power Consumption (JNR | Junky)
 1. Radiant Better Unit Promotions (Shirohô | Junky)
 1. Raubak Natural Gas (Searching... | Junky)
+1. Removable Districts (TC | H.Humpel)
 1. Renewable Energy Complexity (JNR | Junky)
 1. Requested Pantheons (Angryr | H.Humpel)
 1. Ski Resort Complexity (JNR | H.Humpel)
@@ -102,7 +103,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly & _Zee
+- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, weraptor, WindFly & _Zee
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

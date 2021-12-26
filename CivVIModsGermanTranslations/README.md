@@ -6,6 +6,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
+970184582  | Removable Districts | TC | H.Humpel | **NEW**
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1166015050 | The Draft | blkbutterfly | H.Humpel | #9

@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 71 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 72 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640478801</Created>
+    <Created>1640547954</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -17,6 +17,7 @@
     <Mod id="95b955fc-2dd1-41c5-989e-0265d98a28bd" title="CIVILIZATION VI: [COLOR:ResGoldLabelCS]CITY LIGHTS[ENDCOLOR]" />
     <Mod id="632a4fa1-e907-4426-815b-8424aeb81bb0" title="Diversity City Center Buildings" />
     <Mod id="ff09ee51-3616-4e8b-af56-1cc5b511bb1a" title="Radiant Better Unit Promotions" />
+    <Mod id="7ce74c28-41ba-4453-b3d1-d30ef8013887" title="Removable Districts" />
     <Mod id="a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0" title="Steel and Thunder: Unique Units" />
   </References>
   <ActionCriteria>
@@ -148,6 +149,9 @@
     </Criteria>
     <Criteria id="RaubakNaturalGas">
       <ModInUse>932db66a-b5c5-41b6-9762-8dfb73201166</ModInUse>
+    </Criteria>
+    <Criteria id="RemovableDistricts">
+      <ModInUse>7ce74c28-41ba-4453-b3d1-d30ef8013887</ModInUse>
     </Criteria>
     <Criteria id="RequestedPantheons">
       <ModInUse>ef3d3f18-490d-4244-866a-d8687d6570df</ModInUse>
@@ -709,6 +713,20 @@
       <Criteria>RaubakNaturalGas</Criteria>
       <File>2557418900/Natural_gas_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateDatabase id="RemovableDistricts_Gameplay_de_DE">
+      <Criteria>RemovableDistricts</Criteria>
+      <Properties>
+        <LoadOrder>10000000</LoadOrder>
+      </Properties>
+      <File>970184582/RemovableDistricts_de_DE.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="RemovableDistricts_de_DE">
+      <Criteria>RemovableDistricts</Criteria>
+      <Properties>
+        <LoadOrder>10000001</LoadOrder>
+      </Properties>
+      <File>970184582/RemovableDistricts_text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="RequestedPantheons_de_DE">
       <Criteria>RequestedPantheons</Criteria>
       <File>1888611021/Pantheons_Text_de_DE.sql</File>
@@ -1215,6 +1233,8 @@
     <File>902897696/UrbanPlanning_Text_de_DE.sql</File>
     <File>933787677/Core/Suk_Wat_Arun_Localisation_de_DE.sql</File>
     <File>937154507/Covfefe_Text_de_DE.xml</File>
+    <File>970184582/RemovableDistricts_de_DE.sql</File>
+    <File>970184582/RemovableDistricts_text_de_DE.sql</File>
     <File>README.md</File>
   </Files>
 </Mod>
