@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 72 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640547954</Created>
+    <Created>1640553890</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -718,7 +718,7 @@
       <Properties>
         <LoadOrder>10000000</LoadOrder>
       </Properties>
-      <File>970184582/RemovableDistricts_de_DE.sql</File>
+      <File>970184582/RemovableDistricts_localization_fix.sql</File>
     </UpdateDatabase>
     <UpdateText id="RemovableDistricts_de_DE">
       <Criteria>RemovableDistricts</Criteria>
@@ -1233,7 +1233,7 @@
     <File>902897696/UrbanPlanning_Text_de_DE.sql</File>
     <File>933787677/Core/Suk_Wat_Arun_Localisation_de_DE.sql</File>
     <File>937154507/Covfefe_Text_de_DE.xml</File>
-    <File>970184582/RemovableDistricts_de_DE.sql</File>
+    <File>970184582/RemovableDistricts_localization_fix.sql</File>
     <File>970184582/RemovableDistricts_text_de_DE.sql</File>
     <File>README.md</File>
   </Files>
