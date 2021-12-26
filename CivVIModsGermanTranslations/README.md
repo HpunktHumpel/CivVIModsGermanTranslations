@@ -13,6 +13,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
+1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | **NEW**
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | **NEW**
 1564497864 | Herdsman | AOM | H.Humpel | #2

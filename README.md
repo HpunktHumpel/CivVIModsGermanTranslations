@@ -9,6 +9,7 @@ Deutsche Übersetzungen für diverse Civilization VI Mods.
 Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 
 1. Aircraft Carriers Perfected (NullSpace | Junky)
+1. Ancient Egyptian Pantheons (p0kiehl | H.Humpel)
 1. Angryr's Ancient Policies (Angryr | Junky)
 1. AOK_Units (anders | H.Humpel)
 1. Ayakashi Saigyou (KCucumber | H.Humpel)
