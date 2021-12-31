@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+    <!-- The name of the building. -->
+    <Replace Tag="LOC_BUILDING_LYCEUM" Language="de_DE">
+      <Text>Lyzeum</Text>
+    </Replace>
+
+    <!-- The description of the building, used in various places. -->
+    <Replace Tag="LOC_BUILDING_LYCEUM" Language="de_DE">
+      <Text>Ein Lyzeum ist ein Treffpunkt für Philosophen, um Vorträge zu halten und zu debattieren.</Text>
+    </Replace>
+
+    <!-- Pedia text (historical context) about the new building. -->
+    <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LYCEUM_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+      <Text>Der Tempel des Apollo Lyceus im antiken Athen diente oft als Ort philosophischer Diskussionen, vor allem der von Aristoteles und den Peripatetikern.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

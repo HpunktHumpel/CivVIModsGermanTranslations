@@ -46,6 +46,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Iron-eating Beast (aka Panda) (WindFly | H.Humpel)
 1. Latin American Resources (Leugi & p0kiehl | Junky)
 1. Leaning Tower of Pisa (World Wonder) (Deliverator23 | H.Humpel)
+1. Lyceum - Early Science Building (Linguaphile | H.Humpel)
 1. Monopoly++: Product and Corporation Adjustments (Leugi | Junky)
 1. More Maritime: Seaside Sectors (Albro | H.Humpel)
 1. Motherland Calls (WindFly | H.Humpel)
@@ -105,7 +106,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly & _Zee
+- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly & _Zee
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
