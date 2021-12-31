@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 75 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640917674</Created>
+    <Created>1640982204</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -427,26 +427,21 @@
       <File>2449611115/Core/GameText_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Panda_FrontEnd_de_DE">
-      <Criteria>Panda</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>1701198033/Data_Local_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="RequestedPantheons_FrontEnd_de_DE">
-      <Criteria>RequestedPantheons</Criteria>
       <File>1888611021/Pantheons_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SteelAndThunderUniqueUnits_FrontEnd_de_DE">
-      <Criteria>SteelAndThunderUniqueUnits</Criteria>
       <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
-      <Criteria>SukritactsEgyptRework</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SukritactsOceans_FrontEnd_de_DE">
-      <Criteria>SukritactsOceans</Criteria>
       <File>2542898147/Translations/Suk_Oceans_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Aqueduct_FrontEnd_ConfigText_de_DE">
@@ -481,14 +476,12 @@
       <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Commerce_FrontEnd_ConfigText_de_DE">
-      <Criteria>UC_Commerce</Criteria>
       <Properties>
         <LoadOrder>220</LoadOrder>
       </Properties>
       <File>2056401784/Text/UC_COM_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Commerce_FrontEnd_CX_Config_de_DE">
-      <Criteria>UC_Commerce</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
