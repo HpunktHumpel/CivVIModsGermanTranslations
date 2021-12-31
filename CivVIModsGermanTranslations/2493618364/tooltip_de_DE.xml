@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tooltip -->
+<!-- Author: Vinrock -->
+<!-- DateCreated: 5/17/2021 12:45:52 PM -->
+<!-- Translation: H.Humpel -->
+<GameData>
+	<LocalizedText>
+		<!-- GODDESS OF PROTECTION -->
+		<Row Tag="LOC_GODDESS_OF_PROTECTION_NAME" LANGUAGE="de_DE">
+			<Text>Göttin des Schutzes</Text>
+		</Row>
+		<Row Tag="LOC_GODDESS_OF_PROTECTION_DESC" LANGUAGE="de_DE">
+			<Text>+100% [ICON_Production] Produktion für Stadtmauern. +2 [ICON_Faith] Glauben durch Stadtmauern.</Text>
+		</Row>
+
+		<!-- GOD OF THE HILLS -->
+		<Row Tag="LOC_GOD_OF_THE_HILLS_NAME" LANGUAGE="de_DE">
+			<Text>Treppe zur Göttlichkeit</Text>
+		</Row>
+		<Row Tag="LOC_GOD_OF_THE_HILLS_DESC" LANGUAGE="de_DE">
+			<Text>Heilige-Stätte-Bezirke erhalten +1 [ICON_Faith] Glauben durch angrenzende Hügel-Geländefelder.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GRASS_HILLS_FAITH" LANGUAGE="de_DE">
+			<Text>+{1_num}[ICON_Faith] Glauben durch angrenzende Grasland (Hügel).</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DESERT_HILLS_FAITH" LANGUAGE="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzende Wüste (Hügel).</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLAINS_HILLS_FAITH" LANGUAGE="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzende Ebene (Hügel).</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TUNDRA_HILLS_FAITH" LANGUAGE="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzende Tundra (Hügel).</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SNOW_HILLS_FAITH" LANGUAGE="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzende Schnee (Hügel).</Text>
+		</Row>
+		<!-- HOLY WARRIORS -->
+		<Row Tag="LOC_HOLY_WARRIORS_NAME" LANGUAGE="de_DE">
+			<Text>Heilige Krieger</Text>
+		</Row>
+		<Row Tag="LOC_HOLY_WARRIORS_DESC" LANGUAGE="de_DE">
+			<Text>Erhaltet 2 Krieger in der Nähe Eurer Hauptstadt.</Text>
+		</Row>
+
+		<!--Abyssal call-->
+		<Row Tag="LOC_ABYSSAL_CALL_NAME" LANGUAGE="de_DE">
+			<Text>Ruf des Abgrunds</Text>
+		</Row>
+		<Row Tag="LOC_ABYSSAL_CALL_DESC" LANGUAGE="de_DE">
+			<Text>Heilige-Stätte-Bezirke erhalten +1 [ICON_Faith] Glauben durch angrenzende Küste-Geländefelder.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_OCEAN_FAITH" LANGUAGE="de_DE">
+			<Text>+{1_num} [ICON_Faith] durch angrenzende Küste-Geländefelder.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

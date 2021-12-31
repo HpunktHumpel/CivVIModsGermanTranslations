@@ -61,6 +61,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | #7
+2493618364 | Vinrock's Pantheons | Vinrock | H.Humpel | **NEW**
 2494925002 | Greatest Cities | Technoluddite | Junky | #7
 2497071692 | Bonus Resource Improvements | JNR | Junky | #7
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
