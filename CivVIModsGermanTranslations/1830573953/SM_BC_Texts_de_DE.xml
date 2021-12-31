@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SM_BC_Texts -->
+<!-- Author: Neicureuil -->
+<!-- DateCreated: 8/9/2019 6:48:09 PM -->
+<!-- Translation: H.Humpel -->
+<GameData>
+	<LocalizedText>
+		<!-- The name of the building. -->
+		<Row Tag="LOC_BUILDING_BROTHEL_NAME" Language="de_DE"><Text>Bordell</Text></Row>
+		<Row Tag="LOC_BUILDING_NIGHTCLUB_NAME" Language="de_DE"><Text>Nachtclub</Text></Row>
+		<Row Tag="LOC_BUILDING_TAXCENTER_NAME" Language="de_DE"><Text>Finanzamt</Text></Row>
+		<Row Tag="LOC_BUILDING_SHISHABAR_NAME" Language="de_DE"><Text>Shisha-Bar</Text></Row>
+		<Row Tag="LOC_BUILDING_SATANICTEMPLE_NAME" Language="de_DE"><Text>Satanischer Tempel</Text></Row>
+
+		<!-- The description of the building, used in various places. -->
+		<Row Tag="LOC_BUILDING_BROTHEL_DESCRIPTION" Language="de_DE"><Text>Ein Ort, an dem Menschen eine schöne Zeit mit anderen verbringen können, spezialisiert auf den Austausch von Flüssigkeiten.</Text></Row>
+		<Row Tag="LOC_BUILDING_NIGHTCLUB_DESCRIPTION" Language="de_DE"><Text>Ein Ort, an dem Menschen mit Lichtern, Musik und Stangentanz eine gute Zeit verbringen können.</Text></Row>
+		<Row Tag="LOC_BUILDING_TAXCENTER_DESCRIPTION" Language="de_DE"><Text>Ein Gebäude, in dem Ihr Steuern (Euer Geld) einzieht, zu "Eurem Wohl".</Text></Row>
+		<Row Tag="LOC_BUILDING_SHISHABAR_DESCRIPTION" Language="de_DE"><Text>Eine Bar, in der Gäste Narghile rauchen können.</Text></Row>
+		<Row Tag="LOC_BUILDING_SATANICTEMPLE_DESCRIPTION" Language="de_DE"><Text>Ein Tempel, in dem Menschen Satan anbeten und Menschen opfern können.</Text></Row>
+	</LocalizedText>
+</GameData>

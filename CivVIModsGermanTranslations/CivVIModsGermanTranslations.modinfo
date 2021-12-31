@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 72 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 73 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640553890</Created>
+    <Created>1640913284</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -161,6 +161,9 @@
     </Criteria>
     <Criteria id="SkiResortComplexity">
       <ModInUse>383e7753-bea6-4ff1-9ee4-e78c59f11c4f</ModInUse>
+    </Criteria>
+    <Criteria id="SquirrelModBetterCity">
+      <ModInUse>11a33a68-e4f7-42f2-ae42-68bbaa264562</ModInUse>
     </Criteria>
     <Criteria id="SteelAndThunderUniqueUnits">
       <ModInUse>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModInUse>
@@ -735,6 +738,10 @@
       <Criteria>SkiResortComplexity</Criteria>
       <File>1657288046/II_SR_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SquirrelModBetterCity_de_DE">
+      <Criteria>SquirrelModBetterCity</Criteria>
+      <File>1830573953/SM_BC_Texts_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="SteelAndThunderUniqueUnits_de_DE">
       <Criteria>SteelAndThunderUniqueUnits</Criteria>
       <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
@@ -1156,6 +1163,7 @@
     <File>1782215547/Text/Borobudur_Text_de_DE.xml</File>
     <File>1782222841/Text/Bamyan_Text_de_DE.xml</File>
     <File>1828854812/Text/Leaning_Tower_Text_de_DE.xml</File>
+    <File>1830573953/SM_BC_Texts_de_DE.xml</File>
     <File>1872427843/Localization_de_DE.xml</File>
     <File>1888611021/Pantheons_Text_de_DE.sql</File>
     <File>1889267110/Text/Porcelain_Tower_Text_de_DE.xml</File>

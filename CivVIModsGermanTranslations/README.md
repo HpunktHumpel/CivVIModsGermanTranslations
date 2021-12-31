@@ -39,6 +39,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1782215547 | Borobudur (World Wonder) | Deliverator23 | H.Humpel | #5
 1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | #5
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
+1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | **NEW**
 1872427843 | Emigration | Oni | H.Humpel | #9
 1888611021 | Requested Pantheons | Angryr | H.Humpel | #9
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
