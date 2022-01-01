@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 76 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 77 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641054292</Created>
+    <Created>1641061561</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -32,6 +32,9 @@
     </Criteria>
     <Criteria id="AOK_Units">
       <ModInUse>3085c585-8247-41cd-beb4-5f5db75d8d63</ModInUse>
+    </Criteria>
+    <Criteria id="Area51">
+      <ModInUse>22e526ea-c015-4c88-b243-d6476be0cbf0</ModInUse>
     </Criteria>
     <Criteria id="AreciboObservatory">
       <ModInUse>5a5601c5-090c-4172-89fe-8f1da9e2b96d</ModInUse>
@@ -541,6 +544,13 @@
     <UpdateText id="AOK_Units_de_DE">
       <Criteria>AOK_Units</Criteria>
       <File>1681965868/NewUnit_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="Area51_de_DE">
+      <Criteria>Area51</Criteria>
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>2642534170/Core/A51_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="Arecibo_UpdateText_de_DE">
       <Criteria>AreciboObservatory</Criteria>
@@ -1255,6 +1265,7 @@
     <File>2601169154/Text/Waterfront_EXP_Text_de_DE.xml</File>
     <File>2608223282/Text/AKPAL_Text_de_DE.xml</File>
     <File>2612473657/Text/NAT_WONDER_Text_PACK_01_de_DE.xml</File>
+    <File>2642534170/Core/A51_Text_de_DE.sql</File>
     <File>2645582640/CarriersLocalizationDB_de_DE.sql</File>
     <File>2656616965/Text/AKMH_Text_de_DE.xml</File>
     <File>891130600/GameText_de_DE.xml</File>
