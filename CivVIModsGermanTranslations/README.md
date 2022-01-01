@@ -51,6 +51,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
+2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | **NEW**
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
