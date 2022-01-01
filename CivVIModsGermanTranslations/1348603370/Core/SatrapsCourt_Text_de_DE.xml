@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_POK_DISTRICT_SATRAPS_COURT_NAME" Language="de_DE">
+			<Text>Satrapenhof</Text>
+		</Replace>
+		<Replace Tag="LOC_POK_DISTRICT_SATRAPS_COURT_DESCRIPTION" Language="de_DE">
+			<Text>Ein Bezirk für die Verwaltung des Reiches, der ausschließlich Persien und Makedonien zur Verfügung steht.[NEWLINE]In Städten mit voller Loyalität gewährt er die gleichen Erträge wie der Palast: +1 [ICON_Amenities] Annehmlichkeiten, +1 [ICON_Housing] Wohnraum, +2 [ICON_Science] Wissenschaft, +1 [ICON_Culture] Kultur, +2 [ICON_Production] Produktion und +5 [ICON_Gold] Gold.[NEWLINE]+1 [ICON_Gold] Gold pro Runde von ausländischen [ICON_TradeRoute] Handelsrouten, die durch diese Stadt führen. Wenn er geplündert wird, bringt es dem Feind eine große Menge [ICON_Gold] Gold.[NEWLINE]Kann nicht neben dem Stadtzentrum gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_POK_DISTRICT_SATRAPS_COURT_CHAPTER_HISTORY_PARA_1" Language="'de_DE'">
+			<Text>Satrapen waren die Statthalter der Provinzen des alten Median- und Achämenidenreiches sowie der hellenistischen Nachfolgereiche. Der Satrap war als Verwalter für das Land verantwortlich, das er besaß, und war von einem fast königlichen Hof umgeben. Er kassierte die Steuern, kontrollierte die örtlichen Beamten sowie die unterworfenen Stämme und Städte. Zugleich war er der oberste Richter der Provinz, vor dem alle Zivil- und Strafverfahren geführt werden konnten. Er war für die Sicherheit der Straßen verantwortlich und musste Räuber und Rebellen niederstrecken. Ihm zur Seite stand ein Rat der Perser, zu dem auch Provinziale zugelassen waren und der von einem königlichen Sekretär und Gesandten des Königs, insbesondere dem „Auge des Königs“, kontrolliert wurde. Dieser führte eine jährliche Inspektion durch und übte eine ständige Kontrolle aus. Wann immer die zentrale Autorität im Reich geschwächt war, genoss der Satrap oft praktische Unabhängigkeit.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

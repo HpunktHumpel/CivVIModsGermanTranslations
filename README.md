@@ -52,6 +52,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Motherland Calls (WindFly | H.Humpel)
 1. National Projects: Satellites (JNR | H.Humpel)
 1. Notre-Dame de Paris (WindFly | H.Humpel)
+1. p0kiehl's Satrap's Court (chimp & p0kiehl | H.Humpel)
 1. p0kiehl's Temple of Poseidon (p0kiehl | H.Humpel)
 1. Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)
 1. Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact | H.Humpel)

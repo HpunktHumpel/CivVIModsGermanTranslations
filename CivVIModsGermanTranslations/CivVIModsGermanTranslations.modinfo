@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 75 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 76 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1640982204</Created>
+    <Created>1641054292</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -134,6 +134,9 @@
     </Criteria>
     <Criteria id="NotreDameDeParis">
       <ModInUse>3db98aba-d7ca-4b4d-9596-e2344e593ed0</ModInUse>
+    </Criteria>
+    <Criteria id="p0kiehlsSatrapsCourt">
+      <ModInUse>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModInUse>
     </Criteria>
     <Criteria id="p0kiehlsTempleOfPoseidon">
       <ModInUse>06d0b218-87e4-4b69-9a16-f620e1019150</ModInUse>
@@ -432,6 +435,12 @@
       </Properties>
       <File>1701198033/Data_Local_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="p0kiehlsSatrapsCourt_de_DE">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="RequestedPantheons_FrontEnd_de_DE">
       <File>1888611021/Pantheons_Text_de_DE.sql</File>
     </UpdateText>
@@ -688,6 +697,13 @@
     <UpdateText id="NotreDameDeParis_de_DE">
       <Criteria>NotreDameDeParis</Criteria>
       <File>1714267495/Data_Local_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="p0kiehlsSatrapsCourt_de_DE">
+      <Criteria>p0kiehlsSatrapsCourt</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="p0kiehlsTempleOfPoseidon_de_DE">
       <Criteria>p0kiehlsTempleOfPoseidon</Criteria>
@@ -1143,6 +1159,7 @@
     <File>1302739491/Text_de_DE.sql</File>
     <File>1302739491/Text_de_DE.xml</File>
     <File>1335763888/NewBuilding_Text_de_DE.xml</File>
+    <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
     <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
     <File>1484935230/Core/EgyptianPantheon_Localisation_de_DE.sql</File>
     <File>1499009957/RBUP_RadiantBetterUnitPromotions_Text_de_DE.sql</File>
