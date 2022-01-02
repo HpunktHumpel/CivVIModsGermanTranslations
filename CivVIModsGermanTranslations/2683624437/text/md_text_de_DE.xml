@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Replace Language="de_DE" Tag="LOC_MD_MOVE_HINT">
+            <Text>Gebe {1_Amount: number #,###}[ICON_Gold] Gold aus zum Umziehen.</Text>
+        </Replace>
+        <Replace Language="de_DE" Tag="LOC_MD_DONT_ASK_AGAIN">
+            <Text>Nicht nochmal fragen.</Text>
+        </Replace>
+        <Replace Language="de_DE" Tag="LOC_MD_CONFIRM_MOVE">
+            <Text>Sind Sie sicher {1_Amount: number #,###}[ICON_Gold] Gold ausgeben zu wollen, um den Bezirk des Typs {2_DistrictType} mit allen Gebäuden umzuziehen?</Text>
+        </Replace>
+        <Replace Language="de_DE" Tag="LOC_MD_CANNOT_MOVE_DISTRICT">
+            <Text>Kann Bezirk nicht verschieben</Text>
+        </Replace>
+        <Replace Language="de_DE" Tag="LOC_MD_UNSUPPORTED_BUILDINGS">
+            <Text>Diese Gebäude können nicht verschoben werden, da mindestens 1 von ihnen besondere Bauanforderungen hat.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>
