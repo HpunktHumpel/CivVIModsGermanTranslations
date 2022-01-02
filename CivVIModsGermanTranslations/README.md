@@ -11,6 +11,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1166015050 | The Draft | blkbutterfly | H.Humpel | #9
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
+1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | **NEW**
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | **NEW**

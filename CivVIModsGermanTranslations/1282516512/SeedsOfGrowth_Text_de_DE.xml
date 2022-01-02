@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- The name of the policy. -->
+		<Replace Tag="LOC_POLICY_SEEDS_OF_GROWTH_NAME" Language="de_DE">
+			<Text>Saat des Wachstums</Text>
+		</Replace>
+
+		<!-- The description of the policy. -->
+		<Replace Tag="LOC_POLICY_SEEDS_OF_GROWTH_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Food] Nahrung in allen Städten und +1 [ICON_Culture] Kultur in der [ICON_Capital] Hauptstadt.</Text>
+		</Replace>
+
+		<!-- Civilopedia information about the policy. -->
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SEEDS_OF_GROWTH_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Frühen Reiche wussten um die Bedeutung des Wachstums. Wenn ihre Bürger nicht mit Nahrung versorgt würden, würde ihre Zivilisation zugrunde gehen.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

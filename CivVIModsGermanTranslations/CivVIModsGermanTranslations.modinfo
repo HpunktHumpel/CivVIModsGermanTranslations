@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 79 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 80 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641083965</Created>
+    <Created>1641119361</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -173,6 +173,9 @@
     </Criteria>
     <Criteria id="Resourceful2">
       <ModInUse>23879c66-7cbb-4320-a891-ad24026f1b6b</ModInUse>
+    </Criteria>
+    <Criteria id="SeedsOfGrowthPolicy">
+      <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c84</ModInUse>
     </Criteria>
     <Criteria id="SkiResortComplexity">
       <ModInUse>383e7753-bea6-4ff1-9ee4-e78c59f11c4f</ModInUse>
@@ -799,6 +802,10 @@
       <Criteria>RequestedPantheons</Criteria>
       <File>1888611021/Pantheons_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SeedsOfGrowthPolicy_de_DE">
+      <Criteria>SeedsOfGrowthPolicy</Criteria>
+      <File>1282516512/SeedsOfGrowth_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="SkiResortComplexity_de_DE">
       <Criteria>SkiResortComplexity</Criteria>
       <File>1657288046/II_SR_Text_de_DE.sql</File>
@@ -1202,6 +1209,7 @@
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
     <File>1166015050/XML/Draft_Text_de_DE.xml</File>
     <File>1234108301/NewBuilding_Text_de_DE.xml</File>
+    <File>1282516512/SeedsOfGrowth_Text_de_DE.xml</File>
     <File>1302739491/Text_de_DE.sql</File>
     <File>1302739491/Text_de_DE.xml</File>
     <File>1335763888/NewBuilding_Text_de_DE.xml</File>
