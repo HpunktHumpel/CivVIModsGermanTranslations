@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 80 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 81 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641119361</Created>
+    <Created>1641135474</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -19,6 +19,7 @@
     <Mod id="ff09ee51-3616-4e8b-af56-1cc5b511bb1a" title="Radiant Better Unit Promotions" />
     <Mod id="7ce74c28-41ba-4453-b3d1-d30ef8013887" title="Removable Districts" />
     <Mod id="a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0" title="Steel and Thunder: Unique Units" />
+    <Mod id="6ad2d524-acf8-4924-a0ca-3f52d8fa745e" title="Strategic Forts" />
   </References>
   <ActionCriteria>
     <Criteria id="AircraftCarriersPerfected">
@@ -188,6 +189,9 @@
     </Criteria>
     <Criteria id="StPetersBasilica">
       <ModInUse>e5f66e35-a710-4f89-afe7-a42e3e51cf9f</ModInUse>
+    </Criteria>
+    <Criteria id="StrategicForts">
+      <ModInUse>6ad2d524-acf8-4924-a0ca-3f52d8fa745e</ModInUse>
     </Criteria>
     <Criteria id="SukritactsEgyptRework">
       <ModInUse>8b858b76-6a79-4a30-a388-2316c4fbf496</ModInUse>
@@ -818,6 +822,21 @@
       <Criteria>SteelAndThunderUniqueUnits</Criteria>
       <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
     </UpdateText>
+    <UpdateDatabase id="StrategicForts_Gameplay_de_DE">
+      <Criteria>StrategicForts</Criteria>
+      <Properties>
+        <LoadOrder>10000000</LoadOrder>
+      </Properties>
+      <File>1142306094/StrategicForts_localization_fix.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="StrategicForts_de_DE">
+      <Criteria>StrategicForts</Criteria>
+      <Properties>
+        <LoadOrder>10000001</LoadOrder>
+      </Properties>
+      <File>1142306094/StrategicForts_Text_en_US.sql</File>
+      <File>1142306094/StrategicForts_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="SukritactsEgyptRework_de_DE">
       <Criteria>SukritactsEgyptRework</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
@@ -1204,6 +1223,9 @@
     </UpdateText>
   </InGameActions>
   <Files>
+    <File>1142306094/StrategicForts_localization_fix.sql</File>
+    <File>1142306094/StrategicForts_Text_de_DE.xml</File>
+    <File>1142306094/StrategicForts_Text_en_US.sql</File>
     <File>1150492115/Core/AlternateEconomy/Suk_AltEcon_Localisation_de_DE.sql</File>
     <File>1150492115/Core/Common/Suk_Resources_Localisation_de_DE.sql</File>
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>

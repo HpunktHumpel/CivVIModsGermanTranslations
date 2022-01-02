@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>
+		<!-- Update Defensive Improvement Descriptions-->
+		<Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="de_DE">
+			<Text>Beansprucht die umliegenden Felder für den Spieler.[NEWLINE][NEWLINE]Die besetzende Einheit erhält +6 [ICON_Strength] Verteidigungsstärke sowie erhöhte Sicht und Heilung.[NEWLINE][NEWLINE]Festungen können nicht auf Sumpf- oder Schwemmland-Geländefeldern gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Fähigkeit der römischen Legion frei, ein römisches Militärlager, die einzigartige Modernisierung Roms, zu bauen.[NEWLINE][NEWLINE]Die besetzende Einheit erhält +6 [ICON_Strength] Verteidigungsstärke sowie erhöhte Sicht und Heilung.[NEWLINE][NEWLINE]Römische Militärlager können nicht auf Sumpf- oder Schwemmland-Geländefeldern gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, die Große Mauer zu bauen, einzigartig für China.[NEWLINE][NEWLINE]Erhöht die [ICON_Strength] Verteidigungsstärke, sowie Sicht und Heilung.[NEWLINE][NEWLINE]Bonus auf [ICON_Gold] Gold, wenn sie sich neben weiteren Segmenten befindet. Zusätzliche [ICON_Culture] Kultur und [ICON_Tourism] Tourismus, wenn Ihr Fortschritte beim Technologiebaum für angrenzende Segmente erzielt. Muss in einer Linie entlang der Grenzen Eures Reichs gebaut werden.</Text>
+		</Replace>
+
+		<!-- New Alcazar Description -->
+		<Replace Tag="LOC_IMPROVEMENT_ALCAZAR_DESCRIPTION_TCS_MOD" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, einen Alcázar zu bauen.[NEWLINE][NEWLINE]+2 [ICON_Culture] Kultur. Die besetzende Einheit erhält +4 [ICON_Strength] Verteidigungsstärke sowie erhöhte Sicht und Heilung. Kann nicht neben einem weiteren Alcázar gebaut werden.</Text>
+		</Replace>
+
+		<!-- New Unit Abilities -->
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_BONUS_SIGHT_NAME" Language="de_DE">
+			<Text>Defensive Verbesserung Sicht</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_BONUS_SIGHT_DESCRIPTION" Language="de_DE">
+			<Text>Defensive Verbesserungen (Festung, Römisches Militärlager, Große Mauer und Alcázar) bietet der besetzenden Einheit +1 Sicht.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_BONUS_HEAL_NAME" Language="de_DE">
+			<Text>Defensive Verbesserung Heilung</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_BONUS_HEAL_DESCRIPTION" Language="de_DE">
+			<Text>Defensive Verbesserungen Festung, Römisches Militärlager, Große Mauer und Alcázar)  bietet der besetzenden Einheit +5 Heilung je Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_REVEAL_STEALTH_NAME" Language="de_DE">
+			<Text>Defensive Verbesserung Wahrnehmung</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_REVEAL_STEALTH_DESCRIPTION" Language="de_DE">
+			<Text>Defensive Verbesserungen (Festung, Römisches Militärlager, Große Mauer und Alcázar) deckt versteckte Einheiten auf, wenn sie besetzt sind.</Text>
+		</Replace>
+
+		<!-- Fixed Expansionist localization -->
+		<Replace Tag="LOC_UNIT_EXPANSIONIST_NAME" Language="de_DE">
+			<Text>Expansionist</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPANSIONIST_DESCRIPTION" Language="de_DE">
+			<Text>Handwerker-Einheit aus der Antike. Kann eine einzelne Festung errichten.</Text>
+		</Replace>
+
+	</LocalizedText>
+
+</GameData>
