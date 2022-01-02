@@ -45,7 +45,12 @@
 		<Replace Tag="LOC_UNIT_EXPANSIONIST_DESCRIPTION" Language="de_DE">
 			<Text>Handwerker-Einheit aus der Antike. Kann eine einzelne Festung errichten.</Text>
 		</Replace>
-
+		<Replace Tag="LOC_BUILDING_EXPANSIONIST_UNLOCK_NAME" Language="de_DE">
+			<Text>Freischaltung des Expansionisten (Dummy-Eintrag für/gegen die KI)</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EXPANSIONIST_UNLOCK_DESCRIPTION" Language="de_DE">
+			<Text>Ermöglicht es menschlichen Spielern, die Expansionisten-Einheit auszubilden.</Text>
+		</Replace>
 	</LocalizedText>
 
 </GameData>
