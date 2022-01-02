@@ -6,16 +6,16 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
-970184582  | Removable Districts | TC | H.Humpel | **NEW**
-1142306094 | Strategic Forts | TC | H.Humpel | **NEW**
+970184582  | Removable Districts | TC | H.Humpel | #10
+1142306094 | Strategic Forts | TC | H.Humpel | #10
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1166015050 | The Draft | blkbutterfly | H.Humpel | #9
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
-1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | **NEW**
+1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
-1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | **NEW**
+1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
@@ -42,8 +42,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1782215547 | Borobudur (World Wonder) | Deliverator23 | H.Humpel | #5
 1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | #5
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
-1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | **NEW**
-1871766085 | Lyceum - Early Science Building | Linguaphile | H.Humpel | **NEW**
+1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | #10
+1871766085 | Lyceum - Early Science Building | Linguaphile | H.Humpel | #10
 1872427843 | Emigration | Oni | H.Humpel | #9
 1888611021 | Requested Pantheons | Angryr | H.Humpel | #9
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
@@ -53,7 +53,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
-2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | **NEW**
+2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
@@ -66,7 +66,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | #7
-2493618364 | Vinrock's Pantheons | Vinrock | H.Humpel | **NEW**
+2493618364 | Vinrock's Pantheons | Vinrock | H.Humpel | #10
 2494925002 | Greatest Cities | Technoluddite | Junky | #7
 2497071692 | Bonus Resource Improvements | JNR | Junky | #7
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
@@ -79,7 +79,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
 2608223282 | Thrones and Palaces | Technoluddite | Junky | #7
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel | #1
-2642534170 | Area 51 - World Wonder + Alien Units | JNR | H.Humpel | **NEW**
+2642534170 | Area 51 - World Wonder + Alien Units | JNR | H.Humpel | #10
 2645582640 | Aircraft Carriers Perfected | NullSpace | Junky | #5
 2656616965 | Endgame Map Replay | Technoluddite | Junky | #6
-2683624437 | Movable Districts | wltk | Junky | **NEW**
+2683624437 | Movable Districts | wltk | Junky | #10
