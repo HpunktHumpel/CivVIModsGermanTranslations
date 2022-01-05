@@ -44,6 +44,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1822380055 | Sappers - Military Engineers support sieges | JNR | Junky | **NEW**
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
 1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | #10
+1839114973 | District Expansion: Military | JNR | Junky | **NEW**
 1871766085 | Lyceum - Early Science Building | Linguaphile | H.Humpel | #10
 1872427843 | Emigration | Oni | H.Humpel | #9
 1888611021 | Requested Pantheons | Angryr | H.Humpel | #9
