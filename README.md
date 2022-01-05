@@ -53,6 +53,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Lyceum - Early Science Building (Linguaphile | H.Humpel)
 1. Monopoly++: Product and Corporation Adjustments (Leugi | Junky)
 1. Monopoly++: Resource Requirement Setup (Leugi | Junky)
+1. Monopoly++: Tycoons and Investors (Leugi | Junky)
 1. More Maritime: Seaside Sectors (Albro | H.Humpel)
 1. Motherland Calls (WindFly | H.Humpel)
 1. Movable Districts (wltk | Junky)

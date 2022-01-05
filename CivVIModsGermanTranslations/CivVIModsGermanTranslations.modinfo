@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 87 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 88 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641424864</Created>
+    <Created>1641426370</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -176,6 +176,9 @@
     </Criteria>
     <Criteria id="MonopolyPlusProductAndCorporationAdjustments">
       <ModInUse>a64e1c66-ce48-4d80-8225-47402db353aa</ModInUse>
+    </Criteria>
+    <Criteria id="MonopolyPlusTycoonsAndInvestors">
+      <ModInUse>b248a322-3e2a-4a6a-830a-6b0d1f3435fc</ModInUse>
     </Criteria>
     <Criteria id="MoreMaritime">
       <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
@@ -862,6 +865,28 @@
       </Properties>
       <File>2479195330/Text/MonopolyPlus_Texts_de_DE.sql</File>
       <File>2479195330/Text/MonopolyPlusAdjustments_GreatPeopleTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MonopolyPlusTycoonsAndInvestors_Text_de_DE">
+      <Criteria>MonopolyPlusTycoonsAndInvestors</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <Exclude mod_id="b248a322-3e2a-4a6a-830a-6b0d1f3435fc" action_id="MonopolyPlusTycoonsAndInvestors_NoMonopoliesText_de_DE" />
+      <File>2479197624/Text/MonopolyPlust_UnitTexts_de_DE.sql</File>
+      <File>2479197624/Text/MonopolyPlus_ImprovementTexts_de_DE.sql</File>
+      <File>2479197624/Text/MonopolyPlus_GreatPeopleTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MonopolyPlusTycoonsAndInvestors_JNRCompatibilityTexts_de_DE">
+      <Criteria>MonopolyPlusTycoonsAndInvestors</Criteria>
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>2479197624/Text/MonopolyPlus_JNRCompatibilityTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MonopolyPlusTycoonsAndInvestors_NoMonopoliesText_de_DE">
+      <Criteria>MonopolyPlusTycoonsAndInvestors</Criteria>
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>2479197624/Text/MonopolyPlus_TycoonsText_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="MotherlandCalls_de_DE">
       <Criteria>MotherlandCalls</Criteria>
@@ -1560,6 +1585,11 @@
     <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     <File>2479195330/Text/MonopolyPlusAdjustments_GreatPeopleTexts_de_DE.sql</File>
     <File>2479195330/Text/MonopolyPlus_Texts_de_DE.sql</File>
+    <File>2479197624/Text/MonopolyPlust_UnitTexts_de_DE.sql</File>
+    <File>2479197624/Text/MonopolyPlus_GreatPeopleTexts_de_DE.sql</File>
+    <File>2479197624/Text/MonopolyPlus_ImprovementTexts_de_DE.sql</File>
+    <File>2479197624/Text/MonopolyPlus_JNRCompatibilityTexts_de_DE.sql</File>
+    <File>2479197624/Text/MonopolyPlus_TycoonsText_de_DE.sql</File>
     <File>2493618364/tooltip_de_DE.xml</File>
     <File>2494925002/Text/AKGC_Text_de_DE.xml</File>
     <File>2497071692/Text/ModSupport/RIB_Text_Latin_de_DE.sql</File>
