@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 83 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 84 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641411527</Created>
+    <Created>1641419403</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -61,6 +61,9 @@
     </Criteria>
     <Criteria id="UniqueBuildingDojo_FrontEnd">
       <ModEnabled>1B28771A-C749-434B-9053-D1380C553DE9</ModEnabled>
+    </Criteria>
+    <Criteria id="UniqueImprovementCastrum_FrontEnd">
+      <ModEnabled>6bdbd506-bec5-432e-a9a7-c4fa6330b323</ModEnabled>
     </Criteria>
     <!-- InGame Actions -->
     <Criteria id="AircraftCarriersPerfected">
@@ -296,6 +299,9 @@
     </Criteria>
     <Criteria id="UniqueBuildingDojo">
       <ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse>
+    </Criteria>
+    <Criteria id="UniqueImprovementCastrum">
+      <ModInUse>6bdbd506-bec5-432e-a9a7-c4fa6330b323</ModInUse>
     </Criteria>
     <Criteria id="VinrocksPantheons">
       <ModInUse>c01a2754-aa11-4e27-9cf0-c55c13457a94</ModInUse>
@@ -602,6 +608,13 @@
         <LoadOrder>13</LoadOrder>
       </Properties>
       <File>2095575379/Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UniqueImprovementCastrum_FrontEnd_de_DE">
+      <!--        <Criteria>UniqueImprovementCastrum_FrontEnd</Criteria> -->
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>2091335195/Core/Castrum_Text_de_DE.sql</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -1265,6 +1278,13 @@
       </Properties>
       <File>2095575379/Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UniqueImprovementCastrum_de_DE">
+      <Criteria>UniqueImprovementCastrum</Criteria>
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>2091335195/Core/Castrum_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="VinrocksPantheons_de_DE">
       <Criteria>VinrocksPantheons</Criteria>
       <File>2493618364/tooltip_de_DE.xml</File>
@@ -1366,6 +1386,7 @@
     <File>2056401784/Text/UC_COM_Text_CS_GS_de_DE.sql</File>
     <File>2056401784/Text/UC_COM_Text_de_DE.sql</File>
     <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
+    <File>2091335195/Core/Castrum_Text_de_DE.sql</File>
     <File>2095575379/Text_de_DE.sql</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_RwF_de_DE.sql</File>
