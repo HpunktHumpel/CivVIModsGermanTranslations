@@ -86,4 +86,5 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2642534170 | Area 51 - World Wonder + Alien Units | JNR | H.Humpel | #10
 2645582640 | Aircraft Carriers Perfected | NullSpace | Junky | #5
 2656616965 | Endgame Map Replay | Technoluddite | Junky | #6
+2669325299 | District Expansion: Suburbs | JNR | Junky | **NEW**
 2683624437 | Movable Districts | wltk | Junky | #10

@@ -1,6 +1,7 @@
 05.01.2022
 
 - [NEW] District Expansion: Military (6. Dez. 2021 um 11:40, Übersetzung von Junky)
+- [NEW] District Expansion: Suburbs (6. Dez. 2021 um 11:43, Übersetzung von Junky)
 - [NEW] Sappers - Military Engineers support sieges (vom 23. Juli 2021 um 4:10, Übersetzung von Junky)
 - [NEW] Unique Building: Dojo (Japan) (vom 14. Mai 2020 um 0:54, Übersetzung von Junky)
 - [NEW] Unique Improvement: Castrum (Rome) (vom 6. Dez. 2021 um 14:32, Übersetzung von Junky)
