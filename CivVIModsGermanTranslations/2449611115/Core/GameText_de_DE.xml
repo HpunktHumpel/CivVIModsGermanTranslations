@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<LocalizedText>		
-		<Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSTWEAK" Language="de_DE"><Text>+1 [ICON_SCIENCE] Wissenschaft und [ICON_CULTURE] Kultur von internationalen [ICON_TradeRoute] Handelsrouten. Erhalte einen zufälligen Technologie-Bonus, wenn ein anderer Spieler einen [ICON_GreatEngineer] Großen Ingenieur rekrutiert, und einen Ausrichtungs-Bonus, wenn ein anderer Spieler einen [ICON_GreatArtist] Großen Künstler oder [ICON_GreatMusician] Musiker rekrutiert.</Text></Row>
+	<LocalizedText>
+		<Replace Tag="EPSTWEAK_CATCHUP_MESSAGE_NAME" Language="de_DE"><Text>Aufgeholt</Text></Replace>
+		<Replace Tag="EPSTWEAK_CATCHUP_MESSAGE_TEXT" Language="de_DE"><Text>Du hast einen Bonus für {1_name} erhalten, weil {2_count} andere Spieler es bereits entdeckt haben.</Text></Replace>
+			
+		<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSTWEAK" Language="de_DE"><Text>+1 [ICON_SCIENCE] Wissenschaft und [ICON_CULTURE] Kultur von internationalen [ICON_TradeRoute] Handelswegen. Erhalte einen zufälligen Technologie-Bonus, wenn ein anderer Spieler einen [ICON_GreatEngineer] Großen Ingenieur rekrutiert und einen Ausrichtungs-Bonus, wenn ein anderer Spieler einen [ICON_GreatArtist] Großen Künstler oder [ICON_GreatMusician] Musiker rekrutiert.</Text></Replace>-->
 	</LocalizedText>
 </GameData>
