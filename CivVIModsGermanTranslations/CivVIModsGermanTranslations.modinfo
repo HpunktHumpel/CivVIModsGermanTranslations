@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 81 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 82 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641409577</Created>
+    <Created>1641410327</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -215,6 +215,9 @@
     </Criteria>
     <Criteria id="SeedsOfGrowthPolicy">
       <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c84</ModInUse>
+    </Criteria>
+    <Criteria id="Sappers">
+      <ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
     </Criteria>
     <Criteria id="SkiResortComplexity">
       <ModInUse>383e7753-bea6-4ff1-9ee4-e78c59f11c4f</ModInUse>
@@ -861,6 +864,13 @@
       <Criteria>RequestedPantheons</Criteria>
       <File>1888611021/Pantheons_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="Sappers_de_DE">
+      <Criteria>Sappers</Criteria>
+      <Properties>
+        <LoadOrder>213</LoadOrder>
+      </Properties>
+      <File>1822380055/MC_Sappers_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SeedsOfGrowthPolicy_de_DE">
       <Criteria>SeedsOfGrowthPolicy</Criteria>
       <File>1282516512/SeedsOfGrowth_Text_de_DE.xml</File>
@@ -1317,6 +1327,7 @@
     <File>1782204294/Text/Uffizi_Text_de_DE.xml</File>
     <File>1782215547/Text/Borobudur_Text_de_DE.xml</File>
     <File>1782222841/Text/Bamyan_Text_de_DE.xml</File>
+    <File>1822380055/MC_Sappers_Text_de_DE.sql</File>
     <File>1828854812/Text/Leaning_Tower_Text_de_DE.xml</File>
     <File>1830573953/SM_BC_Texts_de_DE.xml</File>
     <File>1871766085/Lyceum_Text_de_DE.xml</File>

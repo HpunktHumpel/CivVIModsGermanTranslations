@@ -65,6 +65,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Removable Districts (TC | H.Humpel)
 1. Renewable Energy Complexity (JNR | Junky)
 1. Requested Pantheons (Angryr | H.Humpel)
+1. Sappers - Military Engineers support sieges (JNR | Junky)
 1. Seeds of Growth Policy (Ian G | H.Humpel)
 1. Ski Resort Complexity (JNR | H.Humpel)
 1. SquirrelMod - BetterCity (Neicureuil | H.Humpel)
