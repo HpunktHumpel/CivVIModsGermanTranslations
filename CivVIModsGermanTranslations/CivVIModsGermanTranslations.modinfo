@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 86 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 87 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641423519</Created>
+    <Created>1641424864</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
@@ -28,6 +28,9 @@
     </Criteria>
     <Criteria id="LeugisAztecRework_FrontEnd">
       <ModEnabled>9090e2c0-43bf-4b24-84b6-428c21805998</ModEnabled>
+    </Criteria>
+    <Criteria id="MonopolyPlusResourceRequirementSetup_FrontEnd">
+      <ModEnabled>574fca1b-39ae-4f9d-810e-67554a750182</ModEnabled>
     </Criteria>
     <Criteria id="p0kiehlsSatrapsCourt_FrontEnd">
       <ModEnabled>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModEnabled>
@@ -535,7 +538,11 @@
       <File>2146587512/text/ImprovementText_AztecRework_de_DE.sql</File>
       <File>2146587512/text/ReplacementTexts_AztecRework_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="p0kiehlsSatrapsCourt_de_DE">
+    <UpdateText id="MonopolyPlusResourceRequirementSetup_FrontEnd_de_DE">
+      <!--        <Criteria>MonopolyPlusResourceRequirementSetup_FrontEnd</Criteria> -->
+      <File>2399439885/Core/MonopolySettingTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="p0kiehlsSatrapsCourt_FrontEnd_de_DE">
       <!--        <Criteria>p0kiehlsSatrapsCourt_FrontEnd</Criteria> -->
       <Properties>
         <LoadOrder>10</LoadOrder>
@@ -1539,6 +1546,7 @@
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
     <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
     <File>2384183359/Text/CL_EMPIRE_Text_de_DE.xml</File>
+    <File>2399439885/Core/MonopolySettingTexts_de_DE.sql</File>
     <File>2423310185/Core/Localisation/Suk_EgyptRework_CityListText_de_DE.sql</File>
     <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
     <File>2442822973/Text/COREX_Text_Won_CL_de_DE.xml</File>
