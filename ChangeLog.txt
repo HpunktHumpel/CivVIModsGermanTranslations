@@ -4,7 +4,7 @@
 - [NEW] District Expansion: Suburbs (vom 6. Dez. 2021 um 11:43, Übersetzung von Junky)
 - [NEW] Monopoly++: Resource Requirement Setup (vom 7. Mai 2021 um 2:04, Übersetzung von Junky)
 - [NEW] Monopoly++: Tycoons and Investors (vom 11. Mai 2021 um 23:47, Übersetzung von Junky)
-- [NEW] p0kiehl's Precinct of Amun-Ra (vom 23. Apr. 2019 um 20:18, Übersetzung von Stvie)
+- [NEW] p0kiehl's Precinct of Amun-Ra (vom 23. Apr. 2019 um 20:18, Übersetzung von Stevie)
 - [NEW] Sappers - Military Engineers support sieges (vom 23. Juli 2021 um 4:10, Übersetzung von Junky)
 - [NEW] Unique Building: Dojo (Japan) (vom 14. Mai 2020 um 0:54, Übersetzung von Junky)
 - [NEW] Unique Improvement: Castrum (Rome) (vom 6. Dez. 2021 um 14:32, Übersetzung von Junky)
