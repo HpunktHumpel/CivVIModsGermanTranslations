@@ -16,7 +16,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
-1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | **NEW**
+1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
@@ -42,10 +42,10 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | #4
 1782215547 | Borobudur (World Wonder) | Deliverator23 | H.Humpel | #5
 1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | #5
-1822380055 | Sappers - Military Engineers support sieges | JNR | Junky | **NEW**
+1822380055 | Sappers - Military Engineers support sieges | JNR | Junky | #11
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
 1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | #10
-1839114973 | District Expansion: Military | JNR | Junky | **NEW**
+1839114973 | District Expansion: Military | JNR | Junky | #11
 1871766085 | Lyceum - Early Science Building | Linguaphile | H.Humpel | #10
 1872427843 | Emigration | Oni | H.Humpel | #9
 1888611021 | Requested Pantheons | Angryr | H.Humpel | #9
@@ -54,8 +54,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
-2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | **NEW**
-2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | **NEW**
+2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
+2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
@@ -66,13 +66,13 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
-2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | **NEW**
+2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | #7
-2479197624 | Monopoly++: Tycoons and Investors | Leugi | Junky | **NEW**
+2479197624 | Monopoly++: Tycoons and Investors | Leugi | Junky | #11
 2493618364 | Vinrock's Pantheons | Vinrock | H.Humpel | #10
 2494925002 | Greatest Cities | Technoluddite | Junky | #7
 2497071692 | Bonus Resource Improvements | JNR | Junky | #7
@@ -89,5 +89,5 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2642534170 | Area 51 - World Wonder + Alien Units | JNR | H.Humpel | #10
 2645582640 | Aircraft Carriers Perfected | NullSpace | Junky | #5
 2656616965 | Endgame Map Replay | Technoluddite | Junky | #6
-2669325299 | District Expansion: Suburbs | JNR | Junky | **NEW**
+2669325299 | District Expansion: Suburbs | JNR | Junky | #11
 2683624437 | Movable Districts | wltk | Junky | #10
