@@ -59,6 +59,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Movable Districts (wltk | Junky)
 1. National Projects: Satellites (JNR | H.Humpel)
 1. Notre-Dame de Paris (WindFly | H.Humpel)
+1. p0kiehl's Precinct of Amun-Ra (chimp & p0kiehl | Stevie)
 1. p0kiehl's Satrap's Court (chimp & p0kiehl | H.Humpel)
 1. p0kiehl's Temple of Poseidon (p0kiehl | H.Humpel)
 1. Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)
@@ -123,7 +124,7 @@ Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
-- Gorowynn & Junky
+- Gorowynn, Junky & Stevie
 
 
 Und zu guter Letzt natürlich auch Dank an alle, die diesem Mod einen Preis verliehen haben.

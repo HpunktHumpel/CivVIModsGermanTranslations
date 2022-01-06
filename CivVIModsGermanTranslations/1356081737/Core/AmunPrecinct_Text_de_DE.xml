@@ -1,0 +1,66 @@
+<GameData>
+	<LocalizedText>
+		<!--German-->
+		<!--Districts-->
+		<Replace Tag="LOC_POK_DISTRICT_PRECINCT_AMUN_RA_NAME" Language="de_DE">
+			<Text>Amun-Ra Bezirk|Amun-Ra Bezirke</Text>
+			<Gender>masculine:vowel</Gender>
+			<Plurality>1|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_POK_DISTRICT_PRECINCT_AMUN_RA_DESCRIPTION" Language="de_DE">
+			<Text>Ein für Ägypten und Nubien einzigartiger Bezirk für religiöse Aktivitäten. Ersetzt die Heilige Stätte und erfordert weniger Produktion. +1 [ICON_Faith] Glauben durch Sümpfe, Oasen, und Wüsten-Schwemmland Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_POK_DISTRICT_PRECINCT_AMUN_RA_DESCRIPTION_ADJACENCY" Language="de_DE">
+			<Text>Nachbarschaftsboni: Großer [ICON_Faith] Glaubensbonus für angrenzende Naturwunder, Oasen und Sümpfe. Normaler [ICON_Faith] Glaubensbonus für angrenzende Wüsten-Schwemmland und Wald-Geländefelder. Kleiner [ICON_Faith] Glaubensbonus für angrenzende Bezirke.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_POK_DISTRICT_PRECINCT_AMUN_RA_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Amun war eine bedeutende ägyptische Gottheit und Teil der Götterwelt des alten Ägyptens. Überlieferungen aus dem Alten Reich berschreiben ihn anfangs als eine kleinere Gottheit. In der 11. Dynastie wurde er jedoch der Schutzgott von Theben und erlangte schließlich nach seiner Fusion mit dem Sonnengott Ra als Amun-Ra weitreichende Bekanntheit. Während des gesamten Neuen Reiches stand Amun-Ra im ägyptischen Pantheon über den anderen Göttern. Seine Position als König der Götter nahm monotheistische Züge an, indem andere Götter ihre Bedeutung eingebüßt haben. Amun-Ra wurde auch außerhalb Ägyptens angebetet. In Griechenland wurde er mit Zeus als Zeus Ammon identifiziert. Amun-Ra ist neben Osiris der populärste unter den ägyptischen Göttern.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_POK_DISTRICT_PRECINCT_AMUN_RA_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Der Bezirk von Amun-Ra ist die größte Haupttempelanlage des Karnak-Tempelkomplexes (antikes Theben). Es wurde unter Pharaoh Senusret I. während der 11. Dynastie errichtet. Weitere bedeutende Bauarbeiten fanden während der 18. Dynastie statt, als Theben zur Hauptstadt des alten Ägypten wurde. Der Bau der Hypostyle-Halle könnte auch in der 18. Dynastie begonnen haben, obwohl die meisten Gebäudemodifizierungen unter Seti I und Ramesses II vorgenommen wurden. Merneptah erinnerte an seine Siege über die Seevölker an den Wänden des Tempels. Die letzte große Änderung am Grundriss des Amun-Ra-Bezirks war die Hinzufügung des ersten Pylons und der massiven Mauern, die den Bezirksbereich umgeben, beide von Nectanebo I während der letzten ägyptischen Dynastie erbaut.</Text>
+		</Replace>
+		<Replace Tag="LOC_POK_DISTRICT_AMUN_RA_OASIS_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben an angrenzende Oasen-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_POK_DISTRICT_AMUN_RA_FLOODPLAINS_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben an angrenzende Wüsten-Schwemmland Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_POK_DISTRICT_AMUN_RA_MARSH_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben an angrenzende Sumpf-Geländefelder.</Text>
+		</Replace>
+		<!--Buildings-->
+		<Replace Tag="LOC_BUILDING_OBELISK_NAME" Language="de_DE">
+			<Text>Obelisk|Obelisken</Text>
+			<Gender>masculine:vowel</Gender>
+			<Plurality>1|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OBELISK_DESCRIPTION" Language="de_DE">
+			<Text>Ein für Ägypten und Nubien einzigartiges Gebäude. Erlaubt den Kauf von Missionaren mit [ICON_Faith] Glauben. +1 [ICON_Gold] Gold durch Sümpfe, Oasen und Wüsten-Schwemmland.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_OBELISK_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Paare dieser großen Steinsäulen flankierten normalerweise die Eingänge zu Tempeln in der Nilregion. Bis zum zweiten Jahrtausend v. Chr. Wurden sie mit dem Sonnengott Ra (später Amun und schließlich Amun-Ra) in Verbindung gebracht. Die Obelisken in einem Stück anzufertigen, zu transportieren und schließlich an ihren Platz zu bringen, waren beeindruckende Leistungen alter Ingenieurskunst.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NUBIAN_SHRINE_NAME" Language="de_DE">
+			<Text>Naos|Naos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NUBIAN_SHRINE_DESCRIPTION" Language="de_DE">
+			<Text>Ein für Ägypten und Nubien einzigartiges Gebäude. Erlaubt den Kauf von Aposteln und Inquisitoren mit [ICON_Faith] Glauben. +1 [ICON_Food] Nahrung durch Sümpfe, Oasen und Wüsten-Schwemmland.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_NUBIAN_SHRINE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Naos ist das griechische Wort für Schrein. In der Nilregion lagen kleine Tempelschreine, die sowohl den Göttern als auch den als göttlich angesehenen Menschen gewidmet waren - obwohl diese angeblich religiös waren, waren solche Widmungen durchaus politisch. Diese Schreine enthielten religiöse Artefakte und wurden sowohl von den ihnen zugewiesenen Priestern als auch von den Wachen besucht, um Diebe fernzuhalten.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TEMPLE_AMUN_NAME" Language="de_DE">
+			<Text>Tempel des Amun|Tempel des Amun</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TEMPLE_AMUN_DESCRIPTION" Language="de_DE">
+			<Text>Ein für Ägypten und Nubien einzigartiges Gebäude. +1 [ICON_Culture] Kultur durch Sumpf-, Oasen- und Wüsten-Schwemmland Geländefelder. Übernimmt den Bonus aus dem religiösen Gebäude der vorherrschenden Religion in dieser Stadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEMPLE_AMUN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Um die Wichtigkeit des Gottes Amun für die Nilregion zu verstehen ist nur ein Blick in seine ihm geweihten Tempel nötig. Der Amun-Tempel in Karnak ist so groß, dass er fünf große Pyramiden aufnehmen könnte. Der Amun-Tempel im nubischen Jebel Barkal wäre in ähnlichem Glanz erstrahlt, wenn die Römer ihn nicht 25 v. Chr. zerstört hätten.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

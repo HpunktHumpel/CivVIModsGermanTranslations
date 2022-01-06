@@ -16,6 +16,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
+1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | **NEW**
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5

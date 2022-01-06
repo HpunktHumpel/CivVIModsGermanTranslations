@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="9">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 88 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 89 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641426370</Created>
+    <Created>1641427927</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn and Junky for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -31,6 +31,9 @@
     </Criteria>
     <Criteria id="MonopolyPlusResourceRequirementSetup_FrontEnd">
       <ModEnabled>574fca1b-39ae-4f9d-810e-67554a750182</ModEnabled>
+    </Criteria>
+    <Criteria id="p0kiehlsPrecinctOfAmunRa_FrontEnd">
+      <ModEnabled>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModEnabled>
     </Criteria>
     <Criteria id="p0kiehlsSatrapsCourt_FrontEnd">
       <ModEnabled>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModEnabled>
@@ -197,6 +200,9 @@
     </Criteria>
     <Criteria id="NotreDameDeParis">
       <ModInUse>3db98aba-d7ca-4b4d-9596-e2344e593ed0</ModInUse>
+    </Criteria>
+    <Criteria id="p0kiehlsPrecinctOfAmunRa">
+      <ModInUse>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModInUse>
     </Criteria>
     <Criteria id="p0kiehlsSatrapsCourt">
       <ModInUse>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModInUse>
@@ -544,6 +550,13 @@
     <UpdateText id="MonopolyPlusResourceRequirementSetup_FrontEnd_de_DE">
       <!--        <Criteria>MonopolyPlusResourceRequirementSetup_FrontEnd</Criteria> -->
       <File>2399439885/Core/MonopolySettingTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="p0kiehlsPrecinctOfAmunRa_FrontEnd_de_DE">
+      <!--        <Criteria>p0kiehlsPrecinctOfAmunRa_FrontEnd</Criteria> -->
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>1356081737/Core/AmunPrecinct_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="p0kiehlsSatrapsCourt_FrontEnd_de_DE">
       <!--        <Criteria>p0kiehlsSatrapsCourt_FrontEnd</Criteria> -->
@@ -907,6 +920,13 @@
     <UpdateText id="NotreDameDeParis_de_DE">
       <Criteria>NotreDameDeParis</Criteria>
       <File>1714267495/Data_Local_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="p0kiehlsPrecinctOfAmunRa_de_DE">
+      <Criteria>p0kiehlsPrecinctOfAmunRa</Criteria>
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>1356081737/Core/AmunPrecinct_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="p0kiehlsSatrapsCourt_de_DE">
       <Criteria>p0kiehlsSatrapsCourt</Criteria>
@@ -1494,6 +1514,7 @@
     <File>1302739491/Text_de_DE.xml</File>
     <File>1335763888/NewBuilding_Text_de_DE.xml</File>
     <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
+    <File>1356081737/Core/AmunPrecinct_Text_de_DE.xml</File>
     <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
     <File>1484935230/Core/EgyptianPantheon_Localisation_de_DE.sql</File>
     <File>1499009957/RBUP_RadiantBetterUnitPromotions_Text_de_DE.sql</File>
