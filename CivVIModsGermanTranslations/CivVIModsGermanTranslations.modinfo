@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 90 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1641834807</Created>
+    <Created>1641835321</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Ian G, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -24,55 +24,55 @@
   <ActionCriteria>
     <!-- FrontEnd Actions -->
     <Criteria id="EpsTweakForCatchUp_FrontEnd">
-      <ModEnabled>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModEnabled>
+      <ModIsEnabled>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModIsEnabled>
     </Criteria>
     <Criteria id="LeugisAztecRework_FrontEnd">
-      <ModEnabled>9090e2c0-43bf-4b24-84b6-428c21805998</ModEnabled>
+      <ModIsEnabled>9090e2c0-43bf-4b24-84b6-428c21805998</ModIsEnabled>
     </Criteria>
     <Criteria id="MonopolyPlusResourceRequirementSetup_FrontEnd">
-      <ModEnabled>574fca1b-39ae-4f9d-810e-67554a750182</ModEnabled>
+      <ModIsEnabled>574fca1b-39ae-4f9d-810e-67554a750182</ModIsEnabled>
     </Criteria>
     <Criteria id="p0kiehlsPrecinctOfAmunRa_FrontEnd">
-      <ModEnabled>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModEnabled>
+      <ModIsEnabled>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModIsEnabled>
     </Criteria>
     <Criteria id="p0kiehlsSatrapsCourt_FrontEnd">
-      <ModEnabled>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModEnabled>
+      <ModIsEnabled>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModIsEnabled>
     </Criteria>
     <Criteria id="Panda_FrontEnd">
-      <ModEnabled>724e7828-3c76-4936-8184-ad04ceb7b25e</ModEnabled>
+      <ModIsEnabled>724e7828-3c76-4936-8184-ad04ceb7b25e</ModIsEnabled>
     </Criteria>
     <Criteria id="RequestedPantheons_FrontEnd">
-      <ModEnabled>ef3d3f18-490d-4244-866a-d8687d6570df</ModEnabled>
+      <ModIsEnabled>ef3d3f18-490d-4244-866a-d8687d6570df</ModIsEnabled>
     </Criteria>
     <Criteria id="SteelAndThunderUniqueUnits_FrontEnd">
-      <ModEnabled>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModEnabled>
+      <ModIsEnabled>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModIsEnabled>
     </Criteria>
     <Criteria id="SukritactsEgyptRework_FrontEnd">
-      <ModEnabled>8b858b76-6a79-4a30-a388-2316c4fbf496</ModEnabled>
+      <ModIsEnabled>8b858b76-6a79-4a30-a388-2316c4fbf496</ModIsEnabled>
     </Criteria>
     <Criteria id="SukritactsOceans_FrontEnd">
-      <ModEnabled>4922ba47-61e1-4b15-9281-db996b14522d</ModEnabled>
+      <ModIsEnabled>4922ba47-61e1-4b15-9281-db996b14522d</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Aqueduct_FrontEnd">
-      <ModEnabled>1373373a-f34d-4041-a0f8-49e2004e19a1</ModEnabled>
+      <ModIsEnabled>1373373a-f34d-4041-a0f8-49e2004e19a1</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Campus_FrontEnd">
-      <ModEnabled>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModEnabled>
+      <ModIsEnabled>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Commerce_FrontEnd">
-      <ModEnabled>52c17bf1-d630-42c8-a2d6-f20d8e019993</ModEnabled>
+      <ModIsEnabled>52c17bf1-d630-42c8-a2d6-f20d8e019993</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Entertainment_FrontEnd">
-      <ModEnabled>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModEnabled>
+      <ModIsEnabled>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Military_FrontEnd">
-      <ModEnabled>72d77fd9-7d34-4539-97d9-f5c23de67814</ModEnabled>
+      <ModIsEnabled>72d77fd9-7d34-4539-97d9-f5c23de67814</ModIsEnabled>
     </Criteria>
     <Criteria id="UniqueBuildingDojo_FrontEnd">
-      <ModEnabled>1B28771A-C749-434B-9053-D1380C553DE9</ModEnabled>
+      <ModIsEnabled>1B28771A-C749-434B-9053-D1380C553DE9</ModIsEnabled>
     </Criteria>
     <Criteria id="UniqueImprovementCastrum_FrontEnd">
-      <ModEnabled>6bdbd506-bec5-432e-a9a7-c4fa6330b323</ModEnabled>
+      <ModIsEnabled>6bdbd506-bec5-432e-a9a7-c4fa6330b323</ModIsEnabled>
     </Criteria>
     <!-- InGame Actions -->
     <Criteria id="AircraftCarriersPerfected">
@@ -537,11 +537,11 @@
   </ActionCriteria>
   <FrontEndActions>
     <UpdateText id="EpsTweakForCatchUp_FrontEnd_de_DE">
-      <!--        <Criteria>EpsTweakForCatchUp_FrontEnd</Criteria> -->
+      <Criteria>EpsTweakForCatchUp_FrontEnd</Criteria>
       <File>2449611115/Core/GameText_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="LeugisAztecRework_FrontEnd_de_DE">
-      <!--        <Criteria id="LeugisAztecRework_FrontEnd"></Criteria> -->
+      <Criteria id="LeugisAztecRework_FrontEnd"></Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
@@ -551,55 +551,55 @@
       <File>2146587512/text/ReplacementTexts_AztecRework_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="MonopolyPlusResourceRequirementSetup_FrontEnd_de_DE">
-      <!--        <Criteria>MonopolyPlusResourceRequirementSetup_FrontEnd</Criteria> -->
+      <Criteria>MonopolyPlusResourceRequirementSetup_FrontEnd</Criteria>
       <File>2399439885/Core/MonopolySettingTexts_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="p0kiehlsPrecinctOfAmunRa_FrontEnd_de_DE">
-      <!--        <Criteria>p0kiehlsPrecinctOfAmunRa_FrontEnd</Criteria> -->
+      <Criteria>p0kiehlsPrecinctOfAmunRa_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>15</LoadOrder>
       </Properties>
       <File>1356081737/Core/AmunPrecinct_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="p0kiehlsSatrapsCourt_FrontEnd_de_DE">
-      <!--        <Criteria>p0kiehlsSatrapsCourt_FrontEnd</Criteria> -->
+      <Criteria>p0kiehlsSatrapsCourt_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>10</LoadOrder>
       </Properties>
       <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Panda_FrontEnd_de_DE">
-      <!--        <Criteria>Panda_FrontEnd</Criteria> -->
+      <Criteria>Panda_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>1701198033/Data_Local_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="RequestedPantheons_FrontEnd_de_DE">
-      <!--        <Criteria>RequestedPantheons_FrontEnd</Criteria> -->
+      <Criteria>RequestedPantheons_FrontEnd</Criteria>
       <File>1888611021/Pantheons_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SteelAndThunderUniqueUnits_FrontEnd_de_DE">
-      <!--        <Criteria>SteelAndThunderUniqueUnits_FrontEnd</Criteria> -->
+      <Criteria>SteelAndThunderUniqueUnits_FrontEnd</Criteria>
       <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
-      <!--        <Criteria>SukritactsEgyptRework_FrontEnd</Criteria> -->
+      <Criteria>SukritactsEgyptRework_FrontEnd</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SukritactsOceans_FrontEnd_de_DE">
-      <!--        <Criteria>SukritactsOceans_FrontEnd</Criteria> -->
+      <Criteria>SukritactsOceans_FrontEnd</Criteria>
       <File>2542898147/Translations/Suk_Oceans_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Aqueduct_FrontEnd_ConfigText_de_DE">
-      <!--        <Criteria>UC_Aqueduct_FrontEnd</Criteria> -->
+      <Criteria>UC_Aqueduct_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>310</LoadOrder>
       </Properties>
       <File>2362219368/Text/UC_AQD_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Aqueduct_FrontEnd_TextModSupport_CX_Config_de_DE">
-      <!--        <Criteria>UC_Aqueduct_FrontEnd</Criteria> -->
+      <Criteria>UC_Aqueduct_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
@@ -607,77 +607,77 @@
       <File>2362219368/Text/ModSupport/UC_AQD_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Aqueduct_FrontEnd_TextModSupport_Suk_Khmer_de_DE">
-      <!--        <Criteria>UC_Aqueduct_FrontEnd</Criteria> -->
+      <Criteria>UC_Aqueduct_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Campus_FrontEnd_ConfigText_de_DE">
-      <!--        <Criteria>UC_Campus_FrontEnd</Criteria> -->
+      <Criteria>UC_Campus_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>240</LoadOrder>
       </Properties>
       <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Campus_FrontEnd_TextModSupport_CX_Config_de_DE">
-      <!--        <Criteria>UC_Campus_FrontEnd</Criteria> -->
+      <Criteria>UC_Campus_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Commerce_FrontEnd_ConfigText_de_DE">
-      <!--        <Criteria>UC_Commerce_FrontEnd</Criteria> -->
+      <Criteria>UC_Commerce_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>220</LoadOrder>
       </Properties>
       <File>2056401784/Text/UC_COM_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Commerce_FrontEnd_CX_Config_de_DE">
-      <!--        <Criteria>UC_Commerce_FrontEnd</Criteria> -->
+      <Criteria>UC_Commerce_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2056401784/Text/ModSupport/UC_COM_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Entertainment_FrontEnd_ConfigText_de_DE">
-      <!--        <Criteria>UC_Entertainment_FrontEnd</Criteria> -->
+      <Criteria>UC_Entertainment_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>270</LoadOrder>
       </Properties>
       <File>2474028548/Text/UC_ENT_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Entertainment_FrontEnd_TextModSupport_CX_Config_de_DE">
-      <!--        <Criteria>UC_Entertainment_FrontEnd</Criteria> -->
+      <Criteria>UC_Entertainment_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Military_FrontEnd_ConfigText_de_DE">
-      <!--        <Criteria>UC_Military_FrontEnd</Criteria> -->
+      <Criteria>UC_Military_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>210</LoadOrder>
       </Properties>
       <File>1839114973/Text/UC_MIL_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Military_FrontEnd_TextModSupport_CX_Config_de_DE">
-      <!--        <Criteria>UC_Military_FrontEnd</Criteria> -->
+      <Criteria>UC_Military_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>1839114973/Text/ModSupport/UC_MIL_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UniqueBuildingDojo_FrontEnd_ConfigText_de_DE">
-      <!--        <Criteria>UniqueBuildingDojo_FrontEnd</Criteria> -->
+      <Criteria>UniqueBuildingDojo_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>13</LoadOrder>
       </Properties>
       <File>2095575379/Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UniqueImprovementCastrum_FrontEnd_de_DE">
-      <!--        <Criteria>UniqueImprovementCastrum_FrontEnd</Criteria> -->
+      <Criteria>UniqueImprovementCastrum_FrontEnd</Criteria>
       <Properties>
         <LoadOrder>14</LoadOrder>
       </Properties>
