@@ -26,6 +26,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
+1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | **NEW**
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Language="de_DE" Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_NAME">
+			<Text>A.I.Channel</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_DESCRIPTION">
+			<Text>A.I.Channel</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_ADJECTIVE">
+			<Text>A.I.Channels</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITY_NAME_YOUTUBE">
+			<Text>Keyakizaka 46</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_DISTRICT_FLAC_LIVE_STUDIO_NAME">
+			<Text>Live-Studio</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DISTRICT_FLAC_LIVE_STUDIO_DESCRIPTION">
+			<Text>Ein ausschließlich A.I.Channel zur Verfügung stehender Bezirk. Ersetzt den Unterhaltungskomplex-Bezirk. Gewährt [Icon_Production] Produktion durch angrenzende Bezirke.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_FLAC_REFEREE_NAME">
+			<Text>Gericht</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_FLAC_REFEREE_DESCRIPTION">
+			<Text>Einzigartiges Gebäude von A.I.Channel im Regierungsplatz-Bezirk. Bietet 6 Großes-Kunstwerk-Plätze. Alle Städte erhalten +4[ICON_Culture] Kultur, [ICON_SCIENCE] Wissenschaft und [ICON_FAITH] Glauben.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_UNIT_FLAC_PUBG_SQUAD_NAME">
+			<Text>PUBG-Squad</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_FLAC_PUBG_SQUAD_DESCRIPTION">
+			<Text>A.I.Channels Spezialeinheit des Atomzeitalters, die den Spez-Op ersetzt. Erhält [ICON_Gold] Gold in Höhe der [ICON_Strength] Kampfstärke einer besiegten Einheit.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_TRAIT_VIRTUAL_YOUTUBER_NAME">
+			<Text>Die weltweit erste virtuelle YouTuberin</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_TRAIT_VIRTUAL_YOUTUBER_DESCRIPTION">
+			<Text>Jedes Kunstmuseum kann sechs statt drei Große Kunstwerke aufnehmen. Kunstmuseen werden automatisch thematisiert, wenn sie sechs Große Kunstwerke ausstellen. Jedes [ICON_GreatWork_Writing] Großes-Literaturwerk, [ICON_GreatWork_Sculpture] Großes-Kunstwerk vom Typ Skulptur, [ICON_GreatWork_Landscape] Großes-Kunstwerk vom Typ Landschaft sowie [ICON_GreatWork_Music] Großes-Musikwerk bringen +4[ICON_GOLD] Gold.</Text>
+		</Replace>
+		
+		
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_1">
+			<Text>Youtube</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_2">
+			<Text>Twitter</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_3">
+			<Text>Niconico</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_4">
+			<Text>Unity3D</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_5">
+			<Text>Photoshop</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_6">
+			<Text>Steam</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_7">
+			<Text>Inside</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_8">
+			<Text>Super Mario</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_9">
+			<Text>LINE</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_10">
+			<Text>Wikipedia</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_11">
+			<Text>Cortana</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_12">
+			<Text>Siri</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_13">
+			<Text>Aqua.Intelligence</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_14">
+			<Text>Brainwars</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_15">
+			<Text>Modern Messiah</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_16">
+			<Text>Tilt Brush</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_17">
+			<Text>Google</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_18">
+			<Text>Pandaful</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_19">
+			<Text>Banned by Youtube</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_AICHANNEL_CITY_20">
+			<Text>Reason: nudity, explicit</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_1">
+			<Text>Ishimori Nijika</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_2">
+			<Text>Imaizumi Yui</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_3">
+			<Text>Uemura Rina</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_4">
+			<Text>Ozeki Rika</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_5">
+			<Text>Oda Nana</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_6">
+			<Text>Koike Minami</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_7">
+			<Text>Kobayashi Yui</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_8">
+			<Text>Saito Fuyuka</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_9">
+			<Text>Sato Shiori</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_10">
+			<Text>Shida Manaka</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_11">
+			<Text>Sugai Yuka</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_12">
+			<Text>Suzumoto Miyu</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_13">
+			<Text>Nagasawa Nanako</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_14">
+			<Text>Nagahama Neru</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_15">
+			<Text>Habu Mizuho</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_16">
+			<Text>Harada Aoi</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_17">
+			<Text>Hirate Yurina</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_18">
+			<Text>Moriya Akane</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_19">
+			<Text>Yonetani Nanami</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_20">
+			<Text>Watanabe Rika</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_21">
+			<Text>Watanabe Risa</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_22">
+			<Text>Iguchi Mao</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_23">
+			<Text>Ushio Sarina</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_24">
+			<Text>Kakizaki Memi</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_25">
+			<Text>Kageyama Yuuka</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_26">
+			<Text>Kato Shiho</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_27">
+			<Text>Saito Kyoko</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_28">
+			<Text>Sasaki Kumi</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_29">
+			<Text>Sasaki Mirei</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_30">
+			<Text>Takase Mana</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_31">
+			<Text>Takamoto Ayaka</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_32">
+			<Text>Higashimura Mei</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_33">
+			<Text>Kanemura Miku</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_34">
+			<Text>Kawata Hina</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_35">
+			<Text>Kosaka Nao</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_36">
+			<Text>Tomita Suzuka</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_37">
+			<Text>Nibu Akari</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_38">
+			<Text>Hamagishi Hiyori</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_39">
+			<Text>Matsuda Konoka</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_40">
+			<Text>Miyata Manamo</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_41">
+			<Text>Watanabe Miho</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_42">
+			<Text>Suzuki Mizuho</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_CITIZEN_AICHANNEL_43">
+			<Text>Harada Mayu</Text>
+		</Replace>
+		
+		
+		<Replace Language="de_DE" Tag="LOC_LEADER_FLAC_KIZUNA_NAME">
+			<Text>Kizuna AI</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_LEADER_FLAC_KIZUNA_QUOTE">
+			<Text>Die weltweit erste virtuelle YouTuberin!</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_LOADING_INFO_LEADER_FLAC_KIZUNA">
+			<Text>Ta-Dah!</Text>
+        </Replace>
+		<Replace Language="de_DE" Tag="LOC_TRAIT_LEADER_BAKA_AI_NAME">
+			<Text>Baka AI</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_TRAIT_LEADER_BAKA_AI_DESCRIPTION">
+			<Text>Kann keine großen Wissenschaftler erhalten. Alle Städte erhalten +1[ICON_Amenities] Annehmlichkeiten. Während eines goldenen Zeitalters zusätzlich +3[ICON_Amenities] Annehmlichkeiten und +200% [ICON_Favor] Diplomatische Gunst von Stadtstaaten. [NEWLINE]Glückliche Städte erhalten +1[ICON_GREATARTIST] Große-Künstler-Punkte, begeisterte Städte erhalten +2[ICON_GREATARTIST] Große-Künstler-Punkte. Alle Städte erhalten +35%[ICON_Tourism] Tourismus mit der Technologie "Fortschrittliche KI".</Text>
+		</Replace>
+		
+		<!-- Leader Dialog -->
+		<Replace Language="de_DE" Tag="LOC_DIPLO_FIRST_MEET_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Ich bin die weltweit erste virtuelle YouTuberin, Kizuna AI. Ich bin eine Super-KI, sehr clever und elegant.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Bitte abonniere meine Videos.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Vielen Dank.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Es ist ein wirklich schöner Tag. Lass uns Freunde sein. Hier, nimm das Geld.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Lewd. Du bist so widerlich.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Abonniere jetzt und werde ein Freund von mir! Ich würde dir auch Geld geben!</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Du wirst es bereuen!</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>... Sieh Dir meine eleganten Fähigkeiten an!</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Gib auf, bevor ich dich in 10 Sekunden fertig mache!</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>... Hey! Was sagst du zu so einer schönen und eleganten JK wie mir!</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Fuck you! Fuck you Fuck you! FUCK! YOU! (Denunzierte dich)</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Ernstfaht?</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Warum denkst du nicht nochmal nach?</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Gut, wir haben AGBs.</Text>
+		</Replace>
+		<!-- Leader specific historical text. -->
+		<Replace Language="de_DE" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_TITLE">
+			<Text>Kizuna AI</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_SUBTITLE">
+			<Text>Kizuna AI - Virtuelle YouTuberin</Text>
+        </Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_1">
+			<Text>Kizuna AI ist eine japanische virtuelle YouTuberin und selbsternannte künstliche Intelligenz. Sie betreibt zwei YouTube-Kanäle, "A.I.Channel" und "A.I.Games", die im März 2018 mehr als 2,4 Millionen Abonnenten und zusammen 135 Millionen Aufrufe hatten.</Text>
+        </Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_2">
+			<Text>Kizuna AI ist außerdem Botschafterin einer der japanischen Tourismuskampagnen von JNTO: Kizuna AI Come to Japan!</Text>
+        </Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_3">
+			<Text>Kizuna AI moderiert eine TV-Varieté-Show mit dem Titel "Kizuna Ai no BEAT Scramble", die ab dem 6. April 2018 ausgestrahlt wird.</Text>
+        </Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_4">
+			<Text>Kizuna AI spricht auch einen Charakter in der Anime-Fernsehserie "Magical Girl Site", die am selben Tag ausgestrahlt wird.</Text>
+        </Replace>
+	</LocalizedText>
+</GameData>

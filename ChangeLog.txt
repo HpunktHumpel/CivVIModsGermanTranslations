@@ -1,5 +1,6 @@
 10.01.2022
 
+- [NEW] A.I.Channel - Kizuna AI (vom 15. Aug. 2019 um 3:01, Übersetzung von H.Humpel)
 - [NEW] Basic Buildings (vom 7. Aug. 2019 um 5:55, Übersetzung von H.Humpel)
 - [FIXED] FrontEnd-Criteria
 
