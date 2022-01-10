@@ -1,6 +1,7 @@
 10.01.2022
 
 - [NEW] Basic Buildings (vom 7. Aug. 2019 um 5:55, Übersetzung von H.Humpel)
+- [FIXED] FrontEnd-Criteria
 
 
 ===== Version 11 =====
