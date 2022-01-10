@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_BB_FERRY_NAME" Language="de_DE">
+			<Text>Flussfähre</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_POST_OFFICE_NAME" Language="de_DE">
+			<Text>Postamt</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_HOSPITAL_NAME" Language="de_DE">
+			<Text>Krankenhaus</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_SUBWAY_NAME" Language="de_DE">
+			<Text>U-Bahn System</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_RECYCLING_CENTER_NAME" Language="de_DE">
+			<Text>Recycling-Zentrum</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_FIBER_OPTIC_NETWORK_NAME" Language="de_DE">
+			<Text>Glasfasernetz</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_DISTRIBUTION_CENTER_NAME" Language="de_DE">
+			<Text>Vertriebszentrum</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_DATA_CENTER_NAME" Language="de_DE">
+			<Text>Rechenzentrum</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_FERRY_DESCRIPTION" Language="de_DE">
+			<Text>Bietet Gold und Wohnraum für die Stadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_HOSPITAL_DESCRIPTION" Language="de_DE">
+			<Text>Erhält zusätzliche Boni nach der Einrichtung des nationalen Gesundheitssystem-Projekts, verfügbar mit der Ausrichtung Mobilisierung.[NEWLINE]Erforderlich, um eine Sanitäter-Einheit auszubilden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_POST_OFFICE_DESCRIPTION" Language="de_DE">
+			<Text>Bietet +1 Loyalität pro Runde in dieser Stadt. Bietet zusätzlich +1 [ICON_Culture] Kultur, wenn die Stadt bereits über maximale Loyalität verfügt.[NEWLINE]Erhält zusätzliche Boni durch die Einrichtung des Postsystem-Projekts, erhältlich mit der Technologie Wirtschaftswesen.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_RECYCLING_CENTER_DESCRIPTION" Language="de_DE">
+			<Text>Ermöglicht das Recycling-Projekt, das den Kohlenstoffgehalt leicht reduziert.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_FIBER_OPTIC_NETWORK_DESCRIPTION" Language="de_DE">
+			<Text>Bietet +1 Loyalität pro Runde in dieser Stadt. Bietet zusätzlich +1 [ICON_Culture] Kultur, wenn die Stadt bereits über maximale Loyalität verfügt.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_SUBWAY_DESCRIPTION" Language="de_DE">
+			<Text>Regionale Reichweite von 6 Geländefeldern.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_DISTRIBUTION_CENTER_DESCRIPTION" Language="de_DE">
+			<Text>Regionale Reichweite von 6 Geländefeldern.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BB_DATA_CENTER_DESCRIPTION" Language="de_DE">
+			<Text>Regionale Reichweite von 6 Geländefeldern.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_POSTAL_SYSTEM_SHORT_NAME" Language="de_DE">
+			<Text>Postsystem</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_POSTAL_SYSTEM_NAME" Language="de_DE">
+			<Text>Einrichtung eines nationalen Postsystems</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_POSTAL_SYSTEM_DESCRIPTION" Language="de_DE">
+			<Text>Ein einmaliges Projekt, das eine Menge an Wissenschaft, Gold, Kultur und Große-Persönlichkeiten-Punkten hervorbringt.[NEWLINE]Nach Fertigstellung erhalten alle Postämter höhere Erträge.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HEALTHCARE_SYSTEM_SHORT_NAME" Language="de_DE">
+			<Text>Gesundheitssystem</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HEALTHCARE_SYSTEM_NAME" Language="de_DE">
+			<Text>Einrichtung eines nationalen Gesundheitssystems</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HEALTHCARE_SYSTEM_DESCRIPTION" Language="de_DE">
+			<Text>Ein einmaliges Projekt, das eine Menge an Wissenschaft und Große-Persönlichkeiten-Punkten hervorbringt.[NEWLINE]Nach Fertigstellung erhalten alle Krankenhäuser höhere Erträge und alle Städte erhalten eine erhöhte Wachstumsrate.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_INTERNET_SHORT_NAME" Language="de_DE">
+			<Text>Internet</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_INTERNET_NAME" Language="de_DE">
+			<Text>Einrichtung eines nationalen Internet-Projekts</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CREATE_INTERNET_DESCRIPTION" Language="de_DE">
+			<Text>Ein einmaliges Projekt, das eine Menge an Wissenschaft, Gold, Kultur und Große-Persönlichkeiten-Punkten hervorbringt.[NEWLINE]Nach Fertigstellung erhalten alle Glasfasernetz höhere Gold-, Kultur- und Wissenschafts-Erträge.[NEWLINE]Erfordert den Abschluss des Postsystem-Projekts und muss in einer Stadt mit einem Rechenzentrum erstellt werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RECYCLING_SHORT_NAME" Language="de_DE">
+			<Text>Recycling</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RECYCLING_NAME" Language="de_DE">
+			<Text>Recycling</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RECYCLING_DESCRIPTION" Language="de_DE">
+			<Text>Reduziert den Kohlenstoffgehalt geringfügig und produziert eine kleine Menge Gold.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

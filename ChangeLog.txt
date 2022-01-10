@@ -1,3 +1,10 @@
+10.01.2022
+
+- [NEW] Basic Buildings (vom 7. Aug. 2019 um 5:55, Übersetzung von H.Humpel)
+
+
+===== Version 11 =====
+
 05.01.2022
 
 - [NEW] District Expansion: Military (vom 6. Dez. 2021 um 11:40, Übersetzung von Junky)

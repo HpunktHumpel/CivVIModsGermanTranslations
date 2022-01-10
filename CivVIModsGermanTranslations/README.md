@@ -43,6 +43,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1782215547 | Borobudur (World Wonder) | Deliverator23 | H.Humpel | #5
 1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | #5
 1822380055 | Sappers - Military Engineers support sieges | JNR | Junky | #11
+1827447798 | Basic Buildings | carterrosenberg | H.Humpel | **NEW**
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
 1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | #10
 1839114973 | District Expansion: Military | JNR | Junky | #11
