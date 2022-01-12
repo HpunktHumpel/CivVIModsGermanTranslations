@@ -17,6 +17,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Ayakashi Saigyou (KCucumber | H.Humpel)
 1. Basic Buildings (carterrosenberg | H.Humpel)
 1. Better Religion Window (UI) (infixo | Junky)
+1. Better World Rankings (UI) (infixo | Junky)
 1. Bonus Resource Improvements (JNR | Junky)
 1. Borobudur (World Wonder) (Deliverator23 | H.Humpel)
 1. Botanist (AOM | H.Humpel)

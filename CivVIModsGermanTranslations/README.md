@@ -60,6 +60,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
+2139486665 | Better World Rankings (UI) | infixo | Junky | **NEW**
 2145663327 | Better Religion Window (UI) | infixo | Junky | **NEW**
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7

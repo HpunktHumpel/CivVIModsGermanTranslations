@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BetterWorldRankings_Text -->
+<!-- Author: Infixo -->
+<!-- 2020-06-22: Created -->
+<GameData>
+
+<LocalizedText>
+
+	<!-- CULTURE -->
+	<Replace Tag="LOC_BWR_TOURISM_FOR_ONE" Language="de_DE">
+		<Text>Ihr braucht [COLOR:ResCultureLabelCS]{1_Tourism}[ENDCOLOR] [ICON_Tourism]Tourismus, um 1 einzelnen [COLOR:ResCultureLabelCS]AUSWÄRTSTOURISTEN[ENDCOLOR] anzuziehen.</Text>
+	</Replace>
+	<Replace Tag="LOC_BWR_CULTURAL_DOMINATION" Language="de_DE">
+		<Text>[NEWLINE][NEWLINE]Anhaltende Auswirkungen der [COLOR:ResCultureLabelCS]KULTURELLEN DOMINANZ[ENDCOLOR]:[NEWLINE][ICON_Bullet]Internationale [ICON_TradeRoute] Handelswege zu fremden Städten, die Ihr kulturell dominiert, gewähren +4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Spionagemissionen in fremden Städten, die Ihr kulturell dominiert, werden 50% schneller abgeschlossen.[NEWLINE][ICON_Bullet]Eure Städte über 25% mehr Loyalitätsdruck auf fremde Städte aus, die Ihr kulturell dominiert.</Text>
+	</Replace>
+	
+</LocalizedText>
+
+</GameData>

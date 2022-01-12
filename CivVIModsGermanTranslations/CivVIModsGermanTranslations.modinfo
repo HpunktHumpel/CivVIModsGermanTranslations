@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="12">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 92 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 93 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642008786</Created>
+    <Created>1642010256</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -110,6 +110,9 @@
     </Criteria>
     <Criteria id="BetterReligionWindow">
       <ModInUse>67B4DBCB-82AD-3F90-1595-43C677C1301E</ModInUse>
+    </Criteria>
+    <Criteria id="BetterWorldRankings">
+      <ModInUse>74D4FDCC-14FE-5F52-7676-03B229E7845D</ModInUse>
     </Criteria>
     <Criteria id="Borobudur">
       <ModInUse>f6556753-3531-4d36-b448-5a4053064524</ModInUse>
@@ -759,6 +762,13 @@
     <UpdateText id="BetterReligionWindow_de_DE">
       <Criteria>BetterReligionWindow</Criteria>
       <File>2145663327/Text/BetterReligionScreen_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="BetterWorldRankings_de_DE">
+      <Criteria>BetterWorldRankings</Criteria>
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>2139486665/Text/BetterWorldRankings_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Borobudur_de_DE">
       <Criteria>Borobudur</Criteria>
@@ -1605,6 +1615,7 @@
     <File>2112359835/Text/ModSupport/UC_CMP_Text_RwF_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2135724456/Text/Wetlands_Text_de_DE.sql</File>
+    <File>2139486665/Text/BetterWorldRankings_Text_de_DE.xml</File>
     <File>2145663327/Text/BetterReligionScreen_de_DE.xml</File>
     <File>2146587512/text/BuildingTexts_AztecRework_de_DE.sql</File>
     <File>2146587512/text/GovernorTexts_AztecRework_de_DE.sql</File>
