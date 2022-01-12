@@ -24,6 +24,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
+1660382665 | Decommission Power Plants | JNR | Junky | **NEW**
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | **NEW**

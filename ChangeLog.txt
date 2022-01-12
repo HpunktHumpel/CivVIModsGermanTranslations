@@ -2,6 +2,7 @@
 
 - [NEW] Better Religion Window (UI) (v1.2 vom 9. Aug. 2020 um 19:41, Übersetzung von Junky)
 - [NEW] Better World Rankings (UI) (v1.3 vom 8. Juni 2021 um 21:41, Übersetzung von Junky)
+- [NEW] Decommission Power Plants (vom 3. Juli 2020 um 22:38, Übersetzung von Junky)
 - [IMPROVED] District Expansion: Aqueduct
 
 

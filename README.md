@@ -35,6 +35,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro | H.Humpel)
 1. CIVILIZATION VI: ST PETERS BASILICA (Albro | H.Humpel)
 1. Covfefe (DesertMoonGW | H.Humpel)
+1. Decommission Power Plants (JNR | Junky)
 1. District Expansion: Aqueduct (JNR | Gorowynn)
 1. District Expansion: Campus (JNR | Gorowynn)
 1. District Expansion: Commerce (JNR | Junky)
