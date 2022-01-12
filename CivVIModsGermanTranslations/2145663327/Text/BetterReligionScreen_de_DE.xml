@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Better Religion Window
+    Author: Infixo
+    2020-06-25: Created
+-->
+<GameData>
+
+<LocalizedText>
+
+	<Replace Tag="LOC_BRW_CITY_SORT_NOT_FOLLOWING" Language="de_DE"> <!-- LOC_UI_RELIGION_CITY_SORT_TYPE_FOLLOWING -->
+        <Text>Städte, die [COLOR_Red]nicht[ENDCOLOR] der Religion folgen</Text>
+	</Replace>
+	<Replace Tag="LOC_BRW_CITY_SORT_ALL" Language="de_DE">
+        <Text>Alle Städte</Text>
+	</Replace>
+
+</LocalizedText>
+
+</GameData>
