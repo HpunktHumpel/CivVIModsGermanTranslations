@@ -1,6 +1,7 @@
 12.01.2022
 
 - [NEW] Better Religion Window (UI) (vom 9. Aug. 2020 um 19:41, Übersetzung von Junky)
+- [IMPROVED] District Expansion: Aqueduct
 
 
 10.01.2022

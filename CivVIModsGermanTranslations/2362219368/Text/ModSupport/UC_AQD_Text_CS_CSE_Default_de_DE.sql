@@ -7,10 +7,10 @@
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 		(Tag,													Language,	Text)
-VALUES	('LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS',	'de_DE',	'+2 [ICON_Food] Nahrung in jedem Obstgarten, Hammerwerk oder Badehaus.'),
-		('LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS',	'de_DE',	'+2 [ICON_Food] Nahrung in jeder Kanalisation.');
+VALUES	('LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS',	'de_DE',	'+2 [ICON_Food] Nahrung durch alle Obstgärten, Hammerwerke oder Badehäuser.'),
+		('LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS',	'de_DE',	'+2 [ICON_Food] Nahrung durch jede Kanalisation.');
 
 INSERT OR REPLACE INTO LocalizedText
 		(Tag,															Language,	Text)
-VALUES	('LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_MEKONG_BONUS',	'de_DE',	'+3 [ICON_Food] Nahrung in jeder Kanalisation.');
+VALUES	('LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_MEKONG_BONUS',	'de_DE',	'+3 [ICON_Food] Nahrung durch jede Kanalisation.');
 --------------------------------------------------------------
