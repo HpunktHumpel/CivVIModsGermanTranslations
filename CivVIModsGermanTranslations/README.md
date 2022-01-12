@@ -23,6 +23,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
+1595724214 | Reindeer | AOM | Junky | **NEW**
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660382665 | Decommission Power Plants | JNR | Junky | **NEW**
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8

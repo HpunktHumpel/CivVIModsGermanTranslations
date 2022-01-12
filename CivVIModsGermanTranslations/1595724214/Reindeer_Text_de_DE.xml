@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_RESOURCE_AOM_REINDEER_NAME"
+             Language="de_DE">
+            <Text>Rentier</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_AOM_REINDEER_CHAPTER_HISTORY_PARA_1"
+             Language="de_DE">
+            <Text>Das Rentier ist eine in den Polargebieten vorkommende Hirschart, die in den arktischen, subarktischen, tundrischen, borealen und bergigen Regionen Nordeuropas, Sibiriens und Nordamerikas beheimatet ist. Die arktischen Völker sind auf Rentiere angewiesen, um Nahrung, Kleidung und Schutz zu erhalten. Die Jagd auf Wildtiere und das Hüten halbdomestizierter Rentiere sind für mehrere arktische und subarktische Völker wichtig als Lieferant von Fleisch, Häuten, Geweihen, Milch und als Transportmittel.  Das Rentier spielte für alle zirkumpolaren Völker eine wichtige wirtschaftliche Rolle. Es wird angenommen, dass die Domestizierung zwischen der Bronze- und der Eisenzeit begann. Das Rentier ist das einzige domestizierte Wildtier der Welt und war das letzte Tier, das domestiziert wurde.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_AOM_REINDEER_NAME"
+             Language="de_DE">
+            <Text>Hirte (mit Rentier)</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HERDSMAN_AOM_REINDEER_DESCRIPTION"
+             Language="de_DE">
+            <Text>Ein einfacher Hirte mit Rentieren.</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_AOM_REINDEER_NAME"
+             Language="de_DE">
+            <Text>Rentiere weiden lassen.</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_AOM_REINDEER_DESCRIPTION"
+             Language="de_DE">
+            <Text>Lässte die Rentiere hier weiden.</Text>
+        </Row>
+    </LocalizedText>
+
+</GameData>

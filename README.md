@@ -74,6 +74,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Progressive Power Consumption (JNR | Junky)
 1. Radiant Better Unit Promotions (Shirohô | Junky)
 1. Raubak Natural Gas (Searching... | Junky)
+1. Reindeer (AOM | Junky)
 1. Removable Districts (TC | H.Humpel)
 1. Renewable Energy Complexity (JNR | Junky)
 1. Requested Pantheons (Angryr | H.Humpel)

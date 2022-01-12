@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="12">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 96 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 97 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642023917</Created>
+    <Created>1642024897</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -248,6 +248,9 @@
     </Criteria>
     <Criteria id="RaubakNaturalGas">
       <ModInUse>932db66a-b5c5-41b6-9762-8dfb73201166</ModInUse>
+    </Criteria>
+    <Criteria id="Reindeer">
+      <ModInUse>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModInUse>
     </Criteria>
     <Criteria id="RemovableDistricts">
       <ModInUse>7ce74c28-41ba-4453-b3d1-d30ef8013887</ModInUse>
@@ -1033,6 +1036,10 @@
       <Criteria>RaubakNaturalGas</Criteria>
       <File>2557418900/Natural_gas_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="Reindeer_de_DE">
+      <Criteria>Reindeer</Criteria>
+      <File>1595724214/Reindeer_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateDatabase id="RemovableDistricts_Gameplay_de_DE">
       <Criteria>RemovableDistricts</Criteria>
       <Properties>
@@ -1590,6 +1597,7 @@
     <File>1564497864/Herdsman_Text_de_DE.xml</File>
     <File>1588097397/Botanist_Text_de_DE.sql</File>
     <File>1588097397/Botanist_Text_de_DE.xml</File>
+    <File>1595724214/Reindeer_Text_de_DE.xml</File>
     <File>1657288046/II_SR_Text_de_DE.sql</File>
     <File>1660382665/CB_Decommission_Text_de_DE.sql</File>
     <File>1660544080/Decommission_Locs_de_DE.xml</File>
