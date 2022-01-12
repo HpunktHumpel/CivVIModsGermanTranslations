@@ -6,6 +6,7 @@
 - [NEW] Deforestation: More Gradual and Severe (vom 3. Juli 2020 um 22:28, Übersetzung von Junky)
 - [NEW] Expanded Alliances (vom 25. Jan. 2021 um 14:09, Übersetzung von Junky)
 - [NEW] Hammurabi Tweak for Urban Complexity (vom 20. Nov. 2020 um 16:31, Übersetzung von Junky)
+- [NEW] Policy Change Reminder (vom 1. Mai 2021 um 13:06, Übersetzung von Junky)
 - [NEW] Reindeer (vom 16. Feb. 2019 um 16:13, Übersetzung von Junky)
 - [IMPROVED] District Expansion: Aqueduct
 

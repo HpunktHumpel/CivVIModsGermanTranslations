@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="12">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 98 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 99 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642026225</Created>
+    <Created>1642027607</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -239,6 +239,9 @@
     </Criteria>
     <Criteria id="Panda">
       <ModInUse>724e7828-3c76-4936-8184-ad04ceb7b25e</ModInUse>
+    </Criteria>
+    <Criteria id="PolicyChangeReminder">
+      <ModInUse>2778f75d-9c72-4919-a081-620f6482f5d6</ModInUse>
     </Criteria>
     <Criteria id="PorcelainTower">
       <ModInUse>89a948de-5e48-4608-81a4-c52bd68bc4eb</ModInUse>
@@ -1030,6 +1033,10 @@
       </Properties>
       <File>1701198033/Data_Local_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="PolicyChangeReminder_de_DE">
+      <Criteria>PolicyChangeReminder</Criteria>
+      <File>1132600299/localisation_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="PorcelainTower_de_DE">
       <Criteria>PorcelainTower</Criteria>
       <File>1889267110/Text/Porcelain_Tower_Text_de_DE.xml</File>
@@ -1596,6 +1603,7 @@
     </UpdateText>
   </InGameActions>
   <Files>
+    <File>1132600299/localisation_de_DE.sql</File>
     <File>1142306094/StrategicForts_localization_fix.sql</File>
     <File>1142306094/StrategicForts_Text_de_DE.xml</File>
     <File>1142306094/StrategicForts_Text_en_US.sql</File>

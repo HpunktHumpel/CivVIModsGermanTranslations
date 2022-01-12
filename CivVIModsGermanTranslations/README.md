@@ -7,6 +7,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
 970184582  | Removable Districts | TC | H.Humpel | #10
+1132600299 | Policy Change Reminder | FinalFreak16 | Junky | **NEW**
 1142306094 | Strategic Forts | TC | H.Humpel | #10
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2

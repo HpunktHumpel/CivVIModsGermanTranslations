@@ -70,6 +70,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. p0kiehl's Precinct of Amun-Ra (chimp & p0kiehl | Stevie)
 1. p0kiehl's Satrap's Court (chimp & p0kiehl | H.Humpel)
 1. p0kiehl's Temple of Poseidon (p0kiehl | H.Humpel)
+1. Policy Change Reminder (FinalFreak16 | Junky)
 1. Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)
 1. Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact | H.Humpel)
 1. Progressive Power Consumption (JNR | Junky)
@@ -129,7 +130,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk & _Zee
+- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk & _Zee
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
