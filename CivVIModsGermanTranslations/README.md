@@ -69,6 +69,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
+2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | **NEW**
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3

@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="12">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 97 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 98 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642024897</Created>
+    <Created>1642026225</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -67,6 +67,9 @@
     </Criteria>
     <Criteria id="UC_Entertainment_FrontEnd">
       <ModIsEnabled>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModIsEnabled>
+    </Criteria>
+    <Criteria id="UC_HammurabiTweak_FrontEnd">
+      <ModIsEnabled>352c2630-46eb-4ce4-b40e-d1c3d03d7b6c</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Military_FrontEnd">
       <ModIsEnabled>72d77fd9-7d34-4539-97d9-f5c23de67814</ModIsEnabled>
@@ -326,6 +329,9 @@
     </Criteria>
     <Criteria id="UC_Entertainment">
       <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
+    </Criteria>
+    <Criteria id="UC_HammurabiTweak">
+      <ModInUse>352c2630-46eb-4ce4-b40e-d1c3d03d7b6c</ModInUse>
     </Criteria>
     <Criteria id="UC_Military">
       <ModInUse>72d77fd9-7d34-4539-97d9-f5c23de67814</ModInUse>
@@ -682,6 +688,13 @@
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2474028548/Text/ModSupport/UC_ENT_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_HammurabiTweak_FrontEnd_de_DE">
+      <Criteria>UC_HammurabiTweak_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>2292979207/UC_Babylon_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Military_FrontEnd_ConfigText_de_DE">
       <Criteria>UC_Military_FrontEnd</Criteria>
@@ -1423,6 +1436,13 @@
       </Properties>
       <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_HammurabiTweak_de_DE">
+      <Criteria>UC_HammurabiTweak</Criteria>
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>2292979207/UC_Babylon_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UC_Military_TextBase_de_DE">
       <Criteria>UC_Military</Criteria>
       <Criteria>UC</Criteria>
@@ -1666,6 +1686,7 @@
     <File>2155632734/Core/Leu_p0k_Resources_Localisation_de_DE.sql</File>
     <File>2155632734/Core_MODE/LatResources_Monopolies_Text_de_DE.sql</File>
     <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
+    <File>2292979207/UC_Babylon_Text_de_DE.sql</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
     <File>2331527458/code/Lime Bridges - Text_de_DE.sql</File>
