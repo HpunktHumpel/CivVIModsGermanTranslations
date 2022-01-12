@@ -48,6 +48,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Endgame Map Replay (Technoluddite | Junky)
 1. Environmentalistic Policy (weraptor | H.Humpel)
 1. EpsTweak for Catch-Up (Eps | Junky)
+1. Expanded Alliances (JNR | Junky)
 1. Globe Theatre (World Wonder) (Deliverator23 | H.Humpel)
 1. Greatest Cities (Technoluddite | Junky)
 1. Herdsman (AOM | H.Humpel)

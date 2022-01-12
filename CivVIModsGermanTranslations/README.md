@@ -56,6 +56,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
+1945460659 | Expanded Alliances | JNR | Junky | **NEW**
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
