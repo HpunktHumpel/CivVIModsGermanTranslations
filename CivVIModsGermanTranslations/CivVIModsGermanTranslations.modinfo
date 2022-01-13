@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="12">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]102[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]103[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642104456</Created>
+    <Created>1642106618</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -158,6 +158,9 @@
     </Criteria>
     <Criteria id="DeforestationMoreGradualAndSevere">
       <ModInUse>9c88532e-b20b-42ed-9463-f90c2f42c5ba</ModInUse>
+    </Criteria>
+    <Criteria id="DistrictThemedRecruiting">
+      <ModInUse>2102ed82-213c-4c5d-82e2-54a258687d56</ModInUse>
     </Criteria>
     <Criteria id="DiversityCityCenterBuildings">
       <ModInUse>632a4fa1-e907-4426-815b-8424aeb81bb0</ModInUse>
@@ -422,6 +425,23 @@
     <Criteria id="Rosetta_Conflict">
       <ModInUse inverse="1">f30353f2-8760-4f8d-a28e-08fb6445f627</ModInUse>
       <ModInUse inverse="1">1053759f-6c27-4684-930f-870917dd37d3</ModInUse>
+    </Criteria>
+    <!-- District-Themed Recruiting -->
+    <Criteria id="Vanilla" Any="1">
+      <ModInUse inverse="1">4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
+      <!-- Gathering Storm -->
+      <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+      <!-- Ethiopia DLC -->
+      <ModInUse inverse="1">A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+      <!-- Vietnam DLC -->
+    </Criteria>
+    <Criteria id="Anthology">
+      <ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
+      <!-- Gathering Storm -->
+      <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+      <!-- Ethiopia DLC -->
+      <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+      <!-- Vietnam DLC -->
     </Criteria>
     <!-- UC Criteria -->
     <Criteria id="UC">
@@ -885,6 +905,29 @@
         <LoadOrder>13</LoadOrder>
       </Properties>
       <File>1868147338/CB_Deforestation_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="DistrictThemedRecruiting_TextBase_de_DE">
+      <Criteria>DistrictThemedRecruiting</Criteria>
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>1677687338/Text/UC_UPB_Text_Intro_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="DistrictThemedRecruiting_TextOption_Vanilla_de_DE">
+      <Criteria>DistrictThemedRecruiting</Criteria>
+      <Criteria>Vanilla</Criteria>
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>1677687338/Text/UC_UPB_Text_Vanilla_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="DistrictThemedRecruiting_TextOption_Anthology_de_DE">
+      <Criteria>DistrictThemedRecruiting</Criteria>
+      <Criteria>Anthology</Criteria>
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>1677687338/Text/UC_UPB_Text_Anthology_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="DiversityCityCenterBuildings_Texts_de_DE">
       <Criteria>HarmonyInDiversity_not_in_use</Criteria>
@@ -1686,6 +1729,9 @@
     <File>1665310405/ZsSRO_Locs_de_DE.xml</File>
     <File>1673810086/Data_Localization_de_DE.xml</File>
     <File>1676363302/ConfigText_de_DE.sql</File>
+    <File>1677687338/Text/UC_UPB_Text_Anthology_de_DE.sql</File>
+    <File>1677687338/Text/UC_UPB_Text_Intro_de_DE.sql</File>
+    <File>1677687338/Text/UC_UPB_Text_Vanilla_de_DE.sql</File>
     <File>1681965868/NewUnit_Text_de_DE.xml</File>
     <File>1684556488/Text/ModSupport/UC_GOV_Text_CS_CSE_Ethiopia_de_DE.sql</File>
     <File>1684556488/Text/UC_GOV_Text_de_DE.sql</File>

@@ -43,7 +43,8 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. District Expansion: Entertainment (JNR | Gorowynn)
 1. District Expansion: Goverment (Tier 4) (JNR | Junky)
 1. District Expansion: Military (JNR | Junky)
-1. District Expansion: Suburbs | JNR | Junky
+1. District Expansion: Suburbs (JNR | Junky)
+1. District-Themed Recruiting (JNR | Junky)
 1. Diversity City Center Buildings (D & cyj | H.Humpel)
 1. Emigration (Oni | H.Humpel)
 1. Endgame Map Replay (Technoluddite | Junky)
