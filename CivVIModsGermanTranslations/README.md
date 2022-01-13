@@ -6,6 +6,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
+939149009  | Sukritact's Simple UI Adjustments | sukritact | Junky | **NEW**
 970184582  | Removable Districts | TC | H.Humpel | #10
 1132600299 | Policy Change Reminder | FinalFreak16 | Junky | **NEW**
 1142306094 | Strategic Forts | TC | H.Humpel | #10
