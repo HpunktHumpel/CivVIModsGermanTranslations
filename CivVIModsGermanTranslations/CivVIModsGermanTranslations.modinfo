@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher 99 Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642027607</Created>
+    <Created>1642095980</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -1059,6 +1059,7 @@
     <UpdateText id="Reindeer_de_DE">
       <Criteria>Reindeer</Criteria>
       <File>1595724214/Reindeer_Text_de_DE.xml</File>
+      <File>1595724214/Reindeer_Text_patch_de_DE.sql</File>
     </UpdateText>
     <UpdateDatabase id="RemovableDistricts_Gameplay_de_DE">
       <Criteria>RemovableDistricts</Criteria>
@@ -1626,6 +1627,7 @@
     <File>1588097397/Botanist_Text_de_DE.sql</File>
     <File>1588097397/Botanist_Text_de_DE.xml</File>
     <File>1595724214/Reindeer_Text_de_DE.xml</File>
+    <File>1595724214/Reindeer_Text_patch_de_DE.sql</File>
     <File>1657288046/II_SR_Text_de_DE.sql</File>
     <File>1660382665/CB_Decommission_Text_de_DE.sql</File>
     <File>1660544080/Decommission_Locs_de_DE.xml</File>
