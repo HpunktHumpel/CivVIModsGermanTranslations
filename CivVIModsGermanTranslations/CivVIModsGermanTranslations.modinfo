@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="12">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]101[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]102[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642101464</Created>
+    <Created>1642104456</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk and _Zee for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -344,6 +344,9 @@
     </Criteria>
     <Criteria id="UC_Entertainment">
       <ModInUse>93e0f97a-a9cc-494d-8560-b3b6b9aabdf2</ModInUse>
+    </Criteria>
+    <Criteria id="UC_Government">
+      <ModInUse>cf1615ca-1543-4c67-9da9-1d518f31c0e7</ModInUse>
     </Criteria>
     <Criteria id="UC_HammurabiTweak">
       <ModInUse>352c2630-46eb-4ce4-b40e-d1c3d03d7b6c</ModInUse>
@@ -1475,6 +1478,22 @@
       </Properties>
       <File>2474028548/Text/UC_ENT_Text_Name_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_Government_TextBase_de_DE">
+      <Criteria>UC_Government</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>280</LoadOrder>
+      </Properties>
+      <File>1684556488/Text/UC_GOV_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Government_TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Government</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>283</LoadOrder>
+      </Properties>
+      <File>1684556488/Text/ModSupport/UC_GOV_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UC_HammurabiTweak_de_DE">
       <Criteria>UC_HammurabiTweak</Criteria>
       <Properties>
@@ -1668,6 +1687,8 @@
     <File>1673810086/Data_Localization_de_DE.xml</File>
     <File>1676363302/ConfigText_de_DE.sql</File>
     <File>1681965868/NewUnit_Text_de_DE.xml</File>
+    <File>1684556488/Text/ModSupport/UC_GOV_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    <File>1684556488/Text/UC_GOV_Text_de_DE.sql</File>
     <File>1699707052/NewPolicy_Text_de_DE.xml</File>
     <File>1701198033/Data_Local_de_DE.xml</File>
     <File>1710103474/Data_Local_de_DE.xml</File>
