@@ -2,14 +2,14 @@
 
 Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
-880843004  | Real Era Stop | infixo | Junky | **NEW**
+880843004  | Real Era Stop | infixo | Junky | #12
 891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | #9
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
-939149009  | Sukritact's Simple UI Adjustments | sukritact | Junky | **NEW**
+939149009  | Sukritact's Simple UI Adjustments | sukritact | Junky | #12
 970184582  | Removable Districts | TC | H.Humpel | #10
-1132600299 | Policy Change Reminder | FinalFreak16 | Junky | **NEW**
+1132600299 | Policy Change Reminder | FinalFreak16 | Junky | #12
 1142306094 | Strategic Forts | TC | H.Humpel | #10
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
@@ -26,18 +26,18 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
-1595724214 | Reindeer | AOM | Junky | **NEW**
+1595724214 | Reindeer | AOM | Junky | #12
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
-1660382665 | Decommission Power Plants | JNR | Junky | **NEW**
+1660382665 | Decommission Power Plants | JNR | Junky | #12
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
-1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | **NEW**
+1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | #12
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
-1677687338 | District-Themed Recruiting | JNR | Junky | **NEW**
+1677687338 | District-Themed Recruiting | JNR | Junky | #12
 1681965868 | AOK_Units | anders | H.Humpel | #9
-1684556488 | District Expansion: Goverment (Tier 4) | JNR | Junky | **NEW**
+1684556488 | District Expansion: Goverment (Tier 4) | JNR | Junky | #12
 1699707052 | Environmentalistic Policy | weraptor | H.Humpel | #9
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
 1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
@@ -51,30 +51,30 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1782215547 | Borobudur (World Wonder) | Deliverator23 | H.Humpel | #5
 1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | #5
 1822380055 | Sappers - Military Engineers support sieges | JNR | Junky | #11
-1827447798 | Basic Buildings | carterrosenberg | H.Humpel | **NEW**
+1827447798 | Basic Buildings | carterrosenberg | H.Humpel | #12
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
 1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | #10
 1839114973 | District Expansion: Military | JNR | Junky | #11
-1868147338 | Deforestation: More Gradual and Severe | JNR | Junky | **NEW**
+1868147338 | Deforestation: More Gradual and Severe | JNR | Junky | #12
 1871766085 | Lyceum - Early Science Building | Linguaphile | H.Humpel | #10
 1872427843 | Emigration | Oni | H.Humpel | #9
 1888611021 | Requested Pantheons | Angryr | H.Humpel | #9
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
-1945460659 | Expanded Alliances | JNR | Junky | **NEW**
+1945460659 | Expanded Alliances | JNR | Junky | #12
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
-2139486665 | Better World Rankings (UI) | infixo | Junky | **NEW**
-2145663327 | Better Religion Window (UI) | infixo | Junky | **NEW**
+2139486665 | Better World Rankings (UI) | infixo | Junky | #12
+2145663327 | Better Religion Window (UI) | infixo | Junky | #12
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
-2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | **NEW**
+2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
