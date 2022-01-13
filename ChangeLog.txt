@@ -1,5 +1,6 @@
 13.01.2022
 
+- [NEW] Real Era Stop (Version 3.1 vom 10. Sep. 2020 um 22:03, Übersetzung von Junky)
 - [NEW] Sukritact's Simple UI Adjustments (vom 2. Dez. 2020 um 11:21, Übersetzung von Junky)
 
 

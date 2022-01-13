@@ -2,6 +2,7 @@
 
 Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
+880843004  | Real Era Stop | infixo | Junky | **NEW**
 891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | #9
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
