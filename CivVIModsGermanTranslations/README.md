@@ -46,6 +46,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
 1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
+1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | **NEW**
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
 1768673720 | Castles - Better Forts | JNR | Junky | #6

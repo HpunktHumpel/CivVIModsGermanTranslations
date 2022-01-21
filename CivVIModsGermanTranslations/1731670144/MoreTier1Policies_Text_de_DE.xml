@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- The name of the policy. -->
+		<Row Tag="LOC_POLICY_FIRE_NAME" Language="de_DE">
+			<Text>Feuerstelle</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_CAVE_ART_NAME" Language="de_DE">
+			<Text>Höhlenkunst</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PROTECTION_MONEY_NAME" Language="de_DE">
+			<Text>Schutzgeld</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GLUTTONY_NAME" Language="de_DE">
+			<Text>Königliche Völlerei</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_RECON_EXPRESS_NAME" Language="de_DE">
+			<Text>Express-Aufklärer</Text>
+		</Row>
+
+		<!-- The description of the policy. -->
+		<Row Tag="LOC_POLICY_FIRE_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Science] Wissenschaft in der [Icon_Capital] Hauptstadt.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_CAVE_ART_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Culture] Kultur in der [Icon_Capital] Hauptstadt.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PROTECTION_MONEY_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Gold] Gold in der [Icon_Capital] Hauptstadt.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GLUTTONY_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Food] Nahrung in der [Icon_Capital] Hauptstadt.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_RECON_EXPRESS_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Movement] Fortbewegung für Aufklärungseinheiten, aber auch -6 [ICON_Strength] Kampfstärke.</Text>
+		</Row>
+
+		<!-- Civilopedia information about the policy. -->
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FIRE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Als der Mensche lernte das Feuer zu zähmen, konnte Essen gekocht werden.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FIRE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Wahre Geschichte.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CAVE_ART_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Höhlenmenschen malten an Wänden. Tatsache.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CAVE_ART_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>In Ordung?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PROTECTION_MONEY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Wenn du den starken Jungs Geld gibst, kannst du loslegen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PROTECTION_MONEY_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Sehr empfehlenswert.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_GLUTTONY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Es sind immer die Könige, die das meiste Essen verlangen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_GLUTTONY_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Schon mal einen schlanken König gesehen?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RECON_EXPRESS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Arbeitsbedingungen für Boten waren schon immer schlecht.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RECON_EXPRESS_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Es ist Zeit für eine Veränderung, oder?</Text>
+		</Row>
+
+		<Row Tag="LOC_RECON_EXPRESS_COMBAT_MODIFIER" Language="de_DE">
+			<Text>Express-Aufklärer: -6 für Aufklärungseinheiten.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
