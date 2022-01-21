@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translation by Junky -->
+<GameData>
+	<LocalizedText>
+<!-- CTE_UI.lua -->
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RESOURCE_BUGGED" Language="de_DE">
+			<Text>Wenn diese Ressource durch diesen Mod platziert wurde, ist es nicht möglich, sie zu ernten!</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RESOURCE_MINOR_CIV" Language="de_DE">
+			<Text>Diese Ressource wird normalerweise von kleineren Zivilisationen gewährt und sollte nicht auf der Karte platziert werden!</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_IMPROVEMENT_BUGGED" Language="de_DE">
+			<Text>Diese Modernisierung wird nicht funktionieren, wenn es durch diesen Mod platziert wurde!</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_FEATURE_FLOODPLAINS_BUGGED" Language="de_DE">
+			<Text>Das Hinzufügen oder Entfernen von Überschwemmungsgebieten hat keinen Einfluss auf Hochwasserkatastrophen!</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_TERRAINS_UNCH" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_FEATURES_UNCH" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RESOURCES_UNCH" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_IMPROVEMENT_UNCH" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_ROUTE_UNCH" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_ROUTE_NONE" Language="de_DE">
+			<Text>Keine</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_OWNER_UNCH" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_OWNER_NONE" Language="de_DE">
+			<Text>Keine</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_ELEVATION_UNCH" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_ELEVATION_NONE" Language="de_DE">
+			<Text>Keine</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CONTINENTS_UNCH" Language="de_DE">
+			<Text>Unverändert (wenn möglich)</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RES_TT_YIELDS" Language="de_DE">
+			<Text>Ertragsänderungen: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RES_TT_VALID_TERRAINS" Language="de_DE">
+			<Text>Gültiges Gelände: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RES_TT_VALID_FEATURES" Language="de_DE">
+			<Text>Gültige Geländearten: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RIVER_NEW" Language="de_DE">
+			<Text>Neue Fluss ID: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_POPUP_SHOW_CONFIRM_DELETE_DIALOG" Language="de_DE">
+			<Text>Seid Ihr sicher, dass Ihr alle Einheiten im Feld löschen wollt?</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_POPUP_CME_FIX" Language="de_DE">
+			<Text>Flächen/Seen wurde neu berechnet.[NEWLINE]Möchtet Ihr die unsichere Funktion CRASH ausführen, um neues Terrain für Siedler zu schaffen? Es kann Euer Spiel beschädigen und verhindern, dass der Spielverlauf aufgrund eines Absturzes in einer späteren Runde abschlossen werden kann.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_POPUP_CME_CB_SAFE_ADV_MODE" Language="de_DE">
+			<Text>Änderungen zulassen, die später im Spiel während eines KI-Zugs zum Absturz führen?</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_TER_REASON" Language="de_DE">
+			<Text>Gelände: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_FEA_REASON" Language="de_DE">
+			<Text>Geländeart: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RES_REASON" Language="de_DE">
+			<Text>Ressource: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_IMP_REASON" Language="de_DE">
+			<Text>Modernisierung: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RIV_REASON_ADD" Language="de_DE">
+			<Text>Fluss hinzufügen: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RIV_REASON_REM" Language="de_DE">
+			<Text>Fluss entfernen: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RIV_REASON1" Language="de_DE">
+			<Text>Fluss OST: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RIV_REASON2" Language="de_DE">
+			<Text>Fluss S.OST: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_RIV_REASON3" Language="de_DE">
+			<Text>Fluss S.WEST: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CLIF_REASON1" Language="de_DE">
+			<Text>Klippe OST: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CLIF_REASON2" Language="de_DE">
+			<Text>Klippe S.OST: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CLIF_REASON3" Language="de_DE">
+			<Text>Klippe S.WEST: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_NC" Language="de_DE">
+			<Text> Keine Änderungen. </Text>
+		</Replace>
+
+<!-- CTE_UI.xml -->
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LAUNCH_BAR_BTN_TIP" Language="de_DE">
+			<Text>Mogel Karteneditor[NEWLINE][NEWLINE]Tastenkürzel: Alt+M zum Öffnen/Schließen des Editor-Fensters.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_TAB_RIV_TIP" Language="de_DE">
+			<Text>Ändere Flüsse</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_TAB_RIV_LBL_STR" Language="de_DE">
+			<Text>Flüsse</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_TAB_CLI_TIP" Language="de_DE">
+			<Text>Ändere Klippen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_TAB_CLI_LBL_STR" Language="de_DE">
+			<Text>Klippen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_TAB_TER_TIP" Language="de_DE">
+			<Text>Ändere Gelände</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_TAB_TER_LBL_STR" Language="de_DE">
+			<Text>Gelände</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_TER_TYPE_STR" Language="de_DE">
+			<Text>Gelände Typ</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_TER_TYPE_TIP" Language="de_DE">
+			<Text>Gelände Typ</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_REF_TERTYPE_TIP" Language="de_DE">
+			<Text>Wert des ausgewählten Feldes setzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_UN_TER_TIP" Language="de_DE">
+			<Text>Setze Unveränderten Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_FEATURE_STR" Language="de_DE">
+			<Text>Geländeart</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_FEATURE_TIP" Language="de_DE">
+			<Text>Geländeart</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_REF_FEA_TIP" Language="de_DE">
+			<Text>Wert des ausgewählten Feldes setzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_NON_FEA_TIP" Language="de_DE">
+			<Text>Setze KEINEN Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_UN_FEA_TIP" Language="de_DE">
+			<Text>Setze Unveränderten Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_RES_STR" Language="de_DE">
+			<Text>Ressource</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_RES_TIP" Language="de_DE">
+			<Text>Ressource</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_EB_RES_VALUE_TIP" Language="de_DE">
+			<Text>Ressourcenmenge</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_RES_VALUE_LEFT_TIP" Language="de_DE">
+			<Text>Verkleinere Wert um 1</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_RES_VALUE_RIGHT_TIP" Language="de_DE">
+			<Text>Erhöhe Wert um 1</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_REF_RES_TIP" Language="de_DE">
+			<Text>Wert des ausgewählten Feldes setzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_NON_RES_TIP" Language="de_DE">
+			<Text>Setze KEINEN Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_UN_RES_TIP" Language="de_DE">
+			<Text>Setze Unveränderten Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_IMPR_STR" Language="de_DE">
+			<Text>Modernisierung</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_IMPR_TIP" Language="de_DE">
+			<Text>Modernisierung</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_REF_IMP_TIP" Language="de_DE">
+			<Text>Wert des ausgewählten Feldes setzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_NON_IMP_TIP" Language="de_DE">
+			<Text>Setze KEINEN Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_UN_IMP_TIP" Language="de_DE">
+			<Text>Setze Unveränderten Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_ROUTE_STR" Language="de_DE">
+			<Text>Weg</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_ROUTE_TIP" Language="de_DE">
+			<Text>Weg</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_REF_ROUTE_TIP" Language="de_DE">
+			<Text>Wert des ausgewählten Feldes setzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_NON_ROUTE_TIP" Language="de_DE">
+			<Text>Setze KEINEN Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_UN_ROUTE_TIP" Language="de_DE">
+			<Text>Setze Unveränderten Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_OWNER_STR" Language="de_DE">
+			<Text>Feldbesitzer</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_OWNER_TIP" Language="de_DE">
+			<Text>Feldbesitzer</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_ELEV_STR" Language="de_DE">
+			<Text>Küstenüberschwemmungen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_ELEV_TIP" Language="de_DE">
+			<Text>Küstenüberschwemmungsstufe</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_REF_ELEV_TIP" Language="de_DE">
+			<Text>Wert des ausgewählten Feldes setzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_NON_ELEV_TIP" Language="de_DE">
+			<Text>Setze KEINEN Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_UN_ELEV_TIP" Language="de_DE">
+			<Text>Setze Unveränderten Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_CONT_TYPE_STR" Language="de_DE">
+			<Text>Kontinent</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_CONT_TYPE_TIP" Language="de_DE">
+			<Text>Seen sollten einen Kontinent haben, Ozeane und Meeresküsten nicht. Gelände sollten Kontinent haben. Manchmal muss das Spiel gespeichert und geladen werden, um aktuelle Werte zu sehen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_REF_CONT_TIP" Language="de_DE">
+			<Text>Wert des ausgewählten Feldes setzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_NON_CONT_TIP" Language="de_DE">
+			<Text>Setze KEINEN Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_UN_CONT_TIP" Language="de_DE">
+			<Text>Setze Unveränderten Wert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_RIVER_STR" Language="de_DE">
+			<Text>Fluss (Experimentell)</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_RIVER_TIP" Language="de_DE">
+			<Text>Ändere Flussfeld (Experimentelle Funktion)</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_RIVER_UNCH_STR" Language="de_DE">
+			<Text>Ignorieren</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_RIVER_UNCH_TIP" Language="de_DE">
+			<Text>Versucht nicht, den Fluss zu ändern.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_NEW_RIVER_ID_STR" Language="de_DE">
+			<Text>Fluss ID (nur für neue Flüsse)</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_PD_NEW_RIVER_ID_TIP" Language="de_DE">
+			<Text>Fluss ID bestimmt den Flussnamen. [NEWLINE]Es gibt keine Möglichkeit, die ID eines bestehenden Flusses oder den Namen eines Flusses anhand der Fluss-ID zu ermitteln.[NEWLINE]Sie können Fluss-IDs aus bestehenden Flüssen der Karte auswählen oder neue IDs erstellen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_RIVER_SW_TIP" Language="de_DE">
+			<Text>Südwestliches Feld Flusszustand</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_RIVER_SE_TIP" Language="de_DE">
+			<Text>Südöstliches Feld Flusszustand</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_RIVER_E_TIP" Language="de_DE">
+			<Text>Östliches Feld Flusszustand</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_CLIFF_STR" Language="de_DE">
+			<Text>Klippen (Experimentell)</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_CLIFF_TIP" Language="de_DE">
+			<Text>Ändere Feldklippen (Experimentelle Funktion)</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_CLIFF_UNCH_STR" Language="de_DE">
+			<Text>Ignorieren</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_CLIFF_UNCH_TIP" Language="de_DE">
+			<Text>Versucht nicht, die Klippen zu ändern.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_CLIFF_SW_TIP" Language="de_DE">
+			<Text>Südwestliches Feld Klippenzustand</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_CLIFF_SE_TIP" Language="de_DE">
+			<Text>Südöstliches Feld Klippenzustand</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_BTN_CLIFF_E_TIP" Language="de_DE">
+			<Text>Östliches Feld Klippenzustand</Text>
+		</Replace>
+<!--
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_IMPR_STR" Language="de_DE">
+			<Text>You may need to Save and Load the game to update visuals</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_BG_STR" Language="de_DE">
+			<Text>Background</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_BG_TIP" Language="de_DE">
+			<Text>Make background opaque</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_BG_TIP" Language="de_DE">
+			<Text>Make background opaque</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_BG_STR" Language="de_DE">
+			<Text>Background</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_BG_TIP" Language="de_DE">
+			<Text>Make background opaque</Text>
+		</Replace>
+-->
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_SAFE_MODE_STR" Language="de_DE">
+			<Text>Abgesicherter Modus</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_SAFE_MODE_TIP" Language="de_DE">
+			<Text>Versucht, ungültige Änderungen zu verhindern. [NEWLINE]Versucht, die Unverändert-Optionen zu respektieren (kann aber Felder unter Naturwunder ändern).[NEWLINE][NEWLINE][COLOR_RED]Es schützt NICHT vor Abstürzen.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_SAFE_MODE_TIP" Language="de_DE">
+			<Text>Versucht, ungültige Änderungen zu verhindern. [NEWLINE]Versucht, die Unverändert-Optionen zu respektieren (kann aber Felder unter Naturwunder ändern).[NEWLINE][NEWLINE][COLOR_RED]Es schützt NICHT vor Abstürzen.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_SAFE_ADV_MODE_STR" Language="de_DE">
+			<Text>Abgesicherter Modus</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_SAFE_ADV_MODE_TIP" Language="de_DE">
+			<Text>Versucht, Änderungen, die nicht absturzsicher sind, zu unterbinden. [NEWLINE][NEWLINE][COLOR_RED]Überprüft nur bekannte Absturzursachen, daher wird keine absolute Absturzsicherheit garantiert.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_SAFE_ADV_MODE_TIP" Language="de_DE">
+			<Text>Versucht, Änderungen, die nicht absturzsicher sind, zu unterbinden. [NEWLINE][NEWLINE][COLOR_RED]Überprüft nur bekannte Absturzursachen, daher wird keine absolute Absturzsicherheit garantiert.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_PAINT_MODE_STR" Language="de_DE">
+			<Text>Maler-Modus</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_PAINT_MODE_TIP" Language="de_DE">
+			<Text>Im Maler-Modus werden ausgewählte Optionen automatisch angewendet, durch Klicken auf das Feld.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_PAINT_MODE_TIP" Language="de_DE">
+			<Text>Im Maler-Modus werden ausgewählte Optionen automatisch angewendet, durch Klicken auf das Feld.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_FIX_TIP" Language="de_DE">
+			<Text>Korrigiert die Kartendatenstrukturen, um mögliche Abstürze zu verhindern, kann aber zu Abstürzen führen, wenn es später im Spiel mit deaktivierter Absturzsicherung aufgerufen wird. [NEWLINE]Kann ein paar Minuten dauern. [NEWLINE][NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_FIX_LBL_STR" Language="de_DE">
+			<Text>Spieldaten fixen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_FIX_LBL2_STR" Language="de_DE">
+			<Text>Spieldaten fixen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_REMOVE_UNITS_TIP" Language="de_DE">
+			<Text>Alle Einheiten auf dem ausgewählten Feld entfernen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_REMOVE_UNITS_LBL_STR" Language="de_DE">
+			<Text>Einheiten löschen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_SHOW_STATUS_TIP" Language="de_DE">
+			<Text>Gültigkeitsstatus des abgesicherten Modus anzeigen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_SHOW_STATUS_LBL_STR" Language="de_DE">
+			<Text>Zustand</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_SHOW_SAVELOAD_TIP" Language="de_DE">
+			<Text>Speichern Sie das Spiel und laden Sie es automatisch, um die Grafik zu aktualisieren.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_SHOW_SAVELOAD_LBL_STR" Language="de_DE">
+			<Text>Speichern-Laden</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_BG_STR" Language="de_DE">
+			<Text>Hintergrund</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_LBL_BG_TIP" Language="de_DE">
+			<Text>Hintergrund undurchsichtig machen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CB_BG_TIP" Language="de_DE">
+			<Text>Hintergrund undurchsichtig machen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_UNCH_STR" Language="de_DE">
+			<Text>Unverändert</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_UNCH_TIP" Language="de_DE">
+			<Text>Wähle Unverändert Wert in allen Auswahlfeldern</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_NONE_STR" Language="de_DE">
+			<Text>Keine</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_NONE_TIP" Language="de_DE">
+			<Text>Wähle Keine Wert in allen Auswahlfeldern</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CANCEL_STR" Language="de_DE">
+			<Text>Aktualisieren</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_CANCEL_TIP" Language="de_DE">
+			<Text>Werte entsprechend des gewählten Geländes auswählen</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_OK_TIP" Language="de_DE">
+			<Text>Werte auf ausgewähltes Feld anwenden</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_OK_LBL_STR" Language="de_DE">
+			<Text>Anwenden</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_LBL1_STR" Language="de_DE">
+			<Text>Gelände: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_LBL2_STR" Language="de_DE">
+			<Text>Geländeart: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_LBL3_STR" Language="de_DE">
+			<Text>Ressource: </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_LBL4_STR" Language="de_DE">
+			<Text>Modernisierung: </Text>
+		</Replace>
+
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_OK" Language="de_DE">
+			<Text>OK</Text>
+		</Replace>
+<!-- CTE_UI.xml -->
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_DENY_CITYCENTR" Language="de_DE">
+			<Text> VERWEIGERT. Änderungen unter Stadtzentren nicht erlaubt.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_DENY_WONDER" Language="de_DE">
+			<Text> VERWEIGERT. Änderungen unter Wundern sind nicht erlaubt.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_DENY_DISTR" Language="de_DE">
+			<Text> VERWEIGERT. Änderungen unter Bezirken sind nicht erlaubt.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_DENY_OWNED_TILE" Language="de_DE">
+			<Text> VERWEIGERT. Gewählte Modernisierung kann nur auf im Besitz befindliche Felder gesetzt werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_IMPR_NWTILES" Language="de_DE">
+			<Text> VERWEIGERT. Platzierung von Modernisierungen auf Naturwundern ist deaktiviert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_IMPR_INV_TERR" Language="de_DE">
+			<Text> VERWEIGERT. Ungültiges Gelände unter Modernisierung.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_IMPR_INV_FEA" Language="de_DE">
+			<Text> VERWEIGERT. Ungültige Geländeart unter Modernisierung.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_IMPR_INV_RES" Language="de_DE">
+			<Text> VERWEIGERT. Ungültige Ressource unter Modernisierung.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RES_DENY_NWTILE" Language="de_DE">
+			<Text> VERWEIGERT. Ressourcenplatzierung auf Naturwundern ist nicht erlaubt.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RES_DENY_WATER" Language="de_DE">
+			<Text> VERWEIGERT. Ressource kann nicht im Wasser platziert werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RES_DENY_NOWATER" Language="de_DE">
+			<Text> VERWEIGERT. Ressource kann nicht auf Land platziert werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RES_DENY_TERR" Language="de_DE">
+			<Text> VERWEIGERT. Ungültiges Gelände unter Ressource. </Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RES_DENY_FEA" Language="de_DE">
+			<Text> VERWEIGERT. Ungültige Geländeart unter Ressource.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RES_DENY_IMPR" Language="de_DE">
+			<Text> VERWEIGERT. Ressource unter Modernisierung kann nicht geändert werden oder, bei Modernisierungsänderung, verweigert.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_CITYCENTR" Language="de_DE">
+			<Text> VERWEIGERT. Änderungen unter Stadtzentren nicht erlaubt (Naturwunder über mehrere Felder).</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_WONDER" Language="de_DE">
+			<Text> VERWEIGERT. Änderungen unter Wundern sind nicht erlaubt (Naturwunder über mehrere Felder).</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_DISTR" Language="de_DE">
+			<Text> VERWEIGERT. Änderungen unter Bezirken sind nicht erlaubt (Naturwunder über mehrere Felder).</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_VOLC" Language="de_DE">
+			<Text> VERWEIGERT. Mod erlaubt keine Änderungen an Vulkanen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_IMPR" Language="de_DE">
+			<Text> VERWEIGERT. Kann Geländeart unter Modernisierung nicht ändern oder, bei Modernisierungsänderung, verweigert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_RES" Language="de_DE">
+			<Text> VERWEIGERT. Kann Geländeart nicht ändern, weil aktuelle Ressource unangetastet bleiben soll, aber sie auf neuer Geländart nicht erlaubt ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_TERR" Language="de_DE">
+			<Text> VERWEIGERT. Ungültiges Gelände unter Geländeart.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_FEA_DENY_VOLC_REM" Language="de_DE">
+			<Text> VERWEIGERT. Mod ermöglicht die Entfernung von Vulkanen nicht.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_TERR_DENY_MOUNT" Language="de_DE">
+			<Text> VERWEIGERT. Entfernung oder Erstellung von Bergen wird später während eines KI-Zugs zum Absturz führen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_TERR_DENY_ADD_LAND" Language="de_DE">
+			<Text> VERWEIGERT. Die Erstellung von neuem Land wird später während eines KI-Zugs zum Absturz führen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_TERR_DENY_WATER_RIVER" Language="de_DE">
+			<Text> VERWEIGERT. Die Erstellung von neuem Wasser neben Flüssen ist nicht erlaubt.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_TERR_DENY_IMPR" Language="de_DE">
+			<Text> VERWEIGERT. Kann Gelände unter Modernisierung nicht ändern oder, bei Modernisierungsänderung, verweigert.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_TERR_DENY_RES" Language="de_DE">
+			<Text> VERWEIGERT. Kann Gelände nicht ändern, weil aktuelle Ressource unangetastet bleiben soll, aber sie auf neuer Geländart nicht erlaubt ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_TERR_DENY_FEA" Language="de_DE">
+			<Text> VERWEIGERT. Kann Gelände nicht ändern, weil aktuelle Geländart unangetastet bleiben soll, aber sie auf neuer Geländart nicht erlaubt ist.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RIV_DENY_WATER" Language="de_DE">
+			<Text>VERWEIGERT. Flüsse sind auf Wasserfeldern nicht erlaubt.</Text>
+		</Replace>
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_RIV_DENY_REM" Language="de_DE">
+			<Text>VERWEIGERT. Die Entfernung des Flusses füht zum Spielabsturz.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CHEAT_MAP_EDITOR_VALID_CLI_DENY_LAND_WATER" Language="de_DE">
+			<Text>VERWEIGERT. Klippen sollten zwischen Land und Wasserfeldern gesetzt werden.</Text>
+		</Replace>
+		
+	</LocalizedText>
+</GameData>

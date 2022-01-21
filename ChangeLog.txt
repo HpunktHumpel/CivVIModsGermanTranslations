@@ -1,8 +1,13 @@
+21.01.2022
+
+- [NEW] Cheat Map Editor (vom 15. Okt. 2019 um 19:57, Übersetzung von Junky)
+
+
 ===== Version 12 =====
 
 13.01.2022
 
-- [NEW] District Expansion: Goverment (Tier 4) (6. Dez. 2021 um 19:36, Übersetzung von Junky)
+- [NEW] District Expansion: Goverment (Tier 4) (vom 6. Dez. 2021 um 19:36, Übersetzung von Junky)
 - [NEW] District-Themed Recruiting (vom 11. Juli 2021 um 14:59, Übersetzung von Junky)
 - [NEW] Real Era Stop (Version 3.1 vom 10. Sep. 2020 um 22:03, Übersetzung von Junky)
 - [NEW] Sukritact's Simple UI Adjustments (vom 2. Dez. 2020 um 11:21, Übersetzung von Junky)
