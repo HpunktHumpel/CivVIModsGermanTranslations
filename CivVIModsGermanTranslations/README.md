@@ -24,19 +24,19 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9
-1528155583 | Cheat Menu Panel (R&F - GS) | Sparrow | Junky | **NEW**
+1528155583 | Cheat Menu Panel (R&F - GS) | Sparrow | Junky | #13
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1595724214 | Reindeer | AOM | Junky | #12
-1628605090 | Radial Measuring Tool | Zur13 | Junky | **NEW**
-1651487987 | Cheat Map Editor | Zur13 | Junky | **NEW**
+1628605090 | Radial Measuring Tool | Zur13 | Junky | #13
+1651487987 | Cheat Map Editor | Zur13 | Junky | #13
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660382665 | Decommission Power Plants | JNR | Junky | #12
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | #12
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
-1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | **NEW**
+1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | #13
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1677687338 | District-Themed Recruiting | JNR | Junky | #12
@@ -46,7 +46,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
 1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
-1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | **NEW**
+1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | #13
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
 1768673720 | Castles - Better Forts | JNR | Junky | #6
@@ -85,7 +85,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
-2394507496 | First to Circumnavigate | Sailor Cat | Junky | **NEW**
+2394507496 | First to Circumnavigate | Sailor Cat | Junky | #13
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
