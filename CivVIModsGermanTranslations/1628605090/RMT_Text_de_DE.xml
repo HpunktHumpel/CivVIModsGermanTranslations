@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RMT_Text -->
+<!-- Author: Zur13  | Translation by Junky -->
+<!-- DateCreated: 1/26/2019 12:18:20 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- Main window -->
+		<Replace Tag="LOC_RMT_BTN"  Language="de_DE">
+			<Text>RMW</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_BTN_TT"  Language="de_DE">
+			<Text>Radiales Messwerkzeug[NEWLINE]Alt+4 zum Öffnen/Schließen des Mod Fensters[NEWLINE]ESC zum Schließen des geöffneten Mod Fensters</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_WND_TITLE"  Language="de_DE">
+			<Text>Radiales Messwerkzeug</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_LBL1"  Language="de_DE">
+			<Text>Klickt auf die Karte, um die Felder im Radius optisch zu erfassen</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_RAD_LBL"  Language="de_DE">
+			<Text>Radius:</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_RAD_CB_TT"  Language="de_DE">
+			<Text>Radius des hervorgehobenen Bereichs</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_ALT_RAD_CB_TT"  Language="de_DE">
+			<Text>Alternativer Radius zählt. Ist dieses Auswahl aktiviert, entspricht der Radius in der Dropdown-Liste den Beschreibungen der Zivilopädie: 'innerhalb X Felder'</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_ALT_RAD_PREFIX"  Language="de_DE">
+			<Text>innerhalb </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_ALT_RAD_SUFIX"  Language="de_DE">
+			<Text> Felder</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_SUGGESTIONS"  Language="de_DE">
+			<Text>Markiert markante Punkte auf der Karte (experimentell)</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_SUGGESTIONS_TT"  Language="de_DE">
+			<Text>Das radiale Messwerkzeug versucht die besten Siedlungsorte innerhalb des Radius zu finden. Dieser Vorschlag könnte von dem des Spiels abweichen und nicht optimal sein.</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_MULTI"  Language="de_DE">
+			<Text>Hervorhebung[NEWLINE]mehrerer Radien[NEWLINE] </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_MULTI_TT"  Language="de_DE">
+			<Text>Färbe Felder in bis zu 8 Radien</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_INTERSECT"  Language="de_DE">
+			<Text>Farbüberschneidung[NEWLINE]deaktivieren</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_INTERSECT_TT"  Language="de_DE">
+			<Text>Deaktiviere Überschneidung mehrerer Radien mit Farbhervorhebungen</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_DIMMING"  Language="de_DE">
+			<Text> [NEWLINE]Kartenabdunklung[NEWLINE]deaktivieren</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_DIMMING_TT"  Language="de_DE">
+			<Text>Abdunkeln von Feldern außerhalb des Radius deaktivieren</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_CITY_ONLY"  Language="de_DE">
+			<Text>Färbe nur Stadtzentren</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_CITY_ONLY_TT"  Language="de_DE">
+			<Text>Färbe nur Felder mit Stadtzentren</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_IGNORE_VIS"  Language="de_DE">
+			<Text>Ignoriere Kartensichtbarkeit</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_IGNORE_VIS_TT"  Language="de_DE">
+			<Text>Färbe und berechne Felder im Radius, selbst wenn sie noch nicht entdeckt wurden</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_BONUS_RES"  Language="de_DE">
+			<Text>Ignoriere Bonusressourcen</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_BONUS_RES_TT"  Language="de_DE">
+			<Text>Färbe Luxus- und Strategische Ressourcen und ignoriere Bonus- und andere Ressourcenfelder</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEYS_TT"  Language="de_DE">
+			<Text>Felder zählen zum aktiven Radius im Vergleich zum vorigen Radius (Radius Zentrum #2)</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_LBL_TERR_YIELS_DEF"  Language="de_DE">
+			<Text>Geländeerträge</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_TRANSP"  Language="de_DE">
+			<Text>Durchsichtiger Fensterhintergrund</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_CB_WND_POS"  Language="de_DE">
+			<Text>Fensterposition: </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_UNLEASHED_OPTION"  Language="de_DE">
+			<Text>In die Vollversion verschoben</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_UNLEASHED_OPTION_TT"  Language="de_DE">
+			<Text>Diese Möglichkeit ist für Spiele in Netzwerken ungeeigenet und wird nur in der Vollversion des Mods angeboten.</Text>
+		</Replace>
+
+		<!-- Main window from code -->
+		<Replace Tag="LOC_RMT_MAX_CITY_RAD"  Language="de_DE">
+			<Text> - Maximaler Stadtradius </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_GAME_BUG_WARN"  Language="de_DE">
+			<Text> (Spielfehler, Abdunklung abgeschaltet)</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_RES_OVERFLOW"  Language="de_DE">
+			<Text>...</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_RES_OVERFLOW_TT"  Language="de_DE">
+			<Text>Einige Ressourcen passen nicht in diese Zeile und werden daher nicht angezeigt.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_RMT_KEY_CITY_CEN"  Language="de_DE">
+			<Text>Stadtzentrum  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_RES"  Language="de_DE">
+			<Text>Ressource  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_RES_WATER"  Language="de_DE">
+			<Text>Ressource mit Frischwasser/ an Küste  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_RES_RANGE"  Language="de_DE">
+			<Text>Ressource in Reichweite einer anderen Stadt  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_RES_OWNED"  Language="de_DE">
+			<Text>Ressource gehört einer anderen Stadt  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_TILE_RANGE"  Language="de_DE">
+			<Text>Feld in Reichweite einer anderen Stadt  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_TILE_OWNED"  Language="de_DE">
+			<Text>Feld gehört einer anderen Stadt  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_TILE_NOT_PASS"  Language="de_DE">
+			<Text>Unpassierbares Gelände  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_TILE_WATER"  Language="de_DE">
+			<Text>Frischwasser-/Küstenfeld  </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_KEY_TILE_NOTHING"  Language="de_DE">
+			<Text>Nichts Besonderes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RMT_YIELDS_TT"  Language="de_DE">
+			<Text>Geländeerträge im aktiven Radius im Vergleich zum vorigen Radius (Radius Zentrum #2).[NEWLINE]Es werden nur Erträge auf Feldern gezählt, die nicht im Besitz anderer Städte sind.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RMT_RES_TT"  Language="de_DE">
+			<Text>Ressourcenverfügbarkeit im aktiven Radius im Vergleich zum vorigen Radius (Radius Zentrum #2).[NEWLINE]Es werden nur Ressourcen auf Feldern gezählt, die nicht im Besitz anderer Städte sind.[NEWLINE]Doppelte Ressourcen werden ignoriert.[NEWLINE]Präfixe:[NEWLINE]' ' - Ressource in beiden Radien verfügbar;[NEWLINE]'[COLOR_GREEN]+[ENDCOLOR]' - Ressource nur im aktiven Radius verfügbar;[NEWLINE]'[COLOR_RED]-[ENDCOLOR]' - Ressource nur im vorigen Radius verfügbar. [NEWLINE][NEWLINE]{1_res}</Text>
+		</Replace>
+
+		<!-- World view map pins -->
+		<Replace Tag="LOC_RMT_RAD_PIN_TXT"  Language="de_DE">
+			<Text>RMW</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_RAD_PIN_TT"  Language="de_DE">
+			<Text>Vorige Stelle des Radiuszentrum #{1_radIdx}[NEWLINE]{2_YieldsTT}[NEWLINE][NEWLINE]{3_ResTT}[NEWLINE][NEWLINE]Linksklick zum Aktivieren dieses Radius. [NEWLINE]Rechtsklick zum Entfernen dieses Radius</Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_RAD_PIN_YIELDS_TT"  Language="de_DE">
+			<Text>[NEWLINE]Vergleiche Nadel Radius und aktiver Radius: </Text>
+		</Replace>
+		<Replace Tag="LOC_RMT_REC_PIN_TT"  Language="de_DE">
+			<Text>Mod Radiales Messwerkzeug bewertete diesen Ort als einen der interessantesten Orte im Umkreis... [NEWLINE]Erwarteter Standortwert: </Text>
+		</Replace>
+		<!--<Replace Tag="LOC_RMT_"  Language="de_DE">
+			<Text>TEXT</Text>
+		</Replace>-->
+
+	</LocalizedText>
+</GameData>
