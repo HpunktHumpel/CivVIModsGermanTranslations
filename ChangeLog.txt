@@ -1,6 +1,7 @@
 21.01.2022
 
 - [NEW] Cheat Map Editor (vom 15. Okt. 2019 um 19:57, Übersetzung von Junky)
+- [NEW] First to Circumnavigate (vom 14. Jan. 2022 um 11:17, Übersetzung von Junky)
 
 
 ===== Version 12 =====

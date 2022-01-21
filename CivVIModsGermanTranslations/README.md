@@ -81,6 +81,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
+2394507496 | First to Circumnavigate | Sailor Cat | Junky | **NEW**
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_SAILOR_CIRCUMNAVIGATE_NOTIF" Language="de_DE">
+			<Text>Die Welt wurde umrundet!</Text>
+		</Replace>
+		<Replace Tag="LOC_SAILOR_CIRCUMNAVIGATE_UNMET" Language="de_DE">
+			<Text>Eine unbekannte Zivilisation hat als erstes die Welt umrundet.</Text>
+		</Replace>
+		<Replace Tag="LOC_SAILOR_CIRCUMNAVIGATE_MET" Language="de_DE">
+			<Text>ist der Erste der die Welt umrundete.</Text>
+		</Replace>
+		<Replace Tag="LOC_SAILOR_CIRCUMNAVIGATE_PLAYER" Language="de_DE">
+			<Text>Ihr seid der Erste der die Welt umrundet hat. All Eure Marineeinheiten erhalten nun einen Bewegungspunkt zusätzlich.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -52,6 +52,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Environmentalistic Policy (weraptor | H.Humpel)
 1. EpsTweak for Catch-Up (Eps | Junky)
 1. Expanded Alliances (JNR | Junky)
+1. First to Circumnavigate (Sailor Cat | Junky)
 1. Globe Theatre (World Wonder) (Deliverator23 | H.Humpel)
 1. Greatest Cities (Technoluddite | Junky)
 1. Hammurabi Tweak for Urban Complexity (JNR | Junky)
