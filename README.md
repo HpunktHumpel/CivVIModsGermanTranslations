@@ -57,6 +57,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Globe Theatre (World Wonder) (Deliverator23 | H.Humpel)
 1. Greatest Cities (Technoluddite | Junky)
 1. Hammurabi Tweak for Urban Complexity (JNR | Junky)
+1. Happy Districts - Appeal Rebalanced (JNR | Junky)
 1. Herdsman (AOM | H.Humpel)
 1. Immigration - Move your population (WindFly | H.Humpel)
 1. Iron-eating Beast (aka Panda) (WindFly | H.Humpel)

@@ -35,6 +35,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | #12
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
+1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | **NEW**
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1677687338 | District-Themed Recruiting | JNR | Junky | #12
