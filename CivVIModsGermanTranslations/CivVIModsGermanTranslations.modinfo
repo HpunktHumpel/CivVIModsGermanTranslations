@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="13">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]105[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]106[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642795989</Created>
+    <Created>1642798010</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., Shirohô, Sparrow, sukritact, TC, Technoluddite, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -25,6 +25,9 @@
     <!-- FrontEnd Actions -->
     <Criteria id="AIChannelKizunaAI_FrontEnd">
       <ModIsEnabled>c6af1114-4638-4cdf-bbbb-dcaab3fe26e1</ModIsEnabled>
+    </Criteria>
+    <Criteria id="CheatMenuPanel_FrontEnd">
+      <ModIsEnabled>f1e02dd3-6a94-47c4-a2d7-1d5219d8a40e</ModIsEnabled>
     </Criteria>
     <Criteria id="EpsTweakForCatchUp_FrontEnd">
       <ModIsEnabled>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModIsEnabled>
@@ -146,6 +149,9 @@
     </Criteria>
     <Criteria id="CheatMapEditor">
       <ModInUse>b8fb5dd4-d2da-4a71-96c0-858913f9c610</ModInUse>
+    </Criteria>
+    <Criteria id="CheatMenuPanel">
+      <ModInUse>f1e02dd3-6a94-47c4-a2d7-1d5219d8a40e</ModInUse>
     </Criteria>
     <Criteria id="CityLights">
       <ModInUse>95b955fc-2dd1-41c5-989e-0265d98a28bd</ModInUse>
@@ -614,6 +620,10 @@
       <Criteria>AIChannelKizunaAI_FrontEnd</Criteria>
       <File>1661384856/XMLs/Lang/Kizuna_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="CheatMenuPanel_FrontEnd_de_DE">
+      <Criteria>CheatMenuPanel_FrontEnd</Criteria>
+      <File>1528155583/Base/UI/Text/Options_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="EpsTweakForCatchUp_FrontEnd_de_DE">
       <Criteria>EpsTweakForCatchUp_FrontEnd</Criteria>
       <File>2449611115/Core/GameText_de_DE.xml</File>
@@ -880,6 +890,11 @@
     <UpdateText id="CheatMapEditor_de_DE">
       <Criteria>CheatMapEditor</Criteria>
       <File>1651487987/CTE_UI_TEXT_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="CheatMenuPanel_de_DE">
+      <Criteria>CheatMenuPanel</Criteria>
+      <File>1528155583/Base/UI/Text/Options_Text_de_DE.xml</File>
+      <File>1528155583/Base/UI/Text/Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="CL_EMPIRE_UpdateText_de_DE">
       <Criteria>EmpireStateBuilding</Criteria>
@@ -1730,6 +1745,8 @@
     <File>1484935230/Core/EgyptianPantheon_Localisation_de_DE.sql</File>
     <File>1499009957/RBUP_RadiantBetterUnitPromotions_Text_de_DE.sql</File>
     <File>1508915308/Localization_de_DE.sql</File>
+    <File>1528155583/Base/UI/Text/Localisation_de_DE.sql</File>
+    <File>1528155583/Base/UI/Text/Options_Text_de_DE.xml</File>
     <File>1564497864/Herdsman_Text_de_DE.xml</File>
     <File>1588097397/Botanist_Text_de_DE.sql</File>
     <File>1588097397/Botanist_Text_de_DE.xml</File>

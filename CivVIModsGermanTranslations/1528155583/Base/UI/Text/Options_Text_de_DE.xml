@@ -1,0 +1,72 @@
+<!-- GameInfo -->
+<!-- Author: SparReplace | Translated by Junky -->
+<!-- DateCreated: 01/24/2019 4:27:04 AM -->
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>	
+		<Replace Tag="LOC_OPTIONS_FAITH" Language="de_DE">
+			<Text>Füge +1000 Glauben hinzu</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GOLD" Language="de_DE">
+			<Text>Füge +1000 Gold hinzu</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GOLDMORE" Language="de_DE">
+			<Text>Füge +100,000 Gold hinzu</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_PRODUCTION" Language="de_DE">
+			<Text>Schließe Produktion ab</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_CIVIC" Language="de_DE">
+			<Text>Schließe Ausrichtung ab</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_TECH" Language="de_DE">
+			<Text>Schließe Forschung ab</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ENVOY" Language="de_DE">
+			<Text>Füge Gesandten hinzu</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ERA" Language="de_DE">
+			<Text>Füge +10  Zeitalterpunkte hinzu</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_OBS" Language="de_DE">
+			<Text>Kartenbeobachter umschalten</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MENU" Language="de_DE">
+			<Text>Mogel Bedienfeld umschalten</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_MOV" Language="de_DE">
+			<Text>Einheitenbewegung wiederherstellen</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_5MOV" Language="de_DE">
+			<Text>+5 Einheitenbewegung hinzufügen</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_HP" Language="de_DE">
+			<Text>Einheitengesundheit wiederherstellen</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_XP" Language="de_DE">
+			<Text>Befördere Einheit</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_DUPE" Language="de_DE">
+			<Text>Dopple Einheit</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_POP" Language="de_DE">
+			<Text>Füge Bevölkerung hinzu</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_LOYALTY" Language="de_DE">
+			<Text>Ändere Loyalität</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ALL_TECH" Language="de_DE">
+			<Text>Alle Forschungen abschließen</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_ALL_CIVIC" Language="de_DE">
+			<Text>Alle Ausrichtungen abschließen</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_GOVPOINTS" Language="de_DE">
+			<Text>Fügt +1 Gouverneurstitel hinzu</Text>
+		</Replace>
+		<Replace Tag="LOC_OPTIONS_DIPLOMATIC_FAVOR" Language="de_DE">
+			<Text>Fügt +100 Diplomatische Gunst hinzu</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

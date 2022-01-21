@@ -24,6 +24,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9
+1528155583 | Cheat Menu Panel (R&F - GS) | Sparrow | Junky | **NEW**
 1564497864 | Herdsman | AOM | H.Humpel | #2
 1588097397 | Botanist | AOM | H.Humpel | #3
 1595724214 | Reindeer | AOM | Junky | #12
