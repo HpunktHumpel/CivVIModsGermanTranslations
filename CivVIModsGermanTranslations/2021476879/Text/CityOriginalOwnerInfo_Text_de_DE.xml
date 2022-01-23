@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_CITY_BANNER_ORIGINAL_CIV_CAPITAL_TT" Language="de_DE">
+			<Text>- Ursprüngliche Stadt (Hauptstadt) von {1_OriginalOwner}</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_BANNER_ORIGINAL_CIV_CITY_TT" Language="de_DE">
+			<Text>- Ursprüngliche Stadt von {1_OriginalOwner}</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_BANNER_ORIGINAL_CITY_STATE_TT" Language="de_DE">
+			<Text>- Ursprüngliche Stadt von {1_OriginalOwner} (Stadtstaat)</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>
