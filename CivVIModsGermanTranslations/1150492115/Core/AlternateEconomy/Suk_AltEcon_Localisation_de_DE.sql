@@ -17,7 +17,7 @@
 			SELECT
 				"de_DE",
 				"LOC_PROJECT_CREATE_CORPORATION_PRODUCT_"||ResourceTypeShort||"_NAME",
-				"[ICON_"||ResourceType||"] {LOC_"||ResourceType||"_NAME} Corporation: Erstelle Neues Produkt"
+				"[ICON_"||ResourceType||"] {LOC_"||ResourceType||"_NAME} Korporation: Erstelle Neues Produkt"
 			FROM Suk_Resources;
 		-------------------------------------
 		-- Short Name
@@ -64,9 +64,10 @@
 --========================================================================================================================
 -- Civilopedia Entry
 --========================================================================================================================
-UPDATE LocalizedText
-	SET Text = Text || "[NEWLINE][NEWLINE]Sukritact's Oceans:"||(SELECT GROUP_CONCAT("{LOC_PEDIA_CONCEPTS_"||ResourceTypeShort||"}","") FROM Suk_Resources)
+/*UPDATE LocalizedText
+	SET Text = Text || "[NEWLINE][NEWLINE]Sukritact's Ressourcen:"||(SELECT GROUP_CONCAT("{LOC_PEDIA_CONCEPTS_"||ResourceTypeShort||"}","") FROM Suk_Resources)
 	WHERE Tag = "LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_INDUSTRIES_PARA_2" AND Language = "de_DE";
+*/
 --========================================================================================================================
 -- Product Effects
 --========================================================================================================================
