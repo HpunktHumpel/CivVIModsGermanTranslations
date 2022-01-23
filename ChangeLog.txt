@@ -2,6 +2,7 @@
 
 - [NEW] City Original Owner Info (vom 13. Feb. 2021 um 2:51, Übersetzung von Stevie)
 - [NEW] CIVITAS Resources (vom 15. Aug. 2021 um 2:25, Übersetzung von Stevie)
+- [NEW] Watchtower Improvement (vom 15. Juni 2021 um 10:45, Übersetzung von Stevie)
 
 
 ===== Version 13 =====

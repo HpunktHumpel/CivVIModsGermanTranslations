@@ -113,6 +113,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Unique Improvement: Castrum (Rome) |(JNR | Junky)
 1. Unit Expansion: Medieval Pirate Unit (D | Junky)
 1. Vinrock's Pantheons (Vinrock | H.Humpel)
+1. Watchtower Improvement (Sailor Cat | Stevie)
 1. Wetlands (JNR | Junky)
 1. What Did I Promise? (Technoluddite | Junky)
 1. Yellow Crane Tower (WindFly | H.Humpel)
