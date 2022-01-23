@@ -86,6 +86,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
+2314657561 | District Expansion: Theater | JNR | Junky | **NEW**
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
 2394507496 | First to Circumnavigate | Sailor Cat | Junky | #13

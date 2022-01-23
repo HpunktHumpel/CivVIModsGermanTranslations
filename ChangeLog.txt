@@ -4,6 +4,7 @@
 - [NEW] City Original Owner Info (vom 13. Feb. 2021 um 2:51, Übersetzung von Stevie)
 - [NEW] CIVITAS Resources (vom 15. Aug. 2021 um 2:25, Übersetzung von Stevie)
 - [NEW] District Expansion: Industry (vom 6. Dez. 2021 um 11:38, Übersetzung von Junky)
+- [NEW] District Expansion: Theater (vom 6. Dez. 2021 um 11:44, Übersetzung von Junky)
 - [IMPROVED] District Expansion: Military
 - [IMPROVED] Sukritact's Oceans
 - [IMPROVED] Sukritact's Resources

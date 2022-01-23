@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="14">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]113[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]114[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642976327</Created>
+    <Created>1642978102</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shirohô, Sparrow, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -88,6 +88,9 @@
     </Criteria>
     <Criteria id="UC_Military_FrontEnd">
       <ModIsEnabled>72d77fd9-7d34-4539-97d9-f5c23de67814</ModIsEnabled>
+    </Criteria>
+    <Criteria id="UC_Theater_FrontEnd">
+      <ModIsEnabled>ccd2f70b-2257-400f-bc59-9e1919f37473</ModIsEnabled>
     </Criteria>
     <Criteria id="UniqueBuildingDojo_FrontEnd">
       <ModIsEnabled>1B28771A-C749-434B-9053-D1380C553DE9</ModIsEnabled>
@@ -408,6 +411,9 @@
     <Criteria id="UC_Suburbs">
       <ModInUse>cc42ab93-1a06-4095-b0a4-64ca2aab241a</ModInUse>
     </Criteria>
+    <Criteria id="UC_Theater">
+      <ModInUse>ccd2f70b-2257-400f-bc59-9e1919f37473</ModInUse>
+    </Criteria>
     <Criteria id="Uffizi">
       <ModInUse>e12c350d-df6a-4d21-9302-4466cab4353c</ModInUse>
     </Criteria>
@@ -564,7 +570,7 @@
       <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>
       <!-- Civilizations Expanded -->
     </Criteria>
-    <!-- UC Campus, UC Entertainment, UC Industry & UC_Military Criteria -->
+    <!-- UC Campus, UC Entertainment, UC Industry, UC Military & UC Theater Criteria -->
     <Criteria id="MOD_PPC">
       <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>
       <!-- Progressive Power Consumption -->
@@ -851,6 +857,24 @@
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>1839114973/Text/ModSupport/UC_MIL_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_FrontEnd_ConfigText_de_DE">
+      <Criteria>UC_Theater_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>250</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/UC_THR_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_FrontEnd_TextModSupport_CX_Config_de_DE">
+      <Criteria>UC_Theater_FrontEnd</Criteria>
+      <File>2314657561/Text/ModSupport/UC_THR_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_FrontEnd_ConfigTextName_de_DE">
+      <Criteria>UC_Theater_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/UC_THR_Text_Name_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UniqueBuildingDojo_FrontEnd_ConfigText_de_DE">
       <Criteria>UniqueBuildingDojo_FrontEnd</Criteria>
@@ -1868,6 +1892,78 @@
       </Properties>
       <File>2669325299/Text/UC_NBH_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_Theater_TextBase_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>250</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/UC_THR_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextCS_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>CS_GatheringStorm</Criteria>
+      <Properties>
+        <LoadOrder>252</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/UC_THR_Text_CS_GS_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextCS_Ethiopia_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>CS_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>252</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/UC_THR_Text_CS_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextModSupport_CSB_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>CS_CSB</Criteria>
+      <Properties>
+        <LoadOrder>252</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSB_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextModSupport_CSE_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>CS_CSE</Criteria>
+      <Properties>
+        <LoadOrder>252</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Default_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>253</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextModSupport_CX_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>MOD_CX</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/ModSupport/UC_THR_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextModSupport_RwF_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/ModSupport/UC_THR_Text_RwF_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Theater_TextName_de_DE">
+      <Criteria>UC_Theater</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>2314657561/Text/UC_THR_Text_Name_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="Uffizi_de_DE">
       <Criteria>Uffizi</Criteria>
       <File>1782204294/Text/Uffizi_Text_de_DE.xml</File>
@@ -2039,6 +2135,15 @@
     <File>2155632734/Core_MODE/LatResources_Monopolies_Text_de_DE.sql</File>
     <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
     <File>2292979207/UC_Babylon_Text_de_DE.sql</File>
+    <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSB_de_DE.sql</File>
+    <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Default_de_DE.sql</File>
+    <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    <File>2314657561/Text/ModSupport/UC_THR_Text_CX_de_DE.sql</File>
+    <File>2314657561/Text/ModSupport/UC_THR_Text_RwF_de_DE.sql</File>
+    <File>2314657561/Text/UC_THR_Text_CS_Ethiopia_de_DE.sql</File>
+    <File>2314657561/Text/UC_THR_Text_CS_GS_de_DE.sql</File>
+    <File>2314657561/Text/UC_THR_Text_de_DE.sql</File>
+    <File>2314657561/Text/UC_THR_Text_Name_de_DE.sql</File>
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
     <File>2331527458/code/Lime Bridges - Text_de_DE.sql</File>
