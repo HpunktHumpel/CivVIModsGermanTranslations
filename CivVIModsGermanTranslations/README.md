@@ -16,6 +16,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1166015050 | The Draft | blkbutterfly | H.Humpel | #9
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
+1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | **NEW**
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
