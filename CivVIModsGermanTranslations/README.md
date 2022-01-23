@@ -90,6 +90,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
 2394507496 | First to Circumnavigate | Sailor Cat | Junky | #13
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
+2402394695 | District Expansion: Industry | JNR | Junky | **NEW**
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7

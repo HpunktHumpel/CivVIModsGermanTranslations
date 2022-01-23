@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="14">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]112[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]113[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642973633</Created>
+    <Created>1642975498</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shirohô, Sparrow, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -82,6 +82,9 @@
     </Criteria>
     <Criteria id="UC_HammurabiTweak_FrontEnd">
       <ModIsEnabled>352c2630-46eb-4ce4-b40e-d1c3d03d7b6c</ModIsEnabled>
+    </Criteria>
+    <Criteria id="UC_Industry_FrontEnd">
+      <ModIsEnabled>39c78c55-8c39-4f0d-b4c8-0097f6bcd87a</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Military_FrontEnd">
       <ModIsEnabled>72d77fd9-7d34-4539-97d9-f5c23de67814</ModIsEnabled>
@@ -387,6 +390,9 @@
     <Criteria id="UC_HappyDistricts">
       <ModInUse>34f67921-9d87-4089-b5d7-d1f259f5f04f</ModInUse>
     </Criteria>
+    <Criteria id="UC_Industry">
+      <ModInUse>39c78c55-8c39-4f0d-b4c8-0097f6bcd87a</ModInUse>
+    </Criteria>
     <Criteria id="UC_Military">
       <ModInUse>72d77fd9-7d34-4539-97d9-f5c23de67814</ModInUse>
     </Criteria>
@@ -558,7 +564,7 @@
       <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>
       <!-- Civilizations Expanded -->
     </Criteria>
-    <!-- UC Campus, UC Entertainment & UC_Military Criteria -->
+    <!-- UC Campus, UC Entertainment, UC Industry & UC_Military Criteria -->
     <Criteria id="MOD_PPC">
       <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>
       <!-- Progressive Power Consumption -->
@@ -588,7 +594,26 @@
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
       <!-- Harmony in Diversity - UC Patch -->
     </Criteria>
-    <!-- UC_Military Criteria -->
+    <!-- UC Industry Criteria -->
+    <Criteria id="MOD_RGP">
+      <ModInUse>6a18ae19-df93-4322-a3d5-33c5a5087b36</ModInUse>
+      <!-- Real Great People -->
+      <ModInUse inverse="1">aa42d206-0aa1-4bbf-9ac0-27d338e2d91e</ModInUse>
+      <!-- Real *Stylish* Great People -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="MOD_RSGP">
+      <ModInUse>aa42d206-0aa1-4bbf-9ac0-27d338e2d91e</ModInUse>
+      <!-- Real *Stylish* Great People -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <!-- UC Military Criteria -->
     <Criteria id="MOD_WE">
       <ModInUse>38a49494-5ec4-46ac-b01b-9629d96950f3</ModInUse>
       <!-- Warfare Expanded -->
@@ -597,7 +622,7 @@
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
       <!-- Harmony in Diversity - UC Patch -->
     </Criteria>
-    <!-- UC_Suburbs Criteria -->
+    <!-- UC Suburbs Criteria -->
     <Criteria id="MOD_PSY">
       <ModInUse>dbcb84a8-dc88-4732-a2e7-60747d263a76</ModInUse>
       <!-- Progressive Specialist Yields -->
@@ -797,6 +822,21 @@
         <LoadOrder>1300</LoadOrder>
       </Properties>
       <File>2292979207/UC_Babylon_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_FrontEnd_ConfigText_de_DE">
+      <Criteria>UC_Industry_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>230</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/UC_PRD_Text_de_DE.sql</File>
+      <File>2402394695/Text/UC_PRD_Text_MODE_Corporations_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_FrontEnd_TextModSupport_CX_Config_de_DE">
+      <Criteria>UC_Industry_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/ModSupport/UC_PRD_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Military_FrontEnd_ConfigText_de_DE">
       <Criteria>UC_Military_FrontEnd</Criteria>
@@ -1672,6 +1712,70 @@
       </Properties>
       <File>1673627346/UC_DHA_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_Industry_TextBase_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>230</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/UC_PRD_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_TextModes_Corporations_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <Properties>
+        <LoadOrder>232</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/UC_PRD_Text_MODE_Corporations_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_TextCS_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>CS_GatheringStorm</Criteria>
+      <Properties>
+        <LoadOrder>232</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/UC_PRD_Text_CS_GS_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_TextCS_Ethiopia_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>CS_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>232</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/UC_PRD_Text_CS_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_TextModSupport_CSB_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>CS_CSB</Criteria>
+      <Properties>
+        <LoadOrder>232</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/ModSupport/UC_PRD_Text_CS_CSB_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_TextModSupport_CSE_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>CS_CSE</Criteria>
+      <Properties>
+        <LoadOrder>232</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Default_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>233</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Industry_TextModSupport_CX_de_DE">
+      <Criteria>UC_Industry</Criteria>
+      <Criteria>MOD_CX</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2402394695/Text/ModSupport/UC_PRD_Text_CX_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UC_Military_TextBase_de_DE">
       <Criteria>UC_Military</Criteria>
       <Criteria>UC</Criteria>
@@ -1946,6 +2050,14 @@
     <File>2384183359/Text/CL_EMPIRE_Text_de_DE.xml</File>
     <File>2394507496/Sailor_Circumnavigate_Loc_de_DE.xml</File>
     <File>2399439885/Core/MonopolySettingTexts_de_DE.sql</File>
+    <File>2402394695/Text/ModSupport/UC_PRD_Text_CS_CSB_de_DE.sql</File>
+    <File>2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Default_de_DE.sql</File>
+    <File>2402394695/Text/ModSupport/UC_PRD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    <File>2402394695/Text/ModSupport/UC_PRD_Text_CX_de_DE.sql</File>
+    <File>2402394695/Text/UC_PRD_Text_CS_Ethiopia_de_DE.sql</File>
+    <File>2402394695/Text/UC_PRD_Text_CS_GS_de_DE.sql</File>
+    <File>2402394695/Text/UC_PRD_Text_de_DE.sql</File>
+    <File>2402394695/Text/UC_PRD_Text_MODE_Corporations_de_DE.sql</File>
     <File>2423310185/Core/Localisation/Suk_EgyptRework_CityListText_de_DE.sql</File>
     <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
     <File>2442822973/Text/COREX_Text_Won_CL_de_DE.xml</File>
