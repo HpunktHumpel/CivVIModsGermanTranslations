@@ -67,7 +67,6 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1888611021 | Requested Pantheons | Angryr | H.Humpel | #9
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
-1897241626 | Watchtower Improvement | Sailor Cat | Stevie | **NEW**
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
 1945460659 | Expanded Alliances | JNR | Junky | #12
 2021476879 | City Original Owner Info | Imhotep | Stevie | **NEW**
