@@ -23,6 +23,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Botanist (AOM | H.Humpel)
 1. Brandenburg Gate (World Wonder) (Deliverator23 | H.Humpel)
 1. Buddhas of Bamyan (World Wonder) (Deliverator23 | H.Humpel)
+1. Building Expansion (Light Edition) |(JNR | Junky)
 1. Burj Khalifa (World Wonder) (Deliverator23 | H.Humpel)
 1. Cannabis and Hemp (AOM | H.Humpel)
 1. Castles - Better Forts (JNR | Junky)

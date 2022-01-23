@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="14">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]111[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]112[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642972121</Created>
+    <Created>1642973633</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shirohô, Sparrow, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -67,6 +67,9 @@
     </Criteria>
     <Criteria id="UC_Aqueduct_FrontEnd">
       <ModIsEnabled>1373373a-f34d-4041-a0f8-49e2004e19a1</ModIsEnabled>
+    </Criteria>
+    <Criteria id="UC_BuildingExpansion_FrontEnd">
+      <ModIsEnabled>30ca2aac-177e-402d-9bb3-8398102f6aa7</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Campus_FrontEnd">
       <ModIsEnabled>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModIsEnabled>
@@ -363,6 +366,9 @@
     <Criteria id="UC_BonusResourceImprovements">
       <ModInUse>48a2ffab-93d4-4ec4-bc92-a84dc3e063b9</ModInUse>
     </Criteria>
+    <Criteria id="UC_BuildingExpansion">
+      <ModInUse>30ca2aac-177e-402d-9bb3-8398102f6aa7</ModInUse>
+    </Criteria>
     <Criteria id="UC_Campus">
       <ModInUse>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModInUse>
     </Criteria>
@@ -547,6 +553,11 @@
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
       <!-- Harmony in Diversity - UC Patch -->
     </Criteria>
+    <!-- UC Building Expansion Criteria -->
+    <Criteria id="MOD_CX_UCBE">
+      <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>
+      <!-- Civilizations Expanded -->
+    </Criteria>
     <!-- UC Campus, UC Entertainment & UC_Military Criteria -->
     <Criteria id="MOD_PPC">
       <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>
@@ -723,6 +734,20 @@
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BuildingExpansion_FrontEnd_ConfigText_de_DE">
+      <Criteria>UC_BuildingExpansion_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>205</LoadOrder>
+      </Properties>
+      <File>2084153500/Text/UC_Light_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BuildingExpansion_FrontEnd_TextModSupport_CX_Config_de_DE">
+      <Criteria>UC_BuildingExpansion_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2084153500/Text/ModSupport/UC_Light_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Campus_FrontEnd_ConfigText_de_DE">
       <Criteria>UC_Campus_FrontEnd</Criteria>
@@ -1451,6 +1476,28 @@
       </Properties>
       <File>2497071692/Text/ModSupport/RIB_Text_TechCivic_BTT_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_BuildingExpansion_Text">
+      <Criteria>UC_BuildingExpansion</Criteria>
+      <Properties>
+        <LoadOrder>205</LoadOrder>
+      </Properties>
+      <File>2084153500/Text/UC_Light_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BuildingExpansion_TextModSupport_CX">
+      <Criteria>UC_BuildingExpansion</Criteria>
+      <Criteria>MOD_CX_UCBE</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2084153500/Text/ModSupport/UC_Light_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_BuildingExpansion_TextModSupport_RwF">
+      <Criteria>UC_BuildingExpansion</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2084153500/Text/ModSupport/UC_Light_Text_RwF_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UC_Campus_TextBase_de_DE">
       <Criteria>UC_Campus</Criteria>
       <Criteria>UC</Criteria>
@@ -1868,6 +1915,9 @@
     <File>2056401784/Text/UC_COM_Text_CS_GS_de_DE.sql</File>
     <File>2056401784/Text/UC_COM_Text_de_DE.sql</File>
     <File>2068247220/Text/Tower_Bridge_Text_de_DE.xml</File>
+    <File>2084153500/Text/ModSupport/UC_Light_Text_CX_de_DE.sql</File>
+    <File>2084153500/Text/ModSupport/UC_Light_Text_RwF_de_DE.sql</File>
+    <File>2084153500/Text/UC_Light_Text_de_DE.sql</File>
     <File>2091335195/Core/Castrum_Text_de_DE.sql</File>
     <File>2095575379/Text_de_DE.sql</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
