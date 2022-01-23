@@ -10,7 +10,7 @@ VALUES
 		(
 			"LOC_GAMEMODE_SUK_OCEANS_NAME",
 			"de_DE",
-			"Sukritact’s Oceans"
+			"Sukritact’s Ozeane"
 		),
 		(
 			"LOC_GAMEMODE_SUK_OCEANS_DESCRIPTION",
