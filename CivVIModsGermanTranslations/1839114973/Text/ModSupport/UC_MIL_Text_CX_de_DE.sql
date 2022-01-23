@@ -6,7 +6,7 @@
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,													Text)
-SELECT	'de_DE',	'LOC_BUILDING_BASILIKOI_PAIDES_DESCRIPTION_UC_JNR',		'Einzigartiges Gebäude Makedoniens, das die Kaserne ersetzt.[NEWLINE]+2 [ICON_Housing] Wohnraum und +1 [ICON_Amenities] Annehmlichkeiten.[NEWLINE]+50% Kampferfahrung für Nahkampf- und Anti-Kavallerieeinheiten und +25% Kampferfahrung für Hetairoi, die in dieser Stadt ausgebildet wurden.[NEWLINE]Das Ausbilden von Kampfeinheiten erbringt eine große Menge [ICON_Science] Wissenschaft basierend auf den [ICON_Production] Produktionskosten.[NEWLINE]Ermöglicht den Bau von Militärpionieren in der Stadt.'
+SELECT	'de_DE',	'LOC_BUILDING_BASILIKOI_PAIDES_DESCRIPTION_UC_JNR',		'Einzigartiges Gebäude Makedoniens, das die Kaserne ersetzt.[NEWLINE]+2 [ICON_Housing] Wohnraum und +1 [ICON_Amenities] Annehmlichkeiten.[NEWLINE]+50% Kampferfahrung für Nahkampf- und Kavallerie-Abwehreinheiten und +25% Kampferfahrung für Hetairoi, die in dieser Stadt ausgebildet wurden.[NEWLINE]Das Ausbilden von Kampfeinheiten erbringt eine große Menge [ICON_Science] Wissenschaft basierend auf den [ICON_Production] Produktionskosten.[NEWLINE]Ermöglicht den Bau von Militärpionieren in der Stadt.'
 FROM	LocalizedText
 WHERE	Tag='LOC_P0K_LAUTARO_ABILITY_DESCRIPTION';
 

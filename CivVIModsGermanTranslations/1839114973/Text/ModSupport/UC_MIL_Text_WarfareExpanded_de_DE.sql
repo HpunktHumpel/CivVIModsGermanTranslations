@@ -6,7 +6,7 @@
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,												Text)
-SELECT	'de_DE',	'LOC_BUILDING_BARRACKS_DESCRIPTION_UC_JNR',			'+50% Kampferfahrung für Nahkampf-, Anti-Kavallerie und Marine, die in dieser Stadt ausgebildet wurden.[NEWLINE]Erlaubt den Bau von Militärpionieren in der Stadt.'
+SELECT	'de_DE',	'LOC_BUILDING_BARRACKS_DESCRIPTION_UC_JNR',			'+50% Kampferfahrung für Nahkampf-, Kavallerie-Abwehr und Marine, die in dieser Stadt ausgebildet wurden.[NEWLINE]Erlaubt den Bau von Militärpionieren in der Stadt.'
 FROM	LocalizedText
 WHERE	Tag='LOC_PROMOTION_CLASS_MARINE_NAME';
 
@@ -18,13 +18,13 @@ WHERE	Tag='LOC_PROMOTION_CLASS_MARINE_NAME';
 
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,												Text)
-SELECT	'de_DE',	'LOC_BUILDING_ARMORY_DESCRIPTION_UC_JNR',			'+50% [ICON_Production] Produktion beim Bau von Nahkampf-, Fernkampf-, Anti-Kavallerie-, Aufklärungs-, Marine- und Feuerunterstützungseinheiten der Stadt.[NEWLINE]+1 [ICON_Production] Produktion für [ICON_RESOURCE_IRON] Eisen-Ressourcen im Stadtgebiet.'
+SELECT	'de_DE',	'LOC_BUILDING_ARMORY_DESCRIPTION_UC_JNR',			'+50% [ICON_Production] Produktion beim Bau von Nahkampf-, Fernkampf-, Kavallerie-Abwehr-, Aufklärungs-, Marine- und Feuerunterstützungseinheiten der Stadt.[NEWLINE]+1 [ICON_Production] Produktion für [ICON_RESOURCE_IRON] Eisen-Ressourcen im Stadtgebiet.'
 FROM	LocalizedText
 WHERE	Tag='LOC_PROMOTION_CLASS_MARINE_NAME';
 
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,												Text)
-SELECT	'de_DE',	'LOC_BUILDING_MILITARY_ACADEMY_DESCRIPTION_UC_JNR',	'+25% Kampferfahrung für Nahkampf-, Anti-Kavallerie-, Aufklärungs-, Fernkampf-, Marine- und Feuerunterstützungseinheiten, die in dieser Stadt ausgebildet wurden.[NEWLINE]Nahkampf-, Anti-Kavallerie- und Fernkampfeinheiten, die in dieser Stadt ausgebildet wurden, beginnen mit einer freien Beförderung. In dieser Stadt ausgebildete Aufklärungseinheiten erhalten die "Hinterhalt"-Beförderung.[NEWLINE]Ermöglicht die unmittelbare Ausbildung von Korps und Armeen. Die Ausbildungskosten von Korps und Armeen sinken um 25%.[NEWLINE]Liefert mehr [ICON_GreatGeneral] Großer General-Punkte.'
+SELECT	'de_DE',	'LOC_BUILDING_MILITARY_ACADEMY_DESCRIPTION_UC_JNR',	'+25% Kampferfahrung für Nahkampf-, Kavallerie-Abwehr-, Aufklärungs-, Fernkampf-, Marine- und Feuerunterstützungseinheiten, die in dieser Stadt ausgebildet wurden.[NEWLINE]Nahkampf-, Kavallerie-Abwehr- und Fernkampfeinheiten, die in dieser Stadt ausgebildet wurden, beginnen mit einer freien Beförderung. In dieser Stadt ausgebildete Aufklärungseinheiten erhalten die "Hinterhalt"-Beförderung.[NEWLINE]Ermöglicht die unmittelbare Ausbildung von Korps und Armeen. Die Ausbildungskosten von Korps und Armeen sinken um 25%.[NEWLINE]Liefert mehr [ICON_GreatGeneral] Großer General-Punkte.'
 FROM	LocalizedText
 WHERE	Tag='LOC_PROMOTION_CLASS_MARINE_NAME';
 --------------------------------------------------------------
