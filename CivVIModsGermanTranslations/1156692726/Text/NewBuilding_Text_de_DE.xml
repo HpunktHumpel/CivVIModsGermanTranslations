@@ -2,68 +2,68 @@
 <GameData>
 	<LocalizedText>
 		<!-- Brewery. -->
-		<Row Tag="LOC_BUILDING_AOM_BREWERY_NAME" Language="de_DE">
-			<Text>Brauerei</Text>
-		</Row>
+		<Replace Tag="LOC_BUILDING_AOM_BREWERY_NAME" Language="de_DE" Plurality="1" Gender="feminine">
+			<Text>Brauerei|Brauerei|Brauerei|Brauerei|Brauerei</Text>
+		</Replace>
 
-		<Row Tag="LOC_BUILDING_AOM_BREWERY_DESCRIPTION" Language="de_DE">
+		<Replace Tag="LOC_BUILDING_AOM_BREWERY_DESCRIPTION" Language="de_DE">
 			<Text>Ein Ort für die Bierherstellung.</Text>
-		</Row>
+		</Replace>
 
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_BREWERY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_BREWERY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
 			<Text>Eine Brauerei ist ein Ort, an dem Bier hergestellt und verkauft wird. Kommerzielles Brauen gibt es seit mindestens 2500 vor Christus.</Text>
-		</Row>
+		</Replace>
 		<!-- Sports Bar -->
-		<Row Tag="LOC_BUILDING_AOM_SPORTS_BAR_NAME" Language="de_DE">
-			<Text>Sport-Bar</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_AOM_SPORTS_BAR_DESCRIPTION" Language="de_DE">
+		<Replace Tag="LOC_BUILDING_AOM_SPORTS_BAR_NAME" Language="de_DE" Plurality="1" Gender="feminine">
+			<Text>Sport-Bar|Sport-Bar|Sport-Bar|Sport-Bar|Sport-Bar</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AOM_SPORTS_BAR_DESCRIPTION" Language="de_DE">
 			<Text>Ein Ort, um Bier und Sport zu genießen.</Text>
-		</Row>
+		</Replace>
 
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_SPORTS_BAR_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_SPORTS_BAR_CHAPTER_HISTORY_PARA_1" Language="de_DE">
 			<Text>Eine Sport-Bar ist ein Lokal, in dem Bier zu Sportübertragungen im Fernsehn verkauft wird.</Text>
-		</Row>
+		</Replace>
 
 
 		<!-- Tavern -->
-		<Row Tag="LOC_BUILDING_AOM_TAVERN_NAME" Language="de_DE">
-			<Text>Taverne</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_AOM_TAVERN_DESCRIPTION" Language="de_DE">
+		<Replace Tag="LOC_BUILDING_AOM_TAVERN_NAME" Language="de_DE" Plurality="1" Gender="feminine">
+			<Text>Taverne|Taverne|Taverne|Taverne|Taverne</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AOM_TAVERN_DESCRIPTION" Language="de_DE">
 			<Text>Ein Ort, um feine Getränke, Speisen und Gesellschaft zu genießen.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_TAVERN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_TAVERN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
 			<Text>Tavernen servieren Speisen und Getränke und dienen als gesellschaftlicher Treffpunkt.</Text>
-		</Row>
+		</Replace>
 
 
 		<!-- Corporate Brewery -->
-		<Row Tag="LOC_BUILDING_AOM_CORPORATE_BREWERY_NAME" Language="de_DE">
-			<Text>Großbrauerei</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_AOM_CORPORATE_BREWERY_DESCRIPTION" Language="de_DE">
+		<Replace Tag="LOC_BUILDING_AOM_CORPORATE_BREWERY_NAME" Language="de_DE" Plurality="1" Gender="feminine">
+			<Text>Großbrauerei|Großbrauerei|Großbrauerei|Großbrauerei|Großbrauerei</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AOM_CORPORATE_BREWERY_DESCRIPTION" Language="de_DE">
 			<Text>Ein Ort der industriellen Bierherstellung.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_CORPORATE_BREWERY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_CORPORATE_BREWERY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
 			<Text>Großbrauereien brauen viel Bier und verdienen viel Geld.</Text>
-		</Row>
+		</Replace>
 		<!-- AOM_Monastery -->
-		<Row Tag="LOC_BUILDING_AOM_MONASTERY_NAME" Language="de_DE">
-			<Text>Mönchskloster</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_AOM_MONASTERY_DESCRIPTION" Language="de_DE">
+		<Replace Tag="LOC_BUILDING_AOM_MONASTERY_NAME" Language="de_DE" Plurality="1" Gender="neuter">
+			<Text>Mönchskloster|Mönchskloster|Mönchskloster|Mönchsklosters|Mönchskloster</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AOM_MONASTERY_DESCRIPTION" Language="de_DE">
 			<Text>Eine Wohnung und ein Ort heiliger Aktivität.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_MONASTERY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_AOM_MONASTERY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
 			<Text>Eine Wohnung und Stätte für heilige Tätigkeit.</Text>
-		</Row>
+		</Replace>
 		<!-- Monastery Belief -->
-		<Row Tag="LOC_BELIEF_AOM_MONASTERY_NAME" Language="de_DE">
-			<Text>Mönchskloster</Text>
-		</Row>
-		<Row Tag="LOC_BELIEF_AOM_MONASTERY_DESCRIPTION" Language="de_DE">
+		<Replace Tag="LOC_BELIEF_AOM_MONASTERY_NAME" Language="de_DE" Plurality="1" Gender="neuter">
+			<Text>Mönchskloster|Mönchskloster|Mönchskloster|Mönchsklosters|Mönchskloster</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_AOM_MONASTERY_DESCRIPTION" Language="de_DE">
 			<Text>Ermöglicht den Bau von Mönchsklöstern (+1 [ICON_Faith] Glauben, +1 [ICON_Food] Nahrung und +1 [ICON_Housing] Wohnraum). Ermöglicht auch klösterliches Brauen (+1 [ICON_Faith] Glauben in einem Mönchskloster in einer Stadt mit einer Brauerei).</Text>
-		</Row>
+		</Replace>
 	</LocalizedText>
 </GameData>
