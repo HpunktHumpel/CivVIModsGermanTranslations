@@ -2,8 +2,8 @@
 <GameData>
   <LocalizedText>
     <!-- The name of the building. -->
-    <Replace Tag="LOC_BUILDING_LYCEUM" Language="de_DE">
-      <Text>Lyzeum</Text>
+    <Replace Tag="LOC_BUILDING_LYCEUM" Language="de_DE" Gender="neuter" Plurality="1">
+      <Text>Lyzeum|Lyzeum|Lyzeum|Lyzeums|Lyzeum</Text>
     </Replace>
 
     <!-- The description of the building, used in various places. -->

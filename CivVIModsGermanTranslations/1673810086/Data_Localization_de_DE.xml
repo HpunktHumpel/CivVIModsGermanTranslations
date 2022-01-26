@@ -4,20 +4,20 @@
 <!-- DateCreated: 3/4/2019 5:27:12 PM -->
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_UNIT_IMMIGRATION_ONE_NAME" Language="de_DE">
-			<Text>Umsiedler (1-fach)</Text>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_ONE_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Umsiedler (1-fach)|Umsiedler (1-fach)|Umsiedler (1-fach)|Umsiedlers (1-fach)|Umsiedler (1-fach)</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_IMMIGRATION_TWO_NAME" Language="de_DE">
-			<Text>Umsiedler (2-fach)</Text>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_TWO_NAME" Language="de_DE" Gender="masculine" Plurality="2">
+			<Text>Umsiedler (2-fach)|Umsiedler (2-fach)|Umsiedlern (2-fach)|Umsiedler (2-fach)|Umsiedler (2-fach)</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_IMMIGRATION_THREE_NAME" Language="de_DE">
-			<Text>Umsiedler (3-fach)</Text>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_THREE_NAME" Language="de_DE" Gender="masculine" Plurality="2">
+			<Text>Umsiedler (3-fach)|Umsiedler (3-fach)|Umsiedlern (3-fach)|Umsiedler (3-fach)|Umsiedler (3-fach)</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_IMMIGRATION_FOUR_NAME" Language="de_DE">
-			<Text>Umsiedler (4-fach)</Text>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_FOUR_NAME" Language="de_DE" Gender="masculine" Plurality="2">
+			<Text>Umsiedler (4-fach)|Umsiedler (4-fach)|Umsiedlern (4-fach)|Umsiedler (4-fach)|Umsiedler (4-fach)</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_IMMIGRATION_FIVE_NAME" Language="de_DE">
-			<Text>Umsiedler (5-fach)</Text>
+		<Replace Tag="LOC_UNIT_IMMIGRATION_FIVE_NAME" Language="de_DE" Gender="masculine" Plurality="2">
+			<Text>Umsiedler (5-fach)|Umsiedler (5-fach)|Umsiedlern (5-fach)|Umsiedler (5-fach)|Umsiedler (5-fach)</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_IMMIGRATION_ONE_DESCRIPTION" Language="de_DE">
 			<Text>Reduziert bei Abschluss die [ICON_Citizen] Bevölkerung dieser Stadt um 1.[NEWLINE]Erhöht bei der Verwendung die [ICON_Citizen] Bevölkerung einer Ziel-Stadt um 1.</Text>
@@ -34,8 +34,8 @@
 		    <Replace Tag="LOC_UNIT_IMMIGRATION_FIVE_DESCRIPTION" Language="de_DE">
 			<Text>Reduziert bei Abschluss die [ICON_Citizen] Bevölkerung dieser Stadt um 5.[NEWLINE]Erhöht bei der Verwendung die [ICON_Citizen] Bevölkerung einer Ziel-Stadt um 5.[NEWLINE]Erhaltet nach der Verwendung einen kostenlosen Militäringenieur bei der Regierungsform Faschismus, einen kostenlosen Handwerker bei der Regierungsform Kommunismus oder einen freien Händler bei der Regierungsform Demokratie.</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_CLASS_IMMIGRATION_NAME" Language="de_DE">
-			<Text>Umsiedlung</Text>
+		<Replace Tag="LOC_PROMOTION_CLASS_IMMIGRATION_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Umsiedlung|Umsiedlung|Umsiedlung|Umsiedlung|Umsiedlung</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_IMMIGRATION_NAME" Language="de_DE">
 			<Text>Erhöhung der Bevölkerungszahl</Text>
@@ -43,8 +43,8 @@
 		<Replace Tag="LOC_PROMOTION_IMMIGRATION_DESCRIPTION" Language="de_DE">
 			<Text>Erhöht die [ICON_Citizen] Bevölkerung einer Stadt. (Verwendet dies, wenn sich die Einheit im Stadtzentrum der Zielstadt befindet.)</Text>
 		</Replace>
-		    <Replace Tag="LOC_POLICY_MIGRATION_POLICY_NAME" Language="de_DE">
-			<Text>Staatliche Umsiedlung</Text>
+		    <Replace Tag="LOC_POLICY_MIGRATION_POLICY_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Staatliche Umsiedlung|Staatliche Umsiedlung|Staatlicher Umsiedlung|Staatlicher Umsiedlung|Staatliche Umsiedlung</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_MIGRATION_POLICY_DESCRIPTION" Language="de_DE">
 			<Text>+30% [ICON_Production] Produktion für Umsiedler. +1 [ICON_Movement] Bewegung für alle Umsiedler-Einheiten.</Text>
