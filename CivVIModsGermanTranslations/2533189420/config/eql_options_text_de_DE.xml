@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+		<Replace Tag="LOC_EQL_ENVOY_QUEST_LIST" Language="de_DE">
+            <Text>Gesandtenaufgabenliste</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_OPEN_QUEST_LIST_NAME" Language="de_DE">
+            <Text>Öffne Aufgabenliste</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_OPEN_QUEST_LIST_DESCRIPTION" Language="de_DE">
+            <Text>Öffnet die Aufgabenliste der Stadtstaaten</Text>
+        </Replace>
+	</LocalizedText>
+</GameData>

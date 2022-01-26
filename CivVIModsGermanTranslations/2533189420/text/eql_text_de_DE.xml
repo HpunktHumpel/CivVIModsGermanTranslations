@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_EQL_TRAIN_UNIT" Language="de_DE">
+            <Text>EINHEIT TRAINIEREN</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_BUILD_DISTRICT" Language="de_DE">
+            <Text>BEZIRK BAUEN</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_TRIGGER_EUREKA" Language="de_DE">
+            <Text>HEUREKA AUSLOESEN</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_TRIGGER_INSPIRATION" Language="de_DE">
+            <Text>INSPIRATION AUSLOESEN</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_SEND_TRADE_ROUTE" Language="de_DE">
+            <Text>HAENDLER SENDEN</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_RECRUIT_GREAT_PERSON" Language="de_DE">
+            <Text>GROSSE PERSON REKRUTIEREN</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_RELIGIOUS_CONVERSION" Language="de_DE">
+            <Text>KONVERTIERUNG</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_CLEAR_BARBARIAN_CAMP" Language="de_DE">
+            <Text>LAGER AUSLOESCHEN</Text>
+        </Replace>
+		<Replace Tag="LOC_EQL_ENVOY_QUESTS" Language="de_DE">
+            <Text>Gesandtenaufgaben</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

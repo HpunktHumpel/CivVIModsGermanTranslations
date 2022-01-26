@@ -105,6 +105,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel | #1
 2511787097 | Unit Expansion: Medieval Pirate Unit | D | Junky | #6
+2533189420 | Envoy Quest List | Stack Man | Junky | **NEW**
 2542898147 | Sukritact's Oceans | sukritact | Junky | #7
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3
 2557418900 | Raubak Natural Gas | Searching... | Junky | #6
