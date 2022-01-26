@@ -2,174 +2,174 @@
 <GameData>
     <LocalizedText>
 
-        <Row Tag="LOC_UNIT_HERDSMAN_NAME"
-             Language="de_DE">
-            <Text>Hirte</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_DESCRIPTION"
+        <Replace Tag="LOC_UNIT_HERDSMAN_NAME"
+             Language="de_DE" Gender="masculine" Plurality="1">
+            <Text>Hirte|Hirten|Hirten|Hirten|Hirte</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_RUSTLE_NAME"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_RUSTLE_NAME"
              Language="de_DE">
             <Text>Zusammentreiben!</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_RUSTLE_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_RUSTLE_DESCRIPTION"
              Language="de_DE">
             <Text>Erlaubt es dem Hirten, Herdentiere zusammenzutreiben, bevor er sich mit ihnen auf den Weg macht.</Text>
-        </Row>
+        </Replace>
 
         <!--Base Game-->
-        <Row Tag="LOC_UNIT_HERDSMAN_CATTLE_NAME"
+        <Replace Tag="LOC_UNIT_HERDSMAN_CATTLE_NAME"
              Language="de_DE">
             <Text>Hirte (mit Kühen)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_CATTLE_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_CATTLE_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Kühen.</Text>
-        </Row>
+        </Replace>
 
-        <Row Tag="LOC_UNIT_HERDSMAN_SHEEP_NAME"
+        <Replace Tag="LOC_UNIT_HERDSMAN_SHEEP_NAME"
              Language="de_DE">
             <Text>Hirte (mit Schafen)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_SHEEP_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_SHEEP_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Schafen.</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_HORSES_NAME"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_HORSES_NAME"
              Language="de_DE">
             <Text>Hirte (mit Pferden)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_HORSES_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_HORSES_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Pferden.</Text>
-        </Row>
+        </Replace>
 
-        <Row Tag="LOC_UNIT_HERDSMAN_IVORY_NAME"
+        <Replace Tag="LOC_UNIT_HERDSMAN_IVORY_NAME"
              Language="de_DE">
             <Text>Hirte (mit Elefanten)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_IVORY_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_IVORY_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Elefanten.</Text>
-        </Row>
+        </Replace>
 
 
 
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_CATTLE_NAME"
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_CATTLE_NAME"
              Language="de_DE">
             <Text>Kühe weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_CATTLE_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_CATTLE_DESCRIPTION"
              Language="de_DE">
             <Text>Lässt die Kühe hier weiden.</Text>
-        </Row>
+        </Replace>
 
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_SHEEP_NAME"
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_SHEEP_NAME"
              Language="de_DE">
             <Text>Schafe weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_SHEEP_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_SHEEP_DESCRIPTION"
              Language="de_DE">
-            <Text>Lässte die Schafe hier weiden.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_HORSES_NAME"
+            <Text>Lässt die Schafe hier weiden.</Text>
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_HORSES_NAME"
              Language="de_DE">
             <Text>Pferde weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_HORSES_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_HORSES_DESCRIPTION"
              Language="de_DE">
-            <Text>Lässte die Pferde hier weiden.</Text>
-        </Row>
+            <Text>Lässt die Pferde hier weiden.</Text>
+        </Replace>
 
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_IVORY_NAME"
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_IVORY_NAME"
              Language="de_DE">
             <Text>Elefanten weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_IVORY_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_IVORY_DESCRIPTION"
              Language="de_DE">
             <Text>Lässt die Elefanten hier weiden.</Text>
-        </Row>
+        </Replace>
 
 
 
         <!--Sukritact-->
-        <Row Tag="LOC_UNIT_HERDSMAN_SUK_CHEESE_NAME"
+        <Replace Tag="LOC_UNIT_HERDSMAN_SUK_CHEESE_NAME"
              Language="de_DE">
             <Text>Hirte (mit Milchziegen)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_SUK_CHEESE_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_SUK_CHEESE_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Milchziegen.</Text>
-        </Row>
+        </Replace>
 
 
-        <Row Tag="LOC_UNIT_HERDSMAN_SUK_CAMEL_NAME"
+        <Replace Tag="LOC_UNIT_HERDSMAN_SUK_CAMEL_NAME"
              Language="de_DE">
             <Text>Hirte (mit Kamelen)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_SUK_CAMEL_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_SUK_CAMEL_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Kamelen.</Text>
-        </Row>
+        </Replace>
 
 
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CHEESE_NAME"
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CHEESE_NAME"
              Language="de_DE">
             <Text>Milchziegen weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CHEESE_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CHEESE_DESCRIPTION"
              Language="de_DE">
-            <Text>Lässte die Milchziegen hier weiden.</Text>
-        </Row>
+            <Text>Lässt die Milchziegen hier weiden.</Text>
+        </Replace>
 
 
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CAMEL_NAME"
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CAMEL_NAME"
              Language="de_DE">
             <Text>Kamele weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CAMEL_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_SUK_CAMEL_DESCRIPTION"
              Language="de_DE">
-            <Text>Lässte die Kamele hier weiden.</Text>
-        </Row>
+            <Text>Lässt die Kamele hier weiden.</Text>
+        </Replace>
 
 
         <!--Resourceful-->
-        <Row Tag="LOC_UNIT_HERDSMAN_OXEN_NAME"
+        <Replace Tag="LOC_UNIT_HERDSMAN_OXEN_NAME"
              Language="de_DE">
             <Text>Hirte (mit Ochsen)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_OXEN_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_OXEN_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Ochsen.</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_CASHMERE_NAME"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_CASHMERE_NAME"
              Language="de_DE">
             <Text>Hirte (mit Kaschmirschafen)</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_HERDSMAN_CASHMERE_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_CASHMERE_DESCRIPTION"
              Language="de_DE">
             <Text>Ein einfacher Hirte mit Kaschmirschafen.</Text>
-        </Row>
+        </Replace>
 
 
 
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_OXEN_NAME"
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_OXEN_NAME"
              Language="de_DE">
             <Text>Ochsen weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_OXEN_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_OXEN_DESCRIPTION"
              Language="de_DE">
-            <Text>Lässte die Ochsen hier weiden.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_CASHMERE_NAME"
+            <Text>Lässt die Ochsen hier weiden.</Text>
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_CASHMERE_NAME"
              Language="de_DE">
             <Text>Kaschmirschafe weiden lassen.</Text>
-        </Row>
-        <Row Tag="LOC_IMPROVEMENT_UNRUSTLE_CASHMERE_DESCRIPTION"
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_CASHMERE_DESCRIPTION"
              Language="de_DE">
-            <Text>Lässte die Kaschmirschafe hier weiden.</Text>
-        </Row>
+            <Text>Lässt die Kaschmirschafe hier weiden.</Text>
+        </Replace>
     </LocalizedText>
 </GameData>
