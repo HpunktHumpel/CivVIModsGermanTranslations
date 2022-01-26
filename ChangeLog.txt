@@ -2,6 +2,7 @@
 
 - [NEW] Don't Mine Dirt! - More Interesting Production (vom 19. Feb. 2019 um 3:42, Übersetzung von Junky)
 - [NEW] Envoy Quest List (vom 21. Jan. 2022 um 1:51, Übersetzung von Junky)
+- [IMPROVED] Botanist
 - [UPDATE] Movable Districts (vom 20. Jan. 2022 um 23:46, Übersetzung von Junky)
 
 
