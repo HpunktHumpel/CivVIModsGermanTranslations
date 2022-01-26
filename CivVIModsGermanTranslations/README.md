@@ -30,6 +30,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1588097397 | Botanist | AOM | H.Humpel | #3
 1595724214 | Reindeer | AOM | Junky | #12
 1628605090 | Radial Measuring Tool | Zur13 | Junky | #13
+1641530160 | Don't Mine Dirt! - More Interesting Production | Desucrate | Junky | **NEW**
 1651487987 | Cheat Map Editor | Zur13 | Junky | #13
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660382665 | Decommission Power Plants | JNR | Junky | #12

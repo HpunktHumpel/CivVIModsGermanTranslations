@@ -1,5 +1,5 @@
 # CivVIModsGermanTranslations
-> Civilization VI Mods - German translations
+> German translations for Civilization VI Mods
 
 ![Logo](CivVIModsGermanTranslations_logo_small.png)
 Deutsche Übersetzungen für diverse Civilization VI Mods.
@@ -53,6 +53,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. District Expansion: Theater (JNR | Junky)
 1. District-Themed Recruiting (JNR | Junky)
 1. Diversity City Center Buildings (D & cyj | H.Humpel)
+1. Don't Mine Dirt! - More Interesting Production (Desucrate | Junky)
 1. Emigration (Oni | H.Humpel)
 1. Endgame Map Replay (Technoluddite | Junky)
 1. Environmentalistic Policy (weraptor | H.Humpel)
@@ -145,7 +146,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shirohô, Sparrow, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee & Zur13
+- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shirohô, Sparrow, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee & Zur13
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

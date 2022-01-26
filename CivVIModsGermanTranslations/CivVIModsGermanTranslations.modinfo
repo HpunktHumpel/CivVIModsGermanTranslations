@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="14">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]114[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]115[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1642978102</Created>
+    <Created>1643229316</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shirohô, Sparrow, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shirohô, Sparrow, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -188,6 +188,9 @@
     </Criteria>
     <Criteria id="DiversityCityCenterBuildings">
       <ModInUse>632a4fa1-e907-4426-815b-8424aeb81bb0</ModInUse>
+    </Criteria>
+    <Criteria id="DontMineDirt">
+      <ModInUse>965269ee-9d70-4a93-bd48-0c9d9e271bc2</ModInUse>
     </Criteria>
     <Criteria id="Emigration">
       <ModInUse>2ab0ac7c-40d3-41a3-86ff-6dc6f2c94f5a</ModInUse>
@@ -1083,6 +1086,10 @@
         <LoadOrder>10000</LoadOrder>
       </Properties>
       <File>2546679477/Texts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="DontMineDirt_de_DE">
+      <Criteria>DontMineDirt</Criteria>
+      <File>1641530160/localisedtext_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="Emigration_de_DE">
       <Criteria>Emigration</Criteria>
@@ -2054,6 +2061,7 @@
     <File>1595724214/Reindeer_Text_de_DE.xml</File>
     <File>1595724214/Reindeer_Text_patch_de_DE.sql</File>
     <File>1628605090/RMT_Text_de_DE.xml</File>
+    <File>1641530160/localisedtext_de_DE.sql</File>
     <File>1651487987/CTE_UI_TEXT_de_DE.xml</File>
     <File>1657288046/II_SR_Text_de_DE.sql</File>
     <File>1660382665/CB_Decommission_Text_de_DE.sql</File>
