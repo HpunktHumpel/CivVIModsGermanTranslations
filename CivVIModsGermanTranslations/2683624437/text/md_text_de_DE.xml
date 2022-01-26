@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <LocalizedText>
-        <Replace Language="de_DE" Tag="LOC_MD_MOVE_HINT">
+        <Replace Tag="LOC_MD_MOVE_HINT" Language="de_DE">
             <Text>Gebe {1_Amount: number #,###}[ICON_Gold] Gold aus zum Umziehen.</Text>
         </Replace>
-        <Replace Language="de_DE" Tag="LOC_MD_DONT_ASK_AGAIN">
+        <Replace Tag="LOC_MD_DONT_ASK_AGAIN" Language="de_DE">
             <Text>Nicht nochmal fragen.</Text>
         </Replace>
-        <Replace Language="de_DE" Tag="LOC_MD_CONFIRM_MOVE">
+        <Replace Tag="LOC_MD_CONFIRM_MOVE" Language="de_DE">
             <Text>Sind Sie sicher {1_Amount: number #,###}[ICON_Gold] Gold ausgeben zu wollen, um den Bezirk des Typs {2_DistrictType} mit allen Gebäuden umzuziehen?</Text>
         </Replace>
-        <Replace Language="de_DE" Tag="LOC_MD_CANNOT_MOVE_DISTRICT">
+        <Replace Tag="LOC_MD_CANNOT_MOVE_DISTRICT" Language="de_DE">
             <Text>Kann Bezirk nicht verschieben</Text>
         </Replace>
-        <Replace Language="de_DE" Tag="LOC_MD_UNSUPPORTED_BUILDINGS">
+        <Replace Tag="LOC_MD_UNSUPPORTED_BUILDINGS" Language="de_DE">
             <Text>Diese Gebäude können nicht verschoben werden, da mindestens 1 von ihnen besondere Bauanforderungen hat.</Text>
+        </Replace>
+        <Replace Tag="LOC_MD_TOGGLE_BUTTON" Language="de_DE">
+            <Text>Bezirke verschieben</Text>
+        </Replace>
+        <Replace Tag="LOC_MD_TOGGLE_BUTTON_TOOLTIP" Language="de_DE">
+            <Text>Bezirke Verschieben Schaltflächen ein/aus</Text>
         </Replace>
     </LocalizedText>
 </GameData>
