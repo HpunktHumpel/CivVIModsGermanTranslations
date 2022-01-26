@@ -16,7 +16,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1166015050 | The Draft | blkbutterfly | H.Humpel | #9
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
-1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | **NEW**
+1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | #14
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
@@ -30,7 +30,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1588097397 | Botanist | AOM | H.Humpel | #3
 1595724214 | Reindeer | AOM | Junky | #12
 1628605090 | Radial Measuring Tool | Zur13 | Junky | #13
-1641530160 | Don't Mine Dirt! - More Interesting Production | Desucrate | Junky | **NEW**
+1641530160 | Don't Mine Dirt! - More Interesting Production | Desucrate | Junky | #14
 1651487987 | Cheat Map Editor | Zur13 | Junky | #13
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660382665 | Decommission Power Plants | JNR | Junky | #12
@@ -70,10 +70,10 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
 1945460659 | Expanded Alliances | JNR | Junky | #12
-2021476879 | City Original Owner Info | Imhotep | Stevie | **NEW**
+2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
-2084153500 | Building Expansion (Light Edition) | JNR | Junky | **NEW**
+2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
@@ -87,12 +87,12 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
-2314657561 | District Expansion: Theater | JNR | Junky | **NEW**
+2314657561 | District Expansion: Theater | JNR | Junky | #14
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
 2394507496 | First to Circumnavigate | Sailor Cat | Junky | #13
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
-2402394695 | District Expansion: Industry | JNR | Junky | **NEW**
+2402394695 | District Expansion: Industry | JNR | Junky | #14
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
@@ -105,7 +105,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel | #1
 2511787097 | Unit Expansion: Medieval Pirate Unit | D | Junky | #6
-2533189420 | Envoy Quest List | Stack Man | Junky | **NEW**
+2533189420 | Envoy Quest List | Stack Man | Junky | #14
 2542898147 | Sukritact's Oceans | sukritact | Junky | #7
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3
 2557418900 | Raubak Natural Gas | Searching... | Junky | #6
