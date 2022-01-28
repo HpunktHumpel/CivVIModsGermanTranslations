@@ -14,8 +14,8 @@
 						Text
 					)
 			SELECT
-				"de_DE",	"LOC_PROJECT_CREATE_CORPORATION_PRODUCT_"||ResourceTypeShort||"_NAME",
-				"[ICON_"||ResourceType||"] {LOC_"||ResourceType||"_NAME} Korporation: Erstelle Neues Produkt"
+				"de_DE",				"LOC_PROJECT_CREATE_CORPORATION_PRODUCT_"||ResourceTypeShort||"_NAME",
+				"[ICON_"||ResourceType||"] {LOC_"||ResourceType||"_NAME}-Korporation: neues Produkt erschaffen"
 			FROM Suk_Resources;
 		-------------------------------------
 		-- Short Name
@@ -27,7 +27,7 @@
 					)
 			SELECT
 				"de_DE",				"LOC_PROJECT_CREATE_CORPORATION_PRODUCT_"||ResourceTypeShort||"_SHORT_NAME",
-				"[ICON_"||ResourceType||"] Erstelle Neues {LOC_"||ResourceType||"_NAME} Produkt"
+				"[ICON_"||ResourceType||"] Neues {LOC_"||ResourceType||"_NAME}-Produkt erschaffen"
 			FROM Suk_Resources;
 		-------------------------------------
 		-- Description
@@ -39,7 +39,7 @@
 					)
 			SELECT
 				"de_DE",				"LOC_PROJECT_CREATE_CORPORATION_PRODUCT_"||ResourceTypeShort||"_DESCRIPTION",
-				"Schaffe ein neues Produkt für die Welt auf der Grundlage der [ICON_"||ResourceType||"] {LOC_"||ResourceType||"_NAME} Ressource. {LOC_INDUSTRY_"||BonusType||"_DESCRIPTION}"
+				"Erschafft auf Basis von [ICON_"||ResourceType||"] {LOC_"||ResourceType||"_NAME} ein neues Produkt für den Weltmarkt. {LOC_INDUSTRY_"||BonusType||"_DESCRIPTION}"
 			FROM Suk_Resources;
 		-------------------------------------
 		-- Pedia Blurb
@@ -69,35 +69,35 @@ INSERT OR REPLACE INTO LocalizedText
 VALUES
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_CITY_GROWTH_DISCOUNT_DESCRIPTION",
-			"+20% Wachstum und +3 [ICON_Housing] Wohnraum."
+			"+20% Wachstum, +3 [ICON_Housing] Wohnraum am jeweiligen Standort."
 		),
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_MILITARY_UNIT_DISCOUNT_DESCRIPTION",
-			"+30% [ICON_Production] Produktion für Kampfeinheiten."
+			"+30% [ICON_Production] Produktion für Militäreinheiten am jeweiligen Standort."
 		),
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_CIVILIAN_UNIT_DISCOUNT_DESCRIPTION",
-			"+30% [ICON_Production] Produktion für zivile Einheiten."
+			"+30% [ICON_Production] Produktion für Zivileinheiten am jeweiligen Standort."
 		),
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_BUILDING_DISCOUNT_DESCRIPTION",
-			"+30% [ICON_Production] Produktion für Gebäude."
+			"+30% [ICON_Production] Produktion für Gebäude am jeweiligen Standort."
 		),
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_GOLD_YIELD_BONUS_DESCRIPTION",
-			"+25% [ICON_Gold] Goldertrag."
+			"+25% [ICON_Gold] Goldertrag am jeweiligen Standort."
 		),
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_FAITH_YIELD_BONUS_DESCRIPTION",
-			"+25% [ICON_Faith] Glaubensertrag."
+			"+25% [ICON_Faith] Glaubensertrag am jeweiligen Standort."
 		),
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_SCIENCE_YIELD_BONUS_DESCRIPTION",
-			"+15% [ICON_Science] Wissenschaftsertrag."
+			"+15% [ICON_Science] Wissenschaftsertrag am jeweiligen Standort."
 		),
 		(
 			"de_DE",			"LOC_SUK_RESOURCE_CULTURE_YIELD_BONUS_DESCRIPTION",
-			"+20% [ICON_Culture] Kulturertrag."
+			"+20% [ICON_Culture] Kulturertrag am jeweiligen Standort."
 		);
 --========================================================================================================================
 -- Product Names
