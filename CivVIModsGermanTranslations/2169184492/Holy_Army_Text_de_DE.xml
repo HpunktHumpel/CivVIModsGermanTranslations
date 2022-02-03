@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- The name of the policy. -->
+		<Replace Tag="LOC_POLICY_HOLY_ARMY_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Heilige Armee|Heilige Armee|Heiligen Armee|Heiligen Armee|Heilige Armee</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HOLY_NAVY_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Heilige Marine|Heilige Marine|Heiligen Marine|Heiligen Marine|Heilige Marine</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HOLY_AIRFORCE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Heilige Luftwaffe|Heilige Luftwaffe|Heiligen Luftwaffe|Heiligen Luftwaffe|Heilige Luftwaffe</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HOLY_SERVICE_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Heiliger Dienst|Heiligen Dienst|Heiligen Dienst|Heiligen Dienstes|Heiliger Dienst</Text>
+		</Replace>
+		<!-- The description of the policy. -->
+		<Replace Tag="LOC_POLICY_HOLY_ARMY_DESCRIPTION" Language="de_DE">
+			<Text>Ermöglicht Städten den Kauf von Boden-Kampfeinheiten mit [ICON_Faith] Glauben.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HOLY_NAVY_DESCRIPTION" Language="de_DE">
+			<Text>Ermöglicht Städten den Kauf von Seekampf-Einheiten mit [ICON_Faith] Glauben.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HOLY_AIRFORCE_DESCRIPTION" Language="de_DE">
+			<Text>Ermöglicht Städten den Kauf von Luftkampf-Einheiten mit [ICON_Faith] Glauben.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HOLY_SERVICE_DESCRIPTION" Language="de_DE">
+			<Text>Ermöglicht Städten den Kauf von Zivilisten- und Unterstützungs-Einheiten mit [ICON_Faith] Glauben.</Text>
+		</Replace>
+		<!-- Civilopedia information about the policy. -->
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_ARMY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Religiöse Leidenschaft kann große Armeen aufstellen. Mit genügend Glauben kann man so eine große Armee aufstellen und einen Kreuzzug starten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_NAVY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Religiöse Leidenschaft kann große Armeen aufstellen. Mit genügend Glauben kann man so eine große Marine aufstellen und einen Kreuzzug starten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_AIRFORCE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Religiöse Leidenschaft kann große Armeen aufstellen. Mit genügend Glauben kann man so eine große Luftwaffe aufstellen und einen Kreuzzug starten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_HOLY_SERVICE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Alle großen Armeen benötigen Logistik. Fanatische Eiferer arbeiten noch härter, um ihre Armeen zu unterstützen.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

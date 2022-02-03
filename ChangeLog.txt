@@ -1,5 +1,6 @@
 03.02.2022
 
+- [NEW] AB2531 Buy Units with Faith (vom 19. Juli 2020 um 23:06, Übersetzung von H.Humpel)
 - [NEW] Better Coastal Cities and Water Tiles (vom 11. Sep. 2019 um 3:16, Übersetzung von Junky)
 - [NEW] Modern Infantry (vom 6. Mai 2020 um 21:30, Übersetzung von Junky)
 
