@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+    <!-- The name of the building. -->
+    <Replace Tag="LOC_BUILDING_GAME_MAGAZINE_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+      <Text>Lagerhaus|Lagerhaus|Lagerhaus|Lagerhauses|Lagerhaus</Text>
+    </Replace>
+
+    <!-- The description of the building, used in various places. -->
+    <Replace Tag="LOC_BUILDING_GAME_MAGAZINE_DESCRIPTION" Language="de_DE">
+      <Text>Ein Lagerhaus bietet einer Stadt +1 [ICON_PRODUCTION] Produktion.</Text>
+    </Replace>
+
+    <!-- Pedia text (historical context) about the new building. -->
+    <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GAME_MAGAZINE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+      <Text>Ein Lagerhaus ist ein Ort, an dem Sie alle wertvollen Dinge aufbewahren. Im Spiel ist es ein nettes Gebäude und eine gute Wahl für Städte mit geringer Produktion.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>
