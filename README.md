@@ -16,6 +16,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Area 51 - World Wonder + Alien Units (JNR | H.Humpel)
 1. Ayakashi Saigyou (KCucumber | H.Humpel)
 1. Basic Buildings (carterrosenberg | H.Humpel)
+1. Better Coastal Cities and Water Tiles (p0kiehl | Junky)
 1. Better Religion Window (UI) (infixo | Junky)
 1. Better World Rankings (UI) (infixo | Junky)
 1. Bonus Resource Improvements (JNR | Junky)

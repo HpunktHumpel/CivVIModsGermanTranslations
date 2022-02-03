@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="15">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]117[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]118[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1643884121</Created>
+    <Created>1643885414</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Neicureuil, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -26,6 +26,9 @@
     <!-- FrontEnd Actions -->
     <Criteria id="AIChannelKizunaAI_FrontEnd">
       <ModIsEnabled>c6af1114-4638-4cdf-bbbb-dcaab3fe26e1</ModIsEnabled>
+    </Criteria>
+    <Criteria id="BetterCoastalCitiesAndWaterTiles_FrontEnd">
+      <ModIsEnabled>7f55c3e9-93a9-41d6-8203-741f6a53d51d</ModIsEnabled>
     </Criteria>
     <Criteria id="CheatMenuPanel_FrontEnd">
       <ModIsEnabled>f1e02dd3-6a94-47c4-a2d7-1d5219d8a40e</ModIsEnabled>
@@ -132,6 +135,9 @@
     </Criteria>
     <Criteria id="Beer">
       <ModInUse>e47c7d20-4ac0-4800-9f23-4ca9ca87afa3</ModInUse>
+    </Criteria>
+    <Criteria id="BetterCoastalCitiesAndWaterTiles">
+      <ModInUse>7f55c3e9-93a9-41d6-8203-741f6a53d51d</ModInUse>
     </Criteria>
     <Criteria id="BetterReligionWindow">
       <ModInUse>67B4DBCB-82AD-3F90-1595-43C677C1301E</ModInUse>
@@ -690,6 +696,13 @@
       <Criteria>AIChannelKizunaAI_FrontEnd</Criteria>
       <File>1661384856/XMLs/Lang/Kizuna_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="BetterCoastalCitiesAndWaterTiles_FrontEnd_de_DE">
+      <Criteria>BetterCoastalCitiesAndWaterTiles_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>881541733/WaterTiles_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="CheatMenuPanel_FrontEnd_de_DE">
       <Criteria>CheatMenuPanel_FrontEnd</Criteria>
       <File>1528155583/Base/UI/Text/Options_Text_de_DE.xml</File>
@@ -966,6 +979,13 @@
     <UpdateText id="Beer_de_DE">
       <Criteria>Beer</Criteria>
       <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="BetterCoastalCitiesAndWaterTiles_de_DE">
+      <Criteria>BetterCoastalCitiesAndWaterTiles</Criteria>
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>881541733/WaterTiles_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="BetterReligionWindow_de_DE">
       <Criteria>BetterReligionWindow</Criteria>
@@ -2251,6 +2271,7 @@
     <File>2683624437/text/md_text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>
+    <File>881541733/WaterTiles_Text_de_DE.sql</File>
     <File>891130600/GameText_de_DE.xml</File>
     <File>902897696/Caravansaries_Text_de_DE.sql</File>
     <File>902897696/Discipline_Text_de_DE.sql</File>
