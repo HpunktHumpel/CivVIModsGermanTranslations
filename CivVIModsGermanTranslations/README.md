@@ -69,6 +69,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
+1935024345 | Modern Infantry | Shadow | Junky | **NEW**
 1945460659 | Expanded Alliances | JNR | Junky | #12
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
