@@ -44,7 +44,7 @@
 			<Text>Erhöht die [ICON_Citizen] Bevölkerung einer Stadt. (Verwendet dies, wenn sich die Einheit im Stadtzentrum der Zielstadt befindet.)</Text>
 		</Replace>
 		    <Replace Tag="LOC_POLICY_MIGRATION_POLICY_NAME" Language="de_DE" Gender="feminine" Plurality="1">
-			<Text>Staatliche Umsiedlung|Staatliche Umsiedlung|Staatlicher Umsiedlung|Staatlicher Umsiedlung|Staatliche Umsiedlung</Text>
+			<Text>Staatliche Umsiedlung|Staatliche Umsiedlung|Staatlichen Umsiedlung|Staatlichen Umsiedlung|Staatliche Umsiedlung</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_MIGRATION_POLICY_DESCRIPTION" Language="de_DE">
 			<Text>+30% [ICON_Production] Produktion für Umsiedler. +1 [ICON_Movement] Bewegung für alle Umsiedler-Einheiten.</Text>
