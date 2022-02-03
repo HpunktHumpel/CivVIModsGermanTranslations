@@ -6,6 +6,7 @@
 - [NEW] Very Nice Magazine (vom 26. Jan. 2022 um 23:33, Übersetzung von H.Humpel)
 - [FIXED] 【Immigration】Move your population
 - [IMPROVED] Basic Buildings
+- [IMPROVED] Iron-eating Beast (aka Panda)
 
 
 28.01.2022
