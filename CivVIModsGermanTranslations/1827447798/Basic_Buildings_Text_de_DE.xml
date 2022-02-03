@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_BUILDING_BB_FERRY_NAME" Language="de_DE">
-			<Text>Flussfähre</Text>
+		<Replace Tag="LOC_BUILDING_BB_FERRY_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Flussfähre|Flussfähre|Flussfähre|Flussfähre|Flussfähre</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_BB_POST_OFFICE_NAME" Language="de_DE">
-			<Text>Postamt</Text>
+		<Replace Tag="LOC_BUILDING_BB_POST_OFFICE_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Postamt|Postamt|Postamt|Postamtes|Postamt</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_BB_HOSPITAL_NAME" Language="de_DE">
-			<Text>Krankenhaus</Text>
+		<Replace Tag="LOC_BUILDING_BB_HOSPITAL_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Krankenhaus|Krankenhaus|Krankenhaus|Krankenhauses|Krankenhaus</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_BB_SUBWAY_NAME" Language="de_DE">
-			<Text>U-Bahn System</Text>
+		<Replace Tag="LOC_BUILDING_BB_SUBWAY_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>U-Bahn-System|U-Bahn-System|U-Bahn-System|U-Bahn-Systems|U-Bahn-System</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_BB_RECYCLING_CENTER_NAME" Language="de_DE">
-			<Text>Recycling-Zentrum</Text>
+		<Replace Tag="LOC_BUILDING_BB_RECYCLING_CENTER_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Recycling-Zentrum|Recycling-Zentrum|Recycling-Zentrum|Recycling-Zentrums|Recycling-Zentrum</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_BB_FIBER_OPTIC_NETWORK_NAME" Language="de_DE">
-			<Text>Glasfasernetz</Text>
+		<Replace Tag="LOC_BUILDING_BB_FIBER_OPTIC_NETWORK_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Glasfasernetz|Glasfasernetz|Glasfasernetz|Glasfasernetzes|Glasfasernetz</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_BB_DISTRIBUTION_CENTER_NAME" Language="de_DE">
-			<Text>Vertriebszentrum</Text>
+		<Replace Tag="LOC_BUILDING_BB_DISTRIBUTION_CENTER_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Vertriebszentrum|Vertriebszentrum|Vertriebszentrum|Vertriebszentrums|Vertriebszentrum</Text>
 		</Replace>
-		<Replace Tag="LOC_BUILDING_BB_DATA_CENTER_NAME" Language="de_DE">
-			<Text>Rechenzentrum</Text>
+		<Replace Tag="LOC_BUILDING_BB_DATA_CENTER_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Rechenzentrum|Rechenzentrum|Rechenzentrum|Rechenzentrums|Rechenzentrum</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BB_FERRY_DESCRIPTION" Language="de_DE">
 			<Text>Bietet Gold und Wohnraum für die Stadt.</Text>
@@ -48,9 +48,9 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BB_DATA_CENTER_DESCRIPTION" Language="de_DE">
 			<Text>Regionale Reichweite von 6 Geländefeldern.</Text>
-		</Replace>	
-		<Replace Tag="LOC_PROJECT_POSTAL_SYSTEM_SHORT_NAME" Language="de_DE">
-			<Text>Postsystem</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_POSTAL_SYSTEM_SHORT_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Postsystem|Postsystem|Postsystem|Postsystems|Postsystem</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_POSTAL_SYSTEM_NAME" Language="de_DE">
 			<Text>Einrichtung eines nationalen Postsystems</Text>
@@ -58,8 +58,8 @@
 		<Replace Tag="LOC_PROJECT_POSTAL_SYSTEM_DESCRIPTION" Language="de_DE">
 			<Text>Ein einmaliges Projekt, das eine Menge an Wissenschaft, Gold, Kultur und Große-Persönlichkeiten-Punkten hervorbringt.[NEWLINE]Nach Fertigstellung erhalten alle Postämter höhere Erträge.</Text>
 		</Replace>
-		<Replace Tag="LOC_PROJECT_HEALTHCARE_SYSTEM_SHORT_NAME" Language="de_DE">
-			<Text>Gesundheitssystem</Text>
+		<Replace Tag="LOC_PROJECT_HEALTHCARE_SYSTEM_SHORT_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Gesundheitssystem|Gesundheitssystem|Gesundheitssystem|Gesundheitssystems|Gesundheitssystem</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_HEALTHCARE_SYSTEM_NAME" Language="de_DE">
 			<Text>Einrichtung eines nationalen Gesundheitssystems</Text>
@@ -67,8 +67,8 @@
 		<Replace Tag="LOC_PROJECT_HEALTHCARE_SYSTEM_DESCRIPTION" Language="de_DE">
 			<Text>Ein einmaliges Projekt, das eine Menge an Wissenschaft und Große-Persönlichkeiten-Punkten hervorbringt.[NEWLINE]Nach Fertigstellung erhalten alle Krankenhäuser höhere Erträge und alle Städte erhalten eine erhöhte Wachstumsrate.</Text>
 		</Replace>
-		<Replace Tag="LOC_PROJECT_CREATE_INTERNET_SHORT_NAME" Language="de_DE">
-			<Text>Internet</Text>
+		<Replace Tag="LOC_PROJECT_CREATE_INTERNET_SHORT_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Internet|Internet|Internet|Internets|Internet</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_CREATE_INTERNET_NAME" Language="de_DE">
 			<Text>Einrichtung eines nationalen Internet-Projekts</Text>
@@ -76,8 +76,8 @@
 		<Replace Tag="LOC_PROJECT_CREATE_INTERNET_DESCRIPTION" Language="de_DE">
 			<Text>Ein einmaliges Projekt, das eine Menge an Wissenschaft, Gold, Kultur und Große-Persönlichkeiten-Punkten hervorbringt.[NEWLINE]Nach Fertigstellung erhalten alle Glasfasernetz höhere Gold-, Kultur- und Wissenschafts-Erträge.[NEWLINE]Erfordert den Abschluss des Postsystem-Projekts und muss in einer Stadt mit einem Rechenzentrum erstellt werden.</Text>
 		</Replace>
-		<Replace Tag="LOC_PROJECT_RECYCLING_SHORT_NAME" Language="de_DE">
-			<Text>Recycling</Text>
+		<Replace Tag="LOC_PROJECT_RECYCLING_SHORT_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Recycling|Recycling|Recycling|Recyclings|Recycling</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_RECYCLING_NAME" Language="de_DE">
 			<Text>Recycling</Text>
