@@ -2,6 +2,7 @@
 
 Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
+871712879  | More Lenses | astog | Junky | **NEW**
 880843004  | Real Era Stop | infixo | Junky | #12
 881541733  | Better Coastal Cities and Water Tiles | p0kiehl | Junky | **NEW**
 891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | #9

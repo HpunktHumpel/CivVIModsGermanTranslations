@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="15">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]124[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]125[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1644255866</Created>
+    <Created>1644257613</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -276,6 +276,9 @@
     </Criteria>
     <Criteria id="MonopolyPlusTycoonsAndInvestors">
       <ModInUse>b248a322-3e2a-4a6a-830a-6b0d1f3435fc</ModInUse>
+    </Criteria>
+    <Criteria id="MoreLenses">
+      <ModInUse>35f33319-ad93-4d6b-bf27-406fac382d06</ModInUse>
     </Criteria>
     <Criteria id="MoreMaritime">
       <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
@@ -1302,6 +1305,15 @@
       </Properties>
       <File>2479197624/Text/MonopolyPlus_TycoonsText_de_DE.sql</File>
     </UpdateText>
+    <LocalizedText id="MoreLenses_de_DE">
+      <Criteria>MoreLenses</Criteria>
+      <Properties>
+        <LoadOrder>20</LoadOrder>
+      </Properties>
+      <Items>
+        <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
+      </Items>
+    </LocalizedText>
     <UpdateText id="MoreTier1Policies_de_DE">
       <Criteria>MoreTier1Policies</Criteria>
       <File>1731670144/MoreTier1Policies_Text_de_DE.xml</File>
@@ -2341,6 +2353,7 @@
     <File>2656616965/Text/AKMH_Text_de_DE.xml</File>
     <File>2669325299/Text/UC_NBH_Text_de_DE.sql</File>
     <File>2683624437/text/md_text_de_DE.xml</File>
+    <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>
     <File>881541733/WaterTiles_Text_de_DE.sql</File>

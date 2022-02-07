@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- GERMAN -->
+
+    <!-- Builder Lens -->
+    <Replace Tag="LOC_HUD_BUILDER_LENS" Language="de_DE">
+      <Text>Handwerker</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_TOOLTIP" Language="de_DE">
+      <Text>Hebt hervor, welche Felder der Handwerker bearbeiten kann.</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_BUILDER_LENS_PN" Language="de_DE">
+      <Text>Nichts</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_PD" Language="de_DE">
+      <Text>Gefährlich</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1" Language="de_DE">
+      <Text>Ressourcen</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P1N" Language="de_DE">
+      <Text>Ressourcen außer Reichweite</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P2" Language="de_DE">
+      <Text>Empfohlen/Geplün- dert/Einzigartige Fähigkeit</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P3" Language="de_DE">
+      <Text>Derzeit bearbeitet / Wunder-Gesteigert</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P4" Language="de_DE">
+      <Text>Hügel</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P5" Language="de_DE">
+      <Text>Geländeart entfernbar</Text>
+    </Replace>
+    <!-- Nothing to add here atm -->
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P6" Language="de_DE">
+      <Text></Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BUILDER_LENS_P7" Language="de_DE">
+      <Text>Allgemein</Text>
+    </Replace>
+	
+
+    <!-- Archaeologist Lens -->
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS" Language="de_DE">
+      <Text>Archäologe</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ARCHAEOLOGIST_LENS_TOOLTIP" Language="de_DE">
+      <Text>Zeigt Ausgrabungsstätten auf der Karte.</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_ARCHAEOLOGIST_LENS_ARTIFACT" Language="de_DE">
+      <Text>Artefakt</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_ARCHAEOLOGIST_LENS_SHIPWRECK" Language="de_DE">
+      <Text>Schiffswrack</Text>
+    </Replace>
+
+    <!-- City Overlap Lens -->
+    <Replace Tag="LOC_HUD_CITYOVERLAP_LENS" Language="de_DE">
+      <Text>Städteüberlagerung</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_CITYOVERLAP_LENS_TOOLTIP" Language="de_DE">
+      <Text>Zeigt, wie viele Städte überlappen (Abstand: 6 Felder)</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_OPTION1" Language="de_DE">
+      <Text>Zeige äußere Grenze</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_NMOUSE" Language="de_DE">
+        <Text>Keine Maus</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_RANGE" Language="de_DE">
+      <Text>Überlapp-Maus</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_CITYOVERLAP_RANGE" Language="de_DE">
+      <Text>Zeigt Felder und Städte innerhalb des Abstands (s.u.) vom Feld unter der Maus.</Text>
+    </Replace>
+    <Replace Tag="LOC_PANEL_CITYOVERLAP_RADIUS" Language="de_DE">
+      <Text>Radius-Maus</Text>
+    </Replace>
+
+    <!-- Barbarian Lens -->
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS" Language="de_DE">
+      <Text>Barbaren</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_BARBARIAN_LENS_TOOLTIP" Language="de_DE">
+      <Text>Zeigt Barbaren-Lager auf der Karte.</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_BARBARIAN_LENS_ENCAPMENT" Language="de_DE">
+      <Text>Barbaren-Lager</Text>
+    </Replace>
+
+    <!-- Resources Lens -->
+    <Replace Tag="LOC_HUD_RESOURCE_LENS" Language="de_DE">
+      <Text>Ressourcen</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_RESOURCE_LENS_TOOLTIP" Language="de_DE">
+      <Text>Zeigt Ressourcenfelder.</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_RESOURCE_LENS_COUNT_TOOLTIP" Language="de_DE">
+      <Text>Ihr besitzt {1_Count} ({2_Count} verbessert) der ingesamt {3_Count} entdeckten Orte mit {4_Resource}.</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_RESOURCE_LENS_LUXURY" Language="de_DE">
+      <Text>Luxusressource</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_RESOURCE_LENS_NLUXURY" Language="de_DE">
+      <Text>Unerschlossene Luxusressource</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_RESOURCE_LENS_STRATEGIC" Language="de_DE">
+      <Text>Strategische Ressource</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_RESOURCE_LENS_NSTRATEGIC" Language="de_DE">
+      <Text>Unerschlossene strateg. Ressource</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_RESOURCE_LENS_BONUS" Language="de_DE">
+      <Text>Bonusressource</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_RESOURCE_LENS_NBONUS" Language="de_DE">
+      <Text>Unerschlossene Bonusressource</Text>
+    </Replace>
+
+    <!-- Wonder Lens -->
+    <Replace Tag="LOC_HUD_WONDER_LENS" Language="de_DE">
+      <Text>Wunder</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_WONDER_LENS_TOOLTIP" Language="de_DE">
+      <Text>Zeigt Naturwunder und errichtete Wunder auf der Karte.</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_WONDER_LENS_NWONDER" Language="de_DE">
+      <Text>Naturwunder</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_RESOURCE_LENS_PWONDER" Language="de_DE">
+      <Text>Errichtete Wunder</Text>
+    </Replace>
+
+    <!-- Adjacency Yield Lens -->
+    <Replace Tag="LOC_HUD_ADJYIELD_LENS" Language="de_DE">
+      <Text>Nachbarschafts-Erträge</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_ADJYIELD_LENS_TOOLTIP" Language="de_DE">
+      <Text>Zeigt die Erträge durch die Nachbarschaft der Bezirke.</Text>
+    </Replace>
+
+    <!-- Scout Lens -->
+    <Replace Tag="LOC_HUD_SCOUT_LENS" Language="de_DE">
+      <Text>Späher</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_SCOUT_LENS_TOOLTIP" Language="de_DE">
+      <Text>Zeigt Stammesdörfer auf der Karte.</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_SCOUT_LENS_GHUT" Language="de_DE">
+      <Text>Stammesdorf</Text>
+    </Replace>
+
+    <!-- Naturalist Lens -->
+    <Replace Tag="LOC_HUD_NATURALIST_LENS" Language="de_DE">
+      <Text>Naturforscher</Text>
+    </Replace>
+    <Replace Tag="LOC_HUD_NATURALIST_LENS_TOOLTIP" Language="de_DE">
+      <Text>Geeignete Plätze für Nationalparks zeigen</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_NATURALIST_LENS_NPARK" Language="de_DE">
+      <Text>Gebiet bereit für Nationalpark</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_NATURALIST_LENS_OK" Language="de_DE">
+      <Text>Feld tauglich, bei Korrektur umliegender Felder</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTIP_NATURALIST_LENS_FIXABLE" Language="de_DE">
+      <Text>Korrektur nötig für Nationalpark-Umwandlung</Text>
+    </Replace>
+	
+	<!-- Settings Panel -->
+    <Replace Tag="LOC_HUD_ML_SETTINGS_PANEL_TITLE" Language="de_DE">
+      <Text>Mehr Linsen - Einstellungen</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_BUILDER" Language="de_DE">
+      <Text>Handwerkerlinse automatisch einschalten</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_BUILDER" Language="de_DE">
+      <Text>Aktiviert diese Möglichkeit, um bei Auswahl eines Handwerkers automatisch die Handwerkerlinse einzuschalten.</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_ML_SETTINGS_BUILDER_DISABLE_NOTHING" Language="de_DE">
+      <Text>Handwerkerlinse: Keine "Nichts"-Kennzeichnung</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTOP_ML_SETTINGS_BUILDER_DISABLE_NOTHING" Language="de_DE">
+      <Text>Die Kennzeichnung von Feldern auf denen nichts zu tun ist wird abgeschaltet. Aktiviert es, falls die Linse zu lange zum Laden benötigt.</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_ML_SETTINGS_BUILDER_DISABLE_DANGEROUS" Language="de_DE">
+      <Text>Handwerkerlinse: Keine "Gefährlich"-Kennzeichnung</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTOP_ML_SETTINGS_BUILDER_DISABLE_DANGEROUS" Language="de_DE">
+      <Text>Die Kennzeichnung von Feldern angrenzend zu Feinden wird abgeschaltet. Aktiviert es, falls die Linse zu lange zum Laden benötigt.</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_SCOUT" Language="de_DE">
+      <Text>Auto-Aktivierung der Späherlinse</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_SCOUT" Language="de_DE">
+      <Text>Aktiviert die automatische Anwendung beim Auswählen von Aufklärungseinheiten.</Text>
+    </Replace>
+
+    <Replace Tag="LOC_HUD_ML_SETTINGS_AUTO_APPLY_SCOUT_EXTRA" Language="de_DE">
+      <Text>Auto-Aktivierung der Späherlinse - Zusatz</Text>
+    </Replace>
+    <Replace Tag="LOC_TOOLTOP_ML_SETTINGS_AUTO_APPLY_SCOUT_EXTRA" Language="de_DE">
+      <Text>Aktiviert die automatische Anwendung beim Auswählen militärischer Einheiten.</Text>
+    </Replace>
+
+  </LocalizedText>
+</GameData>

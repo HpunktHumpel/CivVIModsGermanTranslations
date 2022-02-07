@@ -80,6 +80,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Monopoly++: Product and Corporation Adjustments (Leugi | Junky)
 1. Monopoly++: Resource Requirement Setup (Leugi | Junky)
 1. Monopoly++: Tycoons and Investors (Leugi | Junky)
+1. More Lenses (astog | Junky)
 1. More Maritime: Seaside Sectors (Albro | H.Humpel)
 1. MoreTier1Policies (VanillaThunder | H.Humpel)
 1. Motherland Calls (WindFly | H.Humpel)
@@ -155,7 +156,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee & Zur13
+- A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee & Zur13
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
