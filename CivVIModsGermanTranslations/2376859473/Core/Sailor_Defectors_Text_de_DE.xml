@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PROJECT_SAILOR_DEFECTORS_NAME" Language="de_DE">
+			<Text>Abtrünnige überzeugen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SAILOR_DEFECTORS_SHORT_NAME" Language="de_DE">
+			<Text>Abtrünnige überzeugen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SAILOR_DEFECTORS_DESCRIPTION" Language="de_DE">
+			<Text>Bezirksbasiertes Projekt, das 1-3 zufällige einzigartige Einheiten von Zivilisationen hervorbringt, die Ihr kennengelernt habt. 
+			Erzeugt Einheiten, für die entweder Ihr oder die Zivilisation die erforderliche Technologie oder das erforderliche Volk besitzen. 
+			Es werden keine Einheiten erzeugt, die aus mehr als zwei Zeitaltern vor dem aktuellen Zeitalter stammen.[NEWLINE][NEWLINE]
+			Bei Einheiten, die auf diese Weise erzeugt werden, besteht die Möglichkeit, dass sie abtrünnig werden&#x2013;schließlich sind sie Verräter. 
+			Folgende Faktoren verringern diese Chance:[NEWLINE] - Jede Delegation oder Botschaft zur Zivilisation, der die Einheit angehört.[NEWLINE] - 
+			Ein Spion, der in Eurem Diplomatenviertel gegenspionage durchführt (pro Beförderung).</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
