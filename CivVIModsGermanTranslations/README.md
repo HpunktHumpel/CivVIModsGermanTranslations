@@ -100,6 +100,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
+2458280109 | Keep Unique Buildings | Fuzzletop | Junky | **NEW**
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | #7
 2479197624 | Monopoly++: Tycoons and Investors | Leugi | Junky | #11

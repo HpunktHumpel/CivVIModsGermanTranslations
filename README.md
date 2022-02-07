@@ -70,6 +70,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Herdsman (AOM | H.Humpel)
 1. Immigration - Move your population (WindFly | H.Humpel)
 1. Iron-eating Beast (aka Panda) (WindFly | H.Humpel)
+1. Keep Unique Buildings (Fuzzletop | Junky)
 1. Latin American Resources (Leugi & p0kiehl | Junky)
 1. Leaning Tower of Pisa (World Wonder) (Deliverator23 | H.Humpel)
 1. Leugi's Aztec Rework (Captain Lime & Leugi | H.Humpel)
@@ -151,7 +152,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee & Zur13
+- A CityMaker, Albro, anders, Angryr, AOM, blkbutterfly, Captain Lime, carterrosenberg, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee & Zur13
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
