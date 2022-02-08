@@ -2,9 +2,9 @@
 
 Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
-871712879  | More Lenses | astog | Junky | **NEW**
+871712879  | More Lenses | astog | Junky | #15
 880843004  | Real Era Stop | infixo | Junky | #12
-881541733  | Better Coastal Cities and Water Tiles | p0kiehl | Junky | **NEW**
+881541733  | Better Coastal Cities and Water Tiles | p0kiehl | Junky | #15
 891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | #9
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
@@ -50,7 +50,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
 1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
-1717330418 | Very Nice Magazine | Mgwska | H.Humpel | **NEW**
+1717330418 | Very Nice Magazine | Mgwska | H.Humpel | #15
 1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | #13
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
@@ -72,8 +72,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1889267110 | Porcelain Tower (World Wonder) | Deliverator23 | H.Humpel | #4
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
-1911190056 | Mechanized Builders | Masked Man | Junky | **NEW**
-1935024345 | Modern Infantry | Shadow | Junky | **NEW**
+1911190056 | Mechanized Builders | Masked Man | Junky | #15
+1935024345 | Modern Infantry | Shadow | Junky | #15
 1945460659 | Expanded Alliances | JNR | Junky | #12
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
@@ -87,17 +87,17 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2145663327 | Better Religion Window (UI) | infixo | Junky | #12
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
-2169184492 | AB2531 Buy Units with Faith | NHC | H.Humpel | **NEW**
+2169184492 | AB2531 Buy Units with Faith | NHC | H.Humpel | #15
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
 2331527458 | Port Lime - Bridge Districts | Captain Lime, Leugi & sukritact | H.Humpel | #3
 2314657561 | District Expansion: Theater | JNR | Junky | #14
-2333458984 | District Expansion: Spirituality | JNR | Junky | **NEW**
-2337885119 | District Expansion: Worship | JNR | Junky | **NEW**
+2333458984 | District Expansion: Spirituality | JNR | Junky | #15
+2337885119 | District Expansion: Worship | JNR | Junky | #15
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
-2376859473 | Persuade Defectors Project | Sailor Cat | Junky | **NEW**
+2376859473 | Persuade Defectors Project | Sailor Cat | Junky | #15
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1
 2394507496 | First to Circumnavigate | Sailor Cat | Junky | #13
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
@@ -105,7 +105,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
-2458280109 | Keep Unique Buildings | Fuzzletop | Junky | **NEW**
+2458280109 | Keep Unique Buildings | Fuzzletop | Junky | #15
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | #7
 2479197624 | Monopoly++: Tycoons and Investors | Leugi | Junky | #11
@@ -115,7 +115,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2503076363 | CIVILIZATION VI: NATIONAL WONDERS | Albro | H.Humpel | #1
 2511437298 | CIVILIZATION VI: ST PETERS BASILICA | Albro | H.Humpel | #1
 2511787097 | Unit Expansion: Medieval Pirate Unit | D | Junky | #6
-2512923705 | Riflemen Unit | ChessPro2007 | Junky | **NEW**
+2512923705 | Riflemen Unit | ChessPro2007 | Junky | #15
 2533189420 | Envoy Quest List | Stack Man | Junky | #14
 2542898147 | Sukritact's Oceans | sukritact | Junky | #7
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3

@@ -152,7 +152,7 @@ Linux : ~/.local/share/aspyr-media/Sid Meier's Civilization VI/Mods
 ```
 
 ## Weitere Pläne
-Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier integriert werden. Aktuelle Kandidaten sind die Mods der "Urban Complexity"-Reihe. Vorschläge jederzeit willkommen.
+Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier integriert werden. Vorschläge jederzeit willkommen.
 
 ## Danksagungen
 
