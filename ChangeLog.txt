@@ -1,6 +1,7 @@
 08.02.2022
 
 - [NEW] District Expansion: Spirituality (vom 6. Dez. 2021 um 11:41, Übersetzung von Junky)
+- [NEW] District Expansion: Worship (vom 6. Dez. 2021 um 11:46, Übersetzung von Junky)
 - [FIXED] Renewable Energy Complexity
 
 

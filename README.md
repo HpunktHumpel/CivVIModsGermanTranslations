@@ -54,6 +54,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. District Expansion: Spirituality (JNR | Junky)
 1. District Expansion: Suburbs (JNR | Junky)
 1. District Expansion: Theater (JNR | Junky)
+1. District Expansion: Worship (JNR | Junky)
 1. District-Themed Recruiting (JNR | Junky)
 1. Diversity City Center Buildings (D & cyj | H.Humpel)
 1. Don't Mine Dirt! - More Interesting Production (Desucrate | Junky)
