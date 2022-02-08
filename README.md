@@ -51,6 +51,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. District Expansion: Goverment (Tier 4) (JNR | Junky)
 1. District Expansion: Industry (JNR | Junky)
 1. District Expansion: Military (JNR | Junky)
+1. District Expansion: Spirituality (JNR | Junky)
 1. District Expansion: Suburbs (JNR | Junky)
 1. District Expansion: Theater (JNR | Junky)
 1. District-Themed Recruiting (JNR | Junky)

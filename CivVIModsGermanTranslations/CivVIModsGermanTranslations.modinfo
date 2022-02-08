@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="15">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]125[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]126[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1644337359</Created>
+    <Created>1644339499</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -95,6 +95,9 @@
     </Criteria>
     <Criteria id="UC_Military_FrontEnd">
       <ModIsEnabled>72d77fd9-7d34-4539-97d9-f5c23de67814</ModIsEnabled>
+    </Criteria>
+    <Criteria id="UC_Spirituality_FrontEnd">
+      <ModIsEnabled>1047a269-38a8-4cee-b70a-a7681015eed7</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Theater_FrontEnd">
       <ModIsEnabled>ccd2f70b-2257-400f-bc59-9e1919f37473</ModIsEnabled>
@@ -448,6 +451,9 @@
     <Criteria id="UC_Satellites">
       <ModInUse>5b24d366-7522-4a6b-806a-b5869ef2377b</ModInUse>
     </Criteria>
+    <Criteria id="UC_Spirituality">
+      <ModInUse>1047a269-38a8-4cee-b70a-a7681015eed7</ModInUse>
+    </Criteria>
     <Criteria id="UC_Suburbs">
       <ModInUse>cc42ab93-1a06-4095-b0a4-64ca2aab241a</ModInUse>
     </Criteria>
@@ -666,6 +672,23 @@
     <Criteria id="MOD_WE">
       <ModInUse>38a49494-5ec4-46ac-b01b-9629d96950f3</ModInUse>
       <!-- Warfare Expanded -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <!-- UC Spirituality Criteria -->
+    <Criteria id="MOD_RE">
+      <ModInUse>c6775ded-6693-474a-ade5-b4c51d932bd8</ModInUse>
+      <!-- Religion Expanded -->
+      <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
+      <!-- Golden Age -->
+      <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
+      <!-- Harmony in Diversity - UC Patch -->
+    </Criteria>
+    <Criteria id="MOD_AmunRa">
+      <ModInUse>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModInUse>
+      <!-- Precinct of Amun-Ra -->
       <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>
       <!-- Golden Age -->
       <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>
@@ -929,6 +952,20 @@
         <LoadOrder>1000</LoadOrder>
       </Properties>
       <File>2314657561/Text/UC_THR_Text_Name_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_FrontEnd_ConfigText_de_DE">
+      <Criteria>UC_Spirituality_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/UC_REL_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_FrontEnd_TextModSupport_CX_Config_de_DE">
+      <Criteria>UC_Spirituality_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_CX_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UniqueBuildingDojo_FrontEnd_ConfigText_de_DE">
       <Criteria>UniqueBuildingDojo_FrontEnd</Criteria>
@@ -2005,6 +2042,86 @@
       <Criteria>UC_Satellites</Criteria>
       <File>1901462404/Text/UC_SAT_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UC_Spirituality_TextBase_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/UC_REL_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextCS_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>CS_GatheringStorm</Criteria>
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/UC_REL_Text_CS_GS_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextCS_Ethiopia_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>CS_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/UC_REL_Text_CS_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextModSupport_CSB_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>CS_CSB</Criteria>
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_CS_CSB_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextModSupport_CSE_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>CS_CSE</Criteria>
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Default_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>263</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextModSupport_CX_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>MOD_CX</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_CX_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextModSupport_RwF_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>UC</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_RwF_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextModSupport_RE_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>MOD_RE</Criteria>
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_RE_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Spirituality_TextModSupport_AmunRa_de_DE">
+      <Criteria>UC_Spirituality</Criteria>
+      <Criteria>MOD_AmunRa</Criteria>
+      <Properties>
+        <LoadOrder>264</LoadOrder>
+      </Properties>
+      <File>2333458984/Text/ModSupport/UC_REL_Text_AmunRa_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UC_Suburbs_TextBase_de_DE">
       <Criteria>UC_Suburbs</Criteria>
       <Criteria>UC</Criteria>
@@ -2286,6 +2403,16 @@
     <File>2317145428/Text/CL_Arecibo_Text_de_DE.xml</File>
     <File>2329124484/Text/CL_Kinkaku_Text_de_DE.xml</File>
     <File>2331527458/code/Lime Bridges - Text_de_DE.sql</File>
+    <File>2333458984/Text/ModSupport/UC_REL_Text_AmunRa_de_DE.sql</File>
+    <File>2333458984/Text/ModSupport/UC_REL_Text_CS_CSB_de_DE.sql</File>
+    <File>2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Default_de_DE.sql</File>
+    <File>2333458984/Text/ModSupport/UC_REL_Text_CS_CSE_Ethiopia_de_DE.sql</File>
+    <File>2333458984/Text/ModSupport/UC_REL_Text_CX_de_DE.sql</File>
+    <File>2333458984/Text/ModSupport/UC_REL_Text_RE_de_DE.sql</File>
+    <File>2333458984/Text/ModSupport/UC_REL_Text_RwF_de_DE.sql</File>
+    <File>2333458984/Text/UC_REL_Text_CS_Ethiopia_de_DE.sql</File>
+    <File>2333458984/Text/UC_REL_Text_CS_GS_de_DE.sql</File>
+    <File>2333458984/Text/UC_REL_Text_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Default_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
