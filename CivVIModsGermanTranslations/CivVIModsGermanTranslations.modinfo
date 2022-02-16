@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]127[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1645051534</Created>
+    <Created>1645055017</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -1087,6 +1087,9 @@
     </UpdateText>
     <UpdateText id="Botanist_de_DE">
       <Criteria>Botanist</Criteria>
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
       <File>1588097397/Botanist_Text_de_DE.sql</File>
       <File>1588097397/Botanist_Text_de_DE.xml</File>
     </UpdateText>
@@ -1250,6 +1253,9 @@
     </UpdateText>
     <UpdateText id="Herdsman_de_DE">
       <Criteria>Herdsman</Criteria>
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
       <File>1564497864/Herdsman_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Immigration_de_DE">

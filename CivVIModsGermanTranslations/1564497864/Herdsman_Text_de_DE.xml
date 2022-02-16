@@ -171,5 +171,43 @@
              Language="de_DE">
             <Text>Lässt die Kaschmirschafe hier weiden.</Text>
         </Replace>
+
+
+        <!--Latin American Resources-->
+        <Replace Tag="LOC_UNIT_HERDSMAN_LEU_P0K_CAPYBARAS_NAME"
+             Language="de_DE">
+            <Text>Hirte (mit Wasserschweinen)</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_LEU_P0K_CAPYBARAS_DESCRIPTION"
+             Language="de_DE">
+            <Text>Ein einfacher Hirte mit Wasserschweinen.</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_LEU_P0K_LLAMAS_NAME"
+             Language="de_DE">
+            <Text>Hirte (mit Alpakas)</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HERDSMAN_LEU_P0K_LLAMAS_DESCRIPTION"
+             Language="de_DE">
+            <Text>Ein einfacher Hirte mit Alpakas.</Text>
+        </Replace>
+
+
+
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_CAPYBARAS_NAME"
+             Language="de_DE">
+            <Text>Wasserschweine weiden lassen.</Text>
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_CAPYBARAS_DESCRIPTION"
+             Language="de_DE">
+            <Text>Lässt die Wasserschweine hier weiden.</Text>
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_LLAMAS_NAME"
+             Language="de_DE">
+            <Text>Alpakas weiden lassen.</Text>
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_UNRUSTLE_LEU_P0K_LLAMAS_DESCRIPTION"
+             Language="de_DE">
+            <Text>Lässt die Alpakas hier weiden.</Text>
+        </Replace>
     </LocalizedText>
 </GameData>
