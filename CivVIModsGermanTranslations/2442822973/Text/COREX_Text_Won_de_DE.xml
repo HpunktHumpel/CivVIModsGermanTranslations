@@ -4,8 +4,8 @@
 
 		<!-- WONDERS -->
 
-		<Replace Tag="LOC_CL_BUILDING_CN_TOWER_NAME" Language="de_DE">
-			<Text>CN Tower</Text>
+		<Replace Tag="LOC_CL_BUILDING_CN_TOWER_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>CN Tower|CN Tower|CN Tower|CN Towers|CN Tower</Text>
 		</Replace>
 
 			<Replace Tag="LOC_CL_BUILDING_CN_TOWER_DESCRIPTION" Language="de_DE">
@@ -14,8 +14,7 @@
 
 				<Replace Tag="LOC_CL_BUILDING_CN_TOWER_QUOTE" Language="de_DE">
 					<Text>"Nichts verbreitet sich schneller als das Licht, mit Ausnahme von schlechten Nachrichten, die ihren eigenen Sonderregeln gehorchen."[NEWLINE]–Douglas Adams</Text>
-				</Replace>	
+				</Replace>
 
 	</LocalizedText>
 </GameData>
-
