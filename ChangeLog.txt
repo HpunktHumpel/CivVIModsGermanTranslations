@@ -1,5 +1,6 @@
 16.02.2022
 
+- [IMPROVED] More Maritime: Seaside Sectors
 - [IMPROVED] Port Lime - Bridge Districts
 
 
