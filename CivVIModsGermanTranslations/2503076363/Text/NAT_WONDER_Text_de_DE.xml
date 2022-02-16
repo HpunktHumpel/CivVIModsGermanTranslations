@@ -8,8 +8,8 @@
 
 		<!-- NATIONAL THEME PARK -->
 
-		<Replace Tag="LOC_NAT_WONDER_CL_THEMEPARK_NAME" Language="de_DE">
-			<Text>Nationaler Themenpark</Text>
+		<Replace Tag="LOC_NAT_WONDER_CL_THEMEPARK_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Nationaler Themenpark|Nationalen Themenpark|Nationalen Themenpark|Nationalen Themenparks|Nationale Themenpark</Text>
 		</Replace>
 
 			<Replace Tag="LOC_NAT_WONDER_CL_THEMEPARK_QUOTE" Language="de_DE">
@@ -22,7 +22,7 @@
 
 				<Replace Tag="LOC_NAT_WONDER_CL_THEMEPARK_DESCRIPTION_INTERNAL" Language="de_DE">
 					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung müssen 4 Unterhaltungskomplexe oder Waterparks in Eurem Reich gebaut worden sein.[ENDCOLOR][NEWLINE][NEWLINE]Bonus [ICON_AMENITIES] Annehmlichkeiten und [ICON_GOLD] Gold erstrecken sich auf jedes Stadtzentrum innerhalb von 6 Feldern. +5 [ICON_TOURISM] Tourismus für alle Unterhaltungskomplexe oder Waterparks innerhalb von 6 Feldern; dieses erhöhte sich auf +15 [ICON_TOURISM] Tourismus wenn diese direkt an den Nationalen Themenpark angrenzen.[NEWLINE]Muss auf Flachland neben einem Unterhaltungskomplex gebaut werden.</Text>
-				</Replace>		
+				</Replace>
 
 					<Replace Tag="LOC_PEDIA_NAT_WONDER_CL_THEMEPARK_1" Language="de_DE">
 						<Text>Ein Themenpark ist eine Ansammlung von Unterhaltungsattraktionen, Fahrgeschäften und anderen solchen Strukturen, die alle auf einem zentralen Thema basieren. Themenparks sind aufwendiger als einfache Stadtparks oder Spielplätze und bieten in der Regel Attraktionen, die speziell auf bestimmte Altersgruppen zugeschnitten sind, sowie einige, die sich an alle Altersgruppen richten.</Text>
@@ -34,8 +34,8 @@
 
 		<!-- NATIONAL EPIC -->
 
-		<Replace Tag="LOC_NAT_WONDER_CL_NATIONALEPIC_NAME" Language="de_DE">
-			<Text>Nationalepos</Text>
+		<Replace Tag="LOC_NAT_WONDER_CL_NATIONALEPIC_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Nationalepos|Nationalepos|Nationalepos|Nationalepos|Nationalepos</Text>
 		</Replace>
 
 			<Replace Tag="LOC_NAT_WONDER_CL_NATIONALEPIC_QUOTE" Language="de_DE">
@@ -48,16 +48,16 @@
 
 				<Replace Tag="LOC_NAT_WONDER_CL_NATIONALEPIC_DESCRIPTION_INTERNAL" Language="de_DE">
 					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung muss sich ihr Reich in einem Goldenen Zeitlater befinden.[ENDCOLOR][NEWLINE][NEWLINE]+20% [ICON_GreatPerson] Große-Persönlichkeit-Punkte pro Runde und +1 [ICON_PRODUCTION] Produktion für jedes [ICON_GreatWork_Writing] Große Literaturwerk in dieser Stadt. Diese Boni werden in einem [ICON_GLORY_GOLDEN_AGE] Goldenen Zeitalter verdoppelt.[NEWLINE]Muss neben einem Theaterplatz-Bezirk gebaut werden.</Text>
-				</Replace>		
+				</Replace>
 
 					<Replace Tag="LOC_PEDIA_NAT_WONDER_CL_NATIONALEPIC_1" Language="de_DE">
 						<Text>Ein “Nationalepos” ist seit der Antike ein episches Gedicht, das versucht, das Wesen und den Geist eines Volkes oder Landes einzufangen und auszudrücken. Nationalepen erzählen häufig vom Ursprung einer Nation, einem Teil ihrer Geschichte oder einem entscheidenden Ereignis in der Entwicklung der nationalen Identität. Im weiteren Sinne kann ein Nationalepos einfach ein Epos in der Landessprache sein, auf das das Volk oder die Regierung dieser Nation besonders stolz ist. Die griechische “Odyssee” ist ein solches Werk, ebenso das mesopotamische “Gilgamesch-Epos”, die römische “Aeneis”, die indische “Mahabharata”, die portugiesischen “Lusiaden” oder der angelsächsische “Beowulf”.</Text>
-					</Replace>		
+					</Replace>
 
 	<!-- GRAND CITADTEL -->
 
-		<Replace Tag="LOC_NAT_WONDER_CL_CITADEL_NAME" Language="de_DE">
-			<Text>Grosse Zitadelle</Text>
+		<Replace Tag="LOC_NAT_WONDER_CL_CITADEL_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Grosse Zitadelle|Grosse Zitadelle|Grossen Zitadelle|Grossen Zitadelle|Grosse Zitadelle</Text>
 		</Replace>
 
 			<Replace Tag="LOC_NAT_WONDER_CL_CITADEL_QUOTE" Language="de_DE">
@@ -70,28 +70,28 @@
 
 				<Replace Tag="LOC_NAT_WONDER_CL_CITADEL_DESCRIPTION_INTERNAL" Language="de_DE">
 					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung muss sich ihr Reich im Krieg befinden.[ENDCOLOR][NEWLINE][NEWLINE]Bietet die gleichen Verteidigungsboni wie die Festung-Modernisierung. +4 [ICON_STRENGTH] Kampfstärke und +1 [ICON_MOVEMENT] Fortbewegung für alle Fernkampf- und Belagerungseinheiten innerhalb von 10 Feldern. Im Krieg erhalten alle Festung-Modernisierung +2 [ICON_PRODUCTION] Produktion, +1 [ICON_SCIENCE] Wissenschaft, und +1 [ICON_CULTURE] Kultur.[NEWLINE]Muss neben einem Lager-Bezirk gebaut werden.</Text>
-				</Replace>		
+				</Replace>
 
 					<Replace Tag="LOC_ABILITY_NAT_WONDER_CL_CITADEL_NAME" Language="de_DE">
 						<Text>Grand Citadel</Text>
-					</Replace>		
+					</Replace>
 
 					<Replace Tag="LOC_ABILITY_NAT_WONDER_CL_CITADEL_DESCRIPTION" Language="de_DE">
 						<Text>+4 [ICON_STRENGTH] Kampfstärke und +1 [ICON_MOVEMENT] Fortbewegung. (Grand Citadel)</Text>
-					</Replace>		
+					</Replace>
 
 					<Replace Tag="LOC_PEDIA_NAT_WONDER_CL_CITADEL_1" Language="de_DE">
 						<Text>Eine Zitadelle ist eine Festung, die in der Umfriedung einer Festung oder einer befestigten Stadt errichtet wurde. Es ist von Natur aus eine Festung mit Bastionen und einem Wassergraben, die sich normalerweise in einer vorteilhaften Position befindet, um eine ständige feindliche Offensive am Fuße ihrer Batterien zu halten oder zu verteidigen. Der Begriff kommt vom italienischen “cittadella”, einer Verkleinerungsform von “città”, was Stadt bedeutet.</Text>
-					</Replace>							
+					</Replace>
 
 					<Replace Tag="LOC_PEDIA_NAT_WONDER_CL_CITADEL_2" Language="de_DE">
 						<Text>In mehreren Nationen haben Zitadellen spezifische Namen bekommen, wie zum Beispiel der russische “Kreml” oder der spanische “Alcazar”. In europäischen Städten werden die Begriffe “Zitadelle” und “Stadtschloss” synonym verwendet, während der Begriff “Turm” auch in bestimmten Fällen wie dem Tower of London oder dem Tower of David in Jerusalem verwendet wurde. Die größte Zitadelle der westlichen Hemisphäre ist die Citadelle Laferrière in Haiti.</Text>
-					</Replace>							
+					</Replace>
 
 	<!-- NATIONAL COLLEGE -->
 
-		<Replace Tag="LOC_NAT_WONDER_CL_COLLEGE_NAME" Language="de_DE">
-			<Text>Nationale Hochschule</Text>
+		<Replace Tag="LOC_NAT_WONDER_CL_COLLEGE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Nationale Hochschule|Nationale Hochschule|Nationalen Hochschule|Nationalen Hochschule|Nationale Hochschule</Text>
 		</Replace>
 
 			<Replace Tag="LOC_NAT_WONDER_CL_COLLEGE_QUOTE" Language="de_DE">
@@ -104,7 +104,7 @@
 
 				<Replace Tag="LOC_NAT_WONDER_CL_COLLEGE_DESCRIPTION_INTERNAL" Language="de_DE">
 					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung müssen mindestens 3 Campus-Forschungsstipendien Projekte beendet worden sein.[ENDCOLOR][NEWLINE][NEWLINE]+50% [ICON_SCIENCE] Wissenschaft in dieser Stadt. Dieser Bonus wird um 5% [ICON_SCIENCE] Wissenschaft für jede weitere Stadt in Eurem Reich gesenkt (bis zu einem Minimum von +10% [ICON_SCIENCE] Wissenschaft).[NEWLINE]Muss auf Flachland neben einem Campus-Bezirk gebaut werden.</Text>
-				</Replace>	
+				</Replace>
 
 					<Replace Tag="LOC_PEDIA_NAT_WONDER_CL_COLLEGE_1" Language="de_DE">
 						<Text>Eine nationale Hochschule oder Universität ist im Allgemeinen ein von einer Regierung geschaffenes oder verwaltetes Hochschulzentrum, das jedoch je nach spezifischer Bildungslandschaft autonom ohne direkte Kontrolle durch den Staat arbeiten kann.</Text>
@@ -117,8 +117,8 @@
 
 	<!-- GRAND TEMPLE -->
 
-		<Replace Tag="LOC_NAT_WONDER_CL_TEMPLE_NAME" Language="de_DE">
-			<Text>Grosser Tempel</Text>
+		<Replace Tag="LOC_NAT_WONDER_CL_TEMPLE_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Grosser Tempel|Grossen Tempel|Grossen Tempel|Grossen Tempels|Grosse Tempel</Text>
 		</Replace>
 
 			<Replace Tag="LOC_NAT_WONDER_CL_TEMPLE_QUOTE" Language="de_DE">
@@ -131,7 +131,7 @@
 
 				<Replace Tag="LOC_NAT_WONDER_CL_TEMPLE_DESCRIPTION_INTERNAL" Language="de_DE">
 					<Text>Nationales Wunder. Kann nur einmal in Eurem Reich gebaut werden.[COLOR:Red] Für die Freischaltung müssen mindestens 8 Städte zu ihrer Religion bekehrt worden sein.[ENDCOLOR][NEWLINE][NEWLINE]Für jedes gebaute Anbetungs-Gebäude Ihrer Religion erhalten alle Ihre Städte zusätzliche 25% religiöse Ausbreitung durch Druck benachbarter Städte und 10% weitere religiöse Ausbreitungsreichweite.[NEWLINE]Muss neben einem Heilige-Stätte-Bezirk gebaut werden und Ihr müsst eine Religion begründet haben.</Text>
-				</Replace>	
+				</Replace>
 
 					<Replace Tag="LOC_PEDIA_NAT_WONDER_CL_TEMPLE_1" Language="de_DE">
 						<Text>Ein großer Tempel ist eine verehrte heilige Stätte, die unter den Anhängern einer bestimmten Religion als heilig gilt. Diese Tempel verfügen oft über eine großartige Architektur und kunstvolle Inschriften, die seit Jahrhunderten als Zeugnis des Glaubens der Anhänger der Religion stehen. Obwohl es keinen klaren Konsens darüber gibt, welcher der vielen Tempel, die heute auf der ganzen Welt zu finden sind, der älteste ist, glauben viele, dass der Göbekli Tepe - der in der modernen Türkei gefunden und vor über 12.000 Jahren zusammengebaut wurde - das früheste von Menschenhand geschaffene religiöse Bauwerk ist, das jemals entdeckt wurde.</Text>
@@ -139,4 +139,3 @@
 
 	</LocalizedText>
 </GameData>
-
