@@ -1,5 +1,6 @@
 20.02.2022
 
+- [NEW] CIVITAS City-States (Mekong Ruleset) (v1.00 vom 3. Aug. 2019 um 15:54, Übersetzung von Junky)
 - [NEW] Radiant Additional Base Buildings (vom 18. Aug. 2019 um 21:50, Übersetzung von H.Humpel)
 - [NEW] Resource Producing Buildings (vom 13. Okt. 2019 um 8:31, Übersetzung von H.Humpel)
 - [FIXED] District Expansion: Commerce

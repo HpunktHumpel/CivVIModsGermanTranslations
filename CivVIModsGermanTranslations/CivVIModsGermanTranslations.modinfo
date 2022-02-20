@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="16">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]129[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]130[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1645369146</Created>
+    <Created>1645373534</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -23,6 +23,12 @@
     <Mod id="6ad2d524-acf8-4924-a0ca-3f52d8fa745e" title="Strategic Forts" />
   </References>
   <ActionCriteria>
+    <Criteria id="XP1" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
     <!-- FrontEnd Actions -->
     <Criteria id="AIChannelKizunaAI_FrontEnd">
       <ModIsEnabled>c6af1114-4638-4cdf-bbbb-dcaab3fe26e1</ModIsEnabled>
@@ -189,6 +195,9 @@
     </Criteria>
     <Criteria id="CityOriginalOwnerInfo">
       <ModInUse>dfc02542-9e5a-461f-af3f-3078a7da9f06</ModInUse>
+    </Criteria>
+    <Criteria id="CIVITASCityStatesMekongRuleset">
+      <ModInUse>a91d6e80-ec66-47c0-90e8-c4164bfbd3c9</ModInUse>
     </Criteria>
     <Criteria id="CIVITASResources">
       <ModInUse>664d17a5-f3be-493a-9332-8e20da1166fa</ModInUse>
@@ -1132,6 +1141,29 @@
     <UpdateText id="CityOriginalOwnerInfo_de_DE">
       <Criteria>CityOriginalOwnerInfo</Criteria>
       <File>2021476879/Text/CityOriginalOwnerInfo_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="CSE_Mekong_Text_de_DE">
+      <Criteria>CIVITASCityStatesMekongRuleset</Criteria>
+      <Properties>
+        <LoadOrder>40</LoadOrder>
+      </Properties>
+      <File>1823811062/Core/CSE_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Mekong_Text_XP1_de_DE">
+      <Criteria>CIVITASCityStatesMekongRuleset</Criteria>
+      <Criteria>XP1</Criteria>
+      <Properties>
+        <LoadOrder>41</LoadOrder>
+      </Properties>
+      <File>1823811062/Core/CSE_Localisation_XP1_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Mekong_Text_XP2_de_DE">
+      <Criteria>CIVITASCityStatesMekongRuleset</Criteria>
+      <Criteria>XP2</Criteria>
+      <Properties>
+        <LoadOrder>42</LoadOrder>
+      </Properties>
+      <File>1823811062/Core/CSE_Localisation_XP2_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="CIVITASResourcesText_de_DE">
       <Criteria>CIVITASResources</Criteria>
@@ -2396,6 +2428,9 @@
     <File>1782215547/Text/Borobudur_Text_de_DE.xml</File>
     <File>1782222841/Text/Bamyan_Text_de_DE.xml</File>
     <File>1822380055/MC_Sappers_Text_de_DE.sql</File>
+    <File>1823811062/Core/CSE_Localisation_de_DE.sql</File>
+    <File>1823811062/Core/CSE_Localisation_XP1_de_DE.sql</File>
+    <File>1823811062/Core/CSE_Localisation_XP2_de_DE.sql</File>
     <File>1827447798/Basic_Buildings_Text_de_DE.xml</File>
     <File>1828854812/Text/Leaning_Tower_Text_de_DE.xml</File>
     <File>1830573953/SM_BC_Texts_de_DE.xml</File>
