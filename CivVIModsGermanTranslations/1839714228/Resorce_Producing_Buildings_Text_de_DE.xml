@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+
+    <Replace Tag="LOC_BUILDING_RPB_ALLOY_FORGE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+      <Text>Legierungsschmiede|Legierungsschmiede|Legierungsschmiede|Legierungsschmiede|Legierungsschmiede</Text>
+    </Replace>
+
+	<Replace Tag="LOC_BUILDING_RPB_HORSE_BREEDER_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+		<Text>Pferdezüchter|Pferdezüchter|Pferdezüchter|Pferdezüchters|Pferdezüchter</Text>
+	</Replace>
+
+	<Replace Tag="LOC_BUILDING_RPB_ALCHEMICAL_LAB_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+		  <Text>Alchemistisches Labor|Alchemistische Labor|Alchemistischen Labor|Alchemistischen Labors|Alchemistische Labor</Text>
+	</Replace>
+
+	<Replace Tag="LOC_BUILDING_RPB_COAL_PRODUCTION_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+		  <Text>Holzkohleanlage|Holzkohleanlage|Holzkohleanlage|Holzkohleanlage|Holzkohleanlage</Text>
+	</Replace>
+
+	<Replace Tag="LOC_BUILDING_RPB_SYNTH_OIL_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+		  <Text>Raffinerie für synthetisches Öl|Raffinerie für synthetisches Öl|Raffinerie für synthetisches Öl|Raffinerie für synthetisches Öl|Raffinerie für synthetisches Öl</Text>
+	</Replace>
+
+	<Replace Tag="LOC_BUILDING_RPB_MINERAL_MARKET_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+		  <Text>Markt für seltene Erden|Markt für seltene Erden|Markt für seltene Erden|Marktes für seltene Erden|Markt für seltene Erden</Text>
+	</Replace>
+
+	<Replace Tag="LOC_BUILDING_RPB_ENRICHMENT_REACTOR_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+		  <Text>Anreicherungsreaktor|Anreicherungsreaktor|Anreicherungsreaktor|Anreicherungsreaktors|Anreicherungsreaktor</Text>
+	</Replace>
+
+
+	  <Replace Tag="LOC_BUILDING_RPB_BIOFUEL_REFINERY_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+		  <Text>Biokraftstoff-Raffinerie|Biokraftstoff-Raffinerie|Biokraftstoff-Raffinerie|Biokraftstoff-Raffinerie|Biokraftstoff-Raffinerie</Text>
+	  </Replace>
+
+
+	  <Replace Tag="LOC_BUILDING_RPB_BETTER_MINERAL_MARKET_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+		  <Text>Lager für seltene Erden|Lager für seltene Erden|Lager für seltene Erden|Lagers für seltene Erden|Lager für seltene Erden</Text>
+	  </Replace>
+
+
+	  <Replace Tag="LOC_BUILDING_RPB_FUSION_REACTOR_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+		  <Text>Militärischer Fusionsreaktor|Militärischen Fusionsreaktor|Militärischen Fusionsreaktor|Militärischen Fusionsreaktors|Militärische Fusionsreaktor</Text>
+	  </Replace>
+
+    <Replace Tag="LOC_BUILDING_RPB_ALLOY_FORGE_DESC" Language="de_DE">
+      <Text>Ein kostspieliges Gebäude, das 1 [ICON_RESOURCE_IRON] Eisen pro Runde liefert.</Text>
+    </Replace>
+
+
+
+
+    <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_ALLOY_FORGE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+      <Text>Die Herstellung von Legierungen ist eine Kunst, die fast so alt ist wie die Menschheit selbst. Noch bevor die Menschen Städte besiedelten, wussten sie, wie man Bronze gießt. Nachdem die wundersamen Eigenschaften von Eisen entdeckt waren, wurden die Geheimnisse der Reinigung und Legierung von Metall noch wertvoller. Geschickte Schmiede und Metallurgen können selbst die unreinsten Erzproben verwenden.</Text>
+    </Replace>
+
+	  <Replace Tag="LOC_BUILDING_RPB_HORSE_BREEDER_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 1 [ICON_RESOURCE_HORSES] Pferde pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_HORSE_BREEDER_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Seit die Menschheit den Wert des Pferdes sowohl als Reittier als auch als Zugtier verstanden hat, hat die Zucht zu einer Steigerung der Kraft, Geschwindigkeit und Schönheit des Pferdes geführt. Im Laufe der Jahre und Generationen wurden Pferde immer besser, edler und viel wertvoller.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_BUILDING_RPB_ALCHEMICAL_LAB_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 1 [ICON_RESOURCE_NITER] Salpeter pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_ALCHEMICAL_LAB_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Die Alchemie, die als Vorläufer der modernen Chemie angesehen werden kann, war eine Kunst, die wissenschaftliche Methoden mit esoterischen Erkenntnissen und Astrologie verband. Obwohl Alchemisten nie eines ihrer vorrangigen Ziele (Blei in Gold umzuwandeln und Menschen Unsterblichkeit zu verleihen) erreicht hatten, ebneten ihre Experimente den Weg für die zukünftige Entwicklung der Wissenschaften.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_BUILDING_RPB_COAL_PRODUCTION_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 1 [ICON_RESOURCE_COAL] Kohle pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_COAL_PRODUCTION_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Bevor die Menschen lernten, Kohle unter Tage abzubauen, gelang es ihnen, Holz zu pyrolysieren, also ohne Zugabe von Sauerstoff zu erhitzen und somit Holzkohle zu erzeugen. Obwohl die Holzkohlebrennerei fast so alt ist wie die Metallurgie selbst, entstanden um das 18. Jahrhundert spezialisierte Holzkohlearten, um die Bedürfnisse der jungen Industrie zu befriedigen. Aber schon etwa ein Jahrhundert später wurde ihre Verwendung aufgrund der zunehmenden Verwendung der günstigeren und ergiebigeren Steinkohle aufgegeben.</Text>
+	  </Replace>
+
+
+	  <Replace Tag="LOC_BUILDING_RPB_SYNTH_OIL_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 1 [ICON_RESOURCE_OIL] Öl pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_SYNTH_OIL_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Nachdem die Ingenieure den Wert von Rohöl für die Produktion von flüssigem Kraftstoff erkannten, begannen sie mit der Suche nach Alternativen. Es gibt verschiedene Möglichkeiten, dies zu erreichen – von der Verflüssigung von Kohle bis zur Raffination von Biokraftstoffen. Und obwohl der Prozess normalerweise nicht so effizient ist wie im Falle von Rohöl, kann er einem Land helfen, das sich in einer Brennstoffkrise befindet.</Text>
+	  </Replace>
+
+
+	  <Replace Tag="LOC_BUILDING_RPB_MINERAL_MARKET_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 1 [ICON_RESOURCE_ALUMINUM] Aluminium pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_MINERAL_MARKET_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Mineralbörsen bedienen den globalen Bedarf an Seltenen Erden in der Produktion von Elektronik, Motoren und anderen nützlichen Rädchen in der Maschinerie der Zivilisation.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_BUILDING_RPB_ENRICHMENT_REACTOR_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 1 [ICON_RESOURCE_URANIUM] Uran pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_ENRICHMENT_REACTOR_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Der Abbau radioaktiver Mineralien ist nur der erste Schritt, um sie als Brennstoff oder als Waffe einsetzen zu können. Sie müssen noch in einem weiteren Prozess angereichert werden, bei dem sie entweder in passende Bedingungen zur Herstellung des gewünschten Isotops gebracht werden, oder das gewünschte Isotop muss zentrifugiert und raffiniert werden.</Text>
+	  </Replace>
+
+
+
+
+	  <Replace Tag="LOC_BUILDING_RPB_BIOFUEL_REFINERY_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 2 [ICON_RESOURCE_OIL] Öl pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_BIOFUEL_REFINERY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Sobald die Ingenieure den Wert von Rohöl für die Produktion von flüssigem Kraftstoff erkannten, begannen sie mit der Suche nach Ersatz. Es gibt verschiedene Möglichkeiten, dies zu erreichen – von der Verflüssigung von Kohle bis zur Raffination von Biokraftstoffen. Und obwohl der Prozess normalerweise nicht so effizient ist wie im Falle von Rohöl, kann er einem Land helfen, das sich in einer Brennstoffkrise befindet.</Text>
+	  </Replace>
+
+
+	  <Replace Tag="LOC_BUILDING_RPB_BETTER_MINERAL_MARKET_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 2 [ICON_RESOURCE_ALUMINUM] Aluminium pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_BETTER_MINERAL_MARKET_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Mineralbörsen bedienen den globalen Bedarf an Seltenen Erden in der Produktion von Elektronik, Motoren und anderen nützlichen Rädchen in der Maschinerie der Zivilisation.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_BUILDING_RPB_FUSION_REACTOR_DESC" Language="de_DE">
+		  <Text>Ein kostspieliges Gebäude, das 2 [ICON_RESOURCE_URANIUM] Uran pro Runde liefert.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_RPB_FUSION_REACTOR_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+      <Text>Der Abbau radioaktiver Mineralien ist nur der erste Schritt, um sie als Brennstoff oder als Waffe einsetzen zu können. Sie müssen noch in einem weiteren Prozess angereichert werden, bei dem sie entweder in passende Bedingungen zur Herstellung des gewünschten Isotops gebracht werden, oder das gewünschte Isotop muss zentrifugiert und raffiniert werden.</Text>
+	  </Replace>
+
+  </LocalizedText>
+</GameData>

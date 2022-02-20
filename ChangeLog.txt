@@ -1,3 +1,8 @@
+20.02.2022
+
+- [NEW] Resource Producing Buildings (vom 13. Okt. 2019 um 8:31, Übersetzung von H.Humpel)
+
+
 16.02.2022
 
 - [IMPROVED] Botanist

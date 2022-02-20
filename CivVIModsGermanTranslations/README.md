@@ -65,6 +65,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
 1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | #10
 1839114973 | District Expansion: Military | JNR | Junky | #11
+1839714228 | Resource Producing Buildings | Surt Ignir Magnis | H.Humpel | **NEW**
 1868147338 | Deforestation: More Gradual and Severe | JNR | Junky | #12
 1871766085 | Lyceum - Early Science Building | Linguaphile | H.Humpel | #10
 1872427843 | Emigration | Oni | H.Humpel | #9
