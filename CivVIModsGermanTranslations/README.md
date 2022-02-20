@@ -24,6 +24,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
+1461815805 | Radiant Additional Base Buildings | Shirohô | H.Humpel | **NEW**
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9

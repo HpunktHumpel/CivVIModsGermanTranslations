@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<LocalizedText>
+		<!-- Building names -->
+		<Replace Tag="LOC_BUILDING_FORUM_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Forum|Forum|Forum|Forums|Forum</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREATCITYSQUARE_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Großer Stadtplatz|Großen Stadtplatz|Großen Stadtplatz|Großen Stadtplatzes|Große Stadtplatz</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREATCITYSQUARE_WP_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Großer Stadtplatz auf Wasser|Großen Stadtplatz auf Wasser|Großen Stadtplatz auf Wasser|Großen Stadtplatzes auf Wasser|Große Stadtplatz auf Wasser</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SECRETCOUNCILHIDEOUT_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Geheimrats-Versteck|Geheimrats-Versteck|Geheimrats-Versteck|Geheimrats-Versteckes|Geheimrats-Versteck</Text>
+		</Replace>
+		<!-- Building description -->
+		<Replace Tag="LOC_BUILDING_FORUM_DESCRIPTION" Language="de_DE">
+			<Text>Bietet 1 Großes-Werk-Platz (beliebiger Typ), +1 [ICON_Housing] Wohnraum und +1 [ICON_Gold] Gold.[NEWLINE]Verleiht +1 [ICON_Governor] Gouverneur-Titel.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREATCITYSQUARE_DESCRIPTION" Language="de_DE">
+			<Text>Bietet +1 [ICON_Amenities] Annehmlichkeiten, +1 [ICON_Tourism] Tourismus und +2 [ICON_Culture] Kultur für diese Stadt.[NEWLINE]Bietet außerdem 1 [ICON_GREATWORK_MUSIC] Großes-Musikwerk-Platz.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREATCITYSQUARE_WP_DESCRIPTION" Language="de_DE">
+			<Text>Bietet +1 [ICON_Amenities] Annehmlichkeiten, +1 [ICON_Tourism] Tourismus und +2 [ICON_Culture] Kultur für diese Stadt.[NEWLINE]Bietet außerdem 1 [ICON_GREATWORK_MUSIC] Großes-Musikwerk-Platz.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SECRETCOUNCILHIDEOUT_DESCRIPTION" Language="de_DE">
+			<Text>Stellt Eurer Zivilisation den ersten Spion zur Verfügung, aber auch -5 Loyalität pro Runde in Euren Städten.</Text>
+		</Replace>
+		<!-- Topo de Civilopedia -->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FORUM_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Neben seiner Standardfunktion als erster Marktplatz der Geschichte war ein Forum ein Versammlungsort von großer gesellschaftlicher Bedeutung und oft Schauplatz vielfältiger Aktivitäten, einschließlich politischer oder künstlerischer Diskussionen und Debatten, Rendezvous, Treffen usw. In diesem Fall ergänzte es die Funktion eines Konzils.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FORUM_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Die ersten Foren befanden sich in dieser Zeit zwischen unabhängigen Dörfern, die nur durch archäologische Ausgrabungen bekannt sind. Nach dem Aufstieg der Römischen Republik diente das bekannteste Forum der römischen Welt, das Forum Romanum in Rom selbst, als Modell für den Neubau.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GREATCITYSQUARE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Ein Stadtplatz ist ein offener öffentlicher Platz, der üblicherweise im Herzen einer traditionellen Stadt zu finden ist und für Gemeindeversammlungen genutzt wird. Der Zeitraum des ersten Auftretens in der Menschheitsgeschichte ist ungewiss. Es scheint als ob er schon immer dort gewesen wäre. Einige Städte können mehrere Plätze haben, manchmal sind sie sogar auf Wasser gebaut! Unter diesen ist der größte von ihnen oft für Musik- und Theateraufführungen oder Feste bestimmt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GREATCITYSQUARE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Tatsächlich sind die meisten Stadtplätze gepflastert, da für offene Märkte, Musikkonzerte, politische Kundgebungen und andere Veranstaltungen fester Boden geeigneter ist. Stadtplätze sind in der Regel auch von kleinen Geschäften wie Bäckereien, Fleischmärkten, Käsegeschäften und Bekleidungsgeschäften umgeben. In ihrer Mitte befindet sich oft ein Brunnen, ein Springbrunnen, ein Denkmal oder eine Statue. Viele von denen mit Brunnen oder Springbrunnen werden auch als Brunnenplatz bezeichnet.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GREATCITYSQUARE_WP_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Ein Stadtplatz ist ein offener öffentlicher Platz, der üblicherweise im Herzen einer traditionellen Stadt zu finden ist und für Gemeindeversammlungen genutzt wird. Der Zeitraum des ersten Auftretens in der Menschheitsgeschichte ist ungewiss. Es scheint als ob er schon immer dort gewesen wäre. Einige Städte können mehrere Plätze haben, manchmal sind sie sogar auf Wasser gebaut! Unter diesen ist der größte von ihnen oft für Musik- und Theateraufführungen oder Feste bestimmt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GREATCITYSQUARE_WP_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Tatsächlich sind die meisten Stadtplätze gepflastert, da für offene Märkte, Musikkonzerte, politische Kundgebungen und andere Veranstaltungen fester Boden geeigneter ist. Stadtplätze sind in der Regel auch von kleinen Geschäften wie Bäckereien, Fleischmärkten, Käsegeschäften und Bekleidungsgeschäften umgeben. In ihrer Mitte befindet sich oft ein Brunnen, ein Springbrunnen, ein Denkmal oder eine Statue. Viele von denen mit Brunnen oder Springbrunnen werden auch als Brunnenplatz bezeichnet.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SECRETCOUNCILHIDEOUT_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Dieses Gebäude symbolisiert die Geburtsstunde der Spionage, die tatsächlich viel früher existierte, als Firaxis es im Spiel darstellen wollte. Vor etwa 1500 Jahren fanden die ersten Geheimtreffen oft in abgelegenen und bewachten Hauptquartieren statt. An ihnen waren die einflussreichsten Personen ihrer Zeit beteiligt, und sie wurden oft als verräterisch angesehen und erweckten in der Bevölkerung kaum Vertrauen. Für Historiker aber waren sie unbestreitbar notwendig Schritte, um die ersten Imperien zu erschaffen, die jemals existierten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SECRETCOUNCILHIDEOUT_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Ereignisse im Zusammenhang mit Spionage sind im Laufe der Geschichte gut dokumentiert. Die alten Schriften chinesischer und indischer Militärstrategen wie Sun-Tzu und Chanakya enthalten Informationen über Täuschung und Unterwanderung. Sun Tzu betonte die Notwendigkeit militärischer Geheimdienste. Chanakyas Schüler Chandragupta Maurya, Gründer des Maurya-Reiches in Indien, bediente sich Attentate, Spione und Geheimagenten, die in Chanakyas Arthashastra beschrieben werden. Die alten Ägypter hatten ein ausgeklügeltes System zur Beschaffung von Informationen, und auch die Hebräer setzten Spione ein, wie in der Geschichte von Rahab. Spione waren auch im griechischen und römischen Reich (5. bis 7. Jahrhundert) weit verbreitet.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
