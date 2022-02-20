@@ -30,7 +30,7 @@ WHERE	Tag='LOC_P0K_LAUTARO_ABILITY_DESCRIPTION';
 
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,														Text)
-SELECT	'de_DE',	'LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION',			'+50% [ICON_Production] Produktion für das Erstgebäude aller Spezialbezirke.[NEWLINE]Diese Gebäude liefern +2 ihrer jeweiligen Erträge. Gebäude mit mindestens 3 [ICON_GreatWork_Portrait] Plätzen für ''Große Werke'' und Wunder mit mindestens 2 [ICON_GreatWork_Portrait] Plätzen für ''Große Werke'' haben automatisch ein Thema, wenn die Plätze gefüllt sind. Sie kann auf dem Regierungsplatz die Bibliothek der Königin bauen.'
+SELECT	'de_DE',	'LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION',			'+50% [ICON_Production] Produktion für das Erstgebäude aller Spezialbezirke.[NEWLINE]Diese Gebäude liefern +2 ihrer jeweiligen Ertragsart. Gebäude mit mindestens 3 [ICON_GreatWork_Portrait] Plätzen für ''Große Werke'' und Wunder mit mindestens 2 [ICON_GreatWork_Portrait] Plätzen für ''Große Werke'' haben automatisch ein Thema, wenn die Plätze gefüllt sind. Sie kann auf dem Regierungsplatz die Bibliothek der Königin bauen.'
 FROM	LocalizedText
 WHERE	Tag='LOC_P0K_LAUTARO_ABILITY_DESCRIPTION';
 --------------------------------------------------------------
