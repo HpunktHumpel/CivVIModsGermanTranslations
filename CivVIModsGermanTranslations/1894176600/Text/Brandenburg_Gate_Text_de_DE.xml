@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <LocalizedText>
-        <Replace Tag="LOC_BUILDING_BRANDENBURG_GATE_NAME" Language="de_DE">
-            <Text>Brandenburger Tor</Text>
+        <Replace Tag="LOC_BUILDING_BRANDENBURG_GATE_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+            <Text>Brandenburger Tor|Brandenburger Tor|Brandenburger Tor|Brandenburger Tores|Brandenburger Tor</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_BRANDENBURG_GATE_DESCRIPTION" Language="de_DE">
             <Text>+25% Kampferfahrung für alle Landeinheiten, die in dieser Stadt ausgebildet werden. 1 freier Großer General erscheint (falls verfügbar). +3 Loyalität pro Runde für Städte mit Garnisons-Einheit (nur Erweiterungen).[NEWLINE]Benötigt eine Militärakademie in dieser Stadt.[NEWLINE]Muss auf Flachland neben dem Stadtzentrum gebaut werden. Kann nicht auf Schnee gebaut werden.</Text>

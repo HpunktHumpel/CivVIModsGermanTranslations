@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_BUILDING_LEANING_TOWER_NAME" Language="de_DE">
-			<Text>Der Schiefe Turm von Pisa</Text>
+		<Replace Tag="LOC_BUILDING_LEANING_TOWER_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Der Schiefe Turm von Pisa|Schiefen Turm von Pisa|Schiefen Turm von Pisa|Schiefen Turmes von Pisa|Schiefe Turm von Pisa</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_LEANING_TOWER_DESCRIPTION" Language="de_DE">
 			<Text>Hafenbezirke in Städten innerhalb von 6 Geländefeldern um dieses Wunder erhalten zusätzlich +1 [ICON_Gold] Gold für jeden angrenzenden Bezirk. +25 % Kampferfahrung für alle in dieser Stadt ausgebildeten Marineeinheiten. +100% [ICON_Tourism] Tourismus durch diese Stadt gegenüber anderen Zivilizationen mit Beginn der Moderne.[NEWLINE]Benötigt einen Hafenbezirk in dieser Stadt und muss auf Grasland oder Ebene neben dem Stadtzentrum gebaut werden.</Text>

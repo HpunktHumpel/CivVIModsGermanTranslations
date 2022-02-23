@@ -6,11 +6,11 @@
 <GameData>
 	<LocalizedText>
 		<!-- The name of the building. -->
-		<Row Tag="LOC_BUILDING_BROTHEL_NAME" Language="de_DE"><Text>Bordell</Text></Row>
-		<Row Tag="LOC_BUILDING_NIGHTCLUB_NAME" Language="de_DE"><Text>Nachtclub</Text></Row>
-		<Row Tag="LOC_BUILDING_TAXCENTER_NAME" Language="de_DE"><Text>Finanzamt</Text></Row>
-		<Row Tag="LOC_BUILDING_SHISHABAR_NAME" Language="de_DE"><Text>Shisha-Bar</Text></Row>
-		<Row Tag="LOC_BUILDING_SATANICTEMPLE_NAME" Language="de_DE"><Text>Satanischer Tempel</Text></Row>
+		<Row Tag="LOC_BUILDING_BROTHEL_NAME" Language="de_DE" Gender="neuter" Plurality="1"><Text>Bordell|Bordell|Bordell|Bordells|Bordell</Text></Row>
+		<Row Tag="LOC_BUILDING_NIGHTCLUB_NAME" Language="de_DE" Gender="masculine" Plurality="1"><Text>Nachtklub|Nachtklub|Nachtklub|Nachtklubs|Nachtklub</Text></Row>
+		<Row Tag="LOC_BUILDING_TAXCENTER_NAME" Language="de_DE" Gender="neuter" Plurality="1"><Text>Finanzamt|Finanzamt|Finanzamt|Finanzamtes|Finanzamt</Text></Row>
+		<Row Tag="LOC_BUILDING_SHISHABAR_NAME" Language="de_DE" Gender="feminine" Plurality="1"><Text>Shisha-Bar|Shisha-Bar|Shisha-Bar|Shisha-Bar|Shisha-Bar</Text></Row>
+		<Row Tag="LOC_BUILDING_SATANICTEMPLE_NAME" Language="de_DE" Gender="masculine" Plurality="1"><Text>Satanischer Tempel|Satanischen Tempel|Satanischen Tempel|Satanischen Tempels|Satanische Tempel</Text></Row>
 
 		<!-- The description of the building, used in various places. -->
 		<Row Tag="LOC_BUILDING_BROTHEL_DESCRIPTION" Language="de_DE"><Text>Ein Ort, an dem Menschen eine schöne Zeit mit anderen verbringen können, spezialisiert auf den Austausch von Flüssigkeiten.</Text></Row>

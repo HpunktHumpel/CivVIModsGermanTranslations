@@ -1,3 +1,14 @@
+23.02.2022
+
+- [IMPROVED] Brandenburg Gate (World Wonder)
+- [IMPROVED] Buddhas of Bamyan (World Wonder)
+- [IMPROVED] Diversity City Center Buildings
+- [IMPROVED] Leaning Tower of Pisa (World Wonder)
+- [IMPROVED] SquirrelMod - BetterCity
+- [IMPROVED] Tide Mill Building
+- [IMPROVED] Trading Post Improvement
+
+
 22.02.2022
 
 - [IMPROVED] Port Lime - Bridge Districts

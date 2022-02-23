@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_BUILDING_BAMYAN_NAME" Language="de_DE">
-			<Text>Buddha-Statuen von Bamiyan</Text>
+		<Replace Tag="LOC_BUILDING_BAMYAN_NAME" Language="de_DE" Gender="feminine" Plurality="2">
+			<Text>Buddha-Statuen von Bamiyan|Buddha-Statuen von Bamiyan|Buddha-Statuen von Bamiyan|Buddha-Statuen von Bamiyan|Buddha-Statuen von Bamiyan</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BAMYAN_DESCRIPTION" Language="de_DE">
 			<Text>+1 [ICON_Faith] Glauben durch internationale [ICON_TradeRoute] Handelswege. Die Handelsrouten anderer Zivilisationen zu diesem Spieler gewähren sowohl dem Spieler +1 [ICON_Faith] Glauben als auch den anderen Zivilisationen +1 [ICON_Faith] Glauben. Jede Bauernhof- und Weiden-Modernisierung innerhalb von 6 Geländefeldern um dieses Wunder gewährt +1 [ICON_Faith] Glauben. Bietet +2 [ICON_Greatwork_relic] Reliquienplätze und gewährt eine kostenlose [ICON_Greatwork_relic] Reliquie.</Text>
