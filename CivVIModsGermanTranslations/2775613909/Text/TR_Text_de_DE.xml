@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TR_Text -->
+<!-- Author: Flactine -->
+<!-- DateCreated: 3/8/2022 2:41:51 PM -->
+<!-- Translation: H.Humpel -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PARAMETER_FLACS_ISREMIND_NAME" Language="de_DE">
+			<Text>Pausen-Erinnerung</Text>
+		</Replace>
+		<Replace Tag="LOC_PARAMETER_FLACS_ISREMIND_DESCRIPTION" Language="de_DE">
+			<Text>Pausen-Erinnerung aktivieren?</Text>
+		</Replace>
+		<Replace Tag="LOC_PARAMETER_FLACS_TR_MINUTE_NAME" Language="de_DE">
+			<Text>Erinnerungszeit</Text>
+		</Replace>
+		<Replace Tag="LOC_PARAMETER_FLACS_TR_MINUTE_DESCRIPTION" Language="de_DE">
+			<Text>Wenn das Spiel so lange läuft (in Minuten), wird der Spieler daran erinnert, eine Pause einzulegen.</Text>
+		</Replace>
+		<Replace Tag="LOC_FLACS_TIME_REMINDER_TITLE" Language="de_DE">
+			<Text>Pausen-Erinnerung</Text>
+		</Replace>
+		<Replace Tag="LOC_FLACS_TIME_REMINDER_MESSAGE_1" Language="de_DE">
+			<Text>Ihr spielt nun schon seit {1_Minutes} Minuten. Bitte macht eine Pause.</Text>
+		</Replace>
+		<Replace Tag="LOC_FLACS_TIME_REMINDER_MESSAGE_2" Language="de_DE">
+			<Text>Ihr spielt nun schon seit {1_Hours} Stunde(n) und {2_Minutes} Minute(n). Bitte macht eine Pause.</Text>
+		</Replace>
+		<Replace Tag="LOC_FLACS_TIME_REMINDER_OK" Language="de_DE">
+			<Text>Ich habe mich ausgeruht.</Text>
+		</Replace>
+		<Replace Tag="LOC_FLACS_TIME_REMINDER_NO" Language="de_DE">
+			<Text>Nur noch eine Runde!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

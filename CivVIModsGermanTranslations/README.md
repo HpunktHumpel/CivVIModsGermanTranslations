@@ -136,3 +136,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2683624437 | Movable Districts | wltk | Junky | #10
 2769967307 | Grand Eras (Project 6T Core) | JNR & Zegangani | Junky | **NEW**
 2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | **NEW**
+2775613909 | Rest Reminder | Flactine | H.Humpel | **NEW**
