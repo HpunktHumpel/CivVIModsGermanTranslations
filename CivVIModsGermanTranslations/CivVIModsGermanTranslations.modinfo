@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="16">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]130[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]131[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1645657388</Created>
+    <Created>1646755794</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -38,6 +38,9 @@
     </Criteria>
     <Criteria id="CheatMenuPanel_FrontEnd">
       <ModIsEnabled>f1e02dd3-6a94-47c4-a2d7-1d5219d8a40e</ModIsEnabled>
+    </Criteria>
+    <Criteria id="CIVITASCityStatesExpanded_FrontEnd">
+      <ModIsEnabled>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModIsEnabled>
     </Criteria>
     <Criteria id="EpsTweakForCatchUp_FrontEnd">
       <ModIsEnabled>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModIsEnabled>
@@ -195,6 +198,9 @@
     </Criteria>
     <Criteria id="CityOriginalOwnerInfo">
       <ModInUse>dfc02542-9e5a-461f-af3f-3078a7da9f06</ModInUse>
+    </Criteria>
+    <Criteria id="CIVITASCityStatesExpanded">
+      <ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
     </Criteria>
     <Criteria id="CIVITASCityStatesMekongRuleset">
       <ModInUse>a91d6e80-ec66-47c0-90e8-c4164bfbd3c9</ModInUse>
@@ -541,6 +547,67 @@
       <ModInUse inverse="1">f30353f2-8760-4f8d-a28e-08fb6445f627</ModInUse>
       <ModInUse inverse="1">1053759f-6c27-4684-930f-870917dd37d3</ModInUse>
     </Criteria>
+    <!-- CIVITAS City-States Expanded -->
+    <Criteria id="CSE_Favor_Toggle">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_FAVOR_OPTION</ConfigurationId>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CSE_Walls_Toggle">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_WALLS_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CSE_Consular_Toggle">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_CONSULAR_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Ethiopia">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="XP1_Ethiopia">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+      <GameCoreInUse inverse="1">Expansion2</GameCoreInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="XP2_Ethiopia">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="XP2_Ethiopia_Consular">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_CONSULAR_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
     <!-- District-Themed Recruiting -->
     <Criteria id="Vanilla" Any="1">
       <ModInUse inverse="1">4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
@@ -775,6 +842,13 @@
     <UpdateText id="CheatMenuPanel_FrontEnd_de_DE">
       <Criteria>CheatMenuPanel_FrontEnd</Criteria>
       <File>1528155583/Base/UI/Text/Options_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="CIVITASCityStatesExpanded_FrontEnd_de_DE">
+      <Criteria>CIVITASCityStatesExpanded_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="EnvoyQuestList_FrontEnd_de_DE">
       <Criteria>EnvoyQuestList_FrontEnd</Criteria>
@@ -1141,6 +1215,61 @@
     <UpdateText id="CityOriginalOwnerInfo_de_DE">
       <Criteria>CityOriginalOwnerInfo</Criteria>
       <File>2021476879/Text/CityOriginalOwnerInfo_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="CSE_Text_de_DE">
+      <Criteria>CIVITASCityStatesExpanded</Criteria>
+      <Properties>
+        <LoadOrder>40</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Text_XP1_de_DE">
+      <Criteria>CIVITASCityStatesExpanded</Criteria>
+      <Criteria>XP1</Criteria>
+      <Properties>
+        <LoadOrder>41</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_XP1_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Text_Ethiopia_de_DE">
+      <Criteria>CIVITASCityStatesExpanded</Criteria>
+      <Criteria>Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>81</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Text_Ethiopia_XP1_de_DE">
+      <Criteria>CIVITASCityStatesExpanded</Criteria>
+      <Criteria>XP1_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>82</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_XP1_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Text_Ethiopia_XP2_de_DE">
+      <Criteria>CIVITASCityStatesExpanded</Criteria>
+      <Criteria>XP2_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>82</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_XP1_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Text_XP2_de_DE">
+      <Criteria>CIVITASCityStatesExpanded</Criteria>
+      <Criteria>CSE_Consular_Toggle</Criteria>
+      <Properties>
+        <LoadOrder>1003</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_XP2_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CSE_Consular_Ethiopia_Text_de_DE">
+      <Criteria>CIVITASCityStatesExpanded</Criteria>
+      <Criteria>XP2_Ethiopia_Consular</Criteria>
+      <Properties>
+        <LoadOrder>1005</LoadOrder>
+      </Properties>
+      <File>1331757859/Core/CSE_Localisation_XP2_Ethiopia_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="CSE_Mekong_Text_de_DE">
       <Criteria>CIVITASCityStatesMekongRuleset</Criteria>
@@ -2379,6 +2508,12 @@
     <File>1293801965/Core_MODE/p0k_Resources_MODE_Localisation_de_DE.sql</File>
     <File>1302739491/Text_de_DE.sql</File>
     <File>1302739491/Text_de_DE.xml</File>
+    <File>1331757859/Core/CSE_Localisation_de_DE.sql</File>
+    <File>1331757859/Core/CSE_Localisation_Ethiopia_de_DE.sql</File>
+    <File>1331757859/Core/CSE_Localisation_XP1_de_DE.sql</File>
+    <File>1331757859/Core/CSE_Localisation_XP1_Ethiopia_de_DE.sql</File>
+    <File>1331757859/Core/CSE_Localisation_XP2_de_DE.sql</File>
+    <File>1331757859/Core/CSE_Localisation_XP2_Ethiopia_de_DE.sql</File>
     <File>1335763888/NewBuilding_Text_de_DE.xml</File>
     <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
     <File>1356081737/Core/AmunPrecinct_Text_de_DE.xml</File>
