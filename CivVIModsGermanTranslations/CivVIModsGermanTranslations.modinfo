@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="16">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]132[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]133[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1646757113</Created>
+    <Created>1646758256</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -333,6 +333,9 @@
     </Criteria>
     <Criteria id="p0kiehlsTempleOfPoseidon">
       <ModInUse>06d0b218-87e4-4b69-9a16-f620e1019150</ModInUse>
+    </Criteria>
+    <Criteria id="P6T_EnlightenmentGovernments">
+      <ModInUse>c6c62855-e22a-47b2-9c36-be0a8c09519e</ModInUse>
     </Criteria>
     <Criteria id="P6T_GrandEras">
       <ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
@@ -1593,6 +1596,13 @@
       <Criteria>p0kiehlsTempleOfPoseidon</Criteria>
       <File>1746376988/Core/p0k_Temple_Poseidon_Localisation_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="P6T_EnlightenmentGovernments_Text_de_DE">
+      <Criteria>P6T_EnlightenmentGovernments</Criteria>
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>2770023017/Core/Gov_Tier5_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="P6T_GrandEras_Text_Base_de_DE">
       <Criteria>P6T_GrandEras</Criteria>
       <Properties>
@@ -2742,6 +2752,7 @@
     <File>2769967307/Text/6T_Text_Misc_de_DE.sql</File>
     <File>2769967307/Text/6T_Text_Names_de_DE.sql</File>
     <File>2769967307/Text/6T_Text_UnlockablesUI_de_DE.xml</File>
+    <File>2770023017/Core/Gov_Tier5_Text_de_DE.sql</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>
