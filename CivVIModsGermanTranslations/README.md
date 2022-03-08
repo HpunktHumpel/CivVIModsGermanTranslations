@@ -92,6 +92,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2169184492 | AB2531 Buy Units with Faith | NHC | H.Humpel | #15
+2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | **NEW**
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1

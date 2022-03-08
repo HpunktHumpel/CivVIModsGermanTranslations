@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TITLE" Language="de_DE" Gender="feminine" Plurality="2">
+			<Text>Automatisierte Einheiten|Automatisierten Einheiten|Automatisierten Einheiten|Automatisierten Einheiten|Automatisierten Einheiten</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_AUTOMATE_TOOLTIP" Language="de_DE">
+			<Text>Aktionen automatisieren</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STOP_AUTOMATE_TOOLTIP" Language="de_DE">
+			<Text>Automatisierung beenden</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_AUTOMATE_ALL_TOOLTIP" Language="de_DE">
+			<Text>Aktionen aller Handwerker automatisieren</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STOP_AUTOMATE_ALL_TOOLTIP" Language="de_DE">
+			<Text>Automatisierung für alle Handwerker beenden</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_STRATEGIC" Language="de_DE">
+			<Text>Verbessert Strategische Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_LUXURY" Language="de_DE">
+			<Text>Verbessert Luxus-Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_BONUS" Language="de_DE">
+			<Text>Verbessert Bonus-Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REMOVE_FEATURE" Language="de_DE">
+			<Text>Entfernt Modernisierung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_HARVEST_RESOURCE" Language="de_DE">
+			<Text>Erntet Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR" Language="de_DE">
+			<Text>Repariert Verbesserung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_ROAD" Language="de_DE">
+			<Text>Repariert Straße.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_IMPROVEMENT" Language="de_DE">
+			<Text>Baut Modernisierung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_UNIQUE_IMPROVEMENT" Language="de_DE">
+			<Text>Baut einzigartige Modernisierung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_SLEEP" Language="de_DE">
+			<Text>Warten auf etwas zu tun.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_WITH" Language="de_DE">
+			<Text>mit</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_FOR" Language="de_DE">
+			<Text>für</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_EXCAVATE" Language="de_DE">
+			<Text>Gräbt Artefakt aus.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_STRATEGIC_NAME" Language="de_DE">
+			<Text>Verbessert Strategische Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_LUXURY_NAME" Language="de_DE">
+			<Text>Verbessert Luxus-Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_BONUS_NAME" Language="de_DE">
+			<Text>Verbessert Bonus-Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REMOVE_FEATURE_NAME" Language="de_DE">
+			<Text>Entfernt Modernisierung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_HARVEST_RESOURCE_NAME" Language="de_DE">
+			<Text>Erntet Ressource:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_NAME" Language="de_DE">
+			<Text>Repariert Modernisierung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_ROAD_NAME" Language="de_DE">
+			<Text>Repariert Straße:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_IMPROVEMENT_NAME" Language="de_DE">
+			<Text>Baut Modernisierung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_UNIQUE_IMPROVEMENT_NAME" Language="de_DE">
+			<Text>Baut einzigartige Modernisierung:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_STATUS_EXCAVATE_NAME" Language="de_DE">
+			<Text>Gräbt Artefakt aus.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_NAME" Language="de_DE" Gender="feminine" Plurality="2">
+			<Text>Automatisierte Einheiten|Automatisierten Einheiten|Automatisierten Einheiten|Automatisierten Einheiten|Automatisierten Einheiten</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_AUTHOR_NAME" Language="de_DE">
+			<Text>By MadManCam</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_SUBTITLE" Language="de_DE">
+			<Text>Systemsteuerung</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TOGGLE_SETTINGS" Language="de_DE">
+			<Text>Einstellungen</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TOGGLE_SETTINGS_TOOLTIP" Language="de_DE">
+			<Text>Öffne Mod-Einstellungen für automatisierte Einheiten.</Text>
+		</Replace>
+
+		<!-- Settings Menu Text -->
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL" Language="de_DE">
+			<Text>Allgemeine Optionen</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES" Language="de_DE">
+			<Text>Auswahlprioritäten</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PLOT_PRIORITIES" Language="de_DE">
+			<Text>Feldprioritäten</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_GENERAL_HIDDEN" Language="de_DE">
+			<Text>Versteckte Optionen</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_REMOVE_FEATURES" Language="de_DE">
+			<Text>Handwerker entfernen Modernisierungen:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_REMOVE_FEATURES_TOOLTIP" Language="de_DE">
+			<Text>Wenn diese Option deaktiviert ist, werden Handwerker niemals eine Modernisierung entfernen (außer beim Verbessern einer Strategischen oder Luxus-Ressource).</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_HARVEST_RESOURCES" Language="de_DE">
+			<Text>Handwerker ernten Ressourcen:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_HARVEST_RESOURCES_TOOLTIP" Language="de_DE">
+			<Text>Wenn diese Option deaktiviert ist, ernten Handwerker niemals eine Ressource.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_FARMS_OUT_OF_RANGE" Language="de_DE">
+			<Text>Handwerker bauen Bauernhöfe im Umkreis von 4 Feldern um Städte:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_FARMS_OUT_OF_RANGE_TOOLTIP" Language="de_DE">
+			<Text>Wenn diese Option aktiviert ist, bauen Handwerker Bauernhöfe innerhalb von 4 Geländefeldern um Ihre Städte (wenn es einen angrenzenden Bauernhof in Reichweite von 3 Geländefeldern für einen Bonus gibt).</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_EXPLORE" Language="de_DE">
+			<Text>Archäologen begeben sich auf der Suche nach Artefakten in den Nebel des Krieges:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_EXPLORE_TOOLTIP" Language="de_DE">
+			<Text>Wenn diese Option deaktiviert ist, graben Archäologen nur in Gebieten aus, die Sie bereits erkundet haben, jedoch nicht im Nebel des Krieges.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_ENTER_BORDERS" Language="de_DE">
+			<Text>Archäologen graben innerhalb der Grenzen anderer Spieler aus:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_ENTER_BORDERS_TOOLTIP" Language="de_DE">
+			<Text>Wenn diese Option aktiviert ist, versuchen Archäologen, in den Grenzen anderer Spieler auszugraben.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_DEFAULTS" Language="de_DE">
+			<Text>Standardeinstellungen wiederherstellen</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_DEFAULTS_TOOLTIP" Language="de_DE">
+			<Text>Überschreibt Einstellungen mit den Standardwerten.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_PRIORITIES" Language="de_DE">
+			<Text>Prioritäten wiederherstellen</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_PRIORITIES_TOOLTIP" Language="de_DE">
+			<Text>Überschreibt nur die Auswahlprioritäten mit den Standardwerten.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_REMINDER" Language="de_DE">
+			<Text>Denken Sie daran: Die Einstellungen für automatisierte Einheiten sind immer nur an einzelne Sitzungen gebunden und werden[NEWLINE]immer zurückgesetzt, wenn ein Spiel geladen wird! Wenn Sie eine Standardeinstellung ändern möchten, lesen Sie bitte die Informationen[NEWLINE]in der Datei AutoBuilders_Settings.sql im Verzeichnis [MOD-INSTALLATIONSVERZEICHNIS]/Automated Builders + Archaeologists/ .</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_ADVANCED" Language="de_DE">
+			<Text>Erweitert</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_PERCITY" Language="de_DE">
+			<Text>Maximale einzigartige Modernisierungen pro Stadt:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_PERCITY_TOOLTIP" Language="de_DE">
+			<Text>Handwerker werden nur so viele einzigartige Modernisierungen des gleichen Typs in Ihrer Stadt errichten.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_EVER" Language="de_DE">
+			<Text>Maximale einzigartige Modernisierungen in Eurer Zivilisation:</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_EVER_TOOLTIP" Language="de_DE">
+			<Text>Handwerker werden nur so viele einzigartige Modernisierungen des gleichen Typs in Eurer Zivilisation errichten.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_DISTANCE" Language="de_DE">
+			<Text>Entfernungsmodifikatoren</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_SCORING" Language="de_DE">
+			<Text>Basisaktionswerte</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_PRIORITIES" Language="de_DE">
+			<Text>Plotprioritätswerte</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES" Language="de_DE">
+			<Text>Limit der einzigartigen Modernisierung</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_PER_CITY" Language="de_DE">
+			<Text>(Maximal pro Stadt)</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_EVER" Language="de_DE">
+			<Text>(Maximal überhaupt)</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_IMPROVEMENT_SCORING" Language="de_DE">
+			<Text>Prioritäten für Modernisierungen</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_UNIQUES_IMPROVEMENT_SCORING" Language="de_DE">
+			<Text>Prioritäten für einzigartige Modernisierungen</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_DISTANCE_TOOLTIP" Language="de_DE">
+			<Text>Modifikator der hinzugefügt wird, um Ergebnisse basierend auf der Entfernung von der Einheit darzustellen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_SCORING_TOOLTIP" Language="de_DE">
+			<Text>Grundpunktzahl für Geländefelder basierend auf der Aktion, die einem Handwerker zur Verfügung steht.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_PRIORITIES_TOOLTIP" Language="de_DE">
+			<Text>Aktionen mit höheren Prioritäten werden als verfügbare Aktionen für dieses Geländefeld ausgewählt.</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_TOOLTIP" Language="de_DE">
+			<Text>Legen Sie die maximale Build-Limits für eine einzigartige Modernisierung fest (überschreibt Standardwerte für diese Modernisierung).</Text>
+		</Replace>
+		<Replace Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_IMPROVEMENT_SCORING_TOOLTIP" Language="de_DE">
+			<Text>Modernisierungen mit einer höheren Priorität werden anderen mit der gleichen Feldpriorität vorgezogen.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>
