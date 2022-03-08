@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Better Tech Tree -->
+<!-- Author: Infixo -->
+<!-- 2019-04-11: Created -->
+<!-- German Tranlation by Junky -->
+<GameData>
+
+<LocalizedText>
+
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOGGLE_MARK">
+		<Text>Klicken zum Wechseln der [ICON_New] Markierung.</Text>
+	</Replace>
+
+	<!-- Custom unlock item descriptions -->
+	
+	<Replace Language= "de_DE" Tag="LOC_BTT_URBAN_DEFENSES">
+		<Text>Schaltet Urbane Verteidigung frei und gewährt all Euren Städten automatisch 400 Befestigungsstärke und die Fernkampffähigkeit. Alle bisherigen Mauer-Modernisierungen werden veraltet und Belagerungs-Unterstützungseinheiten sind nicht mehr effektiv.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_FORMATIONS">
+		<Text>Gewährt allen Kampfeinheiten Flankierungs- und Kampfunterstützungs-Bonusse.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_DIPLO_VISIBILITY"> 
+		<Text>+1 Stufe diplomatischer Sichtbarkeit</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_CARBON_UNITS_REDUCTION">
+		<Text>CO2 Emissionen durch Einheiten um 50% reduziert.</Text>
+	</Replace>
+	<!-- Embark and Naval Movement -->
+	<Replace Language= "de_DE" Tag="LOC_BTT_EMBARK_ALL_UNITS">
+		<Text>Ermöglicht allen Landeinheiten das Wassern.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_EMBARKED_MOVEMENT">
+		<Text>+{1_Num} [ICON_Movement] Fortbewegung für gewasserte Einheiten.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_ALL_NAVAL_UNITS_MOVEMENT">
+		<Text>+{1_Num} [ICON_Movement] Fortbewegung für alle Marineeinheiten.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_VALID_OCEAN">
+		<Text>Alle Marine- und Einheiten zu Wasser können Ozean-Geländefelder navigieren.</Text>
+	</Replace>
+	<!-- Improvements -->
+	<Replace Language= "de_DE" Tag="LOC_BTT_PLANT_FOREST">
+		<Text>Ermöglicht es Handwerkern, Wälder zu pflanzen (Sekundärwald). Wälder auf Eurem Territorium, die noch nie gerodet wurden (Primärwald) erhalten +1 Anziehungskraft.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TRADE_ROUTE">
+		<Text>Ermöglicht die Errichtung von [ICON_TradeRoute] Handelswegen. +1 [ICON_TradeRoute] Handelswegkapazität.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_HILL_FARMS">
+		<Text>Kann auf Grasland-Hügeln und Ebenen-Hügeln Bauernhöfe bauen.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_JUNGLE_LUMBER_MILL">
+		<Text>Sägewerke können auf Regenwald gebaut werden.</Text>
+	</Replace>
+	<!-- Victory -->
+	<Replace Language= "de_DE" Tag="LOC_BTT_DIPLO_VP">
+		<Text>Gewährt 1 Diplomatischen Siegpunkt.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_SCORE">
+		<Text>Kann mehrmals abgeschlossen werden und bringt Punkte für den Punktsieg.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_PROJECT_PRODUCTION_BONUS">
+		<Text>Gewährt all Euren Städten bei jedem Abschluss +5 % [ICON_Production] Produktion für Stadtprojekte.</Text>
+	</Replace>
+	
+	<!-- Giant Death Robot upgrades --> 
+	<Replace Language= "de_DE" Tag="LOC_BTT_GDR_ARMOR">
+		<Text>Schaltet Verbesserung für Riesigen Kampfroboter frei: Verstärkte Panzerung[NEWLINE]+10 [ICON_Strength] Kampfstärke bei Verteidigung gegen Land- und Marineeinheiten.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_GDR_SIEGE_LASER">
+		<Text>Schaltet Verbesserung für Riesigen Kampfroboter frei: Partikelstrahl-Belagerungskanone[NEWLINE]Fernangriffe gegen Städte und Lager sind 100 % effektiv und bringen +30 [ICON_Ranged] Fernkampfstärke.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_GDR_AA_DEFENSE">
+		<Text>Schaltet Verbesserung für Riesigen Kampfroboter frei: Drohnen-Luftabwehr[NEWLINE]+100 [ICON_AntiAir_Large] Luftabwehrstärke.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_GDR_MOVEMENT">
+		<Text>Schaltet Verbesserung für Riesigen Kampfroboter frei: Verstärkte Mobilität[NEWLINE]+3 [ICON_Movement] Fortbewegung. Kann eine Sprungaktion durchführen, um Berge zu überqueren.</Text>
+	</Replace>
+	
+	<!-- Tourism --> 
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_WRITING">
+		<Text>Jeglicher [ICON_Tourism] Tourismus-Zuwachs durch [ICON_GreatWork_Writing] Große Literaturwerke wird verdoppelt.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_IMPROVEMENTS">
+		<Text>Erhaltet [ICON_Tourism] Tourismusbonus für alle Modernisierungen, die [ICON_Culture] Kultur einbringen. Die Menge an generiertem [ICON_Tourism] Tourismus entspricht der [ICON_Culture] Kulturproduktion der Modernisierung.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_100">
+		<Text>+100 % [ICON_Tourism] Tourismus in Eurem Reich.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_25">
+		<Text>+25% [ICON_Tourism] Tourismus in Eurem Reich.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_RELIGIOUS">
+		<Text>Religiöse [ICON_Tourism] Tourismus-Effekte werden gegen Eure Zivilisation halbiert.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_WALLS">
+		<Text>Ihr erhaltet [ICON_TOURISM] Tourismus durch Stadtmauern.</Text>
+	</Replace>
+</LocalizedText>
+
+</GameData>

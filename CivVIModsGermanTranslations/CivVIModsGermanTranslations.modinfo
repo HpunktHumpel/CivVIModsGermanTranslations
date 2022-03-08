@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="16">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]131[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]132[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1646755794</Created>
+    <Created>1646757113</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -59,6 +59,9 @@
     </Criteria>
     <Criteria id="p0kiehlsSatrapsCourt_FrontEnd">
       <ModIsEnabled>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModIsEnabled>
+    </Criteria>
+    <Criteria id="P6T_GrandEras_FrontEnd">
+      <ModIsEnabled>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModIsEnabled>
     </Criteria>
     <Criteria id="Panda_FrontEnd">
       <ModIsEnabled>724e7828-3c76-4936-8184-ad04ceb7b25e</ModIsEnabled>
@@ -330,6 +333,9 @@
     </Criteria>
     <Criteria id="p0kiehlsTempleOfPoseidon">
       <ModInUse>06d0b218-87e4-4b69-9a16-f620e1019150</ModInUse>
+    </Criteria>
+    <Criteria id="P6T_GrandEras">
+      <ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
     </Criteria>
     <Criteria id="Panda">
       <ModInUse>724e7828-3c76-4936-8184-ad04ceb7b25e</ModInUse>
@@ -885,6 +891,13 @@
         <LoadOrder>10</LoadOrder>
       </Properties>
       <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="P6T_GrandEras_FrontEnd_de_DE">
+      <Criteria>P6T_GrandEras_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="Panda_FrontEnd_de_DE">
       <Criteria>Panda_FrontEnd</Criteria>
@@ -1579,6 +1592,17 @@
     <UpdateText id="p0kiehlsTempleOfPoseidon_de_DE">
       <Criteria>p0kiehlsTempleOfPoseidon</Criteria>
       <File>1746376988/Core/p0k_Temple_Poseidon_Localisation_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="P6T_GrandEras_Text_Base_de_DE">
+      <Criteria>P6T_GrandEras</Criteria>
+      <Properties>
+        <LoadOrder>13000</LoadOrder>
+      </Properties>
+      <File>2769967307/Text/6T_Text_Boosts_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_Names_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_Misc_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_UnlockablesUI_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Panda_de_DE">
       <Criteria>Panda</Criteria>
@@ -2713,6 +2737,11 @@
     <File>2656616965/Text/AKMH_Text_de_DE.xml</File>
     <File>2669325299/Text/UC_NBH_Text_de_DE.sql</File>
     <File>2683624437/text/md_text_de_DE.xml</File>
+    <File>2769967307/Text/6T_Text_Boosts_de_DE.sql</File>
+    <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
+    <File>2769967307/Text/6T_Text_Misc_de_DE.sql</File>
+    <File>2769967307/Text/6T_Text_Names_de_DE.sql</File>
+    <File>2769967307/Text/6T_Text_UnlockablesUI_de_DE.xml</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>
