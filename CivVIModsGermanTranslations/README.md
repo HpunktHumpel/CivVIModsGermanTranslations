@@ -20,12 +20,12 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
 1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | #14
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
-1331757859 | CIVITAS City-States Expanded | thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky | **NEW**
+1331757859 | CIVITAS City-States Expanded | thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky | #16
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
-1461815805 | Radiant Additional Base Buildings | Shirohô | H.Humpel | **NEW**
+1461815805 | Radiant Additional Base Buildings | Shirohô | H.Humpel | #16
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9
@@ -63,12 +63,12 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1782215547 | Borobudur (World Wonder) | Deliverator23 | H.Humpel | #5
 1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | #5
 1822380055 | Sappers - Military Engineers support sieges | JNR | Junky | #11
-1823811062 | CIVITAS City-States (Mekong Ruleset) | chimp | Junky | **NEW**
+1823811062 | CIVITAS City-States (Mekong Ruleset) | chimp | Junky | #16
 1827447798 | Basic Buildings | carterrosenberg | H.Humpel | #12
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4
 1830573953 | SquirrelMod - BetterCity | Neicureuil | H.Humpel | #10
 1839114973 | District Expansion: Military | JNR | Junky | #11
-1839714228 | Resource Producing Buildings | Surt Ignir Magnis | H.Humpel | **NEW**
+1839714228 | Resource Producing Buildings | Surt Ignir Magnis | H.Humpel | #16
 1868147338 | Deforestation: More Gradual and Severe | JNR | Junky | #12
 1871766085 | Lyceum - Early Science Building | Linguaphile | H.Humpel | #10
 1872427843 | Emigration | Oni | H.Humpel | #9
@@ -92,7 +92,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2169184492 | AB2531 Buy Units with Faith | NHC | H.Humpel | #15
-2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | **NEW**
+2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | #16
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
@@ -134,6 +134,6 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2656616965 | Endgame Map Replay | Technoluddite | Junky | #6
 2669325299 | District Expansion: Suburbs | JNR | Junky | #11
 2683624437 | Movable Districts | wltk | Junky | #10
-2769967307 | Grand Eras (Project 6T Core) | JNR & Zegangani | Junky | **NEW**
-2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | **NEW**
-2775613909 | Rest Reminder | Flactine | H.Humpel | **NEW**
+2769967307 | Grand Eras (Project 6T Core) | JNR & Zegangani | Junky | #16
+2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | #16
+2775613909 | Rest Reminder | Flactine | H.Humpel | #16
