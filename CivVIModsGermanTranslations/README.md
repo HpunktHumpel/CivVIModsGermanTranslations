@@ -85,6 +85,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
+2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | **NEW**
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
 2139486665 | Better World Rankings (UI) | infixo | Junky | #12
