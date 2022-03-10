@@ -7,9 +7,9 @@
 
 <LocalizedText>
 
-	<Replace Language= "de_DE" Tag="LOC_BTT_TOGGLE_MARK">
-		<Text>Klicken zum Wechseln der [ICON_New] Markierung.</Text>
-	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_CAPACITY">
+		<Text>Kapazität.</Text>
+	</Replace>	
 
 	<!-- Custom unlock item descriptions -->
 	

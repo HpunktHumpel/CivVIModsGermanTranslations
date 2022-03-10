@@ -1,6 +1,7 @@
 10.03.2022
 
 - [NEW] Indonesia Rework - Port Lime (vom 10. Juli 2020 um 19:42, Übersetzung von H.Humpel)
+- [UPDATE] Grand Eras (Project 6T Core) (vom 9. März 2022 um 7:42, Übersetzung von Junky)
 
 
 ===== Version 16 =====

@@ -5,10 +5,13 @@
 -- Deutsch
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
-		(Language,	Tag,															Text)
-VALUES	('de_DE',	'LOC_ERA_6T_POST_CLASSICAL_DESCRIPTION',						'SPÄT KLASSIK'),
+		(Language,	Tag,															Text,																	Gender, 	Plurality	)
+VALUES	('de_DE',	'LOC_POLICY_6T_DRESSAGE_NAME',									'Dressur|Dressur|Dressur|Dressur|Dressur',								'feminine',	0			),
+		('de_DE',	'LOC_POLICY_6T_CLINKER_NAME',									'Klinkerrumpf|Klinkerrumpf|Klinkerrumpf|Klinkerrumpfs|Klinkerrumpf',	'masculine',0			);
 
-		('de_DE',	'LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_6T_LAND',		'Bietet +5 [ICON_Strength] Kampfstärke und +1 [ICON_Movement] Bewegung für Landeinheiten der Klassik und Spätklassik innerhalb 2 Geländefeldern.'),
+INSERT OR REPLACE INTO LocalizedText
+		(Language,	Tag,															Text)
+VALUES	('de_DE',	'LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_6T_LAND',		'Bietet +5 [ICON_Strength] Kampfstärke und +1 [ICON_Movement] Bewegung für Landeinheiten der Klassik und Spätklassik innerhalb 2 Geländefeldern.'),
 		('de_DE',	'LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_6T_SEA',			'Bietet +5 [ICON_Strength] Kampfstärke und +1 [ICON_Movement] Bewegung für Marineeinheiten der Klassik und Spätklassik innerhalb 2 Geländefeldern.'),
 		('de_DE',	'LOC_GREATPERSON_COMBAT_STRENGTH_AOE_6T_POST_CLASSICAL_LAND',	'Bietet +5 [ICON_Strength] Kampfstärke und +1 [ICON_Movement] Bewegung für Landeinheiten der Spätklassik und des Mittelalters innerhalb 2 Geländefeldern.'),
 		('de_DE',	'LOC_GREATPERSON_COMBAT_STRENGTH_AOE_6T_POST_CLASSICAL_SEA',	'Bietet +5 [ICON_Strength] Kampfstärke und +1 [ICON_Movement] Bewegung für Marineeinheiten der Spätklassik und des Mittelalters innerhalb 2 Geländefeldern.'),
@@ -20,9 +23,9 @@ VALUES	('de_DE',	'LOC_ERA_6T_POST_CLASSICAL_DESCRIPTION',						'SPÄT KLASSIK'),
 		('de_DE',	'LOC_POLICY_CHIVALRY_DESCRIPTION_6T',							'+50% [ICON_Production] Produktion für Schwere und Leichte Kavallerieeinheiten des Mittelalters oder früher.'),
 		('de_DE',	'LOC_POLICY_PRESS_GANGS_DESCRIPTION_6T',						'+100% [ICON_Production] Produktion für Seekampfeinheiten des Industriezeitalters oder früher.'),
 		
-		('de_DE',	'LOC_POLICY_6T_DRESSAGE_NAME',									'Dressur'),
+		
 		('de_DE',	'LOC_POLICY_6T_DRESSAGE_DESCRIPTION',							'+50% [ICON_Production] Produktion für Schwere und Leichte Kavallerieeinheiten des Industriezeitalters oder früher.'),
-		('de_DE',	'LOC_POLICY_6T_CLINKER_NAME',									'Klinkerrümpfe'),
+		
 		('de_DE',	'LOC_POLICY_6T_CLINKER_DESCRIPTION',							'+100% [ICON_Production] Produktion für Seekampfeinheiten des Mittelalters oder früher.'),
 		
 		('de_DE',	'LOC_GREATWORK_ARTIFACT_6T_01_NAME',							'Artefakt A der Spätklassik'),
