@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_MOD_PHANTA_SLAVE_NAME" Language="de_DE">
+			<Text>Phantagonists Sklaverei und Emanzipation</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_PHANTA_SLAVE_TEASER" Language="de_DE">
+			<Text>Fügt Sklaverei und Emanzipation zum Spiel hinzu.</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_PHANTA_SLAVE_DESCRIPTION" Language="de_DE">
+			<Text>Fügt Sklaverei und Emanzipation zum Spiel hinzu.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PHANTA_SLAVE_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Sklave|Sklaven|Sklaven|Sklaven|Sklave</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PHANTA_SLAVE_DESCRIPTION" Language="de_DE">
+			<Text>Erhalten durch Gefangennahme von Feinden im Kampf (erfordert entsprechende Richtlinien oder Gebäude) oder in einer Stadt mit einem Auktionsplatz-Gebäude mit [ICON_Gold] Gold und [ICON_Citizen] Bevölkerung gekauft. Besitzt 3 Bauladungen, um Geländefeld-Modernisierungen zu erschaffen, Eigenschaften wie Wald oder Regenwald zu entfernen oder Ressourcen zu ernten. Kann auch eine Bauladung ausgeben, um 5 % eines Bezirks (außer Flugplätze und Raumhäfen) oder von Mauern fertigzustellen. -1 [ICON_Movement] Bewegung, wenn nicht innerhalb von 1 Geländefeld einer Stadt oder einer verbündeten Kampfeinheit.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PHANTA_CAPTURE_SLAVE_LAND_DESCRIPTION" Language="de_DE">
+			<Text>Kann besiegte Kampfeinheiten einer feindlichen Zivilisation erobern und sie zu Sklaven machen.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PHANTA_CAPTURE_SLAVE_SEA_DESCRIPTION" Language="de_DE">
+			<Text>Kann besiegte Kampfeinheiten einer feindlichen Zivilisation erobern und sie zu Sklaven machen.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PHANTA_SLAVE_DESCRIPTION" Language="de_DE">
+			<Text>-1 [ICON_Movement] Bewegung, wenn nicht innerhalb von 1 Geländefeld einer Stadt oder einer verbündeten Kampfeinheit.</Text>
+		</Replace>
+		<Replace Tag="LOC_MODFEAT_PHANTA_CAPTURE_SLAVE_EFFECT" Language="de_DE">
+			<Text>Chance von {1_Amount} %, den Feind als Sklaven zu fangen</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PHANTA_AUCTION_SQUARE_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Auktionsplatz|Auktionsplatz|Auktionsplatz|Auktionsplatzes|Auktionsplatz</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PHANTA_AUCTION_SQUARE_DESCRIPTION" Language="de_DE">
+			<Text>Sklaven können in dieser Stadt mit [ICON_Gold] Gold und [ICON_Citizen] Bevölkerung gekauft werden. Nahkampf-, Anti-Kavallerie-, schwere Kavallerie- und leichte Kavallerieeinheiten innerhalb von 9 Feldern können besiegte Kampfeinheiten einer feindlichen Zivilisation erobern und sie zu Sklaven machen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PHANTA_SLAVE_EMANCIPATION_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Emanzipation|Emanzipation|Emanzipation|Emanzipation|Emanzipation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PHANTA_SLAVE_EMANCIPATION_DESCRIPTION" Language="de_DE">
+			<Text>Nach Fertigstellung können Sklaven nicht mehr im Kampf gefangen oder gekauft werden. Jeder Sklave in Eurem Reich wird frei gelassen und fügt der nächstgelegenen Stadt +1 [ICON_Citizen] Bevölkerung hinzu. Erhaltet einen zusätzlichen Diplomatie-Politikplatz und +2 Diplomatie-Siegpunkte.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PHANTA_SLAVE_EMANCIPATION_ANNOUNCEMENT" Language="de_DE">
+			<Text>Unsere Zivilisation hat offiziell die Emanzipation aller versklavten Menschen in unserem Reich erklärt. Sklaven können nicht mehr gefangen oder gekauft werden. Erhaltet einen zusätzlichen Diplomatie-Politikplatz und +2 Diplomatie-Siegpunkte.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION_PHANTA_REBALANCE" Language="de_DE">
+			<Text>Die Eroberung einer feindlichen Stadt gewährt 20% Bonus auf die [ICON_Production] Produktion in allen Städten für 5 Runden. Nahkampf-, Anti-Kavallerie-, schwere Kavallerie- und leichte Kavallerieeinheiten können besiegte Kampfeinheiten einer feindlichen Zivilisation gefangen nehmen und sie zu Sklaven machen.[NEWLINE]Verleiht +1 [ICON_Governor] Gouverneurstitel.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_SLAVE_RAID_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Sklavenüberfall|Sklavenüberfall|Sklavenüberfall|Sklavenüberfalls|Sklavenüberfall</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_SLAVE_RAID_DESCRIPTION" Language="de_DE">
+			<Text>Nahkampf-, Anti-Kavallerie-, schwere Kavallerie- und leichte Kavallerieeinheiten können besiegte Kampfeinheiten einer feindlichen Zivilisation gefangen nehmen und sie zu Sklaven machen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_SLAVE_DEALERS_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Sklavenhändler|Sklavenhändler|Sklavenhändler|Sklavenhändlers|Sklavenhändler</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_SLAVE_DEALERS_DESCRIPTION" Language="de_DE">
+			<Text>+100% [ICON_Production] Produktion für Auktionsplätze. Neu gekaufte Sklaven erhalten 1 zusätzliche Bauladung.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_TRIANGLE_TRADE_2_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Dreieckshandel|Dreieckshandel|Dreieckshandel|Dreieckshandels|Dreieckshandel</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_TRIANGLE_TRADE_2_DESCRIPTION" Language="de_DE">
+			<Text>Nahkampf-, Anti-Kavallerie-, schwere Kavallerie- und leichte Kavallerieeinheiten können besiegte Kampfeinheiten einer feindlichen Zivilisation gefangen nehmen und sie zu Sklaven machen. Sklaven erhalten +2 [ICON_Movement] Bewegung.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRIANGULAR_TRADE_NAME_PHANTA_SLAVE_UPDATE" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Interkontinentaler Handel|Interkontinentalen Handel|Interkontinentalen Handel|Interkontinentalen Handels|Interkontinentale Handel</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_THE_SCRAMBLE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Scramble-Auktion|Scramble-Auktion|Scramble-Auktion|Scramble-Auktion|Scramble-Auktion</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_THE_SCRAMBLE_DESCRIPTION" Language="de_DE">
+			<Text>Neu gekaufte Sklaven erhalten 3 zusätzliche Bauladungen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_ABOLITIONISM_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Abolitionismus|Abolitionismus|Abolitionismus|Abolitionismus|Abolitionismus</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PHANTA_ABOLITIONISM_DESCRIPTION" Language="de_DE">
+			<Text>+100 % [ICON_Production] Produktion für das Emanzipations-Projekt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHANTA_SLAVE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Seit Anbeginn der Menschheitsgeschichte, vielleicht sogar schon früher, gibt es Sklaverei. In der antiken Gesellschaft gilt die Sklaverei als etablierte Institution. Menschen konnten zu Sklaven werden, weil sie Kriegsgefangene, Kriminelle, Verschuldete waren oder einfach, weil sie als Nachkommen von Sklaven geboren wurden. Das Kolonialzeitalter erlebte den Höhepunkt der Versklavung, als europäische Kolonisten Gefangene für die Sklaverei von Afrika nach Amerika auf berüchtigten Sklavenschiffe transportierten, um auf Plantagen zu arbeiten. In einigen Fällen konnten versklavte Menschen ihre Freiheit kaufen oder nach einer Zeit der Knechtschaft freigelassen werden (entweder gesetzlich festgelegt oder der Gnade der Sklavenhalter ausgeliefert). Aber manchmal bedeutet es, wenn man ein Sklave wurde, dass man sich bis zum Tod abmühte. Sklavenaufstände waren keine Seltenheit und fanden sich in fast allen Gesellschaften. Einigen Rebellenführern wie Toussaint Louverture und Jean-Jacques Dessalines gelang es, ihr Volk zu inspirieren und ihre Freiheit zu erringen, aber viele weitere Freiheitskämpfer wie Spartacus wurden von den Sklavenhaltern gewaltsam unterdrückt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PHANTA_AUCTION_SQUARE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Auktion bezieht sich auf einen öffentlichen Verkauf von Waren und Immobilien, bei dem potenzielle Käufer immer höhere Gebote abgeben, bis die Ware an die Person verkauft wird, die gewillt ist am meisten zu zahlt. Im Römischen Reich wurden Auktionen unter freiem Himmel durchgeführt, um die Kriegsbeute zu verkaufen, einschließlich derjenigen, die als Sklaven gefangen werden konnten. Sklavenauktionen wurden mehr oder weniger auf die gleiche Weise im kolonialen Amerika durchgeführt, wo die Menschen zu den Marktplätzen in der Nähe des Hafens eilten, um versklavte Menschen zu kaufen, die mit Sklavenschiffen transportiert wurden. Auktionen wurden im Laufe der Zeit vielfältiger, sowohl in Bezug auf die Art als auch auf die Veranstaltungsorte. Es gibt Immobilienauktionen, Antiquitätenauktionen, Warenauktionen ... und die moderne Informationstechnologie ermöglicht es jedem, bequem vor seinen Computern und Smart Devices zu sitzen und bei Online-Auktionen mitzubieten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PHANTA_SLAVE_RAID_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Sklavenüberfälle beziehen sich auf militärische Operationen mit dem speziellen Zweck, Menschen zu fangen und sie zur Versklavung zu transportieren. Die Angreifer nutzen ihre Überlegenheit bei Anzahl, Ausrüstung, Mobilität oder eine Kombination aus allem, um Menschen im Zielgebiet zu fangen und diese als versklavte Arbeiter in ihren Haushalt zu halten oder sie auf Sklavenmärkten für Gold und Ressourcen zu verkaufen. In einigen Fällen konnte der Sklavenraub profitabel genug sein, um das Rückgrat eines Landes zu werden. Das Khanat der Krim und die Nogaier-Horde führten ausgedehnte Sklavenüberfälle in Russland und in der Adelsrepublik Polen-Litauen durch, bei denen hunderttausende Zivilisten gefangen genommen und an die Osmanen verkauft wurden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PHANTA_SLAVE_DEALERS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Ökonomen würden argumentieren, ob die Nachfrage das Angebot oder das Angebot die Nachfrage hervorbringt. Wie auch immer, da es eine Nachfrage für Menschen als „käufliche Ware“ gibt, gibt es Sklavenhändler, die für Versorgung sorgen. Sklavenhändler sind entweder selbst Fänger oder Zwischenhändler, die die versklavten Menschen sichern, transportieren und auf Sklavenmärkten verkaufen. In der Kolonialzeit entstanden große Sklavenhandelsfirmen wie „Franklin and Armfield“, welche grosse Vermögen sammelten, indem sie Millionen versklavter Menschen als Ware handelten und misshandelten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PHANTA_TRIANGLE_TRADE_2_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Dreieckige Handelsrouten sind solche, die drei Orte in einem profitablen Zyklus von Handelsreisen verbinden, von denen jeder eine andere Ware hat, die in einem der anderen beiden Ort benötigt wird. Als die Kolonialreiche wuchsen, versuchten die Schiffskapitäne, ihre Routen über den Atlantik immer effizienter zu gestalten. Eine davon war die britische Kolonialroute: Salzfisch und Holz von Neuengland in die britischen Kolonien in Westindien, Zucker und Melasse von den Inseln nach Großbritannien und Fertigwaren von Großbritannien nach Neuengland. Aber der profitabelste und schrecklichste war sicherlich der transatlantische Handel mit versklavten Menschen, der von 1500 bis 1800 betrieben wurde. Von verschiedenen Nationen betrieben wurden versklavte Westafrikaner in die Karibik und amerikanische Kolonien, von dort Cash Crops und Rohstoffe nach Europa und von dort wiederum Fertigwaren nach Afrika transportiert und gehalndelt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PHANTA_THE_SCRAMBLE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Es gab mehrere Formen für Sklavenhändler, um die versklavten Menschen für Gewinne zu verkaufen, und der Scramble-Auktion gehörte zu den bekanntesten. Eine Scramble-Auktion, auch bekannt als „Grab and Go“ (Zugreifen und Mitnehmen), war eine bestimmte Form der Sklavenauktion, in der die Käufer in einem offenen Raum herumliefen, um möglichst viele Sklaven zu ergreifen. Vor einer Scramble-Auktion wendeten die Sklavenhändler das so genannte „seasoning“ an, um die versklavten Menschen zu brechen und auf das Leben als Sklave „vorzubereiten“ und gefügig zu machen. Hierbei wurden unmenschlichen Methoden, einschließlich - jedoch nicht begrenzt auf - Peitschen, Branding und sexuelle Übergriffe angewendet.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PHANTA_ABOLITIONISM_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Der Abolitionismus war die Bewegung, um Sklaverei ein Ende zu setzen. Seit dem 16. Jahrhundert wurden Millionen von Afrikanern gefangen genommen und gehandelt, um als Zwangsarbeit in den Plantagen in Amerika unter schweren Bedingungen arbeiten zu müssen. Im Laufe der Zeit stellten sich immer mehr Menschen gegen die Sklaverei, vor allem die Denker und sozialen Reformer der Aufklärung. Manchmal gewährten auch Könige und Königinnen Rechte an Sklaven, wie etwa Louis XIV im „Code Noir“. Der vollständige Abolitionismus benötigte jedoch einen langen Weg - und in einigen Fällen auch einen blutigen Weg.Mit dem Präsidentschaftsieg von Abraham Lincoln im Jahre 1860 in den Vereinigten Staaten von Amerika, deren Wirtschaft stark von Sklavenplantagen abhing, bildete sich die Konföderation. Der Norden und der Süden kämpften daraufhin im amerikanischen Bürgerkrieg gegeneinander, dem tödlichsten Konflikt in der amerikanischen Geschichte, den der Norden gewann und die Sklaverei im ganzen Land abschaffte. Aber das war nicht das Ende der Sklaverei. Obwohl die Sklaverei in der Mehrheit der modernen Länder verboten ist, existiert sie in vielen Teilen der Welt immer noch öffentlich oder heimlich. Die Schlacht gegen die Sklaverei ist also noch immer nicht vorbei.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_TRIANGULAR_TRADE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Da es eine grosse Nachfrage nach exotischen Gütern von anderen Kontinenten bestand, gab es Kaufleute, die die Risiken von Krankheiten und Räubern auf sich nahmen, um Rohstoffe aus der ganzen Welt zu transportieren. Vor mehr als zwei Jahrtausenden ergriffen Botschafter der Han-Dynastie wie Zhang Qian und Ban Zhao eine Kombination aus militärischen und diplomatischen Maßnahmen, um das Handelsnetz zwischen Osten und Westen zu erkunden und sichern, welches auch heute noch als die Seidenstraße bekannt ist. Als die Ottomanen Konstantinopel eroberten, einen der wesentlichen Knoten der Seidenstraße, begaben sich die Europäer auf die Suche nach einer Alternative, um den lukrativen Handel mit dem Osten fortzusetzen. Christopher Columbus überredete Königin Isabella I und König Ferdinand II von Spanien, eine Fahrt nach Westen zu finanzieren, basierend auf der Theorie, dass die Erde eine Kugel sei. Was er entdeckte und „Westindien“ nannte, war eigentlich Amerika, und voller Ressourcen und Gelegenheiten. Und so begann das Alter der Erkundungen und des Kolonialismus.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>
