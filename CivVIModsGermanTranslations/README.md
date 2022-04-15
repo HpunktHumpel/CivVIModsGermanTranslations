@@ -139,4 +139,5 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | #16
 2772587481 | Phantagonist’s Slavery and Emancipation | Phantagonist | H.Humpel | **NEW**
 2775613909 | Rest Reminder | Flactine | H.Humpel | #16
+2792841983 | Naval Mine | Shuricas | H.Humpel | **NEW**
 2794603014 | Detailed Wonder Reminder | Konomi | H.Humpel | **NEW**

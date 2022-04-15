@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Text -->
+<!-- Author: game -->
+<!-- DateCreated: 4/2/2022 5:12:56 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="de_DE" Tag="LOC_NAVAL_MINE_NAME">
+			<Text>[COLOR_FLOAT_SCIENCE]Seemine[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_NAVAL_MINE_TEAS">
+			<Text>Fügt die [COLOR_FLOAT_SCIENCE]Seemine[ENDCOLOR] Verbesserung und die [COLOR_FLOAT_SCIENCE]Minensuchboot[ENDCOLOR] Einheit hinzu</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_NAVAL_MINE_DESC">
+			<Text>Fügt die [COLOR_FLOAT_SCIENCE]Seemine[ENDCOLOR] Verbesserung und die [COLOR_FLOAT_SCIENCE]Minensuchboot[ENDCOLOR] Einheit hinzu. Seemine: Explodiert und fügt einer Einheit, die darauf tritt, [COLOR_RED]50 Schadenspunkte[ENDCOLOR] zu. Kann auf Ozean- und Küstenfeldern, sowie auf Eis und Riffen gebaut werden.[NEWLINE]Minensuchboot: Marine-Nahkampfeinheit der Moderne. Kann [COLOR_RED] 5 Seeminen bauen[ENDCOLOR].</Text>
+		</Replace>
+
+		<Replace Language="de_DE" Tag="LOC_IMPROVEMENT_MINE_TRAP">
+			<Text>Seemine</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_GOODYHUT_IMPROVISED_TRAP_GOODIES">
+			<Text>Seemine</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_IMPROVEMENT_MINE_TRAP_DESC">
+			<Text>Explodiert und fügt einer Einheit, die darauf tritt, 50 Schadenspunkte zu. Kann auf Ozean- und Küstenfeldern, sowie auf Eis und Riffen gebaut werden.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MINONICE_NAME" Gender="neuter" Plurality="1">
+			<Text>Minensuchboot|Minensuchboot|Minensuchboot|Minensuchbootes|Minensuchboot</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MINONICE_DESCRIPTION">
+			<Text>Marine-Nahkampfeinheit der Moderne. Kann 5 Seeminen bauen.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DYNAMITE_NAME" Gender="neuter" Plurality="1">
+			<Text>Dynamit|Dynamit|Dynamit|Dynamits|Dynamit</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINONICE_CHAPTER_HISTORY_PARA_1">
+			<Text>Zerstörer-Minensuchboot war eine Bezeichnung, die von der United States Navy einer Reihe von Zerstörern gegeben wurde, die während des Zweiten Weltkriegs in Hochgeschwindigkeits-Seeminensuchboote umgewandelt wurden. Das Rumpfklassifizierungssymbol für diesen Schiffstyp war "DMS". 42 Schiffe wurden auf diese Weise umgebaut, beginnend mit der USS Dorsey (DD-117), die Ende 1940 zu DMS-1 umgebaut wurde, und endend mit der USS Earle (DD-655), die Mitte 1945 zu DMS-42 umgebaut wurde. Dieser Typ ist jetzt veraltet, seine Funktion wurde von speziell gebauten Schiffen übernommen, die als "Minensuchboot (Hochgeschwindigkeit)" mit dem Rumpfklassifizierungssymbol MMD bezeichnet werden.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINONICE_CHAPTER_HISTORY_PARA_2">
+			<Text>Die für den Umbau ausgewählten Zerstörer der Clemson-Klasse und der Wickes-Klasse waren veraltete Zerstörer mit vier Schornsteinen, welche 1918 gebaut wurden und noch über brauchbare Triebwerke verfügten. Wegen ihrer vier Schornsteine erhielten sie den Spitznamen "Vierpfeifer". Obwohl der vollständige Umstellungsprozess zum Minensuchboot für die ursprünglichen 17 Zerstörer der Wickes- und Clemson-Klasse bereite von Oktober bis November 1940 begann, wurde dieser erst etwa Mitte 1942 für alle 17 abgeschlossen. Nachdem sie vollständig von Zerstörern zu Zerstörer-Minensuchbooten umgebaut waren, wurden der Kessel Nr. 4 und der vierte Schornstein vom Bug sowie die Torpedorohre entfernt. Ebenso wurden die Gestelle für die Wasserbomben vom Heck nach vorne versetzt und nach außen abgewinkelt und das Heck modifiziert, um die Minensuchausrüstung zu installieren: Ladebaum, Winde, Paravane und Drachen. Zwei 60-Kilowatt-Turbogeneratoren ersetzten die drei ursprünglichen 50-Kilowatt-Generatoren, um die Fähigkeiten zum Räumen von magnetischen und akustischen Minen zu verbessern.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINONICE_CHAPTER_HISTORY_PARA_5">
+			<Text>Die Mehrzahl der von den Japanern im Pazifik zurückgelassenen Minen waren Kontaktminen, die normalerweise festgemacht waren und mit einem Paravan entfernt werden konnten. Die Japaner haben nie ihre eigenen Magnet- oder Druckminen entwickelt, obwohl sie eine begrenzte Anzahl von Magnetminen von den Briten beschlagnahmt haben, welche diese 1945 vor Balikpapan gelegt  hatten. Die Magnetminen im europäischen Raum wurden normalerweise durch Schleppen eines magnetisierten Kabels deaktiviert, welches oft von Schiffen mit Holzhülle gezogen wurde. Gelegentlich wurde dieses aber auch von Schiffen mit Eisenrumpf gezogen, welcher entmagnetisiert wurde, um die magnetischen Eigenschaften zu maskieren. Das Minenräumen im pazifischen Raum im Zweiten Weltkrieg bestand hauptsächlich aus der Verwendung von zwischen Paravanen und Drachen aufgehängten Kehrdrähten, insbesondere bei Zerstörer-Minensuchbooten.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

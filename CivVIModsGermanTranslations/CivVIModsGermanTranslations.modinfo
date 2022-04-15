@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="17">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]138[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]139[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1650034193</Created>
+    <Created>1650039956</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Adriaman, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Adriaman, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -59,6 +59,9 @@
     </Criteria>
     <Criteria id="MonopolyPlusResourceRequirementSetup_FrontEnd">
       <ModIsEnabled>574fca1b-39ae-4f9d-810e-67554a750182</ModIsEnabled>
+    </Criteria>
+    <Criteria id="NavalMine_FrontEnd">
+      <ModIsEnabled>673b271d-b9ce-4265-b6b1-fc89436906f2</ModIsEnabled>
     </Criteria>
     <Criteria id="p0kiehlsPrecinctOfAmunRa_FrontEnd">
       <ModIsEnabled>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModIsEnabled>
@@ -342,6 +345,9 @@
     </Criteria>
     <Criteria id="NationalWonders_EXP1">
       <ModInUse>0fe4104b-80e1-434a-88fc-914ce2632944</ModInUse>
+    </Criteria>
+    <Criteria id="NavalMine">
+      <ModInUse>673b271d-b9ce-4265-b6b1-fc89436906f2</ModInUse>
     </Criteria>
     <Criteria id="NotreDameDeParis">
       <ModInUse>3db98aba-d7ca-4b4d-9596-e2344e593ed0</ModInUse>
@@ -918,6 +924,10 @@
     <UpdateText id="MonopolyPlusResourceRequirementSetup_FrontEnd_de_DE">
       <Criteria>MonopolyPlusResourceRequirementSetup_FrontEnd</Criteria>
       <File>2399439885/Core/MonopolySettingTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="NavalMine_FrontEnd_de_DE">
+      <Criteria>NavalMine_FrontEnd</Criteria>
+      <File>2792841983/Core/MN_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="p0kiehlsPrecinctOfAmunRa_FrontEnd_de_DE">
       <Criteria>p0kiehlsPrecinctOfAmunRa_FrontEnd</Criteria>
@@ -1637,6 +1647,10 @@
     <UpdateText id="NatWonders_EXP1_UpdateText_de_DE">
       <Criteria>NationalWonders_EXP1</Criteria>
       <File priority="250">2612473657/Text/NAT_WONDER_Text_PACK_01_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="NavalMine_de_DE">
+      <Criteria>NavalMine</Criteria>
+      <File>2792841983/Core/MN_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="NotreDameDeParis_de_DE">
       <Criteria>NotreDameDeParis</Criteria>
@@ -2829,6 +2843,7 @@
     <File>2770023017/Core/Gov_Tier5_Text_de_DE.sql</File>
     <File>2772587481/Localization/Localization_de_DE.xml</File>
     <File>2775613909/Text/TR_Text_de_DE.xml</File>
+    <File>2792841983/Core/MN_Text_de_DE.xml</File>
     <File>2794603014/Text/DetailedWonderReminder_de_DE.sql</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
