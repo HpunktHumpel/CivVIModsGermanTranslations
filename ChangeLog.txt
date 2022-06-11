@@ -5,6 +5,7 @@
 - [NEW] Unit Expansion: Cavalry (Project 6T) (vom 1. Mai 2022 um 8:41, Übersetzung von Junky)
 - [NEW] Unit Expansion: Infantry (Project 6T) (vom 1. Mai 2022 um 8:16, Übersetzung von Junky)
 - [NEW] Unit Expansion: Naval (Project 6T) (vom 1. Mai 2022 um 6:21, Übersetzung von Junky)
+- [UPDATE] Enlightenment Governments (Project 6T) (vom 1. Mai 2022 um 6:19, Übersetzung von Junky)
 - [UPDATE] Grand Eras (Project 6T Core) (vom 1. Mai 2022 um 19:02, Übersetzung von Junky)
 
 
