@@ -1,6 +1,7 @@
 11.06.2022
 
 - [NEW] Unit Expansion: Aircraft (Project 6T) (vom 12. Apr. 2022 um 18:54, Übersetzung von Junky)
+- [NEW] Unit Expansion: Artillery (Project 6T) (vom 1. Mai 2022 um 6:20, Übersetzung von Junky)
 - [NEW] Unit Expansion: Cavalry (Project 6T) (vom 1. Mai 2022 um 8:41, Übersetzung von Junky)
 - [NEW] Unit Expansion: Infantry (Project 6T) (vom 1. Mai 2022 um 8:16, Übersetzung von Junky)
 - [NEW] Unit Expansion: Naval (Project 6T) (vom 1. Mai 2022 um 6:21, Übersetzung von Junky)

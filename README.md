@@ -140,6 +140,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Unique Building: Dojo (Japan) (JNR | Junky)
 1. Unique Improvement: Castrum (Rome) (JNR | Junky)
 1. Unit Expansion: Aircraft (Project 6T) (JNR | Junky)
+1. Unit Expansion: Artillery (Project 6T) (JNR | Junky)
 1. Unit Expansion: Cavalry (Project 6T) (JNR | Junky)
 1. Unit Expansion: Infantry (Project 6T) (JNR | Junky)
 1. Unit Expansion: Medieval Pirate Unit (D | Junky)
