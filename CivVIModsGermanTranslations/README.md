@@ -85,7 +85,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
-2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | **NEW**
+2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2135724456 | Wetlands | JNR | Junky | #7
 2139486665 | Better World Rankings (UI) | infixo | Junky | #12
@@ -135,16 +135,16 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2656616965 | Endgame Map Replay | Technoluddite | Junky | #6
 2669325299 | District Expansion: Suburbs | JNR | Junky | #11
 2683624437 | Movable Districts | wltk | Junky | #10
-2708795273 | Four Seasons | sharpNd | Junky | **NEW**
+2708795273 | Four Seasons | sharpNd | Junky | #17
 2769967307 | Grand Eras (Project 6T Core) | JNR & Zegangani | Junky | #16
 2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | #16
-2772587481 | Phantagonist’s Slavery and Emancipation | Phantagonist | H.Humpel | **NEW**
+2772587481 | Phantagonist’s Slavery and Emancipation | Phantagonist | H.Humpel | #17
 2775613909 | Rest Reminder | Flactine | H.Humpel | #16
-2789845307 | Cree's Casino - Minor Buffs | Trexatron | H.Humpel | **NEW**
-2792841983 | Naval Mine | Shuricas | H.Humpel | **NEW**
-2793114339 | Unit Expansion: Infantry (Project 6T) | JNR | Junky | **NEW**
-2793114662 | Unit Expansion: Cavalry (Project 6T) | JNR | Junky | **NEW**
-2793114889 | Unit Expansion: Artillery (Project 6T) | JNR | Junky | **NEW**
-2793115058 | Unit Expansion: Naval (Project 6T) | JNR | Junky | **NEW**
-2793115197 | Unit Expansion: Aircraft (Project 6T) | JNR | Junky | **NEW**
-2794603014 | Detailed Wonder Reminder | Konomi | H.Humpel | **NEW**
+2789845307 | Cree's Casino - Minor Buffs | Trexatron | H.Humpel | #17
+2792841983 | Naval Mine | Shuricas | H.Humpel | #17
+2793114339 | Unit Expansion: Infantry (Project 6T) | JNR | Junky | #17
+2793114662 | Unit Expansion: Cavalry (Project 6T) | JNR | Junky | #17
+2793114889 | Unit Expansion: Artillery (Project 6T) | JNR | Junky | #17
+2793115058 | Unit Expansion: Naval (Project 6T) | JNR | Junky | #17
+2793115197 | Unit Expansion: Aircraft (Project 6T) | JNR | Junky | #17
+2794603014 | Detailed Wonder Reminder | Konomi | H.Humpel | #17
