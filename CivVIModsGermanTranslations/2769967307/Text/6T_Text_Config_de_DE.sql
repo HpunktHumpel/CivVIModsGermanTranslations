@@ -1,5 +1,5 @@
 -- 6T_Text_Config
--- Author: JNR | German Tranlation by Junky
+-- Author: JNR | German Translation by Junky
 --------------------------------------------------------------
 
 -- Deutsch

@@ -21,6 +21,9 @@
 	</Replace>
 	<Replace Language= "de_DE" Tag="LOC_BTT_DIPLO_VISIBILITY"> 
 		<Text>+1 Stufe diplomatischer Sichtbarkeit</Text>
+	</Replace>	
+	<Replace Language= "de_DE" Tag="LOC_BTT_EXTRA_AGENDA"> 
+		<Text>Schaltet eine weitere zufällige Agenda frei.</Text>
 	</Replace>
 	<Replace Language= "de_DE" Tag="LOC_BTT_CARBON_UNITS_REDUCTION">
 		<Text>CO2 Emissionen durch Einheiten um 50% reduziert.</Text>
@@ -94,6 +97,9 @@
 	</Replace>
 	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_WALLS">
 		<Text>Ihr erhaltet [ICON_TOURISM] Tourismus durch Stadtmauern.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_RESOURCE_REPORT">
+		<Text>Gewährt die Fähigkeit die gesamte Anzahl der Ressourcen der Welt einzusehen.</Text>
 	</Replace>
 </LocalizedText>
 
