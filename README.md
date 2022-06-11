@@ -139,6 +139,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Uffizi (World Wonder) (Deliverator23 | H.Humpel)
 1. Unique Building: Dojo (Japan) (JNR | Junky)
 1. Unique Improvement: Castrum (Rome) (JNR | Junky)
+1. Unit Expansion: Aircraft (Project 6T) (JNR | Junky)
 1. Unit Expansion: Infantry (Project 6T) (JNR | Junky)
 1. Unit Expansion: Medieval Pirate Unit (D | Junky)
 1. Very Nice Magazine (Mgwska | H.Humpel)
@@ -149,7 +150,6 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Zee's Decommission Power Plant (_Zee | Junky)
 1. Zee's Properly Timed Eras (_Zee | Junky)
 1. Zee's Strategic Resource Overhaul (_Zee | Junky)
-
 
 ## Installation
 
