@@ -1,0 +1,78 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_UI_Text -->
+<!-- Author: sharpNd | Translator: Junky-->
+<!-- 2022-05-26 -->
+<!-- Version 0.3 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <!-- Deutsch -->
+        <Replace Tag="LOC_FOUR_SEASONS_SUMMER_TEXT" Language="de_DE">
+            <Text>Sommer</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_AUTUMN_TEXT" Language="de_DE">
+            <Text>Herbst</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_WINTER_TEXT" Language="de_DE">
+            <Text>Winter</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_SPRING_TEXT" Language="de_DE">
+            <Text>Frühling</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_SEVERITY_TEXT" Language="de_DE">
+            <Text>Schweregrad</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_NO_EFFECTS_TEXT" Language="de_DE">
+            <Text>Keine Auswirkungen</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_EFFECTS_HEADING_TEXT" Language="de_DE">
+            <Text>Aktuelle Auswirkungen:</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_UNITS_TEXT" Language="de_DE">
+            <Text>Einheiten</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_CITIES_TEXT" Language="de_DE">
+            <Text>Städte</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_WARS_TEXT" Language="de_DE">
+            <Text>Kriege</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_START_TEXT" Language="de_DE">
+            <Text>Willkommen bei Vier Jahreszeiten (Four Seasons)! Um die Ausführung zu beginnen, beendet Eure erste [ICON_Turn] Runde</Text>
+        </Replace>
+        <!-- Turn (int values) will be put between NEW_SEASON_INFO_1 / 2 and after NEW_SEASON_INFO_2 -->
+        <Replace Tag="LOC_FOUR_SEASONS_NEW_SEASON_INFO_1_TEXT" Language="de_DE">
+            <Text>startet zwischen [ICON_Turn] Runde</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_NEW_SEASON_INFO_2_TEXT" Language="de_DE">
+            <Text>und</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_EXPERIENCE_TEXT" Language="de_DE">
+            <Text>[ICON_Promotion] Erfahrung</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_HEALING_TEXT" Language="de_DE">
+            <Text>[ICON_Damaged] Heilung pro [ICON_Turn] Runde</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_MAINTENANCE_TEXT" Language="de_DE">
+            <Text>[ICON_Gold] Unterhalt</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_MOVEMENT_TEXT" Language="de_DE">
+            <Text>[ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_SEA_MOVEMENT_TEXT" Language="de_DE">
+            <Text>[ICON_Movement] Bewegung für Seeeinheiten</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_FOOD_TEXT" Language="de_DE">
+            <Text>[ICON_Food] Nahrung pro Feld</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_PRODUCTION_TEXT" Language="de_DE">
+            <Text>[ICON_Production] Produktion pro Feld</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_WEARINESS_TEXT" Language="de_DE">
+            <Text>[ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

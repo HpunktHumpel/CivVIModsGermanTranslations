@@ -1,0 +1,26 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Config_Text -->
+<!-- Author: sharpNd | Translator: Junky-->
+<!-- 2022-05-26 -->
+<!-- Version 0.3 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Deutsch -->
+		<Replace Tag="LOC_FOUR_SEASONS_SEASON_LENGTH" Language="de_DE">
+			<Text>Jahreszeitlänge</Text>
+		</Replace>
+		<Replace Tag="LOC_FOUR_SEASONS_SEASON_LENGTH_DESCRIPTION" Language="de_DE">
+			<Text>Legt die Länge einer Jahreszeit in Runden fest. 10 bedeutet, dass Frühling, Sommer, Herbst und Winter jeweils 10 Runden dauern, so dass ein Jahr 40 Runden dauert.</Text>
+		</Replace>		
+		<Replace Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY" Language="de_DE">
+			<Text>Tageszeit basierend auf auf der Jahreszeit</Text>
+		</Replace>
+		<Replace Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY_DESCRIPTION" Language="de_DE">
+			<Text>Durch den Vier Jahreszeiten (Four Seasons) Mod.[NEWLINE][NEWLINE]Bei Aktivierung, ändert der Mod die animierte Tageszeit basierend auf der aktuellen Jahreszeit. Die Aktivierung wird empfohlen, um Jahreszeit-Athmosphäre stimmiger zu machen.[NEWLINE][NEWLINE]Sobald das Spiel gestartet ist, deaktiviert 'Animierte Tageszeit' in den Optionen, damit dies richtig funktioniert.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,450 @@
+<!-- =========================================================================== -->
+<!-- Four_Seasons_Civilopedia_Text -->
+<!-- Author: sharpNd | Translator: Junky-->
+<!-- 2022-05-26 -->
+<!-- Version 0.3 -->
+<!-- =========================================================================== -->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+    	<!-- Deutsch -->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_FOUR_SEASONS_NAME" Language="de_DE">
+          	<Text>Vier Jahreszeiten</Text>
+    	</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_TITLE" Language="de_DE">
+			<Text>Einführung</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INTRO_PARA_1" Language="de_DE">
+			<Text>Der Zivilopädie-Eintrag von Vier Jahreszeiten (Four Seasons) ist ein sehr detaillierter Überblick über alle Mechaniken und Aspekte, die die Modifikation ins Spiel bringt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_TITLE" Language="de_DE">
+			<Text>Mod Übersicht</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_1" Language="de_DE">
+			<Text>Dieser Mod fügt ein Jahreszeitensystem mit Sommer, Herbst, Winter und Frühling zum Spiel hinzu.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_2" Language="de_DE">
+			<Text>Positive oder negative Effekte werden auf alle Einheiten und Städte auf der Karte angewandt, abhängig von der aktuellen Jahreszeit und ihrem zufälligen Schweregrad. Die KI, Stadtstaaten und Barbaren sind natürlich auch betroffen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_3" Language="de_DE">
+			<Text>Darüber hinaus ändert sich die animierte Tageszeit mit den Jahreszeiten. So sieht die Karte im Winter dunkel und kalt und im Sommer hell und warm aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_SUMMARY_PARA_4" Language="de_DE">
+			<Text>Mein Ziel mit dieser Mod war es, die Planung von Kriegen und die Verwaltung von Lebensmitteln wichtiger zu machen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_TITLE" Language="de_DE">
+			<Text>Inspiration</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_PARA_1" Language="de_DE">
+			<Text>Die größte Inspiration für Vier Jahreszeiten kam von Northgard, einem Echtzeitstrategiespiel mit Wikingerthematik und einem Jahreszeitensystem.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_PARA_2" Language="de_DE">
+			<Text>In meinem allerersten Spiel sagten meine Berater immer wieder, dass der Winter unmittelbar bevorstehe, und rieten mir, Vorsichtsmaßnahmen zu treffen. Ich habe mich nicht wirklich darum gekümmert, da mein Spiel ziemlich gut lief. Dann kam der Winter, ein besonders kalter Winter. Ich brauchte tonnenweise Holz, um die Häuser zu heizen, und Lebensmittel, um Hunger und Krankheiten zu vermeiden, aber meine Vorräte reichten nicht lange. Als es wieder wärmer wurde, überlebte nur einer von vier meiner Bürger.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_INSPIRATION_PARA_3" Language="de_DE">
+			<Text>Als ich das in Northgard durchspielte und zu Civilization VI, dem Vorreiter von 4X, zurückkehrte, fragte ich mich: Warum gibt es diese Art von Jahreszeitensystem hier nicht? Die Abwechslung, die es dem Spielerlebnis bietet, ist immens und zwingt dazu, den eigenen Spielstil von Zeit zu Zeit zu ändern. Mit diesem Gedanken im Hinterkopf traf ich die Entscheidung, Vier Jahreszeiten zu erschaffen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_TITLE" Language="de_DE">
+			<Text>Danksagungen</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_1" Language="de_DE">
+			<Text>Während der Entwicklung dieses Mods haben mir diese Menschen hier viele Male geholfen und Vier Jahreszeiten möglich gemacht. Ein großes Dankeschön an...</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_2" Language="de_DE">
+			<Text>[ICON_Bullet]Sukritact für seine Civilization VI: Modding Knowledge Base.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_3" Language="de_DE">
+			<Text>[ICON_Bullet]ChimpanG für seinen Civ VI Modding Companion.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_4" Language="de_DE">
+			<Text>[ICON_Bullet]Gedemon für seine vielen nützlichen Kommentare im CivFanatics Forum.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_5" Language="de_DE">
+			<Text>[ICON_Bullet]DB für den detaillierten Überblick über alle Schriftarten Symbole und Farben in Civ VI.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_6" Language="de_DE">
+			<Text>[ICON_Bullet]bane_ für seinen Basis Modding Leitfaden für Civ5 und gute Civ-bezogenen Programmierkonventionstips.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_INTRODUCTION_CHAPTER_CREDIT_PARA_7" Language="de_DE">
+			<Text>[ICON_Bullet]LeeS für seinen Civilization 6 Modding Leitfaden und nützlichen Kommentaren auf CivFanatics.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_TITLE" Language="de_DE">
+			<Text>Effekte</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_1" Language="de_DE">
+			<Text>Jede Jahreszeit und ihre Auswirkungen haben einen großen Einfluss auf den Überlebenskampf von Menschen, Tieren und Pflanzen gleichermaßen. In Vier Jahreszeiten werden diese Effekte global auf alle Einheiten und Städte angewandt, abhängig von der aktuellen Jahreszeit und ihrer zufälligen Schwere. Aber nicht jeder Effekt wird in einer Saison geändert, auch keine Änderungen im Spiel sind möglich.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_2" Language="de_DE">
+			<Text>Eine vollständige [ICON_List] Liste der Effekte, die je nach Jahreszeit und Schweregrad angewendet werden, findet Ihr in den einzelnen Kapiteln zu den Jahreszeiten auf der linken Seite.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_3" Language="de_DE">
+			<Text>[ICON_Exclamation] Beachtet, dass das Spiel immer im Sommer mit einem Schweregrad von 4 (keine Auswirkungen) beginnt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_4" Language="de_DE">
+			<Text>Zu den Effekten, die während der Jahreszeiten angewendet werden können, gehören:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_5" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Promotion] Erfahrung: Je schlechter die [ICON_Damaged] Heilungs- und [ICON_Movement] Bewegungssaison-Effekte, desto höher die zusätzliche [ICON_Promotion] Erfahrung der Einheit. Grundsätzlich stärkt es Eure Einheiten, unter schwierigen Bedingungen gekämpft zu haben. Dies ist eine zusätzliche Belohnung für das Risiko, das Eure Einheiten eingehen, wenn sie Nachteile haben.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_6" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Damaged] Heilung pro [ICON_Turn] Runde: Niedrige Temperaturen, mehr Hunger, kein Schutz oder das Gegenteil. All dies kann Auswirkungen auf die [ICON_Damaged] Heilung Eurer Einheiten haben. In späteren Epochen ist es wichtig, dass Ihr genügend Sanitäter oder Versorgungskonvois haben, um Eure Einheiten gesund zu halten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_7" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Gold] Unterhalt: Die Menschen brauchen im Winter mehr Nahrung, Schlaf und wärmere Kleidung. Bereite dich auf eine harte Saison vor, indem du genug Gold in deiner Schatzkammer hast, um die zusätzlichen Bedürfnisse deiner Einheiten zu finanzieren.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_8" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Movement] Bewegung für Land- und Lufteinheiten: Schlamm, Überschwemmungen und Eis können dazu führen, dass ein Gelände schwieriger zu durchqueren ist oder Flugzeuge schwieriger landen können, was die [ICON_Movement] Bewegung verringert.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_9" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Movement] Bewegung für Seeeinheiten: Schiffe sind bei niedrigen Temperaturen etwas langsamer, weil das Wasser dichter ist, aber der Gesamteinfluss der Jahreszeiten auf sie ist geringer, deshalb gibt es separate [ICON_Movement] Bewegungseffekte für Marineeinheiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_10" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Food] Nahrung pro Feld: Die meisten Lebensmittel werden im Sommer und Herbst geerntet, was im Winter und Frühling zu Hunger führen kann. Es kann von Vorteil sein, den Schwerpunkt der Städte gelegentlich auf [ICON_Food] Nahrung zu legen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_11" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Production] Produktion pro Feld: In kälteren Jahreszeiten müssen viel Energie und Ressourcen für die Beheizung von Gebäuden aufgewendet werden. Dies führt dazu, dass der gesamte [ICON_Production] Produktionsausstoß in schwierigen Jahreszeiten etwas niedriger ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_12" Language="de_DE">
+			<Text>[ICON_Bullet][ICON_Ability] Kriegsmüdigkeit pro Kampf: Das letzte, woran Ihre Bevölkerung bei Frost und Hunger denken möchte, ist Krieg. In strengen Jahreszeiten erhöht sich die Anzahl der [ICON_Ability] Kriegsmüdigkeitspunkte für jede Schlacht, die Eure Einheiten bestreiten.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_TITLE" Language="de_DE">
+			<Text>Schweregrad</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_1" Language="de_DE">
+			<Text>Genau wie in der realen Welt kann die Intensität der Jahreszeiten stark schwanken. Vier Jahreszeiten ahmt diese jahreszeitlichen Anomalien nach, indem es jeder Jahreszeit zu Beginn einen Schweregradwert zuweist. Dieser Wert bestimmt, wie leicht oder schwer die Auswirkungen sind. Der Schweregrad liegt im Sommer, Herbst und Frühling in einem Bereich von 1 bis 5 und im Winter zwischen 1 und 6. Je höher der Wert ist, desto schlimmer sind die Auswirkungen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_2" Language="de_DE">
+			<Text>Um die Unvorhersehbarkeit und Abwechslung im Spiel zu erhöhen, ist der Schweregrad zufällig gewählt. Insgesamt liegt der Schweregrad in der Mitte, so dass ein Wert von 3 am wahrscheinlichsten ist und die Extreme 1 oder 5 am Unwahrscheinlichsten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_3" Language="de_DE">
+			<Text>Die Schweregradwahrscheinlichkeit der neuen Saison ist abhängig vom Schweregrad der letzten Saison. Die Wahrscheinlichkeitsverteilungen für den neuen Schweregrad sehen wie folgt aus (Werte in %, geordnet nach Schweregrad 1 2 3 4 5):</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_4" Language="de_DE">
+			<Text>[ICON_Bullet]Schweregrad 1:    20    40    20    10    10</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_5" Language="de_DE">
+			<Text>[ICON_Bullet]Schweregrad 2:    20    30    30    10    10</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_6" Language="de_DE">
+			<Text>[ICON_Bullet]Schweregrad 3:    10    20    40    20    10</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_7" Language="de_DE">
+			<Text>[ICON_Bullet]Schweregrad 4:    10    10    30    30    20</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_8" Language="de_DE">
+			<Text>[ICON_Bullet]Schweregrad 5:    10    10    20    40    20</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_9" Language="de_DE">
+			<Text>Außerdem kann der kommende Winter nur dann einen Schweregrad von 6 haben, wenn der Herbst einen Schweregrad von 5 hatte. Damit ändern sich die Wahrscheinlichkeiten für den kommenden Winter zu:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_10" Language="de_DE">
+			<Text>[ICON_Bullet]Schweregrad 5:    10    10    20    40    10    10</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_11" Language="de_DE">
+			<Text>In dem unwahrscheinlichen Fall, dass ein Winter tatsächlich einen Schweregrad von 6 hat, verhält sich der Frühling so, als hätte die letzte Jahreszeit einen Schweregrad von 5 gehabt, wenn es um die Wahrscheinlichkeitsverteilung geht.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_TITLE" Language="de_DE">
+			<Text>Jahreszeitenlänge</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_1" Language="de_DE">
+			<Text>Ihr habt die Möglichkeit, eine Saisonlänge zwischen 5 und 25 [ICON_Turn] Runden in den erweiterten Optionen der Spielkonfiguration einzustellen. Beachtet, dass Eure Saisonlänge nur als Näherungswert verwendet wird. Eine zufällig gewählter Saison-Verschiebung kann einen Saisonwechsel verzögern oder beschleunigen (siehe das folgende Kapitel für weitere Informationen). Aus Gründen der Spielbarkeit und der Ausgewogenheit wird empfohlen, eine Saisonlänge zu wählen, die mit der von Euch gewählten Spielgeschwindigkeit übereinstimmt:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_2" Language="de_DE">
+			<Text>[ICON_Bullet]5 bis 9 für Online (200% Geschwindigkeit)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_3" Language="de_DE">
+			<Text>[ICON_Bullet]7 bis 12 für Schnell (150% Geschwindigkeit)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_4" Language="de_DE">
+			<Text>[ICON_Bullet]10 bis 16 für Standard (normal Geschwindigkeit)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_5" Language="de_DE">
+			<Text>[ICON_Bullet]13 bis 20 für Episch (66% Geschwindigkeit)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_6" Language="de_DE">
+			<Text>[ICON_Bullet]15 bis 25 für Marathon (33% Geschwindigkeit)</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_7" Language="de_DE">
+			<Text>Die Länge der Jahreszeit beeinflusst auch die KI in ihrer Entscheidungsfindung. Eine strenge Jahreszeit kann die Veränderungen der KI bei der Kriegsvorbereitung verringern. Wenn dann eine milde Saison kommt, bereitet sich die KI wieder auf den Krieg vor, braucht dafür aber genügend Zeit. Daher sollte die Saisonlänge am oberen Ende liegen, wenn Sie etwas mehr Aggressivität bevorzugen, und am unteren Ende, wenn Sie möchten, dass Ihre rivalisierenden Zivilisationen etwas passiver sind. Aber insgesamt ist der Einfluss auf die KI nur gering.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_TITLE" Language="de_DE">
+			<Text>Verschiebungen</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_1" Language="de_DE">
+			<Text>Nicht nur der Schweregrad einer Jahreszeit kann variieren, sondern auch ihr Anfangs- und Endpunkt. Ein zufälliger Versatz setzt diese Abweichungen um und kann den Beginn einer Saison verzögern oder beschleunigen. Dies hat auch Auswirkungen auf die Länge einer Saison.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_2" Language="de_DE">
+			<Text>Nehmen wir an, das aktuelle Spiel hat eine Saisonlänge von 10 [ICON_Turn] Runden und die Start-[ICON_Turn]-Runde ist 1. Dies würde die Saisonanfänge auf [ICON_Turn] Runde 11, 21, 31 und so weiter setzen. Hier kommt der randomisierte Offset ins Spiel. Der Bereich, in dem der Saison-Offset arbeitet, beträgt 20% der Saisonlänge, in diesem Fall 0,2 * 10 = 2 (dieser Wert wird immer aufgestockt, zum Beispiel 0,2 * 9 = 1,8 ergibt 1).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_3" Language="de_DE">
+			<Text>Subtrahiert und addiert diesen Wert zu den ursprünglichen Saisonwechsel [ICON_Turn] Runden (11, 21, 31 und so weiter) und Ihr habt Euren Zeitrahmen für Saisonanfänge: 11 - 2 = 9 ist die frühestmögliche Startrunde, 11 + 2 = 13 ist die letztmögliche Startrunde.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_4" Language="de_DE">
+			<Text>Beachten Sie, dass die Wahrscheinlichkeiten für Saisonverschiebungen gleichmäßig verteilt sind, im Gegensatz zum Schweregrad einer Saison. Auf unser Beispiel angewandt bedeutet dies, dass die Saisonwechsel [ICON_Turn] Runden 9, 10, 11, 12 und 13 alle die gleiche Wahrscheinlichkeit haben.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_TITLE" Language="de_DE">
+			<Text>Darstellung</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_1" Language="de_DE">
+			<Text>Es war wichtig, ein Gefühl der Authentizität für jede Jahreszeit zu schaffen. Deshalb ändert sich die animierte Tageszeit mit den Jahreszeiten, wenn sie vom Spieler in den Spieleinstellungen aktiviert wurde: Jedes Mal, wenn eine [ICON_Turn]-Runde beginnt, überspringt die Tageszeit ein paar Minuten oder Stunden, abhängig von der Länge der Jahreszeit.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_2" Language="de_DE">
+			<Text>[ICON_Exclamation] Deaktivieren Sie 'Animierte Tageszeit' in den Optionen, damit die Darstellung richtig funktioniert. Wenn diese Option aktiviert ist, ändert sich die Tageszeit automatisch und dieser Mod dreht dann möglicherweise die Zeit zurück. Dies ist nicht spielschädigend, kann aber beim Betrachten der Karte störend sein.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_3" Language="de_DE">
+			<Text>Die Darstellung wirkt sich auf die Farbe und die Beleuchtung der Karte in Abhängigkeit von der aktuellen Jahreszeit aus:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_4" Language="de_DE">
+			<Text>[ICON_Bullet]Im Sommer steht die Sonne von 11:00 bis 17:00 Uhr im Zenit und macht die Karte hell und warm.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_5" Language="de_DE">
+			<Text>[ICON_Bullet]Herbst ist von 17:00 bis 23:00 Uhr, wenn die Sonne langsam untergeht und die Karte abkühlt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_6" Language="de_DE">
+			<Text>[ICON_Bullet]Der Winter ist von 23:00 bis 05:00 Uhr, wobei die Nacht die Karte dunkel und kühl macht.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_VISUALS_CHAPTER_CONTENT_PARA_7" Language="de_DE">
+			<Text>[ICON_Bullet]Frühling ist von 05:00 bis 11:00 Uhr mit dem Sonnenaufgang, der die Karte langsam wieder aufhellt und erwärmt.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_TITLE" Language="de_DE">
+			<Text>Sommer Effekte</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_BASE_PARA_1" Language="de_DE">
+			<Text>[ICON_List] Liste der Effekte, die im Sommer angewendet werden:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY1_TITLE" Language="de_DE">
+			<Text>Schweregrad 1</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY1_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]-60% [ICON_Promotion] Erfahrung[NEWLINE]+10 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY1_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]+1 [ICON_Food] Nahrung pro Feld[NEWLINE]+1 [ICON_Production] Produktion pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY2_TITLE" Language="de_DE">
+			<Text>Schweregrad 2</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY2_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]-40% [ICON_Promotion] Erfahrung[NEWLINE]+5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY2_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]+1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY3_TITLE" Language="de_DE">
+			<Text>Schweregrad 3</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY3_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]-20% [ICON_Promotion] Erfahrung[NEWLINE]+5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY4_TITLE" Language="de_DE">
+			<Text>Schweregrad 4</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY4_PARA_1" Language="de_DE">
+			<Text>Keine Effekte</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY5_TITLE" Language="de_DE">
+			<Text>Schweregrad 5</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY5_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+1 [ICON_Gold] Unterhalt</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SUMMER_CHAPTER_SEVERITY5_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_TITLE" Language="de_DE">
+			<Text>Herbst Effekte</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_BASE_PARA_1" Language="de_DE">
+			<Text>[ICON_List] Liste der Effekte, die im Herbst angewendet werden:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY1_TITLE" Language="de_DE">
+			<Text>Schweregrad 1</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY1_PARA_1" Language="de_DE">
+			<Text>Städte[NEWLINE]+1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY2_TITLE" Language="de_DE">
+			<Text>Schweregrad 2</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY2_PARA_1" Language="de_DE">
+			<Text>Keine Effekte</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY3_TITLE" Language="de_DE">
+			<Text>Schweregrad 3</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY3_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+20% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+1 [ICON_Gold] Unterhalt</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_TITLE" Language="de_DE">
+			<Text>Schweregrad 4</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+40% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+1 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_TITLE" Language="de_DE">
+			<Text>Schweregrad 5</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+40% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+2 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_TITLE" Language="de_DE">
+			<Text>Winter Effekte</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_BASE_PARA_1" Language="de_DE">
+			<Text>[ICON_List] Liste der Effekte, die im Winter angewendet werden:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY1_TITLE" Language="de_DE">
+			<Text>Schweregrad 1</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY1_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+20% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+1 [ICON_Gold] Unterhalt</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY1_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_TITLE" Language="de_DE">
+			<Text>Schweregrad 2</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+40% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+1 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_TITLE" Language="de_DE">
+			<Text>Schweregrad 3</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+40% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+2 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_2" Language="de_DE">
+			<Text>Einheiten[NEWLINE]-1 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_TITLE" Language="de_DE">
+			<Text>Schweregrad 4</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+60% [ICON_Promotion] Erfahrung[NEWLINE]-10 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+3 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-1 [ICON_Movement] Movement for Naval Units</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-2 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+32 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_TITLE" Language="de_DE">
+			<Text>Schweregrad 5</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+80% [ICON_Promotion] Erfahrung[NEWLINE]-10 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+4 [ICON_Gold] Unterhalt[NEWLINE]-2 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-1 [ICON_Movement] Movement for Naval Units</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-2 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+32 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_TITLE" Language="de_DE">
+			<Text>Schweregrad 6</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+100% [ICON_Promotion] Erfahrung[NEWLINE]-15 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+5 [ICON_Gold] Unterhalt[NEWLINE]-2 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-2 [ICON_Movement] Movement for Naval Units</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-3 [ICON_Food] Nahrung pro Feld[NEWLINE]-2 [ICON_Production] Produktion pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+48 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+
+
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_TITLE" Language="de_DE">
+			<Text>Frühlung Effekte</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_BASE_PARA_1" Language="de_DE">
+			<Text>[ICON_List] Liste der Effekte, die im Frühling angewendet werden:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY1_TITLE" Language="de_DE">
+			<Text>Schweregrad 1</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY1_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]-20% [ICON_Promotion] Erfahrung[NEWLINE]+5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY2_TITLE" Language="de_DE">
+			<Text>Schweregrad 2</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY2_PARA_1" Language="de_DE">
+			<Text>Keine Effekte</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY3_TITLE" Language="de_DE">
+			<Text>Schweregrad 3</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY3_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+1 [ICON_Gold] Unterhalt</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY3_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY4_TITLE" Language="de_DE">
+			<Text>Schweregrad 4</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY4_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+20% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+1 [ICON_Gold] Unterhalt</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY4_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_TITLE" Language="de_DE">
+			<Text>Schweregrad 5</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_PARA_1" Language="de_DE">
+			<Text>Einheiten[NEWLINE]+40% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+2 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_PARA_2" Language="de_DE">
+			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
+	  	</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_PARA_3" Language="de_DE">
+			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+	  	</Replace>
+	</LocalizedText>
+</GameData>
