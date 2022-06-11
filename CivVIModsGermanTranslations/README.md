@@ -142,6 +142,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2789845307 | Cree's Casino - Minor Buffs | Trexatron | H.Humpel | **NEW**
 2792841983 | Naval Mine | Shuricas | H.Humpel | **NEW**
 2793114339 | Unit Expansion: Infantry (Project 6T) | JNR | Junky | **NEW**
+2793114662 | Unit Expansion: Cavalry (Project 6T) | JNR | Junky | **NEW**
 2793115058 | Unit Expansion: Naval (Project 6T) | JNR | Junky | **NEW**
 2793115197 | Unit Expansion: Aircraft (Project 6T) | JNR | Junky | **NEW**
 2794603014 | Detailed Wonder Reminder | Konomi | H.Humpel | **NEW**
