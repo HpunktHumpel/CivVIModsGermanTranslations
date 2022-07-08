@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+3 [ICON_Science] Wissenschaft für jede Bibliothek.</Text></Replace>
+		<Replace Tag="LOC_POLICY_SCRIPTURE_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+4 [ICON_Faith] Glauben für jeden Schrein.</Text></Replace>
+		<Replace Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+5 [ICON_Gold] Gold für jeden Leuchtturm.</Text></Replace>
+		<Replace Tag="LOC_POLICY_AESTHETICS_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+3 [ICON_Culture] Kultur für jedes Amphitheater.</Text></Replace>
+		<Replace Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+3 [ICON_Production] Produktion für jede Werkstatt.</Text></Replace>
+		<Replace Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+5 [ICON_Gold] Gold für jeden Markt.</Text></Replace>
+		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+7 [ICON_Gold] Gold für jede Bank und Schiffswerft.</Text></Replace>
+		<Replace Tag="LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+4 [ICON_Science] Wissenschaft für jede Universität. +4 [ICON_Production] Produktion für jede Fabrik.</Text></Replace>
+		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION_EPSTWEAK_ADJACENCY" Language="de_DE"><Text>+5 [ICON_Culture] Kultur für jedes Sendezentrum. +1 [ICON_Amenities] Annehmlichkeit für jedes Stadion.</Text></Replace>
+	</LocalizedText>
+</GameData>
