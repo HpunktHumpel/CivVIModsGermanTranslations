@@ -54,6 +54,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
 1717330418 | Very Nice Magazine | Mgwska | H.Humpel | #15
 1720804635 | p0kiehl's Better Aqueduct | p0kiehl | Junky | **NEW**
+1720820463 | p0kiehl's Better Encampment | p0kiehl | Junky | **NEW**
 1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | #13
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1746994170 | Spy Promotion Tree | Luke Vo | Junky | **NEW**

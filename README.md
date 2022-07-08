@@ -103,6 +103,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Naval Mine (Shuricas | H.Humpel)
 1. Notre-Dame de Paris (WindFly | H.Humpel)
 1. p0kiehl's Better Aqueduct (p0kiehl | Junky)
+1. p0kiehl's Better Encampment (p0kiehl | Junky)
 1. p0kiehl's Precinct of Amun-Ra (chimp & p0kiehl | Stevie)
 1. p0kiehl's Satrap's Court (chimp & p0kiehl | H.Humpel)
 1. p0kiehl's Temple of Poseidon (p0kiehl | H.Humpel)
