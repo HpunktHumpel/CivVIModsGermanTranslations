@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]157[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]158[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657304681</Created>
+    <Created>1657320300</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -89,6 +89,9 @@
     </Criteria>
     <Criteria id="Panda_FrontEnd">
       <ModIsEnabled>724e7828-3c76-4936-8184-ad04ceb7b25e</ModIsEnabled>
+    </Criteria>
+    <Criteria id="PhantagonistsHybridRiceAndBiofuel_FrontEnd">
+      <ModIsEnabled>177d351c-5181-4778-8b58-03c3854804fe</ModIsEnabled>
     </Criteria>
     <Criteria id="PhantagonistsSlaveryAndEmancipation_FrontEnd">
       <ModIsEnabled>c1ca1d42-556c-4f89-8ba3-2776dfdeb141</ModIsEnabled>
@@ -429,6 +432,9 @@
     </Criteria>
     <Criteria id="PersuadeDefectorsProject">
       <ModInUse>8569cdc5-a549-4233-8a2f-cbbe01d09cb5</ModInUse>
+    </Criteria>
+    <Criteria id="PhantagonistsHybridRiceAndBiofuel">
+      <ModInUse>177d351c-5181-4778-8b58-03c3854804fe</ModInUse>
     </Criteria>
     <Criteria id="PhantagonistsSlaveryAndEmancipation">
       <ModInUse>c1ca1d42-556c-4f89-8ba3-2776dfdeb141</ModInUse>
@@ -1058,6 +1064,10 @@
         <LoadOrder>500</LoadOrder>
       </Properties>
       <File>1701198033/Data_Local_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="PhantagonistsHybridRiceAndBiofuel_FrontEnd_de_DE">
+      <Criteria>PhantagonistsHybridRiceAndBiofuel_FrontEnd</Criteria>
+      <File>2789675328/Localization/de_DE.xml</File>
     </UpdateText>
     <UpdateText id="PhantagonistsSlaveryAndEmancipation_FrontEnd_de_DE">
       <Criteria>PhantagonistsSlaveryAndEmancipation_FrontEnd</Criteria>
@@ -1915,6 +1925,10 @@
     <UpdateText id="PersuadeDefectorsProject_de_DE">
       <Criteria>PersuadeDefectorsProject</Criteria>
       <File>2376859473/Core/Sailor_Defectors_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="PhantagonistsHybridRiceAndBiofuel_de_DE">
+      <Criteria>PhantagonistsHybridRiceAndBiofuel</Criteria>
+      <File>2789675328/Localization/de_DE.xml</File>
     </UpdateText>
     <UpdateText id="PhantagonistsSlaveryAndEmancipation_de_DE">
       <Criteria>PhantagonistsSlaveryAndEmancipation</Criteria>
@@ -3144,6 +3158,7 @@
     <File>2770023017/Core/Gov_Tier5_Text_de_DE.sql</File>
     <File>2772587481/Localization/Localization_de_DE.xml</File>
     <File>2775613909/Text/TR_Text_de_DE.xml</File>
+    <File>2789675328/Localization/de_DE.xml</File>
     <File>2789835828/Text/Text_de_DE.xml</File>
     <File>2789845307/Cree_Text_de_DE.sql</File>
     <File>2791672777/Core/Localisation/Suk_BablyonRework_Localisation_de_DE.sql</File>

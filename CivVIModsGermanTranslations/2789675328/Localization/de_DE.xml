@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_MOD_PHANTA_STATECRAFT_HYBRID_RICE_NAME" Language="de_DE">
+			<Text>Phantagonist: Hybridreis und Biokraftstoff</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_PHANTA_STATECRAFT_HYBRID_RICE_TEASER" Language="de_DE">
+			<Text>Phantagonist: Hybridreis und Biokraftstoff</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_PHANTA_STATECRAFT_HYBRID_RICE_DESCRIPTION" Language="de_DE">
+			<Text>Phantagonist:Hybridreis und Biokraftstoff</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_HYBRID_RICE_FARM_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Hybridreis-Farm|Hybridreis-Farm|Hybridreis-Farm|Hybridreis-Farm|Hybridreis-Farm</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_HYBRID_RICE_FARM_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, Bauernhöfe mit [ICON_RESOURCE_RICE] Reis auf allen Land-Geländefeldern zu bauen, nachdem das Hybridkulturenforschung-Projekt abgeschlossen wurde.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_HYBRID_WHEAT_FARM_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Hybridweizen-Farm|Hybridweizen-Farm|Hybridweizen-Farm|Hybridweizen-Farm|Hybridweizen-Farm</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_HYBRID_WHEAT_FARM_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, Bauernhöfe mit [ICON_RESOURCE_WHEAT] Weizen auf allen Land-Geländefeldern zu bauen, nachdem das Hybridkulturenforschung-Projekt abgeschlossen wurde.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_HYBRID_MAIZE_FARM_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Hybridmais-Farm|>Hybridmais-Farm|>Hybridmais-Farm|>Hybridmais-Farm|>Hybridmais-Farm</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_HYBRID_MAIZE_FARM_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, Bauernhöfe mit [ICON_RESOURCE_MAIZE] Mais auf allen Land-Geländefeldern zu bauen, nachdemdas Hybridkulturenforschung-Projekt abgeschlossen wurde.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PHANTA_HYBRID_RICE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Hybridkulturenforschung|Hybridkulturenforschung|Hybridkulturenforschung|Hybridkulturenforschung|Hybridkulturenforschung</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PHANTA_HYBRID_RICE_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, Bauernhöfe mit [ICON_RESOURCE_RICE] Reis, [ICON_RESOURCE_WHEAT] Weizen oder [ICON_RESOURCE_MAIZE] Mais auf allen Land-Geländefeldern zu bauen. Alle Bauernhöfe und Terrassenfelder erhalten +3 [ICON_Food] Nahrung, +2 [ICON_Production] Produktion und +1 [ICON_Science] Wissenschaft. Gewährt bei Abschluss 6 freie Handwerker und +4 Diplomatie-Siegpunkte. Kann nur in einer Stadt mit einem Forschungslabor durchgeführt werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_YUAN_LONGPING_NAME" Language="de_DE">
+			<Text>Yuan Longping</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_PHANTA_YUAN_LONGPING_HELP" Language="de_DE">
+			<Text>+100% [ICON_Production] Produktion für das Hybridkulturenforschung-Projekt. Nach Fertigstellung des Hybridkulturenforschung-Projektes erhalten Bauernhöfe und Terrassenfelder zusätzlich +1 [ICON_Production] Produktion und +2 [ICON_Science] Wissenschaft.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_BIOFUEL_PLANT_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Biokraftstoffanlage|Biokraftstoffanlage|Biokraftstoffanlage|Biokraftstoffanlage|Biokraftstoffanlage</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PHANTA_BIOFUEL_PLANT_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, Biokraftstoffanlagen zu bauen.[NEWLINE][NEWLINE]+1 [ICON_Production] Produktion, +1 [ICON_Gold] Gold und gewährt jede Runde +1 [ICON_Power] Energie für jeden angrenzenden Bauernhof, Plantage und Terrassenfeld. Angrenzende Bauernhöfe, Plantagen und Terrassenfelder verlieren jedoch -1 [ICON_Food] Nahrung. In jeder Stadt kann nur eine Biokraftstoffanlagen gebaut werden. Felder mit Biokraftstoffanlagen können nicht getauscht werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_HYBRID_RICE_FARM_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Reis ist ein Grundnahrungsmittel für mehr als die Hälfte der Weltbevölkerung, vor allem in Asien. Die chinesische Legende schreibt Shennong den ersten Reisanbau zu, der die Landwirtschaft „erfand“. Was auch immer die Wahrheit ist, es ist bekannt, dass die alten Ägypter Reis exportierten, und große Lagerstätten von konserviertem Reis wurden in römischen Lagern aus dem 1. Jahrhundert nach Christus gefunden. Reis bleibt lebenswichtig, um Hungersnöte abzuwehren. Die weltweite Reisproduktion ist stetig von etwa 200 Millionen Tonnen im Jahr 1960 auf 600 Millionen Tonnen im Jahr 2000 gestiegen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_HYBRID_WHEAT_FARM_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Weizen wurde erstmals um 8000 v. Chr. im Fruchtbaren Halbmond des Nahen Ostens angebaut und ist ein bemerkenswert vielseitiges Getreide. Es kann zu Mehl gemahlen, an Vieh verfüttert und zu Bier verarbeitet werden. Bis 5000 v. Chr. hatte sich der Weizenanbau weit ausgebreitet. Archäologen haben Hinweise auf eine Kultivierung in China, Indien und sogar England gefunden. Relativ einfach anzubauen und mit relativ hohen Erträgen, war sie perfekt für eine wachsende, gefräßige Zivilisation. Obwohl Weizen immer wieder im Mittelpunkt ernährungswissenschaftlicher Kontroversen stand, bleibt er weltweit ein Grundnahrungsmittel.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_HYBRID_MAIZE_FARM_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Mais ist ein zuerst in Mesoamerika angebautes Getreide aus der Graspflanze Teosinte. Durch gezielten Anbau und selektive Züchtung in den zentralamerikanischen Milpas (abgebrannte Maisfelder) oder Chinampas (schwimmende Maisfelder) wurden aus den kleinen Teosinte-Körnern die heute bekannten großen Maiskolben. Als Grundnahrungsmittel ermöglichte Mais die Expansion und Dominanz der großen Städte der Neuen Welt der Maya- und Aztekenreiche und bleibt für die zentralamerikanische Küche wichtig. Bald nach dem europäischen Kontakt breitete sich Mais auch in weiten Teilen der Alten Welt aus, da Mais andere Arten von Böden und Topografien als Reis, Weizen oder Gerste verwendete. Das Getreide wurde in Afrika begeistert aufgenommen, wo Mais zuerst von den Portugiesen eingeführt wurde und wo Mais die landwirtschaftlichen Praktiken und die Landnutzung auf diesem Kontinent veränderte: Der Maisanbau mit seiner schnelleren Vegetationsperiode und der intensiven Verarbeitungsarbeit eröffnete neue Rollen für die Arbeit von Frauen in vielen afrikanischen Gesellschaften und veränderte so die sozialen Spaltungen in den Gesellschaften, in die es eintrat.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PHANTA_BIOFUEL_PLANT_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Während Menschen seit prähistorischen Zeiten Getreide und tierische Abfälle als Brennstoffe verbrennen, ermöglicht der Fortschritt des chemischen Wissens die Erzeugung von besser brennbaren Biokraftstoffen. Bioethanol kann beispielsweise aus zucker- oder stärkereichen Pflanzen wie Zuckerrohr und Mais durch Fermentation gewonnen werden, während Biodiesel aus Ölen und Fetten durch Umesterung gewonnen werden kann. Viele Länder haben Interesse an der Entwicklung von Biokraftstoffen bekundet, da dies ihre Abhängigkeit vom Import fossiler Brennstoffe verringern könnte.So hat beispielsweise Brasilien als größter Zuckerrohrproduzent große Erfolge bei der Einführung von Bioethanol als alternativen Kraftstoff erzielt. Nichtsdestotrotz wurde die Effektivität des Anbaus von Feldfrüchten zur Kraftstoff- und Stromerzeugung diskutiert. Forscher untersuchen nun praktikable Methoden zur Gewinnung von Biokraftstoff aus anderen Quellen wie Algenkultur.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YUAN_LONGPING_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Yuan Longping ist ein bekannter chinesischer Agronom, der für seine Beiträge zum produktiven Hybridreis bekannt ist. Yuan Longping wurde 1930 geboren und wuchs in einer Zeit auf, als China von ehrgeizigen Kriegsherren und häufigen Hungersnöten heimgesucht wurde. Er schloss sein Studium am Southwest Agricultural College ab und begann seine Lehrtätigkeit an der Anjiang Agricultural School.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YUAN_LONGPING_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Hybridmais wurde damals erfolgreich mit höheren Erträgen angebaut. Obwohl es Agronomen auch gelang, Reis in Labors zu hybridisieren, wurde Hybridreis aufgrund der selbstbestäubenden Eigenschaften von Reis allgemein als nicht machbar angesehen. In den 1960er Jahren entdeckte Yuan Longping einzigartigen wilden männlich-sterilen Reis und veröffentlichte seine Hypothese über die Heterosis von Reis mit wildem männlich-sterilem Reis. Er und sein Team verbrachten mehr als ein Jahrzehnt damit, Wildreissorten mit einem signifikanten Vorteil zu suchen und zu testen, bis die Variante „Yebai“ in Hainan gefunden wurde. Ein Züchtungsprogramm für Hybridreis führte Ende der 1970er Jahre zu Sorten mit um 20-30% verbesserten Erträgen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YUAN_LONGPING_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Yuan Longping und sein Team behielten ihre Entdeckungen nicht für sich. Sie spendeten nicht nur die kritischen Reissorten an Forschungsinstitute innerhalb und außerhalb Chinas, sondern lehrten auch Landwirte in vielen Ländern, Hybridreis anzubauen und zu kultivieren. Für seine Beiträge wurde er mit dem State Preeminent Science and Technology Award of China, dem Wolf Prize in Agriculture und dem World Food Prize ausgezeichnet und war als „Vater des Hybridreis“ bekannt. Yuan Longping widmete sein Leben der weiteren Verbesserung von Hybridreis. Im März 2021 brach Yuan Longping in seiner Hybridreis-Forschungsbasis in Hainan zusammen und starb im Mai desselben Jahres.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

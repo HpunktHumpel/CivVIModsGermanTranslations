@@ -108,6 +108,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. p0kiehl's Satrap's Court (chimp & p0kiehl | H.Humpel)
 1. p0kiehl's Temple of Poseidon (p0kiehl | H.Humpel)
 1. Persuade Defectors Project (Sailor Cat | Junky)
+1. Phantagonist's Hybrid Rice and Biofuel (Phantagonist | H.Humpel)
 1. Phantagonist’s Slavery and Emancipation (Phantagonist | H.Humpel)
 1. Policy Change Reminder (FinalFreak16 | Junky)
 1. Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)

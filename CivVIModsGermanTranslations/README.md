@@ -148,6 +148,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | #16
 2772587481 | Phantagonist’s Slavery and Emancipation | Phantagonist | H.Humpel | #17
 2775613909 | Rest Reminder | Flactine | H.Humpel | #16
+2789675328 | Phantagonist's Hybrid Rice and Biofuel | Phantagonist | H.Humpel | **NEW**
 2789835828 | Modern Building Expansion | HktkNban | Junky | **NEW**
 2789845307 | Cree's Casino - Minor Buffs | Trexatron | H.Humpel | #17
 2791672777 | Sukritact's Babylon Rework | sukritact | Junky | **NEW**
