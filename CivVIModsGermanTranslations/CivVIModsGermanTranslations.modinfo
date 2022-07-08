@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]155[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]156[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657302042</Created>
+    <Created>1657303808</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -95,6 +95,9 @@
     </Criteria>
     <Criteria id="RealEraStop_FrontEnd">
       <ModIsEnabled>bbaf474e-e476-4ea8-8a98-b6fa6d12b515</ModIsEnabled>
+    </Criteria>
+    <Criteria id="ReligionExpanded_FrontEnd">
+      <ModIsEnabled>c6775ded-6693-474a-ade5-b4c51d932bd8</ModIsEnabled>
     </Criteria>
     <Criteria id="RequestedPantheons_FrontEnd">
       <ModIsEnabled>ef3d3f18-490d-4244-866a-d8687d6570df</ModIsEnabled>
@@ -457,6 +460,9 @@
     <Criteria id="Reindeer">
       <ModInUse>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModInUse>
     </Criteria>
+    <Criteria id="ReligionExpanded">
+      <ModInUse>c6775ded-6693-474a-ade5-b4c51d932bd8</ModInUse>
+    </Criteria>
     <Criteria id="RemovableDistricts">
       <ModInUse>7ce74c28-41ba-4453-b3d1-d30ef8013887</ModInUse>
     </Criteria>
@@ -732,6 +738,10 @@
       <!-- Ethiopia DLC -->
       <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
       <!-- Vietnam DLC -->
+    </Criteria>
+    <!-- Religion Expanded -->
+    <Criteria id="XP1 or XP2" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
     </Criteria>
     <!-- UC Criteria -->
     <Criteria id="UC">
@@ -1053,6 +1063,13 @@
     <UpdateText id="RealEraStop_FrontEnd_de_DE">
       <Criteria>RealEraStop_FrontEnd</Criteria>
       <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="ReligionExpanded_FrontEnd_Config_Text_de_DE">
+      <Criteria>ReligionExpanded_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <File>1178185727/Core/Localisation/Config_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="RequestedPantheons_FrontEnd_de_DE">
       <Criteria>RequestedPantheons_FrontEnd</Criteria>
@@ -1942,6 +1959,35 @@
       <Criteria>Reindeer</Criteria>
       <File>1595724214/Reindeer_Text_de_DE.xml</File>
       <File>1595724214/Reindeer_Text_patch_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="ReligionExpanded_Localisation_de_DE">
+      <Criteria>ReligionExpanded</Criteria>
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>1178185727/Core/Localisation/Abilities_Text_de_DE.sql</File>
+      <File>1178185727/Core/Localisation/Buildings_Text_de_DE.sql</File>
+      <File>1178185727/Core/Localisation/Religion_Text_de_DE.sql</File>
+      <File>1178185727/Core/Localisation/Updated_Buildings_Text_de_DE.sql</File>
+      <File>1178185727/Core/Localisation/Updated_Religion_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="ReligionExpanded_Localisation_XP1_or_XP2_de_DE">
+      <Criteria>ReligionExpanded</Criteria>
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>1178185727/Core/Localisation/Religion_Text_XP1_or_XP2_de_DE.sql</File>
+      <File>1178185727/Core/Localisation/Updated_Religion_Text_XP1_or_XP2_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="ReligionExpanded_Localisation_XP2_de_DE">
+      <Criteria>ReligionExpanded</Criteria>
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>1178185727/Core/Localisation/Religion_Text_XP2_de_DE.sql</File>
+      <File>1178185727/Core/Localisation/Updated_Religion_Text_XP2_de_DE.sql</File>
     </UpdateText>
     <UpdateDatabase id="RemovableDistricts_Gameplay_de_DE">
       <Criteria>RemovableDistricts</Criteria>
@@ -2840,6 +2886,16 @@
     <File>1150492115/Core/Common/Suk_Resources_Localisation_de_DE.sql</File>
     <File>1156692726/Text/NewBuilding_Text_de_DE.xml</File>
     <File>1166015050/XML/Draft_Text_de_DE.xml</File>
+    <File>1178185727/Core/Localisation/Abilities_Text_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Buildings_Text_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Config_Text_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Religion_Text_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Religion_Text_XP1_or_XP2_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Religion_Text_XP2_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Updated_Buildings_Text_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Updated_Religion_Text_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Updated_Religion_Text_XP1_or_XP2_de_DE.sql</File>
+    <File>1178185727/Core/Localisation/Updated_Religion_Text_XP2_de_DE.sql</File>
     <File>1234108301/NewBuilding_Text_de_DE.xml</File>
     <File>1282516512/SeedsOfGrowth_Text_de_DE.xml</File>
     <File>1293801965/Core/p0k_Resources_Localisation_de_DE.sql</File>

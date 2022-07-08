@@ -16,6 +16,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1150492115 | Sukritact's Resources | Deliverator23 & sukritact | Junky | #7
 1156692726 | Civ VI Beer | AOM | H.Humpel | #2
 1166015050 | The Draft | blkbutterfly | H.Humpel | #9
+1178185727 | Religion Expanded |  Sailor Cat, SeelingCat, chimp, Chrisy15, & p0kiehl | Junky | **NEW**
 1234108301 | Yellow Crane Tower | WindFly | H.Humpel | #7
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
 1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | #14
