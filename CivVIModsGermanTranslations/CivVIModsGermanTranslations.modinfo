@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]153[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]154[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657299228</Created>
+    <Created>1657300948</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -381,6 +381,9 @@
     </Criteria>
     <Criteria id="NotreDameDeParis">
       <ModInUse>3db98aba-d7ca-4b4d-9596-e2344e593ed0</ModInUse>
+    </Criteria>
+    <Criteria id="p0kiehlsBetterAqueduct">
+      <ModInUse>e6286099-0df9-4437-89a1-40e8d75cb023</ModInUse>
     </Criteria>
     <Criteria id="p0kiehlsPrecinctOfAmunRa">
       <ModInUse>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModInUse>
@@ -1777,6 +1780,13 @@
       <Criteria>NotreDameDeParis</Criteria>
       <File>1714267495/Data_Local_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="p0kiehlsBetterAqueduct_de_DE">
+      <Criteria>p0kiehlsBetterAqueduct</Criteria>
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>1720804635/Core/BetterAqueduct_Localisation_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="p0kiehlsPrecinctOfAmunRa_de_DE">
       <Criteria>p0kiehlsPrecinctOfAmunRa</Criteria>
       <Properties>
@@ -2854,6 +2864,7 @@
     <File>1714267495/Data_Local_de_DE.xml</File>
     <File>1717330418/Magazine1_Gameplay_patch.sql</File>
     <File>1717330418/Magazine1_Text_de_DE.xml</File>
+    <File>1720804635/Core/BetterAqueduct_Localisation_de_DE.sql</File>
     <File>1731670144/MoreTier1Policies_Text_de_DE.xml</File>
     <File>1746376988/Core/p0k_Temple_Poseidon_Localisation_de_DE.xml</File>
     <File>1746994170/spypromotiontree_text_de_DE.sql</File>
