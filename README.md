@@ -124,6 +124,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Riflemen Unit (ChessPro2007 | Junky)
 1. Sappers - Military Engineers support sieges (JNR | Junky)
 1. Seeds of Growth Policy (Ian G | H.Humpel)
+1. Silk & Spice: Trade Route Rework (Alf.Net | Junky)
 1. Ski Resort Complexity (JNR | H.Humpel)
 1. SquirrelMod - BetterCity (Neicureuil | H.Humpel)
 1. Steel and Thunder: Unique Units (Deliverator23, janboruta & chimp | Junky)
@@ -178,7 +179,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Adriaman, Albro, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani & Zur13
+- A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani & Zur13
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
