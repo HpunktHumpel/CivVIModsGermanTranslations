@@ -121,6 +121,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Requested Pantheons (Angryr | H.Humpel)
 1. Resource Producing Buildings (Surt Ignir Magnis | H.Humpel)
 1. Rest Reminder (Flactine | H.Humpel)
+1. Revenge of the Barbarians (Shadow | Junky)
 1. Riflemen Unit (ChessPro2007 | Junky)
 1. Sappers - Military Engineers support sieges (JNR | Junky)
 1. Seeds of Growth Policy (Ian G | H.Humpel)

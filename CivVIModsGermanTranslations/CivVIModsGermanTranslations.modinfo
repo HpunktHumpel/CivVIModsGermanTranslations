@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]150[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]151[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657295351</Created>
+    <Created>1657296351</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -456,6 +456,9 @@
     </Criteria>
     <Criteria id="RestReminder">
       <ModInUse>db61715e-15cf-4723-8d0c-1103f97c1322</ModInUse>
+    </Criteria>
+    <Criteria id="RevengeOfTheBarbarians">
+      <ModInUse>ea60ccac-33af-4c8e-96f0-1f789af41f5b</ModInUse>
     </Criteria>
     <Criteria id="RiflemenUnit">
       <ModInUse>7837204c-9f2a-45f3-9acb-5de809c58edc</ModInUse>
@@ -1889,6 +1892,10 @@
       <Criteria>RestReminder</Criteria>
       <File>2775613909/Text/TR_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="RevengeOfTheBarbarians_de_DE">
+      <Criteria>RevengeOfTheBarbarians</Criteria>
+      <File>1935036456/Core/BarbarianRevenge_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="RiflemenUnit_de_DE">
       <Criteria>RiflemenUnit</Criteria>
       <Properties>
@@ -2836,6 +2843,7 @@
     <File>1901462404/Text/UC_SAT_Text_de_DE.sql</File>
     <File>1911190056/GameText1_de_DE.xml</File>
     <File>1935024345/Core/ModernInfantry_Text_de_DE.sql</File>
+    <File>1935036456/Core/BarbarianRevenge_Text_de_DE.sql</File>
     <File>1945460659/Text/ALLY_Text_de_DE.sql</File>
     <File>2021476879/Text/CityOriginalOwnerInfo_Text_de_DE.xml</File>
     <File>2056401784/Text/ModSupport/UC_COM_Text_CS_CSB_de_DE.sql</File>
