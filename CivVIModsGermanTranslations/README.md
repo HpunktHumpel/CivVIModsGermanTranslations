@@ -118,6 +118,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2
 2479195330 | Monopoly++: Product and Corporation Adjustments | Leugi | Junky | #7
 2479197624 | Monopoly++: Tycoons and Investors | Leugi | Junky | #11
+2479201135 | Monopoly++: Celebrities | Leugi | Junky | **NEW**
 2493618364 | Vinrock's Pantheons | Vinrock | H.Humpel | #10
 2494925002 | Greatest Cities | Technoluddite | Junky | #7
 2497071692 | Bonus Resource Improvements | JNR | Junky | #7

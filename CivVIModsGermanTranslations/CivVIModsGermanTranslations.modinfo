@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]152[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]153[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657297540</Created>
+    <Created>1657299228</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -345,6 +345,9 @@
     </Criteria>
     <Criteria id="ModernInfantry">
       <ModInUse>88437b31-15d2-48da-b71f-2f13b34e6b42</ModInUse>
+    </Criteria>
+    <Criteria id="MonopolyPlusCelebrities">
+      <ModInUse>66cfee5f-879a-4eb4-8789-0070470b2b0e</ModInUse>
     </Criteria>
     <Criteria id="MonopolyPlusProductAndCorporationAdjustments">
       <ModInUse>a64e1c66-ce48-4d80-8225-47402db353aa</ModInUse>
@@ -1682,6 +1685,30 @@
       </Properties>
       <File>1935024345/Core/ModernInfantry_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="MonopolyPlusCelebrities_Text_de_DE">
+      <Criteria>MonopolyPlusCelebrities</Criteria>
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>2479201135/Text/RockBandTextAdjustments_de_DE.sql</File>
+      <File>2479201135/Text/RockBand_GreatPeopleText_de_DE.sql</File>
+      <File>2479201135/Text/RockBand_PediaAdjustments_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MonopolyPlusCelebrities_CorporationText_de_DE">
+      <Criteria>MonopolyPlusCelebrities</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>2479201135/Text/RockBandCorporationsTextAdjustments_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MonopolyPlusCelebrities_JNRCompatibilityTexts_de_DE">
+      <Criteria>MonopolyPlusCelebrities</Criteria>
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>2479201135/Text/RockBand_JNRCompatibilityTexts_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="MonopolyPlusProductAndCorporationAdjustments_de_DE">
       <Criteria>MonopolyPlusProductAndCorporationAdjustments</Criteria>
       <Criteria>Monopolies_Mode</Criteria>
@@ -2961,6 +2988,11 @@
     <File>2479197624/Text/MonopolyPlus_ImprovementTexts_de_DE.sql</File>
     <File>2479197624/Text/MonopolyPlus_JNRCompatibilityTexts_de_DE.sql</File>
     <File>2479197624/Text/MonopolyPlus_TycoonsText_de_DE.sql</File>
+    <File>2479201135/Text/RockBandCorporationsTextAdjustments_de_DE.sql</File>
+    <File>2479201135/Text/RockBandTextAdjustments_de_DE.sql</File>
+    <File>2479201135/Text/RockBand_GreatPeopleText_de_DE.sql</File>
+    <File>2479201135/Text/RockBand_JNRCompatibilityTexts_de_DE.sql</File>
+    <File>2479201135/Text/RockBand_PediaAdjustments_de_DE.sql</File>
     <File>2493618364/tooltip_de_DE.xml</File>
     <File>2494925002/Text/AKGC_Text_de_DE.xml</File>
     <File>2497071692/Text/ModSupport/RIB_Text_Latin_de_DE.sql</File>

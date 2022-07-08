@@ -90,6 +90,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Mechanized Builders (Masked Man | Junky)
 1. Modern Building Expansion (HktkNban | Junky)
 1. Modern Infantry (Shadow | Junky)
+1. Monopoly++: Celebrities (Leugi | Junky)
 1. Monopoly++: Product and Corporation Adjustments (Leugi | Junky)
 1. Monopoly++: Resource Requirement Setup (Leugi | Junky)
 1. Monopoly++: Tycoons and Investors (Leugi | Junky)
