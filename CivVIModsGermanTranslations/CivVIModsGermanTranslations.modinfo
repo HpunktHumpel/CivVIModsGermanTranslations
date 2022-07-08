@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]151[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]152[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657296351</Created>
+    <Created>1657297540</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -101,6 +101,9 @@
     </Criteria>
     <Criteria id="SteelAndThunderUniqueUnits_FrontEnd">
       <ModIsEnabled>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModIsEnabled>
+    </Criteria>
+    <Criteria id="SukritactsBabylonRework_FrontEnd">
+      <ModIsEnabled>ca136b80-ec33-4963-b76a-afef5bd15bfb</ModIsEnabled>
     </Criteria>
     <Criteria id="SukritactsEgyptRework_FrontEnd">
       <ModIsEnabled>8b858b76-6a79-4a30-a388-2316c4fbf496</ModIsEnabled>
@@ -489,6 +492,9 @@
     </Criteria>
     <Criteria id="StrategicForts">
       <ModInUse>6ad2d524-acf8-4924-a0ca-3f52d8fa745e</ModInUse>
+    </Criteria>
+    <Criteria id="SukritactsBabylonRework">
+      <ModInUse>ca136b80-ec33-4963-b76a-afef5bd15bfb</ModInUse>
     </Criteria>
     <Criteria id="SukritactsEgyptRework">
       <ModInUse>8b858b76-6a79-4a30-a388-2316c4fbf496</ModInUse>
@@ -1040,6 +1046,13 @@
     <UpdateText id="SteelAndThunderUniqueUnits_FrontEnd_de_DE">
       <Criteria>SteelAndThunderUniqueUnits_FrontEnd</Criteria>
       <File>1362931045/Text/MoarUniqueUnits_LocalisationText_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="SukritactsBabylonRework_FrontEnd_de_DE">
+      <Criteria>SukritactsBabylonRework_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>2791672777/Core/Localisation/Suk_BablyonRework_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
       <Criteria>SukritactsEgyptRework_FrontEnd</Criteria>
@@ -1954,6 +1967,13 @@
       </Properties>
       <File>1142306094/StrategicForts_Text_en_US.sql</File>
       <File>1142306094/StrategicForts_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="SukritactsBabylonRework_de_DE">
+      <Criteria>SukritactsBabylonRework</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>2791672777/Core/Localisation/Suk_BablyonRework_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SukritactsEgyptRework_de_DE">
       <Criteria>SukritactsEgyptRework</Criteria>
@@ -2985,6 +3005,7 @@
     <File>2775613909/Text/TR_Text_de_DE.xml</File>
     <File>2789835828/Text/Text_de_DE.xml</File>
     <File>2789845307/Cree_Text_de_DE.sql</File>
+    <File>2791672777/Core/Localisation/Suk_BablyonRework_Localisation_de_DE.sql</File>
     <File>2792841983/Core/MN_Text_de_DE.xml</File>
     <File>2793114339/Core/6TUE_Infantry_Text_de_DE.sql</File>
     <File>2793114662/Core/6TUE_Cavalry_Text_de_DE.sql</File>

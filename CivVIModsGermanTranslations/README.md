@@ -145,6 +145,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2775613909 | Rest Reminder | Flactine | H.Humpel | #16
 2789835828 | Modern Building Expansion | HktkNban | Junky | **NEW**
 2789845307 | Cree's Casino - Minor Buffs | Trexatron | H.Humpel | #17
+2791672777 | Sukritact's Babylon Rework | sukritact | Junky | **NEW**
 2792841983 | Naval Mine | Shuricas | H.Humpel | #17
 2793114339 | Unit Expansion: Infantry (Project 6T) | JNR | Junky | #17
 2793114662 | Unit Expansion: Cavalry (Project 6T) | JNR | Junky | #17
