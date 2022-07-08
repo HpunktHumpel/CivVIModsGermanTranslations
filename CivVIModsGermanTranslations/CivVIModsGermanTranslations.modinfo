@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]149[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]150[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657292834</Created>
+    <Created>1657295351</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -471,6 +471,9 @@
     </Criteria>
     <Criteria id="SkiResortComplexity">
       <ModInUse>383e7753-bea6-4ff1-9ee4-e78c59f11c4f</ModInUse>
+    </Criteria>
+    <Criteria id="SpyPromotionTree">
+      <ModInUse>7fd55004-6f24-4e96-bf17-c5b0977602d6</ModInUse>
     </Criteria>
     <Criteria id="SquirrelModBetterCity">
       <ModInUse>11a33a68-e4f7-42f2-ae42-68bbaa264562</ModInUse>
@@ -1915,6 +1918,13 @@
       <Criteria>SkiResortComplexity</Criteria>
       <File>1657288046/II_SR_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SpyPromotionTree_de_DE">
+      <Criteria>SpyPromotionTree</Criteria>
+      <Properties>
+        <LoadOrder>125</LoadOrder>
+      </Properties>
+      <File>1746994170/spypromotiontree_text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SquirrelModBetterCity_de_DE">
       <Criteria>SquirrelModBetterCity</Criteria>
       <File>1830573953/SM_BC_Texts_de_DE.xml</File>
@@ -2792,6 +2802,7 @@
     <File>1717330418/Magazine1_Text_de_DE.xml</File>
     <File>1731670144/MoreTier1Policies_Text_de_DE.xml</File>
     <File>1746376988/Core/p0k_Temple_Poseidon_Localisation_de_DE.xml</File>
+    <File>1746994170/spypromotiontree_text_de_DE.sql</File>
     <File>1747105772/Text/UC_PPC_Text_de_DE.sql</File>
     <File>1768673720/MC_Castles_Text_de_DE.sql</File>
     <File>1770688835/Text/Globe_Theatre_Text_de_DE.xml</File>

@@ -55,6 +55,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1717330418 | Very Nice Magazine | Mgwska | H.Humpel | #15
 1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | #13
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
+1746994170 | Spy Promotion Tree | Luke Vo | Junky | **NEW**
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
 1768673720 | Castles - Better Forts | JNR | Junky | #6
 1770688835 | Globe Theatre (World Wonder) | Deliverator23 | H.Humpel | #4
