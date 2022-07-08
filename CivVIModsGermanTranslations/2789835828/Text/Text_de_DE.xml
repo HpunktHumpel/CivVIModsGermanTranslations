@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_POLICE_STATION_NAME">
+			<Text>Polizeirevier</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_POLICE_STATION_DESCRIPTION">
+			<Text>+8 [ICON_PressureUp] Loyalität pro Runde. Bietet zusätzlich +2 [ICON_Amenities] Annehmlichkeiten, wenn die Stadt bereits über maximale Loyalität verfügt.</Text>
+		</Replace>
+
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WATER_PURIFICATION_PLANT_NAME">
+			<Text>Wasseraufbereitungsanlage</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WATER_PURIFICATION_PLANT_DESCRIPTION">
+			<Text>+10% [ICON_Food] Nahrung, wenn [ICON_Power] energieversorgt.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_SEWAGE_TREATMENT_PLANT_NAME">
+			<Text>Kläranlage</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_SEWAGE_TREATMENT_PLANT_DESCRIPTION">
+			<Text>+50% Bevölkerungswachstum, wenn [ICON_Power] energieversorgt.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WASTE_TO_ENERGY_PLANT_NAME">
+			<Text>Müllverbrennungsanlage</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WASTE_TO_ENERGY_PLANT_DESCRIPTION">
+			<Text>Gewährt +2 [ICON_Power] Energie für je 10 [ICON_Citizen] Bürger (maximal +10 [ICON_Power] Energie).</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_HAUNTED_ATTRACTION_NAME">
+			<Text>Geisterattraktion</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_HAUNTED_ATTRACTION_DESCRIPTION">
+			<Text>Kann nur mit [ICON_Faith] Glauben gekauft werden. +10 [ICON_Tourism] Tourismus. +100% religiöser Druck durch diese Stadt auf angrenzende Felder. +1 [ICON_Faith] pro Spezialbezirk der Stadt.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_MEGACORP_NAME">
+			<Text>Unternehmenshauptsitz</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_MEGACORP_DESCRIPTION">
+			<Text>Benötigt 4 [ICON_Power] Energie. Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +20% [ICON_Gold] Gold in der Stadt. +10 [ICON_Tourism] Tourismus für je 10 [ICON_Citizen] Bürger (maximal +40).</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_AEROSPACE_LABORATORY_NAME">
+			<Text>Luft- und Raumfahrtlabor</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_AEROSPACE_LABORATORY_DESCRIPTION">
+			<Text>Benötigt 4 [ICON_Power] Energie. Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +20% [ICON_Science] Wissenschaft in der Stadt. +50% [ICON_Production] Production toward Space Race projects.</Text>
+		</Replace>
+
+		<Replace Language="de_DE" Tag="LOC_BUILDING_TELECOM_FACILITIES_NAME">
+			<Text>Fernmeldeanlagen</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_TELECOM_FACILITIES_DESCRIPTION">
+			<Text>Benötigt 4 [ICON_Power] Energie. Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +20% [ICON_Culture] Kultur in der Stadt. +10% [ICON_Tourism] Tourismusausstoß für die gesamte Nation, wenn die Stadt mehr als [ICON_Citizen] 30 Bürger hat.</Text>
+		</Replace>
+
+		<Replace Language="de_DE" Tag="LOC_BUILDING_NUCLEAR_FUEL_FACTORY_NAME">
+			<Text>Urananreicherungsanlage</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_NUCLEAR_FUEL_FACTORY_DESCRIPTION">
+			<Text>Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +2 [ICON_Resource_Uranium] Uran pro Runde. +50% [ICON_Production] Production toward Nuclear Devices.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_MILITARY_RESEARCH_INSTITUTE_NAME">
+			<Text>Militärforschungsinstitut</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_MILITARY_RESEARCH_INSTITUTE_DESCRIPTION">
+			<Text>Gewährt 25% der Produktionskosten einer in dieser Stadt erstellten Militäreinheit als [ICON_Science] Wissenschaft. Strategisches Ressourcenlager +10 (auf Standardgeschwindigkeit).</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_CONTAINER_TERMINAL_NAME">
+			<Text>Umschlaghafen</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_CONTAINER_TERMINAL_DESCRIPTION">
+			<Text>+1 [ICON_Food] Nahrung, +1 [ICON_Production] Produktion und +2 [ICON_Gold] Gold auf allen Ozeanfeldern der Stadt. +2 [ICON_Food] Nahrung, +2 [ICON_Gold] Gold für Ursprungs- und Zielstadt bei internationalen [ICON_TradeRoute] Handelswegen zu dieser Stadt.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_INTERNATIONAL_AIRPORT_NAME">
+			<Text>Internationaler Flughafen</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_INTERNATIONAL_AIRPORT_DESCRIPTION">
+			<Text>+4 Plätze für Lufteinheiten im Flugplatz. Ist die Stadt [ICON_Power] energieversorgt und hat 30 [ICON_Citizen] Bürger oder mehr, erhaltet Ihr +10% [ICON_Tourism] Tourismusausstoß von internationalen [ICON_TradeRoute] Handelswegen Eurer Nation.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_RESORT_HOTEL_NAME">
+			<Text>Kurhotel</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_RESORT_HOTEL_DESCRIPTION">
+			<Text>Zusätzliche [ICON_Amenities] Annehmlichkeiten für alle Stadtzentren im Umkreis von 6 Geländefeldern. Dieser Bonus wird einmalig pro Stadt angewendet und mehrere Gebäude dieses Typs innerhalb von 6 Geländefeldern innerhalb eines Stadtzentrums bieten keine zusätzlichen Bonusse. [NEWLINE][NEWLINE]Wenn diese Stadt [ICON_Power] energieversorgt ist und mindestens 30 [ICON_Citizen] Bürger hat, gewährt die Stadt +25% [ICON_Tourism] Tourismusausstoß auf Städte anderer Nationen, die bereits die Moderne erreicht haben.</Text>
+		</Replace>
+		
+		<Replace Language="de_DE" Tag="LOC_BUILDING_CRUISE_SHIP_TERMINAL_NAME">
+			<Text>Kreuzfahrtterminal</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_CRUISE_SHIP_TERMINAL_DESCRIPTION">
+			<Text>Zusätzliche [ICON_Amenities] Annehmlichkeiten für alle Stadtzentren im Umkreis von 9 Geländefeldern. Dieser Bonus wird einmalig pro Stadt angewendet und mehrere Gebäude dieses Typs innerhalb von 9 Geländefeldern innerhalb eines Stadtzentrums bieten keine zusätzlichen Bonusse. [NEWLINE][NEWLINE]Wenn diese Stadt [ICON_Power] energieversorgt ist und mindestens 30 [ICON_Citizen] Bürger hat, gewährt die Stadt +25% [ICON_Tourism] Tourismusausstoß auf Städte anderer Nationen, die bereits die Moderne erreicht haben.</Text>
+		</Replace>
+		
+		<!-- 臨海区域 -->
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WATER_MEGACORP_NAME">
+			<Text>Unternehmenshauptsitz (Uferbezirk)</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WATER_AEROSPACE_LABORATORY_NAME">
+			<Text>Luft- und Raumfahrtlabor (Uferbezirk)</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WATER_TELECOM_FACILITIES_NAME">
+			<Text>Fernmeldeanlagen (Uferbezirk)</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_BUILDING_WATER_NUCLEAR_FUEL_FACTORY_NAME">
+			<Text>Urananreicherungsanlage (Uferbezirk)</Text>
+		</Replace>
+		
+		<!--
+		<Replace Language="de_DE" Tag="">
+			<Text></Text>
+		</Replace>
+		-->
+
+	</LocalizedText>
+</GameData>

@@ -141,6 +141,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | #16
 2772587481 | Phantagonist’s Slavery and Emancipation | Phantagonist | H.Humpel | #17
 2775613909 | Rest Reminder | Flactine | H.Humpel | #16
+2789835828 | Modern Building Expansion | HktkNban | Junky | **NEW**
 2789845307 | Cree's Casino - Minor Buffs | Trexatron | H.Humpel | #17
 2792841983 | Naval Mine | Shuricas | H.Humpel | #17
 2793114339 | Unit Expansion: Infantry (Project 6T) | JNR | Junky | #17

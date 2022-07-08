@@ -1,6 +1,7 @@
 08.07.2022
 
 - [NEW] EpsTweak for Adjacency Multipliers (vom 9. Mai 2021 um 22:08, Übersetzung von Junky)
+- [NEW] Modern Building Expansion (vom 18. Apr. 2022 um 11:59, Übersetzung von Junky)
 
 
 ===== Version 17 =====
