@@ -116,6 +116,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2402394695 | District Expansion: Industry | JNR | Junky | #14
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
+2444029678 | Upgrades Keep Unique Abilities | Sailor Cat | Junky | **NEW**
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
 2458280109 | Keep Unique Buildings | Fuzzletop | Junky | #15
 2474028548 | District Expansion: Entertainment | JNR | Gorowynn | #2

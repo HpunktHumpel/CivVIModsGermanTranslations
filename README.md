@@ -156,6 +156,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Unit Expansion: Infantry (Project 6T) (JNR | Junky)
 1. Unit Expansion: Medieval Pirate Unit (D | Junky)
 1. Unit Expansion: Naval (Project 6T) (JNR | Junky)
+1. Upgrades Keep Unique Abilities (Sailor Cat | Junky)
 1. Very Nice Magazine (Mgwska | H.Humpel)
 1. Vinrock's Pantheons (Vinrock | H.Humpel)
 1. Wetlands (JNR | Junky)

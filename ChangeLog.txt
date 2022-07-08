@@ -10,6 +10,7 @@
 - [NEW] Silk & Spice: Trade Route Rework (vom 16. Apr. 2022 um 0:35, Übersetzung von Junky)
 - [NEW] Spy Promotion Tree (vom 28. Mai 2019 um 11:18, Übersetzung von Junky)
 - [NEW] Sukritact's Babylon Rework (vom 9. Apr. 2022 um 16:23, Übersetzung von Junky)
+- [NEW] Upgrades Keep Unique Abilities (vom 28. Juni 2021 um 22:26, Übersetzung von Junky)
 
 
 ===== Version 17 =====

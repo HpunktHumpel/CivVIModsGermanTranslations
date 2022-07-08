@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_SAILOR_LLANERO_ADJACENCY_STRENGTH_UNIT_HELICOPTER_DESCRIPTION" Language="de_DE">
+			<Text>+{CalculatedAmount} [ICON_Strength] Kampfstärke durch angrenzenden Helikopter.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAILOR_INHERITED_STRENGTH_PREVIEW_TEXT" Language="de_DE">
+			<Text>{1_Amount} vererbt durch einzigartige Einheit.</Text>
+		</Replace>
+		<!-- Steel & Thunder-->
+		<Replace Tag="LOC_ABILITY_SAILOR_VARANGIAN_PREVIEW_TEXT" Language="de_DE">
+			<Text>{1_Amount} vererbt durch einzigartige Einheit.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
