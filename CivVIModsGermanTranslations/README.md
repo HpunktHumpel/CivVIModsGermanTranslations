@@ -160,3 +160,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2793115197 | Unit Expansion: Aircraft (Project 6T) | JNR | Junky | #17
 2794603014 | Detailed Wonder Reminder | Konomi | H.Humpel | #17
 2794935656 | Silk & Spice: Trade Route Rework | Alf.Net | Junky | **NEW**
+2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | **NEW**
