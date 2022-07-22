@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_BUILDING_YELLOW_CRANE_NAME" Language="de_DE">
-			<Text>Kranichpagode</Text>
+		<Replace Tag="LOC_BUILDING_YELLOW_CRANE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Kranichpagode|Kranichpagode|Kranichpagode|Kranichpagode|Kranichpagode</Text>
 		</Replace>
 		<!-- The description of the building, used in various places. -->
 		<Replace Tag="LOC_BUILDING_YELLOW_CRANE_DESCRIPTION" Language="de_DE">

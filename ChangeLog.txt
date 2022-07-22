@@ -5,6 +5,7 @@
 - [IMPROVED] Strategic Forts
 - [IMPROVED] The Draft
 - [IMPROVED] Tower Bridge (World Wonder)
+- [IMPROVED] Yellow Crane Tower
 
 
 ===== Version 18 =====
