@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_UNIT_SHU_ICEBREAKER_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+      <Text>Eisbrecher|Eisbrecher|Eisbrecher|Eisbrechers|Eisbrecher</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_SHU_ICEBREAKER_DESCRIPTION" Language="de_DE">
+      <Text>Unterstützungseinheit des Industriezeitalters. Ignoriert die Kosten für die Fortbewegung auf Eis. Alle Einheiten im Verbund mit Eisbrechnern bewegen sich mit der gleichen Geschwindigkeit.</Text>
+    </Replace>
+	  <Replace Tag="LOC_UNIT_SHU_URAN_ICEBREAKER_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+		  <Text>Atomeisbrecher|Atomeisbrecher|Atomeisbrecher|Atomeisbrechers|Atomeisbrecher</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHU_URAN_ICEBREAKER_DESCRIPTION" Language="de_DE">
+		  <Text>Unterstützungseinheit des Atomzeitalters. Ignoriert die Kosten für die Fortbewegung auf Eis. Alle Einheiten im Verbund mit Atomeisbrechnern bewegen sich mit der gleichen Geschwindigkeit.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_ICE1_DESK" Language="de_DE">
+		  <Text>Alle Einheiten im Verbund mit Eisbrechern und Atomeisbrechern bewegen sich mit der gleichen Geschwindigkeit.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ICE2_DESK" Language="de_DE">
+		  <Text>Ignoriert die Kosten für die Fortbewegung auf Eis.</Text>
+	  </Replace>
+	  <Replace Tag="UNI_CANADA_POL_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+		  <Text>Polar-Eisbrecher|Polar-Eisbrecher|Polar-Eisbrecher|Polar-Eisbrechers|Polar-Eisbrecher</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_CANADA_POLAR_DESCRIPTION" Language="de_DE">
+		  <Text>Kanadische einzigartige Einheit, die den Atomeisbrecher ersetzt. +1 [ICON_Movement] Fortbewegung und Sichtweite.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_CANADA_LOUIS_NAME" Language="de_DE">
+		  <Text>Louis S. St-Laurent</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_CANADA_LOUIS_DESCRIPTION" Language="de_DE">
+		  <Text>Kanadische einzigartige Einheit, die den Eisbrecher ersetzt. +1 [ICON_Movement] Fortbewegung und Sichtweite.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_MOD_ICE_NAME" Language="de_DE">
+		  <Text>[COLOR_FLOAT_SCIENCE]Icebreaker[ENDCOLOR]</Text>
+	  </Replace>
+	  <Replace Tag="LOC_MOD_ICE_TEAS" Language="de_DE">
+		  <Text>Fügt [COLOR_FLOAT_SCIENCE]Eisbrecher[ENDCOLOR] und [COLOR_FLOAT_GOLD]Atomeisbrecher[ENDCOLOR] zum Spiel hinzu.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_MOD_ICE_DESK" Language="de_DE">
+		  <Text>Macht [COLOR_LIGHTBLUE]Eis passierbar[ENDCOLOR] (Bewegungskosten = 200).[NEWLINE][COLOR_RED]U-Boote[ENDCOLOR] ignorieren Bewegungskosten auf Eis.[NEWLINE][COLOR_FLOAT_SCIENCE]Eisbrecher[ENDCOLOR] und [COLOR_FLOAT_GOLD]Atomeinbrecher[ENDCOLOR], sowie Einheiten, die mit ihnen im Verbund fahrenn, ignorieren auch die Kosten der Bewegung auf Eis.[NEWLINE]Fügt 2 einzigartige Einheiten von Kanada hinzu.</Text>
+	  </Replace>
+
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_LOUIS_CHAPTER_HISTORY_PARA_1">
+		  <Text>Die Louis S. St-Laurent wurde am 3. Dezember 1966 von der kanadischen Vickers Limited in Montreal, Quebec, vom Stapel gelassen und im Oktober 1969 in Dienst gestellt. Vom 8. bis 22. September 1969 segelte die Louis S. St-Laurent auf der SS Manhattan-Expedition in der Nordwestpassage. Sie wurde von CCGS John A. Macdonald und den Schiffen USCGC Northwind und USCGC Staten Island der Küstenwache der Vereinigten Staaten unterstützt.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_LOUIS_CHAPTER_HISTORY_PARA_2">
+		  <Text>Im Jahr 1976 unternahm die Louis S. St-Laurent, unter dem Kommando von Kapitän Paul M. Fournier, einen Teildurchgang der Nordwestpassage von Ost nach West durch den Lancaster Sound, den Peel Sound und die Victoria Strait. 1979 unternahm die Louis S. St-Laurent, unter dem Kommando von Kapitän George Burdock, eine vollständige Ost-West-Durchquerung der Nordwestpassage. Sie unterstützte dabei die CCGS Franklin und umrundete Nordamerika.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_LOUIS_CHAPTER_HISTORY_PARA_3">
+		  <Text>Die Louis S. St-Laurent wurde zwischen 1988 und 1993 bei der Halifax Shipyard Ltd. in Halifax, Nova Scotia, einer umfangreichen und kostspieligen Modernisierung unterzogen, bei der ihr Rumpf verlängert sowie neue Antriebs- und Navigationsausrüstung installiert wurde. Das Modernisierungsprogramm war umstritten, da die Regierung von Premierminister Brian Mulroney ursprünglich den Bau einer Klasse von Mega-Eisbrechern (das Polar 8-Projekt) vorgeschlagen hatte, um die kanadische Souveränität in den von Kanada beanspruchten Hoheitsgewässern zu fördern. Die USCGC Polar Sea hatte 1985 zu Beginn der Amtszeit von Mulroney eine nicht autorisierte Durchquerung der Nordwestpassage Kanadas durchgeführt, was einen starken nationalistischen Aufschrei im ganzen Land hervorgerufen hatte. Budgetkürzungen Ende der 1980er Jahre führten jedoch dazu, dass geplante Erweiterungen der Küstenwache und der Streitkräfte ausgesetzt wurden. Als Entschädigung für die Küstenwache beschloss die Regierung, den größten Eisbrecher ihrer Flotte, die Louis S. St-Laurent, zu modernisieren.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_LOUIS_CHAPTER_HISTORY_PARA_4">
+		  <Text>Am 22. August 1994 erreichten die Louis S. St-Laurent und die USCGC Polar Sea als erste nordamerikanische Überwasserschiffe den Nordpol. Im Sommer 2006 konzentrierte sich The National von CBC TV in einer Sonderserie über die Louis S. St-Laurent auf den Klimawandel.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_POLAR_CHAPTER_HISTORY_PARA_1">
+		  <Text>Kanadas Ansprüche auf seine arktische Region und die Nordwestpassage wurden von den Vereinigten Staaten in den Jahren 1969 und 1985 in Frage gestellt. 1969 durchquerte der amerikanische Öltanker Manhattan die gesamte Nordwestpassage mit Hilfe kanadischer und amerikanischer Eisbrecher. Der Transit war schwierig und als Reaktion darauf verabschiedete die kanadische Regierung das Gesetz zur Verhinderung der Verschmutzung der arktischen Gewässer (Arctic Waters Pollution Prevention Act). 1972 hatte Kanada „eisbedeckte Gebiete“ in das Seerechtsübereinkommen der Vereinten Nationen aufgenommen, und 1982 umfasste das Abkommen ausschließliche Wirtschaftszonen, wodurch Kanadas Kontrolle über sein arktisches Gebiet erweitert wurde. 1985 kam es erneut zu Kontroversen, nachdem der Eisbrecher Polar Sea der US-Küstenwache durch die Nordwestpassage gesegelt war, ohne die kanadische Regierung um Erlaubnis gebeten zu haben, was nach den Änderungen des Seerechtsabkommens erforderlich war. Dies wurde noch verstärkt durch die Unfähigkeit des kanadischen Eisbrechers CCGS John A. Macdonald, dem amerikanischen Schiff zu folgen, sobald das Eis zu dick wurde.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_POLAR_CHAPTER_HISTORY_PARA_2">
+		  <Text>Studien zum Bau großer Eisbrecher für Kanadas Norden begannen 1971. Die kanadische Küstenwache versuchte zunächst, zwei Arten von Polareisbrechern zu erwerben, einen Polar 7 und einen Polar 10. Der Polar 7 sollte ein Eisbrecher mit konventionellem Antrieb werden und das Projekt sein wurde Mitte der 1970er Jahre genehmigt, und German und Milne Ltd aus Montreal, das größte Schiffsbauunternehmen des Landes, wurden mit der Konstruktion des Schiffes beauftragt. 1976 bat die kanadische Regierung German und Milne, einen Eisbrecher Polar 10 mit Atomantrieb zu entwerfen. Bis März 1978 hatte sich das erforderliche Design jedoch zu einem Hybridschiff mit nuklear-konventionellem Antrieb geändert, und im Juli 1979 gingen Vorschläge für den Antrieb aus den Vereinigten Staaten, dem Vereinigten Königreich, Deutschland und Frankreich ein. Aus verschiedenen Gründen zogen sich die Nationen bis auf Frankreich im folgenden Jahr zurück.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_POLAR_CHAPTER_HISTORY_PARA_3">
+		  <Text>Der Mangel an Konkurrenz für das hybridbetriebene Polar 10-Eisbrecherdesign veranlasste die kanadische Regierung, Alternativen in Betracht zu ziehen. Dies führte zum Projekt Polar 8, einem großen Eisbrecher mit konventionellem Antrieb. Ein konventionell angetriebener Polar 10-Eisbrecherentwurf wurde als zu kostspielig im Betrieb abgelehnt.</Text>
+	  </Replace>
+
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_ICEBREAKER_CHAPTER_HISTORY_PARA_1">
+		  <Text>Ein Eisbrecher ist ein Spezialschiff oder Boot, das dazu bestimmt ist, sich durch eisbedeckte Gewässer zu bewegen und zu navigieren und sichere Wasserwege für andere Boote und Schiffe bereitzustellen. Obwohl sich der Begriff normalerweise auf eisbrechende Schiffe bezieht, kann er sich auch auf kleinere Schiffe beziehen, wie beispielsweise die eisbrechenden Boote, die einst auf den Kanälen des Vereinigten Königreichs eingesetzt wurden. Damit ein Schiff als Eisbrecher betrachtet werden kann, sind drei Eigenschaften erforderlich, die den meisten normalen Schiffen fehlen: ein verstärkter Rumpf, eine eisbrechende Form und die Kraft, Meereis zu durchdringen.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_ICEBREAKER_CHAPTER_HISTORY_PARA_2">
+		  <Text>Eisbrecher machen Wege frei, indem sie sich direkt in zugefrorenes Wasser oder Packeis schieben. Die Biegefestigkeit von Meereis ist so gering, dass das Eis normalerweise ohne merkliche Veränderung des Schiffstrimms bricht. Bei sehr dickem Eis kann ein Eisbrecher mit seinem Bug auf das Eis fahren, um es unter dem Gewicht des Schiffs zu brechen. Eine Ansammlung von gebrochenem Eis vor einem Schiff kann es viel stärker verlangsamen als das Brechen des Eises selbst, daher haben Eisbrecher einen speziell konstruierten Rumpf, um das gebrochene Eis um oder unter das Schiff zu leiten. Die externen Komponenten des Schiffsantriebssystems (Propeller, Propellerwellen usw.) sind einem größeren Beschädigungsrisiko ausgesetzt als der Schiffsrumpf. Somit ist die Fähigkeit eines Eisbrechers, sich auf das Eis zu treiben, um es zu brechen und die Trümmer erfolgreich aus seinem Weg zu entfernen für seine Sicherheit wesentlich.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_ICEBREAKER_CHAPTER_HISTORY_PARA_3">
+		  <Text>Vor Hochseeschiffen wurde die Eisbrechertechnologie auf Binnenkanälen und Flüssen entwickelt, wobei Arbeiter mit Äxten und Haken eingesetzt wurden. Das erste aufgezeichnete primitive Eisbrecherschiff war ein Lastkahn, der 1383 von der belgischen Stadt Brügge benutzt wurde, um dabei zu helfen, den Stadtgraben zu räumen. Die Bemühungen des eisbrechenden Lastkahns waren so erfolgreich, dass die Stadt den Kauf von vier solcher Schiffe rechtfertigte.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_ICEBREAKER_CHAPTER_HISTORY_PARA_4">
+		  <Text>Eisbrechende Lastkähne wurden in den kälteren Wintern der Kleinen Eiszeit weiterhin eingesetzt, wobei der Einsatz im Low Country, wo erhebliche Mengen an Handel und Personen- und Warentransport stattfanden, zunehmend genutzt wurde. Im Laufe des 15. Jahrhunderts war der Einsatz von Eisbrechern in Flandern (Oudenaarde, Kortrijk, Leper, Veurne, Diksmuide und Hulst) bereits weit verbreitet. Die Verwendung der eisbrechenden Lastkähne weitete sich im 17. Jahrhundert aus, als jede Stadt von einiger Bedeutung im Low Country irgendeine Form von Eisbrechern verwendete, um ihre Wasserstraßen frei zu halten.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_ICEBREAKER_CHAPTER_HISTORY_PARA_5">
+		  <Text>Vor dem 17. Jahrhundert sind die technischen Daten von Eisbrechern unbekannt. Die Spezifikationen für eisbrechende Schiffe zeigen, dass sie von Pferdegespannen gezogen wurden und das schwere Gewicht des Schiffes auf das Eis drückte, um es zu brechen. Sie wurden in Verbindung mit Teams von Männern mit Äxten und Sägen eingesetzt, und die Technologie dahinter änderte sich bis zur industriellen Revolution nicht wesentlich.</Text>
+	  </Replace>
+
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_URAN_ICEBREAKER_CHAPTER_HISTORY_PARA_1">
+		  <Text>Ein Atomeisbrecher ist ein Schiff mit Atomantrieb, das speziell für den Einsatz in mit Eis bedeckten Gewässern gebaut wurde. Während atomgetriebene Eisbrecher von anderen Ländern in Betracht gezogen oder geplant wurden, ist Russland das einzige Land, das sie ab 2022 gebaut und betrieben hat. Atomgetriebene Eisbrecher wurden von der Sowjetunion und später von Russland gebaut, um die Schifffahrt entlang der Nordseeroute in den gefrorenen arktischen Wasserstraßen nördlich von Sibirien zu unterstützen. Atomgetriebene Eisbrecher sind viel leistungsstärker als ihre dieselbetriebenen Gegenstücke. Obwohl die Installation und Wartung von Nuklearantrieben teuer ist, können ein sehr hoher Treibstoffbedarf, eine begrenzte Reichweite und Schwierigkeiten beim Auftanken in der Arktis Dieselschiffe für diese Eisbrecheraufgaben weniger praktisch und insgesamt weniger wirtschaftlich machen. Während des Winters variiert die Eisdicke entlang der Nordseeroute zwischen 1,2 und 2,0 Metern (3,9 bis 6,5 Fuß). Das Eis in zentralen Teilen des Arktischen Ozeans ist im Durchschnitt 2,5 Meter dick. Atomgetriebene Eisbrecher können dieses Eis mit Geschwindigkeiten von bis zu 10 Knoten (19 km/h) durchbrechen. In eisfreien Gewässern beträgt die Höchstgeschwindigkeit der Eisbrecher mit Atomantrieb bis zu 21 Knoten (39 km/h).</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_URAN_ICEBREAKER_CHAPTER_HISTORY_PARA_2">
+		  <Text>Russische Eisbrecher der Arktika-Klasse werden eingesetzt, um zugunsten von Frachtschiffen und anderen Schiffen entlang der Nordseeroute, die den östlichen Teil der Barentssee, die Petschora-See, die Kara-See, die Laptew-See und das Ostsibirisches Meer bis zur Beringstraße umfasst, das Eis zu durchbrechen. Weitere wichtige Hafenstädte sind Dikson, Tiksi und Pevek. Von sechs Eisbrechern der Arktika-Klasse, die zwischen 1975 und 2007 gebaut wurden, sind derzeit zwei im Einsatz.</Text>
+	  </Replace>
+	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHU_URAN_ICEBREAKER_CHAPTER_HISTORY_PARA_3">
+		  <Text>Zwei nuklearbetriebene Eisbrecher mit geringem Tiefgang, Vaygach und Taymyr, wurden für flache Gewässer gebaut und werden normalerweise vom Jenissei bis Dikson eingesetzt, wo sie das Eis durchbrechen, gefolgt von Frachtschiffen mit Holz aus Igarka und Frachtschiffen mit Erz und Metalle aus dem Hafen der Norilsker Gesellschaft in Dudinka. Die Eisbrecher wurden auch für eine Reihe wissenschaftlicher Expeditionen in die Arktis eingesetzt. Am 17. August 1977 erreichte die Arktika als erstes Überwasserschiff der Welt den Nordpol. Seit 1989 werden einige Eisbrecher für arktische Touristenkreuzfahrten eingesetzt.</Text>
+	  </Replace>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,13 @@
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_MOD_ICE_NAME" Language="de_DE">
+      <Text>[COLOR_FLOAT_SCIENCE]Icebreaker[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ICE_TEAS" Language="de_DE">
+      <Text>Adds [COLOR_FLOAT_SCIENCE]Icebreaker[ENDCOLOR] and [COLOR_FLOAT_GOLD]Nuclear Icebreaker[ENDCOLOR] units to the game</Text>
+    </Row>
+    <Row Tag="LOC_MOD_ICE_DESK" Language="de_DE">
+      <Text>Makes [COLOR_LIGHTBLUE]ice passable[ENDCOLOR] (movement cost = 200).[NEWLINE][COLOR_RED]Submarines[ENDCOLOR] ignore ice movement costs.[NEWLINE][COLOR_FLOAT_SCIENCE]Icebreaker[ENDCOLOR] and [COLOR_FLOAT_GOLD]Nuclear Icebreaker[ENDCOLOR], as well as units combined with them, also ignore the cost of moving.[NEWLINE]Adds 2 Unique Unit to Canada.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>
