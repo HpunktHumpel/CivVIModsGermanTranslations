@@ -173,6 +173,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Zee's Decommission Power Plant (_Zee | Junky)
 1. Zee's Properly Timed Eras (_Zee | Junky)
 1. Zee's Strategic Resource Overhaul (_Zee | Junky)
+1. Zombie Worker & Zombie Power Plant (Flactine | H.Humpel)
 
 ## Installation
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ZWorker_Text -->
+<!-- Author: Flactine -->
+<!-- DateCreated: 3/26/2021 9:42:01 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_FLACS_ZWORKER_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>{LOC_UNIT_MODE_ZOMBIE_NAME}-{LOC_UNIT_BUILDER_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FLACS_ZWORKER_DESCRIPTION" Language="de_DE">
+			<Text>Umwandlung vom Zombie, nicht aggressiv. Kann Geländefeld-Modernisierungen erschaffen, Eigenschaften wie Wald oder Regenwald entfernen oder Ressourcen ernten. Kann 3-mal eingesetzt werden.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_FLACS_ZPLANT_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Zombie-Kraftwerk|Zombie-Kraftwerk|Zombie-Kraftwerk|Zombie-Kraftwerks|Zombie-Kraftwerk</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FLACS_ZPLANT_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die {LOC_UNIT_FLACS_ZWORKER_NAME}-Fähigkeit zum Bau eines Zombie-Generators frei.[NEWLINE][NEWLINE]+1 [ICON_Production] Produktion. Bringt 2 [ICON_Power] Energie pro Runde. [NEWLINE]+2 [ICON_Production] Produktion nachdem {LOC_TECH_SANITATION_NAME} oder {LOC_TECH_SYNTHETIC_MATERIALS_NAME} erforscht wurde, +2 [ICON_Science] Wissenschaft nachdem {LOC_TECH_SCIENTIFIC_THEORY_NAME} erforscht wurde. [NEWLINE]Eins pro Stadt. </Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_FLACS_ZPLANT_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Zombies sind Kreaturen mit zwei Eigenschaften: 1. Sie jagen jeden, den sie sehen; 2. Sie hören niemals auf, bis sie das Ziel erreicht haben. Wir können also Zombies verwenden, um Strom zu erzeugen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_FLACS_ZPLANT_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Zunächst einmal brauchen wir einen Stab, der immer vor dem Zombie ist und niemals vom Zombie eingeholt werden kann, damit der Zombie dahinter immer weiter jagen kann. Dann können wir dieses System nehmen und Förderbänder, Zahnräder und so weiter hinzufügen, und können so ein Kraftwerk bauen, das Strom erzeugt, ohne dabei Kraftstoff zu verbrennen und Emissionen zu erzeugen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_FLACS_ZPLANT_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text> </Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

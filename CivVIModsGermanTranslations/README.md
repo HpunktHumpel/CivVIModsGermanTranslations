@@ -119,6 +119,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
 2402394695 | District Expansion: Industry | JNR | Junky | #14
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
+2435878977 | Zombie Worker & Zombie Power Plant | Flactine | H.Humpel | **NEW**
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2444029678 | Upgrades Keep Unique Abilities | Sailor Cat | Junky | #18
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7

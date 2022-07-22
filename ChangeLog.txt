@@ -5,6 +5,7 @@
 - [NEW] Coal Liquefaction Project (vom 20. Feb. 2019 um 23:52, Übersetzung von H.Humpel)
 - [NEW] Icebreaker (vom 27. Juni 2022 um 13:08, Übersetzung von H.Humpel)
 - [NEW] Take Over Production Queue (vom 21. Mai 2022 um 13:32, Übersetzung von H.Humpel)
+- [NEW] Zombie Worker & Zombie Power Plant (vom 26. März 2021 um 5:54, Übersetzung von H.Humpel)
 - [IMPROVED] Environmentalistic Policy
 - [IMPROVED] Porcelain Tower (World Wonder)
 - [IMPROVED] Seeds of Growth Policy
