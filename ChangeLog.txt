@@ -2,6 +2,7 @@
 
 - [NEW] Biofuel Production Building (vom 20. Feb. 2019 um 23:59, Übersetzung von H.Humpel)
 - [NEW] Coal Liquefaction Building (vom 20. Feb. 2019 um 23:49, Übersetzung von H.Humpel)
+- [NEW] Coal Liquefaction Project (vom 20. Feb. 2019 um 23:52, Übersetzung von H.Humpel)
 - [NEW] Take Over Production Queue (vom 21. Mai 2022 um 13:32, Übersetzung von H.Humpel)
 - [IMPROVED] Environmentalistic Policy
 - [IMPROVED] Porcelain Tower (World Wonder)

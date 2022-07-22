@@ -44,6 +44,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | #12
+1661939653 | Coal Liquefaction Project | naed21 | H.Humpel | **NEW**
 1661944193 | Biofuel Production Building | naed21 | H.Humpel | **NEW**
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
 1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | #13

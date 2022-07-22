@@ -1,0 +1,13 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PROJECT_COAL_LIQUEFACTION_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Kohleverflüssigung|Kohleverflüssigung|Kohleverflüssigung|Kohleverflüssigung|Kohleverflüssigung</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_LIQUEFACTION_SHORT_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Kohleverflüssigung|Kohleverflüssigung|Kohleverflüssigung|Kohleverflüssigung|Kohleverflüssigung</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_LIQUEFACTION_DESCRIPTION" Language="de_DE">
+			<Text>Wandelt 20 [ICON_RESOURCE_COAL] Kohle in 10 [ICON_RESOURCE_OIL] Öl um.[NEWLINE][ICON_Bullet]Erfordert ein Fabrikgebäude.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
