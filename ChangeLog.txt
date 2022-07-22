@@ -4,6 +4,7 @@
 - [IMPROVED] Porcelain Tower (World Wonder)
 - [IMPROVED] Strategic Forts
 - [IMPROVED] The Draft
+- [IMPROVED] Tower Bridge (World Wonder)
 
 
 ===== Version 18 =====

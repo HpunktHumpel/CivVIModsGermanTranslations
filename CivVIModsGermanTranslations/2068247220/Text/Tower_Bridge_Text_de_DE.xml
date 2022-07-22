@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <LocalizedText>
-        <Replace Tag="LOC_BUILDING_TOWER_BRIDGE_NAME" Language="de_DE">
-            <Text>Tower Bridge</Text>
+        <Replace Tag="LOC_BUILDING_TOWER_BRIDGE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+            <Text>Tower Bridge|Tower Bridge|Tower Bridge|Tower Bridge|Tower Bridge</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_TOWER_BRIDGE_DESCRIPTION" Language="de_DE">
             <Text>+8% [ICON_Production] Produktion in Städten auf dem Kontinent Eurer ursprünglichen Hauptstadt und +8% [ICON_Gold] Gold in Städten, nicht auf dem Kontinent Eurer ursprünglichen Hauptstadt. Verleiht +3 [ICON_Resource_Coal] Kohle pro Runde.[NEWLINE]Landeinheiten können das Gewässer überqueren, ohne zu wassern. Dient als moderne Straße und baut moderne Straßen (falls nicht vorhanden) auf Land-Geländefeldern an beiden Enden.[NEWLINE]Muss auf einem Küsten-Geländefeld gebaut werden. Die Brücke muss über das Geländefeld zwischen zwei direkt gegenüberliegenden Land-Geländefeldern führen. Links und rechts der Brücke muss jeweils mindestens ein Wasser-Geländefeld liegen. Kann nicht auf einem See gebaut werden.</Text>
