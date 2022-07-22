@@ -1,13 +1,48 @@
 <GameData>
   <LocalizedText>
-    <Row Tag="LOC_MOD_ICE_NAME" Language="de_DE">
+    <!-- MOD: Icebreaker -->
+    <Replace Language="de_DE" Tag="LOC_MOD_ICE_NAME">
       <Text>[COLOR_FLOAT_SCIENCE]Icebreaker[ENDCOLOR]</Text>
-    </Row>
-    <Row Tag="LOC_MOD_ICE_TEAS" Language="de_DE">
-      <Text>Adds [COLOR_FLOAT_SCIENCE]Icebreaker[ENDCOLOR] and [COLOR_FLOAT_GOLD]Nuclear Icebreaker[ENDCOLOR] units to the game</Text>
-    </Row>
-    <Row Tag="LOC_MOD_ICE_DESK" Language="de_DE">
-      <Text>Makes [COLOR_LIGHTBLUE]ice passable[ENDCOLOR] (movement cost = 200).[NEWLINE][COLOR_RED]Submarines[ENDCOLOR] ignore ice movement costs.[NEWLINE][COLOR_FLOAT_SCIENCE]Icebreaker[ENDCOLOR] and [COLOR_FLOAT_GOLD]Nuclear Icebreaker[ENDCOLOR], as well as units combined with them, also ignore the cost of moving.[NEWLINE]Adds 2 Unique Unit to Canada.</Text>
-    </Row>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_MOD_ICE_TEAS">
+      <Text>Fügt [COLOR_FLOAT_SCIENCE]Eisbrecher[ENDCOLOR] und [COLOR_FLOAT_GOLD]Atomeisbrecher[ENDCOLOR] zum Spiel hinzu.</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_MOD_ICE_DESK">
+      <Text>Macht [COLOR_LIGHTBLUE]Eis passierbar[ENDCOLOR] (Bewegungskosten = 200).[NEWLINE][COLOR_RED]U-Boote[ENDCOLOR] ignorieren Bewegungskosten auf Eis.[NEWLINE][COLOR_FLOAT_SCIENCE]Eisbrecher[ENDCOLOR] und [COLOR_FLOAT_GOLD]Atomeinbrecher[ENDCOLOR], sowie Einheiten, die mit ihnen im Verbund fahren, ignorieren auch die Kosten der Bewegung auf Eis.[NEWLINE]Fügt 2 einzigartige Einheiten von Kanada hinzu.</Text>
+    </Replace>
+
+    <!-- MOD: Naval Mine -->
+    <Replace Language="de_DE" Tag="LOC_NAVAL_MINE_NAME">
+      <Text>[COLOR_FLOAT_SCIENCE]Naval Mine[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_NAVAL_MINE_TEAS">
+			<Text>Fügt die [COLOR_FLOAT_SCIENCE]Seemine[ENDCOLOR] Verbesserung und die [COLOR_FLOAT_SCIENCE]Minensuchboot[ENDCOLOR] Einheit hinzu.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_NAVAL_MINE_DESC">
+			<Text>Fügt die [COLOR_FLOAT_SCIENCE]Seemine[ENDCOLOR] Verbesserung und die [COLOR_FLOAT_SCIENCE]Minensuchboot[ENDCOLOR] Einheit hinzu. Seemine: Explodiert und fügt einer Einheit, die darauf tritt, [COLOR_RED]50 Schadenspunkte[ENDCOLOR] zu. Kann auf Ozean- und Küstenfeldern, sowie auf Eis und Riffen gebaut werden.[NEWLINE]Minensuchboot: Marine-Nahkampfeinheit der Moderne. Kann [COLOR_RED] 5 Seeminen bauen[ENDCOLOR].</Text>
+		</Replace>
+
+    <!-- MOD: Phantagonist's Hybrid Rice and Biofuel -->
+    <Replace Language="de_DE" Tag="LOC_MOD_PHANTA_STATECRAFT_HYBRID_RICE_NAME">
+		    <Text>Phantagonist: Hybrid Rice and Biofuel</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_MOD_PHANTA_STATECRAFT_HYBRID_RICE_TEASER">
+    		<Text>Phantagonist: Hybridreis und Biokraftstoff</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_MOD_PHANTA_STATECRAFT_HYBRID_RICE_DESCRIPTION">
+    		<Text>Phantagonist:Hybridreis und Biokraftstoff</Text>
+    </Replace>
+
+    <!-- MOD: Phantagonist’s Slavery and Emancipation -->
+    <Replace Language="de_DE" Tag="LOC_MOD_PHANTA_SLAVE_NAME">
+      <Text>Phantagonist’s Slavery and Emancipation</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_MOD_PHANTA_SLAVE_TEASER">
+      <Text>Fügt Sklaverei und Emanzipation zum Spiel hinzu.</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_MOD_PHANTA_SLAVE_DESCRIPTION">
+      <Text>Fügt Sklaverei und Emanzipation zum Spiel hinzu.</Text>
+    </Replace>
+
   </LocalizedText>
 </GameData>

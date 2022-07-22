@@ -39,7 +39,7 @@
 		  <Text>Fügt [COLOR_FLOAT_SCIENCE]Eisbrecher[ENDCOLOR] und [COLOR_FLOAT_GOLD]Atomeisbrecher[ENDCOLOR] zum Spiel hinzu.</Text>
 	  </Replace>
 	  <Replace Tag="LOC_MOD_ICE_DESK" Language="de_DE">
-		  <Text>Macht [COLOR_LIGHTBLUE]Eis passierbar[ENDCOLOR] (Bewegungskosten = 200).[NEWLINE][COLOR_RED]U-Boote[ENDCOLOR] ignorieren Bewegungskosten auf Eis.[NEWLINE][COLOR_FLOAT_SCIENCE]Eisbrecher[ENDCOLOR] und [COLOR_FLOAT_GOLD]Atomeinbrecher[ENDCOLOR], sowie Einheiten, die mit ihnen im Verbund fahrenn, ignorieren auch die Kosten der Bewegung auf Eis.[NEWLINE]Fügt 2 einzigartige Einheiten von Kanada hinzu.</Text>
+		  <Text>Macht [COLOR_LIGHTBLUE]Eis passierbar[ENDCOLOR] (Bewegungskosten = 200).[NEWLINE][COLOR_RED]U-Boote[ENDCOLOR] ignorieren Bewegungskosten auf Eis.[NEWLINE][COLOR_FLOAT_SCIENCE]Eisbrecher[ENDCOLOR] und [COLOR_FLOAT_GOLD]Atomeinbrecher[ENDCOLOR], sowie Einheiten, die mit ihnen im Verbund fahren, ignorieren auch die Kosten der Bewegung auf Eis.[NEWLINE]Fügt 2 einzigartige Einheiten von Kanada hinzu.</Text>
 	  </Replace>
 
 	  <Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CANADA_LOUIS_CHAPTER_HISTORY_PARA_1">
