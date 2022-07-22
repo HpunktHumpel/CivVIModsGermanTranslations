@@ -1,0 +1,10 @@
+<GameData>
+	<LocalizedText>
+		<Replace  Tag="LOC_BUILDING_BIOFUEL_PRODUCER_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Biokraftstoffproduzent|Biokraftstoffproduzenten|Biokraftstoffproduzenten|Biokraftstoffproduzenten|Biokraftstoffproduzent</Text>
+		</Replace >
+		<Replace  Tag="LOC_BUILDING_BIOFUEL_PRODUCER_DESCRIPTION" Language="de_DE">
+			<Text>Wandelt automatisch 12 [ICON_FOOD] Nahrung in 1 [ICON_RESOURCE_OIL] Öl pro Runde um.</Text>
+		</Replace >
+	</LocalizedText>
+</GameData>

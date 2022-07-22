@@ -1,0 +1,13 @@
+<GameData>
+	<LocalizedText>
+		<Replace  Tag="LOC_PROJECT_REMOVE_BIOFUEL_PRODUCER_NAME" Language="de_DE">
+			<Text>Stilllegung des Biokraftstoffproduzenten</Text>
+		</Replace >
+		<Replace  Tag="LOC_PROJECT_REMOVE_BIOFUEL_PRODUCER_SHORT_NAME" Language="de_DE">
+			<Text>Entfernt den Biokraftstoffproduzenten</Text>
+		</Replace >
+		<Replace  Tag="LOC_PROJECT_REMOVE_BIOFUEL_PRODUCER_DESCRIPTION" Language="de_DE">
+			<Text>Den Biokraftstoffproduzenten stilllegen, um die Umwandlung von [ICON_FOOD] Nahrung in [ICON_RESOURCE_OIL] Öl zu stoppen.</Text>
+		</Replace >
+	</LocalizedText>
+</GameData>
