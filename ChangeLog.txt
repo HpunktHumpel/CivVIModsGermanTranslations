@@ -3,6 +3,7 @@
 - [NEW] Take Over Production Queue (vom 21. Mai 2022 um 13:32, Übersetzung von H.Humpel)
 - [IMPROVED] Environmentalistic Policy
 - [IMPROVED] Porcelain Tower (World Wonder)
+- [IMPROVED] Seeds of Growth Policy
 - [IMPROVED] Strategic Forts
 - [IMPROVED] The Draft
 - [IMPROVED] Three Gorges Dam

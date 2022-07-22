@@ -2,8 +2,8 @@
 <GameData>
 	<LocalizedText>
 		<!-- The name of the policy. -->
-		<Replace Tag="LOC_POLICY_SEEDS_OF_GROWTH_NAME" Language="de_DE">
-			<Text>Saat des Wachstums</Text>
+		<Replace Tag="LOC_POLICY_SEEDS_OF_GROWTH_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Saat des Wachstums|Saat des Wachstums|Saat des Wachstums|Saat des Wachstums|Saat des Wachstums</Text>
 		</Replace>
 
 		<!-- The description of the policy. -->
