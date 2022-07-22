@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="18">
+<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="19">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]160[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]161[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1657843726</Created>
+    <Created>1658501220</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -540,6 +540,9 @@
     </Criteria>
     <Criteria id="SukritactsWatArun">
       <ModInUse>b21b4017-3e53-4e35-ae38-1b5d7501e6d0</ModInUse>
+    </Criteria>
+    <Criteria id="TakeOverProductionQueue">
+      <ModInUse>6F7F80B8-E6A1-3B74-7C5E-A65604E6F838</ModInUse>
     </Criteria>
     <Criteria id="TheDraft">
       <ModInUse>ab6cadb3-f00c-4a40-9aca-702174396371</ModInUse>
@@ -2178,6 +2181,13 @@
       <Criteria>SukritactsWatArun</Criteria>
       <File>933787677/Core/Suk_Wat_Arun_Localisation_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="TakeOverProductionQueue_de_DE">
+      <Criteria>TakeOverProductionQueue</Criteria>
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>2810602977/queueText_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="TheDraft_de_DE">
       <Criteria>TheDraft</Criteria>
       <File>1166015050/XML/Draft_Text_de_DE.xml</File>
@@ -3191,6 +3201,7 @@
     <File>2793115197/Core/6TUE_Air_Text_de_DE.sql</File>
     <File>2794603014/Text/DetailedWonderReminder_de_DE.sql</File>
     <File>2794935656/Core/Text_SilkRoads_de_DE.sql</File>
+    <File>2810602977/queueText_de_DE.sql</File>
     <File>2830394969/Core/Suk_Embarkation_Localisation_de_DE.sql</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
