@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <LocalizedText>
-        <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME" Language="de_DE">
-            <Text>Porzellanpagode</Text>
+        <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+            <Text>Porzellanpagode|Porzellanpagode|Porzellanpagode|Porzellanpagode|Porzellanpagode</Text>
         </Replace>
         <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION" Language="de_DE">
             <Text>Gewährt 3 [ICON_RESOURCE_PORCELAIN] Porzellan, ein exklusiv hergestelltes Luxusgut, das jeweils +6 [ICON_AMENITIES] Annehmlichkeiten bietet.[NEWLINE]Muss auf Grasland, Ebene oder Tundra neben dem Stadtzentrum gebaut werden.</Text>
@@ -19,8 +19,8 @@
         <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PORCELAIN_TOWER_CHAPTER_HISTORY_PARA_3" Language="de_DE">
             <Text></Text>
         </Replace>
-        <Replace Tag="LOC_RESOURCE_PORCELAIN_NAME" Language="de_DE">
-            <Text>Porzellan</Text>
+        <Replace Tag="LOC_RESOURCE_PORCELAIN_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+            <Text>Porzellan|Porzellan|Porzellan|Porzellans|Porzellan</Text>
         </Replace>
         <Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_PORCELAIN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
             <Text>Porzellan ist ein keramisches Material, das durch Erhitzen von Materialien, in der Regel einschließlich Kaolin, in einem Brennofen bei Temperaturen zwischen 1.200 und 1.400 °C hergestellt wird. Die Zähigkeit, Festigkeit und Lichtdurchlässigkeit von Porzellan im Vergleich zu anderen Keramikarten ergibt sich hauptsächlich aus der Verglasung und der Bildung des Minerals Mullit im Körper bei diesen hohen Temperaturen. Obwohl die Definitionen variieren, kann Porzellan in drei Hauptkategorien unterteilt werden: Hartporzellan, Weichporzellan und echtes Porzellan. Die Kategorie, zu der ein Objekt gehört, hängt von der Zusammensetzung der Paste, die verwendet wird, um den Körper des Porzellanobjekts herzustellen und den Brennbedingungen ab.</Text>
