@@ -39,8 +39,8 @@
 		</Replace>
 
 		<!-- Fixed Expansionist localization -->
-		<Replace Tag="LOC_UNIT_EXPANSIONIST_NAME" Language="de_DE">
-			<Text>Expansionist</Text>
+		<Replace Tag="LOC_UNIT_EXPANSIONIST_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Expansionist|Expansionisten|Expansionisten|Expansionisten|Expansionist</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_EXPANSIONIST_DESCRIPTION" Language="de_DE">
 			<Text>Handwerker-Einheit aus der Antike. Kann eine einzelne Festung errichten.</Text>
