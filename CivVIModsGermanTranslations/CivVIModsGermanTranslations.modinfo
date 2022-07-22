@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="19">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]162[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]163[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1658506852</Created>
+    <Created>1658509361</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, naed21, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -258,6 +258,9 @@
     </Criteria>
     <Criteria id="CNTower">
       <ModInUse>ffa02d2f-e5d4-43fd-bb97-0a4868c7b3a7</ModInUse>
+    </Criteria>
+    <Criteria id="CoalLiquefactionBuilding">
+      <ModInUse>72ac9249-26e3-4397-ac20-0553bfde55dd</ModInUse>
     </Criteria>
     <Criteria id="Covfefe">
       <ModInUse>bdd02087-9d92-48f6-903c-bd85aea0bafd</ModInUse>
@@ -1547,6 +1550,14 @@
       <Criteria>CityLights</Criteria>
       <Criteria>CNTower</Criteria>
       <File priority="200">2442822973/Text/COREX_Text_Won_CL_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="CoalLiquefactionBuilding_de_DE">
+      <Criteria>CoalLiquefactionBuilding</Criteria>
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File Priority="1">1660410526/Text/CoalLiquefaction_Buildings_Text_de_DE.xml</File>
+      <File Priority="1">1660410526/Text/CoalLiquefaction_Districts_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Covfefe_de_DE">
       <Criteria>Covfefe</Criteria>
@@ -2992,6 +3003,8 @@
     <File>1651487987/CTE_UI_TEXT_de_DE.xml</File>
     <File>1657288046/II_SR_Text_de_DE.sql</File>
     <File>1660382665/CB_Decommission_Text_de_DE.sql</File>
+    <File>1660410526/Text/CoalLiquefaction_Buildings_Text_de_DE.xml</File>
+    <File>1660410526/Text/CoalLiquefaction_Districts_Text_de_DE.xml</File>
     <File>1660544080/Decommission_Locs_de_DE.xml</File>
     <File>1660936201/Text/CB_REC_Text_de_DE.sql</File>
     <File>1661384856/XMLs/Lang/Kizuna_Text_de_DE.xml</File>

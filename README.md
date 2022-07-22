@@ -45,6 +45,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. CIVITAS City-States Expanded (thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky)
 1. CIVITAS City-States (Mekong Ruleset) (chimp | Junky)
 1. CIVITAS Resources (Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie)
+1. Coal Liquefaction Building (naed21 | H.Humpel)
 1. Covfefe (DesertMoonGW | H.Humpel)
 1. Cree's Casino - Minor Buffs (Trexatron | H.Humpel)
 1. Decommission Power Plants (JNR | Junky)

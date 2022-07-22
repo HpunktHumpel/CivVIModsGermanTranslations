@@ -1,0 +1,16 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PROJECT_REMOVE_COAL_LIQUEFIER_NAME" Language="de_DE">
+			<Text>Stilllegung des Kohleverflüssigers</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REMOVE_COAL_LIQUEFIER_SHORT_NAME" Language="de_DE">
+			<Text>Entfernt den Kohleverflüssiger</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REMOVE_COAL_LIQUEFIER_DESCRIPTION" Language="de_DE">
+			<Text>Den Kohleverflüssiger stilllegen, um die Umwandlung von [ICON_RESOURCE_COAL] Kohle in [ICON_RESOURCE_OIL] Öl zu stoppen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_LIQUEFACTION_DESCRIPTION" Language="de_DE">
+			<Text>Wandelt 20 [ICON_RESOURCE_COAL] Kohle in 10 [ICON_RESOURCE_OIL] Öl um.[NEWLINE][ICON_Bullet]Erfordert ein Kohleverflüssiger-Gebäude.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

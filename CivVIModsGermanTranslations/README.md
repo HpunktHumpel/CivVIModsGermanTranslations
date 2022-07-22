@@ -40,6 +40,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1651487987 | Cheat Map Editor | Zur13 | Junky | #13
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660382665 | Decommission Power Plants | JNR | Junky | #12
+1660410526 | Coal Liquefaction Building | naed21 | H.Humpel | **NEW**
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | #12
