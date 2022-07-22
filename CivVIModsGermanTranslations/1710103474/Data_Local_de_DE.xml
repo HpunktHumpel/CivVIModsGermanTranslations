@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_BUILDING_THREE_GORDES_DAM_NAME" Language="de_DE">
-			<Text>Drei-Schluchten-Damm</Text>
+		<Replace Tag="LOC_BUILDING_THREE_GORDES_DAM_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Drei-Schluchten-Damm|Drei-Schluchten-Damm|Drei-Schluchten-Damm|Drei-Schluchten-Dammes|Drei-Schluchten-Damm</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_THREE_GORDES_DAM_DESCRIPTION" Language="de_DE">
 			<Text>Die Schwemmland-Geländefelder entlang des Flusses mit dem Drei-Schluchten-Damm sind jetzt immun gegen Flutschäden (auch wenn Bonusse durch Nahrung und Produktion um 50 % einbrechen). Liefert allen Städten +3 [ICON_Power] Energie aus erneuerbaren Wasserquellen. Liefert zusätzlich +2 [ICON_Power] Energie für alle Städte innerhalb von 12 Geländefeldern. Liefert weitere zusätzliche +2 [ICON_Power] Energie für alle Städte innerhalb von 6 Geländefeldern.[NEWLINE][NEWLINE]Muss an einem Fluss und neben einem Berg gebaut werden.</Text>

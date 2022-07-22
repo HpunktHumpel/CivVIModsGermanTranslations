@@ -5,6 +5,7 @@
 - [IMPROVED] Porcelain Tower (World Wonder)
 - [IMPROVED] Strategic Forts
 - [IMPROVED] The Draft
+- [IMPROVED] Three Gorges Dam
 - [IMPROVED] Tower Bridge (World Wonder)
 - [IMPROVED] Yellow Crane Tower
 
