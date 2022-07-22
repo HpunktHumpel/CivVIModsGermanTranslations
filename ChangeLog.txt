@@ -1,6 +1,7 @@
 22.07.2022
 
 - [NEW] Take Over Production Queue (vom 21. Mai 2022 um 13:32, Übersetzung von H.Humpel)
+- [IMPROVED] Environmentalistic Policy
 - [IMPROVED] Porcelain Tower (World Wonder)
 - [IMPROVED] Strategic Forts
 - [IMPROVED] The Draft

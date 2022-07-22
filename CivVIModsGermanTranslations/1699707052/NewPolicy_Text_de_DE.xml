@@ -2,8 +2,8 @@
 <GameData>
 	<LocalizedText>
 
-		<Row Tag="LOC_POLICY_MOD_ECOFASCISM_NAME" Language="de_DE">
-			<Text>Ökofaschismus</Text>
+		<Row Tag="LOC_POLICY_MOD_ECOFASCISM_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Ökofaschismus|Ökofaschismus|Ökofaschismus|Ökofaschismus|Ökofaschismus</Text>
 		</Row>
 
 		<Row Tag="LOC_POLICY_MOD_ECOFASCISM_DESCRIPTION" Language="de_DE">
