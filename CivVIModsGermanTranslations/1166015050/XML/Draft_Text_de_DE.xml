@@ -4,8 +4,8 @@
 <!-- DateCreated: 10/12/2017 1:19:32 AM -->
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_NAME" Language="de_DE">
-			<Text>Wehrpflicht</Text>
+		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Wehrpflicht|Wehrpflicht|Wehrpflicht|Wehrpflicht|Wehrpflicht</Text>
 		</Replace>
 		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION" Language="de_DE">
 			<Text>Unterhaltskosten für Einheiten werden um 6 [ICON_Gold] Gold pro Runde und Einheit reduziert. Allerdings -1 [ICON_Amenities] Annehmlichkeiten in Euren Städten.</Text>
