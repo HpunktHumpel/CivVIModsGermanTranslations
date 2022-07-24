@@ -48,7 +48,7 @@
 			<Text>Luft- und Raumfahrtlabor</Text>
 		</Replace>
 		<Replace Language="de_DE" Tag="LOC_BUILDING_AEROSPACE_LABORATORY_DESCRIPTION">
-			<Text>Benötigt 4 [ICON_Power] Energie. Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +20% [ICON_Science] Wissenschaft in der Stadt. +50% [ICON_Production] Production toward Space Race projects.</Text>
+			<Text>Benötigt 4 [ICON_Power] Energie. Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +20% [ICON_Science] Wissenschaft in der Stadt. +50% [ICON_Production] Produktion für Weltraumrennen-Projekte.</Text>
 		</Replace>
 
 		<Replace Language="de_DE" Tag="LOC_BUILDING_TELECOM_FACILITIES_NAME">
@@ -62,7 +62,7 @@
 			<Text>Urananreicherungsanlage</Text>
 		</Replace>
 		<Replace Language="de_DE" Tag="LOC_BUILDING_NUCLEAR_FUEL_FACTORY_DESCRIPTION">
-			<Text>Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +2 [ICON_Resource_Uranium] Uran pro Runde. +50% [ICON_Production] Production toward Nuclear Devices.</Text>
+			<Text>Funktioniert nur bei [ICON_Power] energieversorgter Stadt. +2 [ICON_Resource_Uranium] Uran pro Runde. +50% [ICON_Production] Produktion für das Projekt Nuklearwaffenbau.</Text>
 		</Replace>
 		
 		<Replace Language="de_DE" Tag="LOC_BUILDING_MILITARY_RESEARCH_INSTITUTE_NAME">
