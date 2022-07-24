@@ -118,7 +118,7 @@ VALUES
 		),
 		(
 			"de_DE",			"LOC_GREATWORK_PRODUCT_SUK_CORAL_3_NAME",
-			"Zhenhong Koralle Peking"
+			"Zhenhong Peking-Koralle"
 		),
 		(
 			"de_DE",			"LOC_GREATWORK_PRODUCT_SUK_CORAL_4_NAME",
@@ -150,6 +150,52 @@ VALUES
 		(
 			"de_DE",			"LOC_GREATWORK_PRODUCT_SUK_LOBSTER_5_NAME",
 			"Kai’s Krays"
+		),
+	--------------------------------------------------------------------
+	-- Stringrays
+	--------------------------------------------------------------------
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_RAYS_1_NAME",
+			"Maruni Premium Eihire"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_RAYS_2_NAME",
+			"Abdullah’s Sambal Stachelrochen"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_RAYS_3_NAME",
+			"Datu’s Buntot Pagi"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_RAYS_4_NAME",
+			"Christopher’s Stachelrochen-Reisen"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_RAYS_5_NAME",
+			"Dhanya’s Stachelrochen Curry"
+		),
+	--------------------------------------------------------------------
+	-- Abalone
+	--------------------------------------------------------------------
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_ABALONE_1_NAME",
+			"Hai Bao Wang Marke Seeohrmuschel in Dosen"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_ABALONE_2_NAME",
+			"Pania’s kostbare Pāua Produkte"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_ABALONE_3_NAME",
+			"Koyah’s Traditionelle Masken und Schnitzereien"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_ABALONE_4_NAME",
+			"Daeyang Marke Jeonbok-juk"
+		),
+		(
+			"LOC_GREATWORK_PRODUCT_SUK_ABALONE_5_NAME",
+			"Kaiko’s Seeohren aus eigenem Anbau"
 		),
 	--------------------------------------------------------------------
 	-- Kaviar

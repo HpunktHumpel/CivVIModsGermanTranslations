@@ -1,5 +1,5 @@
 --========================================================================================================================
--- LocalizedText
+-- LocalizedText -- Translation by Junky - 24.07.2022
 --========================================================================================================================
 INSERT OR REPLACE INTO LocalizedText
 		(Tag,								Language,		Text)
@@ -108,6 +108,42 @@ VALUES
 			"Die Störpopulationen sind weltweit geschrumpft, was zum Teil auf die Beliebtheit von Kaviar als Genussmittel zurückzuführen ist, und vielerorts gibt es inzwischen strenge Fangbeschränkungen oder sogar Verbote. Weitere Gründe für den Bestandsrückgang sind die Wasserverschmutzung und der Verlust von Lebensraum durch Flussdämme, die die Fische daran hindern, ihre Laichgründe zu erreichen. Viele Störarten stehen auf der Liste der gefährdeten Arten. Um den Druck von den schwindenden Störpopulationen in freier Wildbahn zu nehmen, gibt es in 20 Ländern Unternehmen, die Störe züchten. In den allermeisten Fällen werden die Eier nach dem Töten der Fische entfernt. Andere Unternehmen versuchen einen nachhaltigeren Ansatz, indem sie die Fische aufziehen, bis sie laichreif sind, und dann, nachdem sie die Eier per Kaiserschnitt entnommen haben, die Fische wieder zunähen und sie für eine weitere Produktion aufziehen. Dieses Verfahren ist sehr hart für die Fische und wurde in mehreren Ländern verboten."
 		),
 --========================================================================================================================
+-- Stingrays
+--========================================================================================================================
+		(
+			"LOC_RESOURCE_SUK_RAYS_NAME",
+			"de_DE",
+			"Stachelrochen"
+		),
+		(
+			"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_RAYS_CHAPTER_HISTORY_PARA_1",
+			"de_DE",
+			"Stachelrochen sind Fische mit pfannkuchenartigen Körpern, die anmutig durch das Wasser gleiten. Etwa 200 Arten von Rochen bewohnen die Weltmeere sowie einige Süßwasserflüsse und Seen. Stachelrochen haben Schwänze, die oft mit gezackten, giftigen Widerhaken versehen sind. Fühlt sich ein Rochen bedroht, kann er seinen mit Widerhaken versehenen Schwanz nach oben heben und potenzielle Fressfeinde verletzen."
+		),
+		(
+			"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_RAYS_CHAPTER_HISTORY_PARA_2",
+			"de_DE",
+			"Stachelrochen werden in vielen Kulturen verzehrt. Der fleischigste Teil des Rochens sind die Flossen; die Isländer mögen ihren Rochen gerne faul und fermentiert, während er in Malaysia und Singapur eher frisch, scharf gewürzt oder gegrillt gegessen wird. Das Rochenfleisch ist flockig, aber dicht und zäh und schmeckt wie eine Mischung aus Fisch und Hummer. Rochen werden auch wegen ihres Leders verwendet, das auch als Shagreen bezeichnet wird. Es wurde im Laufe der Jahre zur Herstellung von Lederwaren, zum Beziehen von Möbeln und für viele andere Zwecke verwendet."
+		),
+--========================================================================================================================
+-- Abalone
+--========================================================================================================================
+		(
+			"LOC_RESOURCE_SUK_ABALONE_NAME",
+			"de_DE",
+			"Seeohrenmuscheln"
+		),
+		(
+			"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_ABALONE_CHAPTER_HISTORY_PARA_1",
+			"de_DE",
+			"Die Seeohrenmuschel ist nicht nur wegen ihrer Ähnlichkeit mit dem menschlichen Ohr bekannt, die ihr den Spitznamen 'Ohrmuschel' eingebracht hat, sondern auch weil sie das wertvollste Schalentier der Welt ist. Der Wert der Seeohrschnecke ergibt sich sowohl aus ihrem köstlichen Fleisch als auch aus ihrer polierten Schale, einem wunderschönen, blau schillernden Perlmuttpanzer. In der Natur lebt sie auf Felsen im Meer, wo sie sich von Algen ernährt. Das zähe Äußere der Schale sorgt für einen extrem starken Halt auf den Felsen, auf denen sie lebt - so sehr, dass das Entfernen der Abalone äußerst schwierig ist und Zeit, Geschick und Hingabe erfordert. Abalonen sind seit langem eine wertvolle Nahrungsquelle für den Menschen in allen Gebieten der Welt, in denen eine Art vorkommt. Das Fleisch dieser Muschel gilt in bestimmten Teilen Lateinamerikas (insbesondere in Chile), Frankreichs, Neuseelands, Ost- und Südostasiens als Delikatesse."
+		),
+		(
+			"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_SUK_ABALONE_CHAPTER_HISTORY_PARA_2",
+			"de_DE",
+			"Zu Beginn des 20. Jahrhunderts war die Seeohrenart reichlich vorhanden und ermöglichte einst große kommerzielle und sportliche Fischereien. Aufgrund von Überfischung und Krankheiten ist die Abalone heute vom Aussterben bedroht - sowohl die weiße als auch die schwarze Abalone stehen auf der Liste der vom Aussterben bedrohten Arten. Zum Schutz der wilden Seeohrmuschel sind strenge Fischereigesetze erlassen worden. Gezüchtete Seeohrschnecken könnten eine nachhaltige Alternative darstellen."
+		),
+--========================================================================================================================
 -- Kelp Forest
 --========================================================================================================================
 		(
@@ -118,7 +154,7 @@ VALUES
 		(
 			"LOC_PEDIA_FEATURES_PAGE_FEATURE_SUK_KELP_CHAPTER_HISTORY_PARA_1",
 			"de_DE",
-			"Kelp sind große Braunalgen, die in kühlen, relativ flachen Gewässern in Küstennähe leben. Sie wachsen in dichten Gruppen, ähnlich wie ein Wald an Land. Diese Wälder weisen eine größere Vielfalt und Dichte an Pflanzen und Tieren auf als fast alle anderen Meeresgemeinschaften. Diese abgestuften Wälder bilden einen attraktiven Lebensraum für eine Vielzahl von Arten und dienen Tausenden von Fischen, Wirbellosen und Meeressäugern als Nahrungsquelle und Zufluchtsort."
+			"Kelp(Seetang)-Wälder sind Sammlungen großer Braunalgen, die in kühlen, relativ flachen Gewässern in Küstennähe leben. Sie wachsen in dichten Gruppen, ähnlich wie ein Wald an Land. Diese Wälder weisen eine größere Vielfalt und Dichte an Pflanzen und Tieren auf als fast alle anderen Meeresgemeinschaften. Diese abgestuften Wälder bilden einen attraktiven Lebensraum für eine Vielzahl von Arten und dienen Tausenden von Fischen, Wirbellosen und Meeressäugern als Nahrungsquelle und Zufluchtsort."
 		),
 --========================================================================================================================
 -- Water Park Changes

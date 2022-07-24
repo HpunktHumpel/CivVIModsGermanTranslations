@@ -33,8 +33,8 @@
 					"RESOURCE_SUK_CORAL",
 					"SUK_CORAL",
 					---------
-					'FAITH_YIELD_BONUS',
-					"YIELD_FAITH"
+					'CULTURE_YIELD_BONUS',
+					"YIELD_CULTURE"
 				),
 				(
 					"RESOURCE_SUK_LOBSTER",
@@ -42,6 +42,20 @@
 					---------
 					'SCIENCE_YIELD_BONUS',
 					"YIELD_SCIENCE"
+				),
+				(
+					"RESOURCE_SUK_RAYS",
+					"SUK_RAYS",
+					---------
+					'MILITARY_UNIT_DISCOUNT',
+					"YIELD_PRODUCTION"
+				),
+				(
+					"RESOURCE_SUK_ABALONE",
+					"SUK_ABALONE",
+					---------
+					'CITY_GROWTH_DISCOUNT',
+					"YIELD_FOOD"
 				),
 				(
 					"RESOURCE_SUK_CAVIAR",
