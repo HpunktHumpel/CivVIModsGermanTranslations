@@ -6,8 +6,8 @@
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,															Text,																	Gender, 	Plurality	)
-VALUES	('de_DE',	'LOC_POLICY_6T_DRESSAGE_NAME',									'Dressur|Dressur|Dressur|Dressur|Dressur',								'feminine',	0			),
-		('de_DE',	'LOC_POLICY_6T_CLINKER_NAME',									'Klinkerrumpf|Klinkerrumpf|Klinkerrumpf|Klinkerrumpfs|Klinkerrumpf',	'masculine',0			);
+VALUES	('de_DE',	'LOC_POLICY_6T_DRESSAGE_NAME',									'Dressur|Dressur|Dressur|Dressur|Dressur',								'feminine',	1			),
+		('de_DE',	'LOC_POLICY_6T_CLINKER_NAME',									'Klinkerrumpf|Klinkerrumpf|Klinkerrumpf|Klinkerrumpfs|Klinkerrumpf',	'masculine',1			);
 
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,															Text)

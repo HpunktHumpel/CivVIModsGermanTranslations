@@ -6,7 +6,7 @@
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,															Text,															Gender, 	Plurality	)
-VALUES	('de_DE',	'LOC_ERA_6T_POST_CLASSICAL_NAME',								'Spätklassik|Spätklassik|Spätklassik|Spätklassik|Spätklassik',	'feminine',	0			);
+VALUES	('de_DE',	'LOC_ERA_6T_POST_CLASSICAL_NAME',								'Spätklassik|Spätklassik|Spätklassik|Spätklassik|Spätklassik',	'feminine',	1			);
 
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,										Text)
