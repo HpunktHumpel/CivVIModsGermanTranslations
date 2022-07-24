@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Better Tech Tree -->
-<!-- Author: Infixo -->
+<!-- Author: Infixo --><!-- German Translation by Junky  -- 24.07.2022 -->
 <!-- 2019-04-11: Created -->
-<!-- German Tranlation by Junky -->
 <GameData>
 
 <LocalizedText>
@@ -100,6 +99,17 @@
 	</Replace>
 	<Replace Language= "de_DE" Tag="LOC_BTT_RESOURCE_REPORT">
 		<Text>Gewährt die Fähigkeit die gesamte Anzahl der Ressourcen der Welt einzusehen.</Text>
+	</Replace>
+	
+	<!-- UnitOperations --> 
+	<Replace Language= "de_DE" Tag="LOC_BTT_CORPS_FLEET">
+		<Text>Ermöglicht das Zusammenfügen von zwei identischen Einheiten zu einem Korps oder einer Flotte.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_ARMY_ARMADA">
+		<Text>Ermöglicht die Bildung dreier identischer Einheiten zu einer Armee oder Armada</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_AIRLIFT">
+		<Text>Lufttransport:Ermöglicht den Transport von Landeinheiten zwischen Flugplatz-Bezirken mit Flughäfen.</Text>
 	</Replace>
 </LocalizedText>
 

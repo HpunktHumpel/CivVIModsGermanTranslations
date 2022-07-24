@@ -1,5 +1,5 @@
 -- 6T_Text_Boosts
--- Author: JNR | German Translation by Junky
+-- Author: JNR | German Translation by Junky -- 24.07.2022 überprüft
 --------------------------------------------------------------
 
 -- Deutsch
