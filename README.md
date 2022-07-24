@@ -135,6 +135,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Riflemen Unit (ChessPro2007 | Junky)
 1. Sappers - Military Engineers support sieges (JNR | Junky)
 1. Seeds of Growth Policy (Ian G | H.Humpel)
+1. Select Natural Wonders++ (sukritact | Junky)
 1. Silk & Spice: Trade Route Rework (Alf.Net | Junky)
 1. Ski Resort Complexity (JNR | H.Humpel)
 1. Spy Promotion Tree (Luke Vo | Junky)

@@ -105,6 +105,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | #16
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2191979138 | EpsTweak for Adjacency Multipliers | Eps | Junky | #18
+2215414456 | Select Natural Wonders++ | sukritact | Junky | **NEW**
 2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1

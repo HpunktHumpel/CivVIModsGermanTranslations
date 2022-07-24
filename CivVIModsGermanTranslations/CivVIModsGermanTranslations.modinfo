@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="19">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]166[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]167[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1658694598</Created>
+    <Created>1658697996</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, naed21, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -110,6 +110,9 @@
     </Criteria>
     <Criteria id="RestReminder_FrontEnd">
       <ModIsEnabled>db61715e-15cf-4723-8d0c-1103f97c1322</ModIsEnabled>
+    </Criteria>
+    <Criteria id="SelectNaturalWondersPlusPlus_FrontEnd">
+      <ModIsEnabled>14393f83-3f48-4b36-9821-dfc21d3eb229</ModIsEnabled>
     </Criteria>
     <Criteria id="SteelAndThunderUniqueUnits_FrontEnd">
       <ModIsEnabled>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModIsEnabled>
@@ -1137,6 +1140,10 @@
     <UpdateText id="RestReminder_FrontEnd_de_DE">
       <Criteria>RestReminder_FrontEnd</Criteria>
       <File>2775613909/Text/TR_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="SelectNaturalWondersPlusPlus_FrontEnd_de_DE">
+      <Criteria>SelectNaturalWondersPlusPlus_FrontEnd</Criteria>
+      <File>2215414456/Core/Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SteelAndThunderUniqueUnits_FrontEnd_de_DE">
       <Criteria>SteelAndThunderUniqueUnits_FrontEnd</Criteria>
@@ -3146,6 +3153,7 @@
     <File>2182724480/Text/AutoBuilders_Text_de_DE.xml</File>
     <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
     <File>2191979138/Core/GameText_de_DE.xml</File>
+    <File>2215414456/Core/Localisation_de_DE.sql</File>
     <File>2292979207/UC_Babylon_Text_de_DE.sql</File>
     <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSB_de_DE.sql</File>
     <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Default_de_DE.sql</File>
