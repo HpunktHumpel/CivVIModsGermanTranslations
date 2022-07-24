@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="19">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]167[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]168[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1658697996</Created>
+    <Created>1658700225</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, naed21, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -122,6 +122,9 @@
     </Criteria>
     <Criteria id="SukritactsEgyptRework_FrontEnd">
       <ModIsEnabled>8b858b76-6a79-4a30-a388-2316c4fbf496</ModIsEnabled>
+    </Criteria>
+    <Criteria id="SukritactsKhmerReworkBaray_FrontEnd">
+      <ModIsEnabled>0be03c78-49f0-473f-9865-6a5004994397</ModIsEnabled>
     </Criteria>
     <Criteria id="SukritactsOceans_FrontEnd">
       <ModIsEnabled>4922ba47-61e1-4b15-9281-db996b14522d</ModIsEnabled>
@@ -547,6 +550,9 @@
     <Criteria id="SukritactsEmbarkationPlusPlus">
       <ModInUse>006190db-273e-46ab-8347-6495c78967ba</ModInUse>
     </Criteria>
+    <Criteria id="SukritactsKhmerReworkBaray">
+      <ModInUse>0be03c78-49f0-473f-9865-6a5004994397</ModInUse>
+    </Criteria>
     <Criteria id="SukritactsOceans">
       <ModInUse>4922ba47-61e1-4b15-9281-db996b14522d</ModInUse>
     </Criteria>
@@ -781,6 +787,10 @@
     <!-- Religion Expanded -->
     <Criteria id="XP1 or XP2" any="1">
       <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+    <!-- Sukritact's Khmer Rework (Baray) -->
+    <Criteria id="Suk_Jayavarman_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_JAYAVARMAN</LeaderPlayable>
     </Criteria>
     <!-- UC Criteria -->
     <Criteria id="UC">
@@ -1159,6 +1169,10 @@
     <UpdateText id="SukritactsEgyptRework_FrontEnd_de_DE">
       <Criteria>SukritactsEgyptRework_FrontEnd</Criteria>
       <File>2423310185/Core/Localisation/Suk_EgyptRework_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="SukritactsKhmerReworkBaray_FrontEnd_de_DE">
+      <Criteria>SukritactsKhmerReworkBaray_FrontEnd</Criteria>
+      <File>2086623426/Core/Suk_KhmerRework_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SukritactsOceans_FrontEnd_de_DE">
       <Criteria>SukritactsOceans_FrontEnd</Criteria>
@@ -2202,6 +2216,14 @@
       </Properties>
       <File>2830394969/Core/Suk_Embarkation_Localisation_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SukritactsKhmerReworkBaray_de_DE">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>SukritactsKhmerReworkBaray</Criteria>
+      <Criteria>Suk_Jayavarman_Expansion2</Criteria>
+      <File>2086623426/Core/Suk_KhmerRework_Localisation_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SukritactsOceans_de_DE">
       <Properties>
         <LoadOrder>7</LoadOrder>
@@ -3133,6 +3155,7 @@
     <File>2084153500/Text/ModSupport/UC_Light_Text_CX_de_DE.sql</File>
     <File>2084153500/Text/ModSupport/UC_Light_Text_RwF_de_DE.sql</File>
     <File>2084153500/Text/UC_Light_Text_de_DE.sql</File>
+    <File>2086623426/Core/Suk_KhmerRework_Localisation_de_DE.sql</File>
     <File>2091335195/Core/Castrum_Text_de_DE.sql</File>
     <File>2095575379/Text_de_DE.sql</File>
     <File>2097550217/Core/Indon Rework - Game Text_de_DE.sql</File>

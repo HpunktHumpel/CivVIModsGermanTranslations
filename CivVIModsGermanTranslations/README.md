@@ -92,6 +92,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
+2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | **NEW**
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17
