@@ -1,8 +1,8 @@
 <!-- =========================================================================== -->
 <!-- Four_Seasons_Config_Text -->
 <!-- Author: sharpNd | Translator: Junky-->
-<!-- 2022-05-26 -->
-<!-- Version 0.3 -->
+<!-- 2022-07-23 -->
+<!-- Version 0.5 -->
 <!-- =========================================================================== -->
 
 
@@ -15,12 +15,18 @@
 		</Replace>
 		<Replace Tag="LOC_FOUR_SEASONS_SEASON_LENGTH_DESCRIPTION" Language="de_DE">
 			<Text>Legt die Länge einer Jahreszeit in Runden fest. 10 bedeutet, dass Frühling, Sommer, Herbst und Winter jeweils 10 Runden dauern, so dass ein Jahr 40 Runden dauert.</Text>
-		</Replace>		
+		</Replace>
+		<Replace Tag="LOC_FOUR_SEASONS_SEVERITY_BIAS" Language="de_DE">
+			<Text>Schweregradwahrscheinlichkeit</Text>
+		</Replace>
+		<Replace Tag="LOC_FOUR_SEASONS_SEVERITY_BIAS_DESCRIPTION" Language="de_DE">
+			<Text>Durch "Vier Jahreszeiten"-Mod.[NEWLINE][NEWLINE]Setzt den am häufigsten vorkommenden Schweregrad. Je höher der Wert, desto häufiger treten stärkere negative Effekte auf, die den Schwierigkeitsgrad des Spiels beeinflusst. 3 ist der empfohlene Standard wegen spieltechnischem Gleichgewicht.</Text>
+		</Replace>
 		<Replace Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY" Language="de_DE">
 			<Text>Tageszeit basierend auf auf der Jahreszeit</Text>
 		</Replace>
 		<Replace Tag="LOC_FOUR_SEASONS_ANIMATE_TIME_OF_DAY_DESCRIPTION" Language="de_DE">
-			<Text>Durch den Vier Jahreszeiten (Four Seasons) Mod.[NEWLINE][NEWLINE]Bei Aktivierung, ändert der Mod die animierte Tageszeit basierend auf der aktuellen Jahreszeit. Die Aktivierung wird empfohlen, um Jahreszeit-Athmosphäre stimmiger zu machen.[NEWLINE][NEWLINE]Sobald das Spiel gestartet ist, deaktiviert 'Animierte Tageszeit' in den Optionen, damit dies richtig funktioniert.</Text>
+			<Text>Durch den Vier Jahreszeiten (Four Seasons) Mod.[NEWLINE][NEWLINE]Bei Aktivierung, ändert der Mod die animierte Tageszeit basierend auf der aktuellen Jahreszeit. Die Aktivierung wird empfohlen, um die Jahreszeit-Athmosphäre stimmiger zu machen.[NEWLINE][NEWLINE]Sobald das Spiel gestartet ist, deaktiviert 'Animierte Tageszeit' in den Optionen, damit dies richtig funktioniert.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

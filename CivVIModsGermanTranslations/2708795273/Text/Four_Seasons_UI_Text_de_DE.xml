@@ -1,8 +1,8 @@
 <!-- =========================================================================== -->
 <!-- Four_Seasons_UI_Text -->
 <!-- Author: sharpNd | Translator: Junky-->
-<!-- 2022-05-26 -->
-<!-- Version 0.3 -->
+<!-- 2022-07-23 -->
+<!-- Version 0.5 -->
 <!-- =========================================================================== -->
 
 
@@ -43,6 +43,21 @@
         <Replace Tag="LOC_FOUR_SEASONS_START_TEXT" Language="de_DE">
             <Text>Willkommen bei Vier Jahreszeiten (Four Seasons)! Um die Ausführung zu beginnen, beendet Eure erste [ICON_Turn] Runde</Text>
         </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_START_YOUR_SETTINGS_TEXT" Language="de_DE">
+            <Text>Eure Einstellungen:</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_START_SEASON_LENGTH_TEXT" Language="de_DE">
+            <Text>Jahreszeitenlänge:</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_START_SEVERITY_BIAS_TEXT" Language="de_DE">
+            <Text>Schweregradwahrscheinlichkeit:</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_START_TOD_SEASON_TEXT" Language="de_DE">
+            <Text>Tageszeit basierend auf Jahreszeit:</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_START_SEE_CIVILOPEDIA_TEXT" Language="de_DE">
+            <Text>Besucht die Zivilopädie für einen detaillierten Überblick zu Vier Jahreszeiten.</Text>
+        </Replace>
         <!-- Turn (int values) will be put between NEW_SEASON_INFO_1 / 2 and after NEW_SEASON_INFO_2 -->
         <Replace Tag="LOC_FOUR_SEASONS_NEW_SEASON_INFO_1_TEXT" Language="de_DE">
             <Text>startet zwischen [ICON_Turn] Runde</Text>
@@ -61,6 +76,9 @@
         </Replace>
         <Replace Tag="LOC_FOUR_SEASONS_MOVEMENT_TEXT" Language="de_DE">
             <Text>[ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
+        </Replace>
+        <Replace Tag="LOC_FOUR_SEASONS_NO_SEA_MOVEMENT_TEXT" Language="de_DE">
+            <Text>Keine</Text>
         </Replace>
         <Replace Tag="LOC_FOUR_SEASONS_SEA_MOVEMENT_TEXT" Language="de_DE">
             <Text>[ICON_Movement] Bewegung für Seeeinheiten</Text>

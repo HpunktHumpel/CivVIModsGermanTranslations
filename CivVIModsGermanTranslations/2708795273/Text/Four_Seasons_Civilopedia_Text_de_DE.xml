@@ -1,8 +1,8 @@
 <!-- =========================================================================== -->
 <!-- Four_Seasons_Civilopedia_Text -->
 <!-- Author: sharpNd | Translator: Junky-->
-<!-- 2022-05-26 -->
-<!-- Version 0.3 -->
+<!-- 2022-07-23 -->
+<!-- Version 0.5 -->
 <!-- =========================================================================== -->
 
 
@@ -113,12 +113,12 @@
 			<Text>[ICON_Bullet][ICON_Production] Produktion pro Feld: In kälteren Jahreszeiten müssen viel Energie und Ressourcen für die Beheizung von Gebäuden aufgewendet werden. Dies führt dazu, dass der gesamte [ICON_Production] Produktionsausstoß in schwierigen Jahreszeiten etwas niedriger ist.</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_EFFECTS_CHAPTER_CONTENT_PARA_12" Language="de_DE">
-			<Text>[ICON_Bullet][ICON_Ability] Kriegsmüdigkeit pro Kampf: Das letzte, woran Ihre Bevölkerung bei Frost und Hunger denken möchte, ist Krieg. In strengen Jahreszeiten erhöht sich die Anzahl der [ICON_Ability] Kriegsmüdigkeitspunkte für jede Schlacht, die Eure Einheiten bestreiten.</Text>
+			<Text>[ICON_Bullet][ICON_Ability] Kriegsmüdigkeit pro Kampf: Das letzte, woran Eure Bevölkerung bei Frost und Hunger denken möchte, ist Krieg. In strengen Jahreszeiten erhöht sich die Anzahl der [ICON_Ability] Kriegsmüdigkeitspunkte für jede Schlacht, die Eure Einheiten bestreiten.</Text>
 		</Replace>
 
 
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_TITLE" Language="de_DE">
-			<Text>Schweregrad</Text>
+			<Text>Schweregrade</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_1" Language="de_DE">
 			<Text>Genau wie in der realen Welt kann die Intensität der Jahreszeiten stark schwanken. Vier Jahreszeiten ahmt diese jahreszeitlichen Anomalien nach, indem es jeder Jahreszeit zu Beginn einen Schweregradwert zuweist. Dieser Wert bestimmt, wie leicht oder schwer die Auswirkungen sind. Der Schweregrad liegt im Sommer, Herbst und Frühling in einem Bereich von 1 bis 5 und im Winter zwischen 1 und 6. Je höher der Wert ist, desto schlimmer sind die Auswirkungen.</Text>
@@ -129,6 +129,7 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_3" Language="de_DE">
 			<Text>Die Schweregradwahrscheinlichkeit der neuen Saison ist abhängig vom Schweregrad der letzten Saison. Die Wahrscheinlichkeitsverteilungen für den neuen Schweregrad sehen wie folgt aus (Werte in %, geordnet nach Schweregrad 1 2 3 4 5):</Text>
 		</Replace>
+		<!-- wurde gelöscht
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_4" Language="de_DE">
 			<Text>[ICON_Bullet]Schweregrad 1:    20    40    20    10    10</Text>
 		</Replace>
@@ -153,6 +154,7 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEVERITY_CHAPTER_CONTENT_PARA_11" Language="de_DE">
 			<Text>In dem unwahrscheinlichen Fall, dass ein Winter tatsächlich einen Schweregrad von 6 hat, verhält sich der Frühling so, als hätte die letzte Jahreszeit einen Schweregrad von 5 gehabt, wenn es um die Wahrscheinlichkeitsverteilung geht.</Text>
 		</Replace>
+		-->
 
 
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_TITLE" Language="de_DE">
@@ -168,7 +170,7 @@
 			<Text>[ICON_Bullet]7 bis 12 für Schnell (150% Geschwindigkeit)</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_4" Language="de_DE">
-			<Text>[ICON_Bullet]10 bis 16 für Standard (normal Geschwindigkeit)</Text>
+			<Text>[ICON_Bullet]10 bis 16 für Standard (normale Geschwindigkeit)</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SEASONLENGTH_CHAPTER_CONTENT_PARA_5" Language="de_DE">
 			<Text>[ICON_Bullet]13 bis 20 für Episch (66% Geschwindigkeit)</Text>
@@ -182,13 +184,13 @@
 
 
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_TITLE" Language="de_DE">
-			<Text>Verschiebungen</Text>
+			<Text>Jahreszeitversatz</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_1" Language="de_DE">
 			<Text>Nicht nur der Schweregrad einer Jahreszeit kann variieren, sondern auch ihr Anfangs- und Endpunkt. Ein zufälliger Versatz setzt diese Abweichungen um und kann den Beginn einer Saison verzögern oder beschleunigen. Dies hat auch Auswirkungen auf die Länge einer Saison.</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_2" Language="de_DE">
-			<Text>Nehmen wir an, das aktuelle Spiel hat eine Saisonlänge von 10 [ICON_Turn] Runden und die Start-[ICON_Turn]-Runde ist 1. Dies würde die Saisonanfänge auf [ICON_Turn] Runde 11, 21, 31 und so weiter setzen. Hier kommt der randomisierte Offset ins Spiel. Der Bereich, in dem der Saison-Offset arbeitet, beträgt 20% der Saisonlänge, in diesem Fall 0,2 * 10 = 2 (dieser Wert wird immer aufgestockt, zum Beispiel 0,2 * 9 = 1,8 ergibt 1).</Text>
+			<Text>Nehmen wir an, das aktuelle Spiel hat eine Saisonlänge von 10 [ICON_Turn] Runden und die Start-[ICON_Turn]-Runde ist 1. Dies würde die Saisonanfänge auf [ICON_Turn] Runde 11, 21, 31 und so weiter setzen. Hier kommt der zufällige Versatz ins Spiel. Der Bereich, in dem der Jahreszeitversatz arbeitet, beträgt 20% der Saisonlänge, in diesem Fall 0,2 * 10 = 2 (dieser Wert wird immer aufgestockt, zum Beispiel 0,2 * 9 = 1,8 ergibt 1).</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_OFFSETS_CHAPTER_CONTENT_PARA_3" Language="de_DE">
 			<Text>Subtrahiert und addiert diesen Wert zu den ursprünglichen Saisonwechsel [ICON_Turn] Runden (11, 21, 31 und so weiter) und Ihr habt Euren Zeitrahmen für Saisonanfänge: 11 - 2 = 9 ist die frühestmögliche Startrunde, 11 + 2 = 13 ist die letztmögliche Startrunde.</Text>
@@ -277,6 +279,9 @@
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_BASE_PARA_1" Language="de_DE">
 			<Text>[ICON_List] Liste der Effekte, die im Herbst angewendet werden:</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_BASE_PARA_2" Language="de_DE">
+			<Text>*Angewendet auf Zeitalter: Antike und Klassik / Mittelalter und Renaissance / Industriezeitalter und später</Text>
+		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY1_TITLE" Language="de_DE">
 			<Text>Schweregrad 1</Text>
 	  	</Replace>
@@ -305,7 +310,7 @@
 			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY4_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+16/+32/+48* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_TITLE" Language="de_DE">
 			<Text>Schweregrad 5</Text>
@@ -317,7 +322,7 @@
 			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_AUTUMN_CHAPTER_SEVERITY5_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+16/+32/+48* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 
 
@@ -326,6 +331,9 @@
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_BASE_PARA_1" Language="de_DE">
 			<Text>[ICON_List] Liste der Effekte, die im Winter angewendet werden:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_BASE_PARA_2" Language="de_DE">
+			<Text>*Angewendet auf Zeitalter: Antike und Klassik / Mittelalter und Renaissance / Industriezeitalter und später</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY1_TITLE" Language="de_DE">
 			<Text>Schweregrad 1</Text>
@@ -346,7 +354,7 @@
 			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY2_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+16/+32/+48* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_TITLE" Language="de_DE">
 			<Text>Schweregrad 3</Text>
@@ -355,46 +363,46 @@
 			<Text>Einheiten[NEWLINE]+40% [ICON_Promotion] Erfahrung[NEWLINE]-5 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+2 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_2" Language="de_DE">
-			<Text>Einheiten[NEWLINE]-1 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
+			<Text>Einheiten[NEWLINE]-2 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY3_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+16/+32/+48* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_TITLE" Language="de_DE">
 			<Text>Schweregrad 4</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_1" Language="de_DE">
-			<Text>Einheiten[NEWLINE]+60% [ICON_Promotion] Erfahrung[NEWLINE]-10 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+3 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-1 [ICON_Movement] Movement for Naval Units</Text>
+			<Text>Einheiten[NEWLINE]+60% [ICON_Promotion] Erfahrung[NEWLINE]-10 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+3 [ICON_Gold] Unterhalt[NEWLINE]-1 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-1 [ICON_Movement] Bewegung für Marineeinheiten</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_2" Language="de_DE">
 			<Text>Städte[NEWLINE]-2 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY4_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+32 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+32/+64/+96* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_TITLE" Language="de_DE">
 			<Text>Schweregrad 5</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_1" Language="de_DE">
-			<Text>Einheiten[NEWLINE]+80% [ICON_Promotion] Erfahrung[NEWLINE]-10 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+4 [ICON_Gold] Unterhalt[NEWLINE]-2 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-1 [ICON_Movement] Movement for Naval Units</Text>
+			<Text>Einheiten[NEWLINE]+80% [ICON_Promotion] Erfahrung[NEWLINE]-10 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+4 [ICON_Gold] Unterhalt[NEWLINE]-2 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-2 [ICON_Movement] Bewegung für Marineeinheiten</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_2" Language="de_DE">
-			<Text>Städte[NEWLINE]-2 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
+			<Text>Städte[NEWLINE]-3 [ICON_Food] Nahrung pro Feld[NEWLINE]-1 [ICON_Production] Produktion pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY5_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+32 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+32/+64/+96* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_TITLE" Language="de_DE">
 			<Text>Schweregrad 6</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_1" Language="de_DE">
-			<Text>Einheiten[NEWLINE]+100% [ICON_Promotion] Erfahrung[NEWLINE]-15 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+5 [ICON_Gold] Unterhalt[NEWLINE]-2 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]-2 [ICON_Movement] Movement for Naval Units</Text>
+			<Text>Einheiten[NEWLINE]+100% [ICON_Promotion] Erfahrung[NEWLINE]-15 [ICON_Damaged] Heilung pro [ICON_Turn] Runde[NEWLINE]+5 [ICON_Gold] Unterhalt[NEWLINE]-2 [ICON_Movement] Bewegung für Land- und Lufteinheiten[NEWLINE]Keine [ICON_Movement] Bewegung für Marineeinheiten</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_2" Language="de_DE">
-			<Text>Städte[NEWLINE]-3 [ICON_Food] Nahrung pro Feld[NEWLINE]-2 [ICON_Production] Produktion pro Feld</Text>
+			<Text>Städte[NEWLINE]-4 [ICON_Food] Nahrung pro Feld[NEWLINE]-2 [ICON_Production] Produktion pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_WINTER_CHAPTER_SEVERITY6_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+48 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+48/+96/+144* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 
 
@@ -403,6 +411,9 @@
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_BASE_PARA_1" Language="de_DE">
 			<Text>[ICON_List] Liste der Effekte, die im Frühling angewendet werden:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_BASE_PARA_2" Language="de_DE">
+			<Text>*Angewendet auf Zeitalter: Antike und Klassik / Mittelalter und Renaissance / Industriezeitalter und später</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY1_TITLE" Language="de_DE">
 			<Text>Schweregrad 1</Text>
@@ -444,7 +455,7 @@
 			<Text>Städte[NEWLINE]-1 [ICON_Food] Nahrung pro Feld</Text>
 	  	</Replace>
 		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_FOUR_SEASONS_SPRING_CHAPTER_SEVERITY5_PARA_3" Language="de_DE">
-			<Text>Kriege[NEWLINE]+16 [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
+			<Text>Kriege[NEWLINE]+16/+32/+48* [ICON_Ability] Kriegsmüdigkeit pro Kampf</Text>
 	  	</Replace>
 	</LocalizedText>
 </GameData>

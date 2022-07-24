@@ -46,10 +46,10 @@
 
     <!-- MOD: Zombie Worker & Zombie Power Plant -->
     <Replace Language="de_DE" Tag="LOC_MOD_FLAC_ZOMBIE_WORKER_NAME">
-    		<Text>[COLOR_GREEN]Zombie Worker[ENDCOLOR]</Text>
+  		<Text>[COLOR_GREEN]Zombie Worker[ENDCOLOR]</Text>
   	</Replace>
   	<Replace Language="de_DE" Tag="LOC_MOD_FLAC_ZOMBIE_WORKER_TEASER">
-    		<Text>Sie können einen kontrollierten Zombie zu einem Handwerker aufwerten.</Text>
+  		<Text>Sie können einen kontrollierten Zombie zu einem Handwerker aufwerten.</Text>
   	</Replace>
   	<Replace Language="de_DE" Tag="LOC_MOD_FLAC_ZOMBIE_WORKER_DESCRIPTION">
   		<Text>Sie können einen kontrollierten Zombie zu einem Handwerker aufwerten. Und mit dieser Art von Handwerker können Sie die spezielle Verbesserung "Zombie-Kraftwerk" bauen.</Text>
