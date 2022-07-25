@@ -6,8 +6,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 880843004  | Real Era Stop | infixo | Junky | #12
 881541733  | Better Coastal Cities and Water Tiles | p0kiehl | Junky | #15
 891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | #9
-899159291  | Sukritact's Fuji | sukritact | Junky | **NEW**
-902785246  | Sukritact's Tonlé Sap | sukritact | Junky | **NEW**
+899159291  | Sukritact's Fuji | sukritact | Junky | #19
+902785246  | Sukritact's Tonlé Sap | sukritact | Junky | #19
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
@@ -28,13 +28,13 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
-1437226966 | Sukritact's Great Blue Hole | sukritact | Junky | **NEW**
+1437226966 | Sukritact's Great Blue Hole | sukritact | Junky | #19
 1461815805 | Radiant Additional Base Buildings | Shirohô | H.Humpel | #16
-1471380224 | Sukritact's Grand Canyon | sukritact | Junky | **NEW**
+1471380224 | Sukritact's Grand Canyon | sukritact | Junky | #19
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9
-1511352952 | Sukritact's Ngorongoro Crater | sukritact | Junky | **NEW**
+1511352952 | Sukritact's Ngorongoro Crater | sukritact | Junky | #19
 1528155583 | Cheat Menu Panel (R&F - GS) | Sparrow | Junky | #13
 1540083970 | Olympic Pantheons | DB | duestere Legende | #18
 1564497864 | Herdsman | AOM | H.Humpel | #2
@@ -45,12 +45,12 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1651487987 | Cheat Map Editor | Zur13 | Junky | #13
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660382665 | Decommission Power Plants | JNR | Junky | #12
-1660410526 | Coal Liquefaction Building | naed21 | H.Humpel | **NEW**
+1660410526 | Coal Liquefaction Building | naed21 | H.Humpel | #19
 1660544080 | Zee's Decommission Power Plant | _Zee | Junky | #8
 1660936201 | Renewable Energy Complexity | JNR | Junky | #4
 1661384856 | A.I.Channel - Kizuna AI | Flactine | H.Humpel | #12
-1661939653 | Coal Liquefaction Project | naed21 | H.Humpel | **NEW**
-1661944193 | Biofuel Production Building | naed21 | H.Humpel | **NEW**
+1661939653 | Coal Liquefaction Project | naed21 | H.Humpel | #19
+1661944193 | Biofuel Production Building | naed21 | H.Humpel | #19
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
 1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | #13
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
@@ -93,12 +93,12 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
 1945460659 | Expanded Alliances | JNR | Junky | #12
-2012127235 | Sukritact's Robespierre (France) | sukritact | Junky | **NEW**
+2012127235 | Sukritact's Robespierre (France) | sukritact | Junky | #19
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
-2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | **NEW**
+2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | #19
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17
@@ -112,7 +112,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | #16
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2191979138 | EpsTweak for Adjacency Multipliers | Eps | Junky | #18
-2215414456 | Select Natural Wonders++ | sukritact | Junky | **NEW**
+2215414456 | Select Natural Wonders++ | sukritact | Junky | #19
 2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
@@ -127,7 +127,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
 2402394695 | District Expansion: Industry | JNR | Junky | #14
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
-2435878977 | Zombie Worker & Zombie Power Plant | Flactine | H.Humpel | **NEW**
+2435878977 | Zombie Worker & Zombie Power Plant | Flactine | H.Humpel | #19
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2444029678 | Upgrades Keep Unique Abilities | Sailor Cat | Junky | #18
 2449611115 | EpsTweak for Catch-Up | Eps | Junky | #7
@@ -157,7 +157,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2669325299 | District Expansion: Suburbs | JNR | Junky | #11
 2683624437 | Movable Districts | wltk | Junky | #10
 2708795273 | Four Seasons | sharpNd | Junky | #17
-2785913621 | Icebreaker | Shuricas | H.Humpel | **NEW**
+2785913621 | Icebreaker | Shuricas | H.Humpel | #19
 2769967307 | Grand Eras (Project 6T Core) | JNR & Zegangani | Junky | #16
 2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | #16
 2772587481 | Phantagonist’s Slavery and Emancipation | Phantagonist | H.Humpel | #17
@@ -174,6 +174,6 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2793115197 | Unit Expansion: Aircraft (Project 6T) | JNR | Junky | #17
 2794603014 | Detailed Wonder Reminder Enhanced | Konomi | Junky | #17
 2794935656 | Silk & Spice: Trade Route Rework | Alf.Net | Junky | #18
-2798127335 | Detailed Wonder Reminder | Konomi | Junky | **NEW**
-2810602977 | Take Over Production Queue | Jewbery | H.Humpel | **NEW**
+2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
+2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
