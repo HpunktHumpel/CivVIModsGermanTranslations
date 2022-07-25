@@ -88,6 +88,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
 1945460659 | Expanded Alliances | JNR | Junky | #12
+2012127235 | Sukritact's Robespierre (France) | sukritact | Junky | **NEW**
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
