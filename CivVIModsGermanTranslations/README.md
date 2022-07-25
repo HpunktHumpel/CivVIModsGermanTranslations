@@ -34,6 +34,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
 1499009957 | Radiant Better Unit Promotions | Shirohô | Junky | #5
 1508915308 | Tide Mill Building | Sailor Cat | H.Humpel | #9
+1511352952 | Sukritact's Ngorongoro Crater | sukritact | Junky | **NEW**
 1528155583 | Cheat Menu Panel (R&F - GS) | Sparrow | Junky | #13
 1540083970 | Olympic Pantheons | DB | duestere Legende | #18
 1564497864 | Herdsman | AOM | H.Humpel | #2
