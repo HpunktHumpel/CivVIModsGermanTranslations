@@ -28,6 +28,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
+1437226966 | Sukritact's Great Blue Hole | sukritact | Junky | **NEW**
 1461815805 | Radiant Additional Base Buildings | Shirohô | H.Humpel | #16
 1471380224 | Sukritact's Grand Canyon | sukritact | Junky | **NEW**
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
