@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="19">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]172[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]173[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1658759645</Created>
+    <Created>1658760393</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, naed21, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -143,6 +143,9 @@
     </Criteria>
     <Criteria id="SukritactsSimpleUIAdjustments_FrontEnd">
       <ModIsEnabled>805cc499-c534-4e0a-bdce-32fb3c53ba38</ModIsEnabled>
+    </Criteria>
+    <Criteria id="SukritactsTonleSap_FrontEnd">
+      <ModIsEnabled>28e0e437-f324-43e9-b6b1-4d344ce0f98e</ModIsEnabled>
     </Criteria>
     <Criteria id="UC_Aqueduct_FrontEnd">
       <ModIsEnabled>1373373a-f34d-4041-a0f8-49e2004e19a1</ModIsEnabled>
@@ -585,6 +588,9 @@
     </Criteria>
     <Criteria id="SukritactsSimpleUIAdjustments">
       <ModInUse>805cc499-c534-4e0a-bdce-32fb3c53ba38</ModInUse>
+    </Criteria>
+    <Criteria id="SukritactsTonleSap">
+      <ModInUse>28e0e437-f324-43e9-b6b1-4d344ce0f98e</ModInUse>
     </Criteria>
     <Criteria id="SukritactsWatArun">
       <ModInUse>b21b4017-3e53-4e35-ae38-1b5d7501e6d0</ModInUse>
@@ -1230,6 +1236,13 @@
     <UpdateText id="SukritactsSimpleUIAdjustments_FrontEnd_de_DE">
       <Criteria>SukritactsSimpleUIAdjustments_FrontEnd</Criteria>
       <File>939149009/Core/Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="SukritactsTonleSap_FrontEnd_de_DE">
+      <Criteria>SukritactsTonleSap_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>902785246/Core/Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Aqueduct_FrontEnd_ConfigText_de_DE">
       <Criteria>UC_Aqueduct_FrontEnd</Criteria>
@@ -2338,6 +2351,13 @@
       <Criteria>SukritactsSimpleUIAdjustments</Criteria>
       <File>939149009/Core/Localisation_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SukritactsTonleSap_de_DE">
+      <Criteria>SukritactsTonleSap</Criteria>
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>902785246/Core/Localisation_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SukritactsWatArun_de_DE">
       <Criteria>SukritactsWatArun</Criteria>
       <File>933787677/Core/Suk_Wat_Arun_Localisation_de_DE.sql</File>
@@ -3387,6 +3407,7 @@
     <File>881541733/WaterTiles_Text_de_DE.sql</File>
     <File>891130600/GameText_de_DE.xml</File>
     <File>899159291/Core/Suk_Fuji_Localisation_de_DE.sql</File>
+    <File>902785246/Core/Localisation_de_DE.sql</File>
     <File>902897696/Caravansaries_Text_de_DE.sql</File>
     <File>902897696/Discipline_Text_de_DE.sql</File>
     <File>902897696/GodKing_Text_de_DE.sql</File>
