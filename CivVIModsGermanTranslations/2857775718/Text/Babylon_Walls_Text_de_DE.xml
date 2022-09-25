@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_BUILDING_BABYLON_WALLS_NAME" Language="de_DE" Gender="neuter" Plurality="2">
+			<Text>Mauern von Babylon|Mauern von Babylon|Mauern von Babylon|Mauern von Babylon|Mauern von Babylon</Text>
+		</Replace>
+
+			<Replace Tag="LOC_BUILDING_BABYLON_WALLS_DESCRIPTION" Language="de_DE">
+				<Text>Einzigartiges Gebäude von Babylon. Höhere [ICON_PRODUCTION] Produktion-Kosten und höhere Außenverteidigung als Stadtmauern. Bietet +1 [ICON_TOURISM] Tourismus nach Erreichen der Ausrichtung 'Naturschutz'. Bietet angrenzenden Bezirken +1 [ICON_GreatPerson] Große-Persönlichkeit-Punkte des entsprechenden Typs. +1 [ICON_CULTURE] Kultur für jedes Zeitalter seit der Errichtung oder jüngsten Reparatur. Können nicht zu Mittelalterlichen Mauern verbessert werden.</Text>
+			</Replace>
+
+	</LocalizedText>
+</GameData>

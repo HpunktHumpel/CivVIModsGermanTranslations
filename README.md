@@ -42,6 +42,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. CIVILIZATION VI: NATIONAL WONDERS (Albro | H.Humpel)
 1. CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro | H.Humpel)
 1. CIVILIZATION VI: ST PETERS BASILICA (Albro | H.Humpel)
+1. CIVILIZATION VI: WALLS OF BABYLON (Albro | H.Humpel)
 1. CIVITAS City-States Expanded (thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky)
 1. CIVITAS City-States (Mekong Ruleset) (chimp | Junky)
 1. CIVITAS Resources (Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie)

@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="20">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]177[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]178[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1664145053</Created>
+    <Created>1664147044</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, naed21, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -194,6 +194,9 @@
     </Criteria>
     <Criteria id="VeryNiceMagazine_FrontEnd">
       <ModIsEnabled>d520c390-cddc-41d0-98ae-e0d6733d859e</ModIsEnabled>
+    </Criteria>
+    <Criteria id="WallsOfBabylon_FrontEnd">
+      <ModIsEnabled>b2007676-c4b2-447e-b553-bc41a6d268c5</ModIsEnabled>
     </Criteria>
     <!-- InGame Actions -->
     <Criteria id="AB2531BuyUnitsWithFaith">
@@ -699,6 +702,9 @@
     </Criteria>
     <Criteria id="VinrocksPantheons">
       <ModInUse>c01a2754-aa11-4e27-9cf0-c55c13457a94</ModInUse>
+    </Criteria>
+    <Criteria id="WallsOfBabylon">
+      <ModInUse>b2007676-c4b2-447e-b553-bc41a6d268c5</ModInUse>
     </Criteria>
     <Criteria id="Wetlands">
       <ModInUse>73b1478a-73bf-4907-8914-b1b5acca388b</ModInUse>
@@ -1446,6 +1452,10 @@
     <UpdateText id="VeryNiceMagazine_FrontEnd_de_DE">
       <Criteria>VeryNiceMagazine_FrontEnd</Criteria>
       <File>1717330418/Magazine1_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="WallsOfBabylon_FrontEnd_de_DE">
+      <Criteria>WallsOfBabylon_FrontEnd</Criteria>
+      <File>2857775718/Text/Babylon_Walls_Text_de_DE.xml</File>
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
@@ -3120,6 +3130,10 @@
       <Criteria>VinrocksPantheons</Criteria>
       <File>2493618364/tooltip_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="WallsOfBabylon_de_DE">
+      <Criteria>WallsOfBabylon</Criteria>
+      <File>2857775718/Text/Babylon_Walls_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="Wetlands_de_DE">
       <Criteria>Wetlands</Criteria>
       <File>2135724456/Text/Wetlands_Text_de_DE.sql</File>
@@ -3457,6 +3471,7 @@
     <File>2798127335/Text/DetailedWonderReminder_de_DE.sql</File>
     <File>2810602977/queueText_de_DE.sql</File>
     <File>2830394969/Core/Suk_Embarkation_Localisation_de_DE.sql</File>
+    <File>2857775718/Text/Babylon_Walls_Text_de_DE.xml</File>
     <File>2859087238/TEXT_PoliciesUpdate_de_DE.SQL</File>
     <File>2859097166/TEXT_BeliefsRework_de_DE.sql</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
