@@ -1,6 +1,7 @@
 25.09.2022
 
 - [NEW] ZJ's BeliefsRework (vom 5. Sep. 2022 um 17:14, Übersetzung von H.Humpel)
+- [NEW] ZJ's Policies Update (vom 5. Sep. 2022 um 16:50, Übersetzung von H.Humpel)
 
 
 ===== Version 19 =====

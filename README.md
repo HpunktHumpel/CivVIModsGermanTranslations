@@ -183,6 +183,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Zee's Properly Timed Eras (_Zee | Junky)
 1. Zee's Strategic Resource Overhaul (_Zee | Junky)
 1. ZJ's BeliefsRework (ARCANE | H.Humpel)
+1. ZJ's Policies Update (ARCANE | H.Humpel)
 1. Zombie Worker & Zombie Power Plant (Flactine | H.Humpel)
 
 ## Installation

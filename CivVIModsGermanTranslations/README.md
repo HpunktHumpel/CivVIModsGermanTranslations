@@ -177,4 +177,5 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
+2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | **NEW**
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | **NEW**
