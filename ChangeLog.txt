@@ -1,5 +1,6 @@
 13.10.2022
 
+- [NEW] Enhanced Routes (vom 15. Sep. 2022 um 22:38, Übersetzung von H.Humpel)
 - [NEW] Unit-Shield Warrior (vom 10. Okt. 2022 um 15:21, Übersetzung von H.Humpel)
 
 

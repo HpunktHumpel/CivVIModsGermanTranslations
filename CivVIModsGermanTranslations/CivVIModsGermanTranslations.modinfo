@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="20">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]179[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]180[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1665670061</Created>
+    <Created>1665672665</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, naed21, Neicureuil, NHC, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, naed21, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -333,6 +333,9 @@
     </Criteria>
     <Criteria id="EndgameMapReplay">
       <ModInUse>da4f4000-53a0-4005-bb25-5354f781bef6</ModInUse>
+    </Criteria>
+    <Criteria id="EnhancedRoutes">
+      <ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
     </Criteria>
     <Criteria id="EnvironmentalisticPolicy">
       <ModInUse>1808a03a-da90-483c-bad1-3b92035e5c22</ModInUse>
@@ -1793,6 +1796,15 @@
     <UpdateText id="EndgameMapReplay_de_DE">
       <Criteria>EndgameMapReplay</Criteria>
       <File>2656616965/Text/AKMH_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="EnhancedRoutes_Replace_Route_Text_de_DE">
+      <Criteria>EnhancedRoutes</Criteria>
+      <File>2856129795/Update_Route_Names_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="EnhancedRoutes_Add_Lens_Text_de_DE">
+      <Criteria>EnhancedRoutes</Criteria>
+      <File>2856129795/UI/Lenses/Movecost/Movecost_Lens_Text_de_DE.xml</File>
+      <File>2856129795/UI/Lenses/Routes/Routes_Lens_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="EnvironmentalisticPolicy_de_DE">
       <Criteria>EnvironmentalisticPolicy</Criteria>
@@ -3478,6 +3490,9 @@
     <File>2798127335/Text/DetailedWonderReminder_de_DE.sql</File>
     <File>2810602977/queueText_de_DE.sql</File>
     <File>2830394969/Core/Suk_Embarkation_Localisation_de_DE.sql</File>
+    <File>2856129795/UI/Lenses/Movecost/Movecost_Lens_Text_de_DE.xml</File>
+    <File>2856129795/UI/Lenses/Routes/Routes_Lens_Text_de_DE.xml</File>
+    <File>2856129795/Update_Route_Names_de_DE.sql</File>
     <File>2857775718/Text/Babylon_Walls_Text_de_DE.xml</File>
     <File>2859087238/TEXT_PoliciesUpdate_de_DE.SQL</File>
     <File>2859097166/TEXT_BeliefsRework_de_DE.sql</File>

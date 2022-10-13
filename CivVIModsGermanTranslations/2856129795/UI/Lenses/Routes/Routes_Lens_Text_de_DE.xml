@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Utilization_Lens_Text -->
+<!-- Author: Nightemaire -->
+<!-- DateCreated: 6/26/2022 14:08:44 -->
+<!-- Translation (de_DE): H.Humpel -->
+
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_HUD_ROUTES_LENS" Language="de_DE">
+			<Text>Routen</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_ROUTES_LENS_TOOLTIP" Language="de_DE">
+			<Text>Hebt Geländefelder mit Transportinfrastruktur hervor</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUBTYPE_LENS" Language="de_DE">
+			<Text>Routen-Untertypen</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_SUBTYPE_LENS_TOOLTIP" Language="de_DE">
+			<Text>Hebt Untertypen von Routen hervor</Text>
+		</Replace>
+		<!-- ROUTES -->
+		<Replace Tag="LOC_TOOLTIP_LENS_ROUTE_ANCIENT" Language="de_DE">
+			<Text>Pfad</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_ROUTE_MEDIEVAL" Language="de_DE">
+			<Text>Straße</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_ROUTE_INDUSTRIAL" Language="de_DE">
+			<Text>Asphalt</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_ROUTE_MODERN" Language="de_DE">
+			<Text>Autobahn</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_ROUTE_RAILROAD" Language="de_DE">
+			<Text>Eisenbahn</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_ROUTE_PILLAGED" Language="de_DE">
+			<Text>Zerstörte Route</Text>
+		</Replace>
+		<!-- SUBTYPES -->
+		<Replace Tag="LOC_TOOLTIP_LENS_SUBTYPE_PRIMARY" Language="de_DE">
+			<Text>Primär</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_SUBTYPE_SECONDARY" Language="de_DE">
+			<Text>Sekundär</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_SUBTYPE_TERTIARY" Language="de_DE">
+			<Text>Tertiär</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_SUBTYPE_OTHER" Language="de_DE">
+			<Text>Sonstiges</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_LENS_SUBTYPE_RR" Language="de_DE">
+			<Text>Eisenbahn</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

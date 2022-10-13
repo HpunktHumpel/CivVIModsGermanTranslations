@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Utilization_Lens_Text -->
+<!-- Author: Nightemaire -->
+<!-- DateCreated: 6/26/2022 14:08:44 -->
+<!-- Translation (de_DE): H.Humpel -->
+
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_HUD_MOVECOST_LENS" Language="de_DE">
+			<Text>Bewegungskosten</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_MOVECOST_LENS_TOOLTIP" Language="de_DE">
+			<Text>Zeigt die Bewegungskosten für jedes Feld</Text>
+		</Replace>
+		<!-- Labels -->
+		<Replace Tag="LOC_TOOLTIP_MOVECOST_LOWEST" Language="de_DE">
+			<Text>Unpassierbar</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_MOVECOST_LOW" Language="de_DE">
+			<Text>3</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_MOVECOST_MEDIUM" Language="de_DE">
+			<Text>2</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_MOVECOST_HIGH" Language="de_DE">
+			<Text>1</Text>
+		</Replace>
+		<Replace Tag="LOC_TOOLTIP_MOVECOST_HIGHEST" Language="de_DE">
+			<Text>Weniger als 1</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
