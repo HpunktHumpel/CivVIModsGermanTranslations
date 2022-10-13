@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_XIANZHEN_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Schildkrieger|Schildkrieger|Schildkrieger|Schildkriegers|Schildkrieger</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_XIANZHEN_DESCRIPTION" Language="de_DE">
+			<Text>Frühe Kavallerie-Abwehreinheit aus der Antike. Startet mit 1 freien Beförderung.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XIANZHEN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Ein Schild wird zur Verteidigung beim Angriff verwendet. Es kann den Körper bedecken und somit ein Töten durch die Waffen des Feindes verteidigen. Es wird normalerweise in Verbindung mit Stich- und Kampfwaffen wie Messern und Schwertern verwendet. Die frühen Schilde wurden aus Holz, Leder und anderen Materialien hergestellt und ihre Oberflächen waren bemalt. Sie waren meist rechteckig oder trapezförmig und hatten eine Länge von nicht mehr als einem Meter. In China erlebte der Schild in der östlichen Han-Dynastie eine beispiellose Entwicklung und prägte für mehr als 500 Jahre den Kriegsstil.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

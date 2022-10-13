@@ -180,3 +180,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2857775718 | CIVILIZATION VI: WALLS OF BABYLON | Albro | H.Humpel | **NEW**
 2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | **NEW**
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | **NEW**
+2873617380 | Unit-Shield Warrior | Camille | H.Humpel | **NEW**
