@@ -183,3 +183,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | **NEW**
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | **NEW**
 2878166834 | Mikecro's Military Camp | Mikecro & Sailor Cat | H.Humpel | **NEW**
+2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | **NEW**

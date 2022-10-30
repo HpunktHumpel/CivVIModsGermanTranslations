@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LivingThingsGrow_Text -->
+<!-- Author: dreadanddespair -->
+<!-- DateCreated: 9/15/2022 9:20:58 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_JJSR_RESOURCE_GROWTH" Language="de_DE">
+			<Text>Ressourcenwachstum!</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_RESOURCE_SPREAD" Language="de_DE">
+			<Text> ist auf ein anderes Gebiet gewachsen.</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_FEATURE_GROWTH" Language="de_DE">
+			<Text>Eigenschaften-Wachstum!</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_FEATURE_SPREAD" Language="de_DE">
+			<Text> ist auf ein anderes Gebiet gewachsen.</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_ICE_FLOW_GROWTH" Language="de_DE">
+			<Text>Ein Eisfluss hat sich ausgebreitet.</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_ICE_FLOW_DESTROYS" Language="de_DE">
+			<Text>Das Wachstum eines Eisflusses hat zerstört: </Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_ICE_FLOW_DESTROYS_IMPROVEMENT" Language="de_DE">
+			<Text>Das Wachstum eines Eisstroms hat eine Verbesserung zerstört.</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_ICE_IMPROVEMENT" Language="de_DE">
+			<Text>eine Verbesserung</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_ICE_RESOURCE" Language="de_DE">
+			<Text>eine Ressource</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_ICE_FEATURE" Language="de_DE">
+			<Text>eine Eigenschaft</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_ICE_GROWTH_NAME" Language="de_DE">
+			<Text>Eisausbreitung zulassen</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_ICE_GROWTH_DESCRIPTION" Language="de_DE">
+			<Text>Eisströme wachsen entsprechend den Kartenoptionen. (Kälter sorgt für mehr Wachstum.)</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
