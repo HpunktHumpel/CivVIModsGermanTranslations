@@ -6,22 +6,25 @@
 -- German
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
+		(Tag, Language, Text,	Gender, Plurality) VALUES
+		('LOC_BUILDING_JNR_ACADEMY_NAME',					'de_DE',	'Schule|Schule|Schule|Schule|Schule', 'feminine',	1),
+		('LOC_BUILDING_JNR_SCHOOL_NAME',					'de_DE',	'Akademie|Akademie|Akademie|Akademie|Akademie', 'feminine',	1),
+		('LOC_BUILDING_JNR_LABORATORY_NAME',			'de_DE',	'Laboratorium|Laboratorium|Laboratorium|Laboratoriums|Laboratorium', 'neuter',		1),
+		('LOC_BUILDING_JNR_LIBERAL_ARTS_NAME',		'de_DE',	'Kunsthochschule|Kunsthochschule|Kunsthochschule|Kunsthochschule|Kunsthochschule', 'feminine',	1),
+		('LOC_BUILDING_RESEARCH_LAB_NAME_UC_JNR',	'de_DE',	'Institut für Technologie|Institut für Technologie|Institut für Technologie|Instituts für Technologie|Institut für Technologie', 'neuter',		1),
+		('LOC_BUILDING_JNR_EDUCATION_NAME',				'de_DE',	'Volkshochschule|Volkshochschule|Volkshochschule|Volkshochschule|Volkshochschule',	'feminine',	1);
+
+INSERT OR REPLACE INTO LocalizedText
 		(Tag,														Language,	Text)
 VALUES	('LOC_BUILDING_LIBRARY_DESCRIPTION_UC_JNR',					'de_DE',	'+1 zusätzliche [ICON_SCIENCE] Wissenschaft für jede Era seit Errichtung oder Reparatur.'),
-		('LOC_BUILDING_JNR_ACADEMY_NAME',							'de_DE',	'Schule'),
 --		('LOC_BUILDING_JNR_ACADEMY_DESCRIPTION',					'de_DE',	'Description'),
 		('LOC_BUILDING_UNIVERSITY_DESCRIPTION_UC_JNR',				'de_DE',	'[ICON_SCIENCE] Bonus-Wissenschaft entspricht dem Basis-Nachbarschaftsbonus des Campus-Bezirks.'),
-		('LOC_BUILDING_JNR_SCHOOL_NAME',							'de_DE',	'Akademie'),
 		('LOC_BUILDING_JNR_SCHOOL_DESCRIPTION',						'de_DE',	'+1 [ICON_SCIENCE] Wissenschaft pro [ICON_GOVERNOR] Beförderung des Gouverneurs in dieser Stadt.'),
 		('LOC_BUILDING_MADRASA_DESCRIPTION_UC_JNR',					'de_DE',	'Ein einzigartiges Gebäude der Araber.[NEWLINE]Zusätzlicher [ICON_Faith] Glauben entspricht dem Basis-Nachbarschaftsbonus des Campus-Bezirks.'),
 		('LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION_UC_JNR',		'de_DE',	'Ein einzigartiges Gebäude von Portugal. +25% [ICON_PRODUCTION] Produktion für Marine-Einheiten in dieser Stadt. +1 [ICON_GreatAdmiral] Großer-Admiral-Punkte. +0.5 [ICON_SCIENCE] Wissenschaft für jedes Küsten- oder Seegeländefeld in dieser Stadt.[NEWLINE]+1 [ICON_SCIENCE] Wissenschaft pro [ICON_GOVERNOR] Beförderung des Gouverneurs in dieser Stadt.'),
-		('LOC_BUILDING_JNR_LABORATORY_NAME',						'de_DE',	'Laboratorium'),
 		('LOC_BUILDING_JNR_LABORATORY_DESCRIPTION',					'de_DE',	'+0.3 [ICON_SCIENCE] Wissenschaft pro Runde für jeden [ICON_Citizen] Bürger dieser Stadt.'),
-		('LOC_BUILDING_JNR_LIBERAL_ARTS_NAME',						'de_DE',	'Kunsthochschule'),
 		('LOC_BUILDING_JNR_LIBERAL_ARTS_DESCRIPTION',				'de_DE',	'+1 [ICON_SCIENCE] Wissenschaft für jedes Große Werk dieser Stadt.'),
-		('LOC_BUILDING_RESEARCH_LAB_NAME_UC_JNR',					'de_DE',	'Institut für Technologie'),
 		('LOC_BUILDING_RESEARCH_LAB_DESCRIPTION_UC_JNR',			'de_DE',	'+5% [ICON_Science] Wissenschaft in dieser Stadt. Weitere +5% wenn die Stadt mit [ICON_POWER] Strom versorgt ist.'),
-		('LOC_BUILDING_JNR_EDUCATION_NAME',							'de_DE',	'Volkshochschule'),
 		('LOC_BUILDING_JNR_EDUCATION_DESCRIPTION',					'de_DE',	'Der [ICON_SCIENCE] Wissenschaftsbonus wird auf alle Stadtzentren innerhalb von 6 Feldern ausgeweitet, sofern dieses Stadtzentrum nicht bereits von einem solchen Bonus betroffen ist.'),
 		('LOC_DISTRICT_OBSERVATORY_DESCRIPTION_JNR_UC',				'de_DE',	'Ein einzigartiger Bezirk der Maya. Ersetzt den Campus-Bezirk und ist günstiger zu bauen.[NEWLINE][NEWLINE]+1 [ICON_Science] Wissenschaft für jede angrenzende Luxus-Ressource oder Plantage. +1 [ICON_Science] Wissenschaft für jeweils 2 angrenzende Farmen oder Spezialbezirke.'),
 		('LOC_BOOST_TRIGGER_PRINTING_JNR_UC',						'de_DE',	'Baue 2 Universitäten oder Akademien.'),
