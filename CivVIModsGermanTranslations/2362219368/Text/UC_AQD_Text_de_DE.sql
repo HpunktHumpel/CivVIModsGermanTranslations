@@ -1,3 +1,4 @@
+
 -- UC_AQD_Text
 -- Author: JNR
 -- Translation: Gorowynn
@@ -23,6 +24,10 @@ VALUES	('LOC_DISTRICT_AQUEDUCT_NAME_JNR_UC',				'de_DE',	'Zisterne'),
 	('LOC_ABILITY_JNR_HARDENED_STEEL_MODIFIER_DESCRIPTION',	'de_DE',	'+2 [ICON_Strength] Kampfstärke durch gehärteten Stahl.'),
 	('LOC_POLICY_JNR_RESERVOIRS_NAME',						'de_DE',	'Vorratsbehälter'),
 	('LOC_POLICY_JNR_RESERVOIRS_DESCRIPTION',				'de_DE',	'+1 [ICON_Food] Nahrung für alle Bauernhöfe angrenzend an eine Zisterne, Damm oder Kanal.'),
+	('LOC_POLICY_JNR_GARDEN_CITIES_NAME',				'de_DE', 'Gartenstädte'),
+	('LOC_POLICY_JNR_GARDEN_CITIES_DESCRIPTION',			'de_DE', '+1 [ICON_Food] Nahrung auf allen Geländefeldern, die an eine Zisterne, Damm, Kanal oder Wohnviertel angrenzen.'),
+	('LOC_POLICY_JNR_WATER_TREATMENT_NAME',					'de_DE', 'Wasseraufbereitung'),
+	('LOC_POLICY_JNR_WATER_TREATMENT_DESCRIPTION',			'de_DE', '+1 [ICON_Housing] Wohnraum für jede Zisterne. Wird verdoppelt, wenn der Bezirk atemberaubende Anziehungskraft besitzt.'),
 	('LOC_PROJECT_REMOVE_DISTRICT_AQUEDUCT_NAME_JNR_UC',	'de_DE',	'Entferne Zisterne');
 
 UPDATE	LocalizedText
