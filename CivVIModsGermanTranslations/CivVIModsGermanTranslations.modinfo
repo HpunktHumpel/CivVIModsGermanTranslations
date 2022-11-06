@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="21">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]182[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]183[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1667752959</Created>
+    <Created>1667757897</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Mikecro, naed21, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -504,6 +504,9 @@
     </Criteria>
     <Criteria id="PolicyChangeReminder">
       <ModInUse>2778f75d-9c72-4919-a081-620f6482f5d6</ModInUse>
+    </Criteria>
+    <Criteria id="PolicyPackCorporations">
+      <ModInUse>d6f03d57-cd1d-476b-bf2d-d786d3e7f7a6</ModInUse>
     </Criteria>
     <Criteria id="PorcelainTower">
       <ModInUse>89a948de-5e48-4608-81a4-c52bd68bc4eb</ModInUse>
@@ -2180,6 +2183,14 @@
       <Criteria>PolicyChangeReminder</Criteria>
       <File>1132600299/localisation_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="PolicyPackCorporations_Text_de_DE">
+      <Criteria>PolicyPackCorporations</Criteria>
+      <Criteria>Monopolies_Mode</Criteria>
+      <Properties>
+        <LoadOrder>13771</LoadOrder>
+      </Properties>
+      <File>2857099961/Core/PP_Corporations_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="PorcelainTower_de_DE">
       <Criteria>PorcelainTower</Criteria>
       <File>1889267110/Text/Porcelain_Tower_Text_de_DE.xml</File>
@@ -3562,6 +3573,7 @@
     <File>2856129795/UI/Lenses/Movecost/Movecost_Lens_Text_de_DE.xml</File>
     <File>2856129795/UI/Lenses/Routes/Routes_Lens_Text_de_DE.xml</File>
     <File>2856129795/Update_Route_Names_de_DE.sql</File>
+    <File>2857099961/Core/PP_Corporations_Text_de_DE.sql</File>
     <File>2857775718/Text/Babylon_Walls_Text_de_DE.xml</File>
     <File>2859087238/TEXT_PoliciesUpdate_de_DE.SQL</File>
     <File>2859097166/TEXT_BeliefsRework_de_DE.sql</File>

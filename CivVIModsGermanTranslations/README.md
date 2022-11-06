@@ -178,6 +178,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
 2856129795 | Enhanced Routes | Nightemaire | H.Humpel | #20
+2857099961 | Policy Pack: Corporations | JNR | H.Humpel | **NEW**
 2857775718 | CIVILIZATION VI: WALLS OF BABYLON | Albro | H.Humpel | #20
 2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | #20
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | #20

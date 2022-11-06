@@ -1,5 +1,6 @@
 05.11.2022
 
+- [NEW] Policy Pack: Corporations (vom 1. Sep. 2022 um 10:22, Übersetzung von H.Humpel)
 - [UPDATE] District Expansion: Campus (vom 6. Nov. 2022 um 2:46, Updated von H.Humpel)
 - [UPDATE] District Expansion: Industry (vom 6. Nov. 2022 um 3:19, Updated von Junky)
 - [UPDATE] District Expansion: Spirituality (vom 6. Nov. 2022 um 3:46, Updated von Junky)
