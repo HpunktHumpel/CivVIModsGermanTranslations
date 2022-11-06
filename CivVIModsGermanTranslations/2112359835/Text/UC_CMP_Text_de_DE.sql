@@ -12,7 +12,8 @@ INSERT OR REPLACE INTO LocalizedText
 		('LOC_BUILDING_JNR_LABORATORY_NAME',			'de_DE',	'Laboratorium|Laboratorium|Laboratorium|Laboratoriums|Laboratorium', 'neuter',		1),
 		('LOC_BUILDING_JNR_LIBERAL_ARTS_NAME',		'de_DE',	'Kunsthochschule|Kunsthochschule|Kunsthochschule|Kunsthochschule|Kunsthochschule', 'feminine',	1),
 		('LOC_BUILDING_RESEARCH_LAB_NAME_UC_JNR',	'de_DE',	'Institut für Technologie|Institut für Technologie|Institut für Technologie|Instituts für Technologie|Institut für Technologie', 'neuter',		1),
-		('LOC_BUILDING_JNR_EDUCATION_NAME',				'de_DE',	'Volkshochschule|Volkshochschule|Volkshochschule|Volkshochschule|Volkshochschule',	'feminine',	1);
+		('LOC_BUILDING_JNR_EDUCATION_NAME',				'de_DE',	'Volkshochschule|Volkshochschule|Volkshochschule|Volkshochschule|Volkshochschule',	'feminine',	1),
+		('LOC_POLICY_JNR_BIG_SCIENCE_NAME',				'de_DE',	'Großforschung|Großforschung|Großforschung|Großforschung|Großforschung',	'feminine',	1);
 
 INSERT OR REPLACE INTO LocalizedText
 		(Tag,														Language,	Text)
@@ -30,20 +31,22 @@ VALUES	('LOC_BUILDING_LIBRARY_DESCRIPTION_UC_JNR',					'de_DE',	'+1 zusätzliche
 		('LOC_BOOST_TRIGGER_PRINTING_JNR_UC',						'de_DE',	'Baue 2 Universitäten oder Akademien.'),
 		('LOC_BOOST_TRIGGER_CHEMISTRY_JNR_UC',						'de_DE',	'Baue 2 Laboratorien.'),
 		('LOC_BOOST_TRIGGER_LONGDESC_CHEMISTRY_JNR_UC',				'de_DE',	'Die Ausführung von Experimenten in kontrollierten Umgebungen hat unser Verständnis der Elemente erheblich verbessert.'),
-		('LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM_JNR_UC',				'de_DE',	'Baue ein Technologie-Institut.'),
+		('LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM_JNR_UC',				'de_DE',	'Baue ein Institut für Technologie.'),
 		('LOC_GREATPERSON_ACADEMY_SCIENCE_JNR',						'de_DE',	'Schulen erzeugen +{Amount} [ICON_SCIENCE] Wissenschaft.'),
 		('LOC_GREATPERSON_SCHOOL_SCIENCE_JNR',						'de_DE',	'Akademien erzeugen +{Amount} [ICON_SCIENCE] Wissenschaft.'),
 		('LOC_GREATPERSON_LIBERAL_ARTS_SCIENCE_JNR',				'de_DE',	'Kunsthochschulen erzeugen +{Amount} [ICON_SCIENCE] Wissenschaft.'),
 		('LOC_GREATPERSON_LABORATORY_SCIENCE_JNR',					'de_DE',	'Laboratorien erzeugen +{Amount} [ICON_SCIENCE] Wissenschaft.'),
-		('LOC_GREATPERSON_INSTITUTE_SCIENCE_JNR',					'de_DE',	'Technologie-Institute erzeugen +{Amount} [ICON_SCIENCE] Wissenschaft.'),
+		('LOC_GREATPERSON_INSTITUTE_SCIENCE_JNR',					'de_DE',	'Institute für Technologie erzeugen +{Amount} [ICON_SCIENCE] Wissenschaft.'),
 		('LOC_GREATPERSON_EDUCATION_SCIENCE_JNR',					'de_DE',	'Volkshochschulen erzeugen +{Amount} [ICON_SCIENCE] Wissenschaft.'),
 		('LOC_GREATPERSON_ACADEMY_JNR',								'de_DE',	'Baut sofort eine Schule in diesem Bezirk.'),
 		('LOC_GREATPERSON_SCIENTIFICTHEORYTECHBOOST_JNR',			'de_DE',	'Löst ein [ICON_TechBoosted] Eureka für die Wissenschaftstheorie aus.'),
 		('LOC_GREATPERSON_1RENAISSANCEINDUSTRIALCIVICBOOST_JNR',	'de_DE',	'Löst eine [ICON_CivicBoosted] Inspiration für {Amount} zufällige {Amount : plural 1?Ausrichtung; other?Ausrichtungen;} der Renaissance oder Industriellen Era aus.'),
-		('LOC_POLICY_RATIONALISM_DESCRIPTION_JNR_UC',				'de_DE',	'Zusätzliche [ICON_SCIENCE] Wissenschaft von  Campus-Gebäuden: +1 wenn die [ICON_CITIZEN] Stadtbevölkerung 15 oder höher ist, +1 wenn der Bezirk mindestens einen Nachbarschaftsbonus von +4 hat.'),
-		('LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_JNR_UC_CMP',			'de_DE',	'+2 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte pro Runde für jede Universität oder Akademie. +4 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte für jedes Technologie-Institut oder Volkshochschule. +2 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jede Fabrik. +4 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jedes Kraftwerk.'),
-		('LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_JNR_UC',				'de_DE',	'+2 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte pro Runde für jede Universität oder Akademie. +4 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte für jedes Technologie-Institut oder Volkshochschule. +2 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jede Fabrik und jedes Chemiewerk. +4 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jedes Kraftwerk oder Logistik-Center.'),
+		('LOC_POLICY_RATIONALISM_DESCRIPTION_JNR_UC',				'de_DE',	'Zusätzliche [ICON_SCIENCE] Wissenschaft von Campus-Gebäuden: +1 wenn die [ICON_CITIZEN] Stadtbevölkerung 15 oder höher ist, +1 wenn der Bezirk mindestens einen Nachbarschaftsbonus von +4 hat.'),
+		('LOC_POLICY_JNR_BIG_SCIENCE_DESCRIPTION',					'de_DE', 'Extra [ICON_SCIENCE] Wissenschaft von Campus-Gebäuden: in Höhe der Gebäudestufe, wenn die [ICON_CITIZEN] Stadtbevölkerung 15 oder höher ist, in Höhe der Gebäudestufe, wenn der Bezirk mindestens einen Nachbarschaftsbonus von +4 hat.'),
+		('LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_JNR_UC_CMP',			'de_DE',	'+2 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte pro Runde für jede Universität oder Akademie. +4 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte für jedes Institut für Technologie oder Volkshochschule. +2 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jede Fabrik. +4 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jedes Kraftwerk.'),
+		('LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_JNR_UC',				'de_DE',	'+2 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte pro Runde für jede Universität oder Akademie. +4 [ICON_GreatScientist] Großer-Wissenschaftler-Punkte für jedes Institut für Technologie oder Volkshochschule. +2 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jede Fabrik und jedes Chemiewerk. +4 [ICON_GreatEngineer] Großer-Ingenieur-Punkte für jedes Kraftwerk oder Logistik-Center.'),
 		('LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_JNR_UC',			'de_DE',	'+1 [ICON_Culture] Kultur und +2 [ICON_Gold] Gold von jedem Lager, Flugplatz, und Kraftwerk.'),
+		('LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_JNR_UC_ARS',		'de_DE', '+1 [ICON_Culture] Kultur und +2 [ICON_Gold] Goldvon jedem Lager, Arsenal, Flugplatz, und Kraftwerk.'),
 		('LOC_DISTRICT_JNR_UC_Floodpains_Grass_Science',			'de_DE',	'+{1_num} [ICON_Science] Wissenschaft von jedem angrenzenden Grasland-Schwemmland.'),
 		('LOC_DISTRICT_JNR_UC_Floodpains_Plains_Science',			'de_DE',	'+{1_num} [ICON_Science] Wissenschaft von jedem angrenzenden Ebenen-Schwemmland.'),
 		('LOC_DISTRICT_JNR_UC_Floodpains_Desert_Science',			'de_DE',	'+{1_num} [ICON_Science] Wissenschaft von jedem angrenzenden Wüsten-Schwemmland.'),
@@ -62,5 +65,5 @@ VALUES	('LOC_BUILDING_LIBRARY_DESCRIPTION_UC_JNR',					'de_DE',	'+1 zusätzliche
 UPDATE LocalizedText SET Text=REPLACE(Text, 'mit einer Bibliothek',		'mit einer Bibliothek oder Schule')								WHERE Tag LIKE 'LOC_BUILDING_GREAT_LIBRARY%';
 UPDATE LocalizedText SET Text=REPLACE(Text, 'mit einer Universität',	'mit einer Universität oder Akademie')							WHERE Tag LIKE 'LOC_BUILDING_OXFORD_UNIVERSITY%';
 UPDATE LocalizedText SET Text=REPLACE(Text, 'mit einer Universität',	'mit einer Universität oder Akademie')							WHERE Tag LIKE 'LOC_BUILDING_UNIVERSITY_SANKORE%';
-UPDATE LocalizedText SET Text=REPLACE(Text, 'mit einem Forschungslabor',	'mit einem Technologie-Institut oder Volkshochschule')	WHERE Tag LIKE 'LOC_BUILDING_AMUNDSEN_SCOTT%';
+UPDATE LocalizedText SET Text=REPLACE(Text, 'mit einem Forschungslabor',	'mit einem Institut für Technologie oder einer Volkshochschule')	WHERE Tag LIKE 'LOC_BUILDING_AMUNDSEN_SCOTT%';
 --------------------------------------------------------------

@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]182[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1667684816</Created>
+    <Created>1667742743</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Mikecro, naed21, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -1340,14 +1340,14 @@
     <UpdateText id="UC_Campus_FrontEnd_ConfigText_de_DE">
       <Criteria>UC_Campus_FrontEnd</Criteria>
       <Properties>
-        <LoadOrder>240</LoadOrder>
+        <LoadOrder>241</LoadOrder>
       </Properties>
       <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Campus_FrontEnd_TextModSupport_CX_Config_de_DE">
       <Criteria>UC_Campus_FrontEnd</Criteria>
       <Properties>
-        <LoadOrder>500</LoadOrder>
+        <LoadOrder>501</LoadOrder>
       </Properties>
       <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     </UpdateText>
@@ -2626,15 +2626,55 @@
       <Criteria>UC_Campus</Criteria>
       <Criteria>UC</Criteria>
       <Properties>
-        <LoadOrder>240</LoadOrder>
+        <LoadOrder>241</LoadOrder>
       </Properties>
       <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Campus_TextCS_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <Criteria>CS_GatheringStorm</Criteria>
+      <Properties>
+        <LoadOrder>243</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/UC_CMP_Text_CS_GS_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UC_Campus_TextCS_Ethiopia_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <Criteria>CS_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>243</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/UC_CMP_Text_CS_Ethiopia_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSB_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <Criteria>CS_CSB</Criteria>
+      <Properties>
+        <LoadOrder>243</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/ModSupport/UC_CMP_Text_CS_CSB_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <Criteria>CS_CSE</Criteria>
+      <Properties>
+        <LoadOrder>243</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Default_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE_Ethiopia_de_DE">
+      <Criteria>UC_Campus</Criteria>
+      <Criteria>CS_CSE_Ethiopia</Criteria>
+      <Properties>
+        <LoadOrder>244</LoadOrder>
+      </Properties>
+      <File>2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Ethiopia_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UC_Campus_TextModSupport_CX_de_DE">
       <Criteria>UC_Campus</Criteria>
       <Criteria>MOD_CX</Criteria>
       <Properties>
-        <LoadOrder>500</LoadOrder>
+        <LoadOrder>501</LoadOrder>
       </Properties>
       <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     </UpdateText>
@@ -2642,7 +2682,7 @@
       <Criteria>UC_Campus</Criteria>
       <Criteria>UC</Criteria>
       <Properties>
-        <LoadOrder>500</LoadOrder>
+        <LoadOrder>501</LoadOrder>
       </Properties>
       <File>2112359835/Text/ModSupport/UC_CMP_Text_RwF_de_DE.sql</File>
     </UpdateText>
@@ -3368,8 +3408,13 @@
     <File>2091335195/Core/Castrum_Text_de_DE.sql</File>
     <File>2095575379/Text_de_DE.sql</File>
     <File>2097550217/Core/Indon Rework - Game Text_de_DE.sql</File>
+    <File>2112359835/Text/ModSupport/UC_CMP_Text_CS_CSB_de_DE.sql</File>
+    <File>2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Default_de_DE.sql</File>
+    <File>2112359835/Text/ModSupport/UC_CMP_Text_CS_CSE_Ethiopia_de_DE.sql</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_CX_de_DE.sql</File>
     <File>2112359835/Text/ModSupport/UC_CMP_Text_RwF_de_DE.sql</File>
+    <File>2112359835/Text/UC_CMP_Text_CS_Ethiopia_de_DE.sql</File>
+    <File>2112359835/Text/UC_CMP_Text_CS_GS_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2135724456/Text/Wetlands_Text_de_DE.sql</File>
     <File>2139486665/Text/BetterWorldRankings_Text_de_DE.xml</File>

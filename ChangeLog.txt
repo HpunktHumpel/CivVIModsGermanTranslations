@@ -1,5 +1,11 @@
 05.11.2022
 
+- [UPDATE] District Expansion: Campus (vom 6. Nov. 2022 um 2:46, Updated von H.Humpel)
+- [IMPROVED] District Expansion: Campus
+
+
+05.11.2022
+
 - [UPDATE] District Expansion: Aqueduct (vom 4. Nov. 2022 um 17:56, Updated von H.Humpel)
 - [UPDATE] District Expansion: Entertainment (vom 4. Nov. 2022 um 17:34, Updated von H.Humpel)
 - [IMPROVED] District Expansion: Aqueduct
