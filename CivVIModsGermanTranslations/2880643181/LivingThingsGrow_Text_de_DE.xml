@@ -40,5 +40,26 @@
 		<Replace Tag="LOC_JJSR_CONFIG_ICE_GROWTH_DESCRIPTION" Language="de_DE">
 			<Text>Eisströme wachsen entsprechend den Kartenoptionen. (Kälter sorgt für mehr Wachstum.)</Text>
 		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_LTG_MOD_NAME" Language="de_DE">
+			<Text>[Color:ResGoldLabelCS]Lebewesen-Wachstumsrate:[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_LTG_MOD_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Wachstumsrate der Lebewesen an.</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_LTGSPEED_VERYLOW" Language="de_DE">
+			<Text>Sehr niedrig</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_LTGSPEED_LOW" Language="de_DE">
+			<Text>Niedrig</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_LTGSPEED_STD" Language="de_DE">
+			<Text>Standard</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_LTGSPEED_HIGH" Language="de_DE">
+			<Text>Hoch</Text>
+		</Replace>
+		<Replace Tag="LOC_JJSR_CONFIG_LTGSPEED_VERYHIGH" Language="de_DE">
+			<Text>Sehr hoch</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

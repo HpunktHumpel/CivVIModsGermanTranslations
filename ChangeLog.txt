@@ -4,6 +4,7 @@
 - [UPDATE] District Expansion: Industry (vom 6. Nov. 2022 um 3:19, Updated von Junky)
 - [UPDATE] District Expansion: Spirituality (vom 6. Nov. 2022 um 3:46, Updated von Junky)
 - [UPDATE] District Expansion: Theater (vom 6. Nov. um 3:11 2022, Updated von Junky)
+- [UPDATE] Living Things Grow! (vom 6. Nov. 2022 um 14:36, Updated von H.Humpel)
 - [IMPROVED] District Expansion: Campus
 - [IMPROVED] District Expansion: Industry
 - [IMPROVED] District Expansion: Spirituality
