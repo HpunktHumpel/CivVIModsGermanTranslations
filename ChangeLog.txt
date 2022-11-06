@@ -2,8 +2,10 @@
 
 - [UPDATE] District Expansion: Campus (vom 6. Nov. 2022 um 2:46, Updated von H.Humpel)
 - [UPDATE] District Expansion: Spirituality (vom 6. Nov. 2022 um 3:46, Updated von Junky)
+- [UPDATE] District Expansion: Theater (vom 6. Nov. um 3:11 2022, Updated von Junky)
 - [IMPROVED] District Expansion: Campus
 - [IMPROVED] District Expansion: Spirituality
+- [IMPROVED] District Expansion: Theater
 
 
 05.11.2022
