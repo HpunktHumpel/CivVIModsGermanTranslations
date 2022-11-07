@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="21">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]183[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]184[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1667757897</Created>
+    <Created>1667779244</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Mikecro, naed21, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -204,6 +204,9 @@
     <!-- InGame Actions -->
     <Criteria id="AB2531BuyUnitsWithFaith">
       <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c89</ModInUse>
+    </Criteria>
+    <Criteria id="AgeOfCapital">
+      <ModInUse>3ce37c9c-dc46-4ca3-b170-9277be9c30cf</ModInUse>
     </Criteria>
     <Criteria id="AIChannelKizunaAI">
       <ModInUse>c6af1114-4638-4cdf-bbbb-dcaab3fe26e1</ModInUse>
@@ -1484,6 +1487,20 @@
     <UpdateText id="AB2531BuyUnitsWithFaith_de_DE">
       <Criteria>AB2531BuyUnitsWithFaith</Criteria>
       <File>2169184492/Holy_Army_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="AgeOfCapital_ManuGoods_Text_de_DE">
+      <Criteria>AgeOfCapital</Criteria>
+      <Properties>
+        <LoadOrder>2004</LoadOrder>
+      </Properties>
+      <File>2793998824/Core/Text_ManuGoods_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="AgeOfCapital_ManuPeople_Text_de_DE">
+      <Criteria>AgeOfCapital</Criteria>
+      <Properties>
+        <LoadOrder>2006</LoadOrder>
+      </Properties>
+      <File>2793998824/Core/GreatPeopleLoc_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="AIChannelKizunaAI_de_DE">
       <Criteria>AIChannelKizunaAI</Criteria>
@@ -3565,6 +3582,8 @@
     <File>2793114889/Core/6TUE_Artillery_Text_de_DE.sql</File>
     <File>2793115058/Core/6TUE_Naval_Text_de_DE.sql</File>
     <File>2793115197/Core/6TUE_Air_Text_de_DE.sql</File>
+    <File>2793998824/Core/GreatPeopleLoc_de_DE.sql</File>
+    <File>2793998824/Core/Text_ManuGoods_de_DE.sql</File>
     <File>2794603014/Text/DetailedWonderReminder_de_DE.sql</File>
     <File>2794935656/Core/Text_SilkRoads_de_DE.sql</File>
     <File>2798127335/Text/DetailedWonderReminder_de_DE.sql</File>

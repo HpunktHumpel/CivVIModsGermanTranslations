@@ -172,6 +172,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2793114889 | Unit Expansion: Artillery (Project 6T) | JNR | Junky | #17
 2793115058 | Unit Expansion: Naval (Project 6T) | JNR | Junky | #17
 2793115197 | Unit Expansion: Aircraft (Project 6T) | JNR | Junky | #17
+2793998824 | Age of Capital | Alf.Net | H.Humpel | **NEW**
 2794603014 | Detailed Wonder Reminder Enhanced | Konomi | Junky | #17
 2794935656 | Silk & Spice: Trade Route Rework | Alf.Net | Junky | #18
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
