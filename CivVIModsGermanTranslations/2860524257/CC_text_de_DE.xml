@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Leader Quotes -->
+	<LocalizedText>
+		<!-- english -->
+		<Replace Language="de_DE"  Tag="LOC_GAMEMODE_MUYYI_CC_NAME">
+			<Text>Zivilisations-Eroberungs Modus</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_GAMEMODE_MUYYI_CC_DESCRIPTION">
+			<Text>In diesem Spielmodus ist es möglich, sich die Fähigkeiten einer Zivilisation, sowie die ihres Anführers, als auch einzigartige Gebäude, Einheiten und Modernisierungen, durch die Eroberung der Hauptstadt einzuverleiben.</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CanCaptureUA_NAME">
+			<Text>Übernahme der Zivilisations-Fähigkeiten</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CanCaptureUA_DESCRIPTION">
+			<Text>Ermögliche Übernahme der Zivilisations-Fähigkeiten (Zivilisations-Eroberung)</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CanCaptureLA_NAME">
+			<Text>Übernahme der Anführer-Fähigkeiten</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CanCaptureLA_DESCRIPTION">
+			<Text>Ermögliche Übernahme der Anführer-Fähigkeiten (Zivilisations-Eroberung)</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_MSG">
+			<Text>[ICON_Capital]Hauptstadt erobert</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_SUM">
+			<Text>Ihr habt einzigartige Gebäude,Einheiten und Modernisierungen erhalten (Zivilisations-Eroberungsmodus)</Text>
+		</Replace>
+
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_TITLE">
+			<Text>Zivilisations-Eroberung</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_1">
+			<Text>Ihr habt die Hauptstadt {1_CivName : plural 1?{1_CivName : gender *:no_article?; m?des ; f?der ; other?des ;}; other?der ;}{1_CivName[4]} erobert.[NEWLINE]Nun habt Ihr Zugriff auf:</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_2">
+			<Text>[NEWLINE][COLOR_RED]{1_Name}[ENDCOLOR] Zivilisations-Fähigkeit: [COLOR:FoodDark]{2_Name}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_3">
+			<Text>[NEWLINE][COLOR_RED]{1_Name}[ENDCOLOR] Anführer-Fähigkeit: [COLOR:FoodDark]{2_Name}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_4">
+			<Text>[NEWLINE]Einzigartige Einheit: [COLOR:FoodDark]{1_Name}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_5">
+			<Text>[NEWLINE]Einzigartiges Gebäude: [COLOR:FoodDark]{1_Name}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_6">
+			<Text>[NEWLINE]Einzigartige Modernisierung: [COLOR:FoodDark]{1_Name}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_OK">
+			<Text>Bestätigen</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

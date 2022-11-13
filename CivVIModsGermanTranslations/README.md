@@ -183,6 +183,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2857775718 | CIVILIZATION VI: WALLS OF BABYLON | Albro | H.Humpel | #20
 2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | #20
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | #20
+2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | **NEW**
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
 2878166834 | Mikecro's Military Camp | Mikecro & Sailor Cat | H.Humpel | #20
 2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | #20
