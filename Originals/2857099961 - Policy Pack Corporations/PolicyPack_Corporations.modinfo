@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d6f03d57-cd1d-476b-bf2d-d786d3e7f7a6" version="3">
+  <Properties>
+    <Name>[COLOR:ResCultureLabelCS]Policy Pack:[ENDCOLOR] Corporations</Name>
+    <Description>Adds 7 new policies for the Monopolies game mode, including one Military, one Economic, one Diplomatic, and one Wildcard policy in general and one additional Economic policy for each of the tier 3 governments.</Description>
+    <Teaser>Adds 7 new policies for the Monopolies game mode.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Monopolies_Mode">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay" criteria="Monopolies_Mode">
+      <Properties>
+        <LoadOrder>1371</LoadOrder>
+      </Properties>
+      <File>Core/PP_Corporations_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text" criteria="Monopolies_Mode">
+      <Properties>
+        <LoadOrder>1371</LoadOrder>
+      </Properties>
+      <File>Core/PP_Corporations_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons" criteria="Monopolies_Mode">
+      <Properties>
+        <LoadOrder>1371</LoadOrder>
+      </Properties>
+      <File>Core/PP_Corporations_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Core/PP_Corporations_Gameplay.sql</File>
+    <File>Core/PP_Corporations_Icons.sql</File>
+    <File>Core/PP_Corporations_Text.sql</File>
+  </Files>
+</Mod>
