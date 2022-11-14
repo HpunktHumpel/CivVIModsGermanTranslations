@@ -178,6 +178,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
+2851654918 | Walled Quarter | blkbutterfly | Junky | **NEW**
 2856129795 | Enhanced Routes | Nightemaire | H.Humpel | #20
 2857099961 | Policy Pack: Corporations | JNR | H.Humpel | **NEW**
 2857775718 | CIVILIZATION VI: WALLS OF BABYLON | Albro | H.Humpel | #20

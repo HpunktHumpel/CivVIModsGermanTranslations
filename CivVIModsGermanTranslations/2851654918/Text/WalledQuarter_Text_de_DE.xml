@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WalledQuarter_Text -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 8/20/2022 4:42:56 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- Districts -->
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
+			<Text>Festungsbezirk|Festungsbezirk|Festungsbezirk|Festungsbezirks|Festungsbezirk</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
+			<Text>Bezirk kann verteidigt werden.[NEWLINE]+3[ICON_Tourism] Tourismus durch Naturschutz.</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_THEATER_CULTURE">
+			<Text>+{1_num} [ICON_Culture] Kultur durch angrenzenden Theaterplatz.</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+			<Text>+{1_num} [ICON_Gold] Gold durch angrenzendes Handelszentrum.</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzende Heilige Stätte.</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft durch angrenzenden Campus.</Text>
+		</Replace>
+
+		<!-- hospital -->
+		<Replace Language="de_DE"  Tag="LOC_BUILDING_PLAGUE_HOSPITAL_NAME">
+			<Text>Krankenhaus|Krankenhaus|Krankenhaus|Krankenhauses|Krankenhaus</Text>
+			<Gender>neuter</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
+			<Text>+20% Wachstum in der Stadt um sich von Katastrophen zu erholen.[NEWLINE]Bietet Schutz vor kleineren Katastrophen.[NEWLINE]Im Zombie-Verteidigungsmodus ist die "Zombie-Ausbruch"-Spionagemission weniger effektiv.</Text>
+		</Replace>
+		
+		<!-- mass grave -->
+		<Replace Language="de_DE"  Tag="LOC_BUILDING_MASS_GRAVE_NAME">
+			<Text>Massengrab|Massengrab|Massengrab|Massengrabs|Massengrab</Text>
+			<Gender>neuter</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
+			<Text>Ermöglicht das Spezialprojekt Untotenkontrolle II um Zombies zu übernehmen.</Text>
+		</Replace>
+
+		<!--keep -->
+		<Replace Language="de_DE" Tag="LOC_BUILDING_KEEP_NAME">
+			<Text>Bergfried|Bergfried|Bergfried|Bergfrieds|Bergfried</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_BUILDING_KEEP_DESCRIPTION">
+			<Text>Gewährt zusätzliche Verteidigungsstärke im Festungsbezirk.</Text>
+		</Replace>
+
+		<!-- proecjt -->
+		<Replace Language="de_DE"  Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_NAME">
+			<Text>Untotenkontrolle II</Text>
+		</Replace>
+		<Replace Language="de_DE"  Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_DESCRIPTION">
+			<Text>Bei Fertigstellung stehen die Zombies im Gebiet dieser Stadt unter Eurer Kontrolle. Kontrolle hält 45 Runden lang an.</Text>
+		</Replace>
+		
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="468f9027-7220-4b0c-8602-209501b3cf34" version="6">
+  <Properties>
+    <Name>Walled Quarter</Name>
+    <Description>Adds the Walled Quarter from the Black Death scenario.[NEWLINE]And the Hospital which provides relief from minor disasters.[NEWLINE]The Keep which provides the Walled Quarter with an additional line of defense.[COLOR_Civ6Yellow][NEWLINE]The Mass Grave is Zombies mode only allowing an advanced special project Turn Undead II.[ENDCOLOR]</Description>
+    <Created>1663234567</Created>
+    <Teaser>Adds the Walled Quarter from Black Death</Teaser>
+    <Authors>blkbutterfly74</Authors>
+    <SpecialThanks>JNR, iPlayGamesITA, Mikecro</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" title="Scenario: The Black Death" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="FFDF4E79-DEE2-47BB-919B-F5739106627A" title="Portugal PAck" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="ZombiesMode">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_TOWERDEFENSE</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="ApocalypseMode">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>XML/WalledQuarter.xml</File>
+      <File>XML/Hospital.xml</File>
+      <File>XML/Keep.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="AddArt">
+      <File>WalledQuarter.dep</File>
+    </UpdateArt>
+    <UpdateText id="AddText">
+      <File>Text/WalledQuarter_Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="UpdateZombiesMode">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>ZombiesMode</Criteria>
+      <File>XML/Hospital_Zombies_MODE.xml</File>
+      <File>XML/MassGrave_Zombies_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <Include mod_id="C1F775D8-59B5-401B-B86D-78FAF3446EC7" action_id="BlackDeathScenarioIcons" />
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>Platforms/Windows/BLPs/Districts.blp</File>
+    <File>Platforms/Windows/BLPs/HeroBuildings.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/city_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_districts.blp</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_effects.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Text/WalledQuarter_Text.xml</File>
+    <File>WalledQuarter.dep</File>
+    <File>XML/Hospital.xml</File>
+    <File>XML/Hospital_Zombies_MODE.xml</File>
+    <File>XML/Keep.xml</File>
+    <File>XML/MassGrave_Zombies_MODE.xml</File>
+    <File>XML/WalledQuarter.xml</File>
+  </Files>
+</Mod>

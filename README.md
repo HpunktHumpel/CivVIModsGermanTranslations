@@ -184,6 +184,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Upgrades Keep Unique Abilities (Sailor Cat | Junky)
 1. Very Nice Magazine (Mgwska | H.Humpel)
 1. Vinrock's Pantheons (Vinrock | H.Humpel)
+1. Walled Quarter (blkbutterfly | Junky)
 1. Wetlands (JNR | Junky)
 1. What Did I Promise? (Technoluddite | Junky)
 1. Yellow Crane Tower (WindFly | H.Humpel)

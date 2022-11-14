@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WalledQuarter_Text -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 8/20/2022 4:42:56 PM -->
+<GameData>
+	<EnglishText>
+		<!-- Districts -->
+		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_NAME">
+			<Text>Walled Quarter</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
+			<Text>A defensible district.[NEWLINE]+3[ICON_Tourism] Tourism with Conservation.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_THEATER_CULTURE">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Theater district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy Site district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Campus district.</Text>
+		</Row>
+
+		<!-- hospital -->
+		<Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_NAME">
+			<Text>Hospital</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLAGUE_HOSPITAL_DESCRIPTION">
+			<Text>+20% Growth in city to rebound from disasters.[NEWLINE]Also provides immunity from minor disasters.[NEWLINE]In Zombie Defense mode Zombie Outbreak spy missions are less effective.</Text>
+		</Row>
+		
+		<!-- mass grave -->
+		<Row Tag="LOC_BUILDING_MASS_GRAVE_NAME">
+			<Text>Mass Grave</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MASS_GRAVE_DESCRIPTION">
+			<Text>Allows the special project Turn Undead II to levy zombies.</Text>
+		</Row>
+
+		<!--keep -->
+		<Row Tag="LOC_BUILDING_KEEP_NAME">
+			<Text>Keep</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KEEP_DESCRIPTION">
+			<Text>Provies a line of defense for the Walled Quarter.</Text>
+		</Row>
+
+		<!-- proecjt -->
+		<Row Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_NAME">
+			<Text>Turn Undead II</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CONVERT_ZOMBIES_MILITARY_DESCRIPTION">
+			<Text>Upon completion, gain control of the zombies currently in this city's territory.  Control lasts 45 turns.</Text>
+		</Row>
+		
+	</EnglishText>
+</GameData>
