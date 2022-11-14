@@ -1,5 +1,6 @@
 14.11.2022
 
+- [NEW] Policy Pack: Environment (vom 12. Nov. 2022 um 21:58, Übersetzung von Junky)
 - [NEW] Walled Quarter (vom 15. Sep. 2022 um 17:18, Übersetzung von Junky)
 - [IMPROVED] Civilization Conquer Mode
 

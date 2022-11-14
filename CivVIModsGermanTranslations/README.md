@@ -188,3 +188,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
 2878166834 | Mikecro's Military Camp | Mikecro & Sailor Cat | H.Humpel | #20
 2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | #20
+2887811648 | Policy Pack: Environment | JNR | Junky | **NEW**

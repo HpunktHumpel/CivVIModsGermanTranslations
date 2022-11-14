@@ -124,6 +124,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Phantagonist’s Slavery and Emancipation (Phantagonist | H.Humpel)
 1. Policy Change Reminder (FinalFreak16 | Junky)
 1. Policy Pack: Corporations (JNR | H.Humpel)
+1. Policy Pack: Environment (JNR | Junky)
 1. Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)
 1. Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact | H.Humpel)
 1. Progressive Power Consumption (JNR | Junky)

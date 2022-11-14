@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="05707977-abbf-49dd-8b27-a16a8103c2a1" version="1">
+  <Properties>
+    <Name>[COLOR:ResCultureLabelCS]Policy Pack:[ENDCOLOR] Environment</Name>
+    <Description>Adds 7 new environmental policies, including one Military, six Economic, and three Diplomatic policies. Two of these policies have additional effects with Preserves in the game. One additional Wildcard policy available with Forest Fires in the game. One additional Economic policy for the Industry District Expansion.</Description>
+    <Teaser>Adds 7 new environmental policies.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>1372</LoadOrder>
+      </Properties>
+      <File>Core/PP_Environment_Gameplay.sql</File>
+      <File>Core/PP_Environment_Gameplay_Fire.sql</File>
+      <File>Core/PP_Environment_Gameplay_UC.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>1372</LoadOrder>
+      </Properties>
+      <File>Core/PP_Environment_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>1372</LoadOrder>
+      </Properties>
+      <File>Core/PP_Environment_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Core/PP_Environment_Gameplay.sql</File>
+    <File>Core/PP_Environment_Gameplay_Fire.sql</File>
+    <File>Core/PP_Environment_Gameplay_UC.sql</File>
+    <File>Core/PP_Environment_Icons.sql</File>
+    <File>Core/PP_Environment_Text.sql</File>
+  </Files>
+</Mod>
