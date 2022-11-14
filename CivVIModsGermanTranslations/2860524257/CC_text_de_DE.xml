@@ -4,35 +4,35 @@
 	<LocalizedText>
 		<!-- english -->
 		<Replace Language="de_DE"  Tag="LOC_GAMEMODE_MUYYI_CC_NAME">
-			<Text>Zivilisations-Eroberungs Modus</Text>
+			<Text>Nationenübernahme-Modus</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_GAMEMODE_MUYYI_CC_DESCRIPTION">
-			<Text>In diesem Spielmodus ist es möglich, sich die Fähigkeiten einer Zivilisation, sowie die ihres Anführers, als auch einzigartige Gebäude, Einheiten und Modernisierungen, durch die Eroberung der Hauptstadt einzuverleiben.</Text>
+			<Text>Mit diesem Spielmodus könnt Ihr euch die Fähigkeiten einer gegnerischen Zivilisation, sowie die ihres Anführers, dessen einzigartige Gebäude, Einheiten und Modernisierungen, durch die Eroberung der Hauptstadt einverleiben.</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CanCaptureUA_NAME">
-			<Text>Übernahme der Zivilisations-Fähigkeiten</Text>
+			<Text>Zivilisations-Fähigkeit übernehmen</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CanCaptureUA_DESCRIPTION">
-			<Text>Ermögliche Übernahme der Zivilisations-Fähigkeiten (Zivilisations-Eroberung)</Text>
+			<Text>Ermögliche Übernahme der Zivilisations-Fähigkeit (Nationenübernahme)</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CanCaptureLA_NAME">
-			<Text>Übernahme der Anführer-Fähigkeiten</Text>
+			<Text>Anführer-Fähigkeit übernehmen</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CanCaptureLA_DESCRIPTION">
-			<Text>Ermögliche Übernahme der Anführer-Fähigkeiten (Zivilisations-Eroberung)</Text>
+			<Text>Ermögliche Übernahme der Anführer-Fähigkeit (Nationenübernahme)</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_MSG">
 			<Text>[ICON_Capital]Hauptstadt erobert</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_SUM">
-			<Text>Ihr habt einzigartige Gebäude,Einheiten und Modernisierungen erhalten (Zivilisations-Eroberungsmodus)</Text>
+			<Text>Ihr habt einzigartige Gebäude,Einheiten und Modernisierungen erhalten (Nationenübernahme-Modus)</Text>
 		</Replace>
 
 		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_TITLE">
 			<Text>Zivilisations-Eroberung</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_1">
-			<Text>Ihr habt die Hauptstadt {1_CivName : plural 1?{1_CivName : gender *:no_article?; m?des ; f?der ; other?des ;}; other?der ;}{1_CivName[4]} erobert.[NEWLINE]Nun habt Ihr Zugriff auf:</Text>
+			<Text>Ihr habt die Hauptstadt {1_CivName : plural 1?{1_CivName : gender *:no_article?; m?des ; f?der ; other?des ;}; other?der ;}{1_CivName[4]} erobert.[NEWLINE]Ihr habt nun Zugriff auf:</Text>
 		</Replace>
 		<Replace Language="de_DE"  Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_2">
 			<Text>[NEWLINE][COLOR_RED]{1_Name}[ENDCOLOR] Zivilisations-Fähigkeit: [COLOR:FoodDark]{2_Name}[ENDCOLOR]</Text>

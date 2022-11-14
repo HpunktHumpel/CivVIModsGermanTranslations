@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Leader Quotes -->
+	<BaseGameText>
+		<!-- english -->
+		<Row Tag="LOC_GAMEMODE_MUYYI_CC_NAME">
+			<Text>Civilization Conquer Mode</Text>
+		</Row>
+		<Row Tag="LOC_GAMEMODE_MUYYI_CC_DESCRIPTION">
+			<Text>In this game mode, You can get Civilization ability, Leader ability, unique Building, unique Unit and unique Improvement by Conquer other civilization [ICON_Capital]capital.</Text>
+		</Row>
+		<Row Tag="LOC_CanCaptureUA_NAME">
+			<Text>Can get Civilization ability</Text>
+		</Row>
+		<Row Tag="LOC_CanCaptureUA_DESCRIPTION">
+			<Text>Can get Civilization ability(Civilization Conquer)</Text>
+		</Row>
+		<Row Tag="LOC_CanCaptureLA_NAME">
+			<Text>Can get Leader ability</Text>
+		</Row>
+		<Row Tag="LOC_CanCaptureLA_DESCRIPTION">
+			<Text>Can get Leader ability(Civilization Conquer)</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_MSG">
+			<Text>[ICON_Capital]Capture Capital</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_SUM">
+			<Text>Now you can get new UB,UU and UI(Civilization Conquer)</Text>
+		</Row>
+
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_TITLE">
+			<Text>Civilization Conquer</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_1">
+			<Text>You have conquer {1_CivName} capital。 now relock：</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_2">
+			<Text>[NEWLINE][COLOR_RED]{1_Name}[ENDCOLOR] Civilization ability：[COLOR:FoodDark]{2_Name}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_3">
+			<Text>[NEWLINE][COLOR_RED]{1_Name}[ENDCOLOR] Leader ability：[COLOR:FoodDark]{2_Name}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_4">
+			<Text>[NEWLINE]Unique Unit：[COLOR:FoodDark]{1_Name}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_5">
+			<Text>[NEWLINE]Unit Bulding：[COLOR:FoodDark]{1_Name}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_GAINS_6">
+			<Text>[NEWLINE]Unit improvement：[COLOR:FoodDark]{1_Name}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_CC_CAPTURE_CAPITAL_POPUP_OK">
+			<Text>Nice</Text>
+		</Row>
+	</BaseGameText>
+</GameData>
