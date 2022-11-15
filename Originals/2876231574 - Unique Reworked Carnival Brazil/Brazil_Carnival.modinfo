@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="938bd04f-99b5-4283-873d-264f106ad18f" version="1">
+  <Properties>
+    <Name>[COLOR:ResGoldLabelCS]Unique Reworked[ENDCOLOR]: Carnival (Brazil)</Name>
+    <Description>Brazil can build both unique districts in the same city. Completing the Carnival in a city with both the Street Carnival and the Copacabana grants +1 Era Score.</Description>
+    <Created>1665949336</Created>
+    <Teaser>Brazil can build both UDs in the same city.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Carnival_Text.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Carnival_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Carnival_Text.sql</File>
+    </UpdateText>
+    <AddGameplayScripts id="Script">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Scripts/RECIV_Carnival_Script.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Core/RECIV_Carnival_Gameplay.sql</File>
+    <File>Core/RECIV_Carnival_Text.sql</File>
+    <File>Scripts/RECIV_Carnival_Script.lua</File>
+  </Files>
+</Mod>
