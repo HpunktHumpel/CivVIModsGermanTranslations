@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LivingThingsGrow_Text -->
+<!-- Author: dreadanddespair -->
+<!-- DateCreated: 9/15/2022 9:20:58 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_JJSR_RESOURCE_GROWTH" Language="en_US">
+			<Text>Resource Growth!</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_RESOURCE_SPREAD" Language="en_US">
+			<Text> has grown to another area.</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_FEATURE_GROWTH" Language="en_US">
+			<Text>Feature Growth!</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_FEATURE_SPREAD" Language="en_US">
+			<Text> has grown to another area.</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_ICE_FLOW_GROWTH" Language="en_US">
+			<Text>Ice flow has spread.</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_ICE_FLOW_DESTROYS" Language="en_US">
+			<Text>The growth of an ice flow has destroyed</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_ICE_FLOW_DESTROYS_IMPROVEMENT" Language="en_US">
+			<Text>The growth of an ice flow has destroyed an improvement.</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_ICE_IMPROVEMENT" Language="en_US">
+			<Text>an improvement</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_ICE_RESOURCE" Language="en_US">
+			<Text>a resource</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_ICE_FEATURE" Language="en_US">
+			<Text>a feature</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_ICE_GROWTH_NAME" Language="en_US">
+			<Text>Allow ice spread</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_ICE_GROWTH_DESCRIPTION" Language="en_US">
+			<Text>Ice flows grow according to the map options. (Colder gives more growth.)</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_LTG_MOD_NAME" Language="en_US">
+			<Text>[Color:ResGoldLabelCS]Living Things Growth Rate[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_LTG_MOD_DESCRIPTION" Language="en_US">
+			<Text>Adjust the rate at which living things grow.</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_LTGSPEED_VERYLOW" Language="en_US">
+			<Text>Very Low</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_LTGSPEED_LOW" Language="en_US">
+			<Text>Low</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_LTGSPEED_STD" Language="en_US">
+			<Text>Standard</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_LTGSPEED_HIGH" Language="en_US">
+			<Text>High</Text>
+		</Row>
+		<Row Tag="LOC_JJSR_CONFIG_LTGSPEED_VERYHIGH" Language="en_US">
+			<Text>Very High</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3ce37c9c-dc46-4ca3-b170-9277be9c30cf" version="2">
+  <Properties>
+    <Name>Age of Capital</Name>
+    <Description>This mod adds 9 new luxuries (manufactured goods) to the game and changes the existing four (Toys, Jeans, Cosmetics and Perfume).
+
+Full list of changes can be accessed on Civfanatics.com.</Description>
+    <Created>1649897484</Created>
+    <Teaser>Adds new manufactured luxury goods. Tweaks Amenities and Loyalty.</Teaser>
+    <Authors>AntSou</Authors>
+    <SpecialThanks>LeeS, pokiehl</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="ManuGoods_Data">
+      <Properties>
+        <LoadOrder>2001</LoadOrder>
+      </Properties>
+      <File>Core/Res_ManuGoods.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="ConfigArt">
+      <Properties>
+        <LoadOrder>2002</LoadOrder>
+      </Properties>
+      <File>ManufacturedGoods.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ManuGoods_Icons">
+      <Properties>
+        <LoadOrder>2003</LoadOrder>
+      </Properties>
+      <File>Core/Icon_ManuGoods.sql</File>
+    </UpdateIcons>
+    <UpdateText id="ManuGoods_Text">
+      <Properties>
+        <LoadOrder>2004</LoadOrder>
+      </Properties>
+      <File>Core/Text_ManuGoods.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="ManuPeople_Data">
+      <Properties>
+        <LoadOrder>2005</LoadOrder>
+      </Properties>
+      <File>Core/GreatPeopleMain.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ManuPeople_Text">
+      <Properties>
+        <LoadOrder>2006</LoadOrder>
+      </Properties>
+      <File>Core/GreatPeopleLoc.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/ManuGoods.artdef</File>
+    <File>Core/GreatPeopleLoc.sql</File>
+    <File>Core/GreatPeopleMain.sql</File>
+    <File>Core/Icon_ManuGoods.sql</File>
+    <File>Core/Res_ManuGoods.sql</File>
+    <File>Core/Text_ManuGoods.sql</File>
+    <File>ManufacturedGoods.dep</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/ManuGoods22.dds</File>
+    <File>Textures/ManuGoods22.tex</File>
+    <File>Textures/ManuGoods256.dds</File>
+    <File>Textures/ManuGoods256.tex</File>
+    <File>Textures/ManuGoods38.dds</File>
+    <File>Textures/ManuGoods38.tex</File>
+    <File>Textures/ManuGoods50.dds</File>
+    <File>Textures/ManuGoods50.tex</File>
+    <File>Textures/ManuGoods64.dds</File>
+    <File>Textures/ManuGoods64.tex</File>
+    <File>Textures/ManuGoodsFOW.dds</File>
+    <File>Textures/ManuGoodsFOW.tex</File>
+  </Files>
+</Mod>

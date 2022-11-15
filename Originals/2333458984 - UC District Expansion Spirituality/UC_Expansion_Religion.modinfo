@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1047a269-38a8-4cee-b70a-a7681015eed7" version="11">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_HOLYSITE] Spirituality</Name>
+    <Description>New faith-focused building choices for the Holy Site.</Description>
+    <Created>1609329693</Created>
+    <Teaser>Holy Site district overhaul with new building choices.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="UC">
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_GatheringStorm">
+	  <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>	<!-- Ethiopia DLC -->
+	  <ModInUse inverse="1">4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>	<!-- ReCiv CSB -->
+	  <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>	<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSB">
+	  <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>	<!-- Ethiopia DLC -->
+	  <ModInUse>4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>				<!-- ReCiv CSB -->
+	  <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>	<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_Ethiopia">
+	  <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>				<!-- Ethiopia DLC -->
+	  <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>	<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE">
+	  <ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>				<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE_Ethiopia">
+	  <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_CX">
+	  <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>				<!-- Civilizations Expanded -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_RE">
+	  <ModInUse>c6775ded-6693-474a-ade5-b4c51d932bd8</ModInUse>				<!-- Religion Expanded -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_AmunRa">
+	  <ModInUse>e7662efb-ce66-442f-a5f8-bc6593d8cb65</ModInUse>				<!-- Precinct of Amun-Ra -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>Config/UC_REL_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>Text/UC_REL_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX_Config">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_CX.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="ReduxDelete" criteria="UC">
+      <Properties>
+        <LoadOrder>209</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REL_Redux_Delete.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayBase" criteria="UC">
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>Data/UC_REL_Buildings.sql</File>
+      <File>Data/UC_REL_Requirements.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayAdvanced" criteria="UC">
+      <Properties>
+        <LoadOrder>261</LoadOrder>
+      </Properties>
+      <File>Data/UC_REL_Bonuses_Yields.sql</File>
+      <File>Data/UC_REL_Bonuses_Special.sql</File>
+      <File>Data/UC_REL_Policies.sql</File>
+      <File>Data/UC_REL_Policies_Preserve.sql</File>
+      <File>Data/UC_REL_Misc.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayCS" criteria="CS_GatheringStorm">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Data/UC_REL_City_States_GS.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayCS_Ethiopia" criteria="CS_Ethiopia">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Data/UC_REL_City_States_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSB" criteria="CS_CSB">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Data/UC_REL_City_States_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REL_CSE.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>263</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REL_CSE_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REL_CX.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_RwF" criteria="UC">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REL_RwF.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_RE" criteria="MOD_RE">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REL_RE.sql</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="GameplayModSupport_AmunRa" criteria="MOD_AmunRa">
+      <Properties>
+        <LoadOrder>264</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_REL_AmunRa.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase" criteria="UC">
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>Text/UC_REL_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextCS" criteria="CS_GatheringStorm">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Text/UC_REL_Text_CS_GS.sql</File>
+    </UpdateText>
+    <UpdateText id="TextCS_Ethiopia" criteria="CS_Ethiopia">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Text/UC_REL_Text_CS_Ethiopia.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSB" criteria="CS_CSB">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_CS_CSB.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_CS_CSE_Default.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>263</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_CS_CSE_Ethiopia.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_CX.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_RwF" criteria="UC">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_RwF.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_RE" criteria="MOD_RE">
+      <Properties>
+        <LoadOrder>262</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_RE.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_AmunRa" criteria="MOD_AmunRa">
+      <Properties>
+        <LoadOrder>264</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_REL_Text_AmunRa.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons" criteria="UC">
+      <Properties>
+        <LoadOrder>261</LoadOrder>
+      </Properties>
+      <File>Icons/UC_REL_Icons.sql</File>
+    </UpdateIcons>
+	<UpdateIcons id="IconsModSupport_AmunRa" criteria="MOD_AmunRa">
+      <Properties>
+        <LoadOrder>264</LoadOrder>
+      </Properties>
+      <File>Icons/UC_REL_Icons_AmunRa.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>UC_Expansion_Religion.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Config/UC_REL_Config.sql</File>
+    <File>Data/ModSupport/UC_REL_AmunRa.sql</File>
+    <File>Data/ModSupport/UC_REL_CSE.sql</File>
+    <File>Data/ModSupport/UC_REL_CSE_Ethiopia.sql</File>
+    <File>Data/ModSupport/UC_REL_CX.sql</File>
+    <File>Data/ModSupport/UC_REL_RE.sql</File>
+    <File>Data/ModSupport/UC_REL_Redux_Delete.sql</File>
+    <File>Data/ModSupport/UC_REL_RwF.sql</File>
+    <File>Data/UC_REL_Bonuses_Special.sql</File>
+    <File>Data/UC_REL_Bonuses_Yields.sql</File>
+    <File>Data/UC_REL_Buildings.sql</File>
+    <File>Data/UC_REL_City_States_Ethiopia.sql</File>
+    <File>Data/UC_REL_City_States_GS.sql</File>
+    <File>Data/UC_REL_Misc.sql</File>
+    <File>Data/UC_REL_Policies.sql</File>
+	<File>Data/UC_REL_Policies_Preserve.sql</File>
+    <File>Data/UC_REL_Requirements.sql</File>
+    <File>Icons/UC_REL_Icons.sql</File>
+    <File>Icons/UC_REL_Icons_AmunRa.sql</File>
+    <File>Text/ModSupport/UC_REL_Text_AmunRa.sql</File>
+    <File>Text/ModSupport/UC_REL_Text_CS_CSB.sql</File>
+    <File>Text/ModSupport/UC_REL_Text_CS_CSE_Default.sql</File>
+    <File>Text/ModSupport/UC_REL_Text_CS_CSE_Ethiopia.sql</File>
+    <File>Text/ModSupport/UC_REL_Text_CX.sql</File>
+    <File>Text/ModSupport/UC_REL_Text_RE.sql</File>
+    <File>Text/ModSupport/UC_REL_Text_RwF.sql</File>
+    <File>Text/UC_REL_Text.sql</File>
+    <File>Text/UC_REL_Text_CS_Ethiopia.sql</File>
+    <File>Text/UC_REL_Text_CS_GS.sql</File>
+    <File>UC_Expansion_Religion.dep</File>
+  </Files>
+</Mod>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="93e0f97a-a9cc-494d-8560-b3b6b9aabdf2" version="6">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_ENTERTAINMENT] Entertainment</Name>
+    <Description>New Amenity and Tourism-focused building choices as well as Tourism adjacency bonuses for the Entertainment districts, which are renamed to "Fairground" and "Pleasure Pier", respectively.</Description>
+    <Created>1619880052</Created>
+    <Teaser>Entertainment districts overhaul with new building choices.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="UC">
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE">
+	  <ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>				<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE_Ethiopia">
+	  <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_CX">
+	  <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>				<!-- Civilizations Expanded -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_PPC">
+	  <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>				<!-- Progressive Power Consumption -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_Suk_Oceans">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>				<!-- Sukritact's Oceans -->
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_MMSS">
+	  <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>				<!-- More Maritime: Seaside Sectors -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>270</LoadOrder>
+      </Properties>
+      <File>Config/UC_ENT_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>270</LoadOrder>
+      </Properties>
+      <File>Text/UC_ENT_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX_Config">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_ENT_Text_CX.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="ReduxDelete" criteria="UC">
+      <Properties>
+        <LoadOrder>209</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_ENT_Redux_Delete.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayBase" criteria="UC">
+      <Properties>
+        <LoadOrder>270</LoadOrder>
+      </Properties>
+      <File>Data/UC_ENT_Buildings.sql</File>
+      <File>Data/UC_ENT_Requirements.sql</File>
+      <File>Data/UC_ENT_Districts.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayAdvanced" criteria="UC">
+      <Properties>
+        <LoadOrder>271</LoadOrder>
+      </Properties>
+      <File>Data/UC_ENT_Bonuses_Amenities.sql</File>
+      <File>Data/UC_ENT_Bonuses_Tourism.sql</File>
+      <File>Data/UC_ENT_Bonuses_Yields.sql</File>
+      <File>Data/UC_ENT_Policies.sql</File>
+      <File>Data/UC_ENT_Misc.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>272</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_ENT_CSE.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>273</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_ENT_CSE_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_ENT_CX.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_Suk_Oceans" criteria="MOD_Suk_Oceans">
+      <Properties>
+        <LoadOrder>273</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_ENT_Suk_Oceans.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_PPC" criteria="MOD_PPC">
+      <Properties>
+        <LoadOrder>272</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_ENT_PPC.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_MMSS" criteria="MOD_MMSS">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_ENT_MMSS.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase" criteria="UC">
+      <Properties>
+        <LoadOrder>270</LoadOrder>
+      </Properties>
+      <File>Text/UC_ENT_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>272</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_ENT_Text_CS_CSE_Default.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>273</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_ENT_Text_CX.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Suk_Oceans" criteria="MOD_Suk_Oceans">
+      <Properties>
+        <LoadOrder>273</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_ENT_Text_Suk_Oceans.sql</File>
+    </UpdateText>
+    <UpdateText id="TextName" criteria="UC">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Text/UC_ENT_Text_Name.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons" criteria="UC">
+      <Properties>
+        <LoadOrder>271</LoadOrder>
+      </Properties>
+      <File>Icons/UC_ENT_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>270</LoadOrder>
+      </Properties>
+      <File>UC_Expansion_Entertainment.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Config/UC_ENT_Config.sql</File>
+    <File>Data/ModSupport/UC_ENT_CSE.sql</File>
+    <File>Data/ModSupport/UC_ENT_CSE_Ethiopia.sql</File>
+    <File>Data/ModSupport/UC_ENT_CX.sql</File>
+    <File>Data/ModSupport/UC_ENT_PPC.sql</File>
+	<File>Data/ModSupport/UC_ENT_MMSS.sql</File>
+    <File>Data/ModSupport/UC_ENT_Redux_Delete.sql</File>
+	<File>Data/ModSupport/UC_ENT_Suk_Oceans.sql</File>
+    <File>Data/UC_ENT_Bonuses_Amenities.sql</File>
+    <File>Data/UC_ENT_Bonuses_Tourism.sql</File>
+    <File>Data/UC_ENT_Bonuses_Yields.sql</File>
+    <File>Data/UC_ENT_Buildings.sql</File>
+    <File>Data/UC_ENT_Districts.sql</File>
+    <File>Data/UC_ENT_Misc.sql</File>
+    <File>Data/UC_ENT_Policies.sql</File>
+    <File>Data/UC_ENT_Requirements.sql</File>
+    <File>Icons/UC_ENT_Icons.sql</File>
+    <File>Text/ModSupport/UC_ENT_Text_CS_CSE_Default.sql</File>
+    <File>Text/ModSupport/UC_ENT_Text_CS_CSE_Ethiopia.sql</File>
+    <File>Text/ModSupport/UC_ENT_Text_CX.sql</File>
+    <File>Text/ModSupport/UC_ENT_Text_Suk_Oceans.sql</File>
+    <File>Text/UC_ENT_Text.sql</File>
+    <File>Text/UC_ENT_Text_Name.sql</File>
+    <File>UC_Expansion_Entertainment.dep</File>
+  </Files>
+</Mod>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1373373a-f34d-4041-a0f8-49e2004e19a1" version="9">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_AQUEDUCT] Aqueduct</Name>
+    <Description>New buildings and an adjacency policy for the Aqueduct, which is renamed to "Cistern" (Roman Bath is renamed "Aqueduct").</Description>
+    <Created>1610693264</Created>
+    <Teaser>Aqueduct district overhaul with new building choices.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+	<Criteria id="UC">
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE">
+	  <ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>				<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE_Ethiopia">
+	  <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_CX">
+	  <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>				<!-- Civilizations Expanded -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_Suk_Khmer">
+	  <ModInUse>0be03c78-49f0-473f-9865-6a5004994397</ModInUse>				<!-- Sukritact's Khmer Rework (Baray) -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_UD_Icons">
+	  <ModInUse>83710098-5cae-4c9f-a1e4-8dc652a537fe</ModInUse>				<!-- Unique District Icons -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
+      <File>Config/UC_AQD_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
+      <File>Text/UC_AQD_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX_Config">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_AQD_Text_Baray.sql</File>
+      <File>Text/ModSupport/UC_AQD_Text_CX.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Suk_Khmer">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_AQD_Text_Baray.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="ReduxDelete" criteria="UC">
+      <Properties>
+        <LoadOrder>209</LoadOrder>
+      </Properties>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayBase" criteria="UC">
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
+      <File>Data/UC_AQD_Buildings.sql</File>
+      <File>Data/UC_AQD_Requirements.sql</File>
+      <File>Data/UC_AQD_Districts.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayAdvanced" criteria="UC">
+      <Properties>
+        <LoadOrder>311</LoadOrder>
+      </Properties>
+      <File>Data/UC_AQD_Bonuses.sql</File>
+      <File>Data/UC_AQD_Policies.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>312</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_AQD_CSE.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>313</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_AQD_CSE_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_AQD_Baray.sql</File>
+      <File>Data/ModSupport/UC_AQD_CX.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_Suk_Khmer" criteria="MOD_Suk_Khmer">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_AQD_Baray.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase" criteria="UC">
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
+      <File>Text/UC_AQD_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>312</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_AQD_Text_CS_CSE_Default.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>313</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_AQD_Text_Baray.sql</File>
+      <File>Text/ModSupport/UC_AQD_Text_CX.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Suk_Khmer" criteria="MOD_Suk_Khmer">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_AQD_Text_Baray.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons" criteria="UC">
+      <Properties>
+        <LoadOrder>311</LoadOrder>
+      </Properties>
+      <File>Icons/UC_AQD_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateIcons id="IconsModSupport_UniqueDistricts" criteria="MOD_UD_Icons">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Icons/ModSupport/UC_AQD_Icons_UniqueDistricts.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
+      <File>UC_Expansion_Aqueduct.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Config/UC_AQD_Config.sql</File>
+    <File>Data/ModSupport/UC_AQD_Baray.sql</File>
+    <File>Data/ModSupport/UC_AQD_CSE.sql</File>
+    <File>Data/ModSupport/UC_AQD_CSE_Ethiopia.sql</File>
+    <File>Data/ModSupport/UC_AQD_CX.sql</File>
+    <File>Data/UC_AQD_Bonuses.sql</File>
+    <File>Data/UC_AQD_Buildings.sql</File>
+    <File>Data/UC_AQD_Districts.sql</File>
+    <File>Data/UC_AQD_Policies.sql</File>
+    <File>Data/UC_AQD_Requirements.sql</File>
+    <File>Icons/ModSupport/UC_AQD_Icons_UniqueDistricts.sql</File>
+    <File>Icons/UC_AQD_Icons.sql</File>
+    <File>Text/ModSupport/UC_AQD_Text_Baray.sql</File>
+    <File>Text/ModSupport/UC_AQD_Text_CS_CSE_Default.sql</File>
+    <File>Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia.sql</File>
+    <File>Text/ModSupport/UC_AQD_Text_CX.sql</File>
+    <File>Text/UC_AQD_Text.sql</File>
+    <File>UC_Expansion_Aqueduct.dep</File>
+  </Files>
+</Mod>
