@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b60b5827-2eed-4850-9afe-c8646cc533e5" version="1">
+  <Properties>
+    <Name>[COLOR:ResGoldLabelCS]Unique Reworked[ENDCOLOR]: Qhapaq Ñan (Inca)</Name>
+    <Description>The Qhapaq Ñan now gets 1 Gold and further 1 Gold for every specialty district in the city, rewarding the Inca for creating huge cities. However, the improvement is now required to get the Food bonus from adjacent Terrace Farms on Mountains, meaning this bonus is now mutually exclusive with Ski Resorts and Preserve yields (as the tile has to be improved).</Description>
+    <Created>1665926862</Created>
+    <Teaser>Unique bonuses for the Qhapaq Ñan.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_QhapaqNan_Text.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_QhapaqNan_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_QhapaqNan_Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Core/RECIV_QhapaqNan_Gameplay.sql</File>
+    <File>Core/RECIV_QhapaqNan_Text.sql</File>
+  </Files>
+</Mod>

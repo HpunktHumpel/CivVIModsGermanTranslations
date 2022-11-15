@@ -186,6 +186,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | #20
 2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | **NEW**
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
+2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | **NEW**
 2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | **NEW**
 2878166834 | Mikecro's Military Camp | Mikecro & Sailor Cat | H.Humpel | #20
 2879431839 | Leugi's Preserve Rework | Leugi | Junky | **NEW**
