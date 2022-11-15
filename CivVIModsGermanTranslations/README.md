@@ -93,6 +93,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
 1945460659 | Expanded Alliances | JNR | Junky | #12
+1987147435 | Appeal, Loyalty and Prestige (Diplo VP) Font Icons | Leugi | Junky | **NEW**
 2012127235 | Sukritact's Robespierre (France) | sukritact | Junky | #19
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8

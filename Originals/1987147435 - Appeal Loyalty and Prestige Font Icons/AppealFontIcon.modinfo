@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2ede4527-c961-4344-9cd1-859ff570d401" version="1">
+  <Properties>
+    <Name>Appeal, Loyalty and Prestige [COLOR:ResCultureLabelCS]Font Icons[ENDCOLOR]</Name>
+    <Description>Adds a font icon to Appeal and Loyalty. It also renames Diplomatic Victory Points to Prestige and gives it a font icon.
+
+Will also modify existing texts automatically so don't worry about compatibility or putting it yourself.</Description>
+    <Created>1586116681</Created>
+    <Teaser>Last Update: April 2020</Teaser>
+    <Authors>Leugi,</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateIcons id="Icons">
+      <File>Appeal_FontIcon.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>AppealIconReplace.sql</File>
+    </UpdateText>
+    <UpdateArt id="Arts">
+      <File>AppealFontIcon.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateIcons id="Icon">
+      <File>Appeal_FontIcon.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>AppealIconReplace.sql</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <File>AppealFontIcon.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>AppealFontIcon.dep</File>
+    <File>AppealIconReplace.sql</File>
+    <File>Appeal_FontIcon.sql</File>
+    <File>ArtDefs/UserInterfaceBLPs.artdef</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Textures/AppealFontIcon.dds</File>
+    <File>Textures/AppealFontIcon.tex</File>
+    <File>Textures/AppealFontIcon_22.dds</File>
+    <File>Textures/AppealFontIcon_22.tex</File>
+    <File>Textures/CYAN_LOYALTY_FONTICON_22.dds</File>
+    <File>Textures/CYAN_LOYALTY_FONTICON_22.tex</File>
+    <File>Textures/CYAN_LOYALTY_FONTICON_BIG_22.dds</File>
+    <File>Textures/CYAN_LOYALTY_FONTICON_BIG_22.tex</File>
+    <File>Textures/DVP_Prestige_FontIcon_22.dds</File>
+    <File>Textures/DVP_Prestige_FontIcon_22.tex</File>
+    <File>Textures/LoyaltyFontIcon_22..dds</File>
+    <File>Textures/LoyaltyFontIcon_22..tex</File>
+    <File>Textures/LoyaltyFontIcon_22.dds</File>
+    <File>Textures/LoyaltyFontIcon_22.tex</File>
+    <File>Textures/LOYALTY_FONTICON_22.dds</File>
+    <File>Textures/LOYALTY_FONTICON_22.tex</File>
+    <File>Textures/YIELD_LOYALTY_FONTICON_22.dds</File>
+    <File>Textures/YIELD_LOYALTY_FONTICON_22.tex</File>
+    <File>Textures/YIELD_PRESTIGE_FONTICON_22.dds</File>
+    <File>Textures/YIELD_PRESTIGE_FONTICON_22.tex</File>
+    <File>XLPs/UITexture.xlp</File>
+  </Files>
+</Mod>

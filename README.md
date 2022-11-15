@@ -15,6 +15,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Ancient Egyptian Pantheons (p0kiehl | H.Humpel)
 1. Angryr's Ancient Policies (Angryr | Junky)
 1. AOK_Units (anders | H.Humpel)
+1. Appeal, Loyalty and Prestige (Diplo VP) Font Icons (Leugi | Junky)
 1. Area 51 - World Wonder + Alien Units (JNR | H.Humpel)
 1. Automated Builders + Archaeologists Reloaded (New Frontier Pass) (Adriaman | H.Humpel)
 1. Ayakashi Saigyou (KCucumber | H.Humpel)
