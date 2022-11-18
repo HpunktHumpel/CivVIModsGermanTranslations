@@ -2,6 +2,7 @@
 
 - [IMPROVED] District Expansion: Aqueduct
 - [IMPROVED] District Expansion: Commerce
+- [IMPROVED] Policy Pack: Environment
 
 
 15.11.2022
