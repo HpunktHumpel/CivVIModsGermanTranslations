@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Language="de_DE" Tag="LOC_ADV_HELI_2_DESK">
+			<Text>Ignoriert die Bewegungskosten auf Eis (wenn der Mod Icebreaker aktiviert ist).</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_RESCUE_HELI_NAME" Language="de_DE">
+			<Text>Rettungshubschrauber|Rettungshubschrauber|Rettungshubschrauber|Rettungshubschraubers|Rettungshubschrauber</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_RESCUE_HELI_DESCRIPTION">
+			<Text>Unterstützungseinheit des Atomzeitalters. Ignoriert Gelände und Flüsse. Alle Einheiten neben dem Rettungshubschrauber heilen in der nächsten Runde 20 zusätzliche HP.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_RESCUE_HELI_DESK">
+			<Text>Alle Einheiten neben dem Rettungshubschrauber heilen in der nächsten Runde 20 zusätzliche HP.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_SKY_CRANE_NAME" Language="de_DE">
+			<Text>Luftkran-Hubschrauber|Luftkran-Hubschrauber|Luftkran-Hubschrauber|Luftkran-Hubschraubers|Luftkran-Hubschrauber</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SKY_CRANE_DESCRIPTION">
+			<Text>Handwerker-Einheit des Atomzeitalters. Ignoriert Gelände, Flüsse, Felswände und Einschiffung. Kann über Wasser (und Eis) fliegen. Verfügt über 4 Bau-Ladungen. Kann Kraftwerke bauen.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SKY_CRANE_DESK">
+			<Text>Verfügt über 4 Bau-Ladungen</Text>
+		</Replace>
+
+		<Replace Language="de_DE" Tag="LOC_ADV_HELI_DESK">
+			<Text>Keine [ICON_Movement] Bewegungskosten für die Ein- udn Ausschiffung.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_ADV_HELI_3_DESK">
+			<Text>Ignoriert Felswände.</Text>
+		</Replace>
+
+
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RESCUE_HELI_CHAPTER_HISTORY_PARA_1">
+			<Text>Mit ihrer Fähigkeit, schnell zu fliegen und über schwierigem Gelände wie Wäldern oder Bergen zu schweben, sind Hubschrauber das ideale Werkzeug für die Luftrettung und Luftambulanzen. Sie werden für die medizinische Notfallversorgung in Situationen eingesetzt, in denen ein Krankenwagen den Einsatzort nicht einfach oder schnell genug erreichen kann, um den Patienten rechtzeitig zu einer medizinischen Einrichtung zu transportieren. Rettungshubschrauber sind meistens so ausgestattet, dass sie einen Patienten während des Fluges stabilisieren und in begrenztem Umfang medizinisch behandeln können. Der Einsatz von Hubschraubern als Rettungshubschrauber wird oft als 'MEDEVAC' bezeichnet, und Patienten werden als 'airlifted' oder 'meevaced' bezeichnet. Diese Verwendung wurde im Koreakrieg eingeführt, als die Zeit zum Erreichen einer medizinischen Einrichtung von den acht Stunden, die im Zweiten Weltkrieg benötigt wurden, auf drei Stunden und später während des Vietnamkriegs auf zwei Stunden verkürzt wurde. Im Marinedienst besteht eine Hauptfunktion von Rettungshubschraubern darin von Flugzeugträgern aus abgeschossene oder in Unfälle verwickelte Flugzeugbesatzungen unverzüglich zu bergen. Vorher wurde diese Funktion von Zerstörern ausgeführt, die den Träger eskortierten, aber seitdem haben sich Hubschrauber als weitaus effektiver erwiesen.</Text>
+		</Replace>
+
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SKY_CRANE_CHAPTER_HISTORY_PARA_1">
+			<Text>Ein Luftkran-Hubschrauber ist ein Hubschrauber, mit dem schwere oder unhandliche Lasten gehoben werden können. Als Luftkräne tragen Hubschrauber Lasten, die mit langen Kabeln oder Schlingen verbunden sind, um schwere Ausrüstung zu platzieren, wenn andere Methoden nicht verfügbar oder wirtschaftlich machbar sind oder wenn die Arbeit, die durchgeführt werden muss, in abgelegenen oder unzugänglichen Bereichen - wie etwa den Spitzen von hohen Gebäuden oder die Spitze eines Hügels oder Berges - oder weit entfernt von der nächsten Straße liegt. Hubschrauber wurden erstmals in den 1950er Jahren als Luftkräne eingesetzt, aber erst in den 1960er Jahren begann sich ihre Popularität im Baugewerbe und in anderen Branchen durchzusetzen. Am konsequentesten werden Hubschrauber als Luftkräne in der Holzindustrie eingesetzt, um große Bäume aus unwegsamem Gelände zu heben, wo Fahrzeuge nicht hinkommen können oder wo Umweltbedenken den Straßenbau verbieten.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="460a2eea-44eb-4c93-a231-3e3f3eaa69cd" version="1.05">
+  <Properties>
+    <Name>SpatialX Civilian Helicopter</Name>
+    <Description>Add two units to the game. The rescue helicopter, an fast moving unit who can provide the same kind of heal as an medic. The aerial crane, an fast moving unit who can construct power plants.[NEWLINE][NEWLINE]Добавляет в игру два юнита. Спасательный вертолет, быстро передвигающийся юнит, который может лечить юниты как медик. Воздушный кран - быстрый юнит, который может строить электростанции.</Description>
+    <Created>1656423149</Created>
+    <Teaser>Add a rescue helicopter and an aerial crane</Teaser>
+    <Authors>SpatialX, Shuricas</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <ImportFiles id="Art">
+      <File>Assets/Aerial_crane/CH22.dds</File>
+      <File>Assets/Aerial_crane/CH256.dds</File>
+      <File>Assets/Aerial_crane/CH32.dds</File>
+      <File>Assets/Aerial_crane/CH38.dds</File>
+      <File>Assets/Aerial_crane/CH50.dds</File>
+      <File>Assets/Aerial_crane/CH80.dds</File>
+      <File>Assets/Aerial_crane/CHP200.dds</File>
+      <File>Assets/Aerial_crane/CHP256.dds</File>
+      <File>Assets/Aerial_crane/CHP38.dds</File>
+      <File>Assets/Aerial_crane/CHP50.dds</File>
+      <File>Assets/Aerial_crane/CHP70.dds</File>
+      <File>Assets/Aerial_crane/CHP95.dds</File>
+      <File>Assets/Rescue_helicopter/RH22.dds</File>
+      <File>Assets/Rescue_helicopter/RH256.dds</File>
+      <File>Assets/Rescue_helicopter/RH32.dds</File>
+      <File>Assets/Rescue_helicopter/RH38.dds</File>
+      <File>Assets/Rescue_helicopter/RH50.dds</File>
+      <File>Assets/Rescue_helicopter/RH80.dds</File>
+      <File>Assets/Rescue_helicopter/RHP200.dds</File>
+      <File>Assets/Rescue_helicopter/RHP256.dds</File>
+      <File>Assets/Rescue_helicopter/RHP38.dds</File>
+      <File>Assets/Rescue_helicopter/RHP50.dds</File>
+      <File>Assets/Rescue_helicopter/RHP70.dds</File>
+      <File>Assets/Rescue_helicopter/RHP95.dds</File>
+    </ImportFiles>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>300</LoadOrder>
+      </Properties>
+      <File>Core/SpatialX_Civilian_Helicopter_Gameplay.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>Core/SpatialX_Civilian_Helicopter_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Core/SpatialX_Civilian_Helicopter_Text.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>SpatialX_Civilian_Helicopter.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+      <File>ArtDefs/Units.artdef</File>
+      <File>Assets/Aerial_crane/CH22.dds</File>
+      <File>Assets/Aerial_crane/CH256.dds</File>
+      <File>Assets/Aerial_crane/CH32.dds</File>
+      <File>Assets/Aerial_crane/CH38.dds</File>
+      <File>Assets/Aerial_crane/CH50.dds</File>
+      <File>Assets/Aerial_crane/CH80.dds</File>
+      <File>Assets/Aerial_crane/CHP200.dds</File>
+      <File>Assets/Aerial_crane/CHP256.dds</File>
+      <File>Assets/Aerial_crane/CHP38.dds</File>
+      <File>Assets/Aerial_crane/CHP50.dds</File>
+      <File>Assets/Aerial_crane/CHP70.dds</File>
+      <File>Assets/Aerial_crane/CHP95.dds</File>
+      <File>Assets/Rescue_helicopter/RH22.dds</File>
+      <File>Assets/Rescue_helicopter/RH256.dds</File>
+      <File>Assets/Rescue_helicopter/RH32.dds</File>
+      <File>Assets/Rescue_helicopter/RH38.dds</File>
+      <File>Assets/Rescue_helicopter/RH50.dds</File>
+      <File>Assets/Rescue_helicopter/RH80.dds</File>
+      <File>Assets/Rescue_helicopter/RHP200.dds</File>
+      <File>Assets/Rescue_helicopter/RHP256.dds</File>
+      <File>Assets/Rescue_helicopter/RHP38.dds</File>
+      <File>Assets/Rescue_helicopter/RHP50.dds</File>
+      <File>Assets/Rescue_helicopter/RHP70.dds</File>
+      <File>Assets/Rescue_helicopter/RHP95.dds</File>
+    <File>Core/SpatialX_Civilian_Helicopter_Gameplay.xml</File>
+    <File>Core/SpatialX_Civilian_Helicopter_Icons.xml</File>
+    <File>Core/SpatialX_Civilian_Helicopter_Text.xml</File>
+    <File>SpatialX_Civilian_Helicopter.dep</File>
+  </Files>
+</Mod>

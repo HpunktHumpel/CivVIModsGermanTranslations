@@ -1,6 +1,7 @@
 18.11.2022
 
 - [NEW] Leugi's Wildlife++ (Game Mode) (vom 12. Nov. 2022 um 17:19, Übersetzung von Junky)
+- [NEW] SpatialX Civilian Helicopter (vom 17. Nov. 2022 um 18:11, Übersetzung von H.Humpel)
 - [IMPROVED] District Expansion: Aqueduct
 - [IMPROVED] District Expansion: Commerce
 - [IMPROVED] Policy Pack: Environment

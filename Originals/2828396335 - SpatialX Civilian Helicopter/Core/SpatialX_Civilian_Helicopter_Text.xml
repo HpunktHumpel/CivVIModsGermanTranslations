@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_ADV_HELI_2_DESK">
+			<Text>Ignores the cost of moving on ice (if mod Icebreaker Enabled).</Text>
+		</Row>
+		<Replace Language="ru_RU" Tag="LOC_ADV_HELI_2_DESK">
+			<Text>Игнорирует стоимость перемещения по льду (Если включен мод Ледокол).</Text>
+		</Replace>
+
+		<Row Language="en_US" Tag="LOC_UNIT_RESCUE_HELI_NAME">
+			<Text>Rescue Helicopter</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_RESCUE_HELI_NAME" Language="ru_RU">
+			<Text>Спасательный Вертолет|Спасательного Вертолета|Спасательному Вертолету|Спасательный Вертолет|Спасательным Вертолетом|Спасательном Вертолете</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Row Language="en_US" Tag="LOC_UNIT_RESCUE_HELI_DESCRIPTION">
+			<Text>Atomic era support unit. Ignores terrain and river. All units adjacent to Rescue Helicopter heal 20 additional hp the next turn.</Text>
+		</Row>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_RESCUE_HELI_DESCRIPTION">
+			<Text>Юнит поддержки эпохи Атома. Игнорирует стоимость перемещения по всем видам месности и реки. Все юниты, находящиеся рядом со спасательным вертолетом, восстанавливают 20 дополнительных очков жизни на следующем ходу.</Text>
+		</Replace>
+		<Row Language="en_US" Tag="LOC_RESCUE_HELI_DESK">
+			<Text>All units adjacent to Rescue Helicopter heal 20 additional hp the next turn.</Text>
+		</Row>
+
+		<Row Language="en_US" Tag="LOC_UNIT_SKY_CRANE_NAME">
+			<Text>Aerial Crane Helicopter</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_SKY_CRANE_NAME" Language="ru_RU">
+			<Text>Вертолет с воздушным краном|Вертолета с воздушным краном|Вертолету с воздушным краном|Вертолет с воздушным краном|Вертолетом с воздушным краном|Вертолете с воздушным краном</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Row Language="en_US" Tag="LOC_UNIT_SKY_CRANE_DESCRIPTION">
+			<Text>Atomic era building unit. Ignores terrain, river, cliff walls and embarkment. Can fly over water (and ice). Has 4 build charges by defalut. Can build Power plants</Text>
+		</Row>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SKY_CRANE_DESCRIPTION">
+			<Text>Строительный юнит эпохи Атома. Игнорирует стоимость перемещения по всем видам месности, реки, отвесные утесы (скалы), погрузку и выгрузку с корабля. Может летать над водой (и льдом). Имеет 4 зарядов строительства. Может строить Електростанции.</Text>
+		</Replace>
+		<Row Language="en_US" Tag="LOC_UNIT_SKY_CRANE_DESK">
+			<Text>Has 4 build charges</Text>
+		</Row>
+
+		<Row Language="en_US" Tag="LOC_ADV_HELI_DESK">
+			<Text>No [ICON_Movement] Movement cost to disembark.</Text>
+		</Row>
+		<Replace Language="ru_RU" Tag="LOC_ADV_HELI_DESK">
+			<Text>Не тратит [ICON_Movement] очки перемещения для погрузки и выгрузки с корабля.</Text>
+		</Replace>
+		<Row Language="en_US" Tag="LOC_ADV_HELI_3_DESK">
+			<Text>Ignores cliff walls</Text>
+		</Row>
+		<Replace Language="ru_RU" Tag="LOC_ADV_HELI_3_DESK">
+			<Text>Игнорирует отвесные утесы (скалы).</Text>
+		</Replace>
+
+
+		<Row Language="en_US" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RESCUE_HELI_CHAPTER_HISTORY_PARA_1">
+			<Text>With their ability to quickly fly and hover above difficult terrain like forests or mountains, helicopters are the ideals tool for aerial rescue and air ambulances. They are used for emergency medical assistance in situations where an ambulance cannot easily or quickly reach the scene transport the patient to a medical facility in time. Air ambulance helicopter are most of the time equipped to stabilize and provide limited medical treatment to a patient while in flight. The use of helicopters as air ambulances is often referred to as "MEDEVAC", and patients are referred to as being "airlifted", or "medevaced". This use was pioneered in the Korean War, when time to reach a medical facility was reduced to three hours from the eight hours needed in World War II, and further reduced to two hours by the Vietnam War. In naval service a prime function of rescue helicopters is to promptly retrieve downed aircrew involved in crashes occurring upon launch or recovery aboard aircraft carriers. In past years this function was performed by destroyers escorting the carrier, but since then helicopters have proved vastly more effective.</Text>
+		</Row>
+
+		<Row Language="en_US" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SKY_CRANE_CHAPTER_HISTORY_PARA_1">
+			<Text>An aerial crane is a helicopter used to lift heavy or awkward loads. As aerial cranes, helicopters carry loads connected to long cables or slings in order to place heavy equipment when other methods are not available or economically feasible, or when the job must be accomplished in remote or inaccessible areas, such as the tops of tall buildings or the top of a hill or mountain, far from the nearest road. Helicopters were first used as aerial cranes in the 1950s, but it was not until the 1960s that their popularity in construction and other industries began to catch on. The most consistent use of helicopters as aerial cranes is in the logging industry to lift large trees out of rugged terrain where vehicles are not able to reach, or where environmental concerns prohibit roadbuilding.</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>
