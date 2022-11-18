@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="52c17bf1-d630-42c8-a2d6-f20d8e019993" version="19">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_COMMERCIAL_HUB] Commerce</Name>
+    <Description>New commerce-focused building choices for Commercial Hub, Harbor, and Aerodrome.</Description>
+    <Created>1603472130</Created>
+    <Teaser>Commerce districts overhaul with new building choices.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="UC">
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_GatheringStorm">
+	  <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>	<!-- Ethiopia DLC -->
+	  <ModInUse inverse="1">4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>	<!-- ReCiv CSB -->
+	  <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>	<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSB">
+	  <ModInUse inverse="1">1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>	<!-- Ethiopia DLC -->
+	  <ModInUse>4af91b6e-fc1a-4789-9c22-d939baadec5d</ModInUse>				<!-- ReCiv CSB -->
+	  <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>	<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_Ethiopia">
+	  <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>				<!-- Ethiopia DLC -->
+	  <ModInUse inverse="1">7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>	<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE">
+	  <ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>				<!-- CIVITAS CSE -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="CS_CSE_Ethiopia">
+	  <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_CX">
+	  <ModInUse>644fa20f-0686-4195-b71a-68ff3392daa7</ModInUse>				<!-- Civilizations Expanded -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_PPC">
+	  <ModInUse>d3bf6f00-6eab-4737-8d93-fa30c9cad29e</ModInUse>				<!-- Progressive Power Consumption -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="MOD_MMSS">
+	  <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>				<!-- More Maritime: Seaside Sectors -->
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+	<Criteria id="Monopolies_Mode">
+	  <ConfigurationValueMatches>
+		<Group>Game</Group>
+		<ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+		<Value>1</Value>
+	  </ConfigurationValueMatches>
+	  <ModInUse inverse="1">236af578-08bc-4278-ab57-c700ab3e1457</ModInUse>	<!-- Golden Age -->
+	  <ModInUse inverse="1">66add898-b3bb-4bd9-98a2-805d37f0da2e</ModInUse>	<!-- Harmony in Diversity - UC Patch -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>Config/UC_COM_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>Text/UC_COM_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX_Config">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_CX.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="ReduxDelete" criteria="UC">
+      <Properties>
+        <LoadOrder>209</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_COM_Redux_Delete.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayBase" criteria="UC">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_Buildings.sql</File>
+      <File>Data/UC_COM_Requirements.sql</File>
+      <File>Data/UC_COM_Districts.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayAdvanced" criteria="UC">
+      <Properties>
+        <LoadOrder>221</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_Bonuses_Yields.sql</File>
+      <File>Data/UC_COM_Bonuses_TradeRoutes.sql</File>
+      <File>Data/UC_COM_Bonuses_Special.sql</File>
+      <File>Data/UC_COM_Policies.sql</File>
+      <File>Data/UC_COM_Misc.sql</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="GameplayModes_Corporations" criteria="Monopolies_Mode">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_MODE_Corporations.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayCS" criteria="CS_GatheringStorm">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_City_States_GS.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayCS_Ethiopia" criteria="CS_Ethiopia">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_City_States_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSB" criteria="CS_CSB">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Data/UC_COM_City_States_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_COM_CSE_Trade.sql</File>
+      <File>Data/ModSupport/UC_COM_CSE_Maritime.sql</File>
+      <File>Data/ModSupport/UC_COM_CSE_Uniques.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>223</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_COM_CSE_Ethiopia_Trade.sql</File>
+      <File>Data/ModSupport/UC_COM_CSE_Ethiopia_Maritime.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_COM_CX.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_PPC" criteria="MOD_PPC">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_COM_PPC.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_RwF" criteria="UC">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_COM_RwF.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayModSupport_MMSS" criteria="MOD_MMSS">
+      <Properties>
+        <LoadOrder>520</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/UC_COM_MMSS.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase" criteria="UC">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>Text/UC_COM_Text.sql</File>
+    </UpdateText>
+    <UpdateText id="TextCS" criteria="CS_GatheringStorm">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Text/UC_COM_Text_CS_GS.sql</File>
+    </UpdateText>
+    <UpdateText id="TextCS_Ethiopia" criteria="CS_Ethiopia">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Text/UC_COM_Text_CS_Ethiopia.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSB" criteria="CS_CSB">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_CS_CSB.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE" criteria="CS_CSE">
+      <Properties>
+        <LoadOrder>222</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_CS_CSE_Default.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CSE_Ethiopia" criteria="CS_CSE_Ethiopia">
+      <Properties>
+        <LoadOrder>223</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_CS_CSE_Ethiopia.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_CX" criteria="MOD_CX">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_CX.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_RwF" criteria="UC">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_RwF.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_MMSS" criteria="MOD_MMSS">
+      <Properties>
+        <LoadOrder>520</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/UC_COM_Text_MMSS.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons" criteria="UC">
+      <Properties>
+        <LoadOrder>221</LoadOrder>
+      </Properties>
+      <File>Icons/UC_COM_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>220</LoadOrder>
+      </Properties>
+      <File>UC_Expansion_Commerce.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Config/UC_COM_Config.sql</File>
+	<File>Data/UC_COM_MODE_Corporations.sql</File>
+	<File>Data/ModSupport/UC_COM_MMSS.sql</File>
+    <File>Data/ModSupport/UC_COM_CSE_Ethiopia_Maritime.sql</File>
+    <File>Data/ModSupport/UC_COM_CSE_Ethiopia_Trade.sql</File>
+    <File>Data/ModSupport/UC_COM_CSE_Maritime.sql</File>
+    <File>Data/ModSupport/UC_COM_CSE_Trade.sql</File>
+    <File>Data/ModSupport/UC_COM_CSE_Uniques.sql</File>
+    <File>Data/ModSupport/UC_COM_CX.sql</File>
+    <File>Data/ModSupport/UC_COM_PPC.sql</File>
+    <File>Data/ModSupport/UC_COM_Redux_Delete.sql</File>
+    <File>Data/ModSupport/UC_COM_RwF.sql</File>
+    <File>Data/UC_COM_Bonuses_Special.sql</File>
+    <File>Data/UC_COM_Bonuses_TradeRoutes.sql</File>
+    <File>Data/UC_COM_Bonuses_Yields.sql</File>
+    <File>Data/UC_COM_Buildings.sql</File>
+    <File>Data/UC_COM_City_States_Ethiopia.sql</File>
+    <File>Data/UC_COM_City_States_GS.sql</File>
+    <File>Data/UC_COM_Districts.sql</File>
+    <File>Data/UC_COM_Misc.sql</File>
+    <File>Data/UC_COM_Policies.sql</File>
+    <File>Data/UC_COM_Requirements.sql</File>
+    <File>Icons/UC_COM_Icons.sql</File>
+	<File>Text/ModSupport/UC_COM_Text_MMSS.sql</File>
+    <File>Text/ModSupport/UC_COM_Text_CS_CSB.sql</File>
+    <File>Text/ModSupport/UC_COM_Text_CS_CSE_Default.sql</File>
+    <File>Text/ModSupport/UC_COM_Text_CS_CSE_Ethiopia.sql</File>
+    <File>Text/ModSupport/UC_COM_Text_CX.sql</File>
+    <File>Text/ModSupport/UC_COM_Text_RwF.sql</File>
+    <File>Text/UC_COM_Text.sql</File>
+    <File>Text/UC_COM_Text_CS_Ethiopia.sql</File>
+    <File>Text/UC_COM_Text_CS_GS.sql</File>
+    <File>UC_Expansion_Commerce.dep</File>
+  </Files>
+</Mod>

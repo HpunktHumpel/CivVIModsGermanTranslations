@@ -1,6 +1,7 @@
 18.11.2022
 
 - [IMPROVED] District Expansion: Aqueduct
+- [IMPROVED] District Expansion: Commerce
 
 
 15.11.2022
