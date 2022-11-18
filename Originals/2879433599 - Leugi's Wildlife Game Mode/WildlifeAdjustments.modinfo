@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" version="1">
+  <Properties>
+    <Name>Leugi's [COLOR_Civ6Green]Wildlife++[ENDCOLOR] (Game Mode)</Name>
+    <Description>Makes adjustments to the Wildlife mod created by Shirotora and Deliverator, turning it into a full fledged [COLOR_Civ6Green]Game Mode[ENDCOLOR], to enhance the experience of having animals roaming around. Requires the original Wildlife mod as well as Gathering Storm and the Kublai Khan + Vietnam New Frontier pack.[NEWLINE][NEWLINE][COLOR_Civ6Green]A world full of life and danger[ENDCOLOR][NEWLINE]The Wildlife Game Mode makes use of the cool system of spawning wild animals as Barbarians that Shirotira+Deliverator developed to add up to the experience of dealing with wild animals, whether through hunting them for Food, capturing them for Gold and Entertainment, or protecting them for Science and Faith.[NEWLINE][NEWLINE][COLOR_Civ6Green]Hunting[ENDCOLOR][NEWLINE]From the beginning of the game you can receive Bushmeat, a new Strategic Resource, when defeating wild animals. This resource can be expended at your cities through a project to increase your Food per Turn outcome. This is specially useful when settling new cities to help them grow faster. However, Bushmeat decays naturally over time so you lose 1 Bushmeat everyturn, so it's best to time your hunt with your need of food. After discovering Conservation this activity is frowned upon receiving a Favor penalty.[NEWLINE][NEWLINE][COLOR_Civ6Green]Animal Exhibits[ENDCOLOR][NEWLINE]After discovering Games &amp; Recreation you can use the "Animal Training" policy card to instead receive Exotic Species from defeating wild animals. This resource can be used at cities with Entertainment Complexes to get some Amenities while producing the Animal Exhibit project. You can also get some Gold, Culture and even Tourism this way. Once you discover Natural History you may even receive Aquatic Species instead to use at Water Parks.[NEWLINE][NEWLINE][COLOR_Civ6Green]Local Fauna[ENDCOLOR][NEWLINE]If you don't want to fight the Wild Animals roaming near your territory, you can instead decide to protect them as Local Fauna. To do this simply build a Preserve, and any Wild Animals that come into contact of your Preserve will be instantly transferred to your civilization. However, you may not move or use these units to attack. Local Fauna provides strong Faith and Science bonuses, and as the eras go by, they also provide Diplomatic bonuses, so this is a good path towards a Diplomatic Victory.[NEWLINE][NEWLINE][COLOR_Civ6Green]Other Changes[ENDCOLOR][NEWLINE]Aside from this, some important changes were made to the original Wildlife mod to enhance the experience.</Description>
+    <Created>1668269885</Created>
+    <Teaser>Last Update: November 2022</Teaser>
+    <Authors>Leugi</Authors>
+    <SpecialThanks>Shirotora, Deliverator, Lime, Sukritact</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="Vietnam &amp; Kublai Khan Pack" />
+    <Mod id="669ac0f9-70b5-4f3c-b7fa-d2f36297c00a" title="Wildlife - Wild Animals Mod" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="NotWildlife_Mode">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_WILDLIFE</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SixT">
+      <ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
+    </Criteria>
+    <Criteria id="Wildlife_EasyMode">
+      <ConfigurationValueMatches>
+        <ConfigurationId>LEU_WILDLIFE_STRENGTH_SETUP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="ConfigData">
+      <File>Database/Wildlife_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Text/WildlifeConfig_Texts.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Database/Wildlife_ConfigIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Arts">
+      <File>WildlifeAdjustments.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Database/WildlifePreserves_Defines.sql</File>
+      <File>Database/WildlifeAdjustments.sql</File>
+      <File>Database/Wildlife_Policies.sql</File>
+      <File>Database/Wildlife_Resources.sql</File>
+      <File>Database/Wildlife_PediaManual.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Text/WildlifePreserves_Texts.sql</File>
+      <File>Text/WildlifeAdjustements_Texts.sql</File>
+      <File>Text/WildlifePolicies_Texts.sql</File>
+      <File>Text/WildlifeResources_Texts.sql</File>
+      <File>Text/WildlifePediaManual_Texts.sql</File>
+      <File>Text/WildlifeNames_Texts.sql</File>
+    </UpdateText>
+    <AddGameplayScripts id="Code">
+      <Properties>
+        <LoadOrder>120</LoadOrder>
+      </Properties>
+      <Exclude mod_id="669ac0f9-70b5-4f3c-b7fa-d2f36297c00a" action_id="WildPredators_Lua" />
+      <File>lua/Wild_Predators_Adjustments.lua</File>
+      <File>lua/WildlifeAdjustments_Misc.lua</File>
+      <File>lua/WildlifePreserves_Main.lua</File>
+      <File>lua/WildlifeResourceFunctions.lua</File>
+      <File>lua/BarbarianLifespanFIxer.lua</File>
+      <File>lua/WildlifePreserve_Resurrection.lua</File>
+    </AddGameplayScripts>
+    <ImportFiles id="Suk_MCUIS">
+      <File>lua/Suk_MCUIS_WildlifePreserves.lua</File>
+    </ImportFiles>
+    <AddUserInterfaces id="UICode">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>lua/WildlifePreserves_UIScripts.xml</File>
+    </AddUserInterfaces>
+    <UpdateArt id="Art">
+      <File>WildlifeAdjustments.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>Database/Wildlife_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="Mode_Disabler">
+      <Properties>
+        <LoadOrder>-1</LoadOrder>
+      </Properties>
+      <Criteria>NotWildlife_Mode</Criteria>
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="Database" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="Text" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="Suk_MCUIS" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="UICode" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="Art" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="Icons" />
+      <Exclude mod_id="669ac0f9-70b5-4f3c-b7fa-d2f36297c00a" action_id="WildPredators_Art" />
+      <Exclude mod_id="669ac0f9-70b5-4f3c-b7fa-d2f36297c00a" action_id="WildPredators_Icons" />
+      <Exclude mod_id="669ac0f9-70b5-4f3c-b7fa-d2f36297c00a" action_id="WildPredators_Text" />
+      <Exclude mod_id="669ac0f9-70b5-4f3c-b7fa-d2f36297c00a" action_id="WildPredators_Lua" />
+      <Exclude mod_id="32ffc9fe-c52c-41a7-bd41-25f09ae07264" action_id="DinoArt" />
+      <Exclude mod_id="32ffc9fe-c52c-41a7-bd41-25f09ae07264" action_id="DinoText" />
+      <Exclude mod_id="32ffc9fe-c52c-41a7-bd41-25f09ae07264" action_id="DinoIcons" />
+      <Exclude mod_id="669ac0f9-70b5-4f3c-b7fa-d2f36297c00a" action_id="WildPredators_Gameplay" />
+      <Exclude mod_id="32ffc9fe-c52c-41a7-bd41-25f09ae07264" action_id="DinoDB" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="SixTCompatbility" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="SixTCompatibilityIcons" />
+      <Exclude mod_id="01233ee7-cfdb-46f9-a7eb-c71b5ca9fa9f" action_id="Code" />
+    </UpdateDatabase>
+    <ImportFiles id="CustomNotifications">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <File>lua/NotificationPanel_Wildlife.lua</File>
+    </ImportFiles>
+    <UpdateText id="CelebrityText">
+      <Properties>
+        <LoadOrder>1500</LoadOrder>
+      </Properties>
+      <File>Text/WildlifePolicies_Texts_Celebrities.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="SixTCompatibility">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
+      <Criteria>SixT</Criteria>
+      <File>Compatibility/Wildlife_6TComp.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="SixTCompatibilityIcons">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
+      <Criteria>SixT</Criteria>
+      <File>Compatibility/Wildlife_6TComp_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="EasyMode">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
+      <Criteria>Wildlife_EasyMode</Criteria>
+      <File>Database/Wildlife_EasyMode.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/UI.artdef</File>
+    <File>Compatibility/Wildlife_6TComp.sql</File>
+    <File>Compatibility/Wildlife_6TComp_Icons.sql</File>
+    <File>Database/WildlifeAdjustments.sql</File>
+    <File>Database/WildlifePreserves_Defines.sql</File>
+    <File>Database/Wildlife_Config.sql</File>
+    <File>Database/Wildlife_ConfigIcons.sql</File>
+    <File>Database/Wildlife_EasyMode.sql</File>
+    <File>Database/Wildlife_Icons.sql</File>
+    <File>Database/Wildlife_PediaManual.sql</File>
+    <File>Database/Wildlife_Policies.sql</File>
+    <File>Database/Wildlife_Resources.sql</File>
+    <File>lua/BarbarianLifespanFIxer.lua</File>
+    <File>lua/NotificationPanel_Wildlife.lua</File>
+    <File>lua/Suk_MCUIS_WildlifePreserves.lua</File>
+    <File>lua/WildlifeAdjustments_Misc.lua</File>
+    <File>lua/WildlifePreserves_Main.lua</File>
+    <File>lua/WildlifePreserves_UIScripts.lua</File>
+    <File>lua/WildlifePreserves_UIScripts.xml</File>
+    <File>lua/WildlifePreserve_Resurrection.lua</File>
+    <File>lua/WildlifeResourceFunctions.lua</File>
+    <File>lua/Wild_Predators_Adjustments.lua</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Textures/Leu-MCUIS-Frame-Action.dds</File>
+    <File>Textures/Leu-UnlockFrame-District.dds</File>
+    <File>Textures/WildlifeProjects_256.dds</File>
+    <File>Textures/WildlifeProjects_30.dds</File>
+    <File>Textures/WildlifeProjects_32.dds</File>
+    <File>Textures/WildlifeProjects_38.dds</File>
+    <File>Textures/WildlifeProjects_50.dds</File>
+    <File>Textures/WildlifeProjects_70.dds</File>
+    <File>Textures/WildlifeProjects_80.dds</File>
+    <File>Textures/WildlifeResources_100.dds</File>
+    <File>Textures/WildlifeResources_128.dds</File>
+    <File>Textures/WildlifeResources_22.dds</File>
+    <File>Textures/WildlifeResources_256.dds</File>
+    <File>Textures/WildlifeResources_38.dds</File>
+    <File>Text/WildlifeAdjustements_Texts.sql</File>
+    <File>Text/WildlifeConfig_Texts.sql</File>
+    <File>Text/WildlifeNames_Texts.sql</File>
+    <File>Text/WildlifePediaManual_Texts.sql</File>
+    <File>Text/WildlifePolicies_Texts.sql</File>
+    <File>Text/WildlifePolicies_Texts_Celebrities.sql</File>
+    <File>Text/WildlifePreserves_Texts.sql</File>
+    <File>Text/WildlifeResources_Texts.sql</File>
+    <File>UI/Replacements/UnitPanel_Wildlife.lua</File>
+    <File>WildlifeAdjustments.Art.xml</File>
+    <File>WildlifeAdjustments.dep</File>
+    <File>XLPs/UITexture.xlp</File>
+  </Files>
+</Mod>

@@ -1,8 +1,10 @@
 18.11.2022
 
+- [NEW] Leugi's Wildlife++ (Game Mode) (vom 12. Nov. 2022 um 17:19, Übersetzung von Junky)
 - [IMPROVED] District Expansion: Aqueduct
 - [IMPROVED] District Expansion: Commerce
 - [IMPROVED] Policy Pack: Environment
+- [FIXED] Unique Reworked: Carnival (Brazil)
 
 
 15.11.2022

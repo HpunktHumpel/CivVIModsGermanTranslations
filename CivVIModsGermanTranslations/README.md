@@ -191,5 +191,6 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | **NEW**
 2878166834 | Mikecro's Military Camp | Mikecro & Sailor Cat | H.Humpel | #20
 2879431839 | Leugi's Preserve Rework | Leugi | Junky | **NEW**
+2879433599 | Leugi's Wildlife++ (Game Mode) | Leugi, Captain Lime, Deliverator23 & Shirotora Kenshin | Junky | **NEW**
 2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | #20
 2887811648 | Policy Pack: Environment | JNR | Junky | **NEW**
