@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4e12695f-0ae8-40c4-9230-aa605c284b64" version="7">
+  <Properties>
+    <Name>Alliances Expanded</Name>
+    <Description>Adds four new alliance types: Industrial, Maritime, Urban, Espionage. Reworks how alliance points are earned, offering more sources to choose from. On average, alliances will progress slightly faster, unlocking interesting bonuses earlier.</Description>
+    <Created>1611307879</Created>
+    <Teaser>More Alliances and Alliance point rework.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Data/ALLY_Alliance_Types.sql</File>
+      <File>Data/ALLY_Alliance_Points.sql</File>
+      <File>Data/ALLY_Governors.sql</File>
+      <File>Data/ALLY_Improvements.sql</File>
+      <File>Data/ALLY_Misc.sql</File>
+      <File>Data/ALLY_AI_Preferences.sql</File>
+      <File>Data/ALLY_Pedia.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Text/ALLY_Text.sql</File>
+    </UpdateText>
+    <ReplaceUIScript id="UI_DiplomaticActionView">
+      <Properties>
+        <LuaContext>DiplomacyActionView</LuaContext>
+        <LuaReplace>UI/Replacements/ALLY_DiplomacyActionView.lua</LuaReplace>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+    </ReplaceUIScript>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Alliances_Expanded.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Icons/ALLY_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Alliances_Expanded.dep</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Data/ALLY_AI_Preferences.sql</File>
+    <File>Data/ALLY_Alliance_Points.sql</File>
+    <File>Data/ALLY_Alliance_Types.sql</File>
+    <File>Data/ALLY_Governors.sql</File>
+    <File>Data/ALLY_Improvements.sql</File>
+    <File>Data/ALLY_Misc.sql</File>
+    <File>Data/ALLY_Pedia.sql</File>
+    <File>Icons/ALLY_Icons.sql</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Fishery_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Trawler_Crane_IND_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Trawler_Flagship_Classical_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Trawler_Flagship_Modern_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Sail_a_Sail_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_m</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_n1</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_AncientEmbark_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Fishery_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Trawler_Crane_IND_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Trawler_Flagship_Classical_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Trawler_Flagship_Modern_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Sail_a_Sail_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Fishery_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ModernEmbark_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_m</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_n1</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Text/ALLY_Text.sql</File>
+    <File>UI/Replacements/ALLY_DiplomacyActionView.lua</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/Tilebases.xlp</File>
+  </Files>
+</Mod>
