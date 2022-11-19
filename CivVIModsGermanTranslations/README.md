@@ -196,3 +196,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2879433599 | Leugi's Wildlife++ (Game Mode) | Leugi, Captain Lime, Deliverator23 & Shirotora Kenshin | Junky | **NEW**
 2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | #20
 2887811648 | Policy Pack: Environment | JNR | Junky | **NEW**
+2890697127 | Sailor Cat's Relics Plus | Sailor Cat | H.Humpel | **NEW**

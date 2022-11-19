@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="df96f749-d5a0-4c2b-8fa5-7b81dbaadac9" version="1">
+  <Properties>
+    <Name>[COLOR:190,255,129]Sailor Cat's[ENDCOLOR] Relics Plus</Name>
+    <Description>Adds new ways to obtain [ICON_GreatWork_Relic] Relics, including a new pantheon and goody-type improvement.</Description>
+    <Created>1668885268</Created>
+    <Teaser>Expands relic options and availability.</Teaser>
+    <Authors>Sailor Cat</Authors>
+    <SpecialThanks>Leugi</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="vrmmorpg">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>LivingInTheDatabase.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="LUA">
+      <File>LeaderUniqueAbility.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="hentai">
+      <File>Sailor Cat's Relics Plus.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>Iconography.sql</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>FanFictionDotNet.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>FanFictionDotNet.xml</File>
+    <File>Iconography.sql</File>
+    <File>LeaderUniqueAbility.lua</File>
+    <File>LivingInTheDatabase.sql</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Antiquity_Site_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Sailor_Entrance_b_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Bld_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Antiquity_Site_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Antiquity_Site_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Antiquity_Site_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Sailor_Entrance_o</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Antiquity_Site_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Sailor_Entrance_b_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Antiquity_Site_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Antiquity_Site_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Antiquity_Site_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Sailor_Entrance_o</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Sailor Cat's Relics Plus.dep</File>
+    <File>XLPs/tilebases.xlp</File>
+  </Files>
+</Mod>

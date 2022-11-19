@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_IMPROVEMENT_SAILOR_RUIN_NAME" Language="en_US">
+			<Text>Unexplored Ruins</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_SAILOR_RUIN_DESCRIPTION" Language="en_US">
+			<Text>Delve into the depths of these ruins to discover a free [ICON_GreatWork_Relic] Relic.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SAILOR_INVESTITURE_NAME" Language="en_US">
+			<Text>Investiture</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SAILOR_INVESTITURE_DESCRIPTION" Language="en_US">
+			<Text>Receive one free [ICON_GreatWork_Relic] Relic if you have an open slot before taking this Pantheon. The Monument has a slot for [ICON_GreatWork_Relic] Relics.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

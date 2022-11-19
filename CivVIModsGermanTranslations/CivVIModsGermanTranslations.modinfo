@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="21">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]194[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]195[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1668895979</Created>
+    <Created>1668897345</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, Masked Man, Mgwska, Mikecro, muyyi, naed21, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -589,11 +589,14 @@
     <Criteria id="RiflemenUnit">
       <ModInUse>7837204c-9f2a-45f3-9acb-5de809c58edc</ModInUse>
     </Criteria>
-    <Criteria id="SeedsOfGrowthPolicy">
-      <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c84</ModInUse>
+    <Criteria id="SailorCatsRelicsPlus">
+      <ModInUse>df96f749-d5a0-4c2b-8fa5-7b81dbaadac9</ModInUse>
     </Criteria>
     <Criteria id="Sappers">
       <ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
+    </Criteria>
+    <Criteria id="SeedsOfGrowthPolicy">
+      <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c84</ModInUse>
     </Criteria>
     <Criteria id="SilkAndSpiceTradeRouteRework">
       <ModInUse>5cbe861e-1e8d-4bfe-9de2-148c2c6b7958</ModInUse>
@@ -2432,6 +2435,10 @@
       </Properties>
       <File>2512923705/Riflemen_text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SailorCatsRelicsPlus_NewAction_de_DE">
+      <Criteria>SailorCatsRelicsPlus</Criteria>
+      <File>2890697127/FanFictionDotNet_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="Sappers_de_DE">
       <Criteria>Sappers</Criteria>
       <Properties>
@@ -3762,6 +3769,7 @@
     <File>2879433599/Text/WildlifeResources_Texts_de_DE.sql</File>
     <File>2880643181/LivingThingsGrow_Text_de_DE.xml</File>
     <File>2887811648/Core/PP_Environment_Text_de_DE.sql</File>
+    <File>2890697127/FanFictionDotNet_de_DE.xml</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>

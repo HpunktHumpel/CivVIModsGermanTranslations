@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_IMPROVEMENT_SAILOR_RUIN_NAME" Language="de_DE" Gender="feminine" Plurality="2">
+			<Text>Unerkundete Ruinen|Unerkundete Ruinen|Unerkundeten Ruinen|Unerkundeten Ruinen|Unerkundeten Ruinen</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SAILOR_RUIN_DESCRIPTION" Language="de_DE">
+			<Text>Tauche in die Tiefen dieser Ruinen ein, um ein kostenloses [ICON_GreatWork_Relic] Relikt zu entdecken.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_SAILOR_INVESTITURE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Investitur|Investitur|Investitur|Investitur|Investitur</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_SAILOR_INVESTITURE_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet ein kostenloses [ICON_GreatWork_Relic] Relikt, wenn Ihr dafür einen freien Platz habt, bevor Ihr dieses Pantheon auswählt. Das Monument hat einen Platz für [ICON_GreatWork_Relic] Relikte.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
