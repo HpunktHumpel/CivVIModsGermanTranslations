@@ -11,16 +11,16 @@
 		<Row Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
 			<Text>A defensible district.[NEWLINE]+3[ICON_Tourism] Tourism with Conservation.</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_THEATER_CULTURE">
+		<Row Tag="LOC_DISTRICT_CULTURE_THEATER">
 			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Theater district.</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+		<Row Tag="LOC_DISTRICT_GOLD_COMMERCIAL_HUB">
 			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub district.</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+		<Row Tag="LOC_DISTRICT_FAITH_HOLY_SITE">
 			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy Site district.</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+		<Row Tag="LOC_DISTRICT_SCIENCE_CAMPUS">
 			<Text>+{1_num} [ICON_Science] Science from the adjacent Campus district.</Text>
 		</Row>
 

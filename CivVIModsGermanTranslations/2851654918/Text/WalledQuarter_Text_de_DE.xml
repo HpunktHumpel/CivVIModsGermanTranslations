@@ -13,16 +13,16 @@
 		<Replace Language="de_DE"  Tag="LOC_DISTRICT_WALLED_QUARTER_DESCRIPTION">
 			<Text>Bezirk kann verteidigt werden.[NEWLINE]+3[ICON_Tourism] Tourismus durch Naturschutz.</Text>
 		</Replace>
-		<Replace Language="de_DE"  Tag="LOC_DISTRICT_THEATER_CULTURE">
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_CULTURE_THEATER">
 			<Text>+{1_num} [ICON_Culture] Kultur durch angrenzenden Theaterplatz.</Text>
 		</Replace>
-		<Replace Language="de_DE"  Tag="LOC_DISTRICT_COMMERCIAL_GOLD">
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_GOLD_COMMERCIAL_HUB">
 			<Text>+{1_num} [ICON_Gold] Gold durch angrenzendes Handelszentrum.</Text>
 		</Replace>
-		<Replace Language="de_DE"  Tag="LOC_DISTRICT_HOLY_SITE_FAITH">
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_FAITH_HOLY_SITE">
 			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzende Heilige Stätte.</Text>
 		</Replace>
-		<Replace Language="de_DE"  Tag="LOC_DISTRICT_CAMPUS_SCIENCE">
+		<Replace Language="de_DE"  Tag="LOC_DISTRICT_SCIENCE_CAMPUS">
 			<Text>+{1_num} [ICON_Science] Wissenschaft durch angrenzenden Campus.</Text>
 		</Replace>
 

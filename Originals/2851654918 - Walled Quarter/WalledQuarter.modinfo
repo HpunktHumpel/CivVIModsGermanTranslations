@@ -3,7 +3,7 @@
   <Properties>
     <Name>Walled Quarter</Name>
     <Description>Adds the Walled Quarter from the Black Death scenario.[NEWLINE]And the Hospital which provides relief from minor disasters.[NEWLINE]The Keep which provides the Walled Quarter with an additional line of defense.[COLOR_Civ6Yellow][NEWLINE]The Mass Grave is Zombies mode only allowing an advanced special project Turn Undead II.[ENDCOLOR]</Description>
-    <Created>1663234567</Created>
+    <Created>1668803192</Created>
     <Teaser>Adds the Walled Quarter from Black Death</Teaser>
     <Authors>blkbutterfly74</Authors>
     <SpecialThanks>JNR, iPlayGamesITA, Mikecro</SpecialThanks>
@@ -69,6 +69,11 @@
     <File>Platforms/Windows/BLPs/HeroBuildings.blp</File>
     <File>Platforms/Windows/BLPs/landmarks/city_buildings.blp</File>
     <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Wal_Base_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Wal_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Wal_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Wal_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_Wal_Base_N1</File>
     <File>Platforms/Windows/BLPs/strategicview/strategicview_buildings.blp</File>
     <File>Platforms/Windows/BLPs/strategicview/strategicview_districts.blp</File>
     <File>Platforms/Windows/BLPs/strategicview/strategicview_effects.blp</File>
