@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+<!-- satellites -->
+	<!-- Motor 1 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_1_NAME" Language="de_DE">
+			<Text>Entwicklung eines kleinen Raketentriebwerks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_1_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Raketentriebwerk|Raketentriebwerk|Raketentriebwerk|Raketentriebwerks|Raketentriebwerk</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_1_DESCRIPTION" Language="de_DE">
+			<Text>Erforderlich für das Erdsatellitenstart-Projekt. Mit Chemie freigeschaltet.[NEWLINE]Konstruiert und testet ein kleines Raketentriebwerk, das kleine Objekte in die Umlaufbahn schicken kann.</Text>
+		</Replace>
+	<!-- Fuel 1 -->
+		<Replace Tag="LOC_PROJECT_FUEL_1_NAME" Language="de_DE">
+			<Text>Entwicklung eines kleinen Treibstofftanks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_1_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Treibstofftank|Treibstofftank|Treibstofftank|Treibstofftanks|Treibstofftank</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_1_DESCRIPTION" Language="de_DE">
+			<Text>Erforderlich für das Erdsatellitenstart-Projekt. Mit Chemie freigeschaltet.[NEWLINE]Konstruiert einen kleinen Treibstofftank mit genügend Treibstoff, um kleine Objekte in den Orbit zu befördern.</Text>
+		</Replace>
+	<!-- Sat 1 -->
+		<Replace Tag="LOC_PROJECT_SAT_1_NAME" Language="de_DE">
+			<Text>Entwicklung und Start einer Erdsonde</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SAT_1_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Erdsonde-Start|Erdsonde-Start|Erdsonde-Start|Erdsonde-Starts|Erdsonde-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SAT_1_DESCRIPTION" Language="de_DE">
+			<Text>Erforderlich für das Erdsatellitenstart-Projekt. Mit Funkwesen freigeschaltet. [NEWLINE]Konstruiert eine kleine Sonde, die der Weltraumleere widerstehen und Nachrichten zur Erde zurücksenden kann.</Text>
+		</Replace>
+
+
+<!-- SEND HUMAN INTO ORBIT-->
+	<!-- Motor 2 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_2_NAME" Language="de_DE">
+			<Text>Entwicklung eines großen Raketentriebwerks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_2_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Großes Raketentriebwerk|Großen Raketentriebwerk|Großen Raketentriebwerk|Großen Raketentriebwerks|Große Raketentriebwerk</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_2_DESCRIPTION" Language="de_DE">
+			<Text>Erfordert Erdsatellitenstart-Projekt. Erforderlich für die Projekte "Riesiger Kraftstofftank" und "Menschen im Orbit". [NEWLINE]Konstruiert und testet ein Triebwerk, das stark genug ist, um eine schwere Nutzlast in den Orbit zu schicken.</Text>
+		</Replace>
+	<!-- Fuel 2 -->
+		<Replace Tag="LOC_PROJECT_FUEL_2_NAME" Language="de_DE">
+			<Text>Entwicklung eines großen Treibstofftanks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_2_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Großer Treibstofftank|Großen Treibstofftank|Großen Treibstofftank|Großen Treibstofftanks|Große Treibstofftank</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_2_DESCRIPTION" Language="de_DE">
+			<Text>>Erfordert Erdsatellitenstart-Projekt. Erforderlich für die Projekte "Riesiger Kraftstofftank" und "Tier im Orbit". [NEWLINE]Konstruiert und testet einen größeren Treibstofftank mit genug Treibstoff, um ein schweres Objekt in die Erdumlaufbahn zu schicken.</Text>
+		</Replace>
+	<!-- Fuel 3 -->
+		<Replace Tag="LOC_PROJECT_FUEL_3_NAME" Language="de_DE">
+			<Text>Entwicklung eines riesigen Raketentriebwerks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_3_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Riesiger Treibstofftank|Riesigen Treibstofftank|Riesigen Treibstofftank|Riesigen Treibstofftanks|Riesige Treibstofftank</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_3_DESCRIPTION" Language="de_DE">
+			<Text>Erfordert die Projekte "Großer Treibstofftank" und "Großes Raketentriebwerk". Erforderlich für das Mondrakete-Start-Projekts. [NEWLINE]Konstruiert und testet einen riesigen Treibstofftank mit genug Treibstoff, um schwere Lasten über die Erdumlaufbahn hinaus zu schicken.</Text>
+		</Replace>
+	<!-- Dog -->
+		<Replace Tag="LOC_PROJECT_DOG_NAME" Language="de_DE">
+			<Text>Ein Tier in den Orbit schicken</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOG_SHORT_NAME" Language="de_DE">
+			<Text>Tier im Orbit</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOG_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Projekt "Großes Raketentriebwerk". Erforderlich für das Basis-Kommandomodul-Projekt.[NEWLINE]Schicken Sie ein Tier in die Umlaufbahn, um die Auswirkungen des Weltraums auf lebende Organismen zu testen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOG_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Tier in die Erdumlaufbahn gebracht! Als nächstes können wir mit der Arbeit beginnen, einen Menschen dorthin zu bringen!</Text>
+		</Replace>
+
+	<!-- train astronaut -->
+		<Replace Tag="LOC_PROJECT_TRAIN_ASTRONAUT_NAME" Language="de_DE">
+			<Text>Bildet zukünftige Astronauten aus</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRAIN_ASTRONAUT_SHORT_NAME" Language="de_DE">
+			<Text>Astronauten-Training</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRAIN_ASTRONAUT_DESCRIPTION" Language="de_DE">
+			<Text>Mit Raketentechnik freigeschaltet. Erforderlich für das Projekt "Menschen im Orbit". [NEWLINE]10-mal wiederholbar. Entfernt -1 [ICON_Citizen] Bevölkerung und gibt jedes Mal, wenn dieses Projekt abgeschlossen ist, +5% [ICON_Production] Produktion für bemannte Missionsprojekte. [NEWLINE]Rekrutiert und bildt militärische Testpiloten zu Astronauten für Eure zukünftigen Mission im Weltraum aus.</Text>
+		</Replace>
+	<!-- Command module 1-->
+		<Replace Tag="LOC_PROJECT_CMD_1_NAME" Language="de_DE">
+			<Text>Entwicklung eines Basis-Kommandomodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_1_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Basis-Kommandomodul|Basis-Kommandomodul|Basis-Kommandomodul|Basis-Kommandomoduls|Basis-Kommandomodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_1_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt die Projekte "Tier im Orbit" und "Menschen im Orbit". [NEWLINE]Entwicklt und konstruiert eine kleine Kapsel, die einen Wiedereintritt in die Atmosphäre überstehen soll und alles Notwendige für das Überleben eines Mannes in der Leere bietet.</Text>
+		</Replace>
+	<!-- Space man-->
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_NAME" Language="de_DE">
+			<Text>Menschen in den Orbit schicken</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_SHORT_NAME" Language="de_DE">
+			<Text>Menschen im Orbit</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Basis-Kommandomodul- und das Astronauten-Training-Projekt sowie das Projekt "Großes Raketentriebwerk". Erforderlich für das Orbital-Kommandomodul-, das Mondexkursionsmodul-, das Raumanzüge- und das Mondrakete-Start-Projekt.[NEWLINE]Gewährt nach Abschluss einen einmaligen [ICON_Culture] Kulturbonus in Höhe des 2-fachen unserer [ICON_Science] Wissenschaft pro Runde.[NEWLINE]Schicke einen Menschen in den erdnahen Orbit und bringe ihn lebend zurück!</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich einen Menschen in die Erdumlaufbahn gebracht und ihn lebend zurückgebracht! Jetzt, da es keinen Zweifel mehr gibt, dass wir sicher dorthin gelangen können, könnt Ihr mit der Planung einer fortgeschritteneren Mission beginnen. Gewährt einen einmaligen [ICON_Culture] Kulturbonus in Höhe des 2-fachen unserer [ICON_Science] Wissenschaft pro Runde.</Text>
+		</Replace>
+
+
+
+<!-- SEND HUMAN TO THE MOON -->
+	<!-- Command module 2-->
+		<Replace Tag="LOC_PROJECT_CMD_2_NAME" Language="de_DE">
+			<Text>Entwicklung eines orbitalen Kommandomoduls</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Orbital-Kommandomodul|Orbital-Kommandomodul|Orbital-Kommandomodul|Orbital-Kommandomoduls|Orbital-Kommandomodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Projekt "Menschen im Orbit". Erforderlich für das Orbital-Training- und das Weltraum-Rendezvous-Projekt.[NEWLINE]Entwickelt und baut ein verbessertes Kommandomodul mit ausreichend Platz für 3 Astronauten und genügend Ressourcen für einen längeren Aufenthalt im Weltraum.</Text>
+		</Replace>
+	<!-- Train Command module 2-->
+		<Replace Tag="LOC_PROJECT_CMD_2_TRAIN_NAME" Language="de_DE">
+			<Text>Ausbildung auf dem orbitalen Kommandomodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_TRAIN_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Orbital-Training|Orbital-Training|Orbital-Training|Orbital-Trainings|Orbital-Training</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_TRAIN_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Orbital-Kommandomodul-Projekt. Erforderlich für das Weltraum-Rendezvous-Projekt.[NEWLINE]Bildet die Astronauten darin aus, das Orbital-Kommandomodul zu verwenden und zu steuern</Text>
+		</Replace>
+	<!-- Landing Excursion module -->
+		<Replace Tag="LOC_PROJECT_LEM_NAME" Language="de_DE">
+			<Text>Entwicklung eines Mondexkursionsmoduls</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Mondexkursionsmodul|Mondexkursionsmodul|Mondexkursionsmodul|Mondexkursionsmoduls|Mondexkursionsmodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_DESCRIPTION" Language="de_DE">
+			<Text>Mit Lenksysteme freigeschaltet. Benötigt das Projekt "Menschen im Orbit". Erforderlich für das Mondexkursionsmodul-Training- und das Mondlandung-Training-Projekt.[NEWLINE]Entwickelt und konstruiert ein zweistufiges Fahrzeug, das in der Lage ist, zwei Astronauten zu tragen, zu landen und dann auch wieder von der Mondoberfläche abzuheben.</Text>
+		</Replace>
+	<!-- Train Landing Excursion module -->
+		<Replace Tag="LOC_PROJECT_LEM_TRAIN_NAME" Language="de_DE">
+			<Text>Ausbildung auf dem Mondexkursionsmodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_TRAIN_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Mondexkursionsmodul-Training|Mondexkursionsmodul-Training|Mondexkursionsmodul-Training|Mondexkursionsmodul-Trainings|Mondexkursionsmodul-Training</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_TRAIN_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Mondexkursionsmodul-Projekt. Erforderlich für das Mondexkursionsmodul-Training-Projekt.[NEWLINE]Bildet Astronauten aus, um zur Mondoberfläche zu fliegen und dort zu landen.</Text>
+		</Replace>
+	<!-- Space suit -->
+		<Replace Tag="LOC_PROJECT_SPACE_SUIT_NAME" Language="de_DE">
+			<Text>Entwickelung von Raumanzügen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_SUIT_SHORT_NAME" Language="de_DE" gender="masculine" plurality="2">
+			<Text>Raumanzüge|Raumanzüge|Raumanzügen|Raumanzüge|Raumanzüge</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_SUIT_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Projekt "Menschen im Orbit". Erforderlich für das Mondlandung-Training-Projekt.[NEWLINE]Gibt einen Produktionsbonus von +15% [ICON_Production] für alle Missionen zum Bau von Raumstationen.[NEWLINE]Entwickelt und fertigt Anzüge, die es Astronauten ermöglichen, außerhalb ihres Raumfahrzeugs zu überleben.</Text>
+		</Replace>
+	<!-- Rocket 1 -->
+		<Replace Tag="LOC_PROJECT_ROCKET_1_NAME" Language="de_DE">
+			<Text>Startet eine Mondrakete</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_1_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Mondrakete-Start|Mondrakete-Start|Mondrakete-Start|Mondrakete-Starts|Mondrakete-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_1_DESCRIPTION" Language="de_DE">
+			<Text>Mit Computertechnologie freigeschaltet. Benötigt das Projekt "Menschen im Orbit" sowie das Projekt "Riesiger Treibstofftank". Erforderlich für das Mondlandung-Training-, das Feststoffraketen-Booster-, das Mars-Rover- sowie das Raumstation-Start-Projekt.[NEWLINE]Startet und testet einen neuen, völlig unbemannten Raketentyp, der in der Lage ist, schwere Lasten über die Erdumlaufbahn hinaus zu schicken.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_1_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Mondrakete gestartet! Seine enorme Größe wird es uns ermöglichen, eine Vielzahl von Dingen in den Orbit und darüber hinaus zu bringen.</Text>
+		</Replace>
+
+	<!-- Rendez vous -->
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_NAME" Language="de_DE">
+			<Text>Rendezvous im Weltraum starten</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Weltraum-Rendezvous|Weltraum-Rendezvous|Weltraum-Rendezvous|Weltraum-Rendezvous|Weltraum-Rendezvous</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_DESCRIPTION" Language="de_DE">
+			<Text>Mit Computertechnologie freigeschaltet. Benötigt das Orbital-Training-Projekt. Erforderlich für das Mondlandung-Training- und das Raumstation-Start-Projekt.[NEWLINE]Startet in kurzer Zeit zwei Raumfahrzeuge mit dem Ziel, sich im Weltraum zu treffen und anzudocken.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Rendezvous im Orbit durchgeführt! Wir können jetzt Raketen zu verschiedenen Zeiten und an verschiedenen Orten starten und sie trotzdem im Orbit treffen lassen.</Text>
+		</Replace>
+
+	<!-- Moon test -->
+		<Replace Tag="LOC_PROJECT_MOON_TEST_NAME" Language="de_DE">
+			<Text>Eine Mondlandung üben</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_TEST_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Mondlandung-Training|Mondlandung-Training|Mondlandung-Training|Mondlandung-Trainings|Mondlandung-Training</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_TEST_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Weltraum-Rendezvous-, das Mondexkursionsmodul-Training- sowie das Mondrakete-Start-Projekt. Benötigt für das Mondlandung-Start-Projekt. [NEWLINE]Schickt eine Crew in den Mond-Orbit, um den Ablauf einer Mondlandung zu testen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_TEST_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Modul mit Menschen an Bord in eine Mondumlaufbahn gebracht! Alle Systeme werden jetzt auf eine Mondlandung hin überprüft!</Text>
+		</Replace>
+
+	<!-- Moon landing -->
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION" Language="de_DE" />
+			<Set>
+				<Text>Mit Satellitentechnologie freigeschaltet. Benötigt das Mondlandung-Training- und das Raumanzüge-Projekt. Benötigt für das Raumstation-Start- und das Interplanetar-Kommandomodul-Projekt.[NEWLINE]Gewährt nach Abschluss einen einmaligen [ICON_Culture] Kulturbonus in Höhe des 10-fachen unserer [ICON_Science] Wissenschaft pro Runde.[NEWLINE]Startet ein Raumschiff mit Menschen an Bord, um auf der Mondoberfläche zu landen.</Text>
+			</Set>
+		</Update>
+
+
+
+<!-- SPACE STATION CONSTRUCTION -->
+	<!-- Engine 3 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_3_NAME" Language="de_DE">
+			<Text>Entwicklung eines Feststoffraketen-Boosters</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_3_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Feststoffraketen-Booster|Feststoffraketen-Booster|Feststoffraketen-Booster|Feststoffraketen-Boosters|Feststoffraketen-Booster</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_3_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Mondrakete-Start-Projekt. Benötigt für das Nuklear-Raketentriebwerk-, das Raumfähre-Start-, das Explorationssonde-Start-, das Weltraumteleskop-Start- und das Mondkolonie-Start-Projekt sowie das Projekt "Wiederverwendbare Rakete". [NEWLINE]Entwickeln und testen Sie Feststoffraketen, um schwere Lasten in den Orbit zu schicken.</Text>
+		</Replace>
+	<!-- Space shuttle -->
+		<Replace Tag="LOC_PROJECT_SHUTTLE_NAME" Language="de_DE">
+			<Text>Entwicklung und Start einer Raumfähre</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Raumfähre-Start|Raumfähre-Start|Raumfähre-Start|Raumfähre-Starts|Raumfähre-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_DESCRIPTION" Language="de_DE">
+			<Text>Mit Verbundwerkstoffe freigeschaltet. Benötigt das Mondrakete-Start- und das Feststoffraketen-Booster-Projekt. Benötigt für das Raumfähre-Training-Projekt. [NEWLINE]Baut eine Raumfähre, die wie eine traditionelle Rakete mit Hilfe von Feststoffraketen-Boostern gestartet wird und Platz für Astronauten und Satelliten bietet. Wenn sie seine Mission erfüllt hat, landet sie wie ein normales Flugzeug wieder auf der Erde und kann für zukünftige Missionen wiederverwendet werden.</Text>
+		</Replace>
+	<!-- Space shuttle Train -->
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_NAME" Language="de_DE">
+			<Text>Training auf der Raumfähre</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Raumfähre-Training|Raumfähre-Training|Raumfähre-Training|Raumfähre-Trainings|Raumfähre-Training</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Raumfähre-Start-Projekt. [NEWLINE]Nachdem Sie auch das Raumfähre-Training-Projekt-Projekt absolviert haben, erhalten Sie +150% [ICON_Production] Produktion für Weltraumprojekte im niedrigen Orbit und +50% [ICON_Production] Produktion für Weltraumprojekte jenseits der Erdumlaufbahn.[NEWLINE]Startet eine Raumfähre mit seiner Besatzung auf einer Routinemission, um das Konzept zu validieren und neue Verfahren zu entwickeln.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Raumfähre ins All geschickt! Diese neue Art, Dinge in den Weltraum zu befördern, wird uns helfen, die Kosten von Weltraumreisen zu senken. Die [ICON_Production] Produktion für einige Projekte wurde um 50 % bis 150 % erhöht.</Text>
+		</Replace>
+
+	<!-- Launch SpaceStation -->
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_NAME" Language="de_DE">
+			<Text>Entwicklung und Start einer Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Raumstation-Start|Raumstation-Start|Raumstation-Start|Raumstation-Starts|Raumstation-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_DESCRIPTION" Language="de_DE">
+			<Text>Mit Satellitentechnologie freigeschaltet. Benötigt das Mondrakete-Start- und das Weltraum-Rendezvous-Projekt. Erforderlich für alle Projekte, die in Zusammenhang mit der Raumstation stehen.[NEWLINE]Startet ein Modul im Orbit mit Docking-Anschlüssen für zukünftige Erweiterungen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich das erste Modul einer Raumstation gestartet! Wir können jetzt weitere neue Missionen starten, um sie zu erweitern und zu verbessern!</Text>
+		</Replace>
+
+	<!-- Launch Solar panel -->
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_NAME" Language="de_DE">
+			<Text>Startet ein Solarmodul für die Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>RS-Solarmodul-Start|RS-Solarmodul-Start|RS-Solarmodul-Start|RS-Solarmodul-Starts|RS-Solarmodul-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Raumstation-Start-Projekt.[NEWLINE]8-mal wiederholbar. Gibt dieser Stadt nach jedem Abschluss +4 [ICON_Power] Energie aus erneuerbaren Quellen UND schalte ein neues Raumstationsprojekt frei.[NEWLINE]Startet ein Sonnenkollektoren-Modul, das neue Module der Raumstation mit Strom versorgen kann.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich einen Satz von Solarmodulen für die Raumstation gestartet. +4 [ICON_Power] Energie in dieser Stadt. Startet weitere Solar-Module, um neue Upgrades für die Raumstation freizuschalten und zu unterstützen.</Text>
+		</Replace>
+	<!-- Launch Space station Lab  -->
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_NAME" Language="de_DE">
+			<Text>Startet Labormodul für die Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>RS-Labormodul-Start|RS-Labormodul-Start|RS-Labormodul-Start|RS-Labormodul-Starts|RS-Labormodul-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Raumstation-Start- und das RS-Solarmodul-Start-Projekt.[NEWLINE]4-mal wiederholbar. Verbraucht -3 [ICON_Power] Energie in dieser Stadt. Jeder Abschluss bringt +70% [ICON_Science] Wissenschaft in den Laboren in Eurem Reich.[NEWLINE]Startet ein Labor-Modul mit Ausrüstung, um Experimente in der Raumstation durchzuführen und so Weltraum-Erfahrungen zu sammeln.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Labor-Modul für Eure Raumstation gestartet. Wir können jetzt zu verschiedenen Themen im Weltraum experimentieren und forschen! Alle Labore in deinem Reich bringen +70% [ICON_Science] Wissenschaft. -3 [ICON_Power] Energie in dieser Stadt.</Text>
+		</Replace>
+	<!-- Launch Space station greenhouse-->
+		<Replace Tag="LOC_PROJECT_SS_FOOD_NAME" Language="de_DE">
+			<Text>Startet ein Gewächshausmodul für die Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_FOOD_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>RS-Gewächshausmodul-Start|RS-Gewächshausmodul-Start|RS-Gewächshausmodul-Start|RS-Gewächshausmodul-Starts|RS-Gewächshausmodul-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_FOOD_DESCRIPTION" Language="de_DE">
+			<Text>Mit Nanotechnologie freigeschaltet. Benötigt das Raumstation-Start-Projekt sowie 2-mal das abgeschlossen RS-Solarmodul-Start-Projekt.[NEWLINE]3-mal wiederholbar. Verbraucht -5 [ICON_Power] Energie in dieser Stadt. Bei jedem Abschluss erhalten alle Städte in Eurem Reich +15% mehr Wachstum.[NEWLINE]Startet ein Modul mit allem, um Pflanzen im Weltraum zu züchten, mit Wasser, Erde, Samen und UV-Lampen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_FOOD_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Gewächshaus-Modul für Eure Raumstation gestartet. Wir können jetzt noch mehr Nahrung im Weltraum anbauen! Alle Eure Städte erhalten +15% mehr Wachstum. -5 [ICON_Power] Energie in dieser Stadt.</Text>
+		</Replace>
+	<!-- Launch Space station habitation-->
+		<Replace Tag="LOC_PROJECT_SS_HAB_NAME" Language="de_DE">
+			<Text>Startet ein Wohnmodul für die Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_HAB_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>RS-Wohnmodul-Start|RS-Wohnmodul-Start|RS-Wohnmodul-Start|RS-Wohnmodul-Starts|RS-Wohnmodul-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_HAB_DESCRIPTION" Language="de_DE">
+			<Text>Mit Seasteads freigeschaltet. Benötigt das Raumstation-Start-Projekt sowie 3-mal das abgeschlossen RS-Solarmodul-Start-Projekt.[NEWLINE]4-mal wiederholbar. Verbraucht -3 [ICON_Power] Energie in dieser Stadt. Gib bei jedem Abschluss +6 [ICON_HOUSING] Wohnraum in dieser Stadt.[NEWLINE]Startet ein Modul mit allem, um eine große Anzahl von Menschen im Erdorbit zu unterstützen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_HAB_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Wohnmodul für Eure Raumstation gestartet. Wir können jetzt einen Teil unserer Bevölkerung in den Weltraum umsiedeln! +6 [ICON_HOUSING] Wohnraum und -3 [ICON_Power] Energie in dieser Stadt.</Text>
+		</Replace>
+	<!-- Launch Space station Tourism-->
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_NAME" Language="de_DE">
+			<Text>Startet das Weltraumhotel-Modul für die Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Weltraumhotel-Start|Weltraumhotel-Start|Weltraumhotel-Start|Weltraumhotel-Starts|Weltraumhotel-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_DESCRIPTION" Language="de_DE">
+			<Text>Mit Exodus-Imperativ freigeschaltet. Benötigt das Raumstation-Start-Projekt sowie 3-mal das abgeschlossen RS-Solarmodul-Start-Projekt.[NEWLINE]Verbraucht -5 [ICON_Power] Energie in dieser Stadt. Gibt nach Abschluss allen Raumhäfen in Eurem Reich jeweils +15 Tourismus.[NEWLINE]Startet ein luxuriöses Modul, in dem reiche Gäste an Bord Ihrer Raumstation untergebracht werden können.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Weltraumhotel-Modul für Eure Raumstation gestartet. Wir können jetzt Touristen dazu bringen, die Mikrogravitation des Weltraums auszuprobieren! Alle Raumhäfen in Eurem Reich erhalten jeweils +15 Tourismus. -5 [ICON_Power] Energie in dieser Stadt.</Text>
+		</Replace>
+
+
+
+<!--INTERNATIONAL SPACE STATION -->
+	<!-- ISS UNLOCKS PROJECTS -->
+		<Update>
+			<Where Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ASTRONAUTS_PROJECT" Language="de_DE" />
+			<Set>
+				<Text>Mitglieder haben Zugang zu den Projekten ISS-Astronauten-Training, ISS-Solarmodul-Start, ISS-Labormodul-Start und ISS-Fracht-Raumfahrzeug-Start.</Text>
+			</Set>
+		</Update>
+	<!-- ISS PROJECT COMPLETION BONUS -->
+		<Update>
+			<Where Tag="LOC_EMERGENCY_SCORE_ASTRONAUT_PROJECT_DESC" Language="de_DE" />
+			<Set>
+				<Text>Abschluss der Ausbildung ausländischer Astronauten für die ISS.</Text>
+			</Set>
+		</Update>
+
+		<Replace Tag="LOC_EMERGENCY_SCORE_ISS_S_PANEL_PROJECT_DESC" Language="de_DE">
+			<Text>Sendet ein Solarmodul zur Internationalen Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_EMERGENCY_SCORE_ISS_S_SCIENCE_PROJECT_DESC" Language="de_DE">
+			<Text>Sendet ein Labormodul zur Internationalen Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_EMERGENCY_SCORE_ISS_SUPPLY_PROJECT_DESC" Language="de_DE">
+			<Text>Sendet ein Fracht-Raumfahrzeug zur Internationalen Raumstation</Text>
+		</Replace>
+
+	<!-- Train foreign astronauts -->
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_NAME" Language="de_DE" />
+			<Set>
+				<Text>Ausbildung ausländischer Astronauten für die ISS</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_SHORT_NAME" Language="de_DE" />
+			<Set>
+				<Text>ISS-Astronauten-Training|ISS-Astronauten-Training|ISS-Astronauten-Training|ISS-Astronauten-Trainings|ISS-Astronauten-Training</Text>
+				<Gender>neuter</Gender>
+				<Plurality>1</Plurality>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_DESCRIPTION" Language="de_DE" />
+			<Set>
+				<Text>Freigeschaltet durch den ISS-Wettbewerb.[NEWLINE]Wiederholbares Projekt. Jeder Abschluss gewährt 25 [ICON_Favor] diplomatische Gunst und 30 Punkte für den ISS-Wettbewerb.[NEWLINE]Trainiere Astronauten aus dem Ausland mit unserer Ausrüstung für zukünftige gemeinsame Missionen auf der ISS.</Text>
+			</Set>
+		</Update>
+
+
+	<!-- Launch ISS Solar panel -->
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_NAME" Language="de_DE">
+			<Text>Startet ein Solarmodul für die ISS</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>ISS-Solarmodul-Start|ISS-Solarmodul-Start|ISS-Solarmodul-Start|ISS-Solarmodul-Starts|ISS-Solarmodul-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_DESCRIPTION" Language="de_DE">
+			<Text>Freigeschaltet durch den ISS-Wettbewerb. Benötigt das Mondrakete-Start- und das Weltraum-Rendezvous-Projekt.[NEWLINE]Wiederholbares Projekt. Gibt bei jedem Abschluss +1 [ICON_Power] Energie aus erneuerbaren Quellen für alle Städte im Spiel (einschließlich Städte anderer Zivilisationen). Gewährt 50 Punkte für den ISS-Wettbewerb.[NEWLINE]Startet ein Solarmodul, welches andere Module in der Internationalen Raumstation mit Strom versorgen kann.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Solarmodul für die Internationale Raumstation gestartet. +1 [ICON_Power] Energie für alle Städte im Spiel, auch die anderer Zivilisationen. Ihr habt 50 Punkte für den ISS-Wettbewerb erhalten.</Text>
+		</Replace>
+
+	<!-- Launch ISS Lab  -->
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_NAME" Language="de_DE">
+			<Text>Startet ein Labormodul für die ISS</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>ISS-Labormodul-Start|ISS-Labormodul-Start|ISS-Labormodul-Start|ISS-Labormodul-Starts|ISS-Labormodul-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_DESCRIPTION" Language="de_DE">
+			<Text>Freigeschaltet durch den ISS-Wettbewerb. Benötigt das Mondrakete-Start- und das Weltraum-Rendezvous-Projekt.[NEWLINE]2-mal wiederholbar. Verleiht allen Städten im Spiel +2 [ICON_Science] Wissenschaft (einschließlich Städten anderer Zivilisationen). Gewährt 100 Punkte für den ISS-Wettbewerb.[NEWLINE]Startet ein Modul mit einer Vielzahl von Experimenten, die in der Internationalen Raumstation durchgeführt werden können.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Labormodul für die Internationale Raumstation gestartet. Alle Städte im Spiel erhalten +2 [ICON_Science] Wissenschaft, auch die anderer Zivilisationen. Ihr habt 100 Punkte für den ISS-Wettbewerb erhalten. Wir können jetzt Experimente durchführen, von deren Ergebnisse alle profitieren werden.</Text>
+		</Replace>
+
+	<!-- Launch ISS Supply -->
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_NAME" Language="de_DE">
+			<Text>Sendet ein Fracht-Raumfahrzeug zur ISS</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>ISS-Fracht-Raumfahrzeug-Start|ISS-Fracht-Raumfahrzeug-Start|ISS-Fracht-Raumfahrzeug-Start|ISS-Fracht-Raumfahrzeug-Starts|ISS-Fracht-Raumfahrzeug-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_DESCRIPTION" Language="de_DE">
+			<Text>Freigeschaltet durch den ISS-Wettbewerb. Benötigt das Mondrakete-Start- und das Weltraum-Rendezvous-Projekt.[NEWLINE]Wiederholbares Projekt. Gewährt 65 Punkte für den ISS-Wettbewerb.[NEWLINE]Startet ein automatisches Raumschiff voller Nahrung und Experimente zur Versorgung der Internationalen Raumstation.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Fracht-Raumfahrzeug zur Internationalen Raumstation gebracht. Ihr habt 65 Punkte für den ISS-Wettbewerb erhalten. Die Astronauten der Station freuen sich über neue Nahrung und neue Experimente!</Text>
+		</Replace>
+
+<!-- MARS EXPLORATION AND COLONISATION-->
+		<!-- Motor 4 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_4_NAME" Language="de_DE">
+			<Text>Entwicklung eines Nuklear-Raketentriebwerks</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_4_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Nuklear-Raketentriebwerk|Nuklear-Raketentriebwerk|Nuklear-Raketentriebwerk|Nuklear-Raketentriebwerks|Nuklear-Raketentriebwerk</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_4_DESCRIPTION" Language="de_DE">
+			<Text>Mit Kernfusion freigeschaltet. Benötigt das Feststoffraketen-Booster-Projekt. Erforderlich für das Interplanetar-Raketenstart-Projekt.[NEWLINE]Konstruiert und testet einen Raketenantrieb, der auf nuklearen Reaktionen beruht. Ermöglicht das Senden von Nutzlasten weit über das Sonnensystem hinaus.</Text>
+		</Replace>
+		<!-- Mars rover -->
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_NAME" Language="de_DE">
+			<Text>Startet einen Mars-Rover</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Mars-Rover-Start|Mars-Rover-Start|Mars-Rover-Start|Mars-Rover-Starts|Mars-Rover-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_DESCRIPTION" Language="de_DE">
+			<Text>Mit Telekommunikation freigeschaltet. Benötigt das Mondrakete-Start-Projekt. Erforderlich für das Marskolonie-Kernreaktor-, das Marskolonie-Wohnstätten- und das Marskolonie-Hydrokulturen-Projekt.[NEWLINE]Nach Abschluss gewährt es einen einmaligen [ICON_Science] Wissenschaftsbonus in Höhe des 5-fachen unserer [ICON_Science] Wissenschaft pro Runde.[NEWLINE]Schickt einen kleinen Rover zum Mars, der ausgerüstet ist, um auf dem roten Planeten nach Lebenszeichen zu suchen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich einen Rover zum Mars geschickt! Wir können jetzt den Planeten erkunden und versuchen Lebenszeichen zu finden. Gewährt einen einmaligen [ICON_Science] Wissenschaftsbonus in Höhe des 5-fachen unserer [ICON_Science] Wissenschaft pro Runde.</Text>
+		</Replace>
+	<!-- Deep space probe -->
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_NAME" Language="de_DE">
+			<Text>Startet eine Sonde zur Erforschung des äußeren Sonnensystems</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Explorationssonde-Start|Explorationssonde-Start|Explorationssonde-Start|Explorationssonde-Starts|Explorationssonde-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_DESCRIPTION" Language="de_DE">
+			<Text>Mit Telekommunikation freigeschaltet. Benötigt das Feststoffraketen-Booster-Projekt. Erforderlich für das Interplanetar-Raketenstart-Projekt. [NEWLINE]Gewährt nach Abschluss einen einmaligen [ICON_Science] Wissenschaftsbonus in Höhe des 5-fachen unserer [ICON_Science] Wissenschaft pro Runde.[NEWLINE]Sendet eine Sonde, um die Planeten des äußeren Sonnensystems zu erforschen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Sonde in der äußeren Region unseres Sonnensystems gesendet! Wir können jetzt die fernen Planeten unseres Sonnensystems erforschen. Gewährt einen einmaligen [ICON_Science] Wissenschaftsbonus in Höhe des 5-fachen unserer [ICON_Science] Wissenschaft pro Runde.</Text>
+		</Replace>
+	<!-- Deep space probe -->
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_NAME" Language="de_DE">
+			<Text>Startet ein Weltraumteleskop</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Weltraumteleskop-Start|Weltraumteleskop-Start|Weltraumteleskop-Start|Weltraumteleskop-Starts|Weltraumteleskop-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_DESCRIPTION" Language="de_DE">
+			<Text>Mit Satellitentechnologie freigeschaltet. Benötigt das Feststoffraketen-Booster-Projekt. Erforderlich für das Interplanetar-Raketenstart-Projekt. [NEWLINE]Gewährt nach Abschluss einen einmaligen [ICON_Culture] Kulturbonus in Höhe des 2-fachen unserer [ICON_Science] Wissenschaft pro Runde.[NEWLINE]Sendet einen Satelliten mit einem riesigen Teleskop, um den Weltraum zu beobachten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Weltraumteleskop gestartet! Wir können jetzt unglaublich hochauflösende Fotos unseres Universums machen. Gewährt einen einmaligen [ICON_Culture] Kulturbonus in Höhe des 2-fachen unserer [ICON_Science] Wissenschaft pro Runde.</Text>
+		</Replace>
+	<!-- Command module 3 -->
+		<Replace Tag="LOC_PROJECT_CMD_3_NAME" Language="de_DE">
+			<Text>Entwicklung eines interplanetaren Kommandomoduls</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Interplanetar-Kommandomodul|Interplanetar-Kommandomodul|Interplanetar-Kommandomodul|Interplanetar-Kommandomoduls|Interplaneta-Kommandomodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_DESCRIPTION" Language="de_DE">
+			<Text>Mit Telekommunikation freigeschalte. Benötigt das Mondlandung-Start-Projekt. Erforderlich für das Interplanetar-Kommandomodul-Training-, das Marskolonie-Kernreaktor-, das Marskolonie-Wohnstätten- und das Marskolonie-Hydrokulturen-Projekt.[NEWLINE]Entwickelt und testet eine Sonde, die in der Lage ist, über einen längeren Zeitraum lebenserhaltend zu sein um damit andere Planeten besiedeln zu können.</Text>
+		</Replace>
+	<!-- Training Command module 3 -->
+		<Replace Tag="LOC_PROJECT_CMD_3_TRAIN_NAME" Language="de_DE">
+			<Text>Training auf dem Interplanetaren Kommandomodul</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_TRAIN_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Interplanetar-Kommandomodul-Training|Interplanetar-Kommandomodul-Training|Interplanetar-Kommandomodul-Training|Interplanetar-Kommandomodul-Trainings|Interplanetar-Kommandomodul-Training</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_TRAIN_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Interplanetar-Kommandomodul-Projekt. Erforderlich für das Mondkolonie-Start- und das Marskolonie-Start-Projekt.[NEWLINE]Sendet ein bemanntes Kommandomodul auf eine kurze Mission, um seine Fähigkeiten zu testen und neue Verfahren zu entwickeln.</Text>
+		</Replace>
+	<!-- Rocket 2 -->
+		<Replace Tag="LOC_PROJECT_ROCKET_2_NAME" Language="de_DE">
+			<Text>Startet eine interplanetarische Rakete</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_2_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Interplanetar-Raketenstart|Interplanetar-Raketenstart|Interplanetar-Raketenstart|Interplanetar-Raketenstarts|Interplanetar-Raketenstart</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_2_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Nuklear-Raketentriebwerk- und das Explorationssonde-Start-Projekt. Erforderlich für das Dyson-Sphäre-Element-Start-, das Marskolonie-Kernreaktor-, das Marskolonie-Wohnstätten- und das Marskolonie-Hydrokulturen-Projekt.[NEWLINE]Startet und testet eine superschwere Rakete, die dafür gemacht ist, Nutzlasten zwischen Planeten zu verschicken.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_2_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine interplanetarische Rakete gestartet! Mit ihren gigantischen Ausmaßen können wir schwere Lasten zu verschiedenen Planeten schicken!</Text>
+		</Replace>
+	<!-- Mars Reactor -->
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_NAME" Language="de_DE">
+			<Text>Versendung eines Kernreaktors zur Marskolonie</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Marskolonie-Kernreaktor|Marskolonie-Kernreaktor|Marskolonie-Kernreaktor|Marskolonie-Kernreaktors|Marskolonie-Kernreaktor</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_DESCRIPTION" Language="de_DE">
+			<Text>Mit Kernfusion freigeschaltet. Benötigt das Interplanetar-Raketenstart-, Interplanetar-Kommandomodul- und das Mars-Rover-Start-Projekt. Erforderlich für das Marskolonie-Start-Projekt.[NEWLINE]Sendet und landet einen Kernreaktor auf dem Mars, um die zukünftige Marskolonie mit Elektrizität zu versorgen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich einen Kernreaktor zu unserer Marskolonie gesendet! Nun werden sie ausreichend Elektrizität haben.</Text>
+		</Replace>
+	<!-- Mars Habitation -->
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_NAME" Language="de_DE">
+			<Text>Versendung von Wohnstätten zur Marskolonie</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_SHORT_NAME" Language="de_DE" gender="feminine" plurality="2">
+			<Text>Marskolonie-Wohnstätten|Marskolonie-Wohnstätten|Marskolonie-Wohnstätten|Marskolonie-Wohnstätten|Marskolonie-Wohnstätten</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_DESCRIPTION" Language="de_DE">
+			<Text>Mit Robotertechnik freigeschaltet. Benötigt das Interplanetar-Raketenstart-, Interplanetar-Kommandomodul- und das Mars-Rover-Start-Projekt. Erforderlich für das Marskolonie-Start-Projekt.[NEWLINE]Sendet und landet Wohnstätten auf dem Mars, um zukünftigen Siedler eine Unterkunft zu geben.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich Wohnstätten zu unserer Marskolonie gesendet! Jetzt haben zukünftige Siedler einen Ort, den sie bald ihr neues Zuhause nennen können.</Text>
+		</Replace>
+	<!-- Hydroponics -->
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONICS_NAME" Language="de_DE">
+			<Text>Versendung von Hydrokulturen zur Marskolonie</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONICS_SHORT_NAME" Language="de_DE" gender="feminine" plurality="2">
+			<Text>Marskolonie-Hydrokulturen|Marskolonie-Hydrokulturen|Marskolonie-Hydrokulturen|Marskolonie-Hydrokulturen|Marskolonie-Hydrokulturen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONICS_DESCRIPTION" Language="de_DE">
+			<Text>Mit Nanotechnologie freigeschaltet. Benötigt das Interplanetar-Raketenstart-, Interplanetar-Kommandomodul- und das Mars-Rover-Start-Projekt. Erforderlich für das Marskolonie-Start-Projekt.[NEWLINE]Sendet und landet Wasserversorgung, Saatgut und Gewächshaus auf dem Mars, um Lebensmittel auf dem Mars anzubauen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONIC_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich Hydrokulturen zu unserer Marskolonie gesendet! Jetzt können wir Lebensmittel auf dem roten Planeten anbauen!</Text>
+		</Replace>
+	<!-- Mars landing -->
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_MARS_BASE_DESCRIPTION" Language="de_DE" />
+			<Set>
+				<Text>Mit Nanotechnologie freigeschalte. Benötigt das Marskolonie-Kernreaktor-, das Marskolonie-Wohnstätten- und das Marskolonie-Hydrokulturen- und das Interplanetar-Kommandomodul-Training-Projekt. Erforderlich für das Marskolonie-Verstärkung-, das Planetarer-CO2-Transfer- und das Meteoritenabbau-Start-Projekt. sowie dem Projekt "Interstellare Raumstation".[NEWLINE]Nach Fertigstellung verliert diese Stadt -3 [ICON_Citizen] Bevölkerung. Gewährt einen einmaligen [ICON_Culture] Kulturbonus in Höhe des 10-fachen unserer [ICON_Science] Wissenschaft pro Runde.[NEWLINE]Startet ein Raumschiff voller Siedler für unsere Kolonie auf dem Mars.</Text>
+			</Set>
+		</Update>
+	<!-- Mars economic links -->
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_NAME" Language="de_DE">
+			<Text>Verstärkt die Marskolonien und die Verbindungen zu diesen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_SHORT_NAME" Language="de_DE" gender="feminine" plurality="1">
+			<Text>Marskolonie-Verstärkung|Marskolonie-Verstärkung|Marskolonie-Verstärkung|Marskolonie-Verstärkung|Marskolonie-Verstärkung</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Marskolonie-Start-Projekt.[NEWLINE]Wiederholbares Projekt. Entfernt bei jedem Abschluss -3 [ICON_Citizen] Bevölkerung aus dieser Stadt. Diese Stadt wird +15% [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Gold] Gold und [ICON_Production] Produktion erhalten.[NEWLINE]Sendet zusätzliche Siedler zum Mars, um den Roten Planeten noch mehr auszubeuten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Mission gestartet, um unsere Verbindungen zu unseren Marskolonien zu stärken. Diese Stadt wird Teile der [ICON_Production] Produktion unserer Kolonie erhalten. Diese Stadt verliert -3 [ICON_Citizen] Bevölkerung und gewinnt dafür +15% [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Gold] Gold und [ICON_Production] Produktion.</Text>
+		</Replace>
+
+
+
+<!-- SOLAR SYSTEM HARVERSTING -->
+	<!-- Meteor mine -->
+		<Replace Tag="LOC_PROJECT_METEOR_NAME" Language="de_DE">
+			<Text>Startet eine Mission zum Meteoritenabbau</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_METEOR_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Meteoritenabbau-Start|Meteoritenabbau-Start|Meteoritenabbau-Start|Meteoritenabbau-Starts|Meteoritenabbau-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_METEOR_DESCRIPTION" Language="de_DE">
+			<Text>Mit Robotertechnik freigeschaltet. Benötigt das Marskolonie-Start-Projekt.[NEWLINE]Wiederholbares Projekt. Bei jedem Abschluss bringen alle Steinbrüche und Minen in Eurem Reich +1 [ICON_Production] Produktion. Gewährt außerdem 30 [ICON_Resource_Aluminum] Aluminium wenn die Mission beendet wird.[NEWLINE]Startet eine Rakete, um einen Asteroiden abzufangen und in die Erdumlaufbahn zu bringen, um ihn dort abzubauen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_METEOR_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Mission gestartet einen Meteor abzufangen, ihn in die Erdumlaufbahn zu bringen und diesen dort abbauen zu können. Alle Minen und Steinbrüche in Eurem Reich erhalten +1 [ICON_Production] Produktion. Erhalte zusätzlich 30 [ICON_Resource_Aluminum] Aluminium.</Text>
+		</Replace>
+	<!-- Space X -->
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_NAME" Language="de_DE">
+			<Text>Konstruiert eine wiederverwendbare Trägerrakete</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_SHORT_NAME" Language="de_DE" gender="feminine" plurality="1">
+			<Text>Wiederverwendbare Rakete|Wiederverwendbare Rakete|Wiederverwendbaren Rakete|Wiederverwendbaren Rakete|Wiederverwendbare Rakete</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_DESCRIPTION" Language="de_DE">
+			<Text>Mit Prognosesysteme freigeschaltet. Benötigt das Feststoffraketen-Booster-Projekt.[NEWLINE]Nach Abschluss +50% [ICON_Production] Produktion für Weltraumrennen-Projekte.[NEWLINE]Konstruiert und testet eine neue Raketenserie, die nach dem Start sicher landen und für zukünftige Starts wiederverwendet werden kann.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine wiederverwendbare Trägerrakete gestartet. Wir müssen nun nicht mehr für jede Mission eine neue Rakete bauen sondern können diese wiederverwenden! +50% [ICON_Production] Produktion für alle Weltraumrennen-Projekte.</Text>
+		</Replace>
+	<!-- Moon colony -->
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_NAME" Language="de_DE">
+			<Text>Gründet eine Mondkolonie</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Mondkolonie-Start|Mondkolonie-Start|Mondkolonie-Start|Mondkolonie-Starts|Mondkolonie-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_DESCRIPTION" Language="de_DE">
+			<Text>Mit Lasertechnologie freigeschaltet. Benötigt das Feststoffraketen-Booster- und das Interplanetar-Kommandomodul-Training-Projekt. Erforderlich für das Mond-Raumhafen-Projekt.[NEWLINE]Entfernt nach Abschluss -3 [ICON_Citizen] Bevölkerung aus dieser Stadt.[NEWLINE]Startet eine Rakete mit den Menschen und der gesamten Ausrüstung zum Mond, um dort eine Kolonie zu gründen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Kolonie auf dem Mond gestartet. Es gibt dort draußen noch nicht viel zu tun, aber wir könnten in Zukunft von dort Raketen zu niedrigen Preisen starten, wenn wir in diese Kolonie investieren. Entfert -3 [ICON_Citizen] Bevölkerung aus dieser Stadt.</Text>
+		</Replace>
+	<!-- Moon spaceport -->
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_NAME" Language="de_DE">
+			<Text>Baut einen Raumhafen auf dem Mond</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Mond-Raumhafen|Mond-Raumhafen|Mond-Raumhafen|Mond-Raumhafens|Mond-Raumhafen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Mondkolonie-Start-Projekt.[NEWLINE]Nach Abschluss +100% [ICON_Production]Produktion für Weltraumrennen-Projekte. Entfernt -1 [ICON_Citizen] Bevölkerung in dieser Stadt.[NEWLINE]Schickt unserer Mondkolonie die benötigte Ausrüstung und Menschen, um auf dem Mond eine Rakete zu bauen und von dort aus starten zu lassen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich einen Raumhafen auf der Mondoberfläche gebaut. Dank der geringen Schwerkraft des Mondes und des Vorhandenseins von alternativem Raketentreibstoff können wir jetzt problemlos schwere Raketen zu geringeren Kosten starten. Entfert -1 [ICON_Citizen] Bevölkerung aus dieser Stadt. +100 % [ICON_Production] Produktion für alle Projekte des Weltraumrennens.</Text>
+		</Replace>
+	<!-- Dyson sphere -->
+		<Replace Tag="LOC_PROJECT_DYSON_NAME" Language="de_DE">
+			<Text>Startet ein Dyson-Sphäre-Element</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DYSON_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Dyson-Sphäre-Element-Start|Dyson-Sphäre-Element-Start|Dyson-Sphäre-Element-Start|Dyson-Sphäre-Element-Starts|Dyson-Sphäre-Element-Start</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DYSON_DESCRIPTION" Language="de_DE">
+			<Text>Mit Intelligentes Material freigeschaltet. Benötigt das Interplanetar-Raketenstart-Projekt.[NEWLINE]Wiederholbares Projekt. Nach Fertigstellung +8 [ICON_Power] Energie aus erneuerbaren Quellen für diese Stadt.[NEWLINE]Schickt ein riesiges Solarpanel in die Nähe der Sonne, um ihre Energie zu ernten und zur Erde zurückzusenden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DYSON_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich ein Solarpanel in eine Umlaufbahn um die Sonne gebracht. Wir können ihre Kraft nun voll ausnutzen! +8 [ICON_Power] Energie in dieser Stadt.</Text>
+		</Replace>
+	<!-- Mars carbon -->
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_NAME" Language="de_DE">
+			<Text>Sendet eingefangene Kohlenstoffemissionen (CO2) zum Mars</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Planetarer-CO2-Transfer|Planetarer-CO2-Transfer|Planetarer-CO2-Transfer|Planetarer-CO2-Transfers|Planetarer-CO2-Transfer</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Marskolonie-Start-Projekt. Muss 15-mal ausgeführt werden, um das Mars-Terraforming-Projekt freizuschalten.[NEWLINE]Wiederholbares Projekt. Nach Fertigstellung dauerhaft -50 Kohlenstoffemissionen in Eurer Zivilisation.[NEWLINE]Fängt und versiegelt Kohlenstoffemissionen (CO2) von der Erde und schickt diese zum Mars, um diesen damit aufzuwärmen und Atmosphäre zu schaffen, die Menschen atmen können.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Rakete voller CO2 zum Mars gesendet! Dauerhaft -50 Kohlenstoffemissionen in Eurer Zivilisation.</Text>
+		</Replace>
+	<!-- Breath Mars -->
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_NAME" Language="de_DE">
+			<Text>Terraformt den Mars und macht ihn bewohnbar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_SHORT_NAME" Language="de_DE" gender="neuter" plurality="1">
+			<Text>Mars-Terraforming|Mars-Terraforming|Mars-Terraforming|Mars-Terraformings|Mars-Terraforming</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt 15-mal das abgeschlossene Planetarer-CO2-Transfer-Projekt.[NEWLINE]Nach Abschluss +50% Wachstum in allen Städten Eurer Zivilisation. Gewährt 1 diplomatischen Siegpunkt.[NEWLINE]Läßt eine große Menge Organismen frei, die den Kohlenstoff des Mars in Sauerstoff umwandeln und so bewohnbar machen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Rakete voller Organismen zum Mars gestartet! Wir können jetzt auf dem Mars atmen, und das wird sich positiv auf die Bevölkerung des roten Planeten auswirken! +50% Wachstum in allen Städten Eurer Zivilisation. +1 diplomatische Siegpunkte.</Text>
+		</Replace>
+		<Replace Tag="LOC_DVP_TOOLTIP_PROJECT_LIFE_ON_MARS_DIPLO_VP" Language="de_DE">
+			<Text>[ICON_BOLT] {1_Amount} vom Terraforming des Mars.</Text>
+		</Replace>
+
+
+
+<!-- BEYOND EARTH PROJECTS-->
+	<!-- Beyond Space Station -->
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_NAME" Language="de_DE">
+			<Text>Starte eine Interstellare Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_SHORT_NAME" Language="de_DE" gender="feminine" plurality="1">
+			<Text>Interstellare Raumstation|Interstellare Raumstation|Interstellaren Raumstation|Interstellaren Raumstation|Interstellare Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_DESCRIPTION" Language="de_DE">
+			<Text>Mit Intelligentes Material freigeschaltet. Benötigt das Marskolonie-Start- und das Weltraumteleskop-Start-Projekt. Erforderlich für das Interstellar-Station-Hydrokulturen-, das Interstellar-Station-Reaktor- und das Exoplaneten-Siedler-Rekrutierung-Projekt.[NEWLINE]Startet eine riesige Raumstation, die in der Lage ist zwischen den Sternen zu reisen und bringen Sie so viele Siedler wie möglich an Bord.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich eine Raumstation für interstellare Reisen gestartet. Wir müssen jetzt noch einige entscheidende Module starten und dann wir könnten die Sterne kolonisieren!</Text>
+		</Replace>
+	<!-- Beyond Space Station Hydro -->
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_NAME" Language="de_DE">
+			<Text>Versendung von Hydrokulturen zur interstellaren Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_SHORT_NAME" Language="de_DE" gender="feminine" plurality="2">
+			<Text>Interstellar-Station-Hydrokulturen|Interstellar-Station-Hydrokulturen|Interstellar-Station-Hydrokulturen|Interstellar-Station-Hydrokulturen|Interstellar-Station-Hydrokulturen</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das "Interstellare Raumstation"-Projekt. Erforderlich für das Exoplanet-Expedition-Projekt.[NEWLINE]Startet ein Modul voller Saatgut von allen Planeten, um andere Welten zu kolonisieren.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_POPUP" Language="de_DE">
+			<Text>Ihr habt erfolgreich Hydrokulturen zur Interstellaren Raumstation gestartet. Wir brauchen diese wenn wir wollen, dass unsere Siedler nach ihrer Ankunft etwas zu essen haben ...</Text>
+		</Replace>
+	<!-- Beyond Space Station -->
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_NAME" Language="de_DE">
+			<Text>Versendung eines Reaktors zur interstellaren Raumstation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_SHORT_NAME" Language="de_DE" gender="masculine" plurality="1">
+			<Text>Interstellar-Station-Reaktor|Interstellar-Station-Reaktor|Interstellar-Station-Reaktor|Interstellar-Station-Reaktors|Interstellar-Station-Reaktor</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_DESCRIPTION" Language="de_DE">
+			<Text>Mit Fortschrittlichen Energiezellen freigeschaltet. Benötigt das Projekt "Interstellare Raumstation". Erforderlich für das Exoplanet-Expedition-Projekt.[NEWLINE]Startet einen Fusionsreaktor, um die interstellare Raumstation während ihrer Reise mit Strom zu versorgen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_POPUP" Language="de_DE">
+			<Text>Ihr habt den Reaktor der Interstellaren Station erfolgreich gesendet. Wir brauchen diesen, um dieses gewaltige Fahrzeug anzutreiben und mit Energie zu versorgen!</Text>
+		</Replace>
+	<!-- Beyond Space Station recruit -->
+		<Replace Tag="LOC_PROJECT_BEYOND_POPULATION_NAME" Language="de_DE">
+			<Text>Rekrutiert Siedler für eine Exoplaneten-Expedition</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_POPULATION_SHORT_NAME" Language="de_DE" gender="feminine" plurality="1">
+			<Text>Exoplaneten-Siedler-Rekrutierung|Exoplaneten-Siedler-Rekrutierung|Exoplaneten-Siedler-Rekrutierung|Exoplaneten-Siedler-Rekrutierung|Exoplaneten-Siedler-Rekrutierung</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_POPULATION_DESCRIPTION" Language="de_DE">
+			<Text>Benötigt das Projekt "Interstellare Raumstation". 3-mal erforderlich für das Exoplanet-Expedition-Projekt.[NEWLINE]3-mal wiederholbar. Nach Fertigstellung verliert diese Stadt -3 [ICON_Citizen] Bevölkerung.[NEWLINE]Rekrutiert Siedler aus unserer Bevölkerung, um sie zu kryogenisieren und für eine Besiedelung zu weit entfernten Planeten zu schicken.</Text>
+		</Replace>
+
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION" Language="de_DE" />
+			<Set>
+				<Text>Mit Intelligentes Material freigeschaltet. Benötigt 3-mal das abgeschlossene Exoplaneten-Siedler-Rekrutierung-Projekt, das Interstellar-Station-Reaktor- sowie das Interstellar-Station-Hydrokulturen-Projekt. Benötigt die Projekte "Irdische Laserstation" und "Lagrange-Laserstation".[NEWLINE]Nach Abschluss startet eine Raumstation, die sich mit 1 Lichtgeschwindigkeit pro Runde bewegt, um einen anderen Planeten zu besiedeln. Der wissenschaftliche Sieg ist errungen, sobald die Raumstation ihr Ziel als erstes erreicht hat.</Text>
+			</Set>
+		</Update>
+
+
+
+<!-- SPACEPORT ADJENCY -->
+		<Replace Tag="LOC_DISTRICT_SPACE_FOREST_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Wälder-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_JUNGLE_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Regenwald-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_MARSH_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Sumpf-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_GRASS_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Grasland-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_PLAINS_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Ebene-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_DESERT_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Wüste-Geländefelders.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_DESERT_HILLS_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Wüstenhügel-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_TUNDRA_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Tundra-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_SNOW_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Schnee-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_SNOW_HILLS_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Schneehügel-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_COAST_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch jeweils {2_num} angrenzende Küste-Geländefelder.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_HARBOR_PRODUCTION" Language="de_DE">
+			<Text>+{2_num} [ICON_Production] Produktion durch {1_Num : plural 1?angrenzenden Hafen-Bezirk; other?angrenzende Hafen-Bezirke;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_CAMPUS_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion durch {1_Num : plural 1?angrenzenden Campus-Bezirk; other?angrenzende Campus-Bezirke;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_INDUSTRIAL_PRODUCTION" Language="de_DE">
+			<Text>+{2_num} [ICON_Production] Produktion durch {1_Num : plural 1?angrenzenden Industriegbiet-Bezirk; other?angrenzende Industriegebiet-Bezirke;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_AERODROME_PRODUCTION" Language="de_DE">
+			<Text>+{3_num} [ICON_Production] Produktion durch {1_Num : plural 1?angrenzenden Flugplatz-Bezirk; other?angrenzende Flugplatz-Bezirke;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MISSILE_SILO_PRODUCTION" Language="de_DE">
+			<Text>+{3_num} [ICON_Production] Produktion durch angrenzende Raketensilo-Verbesserungen.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

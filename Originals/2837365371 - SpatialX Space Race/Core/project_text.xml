@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+<!-- satellites -->
+	<!-- Motor 1 -->
+		<Row Tag="LOC_PROJECT_MOTOR_1_NAME" Language="en_US">
+			<Text>Develop small rocket engine</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_1_SHORT_NAME" Language="en_US">
+			<Text>Develop rocket engine</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_1_DESCRIPTION" Language="en_US">
+			<Text>Required for launch Earth satellites project. Unlocked with Chemistery. [NEWLINE]Construct and test a small engine capable to send into orbit small objects.</Text>
+		</Row>	
+	<!-- Fuel 1 -->
+		<Row Tag="LOC_PROJECT_FUEL_1_NAME" Language="en_US">
+			<Text>Develop small fuel tank</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FUEL_1_SHORT_NAME" Language="en_US">
+			<Text>Develop fuel tank</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FUEL_1_DESCRIPTION" Language="en_US">
+			<Text>Required for launch Earth satellites project. Unlocked with Chemistery. [NEWLINE]Construct a small fuel tank with enough fuel to launch small objects into orbit.</Text>
+		</Row>	
+	<!-- Sat 1 -->
+		<Row Tag="LOC_PROJECT_SAT_1_NAME" Language="en_US">
+			<Text>Develop earth probe</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SAT_1_SHORT_NAME" Language="en_US">
+			<Text>Develop earth probe</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SAT_1_DESCRIPTION" Language="en_US">
+			<Text>Required for launch Earth satellites project. Unlocked with Radio. [NEWLINE]Construct a small probe capable to resist space void and send message back to earth.</Text>
+		</Row>		
+
+		
+<!-- SEND HUMAN INTO ORBIT-->	
+	<!-- Motor 2 -->
+		<Row Tag="LOC_PROJECT_MOTOR_2_NAME" Language="en_US">
+			<Text>Develop Heavy Rocket Engine</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_2_SHORT_NAME" Language="en_US">
+			<Text>Develop heavy rocket engine</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_2_DESCRIPTION" Language="en_US">
+			<Text>Requires Earth satellites project. Required for Giant fuel tank and Send Humans into orbit projects. [NEWLINE]Construct and test an engine powerfull enough to launch heavy playload into orbit.</Text>
+		</Row>	
+	<!-- Fuel 2 -->
+		<Row Tag="LOC_PROJECT_FUEL_2_NAME" Language="en_US">
+			<Text>Develop Heavy Fuel Tank</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FUEL_2_SHORT_NAME" Language="en_US">
+			<Text>Develop heavy fuel tank</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FUEL_2_DESCRIPTION" Language="en_US">
+			<Text>Requires Earth satellites project. Required for Giant fuel tank and Send animal into orbit projects. [NEWLINE]Construct and test an larger fuel tank with enough fuel to send heavy object into earth orbit.</Text>
+		</Row>	
+	<!-- Fuel 3 -->
+		<Row Tag="LOC_PROJECT_FUEL_3_NAME" Language="en_US">
+			<Text>Develop Gigantic fuel tank</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FUEL_3_SHORT_NAME" Language="en_US">
+			<Text>Develop Giant Fuel Tank</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FUEL_3_DESCRIPTION" Language="en_US">
+			<Text>Requires Develop heavy fuel tank and Develop heavy rocket engine projects. Required for launch Moon rocket project. [NEWLINE]Construct and test an gigantic fuel tank with enough fuel to send heavy loads beyond the earth orbit.</Text>
+		</Row>		
+	<!-- Dog -->
+		<Row Tag="LOC_PROJECT_DOG_NAME" Language="en_US">
+			<Text>Send Animal Into Orbit</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DOG_SHORT_NAME" Language="en_US">
+			<Text>Animal in orbit</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DOG_DESCRIPTION" Language="en_US">
+			<Text>Requires Develop heavy fuel tank project. Required for Develop basic command module project. [NEWLINE]Send into orbit an animal to test the effect of space on living organism.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DOG_POPUP" Language="en_US">
+			<Text>You've successfully launched an animal in earth orbit! We can start the work to launch a human next!</Text>
+		</Row>
+
+	<!-- train astronaut -->
+		<Row Tag="LOC_PROJECT_TRAIN_ASTRONAUT_NAME" Language="en_US">
+			<Text>Train future astronauts</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_TRAIN_ASTRONAUT_SHORT_NAME" Language="en_US">
+			<Text>Train astronauts</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_TRAIN_ASTRONAUT_DESCRIPTION" Language="en_US">
+			<Text>Unlocked with Rocketery. Required for Send Humans into orbit project. [NEWLINE]Repeatable 10 time. Remove -1 [ICON_Citizen] Population and give 5% more [ICON_Production] production toward manned mission projects each time this project is completed. [NEWLINE]Recruit and train military test pilots to be astronaut for our futures mission in space.</Text>
+		</Row>	
+	<!-- Command module 1-->
+		<Row Tag="LOC_PROJECT_CMD_1_NAME" Language="en_US">
+			<Text>Develop basic command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_1_SHORT_NAME" Language="en_US">
+			<Text>Develop command module 1</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_1_DESCRIPTION" Language="en_US">
+			<Text>Requires Send animal into orbit project. Required to Send Humans into orbit. [NEWLINE]Develop and construct a small capsule, designed to survive a reentry in the atmosphere and give all the essentials for the survival of one man in the void.</Text>
+		</Row>
+	<!-- Space man-->
+		<Row Tag="LOC_PROJECT_SPACE_MAN_NAME" Language="en_US">
+			<Text>Send Humans into orbit</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_MAN_SHORT_NAME" Language="en_US">
+			<Text>Send Humans into orbit</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_MAN_DESCRIPTION" Language="en_US">
+			<Text>Requires Develop basic command module, Train future astronauts, Develop heavy rocket engine project. Required for Develop orbital command module, Develop Lunar Excursion Module, Develop Spacesuits, Launch Moon Rocket. [NEWLINE]Once completed, grants a one time [ICON_Culture] Culture bonus equal to 2 times our [ICON_Science] Science per turn.[NEWLINE]Send a human into earth low orbit and bring him back alive!</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_MAN_POPUP" Language="en_US">
+			<Text>You've successfully launched a human into earth orbit and bring him back alive! Now that there is no doubt we can go up there safely, we can start planning more advanced mission. Grants a one time [ICON_Culture] Culture bonus equal to 2 times our [ICON_Science] Science per turn.</Text>
+		</Row>
+		
+		
+		
+<!-- SEND HUMAN TO THE MOON -->
+	<!-- Command module 2-->
+		<Row Tag="LOC_PROJECT_CMD_2_NAME" Language="en_US">
+			<Text>Develop orbital command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_2_SHORT_NAME" Language="en_US">
+			<Text>Develop orbital command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_2_DESCRIPTION" Language="en_US">
+			<Text>Requires Send Humans into orbit project. Required for Training on the Orbital Command Module project and then the Space Rendez-vous project. [NEWLINE]Develop and construct an upgraded command module, with enough room for 3 astronauts and enough resources for a prolonged stay in space.</Text>
+		</Row>
+	<!-- Train Command module 2-->
+		<Row Tag="LOC_PROJECT_CMD_2_TRAIN_NAME" Language="en_US">
+			<Text>Training on the orbital command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_2_TRAIN_SHORT_NAME" Language="en_US">
+			<Text>Develop command module 2</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_2_TRAIN_DESCRIPTION" Language="en_US">
+			<Text>Requires Develop orbital command module project. Required for Space Rendez-vous project. [NEWLINE]Train the Astronauts to use and pilot the Orbital command module</Text>
+		</Row>	
+	<!-- Landing Excursion module -->
+		<Row Tag="LOC_PROJECT_LEM_NAME" Language="en_US">
+			<Text>Develop the Landing Excursion Module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_LEM_SHORT_NAME" Language="en_US">
+			<Text>Develop LEM</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_LEM_DESCRIPTION" Language="en_US">
+			<Text>Unlocked with Guidance System. Requires Send Humans into orbit project. Required for Training on the LEM and then Practice landing on the moon projects.[NEWLINE]Develop and construct a two stage vehicle capable to sustain two astronaut, to land and then to take-off from the surface of the moon.</Text>
+		</Row>	
+	<!-- Train Landing Excursion module -->
+		<Row Tag="LOC_PROJECT_LEM_TRAIN_NAME" Language="en_US">
+			<Text>Training on the Landing Excursion Module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_LEM_TRAIN_SHORT_NAME" Language="en_US">
+			<Text>LEM Train</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_LEM_TRAIN_DESCRIPTION" Language="en_US">
+			<Text>Requires Develop the Landing Excursion Module project. Required for Practice landing on the moon project.[NEWLINE]Train astronauts to pilot and land on the surface of the moon.</Text>
+		</Row>	
+	<!-- Space suit -->
+		<Row Tag="LOC_PROJECT_SPACE_SUIT_NAME" Language="en_US">
+			<Text>Develop Spacesuits</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_SUIT_SHORT_NAME" Language="en_US">
+			<Text>Spacesuits</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_SUIT_DESCRIPTION" Language="en_US">
+			<Text>Requires Send Humans into orbit project. Required for Practice landing on the moon project. [NEWLINE]Give a 15% [ICON_Production] production bonus for all Space Station building mission.[NEWLINE]Develop and create suits allowing astronauts to survive outside of their spacecraft.</Text>
+		</Row>		
+	<!-- Rocket 1 -->
+		<Row Tag="LOC_PROJECT_ROCKET_1_NAME" Language="en_US">
+			<Text>Launch moon rocket</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ROCKET_1_SHORT_NAME" Language="en_US">
+			<Text>Launch moon rocket</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ROCKET_1_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Computers. Requires Send Humans into orbit and Develop Gigantic fuel tank projects. Required for Practice landing on the moon, Develop solid rocket boosters, Launch rover on mars and Launch Space Station projects.[NEWLINE]Launch and test a new type of rocket, completely unmanned, capable to send heavy loads beyond the earth orbit.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ROCKET_1_POPUP" Language="en_US">
+			<Text>You've successfully launched an moon rocket! It's enourmous size will allow us to launch a wide variety of things in orbit and beyond.</Text>
+		</Row>
+		
+	<!-- Rendez vous -->
+		<Row Tag="LOC_PROJECT_SPACE_RENDEZVOUS_NAME" Language="en_US">
+			<Text>Launch Space rendez-vous</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_RENDEZVOUS_SHORT_NAME" Language="en_US">
+			<Text>Launch Space rendez-vous</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_RENDEZVOUS_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Computers. Requires Training on the orbital command module project. Required for Practice landing on the moon and Launch Space Station project.[NEWLINE]Launch in short period of time two spacecraft with the objective to meet in space and dock.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_RENDEZVOUS_POPUP" Language="en_US">
+			<Text>You've successfully realised a rendez vous in orbit! We can now launch rockets at different times and place and still make them meet in orbit.</Text>
+		</Row>
+
+	<!-- Moon test -->
+		<Row Tag="LOC_PROJECT_MOON_TEST_NAME" Language="en_US">
+			<Text>Practice moon landing</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_TEST_SHORT_NAME" Language="en_US">
+			<Text>Practice moon landing</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_TEST_DESCRIPTION" Language="en_US">
+			<Text>Requires Space rendez-vous, Training on the Lunar Excursion Module and Launch moon rocket projects. Required for Launch moon landing project. [NEWLINE]Send a crew in orbit to the moon to test the procedure for a landing on the moon.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_TEST_POPUP" Language="en_US">
+			<Text>You've successfully launched an vessel with humans onboard on an moon orbit! All systems are checks now for a moon landing!</Text>
+		</Row>
+		
+	<!-- Moon landing -->
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION"/>
+			<Set>
+				<Text>Unlocked by Satellites. Requires Practice moon landing and Develop Spacesuits projects. Required for Develop Space Shuttle and Develop Interplanetary command module projects[NEWLINE]Once completed, grants a one time [ICON_Culture] Culture bonus equal to 10 times our [ICON_Science] Science per turn.[NEWLINE]Launch a spacecraft with humans onboard to land on the surface of the moon.</Text>
+			</Set>
+		</Update>
+
+
+
+<!-- SPACE STATION CONSTRUCTION -->
+	<!-- Engine 3 -->
+		<Row Tag="LOC_PROJECT_MOTOR_3_NAME" Language="en_US">
+			<Text>Develop Solid Rocket Booster</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_3_SHORT_NAME" Language="en_US">
+			<Text>Develop SRB</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_3_DESCRIPTION" Language="en_US">
+			<Text>Requires Launch moon rocket project. Required for Develop Nuclear engine, Construct Space Shuttle, Launch outer solar-system exploration probe, Launch Space Telescope, Develop Re-usable rocket and Launch moon colony projects. [NEWLINE]Develop and test rockets using solid fuel to help the sending of heavy loads in orbit.</Text>
+		</Row>
+	<!-- Space shuttle -->
+		<Row Tag="LOC_PROJECT_SHUTTLE_NAME" Language="en_US">
+			<Text>Construct Space Shuttle</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SHUTTLE_SHORT_NAME" Language="en_US">
+			<Text>Construct Space shuttle</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SHUTTLE_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Composites. Requires Launch moon landing and Develop Solid Rocket Booster projects. Required for Training on the Space Shuttle project. [NEWLINE]After doing the Training on the Space Shuttle project, gain 150% more [ICON_Production] production toward low orbit space projects and 50% for beyond earth orbit space projects.[NEWLINE]Construct a vessel, launched like a traditional rocket with the help of Solid Boosters, it has room for both astronauts and satellites. When it's mission is done, it's land back on earth like a regular plane and can be re-used for future mission.</Text>
+		</Row>
+	<!-- Space shuttle Train -->
+		<Row Tag="LOC_PROJECT_SHUTTLE_TRAIN_NAME" Language="en_US">
+			<Text>Training on the Space Shuttle</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SHUTTLE_TRAIN_SHORT_NAME" Language="en_US">
+			<Text>Training Space shuttle</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SHUTTLE_TRAIN_DESCRIPTION" Language="en_US">
+			<Text>Requires Construct Space shuttle project. [NEWLINE]Once completed, gain 150% more [ICON_Production] production toward low orbit space projects and 50% for beyond earth orbit space projects.[NEWLINE]Launch a Space shuttle with it's crew on a routine mission to validate the concept and create new procedures</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_SHUTTLE_TRAIN_POPUP" Language="en_US">
+			<Text>You've successfully launched a Space Shuttle into space! This new way of launching things into space will help us to reduce the cost of space voyage. [ICON_Production] Production toward some project has been increased between 150% and 50%</Text>
+		</Row>
+		
+	<!-- Launch SpaceStation -->
+		<Row Tag="LOC_PROJECT_SS_LAUNCH_NAME" Language="en_US">
+			<Text>Launch Space Station</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_LAUNCH_SHORT_NAME" Language="en_US">
+			<Text>Space station</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_LAUNCH_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Satellites. Requires Launch moon rocket and Space Rendez-vous projects. Required for all Space Station related projects.[NEWLINE]Launch a module in orbit with docking ports for future extension</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_SS_LAUNCH_POPUP" Language="en_US">
+			<Text>You've successfully launched the first module of a space station! We can now launch new mission to upgrade it!</Text>
+		</Row>
+		
+	<!-- Launch Solar panel -->
+		<Row Tag="LOC_PROJECT_SS_S_PANEL_NAME" Language="en_US">
+			<Text>Launch Space station Solar panel</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_S_PANEL_SHORT_NAME" Language="en_US">
+			<Text>Launch solar panel</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_S_PANEL_DESCRIPTION" Language="en_US">
+			<Text>Requires Launch Space Station project. [NEWLINE]Repeatable 8 time. Each time completed, give +4 [ICON_Power] Power to this city from renewable sources AND unlocks a new Space station project. [NEWLINE]Launch Solar Panels to power new module to the space station.</Text>
+		</Row>		
+		<Row Tag="LOC_PROJECT_SS_S_PANEL_POPUP" Language="en_US">
+			<Text>You've successfully launched a set of Solar panel for the Space Station. +4 [ICON_Power] Power in this city. Keep launching them to get new Space station upgrades</Text>
+		</Row>
+	<!-- Launch Space station Lab  -->
+		<Row Tag="LOC_PROJECT_SS_SCIENCE_NAME" Language="en_US">
+			<Text>Launch Space station laboratory</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_SCIENCE_SHORT_NAME" Language="en_US">
+			<Text>Launch space station lab</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>Requires Launch Space Station and Launch Space station Solar panel projects. [NEWLINE]Repeatable 4 time. Consume -3 [ICON_Power] Power in this city. Each time completed, each labs in your empire yeld 70% more [ICON_Science] Science.[NEWLINE]Launch a module with equippment to realise experiences in the space station.</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_SS_SCIENCE_POPUP" Language="en_US">
+			<Text>You've successfully launched an laboratory for your Space Station. We can now experiment on various topic in space! All lab in your empire yeld 70% more [ICON_Science] Science. -3 [ICON_Power] Power in this city.</Text>
+		</Row>
+	<!-- Launch Space station greenhouse-->
+		<Row Tag="LOC_PROJECT_SS_FOOD_NAME" Language="en_US">
+			<Text>Launch Space station Greenhouse</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_FOOD_SHORT_NAME" Language="en_US">
+			<Text>Launch space station greenhouse</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_FOOD_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Nanotechnology. Requires Launch Space Station project and Launch Space station Solar panel project being completed 2 time. [NEWLINE]Repeatable 3 time. Consume -5 [ICON_Power] Power in this city. Each time completed, all cities in your empire get 15% more growth.[NEWLINE]Launch a module with everything to grow plants in space, with water, dirt, seeds and UV lamps.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_FOOD_POPUP" Language="en_US">
+			<Text>You've successfully launched an greenhouse for your Space Station. We can grow even more food now in space! All your cities get +15% more growth. -5 [ICON_Power] Power in this city.</Text>
+		</Row>
+	<!-- Launch Space station habitation-->
+		<Row Tag="LOC_PROJECT_SS_HAB_NAME" Language="en_US">
+			<Text>Launch Space station Habitation module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_HAB_SHORT_NAME" Language="en_US">
+			<Text>Launch space station habitation</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_HAB_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Seasteads. Requires Launch Space Station project and Launch Space station Solar panel project being completed 3 time. [NEWLINE]Repeatable 4 time. Consume -3 [ICON_Power] Power in this city. Each time completed, give +6 [ICON_HOUSING] housing in this city.[NEWLINE]Launch a module with everything to sustain a large amount of people in earth orbit.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_HAB_POPUP" Language="en_US">
+			<Text>You've successfully launched an Habitation module for your Space Station. We can relocate some of our population in space now! +6 [ICON_HOUSING] housing and -3 [ICON_Power] Power in this city.</Text>
+		</Row>
+	<!-- Launch Space station Tourism-->
+		<Row Tag="LOC_PROJECT_SS_TOURISM_NAME" Language="en_US">
+			<Text>Launch Space station hotel</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_TOURISM_SHORT_NAME" Language="en_US">
+			<Text>Launch space station hotel</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SS_TOURISM_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Exodus Impertaive. Requires Launch Space Station project and Launch Space station Solar panel project being completed 3 time. [NEWLINE]Consume -5 [ICON_Power] Power in this city. Once completed, give all Spaceport in your empire 15 tourism each.[NEWLINE]Launch a luxurious module to board rich guest aboard your space station.</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_SS_TOURISM_POPUP" Language="en_US">
+			<Text>You've successfully launched an Hotel in your Space Station. We can now attract tourist to try out the microgravity of space! All Spaceport in your empire get +15 tourism each. -5 [ICON_Power] Power in this city.</Text>
+		</Row>
+
+
+
+<!--INTERNATIONAL SPACE STATION -->
+	<!-- ISS UNLOCKS PROJECTS -->
+		<Update>
+			<Where Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ASTRONAUTS_PROJECT"/>
+			<Set>
+				<Text>Members have access to Train Foreign Astronauts, Launch ISS Solar Panel, Launch ISS laboratory and Launch Cargo Spacecraft to the ISS projects.</Text>
+			</Set>
+		</Update>
+	<!-- ISS PROJECT COMPLETION BONUS -->
+		<Update>
+			<Where Tag="LOC_EMERGENCY_SCORE_ASTRONAUT_PROJECT_DESC"/>
+			<Set>
+				<Text>Completing the Training of Foreign Astronauts</Text>
+			</Set>
+		</Update>
+	
+		<Row Tag="LOC_EMERGENCY_SCORE_ISS_S_PANEL_PROJECT_DESC" Language="en_US">
+			<Text>Sending Solar Panel to the ISS</Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_SCORE_ISS_S_SCIENCE_PROJECT_DESC" Language="en_US">
+			<Text>Sending a laboratory to the ISS </Text>
+		</Row>
+		<Row Tag="LOC_EMERGENCY_SCORE_ISS_SUPPLY_PROJECT_DESC" Language="en_US">
+			<Text>Sending a Cargo spacecraft to the ISS</Text>
+		</Row>
+	
+	<!-- Train foreign astronauts -->
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_NAME"/>
+			<Set>
+				<Text>Train Astronauts from foreign countries</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_SHORT_NAME"/>
+			<Set>
+				<Text>Train foreign astronauts</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_DESCRIPTION"/>
+			<Set>
+				<Text>Unlocked by the ISS Competition. [NEWLINE]Repeatable project. Each time completed, grants 25 [ICON_Favor] diplomatic favors and 30 points for the ISS Competition.[NEWLINE]Train astronauts from foreign countries with our equippement for futures joints missions.</Text>
+			</Set>
+		</Update>
+	
+	
+	<!-- Launch ISS Solar panel -->
+		<Row Tag="LOC_PROJECT_ISS_S_PANEL_NAME" Language="en_US">
+			<Text>Launch Solar panels to the ISS</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ISS_S_PANEL_SHORT_NAME" Language="en_US">
+			<Text>Launch ISS solar panel</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ISS_S_PANEL_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by the ISS Competition. Requires Launch moon rocket and Launch Space rendez-vous projects. [NEWLINE]Repeatable project. Each time completed, give +1 [ICON_Power] Power from renewable sources to all cities in the game (including cities of other civilizations). Grants 50 point to the ISS Competition.[NEWLINE]Launch Solar Panels to power up modules in the International Space Station.</Text>
+		</Row>		
+		<Row Tag="LOC_PROJECT_ISS_S_PANEL_POPUP" Language="en_US">
+			<Text>You've successfully launched a set of Solar panel for the International Space Station. +1 [ICON_Power] Power for all cities in the game, of all civilizations. You recieved 50 points to the ISS Competition</Text>
+		</Row>
+		
+	<!-- Launch ISS Lab  -->
+		<Row Tag="LOC_PROJECT_ISS_SCIENCE_NAME" Language="en_US">
+			<Text>Launch a laboratory to the ISS</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ISS_SCIENCE_SHORT_NAME" Language="en_US">
+			<Text>Launch ISS lab</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ISS_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by the ISS Competition. Requires Launch moon rocket and Launch Space rendez-vous projects. [NEWLINE]Repeatable 2 time. Gives +2 [ICON_Science] Science to all cities in the game (including cities of other civilizations). Grants 100 points to the ISS competition[NEWLINE]Launch a module with a wide variety of experiences to try in the Internation Space Station.</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_ISS_SCIENCE_POPUP" Language="en_US">
+			<Text>You've successfully launched an laboratory for the International Space Station. All cities in the game, of all civilizations, recieve +2 [ICON_Science] Science. You recieved 100 points to the ISS competition. We can realise now experiences that will benefit everyone.</Text>
+		</Row>
+
+	<!-- Launch ISS Supply -->
+		<Row Tag="LOC_PROJECT_ISS_SUPPLY_NAME" Language="en_US">
+			<Text>Send a Cargo Spacecraft to the ISS</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ISS_SUPPLY_SHORT_NAME" Language="en_US">
+			<Text>Launch ISS Cargo</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ISS_SUPPLY_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by the ISS Competition. Requires Launch moon rocket and Launch Space rendez-vous projects. [NEWLINE]Repeatable project. Grants 65 points to the ISS competition[NEWLINE]Launch an automatic Space craft full of food and experiments to supply the International Space Station.</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_ISS_SUPPLY_POPUP" Language="en_US">
+			<Text>You've successfully launched an Cargo Spacecraft to the International Space Station. You recieved 65 points to the ISS competition. Astronauts of the station are happy to recieve new food and experiments to do!</Text>
+		</Row>
+		
+<!-- MARS EXPLORATION AND COLONISATION-->
+		<!-- Motor 4 -->
+		<Row Tag="LOC_PROJECT_MOTOR_4_NAME" Language="en_US">
+			<Text>Develop Nuclear engine</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_4_SHORT_NAME" Language="en_US">
+			<Text>Develop nuke engine</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOTOR_4_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Nuclear Fusion. Requires Develop Solid Rocket Booster project. Required for Launch Interplanetary rocket project. [NEWLINE]Construct and test an engine propuled by nuclear bombs. Allow to send playloads far beyond the solar system.</Text>
+		</Row>
+		<!-- Mars rover -->
+		<Row Tag="LOC_PROJECT_MARS_ROBOT_NAME" Language="en_US">
+			<Text>Launch Mars rover</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_ROBOT_SHORT_NAME" Language="en_US">
+			<Text>Launch Mars rover</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_ROBOT_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Telecomunication. Requires Launch moon rocket project. Required for Send Mars colony Nuclear reactor, Send Mars colony habitations and Send Mars colony Hydroponics projects. [NEWLINE]Once completed, grants a one time [ICON_Science] Science bonus equal to 5 times our [ICON_Science] Science per turn.[NEWLINE]Send to mars a small rover equipped to search sign of life on the red planet.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_ROBOT_POPUP" Language="en_US">
+			<Text>You've successfully launched a Rover to mars! We can now explore the planet and try to find sign of life. Grants a one time [ICON_Science] Science bonus equal to 5 times our [ICON_Science] Science per turn.</Text>
+		</Row>
+	<!-- Deep space probe -->
+		<Row Tag="LOC_PROJECT_DEEP_SPACE_PROBE_NAME" Language="en_US">
+			<Text>Launch outer solar-system exploration probe</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DEEP_SPACE_PROBE_SHORT_NAME" Language="en_US">
+			<Text>Launch outer solar-system exploration probe</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DEEP_SPACE_PROBE_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Telecomunication. Requires Develop Solid Rocket Fuel project. Required for Launch Interplanetary rocket project. [NEWLINE]Once completed, grants a one time [ICON_Science] Science bonus equal to 5 times our [ICON_Science] Science per turn.[NEWLINE]Send a probe to explore the planets of the outer solar system.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DEEP_SPACE_PROBE_POPUP" Language="en_US">
+			<Text>You've successfully launched a probe in the outer region of our solar system! We can now explore the distant planets of our solar system. Grants a one time [ICON_Science] Science bonus equal to 5 times our [ICON_Science] Science per turn.</Text>
+		</Row>
+	<!-- Deep space probe -->
+		<Row Tag="LOC_PROJECT_SPACE_TELSCOPE_NAME" Language="en_US">
+			<Text>Launch Space Telescope</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_TELSCOPE_SHORT_NAME" Language="en_US">
+			<Text>Launch Space Telescope</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_TELSCOPE_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Satellites. Requires Develop Solid Rocket Fuel project. Required for Launch Interstellar Space station project. [NEWLINE]Once completed, grants a one time [ICON_Culture] Culture bonus equal to 2 times our [ICON_Science] Science per turn.[NEWLINE]Send a satellites equiped with a giant telescope to observe the space.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SPACE_TELSCOPE_POPUP" Language="en_US">
+			<Text>You've successfully launched a Space Telescope! We can now take incredibly high resolution photo of our universe. Grants a one time [ICON_Culture] Culture bonus equal to 2 times our [ICON_Science] Science per turn.</Text>
+		</Row>
+	<!-- Command module 3 -->
+		<Row Tag="LOC_PROJECT_CMD_3_NAME" Language="en_US">
+			<Text>Develop Interplanetary command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_3_SHORT_NAME" Language="en_US">
+			<Text>Develop Interplanetary command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_3_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Telecomunication. Requires Launch moon landing project. Required for Training on the Interplanetary command module, Send Mars colony Nuclear reactor, Send Mars colony habitations and Send Mars colony Hydroponic projects.[NEWLINE]Develop and test a probe capable to provide life support for extended period of time, ideal to colonise other planets.</Text>
+		</Row>		
+	<!-- Training Command module 3 -->
+		<Row Tag="LOC_PROJECT_CMD_3_TRAIN_NAME" Language="en_US">
+			<Text>Training on the Interplanetary command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_3_TRAIN_SHORT_NAME" Language="en_US">
+			<Text>Train on the Interplanetary command module</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CMD_3_TRAIN_DESCRIPTION" Language="en_US">
+			<Text>Requires Develop Interplanetary command module. Required for Launch Mars colony and Launch Moon Colony projects.[NEWLINE]Send on a short mission a crewed command module to test it's capacities and develop new procedures.</Text>
+		</Row>	
+	<!-- Rocket 2 -->
+		<Row Tag="LOC_PROJECT_ROCKET_2_NAME" Language="en_US">
+			<Text>Launch Interplanetary rocket</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ROCKET_2_SHORT_NAME" Language="en_US">
+			<Text>Launch Interplanetary rocket</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ROCKET_2_DESCRIPTION" Language="en_US">
+			<Text>Requires Develop Nuclear engine and Launch outer solar-system exploration probe projects. Required for Launch Dyson Sphere element, Send Mars colony Nuclear reactor, Send Mars colony habitations and Send Mars colony Hydroponic projects.[NEWLINE]Launch and test an super heavy rocket made to launch playloads between planets.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ROCKET_2_POPUP" Language="en_US">
+			<Text>You've successfully launched an Interplanetary rocket! With it's gigantic reserve, we can send heavy loads to different planets!</Text>
+		</Row>
+	<!-- Mars Reactor -->
+		<Row Tag="LOC_PROJECT_MARS_REACTOR_NAME" Language="en_US">
+			<Text>Send Mars colony Nuclear reactor</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_REACTOR_SHORT_NAME" Language="en_US">
+			<Text>Send Mars colony Nuclear reactor</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_REACTOR_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Nuclear Fusion. Requires Develop Interplanetary rocket, Develop Interplanetary command module and Launch Mars rover projects. Required for Launch Mars Colony project. [NEWLINE]Launch and land to mars a nuclear reactor to supply in electricity the future martian colony.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_REACTOR_POPUP" Language="en_US">
+			<Text>You've successfully launched a Nuclear Reactor for our martian colony! Now they have electricity.</Text>
+		</Row>
+	<!-- Mars Habitation -->
+		<Row Tag="LOC_PROJECT_MARS_HABITATION_NAME" Language="en_US">
+			<Text>Send Mars colony Habitations</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_HABITATION_SHORT_NAME" Language="en_US">
+			<Text>Send Mars colony Habitations</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_HABITATION_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Robotics. Requires Develop Interplanetary rocket, Develop Interplanetary command module and Launch Mars rover projects. Required for Launch Mars Colony project. [NEWLINE]Launch and land to mars habitats made to sustain future settlers.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_HABITATION_POPUP" Language="en_US">
+			<Text>You've successfully launched the Habitations of our future martian colony! Now they will have a place to call home.</Text>
+		</Row>
+	<!-- Hydroponics -->
+		<Row Tag="LOC_PROJECT_MARS_HYDROPONICS_NAME" Language="en_US">
+			<Text>Send Mars colony Hydroponics</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_HYDROPONICS_SHORT_NAME" Language="en_US">
+			<Text>Send Mars colony Hydroponics</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_HYDROPONICS_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Nanotechnology. Requires Develop Interplanetary rocket, Develop Interplanetary command module and Launch Mars rover projects. Required for Launch Mars Colony project. [NEWLINE]Launch and land to mars water supply, seeds and greenhouse to grow food on mars.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_HYDROPONIC_POPUP" Language="en_US">
+			<Text>You've successfully launched the Hydroponics for our martian colony! Now we can grow food on the red planet!</Text>
+		</Row>
+	<!-- Mars landing -->
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_MARS_BASE_DESCRIPTION"/>
+			<Set>
+				<Text>Unlocked by Nanotechnoloy. Requires Send Mars colony Hydroponics, Send Mars colony Habitations, Send Mars colony Nuclear reactor and Training on the Interplanetary command module projects. Required for Strengthen links with the Mars colony, Send Carbon to Mars, Launch Interstellar space station and Launch meteor mining mission.[NEWLINE]Once completed, this city will lose -3 [ICON_Citizen] Population. Grants a one time [ICON_Culture] Culture bonus equal to 10 times our [ICON_Science] Science per turn.[NEWLINE]Launch to mars a spacecraft full of settlers for our mars colony.</Text>
+			</Set>
+		</Update>
+	<!-- Mars economic links -->
+		<Row Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_NAME" Language="en_US">
+			<Text>Strengthen links with Martian colonies</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_SHORT_NAME" Language="en_US">
+			<Text>Strengthen links with Martian colonies</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_DESCRIPTION" Language="en_US">
+			<Text>Requires launch martian colony project.[NEWLINE]Repeatable project, each time completed, remove -3 [ICON_Citizen] Population from this city. This city will recieve 15% more [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Production] production.[NEWLINE]Launch on mars additional settlers to exploit even more the red planet.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_POPUP" Language="en_US">
+			<Text>You've successfully launched a mission to strenghten our links with our Martian colonies. This city will recieve more of our colony [ICON_Production] production. This city lose -3 [ICON_Citizen] Population and gain 15% more [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Production] production.</Text>
+		</Row>
+
+
+
+<!-- SOLAR SYSTEM HARVERSTING -->
+	<!-- Meteor mine -->
+		<Row Tag="LOC_PROJECT_METEOR_NAME" Language="en_US">
+			<Text>Launch meteor mining mission</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_METEOR_SHORT_NAME" Language="en_US">
+			<Text>Launch meteor mining mission</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_METEOR_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Robotics. Requires launch martian colony project.[NEWLINE]Repeatable project, each time completed, all quarries and mines from your civilization yeld 1 more [ICON_Production] production. Also grant 30 aluminium when completed.[NEWLINE]Launch a rocket to intercept and bring into earth orbit an asteroid to mine.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_METEOR_POPUP" Language="en_US">
+			<Text>You've successfully launched a mission to intercept and bring into earth orbit an meteor. We can now harvest it for our own buisness. All mines and quarries from your civilization get 1 more [ICON_Production] production. Recieve 30 aluminium.</Text>
+		</Row>
+	<!-- Space X -->
+		<Row Tag="LOC_PROJECT_REUSABLE_ROCKET_NAME" Language="en_US">
+			<Text>Construct Reusable launch rocket</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_REUSABLE_ROCKET_SHORT_NAME" Language="en_US">
+			<Text>Construct Reusable launch rocket</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_REUSABLE_ROCKET_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Predictive Systems. Requires Develop Solid Rocket Booster project.[NEWLINE]+50% more [ICON_Production] production toward space race projects once completed[NEWLINE]Construct and test a new series of rocket capable to land back safely after launch and be re-used for future launch.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_REUSABLE_ROCKET_POPUP" Language="en_US">
+			<Text>You've successfully launched a reusable launch rocket. We don't need anymore to construct a rocket for each mission, we can re use them! +50% [ICON_Production] production toward all Space Race projects.</Text>
+		</Row>
+	<!-- Moon colony -->
+		<Row Tag="LOC_PROJECT_MOON_HABITAT_NAME" Language="en_US">
+			<Text>Launch a moon colony</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_HABITAT_SHORT_NAME" Language="en_US">
+			<Text>Launch a moon colony</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_HABITAT_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Lasers. Requires Develop Solid Rocket Booster and Training on the Interplanetary command module projects. Required for Construct a Spaceport on the moon.[NEWLINE]Once completed, remove -3 [ICON_Citizen] Population from this city[NEWLINE]Launch on the moon all the equipment and the people to start a colony on our moon.</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_MOON_HABITAT_POPUP" Language="en_US">
+			<Text>You've successfully launched a colony on the moon. Their isn't a lot of activity out there, but we could in the future launch rocket at low prices if we invest in this colony. Remove -3 [ICON_Citizen] population from this city</Text>
+		</Row>
+	<!-- Moon spaceport -->
+		<Row Tag="LOC_PROJECT_MOON_LAUNCHER_NAME" Language="en_US">
+			<Text>Construct a Spaceport on the moon</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_LAUNCHER_SHORT_NAME" Language="en_US">
+			<Text>Construct a Spaceport on the moon</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_LAUNCHER_DESCRIPTION" Language="en_US">
+			<Text>Requires Launch a moon colony project.[NEWLINE]+100% more [ICON_Production] production toward space race projects once completed. Remove -1 [ICON_Citizen] Population[NEWLINE]Send to our moon colony all the equipment and the people needed to construct and launch rocket from the moon.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MOON_LAUNCHER_POPUP" Language="en_US">
+			<Text>You've successfully constructed a Spaceport at the surface of the moon. Thanks to the low gravity of the moon and the presence of alternative rocket fuel, we can now easily launch heavy rockets at reduced cost. Remove -1 [ICON_Citizen] Population from this city. +100% [ICON_Production] production toward all Space Race projects.</Text>
+		</Row>
+	<!-- Dyson sphere -->
+		<Row Tag="LOC_PROJECT_DYSON_NAME" Language="en_US">
+			<Text>Launch Dyson Sphere elements</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DYSON_SHORT_NAME" Language="en_US">
+			<Text>Launch Dyson Sphere elements</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_DYSON_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Smart Materials. Requires Launch Interplanetary rocket project.[NEWLINE]Repetable project who provide +8 [ICON_Power] Power from renewable sources to this city when completed.[NEWLINE]Send around our sun giant solar panel to harvest it's energy and sending it back to earth.</Text>
+		</Row>				
+		<Row Tag="LOC_PROJECT_DYSON_POPUP" Language="en_US">
+			<Text>You've successfully launched solar panel in orbit around the sun. We can now exploit it's power! +8 [ICON_Power] Power in this city.</Text>
+		</Row>
+	<!-- Mars carbon -->
+		<Row Tag="LOC_PROJECT_MARS_CARBON_NAME" Language="en_US">
+			<Text>Send Carbon to mars</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_CARBON_SHORT_NAME" Language="en_US">
+			<Text>Send Carbon to mars</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_CARBON_DESCRIPTION" Language="en_US">
+			<Text>Requires Launch mars colony project. Need to be done 15 times to unlock the Make mars breatheable project[NEWLINE]Repetable project. Once completed, -50 lifetime carbon emissions.[NEWLINE]Capture and seal the carbon from earth and send it to mars to warm it up.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_MARS_CARBON_POPUP" Language="en_US">
+			<Text>You've successfully launched a rocket full of CO2 to Mars! -50 lifetime carbon emissions.</Text>
+		</Row>
+	<!-- Breath Mars -->
+		<Row Tag="LOC_PROJECT_LIFE_ON_MARS_NAME" Language="en_US">
+			<Text>Make mars breathable</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_LIFE_ON_MARS_SHORT_NAME" Language="en_US">
+			<Text>Make mars breathable</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_LIFE_ON_MARS_DESCRIPTION" Language="en_US">
+			<Text>Requires Send Carbon to mars project completed 15 times.[NEWLINE]Once completed, +50% growth in all cities of your civilization. Grants 1 diplomatic victory point.[NEWLINE]Launch a large amount of organisms who while transform the carbon of Mars into oxygen.</Text>
+		</Row>	
+		<Row Tag="LOC_PROJECT_LIFE_ON_MARS_POPUP" Language="en_US">
+			<Text>You've successfully launched a rocket full of organism to Mars! We can now breath on mars, and this is gonna affect positively the popuplation of the red planet! +50% growth in all city  of your civilization. +1 diplomatic victory points.</Text>
+		</Row>
+		<Row Tag="LOC_DVP_TOOLTIP_PROJECT_LIFE_ON_MARS_DIPLO_VP" Language="en_US">
+			<Text>[ICON_BOLT] {1_Amount} from teraforming mars.</Text>
+		</Row>			
+
+
+
+<!-- BEYOND EARTH PROJECTS-->
+	<!-- Beyond Space Station -->
+		<Row Tag="LOC_PROJECT_BEYOND_SS_NAME" Language="en_US">
+			<Text>Launch Interstellar Space station</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_SS_SHORT_NAME" Language="en_US">
+			<Text>Launch Interstellar Space station</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_SS_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Smart materials. Requires Launch Mars Colony and Launch Space Telescope projects. Required for Launch Interstellar station Hydroponics, Launch Interstellar station Reactor and Recruit settlers for exoplanet expedition projects.[NEWLINE]Launch an immense space station, capable to travel among the stars and embark as many settlers as possible.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_SS_POPUP" Language="en_US">
+			<Text>You've successfully launched a space station made for interstellar voyage. We now need to launch some critical elements and we could colonize the stars!</Text>
+		</Row>		
+	<!-- Beyond Space Station Hydro -->
+		<Row Tag="LOC_PROJECT_BEYOND_HYDROPONICS_NAME" Language="en_US">
+			<Text>Launch Interstellar station Hydroponics</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_HYDROPONICS_SHORT_NAME" Language="en_US">
+			<Text>Launch Interstellar station Hydroponics</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_HYDROPONICS_DESCRIPTION" Language="en_US">
+			<Text>Requires Launch Interstellar Space station project. Required for Launch Exoplanet Expedition project.[NEWLINE]Launch an module full of seeds from all the planet to colonize other worlds.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_HYDROPONICS_POPUP" Language="en_US">
+			<Text>You've successfully launched the Hydroponics of the Interstellar Station. We need it if we want our settlers to eat once they arrive...</Text>
+		</Row>	
+	<!-- Beyond Space Station -->
+		<Row Tag="LOC_PROJECT_BEYOND_REACTOR_NAME" Language="en_US">
+			<Text>Launch Interstellar station reactor</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_REACTOR_SHORT_NAME" Language="en_US">
+			<Text>Launch Interstellar station reactor</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_REACTOR_DESCRIPTION" Language="en_US">
+			<Text>Unlocked by Advanced Power Cells. Requires Launch Interstellar Space station project. Required for Launch Exoplanet Expedition project.[NEWLINE]Launch a fusion reactor to power up the Interstellar Space station during it's journey.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_REACTOR_POPUP" Language="en_US">
+			<Text>You've successfully launched the Reactor of the Interstellar Station. We need it to power up this massive craft!</Text>
+		</Row>	
+	<!-- Beyond Space Station recruit -->
+		<Row Tag="LOC_PROJECT_BEYOND_POPULATION_NAME" Language="en_US">
+			<Text>Recruit settlers for exoplanet expedition</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_POPULATION_SHORT_NAME" Language="en_US">
+			<Text>Recruit settlers for exoplanet expedition</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_BEYOND_POPULATION_DESCRIPTION" Language="en_US">
+			<Text>Requires Launch Interstellar Space station project. Required 3 times for Launch Exoplanet Expedition project.[NEWLINE]Repeatable 3 times. Once completed, remove -3 Population from this city. [NEWLINE]Recruit our population to be cryogenized and sent to colonize other planets.</Text>
+		</Row>
+		
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION"/>
+			<Set>
+				<Text>Unlocked by Smart Materials. Requires Recruit settlers for exoplanet expedition 3 times, Launch Interstellar station reactor and Launch Interstellar station hydroponics projects. Required Terrestrial Laser Station and Lagrange Laser Station.[NEWLINE]Once completed, launch a space station moving at 1 lightspeed per turn to conquer another planet. Scientific Victory is won once that the space station arrive to it's destination.</Text>
+			</Set>
+		</Update>
+	
+	
+	
+<!-- SPACEPORT ADJENCY -->
+		<Row Tag="LOC_DISTRICT_SPACE_FOREST_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Forest features.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_JUNGLE_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Jungle features.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_MARSH_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Marsh features.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_GRASS_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Grass tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_PLAINS_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Plains tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_DESERT_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Desert tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_DESERT_HILLS_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Desert hills tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_TUNDRA_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Tundra tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_SNOW_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Snow tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_SNOW_HILLS_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Snow hills tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_COAST_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from each {2_num} adjacent Coast.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_HARBOR_PRODUCTION" Language="en_US">
+			<Text>+{2_num} [ICON_Production] Production from adjacent Harbor District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_CAMPUS_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from adjacent Campus District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_INDUSTRIAL_PRODUCTION" Language="en_US">
+			<Text>+{2_num} [ICON_Production] Production from adjacent Industrial Zone District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SPACE_AERODROME_PRODUCTION" Language="en_US">
+			<Text>+{3_num} [ICON_Production] Production from adjacent Aerodrome District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MISSILE_SILO_PRODUCTION" Language="en_US">
+			<Text>+{3_num} [ICON_Production] Production from adjacent Missile Silo Improvement.</Text>
+		</Row>
+		
+<!-- ru_RU -->
+		<!-- satellites -->
+	<!-- Motor 1 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_1_NAME" Language="ru_RU">
+			<Text>Создать малую ракету-носитель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_1_SHORT_NAME" Language="ru_RU">
+			<Text>Создать ракету-носитель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_1_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо для проекта запуска искусственного спутника Земли. Открывается с изучением Химии. [NEWLINE]Создайте и протестируйте малую ракету, способную отправить на орбиту небольшие объекты.</Text>
+		</Replace>	
+	<!-- Fuel 1 -->
+		<Replace Tag="LOC_PROJECT_FUEL_1_NAME" Language="ru_RU">
+			<Text>Создать малый топливный бак</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_1_SHORT_NAME" Language="ru_RU">
+			<Text>Создать топливный бак</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_1_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо для проекта запуска искусственного спутника Земли. Открывается с изучением Химии. [NEWLINE]Создайте малый топливный бак с достаточным запасом топлива для отправки на орбиту небольших объекты .</Text>
+		</Replace>	
+	<!-- Sat 1 -->
+		<Replace Tag="LOC_PROJECT_SAT_1_NAME" Language="ru_RU">
+			<Text>Создать земной зонд</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SAT_1_SHORT_NAME" Language="ru_RU">
+			<Text>Создать зонд</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SAT_1_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо для проекта запуска искусственного спутника Земли. Открывается с изучением Радио. [NEWLINE]Создайте малый зонд, способный выйти в открытый космос и доставить сообщение обратно на Землю.</Text>
+		</Replace>		
+
+		
+<!-- SEND HUMAN INTO ORBIT-->	
+	<!-- Motor 2 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_2_NAME" Language="ru_RU">
+			<Text>Создать тяжелую ракету-носитель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_2_SHORT_NAME" Language="ru_RU">
+			<Text>Создать тяжелую ракету-носитель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_2_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск искусственного спутника Земли. Необходимо для проекта создания большого топливного бака и проекта запуска людей в космос. [NEWLINE]Создайте и протестируйте ракету-носитель с достаточной мощностью для отправки тяжелых грузов на орбиту.</Text>
+		</Replace>	
+	<!-- Fuel 2 -->
+		<Replace Tag="LOC_PROJECT_FUEL_2_NAME" Language="ru_RU">
+			<Text>Создать топливный бак повышенной емкости</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_2_SHORT_NAME" Language="ru_RU">
+			<Text>Создать расширенный топливный бак</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_2_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск искусственного спутника Земли. Необходимо для проекта создания огромного топливного бака и проекта запуска животных в космос. [NEWLINE]Создайте и протестируйте топливный бак повышенной емкости с достаточным запасом топлива для отправки тяжелых грузов на орбиту.</Text>
+		</Replace>	
+	<!-- Fuel 3 -->
+		<Replace Tag="LOC_PROJECT_FUEL_3_NAME" Language="ru_RU">
+			<Text>Создать топливный бак максимальной емкости</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_3_SHORT_NAME" Language="ru_RU">
+			<Text>Создать большой топливный бак</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_FUEL_3_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо создать тяжелый топливный бак и создать тяжелую ракету-носитель. Необходимо для проекта запуска ракеты на Луну. [NEWLINE]Создайте и протестируйте топливный бак максимальной емкости с достаточным запасом топлива для отправки тяжелых грузов за пределы орбиты Земли.</Text>
+		</Replace>		
+	<!-- Dog -->
+		<Replace Tag="LOC_PROJECT_DOG_NAME" Language="ru_RU">
+			<Text>Отправить собаку на орбиту Земли</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOG_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск собаки в космос</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOG_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо создать тяжелый топливный бак. Необходимо для проекта создания базового модуля управления. [NEWLINE]Отправьте Бобика на орбиту, чтобы изучить влияние космоса на живые организмы.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DOG_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили Бобика в космос! Теперь мы можем приступать к отправке человека за пределы Земли!</Text>
+		</Replace>
+
+	<!-- train astronaut -->
+		<Replace Tag="LOC_PROJECT_TRAIN_ASTRONAUT_NAME" Language="ru_RU">
+			<Text>Подготовить будущих астронавтов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRAIN_ASTRONAUT_SHORT_NAME" Language="ru_RU">
+			<Text>Обучить астронавтов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_TRAIN_ASTRONAUT_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Ракетостроения. Необходимо для проекта запуска людей на орбиту Земли. [NEWLINE]Можно повторять 10 раз. ПРи каждом завершении проекта уменьшает [ICON_Citizen] Население города на 1 и дает бонусные 5% к производству для проектов запуска в космос объектов под управлением человека. [NEWLINE]Вербуйте и обучайте космонавтов для будущих миссий за пределами Земли.</Text>
+		</Replace>	
+	<!-- Command module 1-->
+		<Replace Tag="LOC_PROJECT_CMD_1_NAME" Language="ru_RU">
+			<Text>Разработать базовый модуль управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_1_SHORT_NAME" Language="ru_RU">
+			<Text>Создать базовый модуль управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_1_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск животного на орбиту. Необходимо для проекта запуска людей на орбиту Земли. [NEWLINE]Создайте и протестируйте малую капсулу, способную защитить космонавта от входа в атмосферу Земли и снабдить его всем необходимым для выживания в космическом пространстве.</Text>
+		</Replace>
+	<!-- Space man-->
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_NAME" Language="ru_RU">
+			<Text>Отправка людей на орбиту</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск людей на орбиту</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо создать Базовый Модуль Управления, обучить астронавтов и создать Тяжелую Ракету-Носитель. Необходимо для проекта создания Орбитального Модуля Управления, создания Модуля Изучения Луны, создания скафандров и отправки человека на Луну. [NEWLINE]При завершении, дает одноразовый бонус к [ICON_Culture] Культуре, равный двукратному количеству [ICON_Science] Науки за ход.[NEWLINE]Отправьте человека на малую Земную орбиту и верните его домой живым!</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_MAN_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили человека на орбиту Земли и вернули его обратно! После того, как мы убедились в безопасности таких полётов, мы можем начать думать над более сложными задачами. Дает однократный бонус к [ICON_Culture] Культуре в двухкратном размере [ICON_Science] Науки за ход.</Text>
+		</Replace>
+		
+		
+		
+<!-- SEND HUMAN TO THE MOON -->
+	<!-- Command module 2-->
+		<Replace Tag="LOC_PROJECT_CMD_2_NAME" Language="ru_RU">
+			<Text>Создать орбитальный модуль управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_SHORT_NAME" Language="ru_RU">
+			<Text>Создать орбитальный модуль управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск человека на орбиту. Необходимо для проекта обучения межпланетным полетам, а затем - для проекта состыковки в космосе. [NEWLINE]Создайте и соберите Орбитальный Модуль Управления, с достаточным местом для трех космонавтов и запаса продовольствия, рассчитанного на длительный полет.</Text>
+		</Replace>
+	<!-- Train Command module 2-->
+		<Replace Tag="LOC_PROJECT_CMD_2_TRAIN_NAME" Language="ru_RU">
+			<Text>Обучить космонавтов работе с межпланетным модулем управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_TRAIN_SHORT_NAME" Language="ru_RU">
+			<Text>Обучить межпланетным полетам</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_2_TRAIN_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо создать орбитальный модуль управления. Необходимо для проекта состыковки в космосе. [NEWLINE]Обучите космонавтов использовать и пилотировать Орбитальный Модуль Управления.</Text>
+		</Replace>	
+	<!-- Landing Excursion module -->
+		<Replace Tag="LOC_PROJECT_LEM_NAME" Language="ru_RU">
+			<Text>Создать Взлетно-Посадочный Модуль</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_SHORT_NAME" Language="ru_RU">
+			<Text>Создать ВПМ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Систем Наведения. Необходим успешный запуск людей на орбиту Земли. Необходимо для проекта обучения работе с ВПМ, а затем - для проекта обучения высадке на Луну.[NEWLINE]Создайте и протестируйте двухэтапный модуль, способный содержать в себе двух космонавтов, совершить посадку и взлёт с поверхности Луны.</Text>
+		</Replace>	
+	<!-- Train Landing Excursion module -->
+		<Replace Tag="LOC_PROJECT_LEM_TRAIN_NAME" Language="ru_RU">
+			<Text>Обучение работе с Взлетно-Посадочным Модулем</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_TRAIN_SHORT_NAME" Language="ru_RU">
+			<Text>Обучение работе с ВПМ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LEM_TRAIN_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо создать Взлетно-Посадочный Модуль. Необходимо для проекта обучения высадке на Луну.[NEWLINE]Обучите космонавтов управлять Взлетно-Посадочным Модулем и совершать успешную посадку на поверхность небесных тел.</Text>
+		</Replace>	
+	<!-- Space suit -->
+		<Replace Tag="LOC_PROJECT_SPACE_SUIT_NAME" Language="ru_RU">
+			<Text>Создать Скафандры</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_SUIT_SHORT_NAME" Language="ru_RU">
+			<Text>Скафандры</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_SUIT_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск человека на орбиту. Необходимо для проекта обучения высадке на Луну. [NEWLINE]Дает 15% бонус к производству для всех проектов создания Космической Станции.[NEWLINE]Разработайте и создайте скафандры, способные защитить космонавта от внешнего воздействия на человека при выходе в открытый космос.</Text>
+		</Replace>		
+	<!-- Rocket 1 -->
+		<Replace Tag="LOC_PROJECT_ROCKET_1_NAME" Language="ru_RU">
+			<Text>Отправка ракеты к Луне</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_1_SHORT_NAME" Language="ru_RU">
+			<Text>Отправка ракеты к Луне</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_1_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Компьютеров. Необходим успешный запуск человека на орбиту и созданный топливный бак максимальной емкости. Необходимо для проектов подготовки к высадке на Луну, создания твердотопливных ракетных ускорителей, запуска марсохода и запуска космической станции.[NEWLINE]Запустите и протестируйте работу полностью автоматизированной ракеты, способной доставить тяжелые грузы за пределы орбиты Земли.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_1_POPUP" Language="ru_RU">
+			<Text>Вам удалось отправить ракету к Луне! Размер этой ракеты позволит нам работать на орбите Земли и за ее пределами.</Text>
+		</Replace>
+		
+	<!-- Rendez vous -->
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_NAME" Language="ru_RU">
+			<Text>Запуск состыковки в открытом космосе</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск состыковки в космосе</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Компьютеров. Необходимо проведенное обучение работе с Орбитальным Модулем Управления. Необходимо для проектов подготовки к высадке на Луну и запуска космической станции.[NEWLINE]Запустите в короткий промежуток два космических аппарата с целью встречи и успешной состыковки в открытом космосе.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_RENDEZVOUS_POPUP" Language="ru_RU">
+			<Text>Вам удалось провести успешную состыковку космических аппаратов в космосе! Теперь мы можем запускать ракеты в одно и то же место из разных точек Земли в разное время.</Text>
+		</Replace>
+
+	<!-- Moon test -->
+		<Replace Tag="LOC_PROJECT_MOON_TEST_NAME" Language="ru_RU">
+			<Text>Подготовка к высадке на Луну</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_TEST_SHORT_NAME" Language="ru_RU">
+			<Text>Подготовка к высадке на Луну</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_TEST_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо успешная состыковка космических аппаратов в космосе, обучение работе с ВПМ и отправка ракеты к Луне. Необходимо для проекта Лунной Миссии. [NEWLINE]Отправьте экипаж на орбиту Луны и проведите подготовку к высадке на поверхность Земного спутника.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_TEST_POPUP" Language="ru_RU">
+			<Text>Вам удалось отправить космический корабль с экипажем на борту к орбите Луны! Ведутся итоговые проверки систем для посадки!</Text>
+		</Replace>
+		
+	<!-- Moon landing -->
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_MOON_LANDING_DESCRIPTION"/>
+			<Set>
+				<Text>Открывается с изучением Искусственных Спутников. Необходима успешная подготовка к высадке на Луну и созданные скафандры. Необходимо для проектов создания Космического Шаттла и создания Межпланетного модуля управления projects[NEWLINE]Once completed, grants a one time [ICON_Culture] Culture bonus equal to 10 times our [ICON_Science] Science per turn.[NEWLINE]Launch a spacecraft with humans onboard to lи on the surface of the moon.</Text>
+			</Set>
+		</Update>
+
+
+
+<!-- SPACE STATION CONSTRUCTION -->
+	<!-- Engine 3 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_3_NAME" Language="ru_RU">
+			<Text>Создать Твердотопливный Ускоритель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_3_SHORT_NAME" Language="ru_RU">
+			<Text>Создать ТУ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_3_DESCRIPTION" Language="ru_RU">
+			<Text>Необходима успешная посадка на Луну. Необходимо для проектов создания Ядерного Реактора, Космического Шаттла, запуска дальнекосмического зонда, запуска космического телескопа, создания многоразовой ракеты и проекта колонизации Луны. [NEWLINE]Создайте и протестируйте ракеты с Твердотопливнымы Ускорителями для успешного вывода тяжелых грузов на орбиту.</Text>
+		</Replace>
+	<!-- Space shuttle -->
+		<Replace Tag="LOC_PROJECT_SHUTTLE_NAME" Language="ru_RU">
+			<Text>Создать космический шаттл</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_SHORT_NAME" Language="ru_RU">
+			<Text>Создать космический шаттл</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Композитных Материалов. Необходима успешная посадка на Луну и разработанный Твердотопливный Ускоритель. Необходимо для проекта обучению работе с космическими шаттлами. [NEWLINE]После проведения обучения работе с шаттлами, получайте на 150% производства больше для низкоорбитальных проектов, а также на 50% больше для проектов за пределами орбиты Земли.[NEWLINE]Создайте корабли, запущенный как обыкновенная ракета с использованием Твердотопливных Ускорителей, с достаточным местом для членов экипажа и искусственных спутников. Когда задача шаттла выполнена,он вернется на Землю как обыкновенный самолёт и может быть задействован в дальнейших миссиях.</Text>
+		</Replace>
+	<!-- Space shuttle Train -->
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_NAME" Language="ru_RU">
+			<Text>Обучение на космическом шаттле</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_SHORT_NAME" Language="ru_RU">
+			<Text>Обучение работе с шаттлом</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим созданный Космический Шаттл. [NEWLINE]После завершения, получайте на 150% производства больше для низкоорбитальных проектов, а также на 50% больше для проектов за пределами орбиты Земли.[NEWLINE]Запустите Космический Шаттл с экипажем на борту на пути к изобретению новых методов доставки людей и грузов в космос.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_SHUTTLE_TRAIN_POPUP" Language="ru_RU">
+			<Text>Вам удалось запустить Космический Шаттл в космос! Этот абсолютно новый способ полета в космос позволит нам снизить затраты на космические проекты. [ICON_Production] Производство для некоторых проектов было увеличено от 150% до 50% в зависимости от дальности полета.</Text>
+		</Replace>
+		
+	<!-- Launch SpaceStation -->
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_NAME" Language="ru_RU">
+			<Text>Запустить Космическую Станцию</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_SHORT_NAME" Language="ru_RU">
+			<Text>Космическая Станция</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Спутников. Необходим успешная отправка ракеты к Луне и успешная состыковка космических аппаратов в космосе. Необходимо для всех проектов, связанных с космической станцией.[NEWLINE]Запустите модуль на орбиту Земли со стыковочными модулями для дальнейшего расширения станции.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_SS_LAUNCH_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили первый модуль космической станции! Теперь мы можем запускать различные модули для нее!</Text>
+		</Replace>
+		
+	<!-- Launch Solar panel -->
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_NAME" Language="ru_RU">
+			<Text>Запустить солненчную панель для Космической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_SHORT_NAME" Language="ru_RU">
+			<Text>Отправка солнечных панелей</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск Космической Станции. [NEWLINE]Можно повторить 8 раз. Каждый раз после завершения, дает +4 [ICON_Power] Электричества от возобновляемых источников для этого города И открывает новый проект для Космической Станции. [NEWLINE]Запустите модуль с солнечными панелями для отправки других модулей Космической Станции.</Text>
+		</Replace>		
+		<Replace Tag="LOC_PROJECT_SS_S_PANEL_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили модуль с солнечными панелями на Космическую Станцию. +4 [ICON_Power] Электричества в этом городе. Продолжайте запускать этот модуль для разблокировки новых улучшений Станции.</Text>
+		</Replace>
+	<!-- Launch Space station Lab  -->
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_NAME" Language="ru_RU">
+			<Text>Запустить лабораторный отсек Космической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск космической лаборатории</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск Космической Станции и отправка солнечных панелей на Станцию. [NEWLINE]Можно повторить 4 раза. Потребляет -3 [ICON_Power] Электричества в этом городе. При каждом завершении, все ваши Лаборатории будут вырабатывать на 70% больше [ICON_Science] Науки.[NEWLINE]Запустите лабораторный модуль с оборудованием для проведения экспериментов на Космической Станции.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_SS_SCIENCE_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили лабораторный модуль на Космическую Станцию. Теперь мы можем проводить всевозможные эксперименты в космосе! Все ваши Лаборатории вырабатывают на 70% больше [ICON_Science] Науки. -3 [ICON_Power] Электричества в этом городе.</Text>
+		</Replace>
+	<!-- Launch Space station greenhouse-->
+		<Replace Tag="LOC_PROJECT_SS_FOOD_NAME" Language="ru_RU">
+			<Text>Запуск тепличного модуля Космической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_FOOD_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск тепличного модуля</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_FOOD_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Нанотехнологий. Необходим успешный запуск Космической Станции и отправка ДВУХ солнечных панелей на Станцию. [NEWLINE]Можно повторить 3 раза. Потребляет -5 [ICON_Power] Электричества в этом городе. При каждом завершении, Все города в вашей империи будут расти на 15% быстрее.[NEWLINE]Запустите модуль с оборудованием, необходимым для выращивания растений в космосе, с водой, землей, семенами и УФ-лампами</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_FOOD_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили тепличный модуль на Космическую Станцию. Теперь мы можем выращивать еще больше еды в космосе! Все города в вашей империи растут на 15% быстрее. -5 [ICON_Power] Электричества в этом городе.</Text>
+		</Replace>
+	<!-- Launch Space station habitation-->
+		<Replace Tag="LOC_PROJECT_SS_HAB_NAME" Language="ru_RU">
+			<Text>Запуск жилого модуля Космической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_HAB_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск жилого модуля</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_HAB_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Морских Поселений. Необходим успешный запуск Космической Станции и отправка ТРЕХ солнечных панелей на Станцию. [NEWLINE]Можно повторить 4 раза. Потребляет -3 [ICON_Power] Электричества в этом городе. При каждом завершении, этот город получает +6 [ICON_HOUSING] жилья.[NEWLINE]Запустите модуль, способный стать жилищем для большого количества людей на орбите Земли.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_HAB_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили жилой модуль на Космическую Станцию. Теперь мы можем жить в космосе! +6 [ICON_HOUSING] жилья и -3 [ICON_Power] Электричества в этом городе.</Text>
+		</Replace>
+	<!-- Launch Space station Tourism-->
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_NAME" Language="ru_RU">
+			<Text>Запуск гостинничного модуля Космической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск гостинничного модуля</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Императива Исхода. Необходим успешный запуск Космической Станции и отправка ТРЕХ солнечных панелей на Станцию. [NEWLINE]Потребляет -5 [ICON_Power] Электричества в этом городе. При каждом завершении, каждый космопорт в вашей империи дает +15 туризма.[NEWLINE]Запустите роскошный модуль на Космическую Станцию для ее богатейших гостей.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_SS_TOURISM_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили гостинничный модуль на Космическую Станцию. Теперь мы можем предложить нашим туристам новый вид отдыха: космический отдых! Каждый космопорт в вашей империи дает +15 туризма. -5 [ICON_Power] Электричества в этом городе.</Text>
+		</Replace>
+
+
+
+<!--INTERNATIONAL SPACE STATION -->
+	<!-- ISS UNLOCKS PROJECTS -->
+		<Update>
+			<Where Tag="LOC_EMERGENCY_MEMBER_BUFF_DESCRIPTION_ACCESS_TO_TRAIN_ASTRONAUTS_PROJECT"/>
+			<Set>
+				<Text>Участники получают доступ к проектам по обучению иностранных космонавтов, отправке солнечной панели на МКС, лабораторного модуля для МКС, а также отправке грузового шаттла к МКС.</Text>
+			</Set>
+		</Update>
+	<!-- ISS PROJECT COMPLETION BONUS -->
+		<Update>
+			<Where Tag="LOC_EMERGENCY_SCORE_ASTRONAUT_PROJECT_DESC"/>
+			<Set>
+				<Text>Завершение обучения иностранных космонавтов</Text>
+			</Set>
+		</Update>
+	
+		<Replace Tag="LOC_EMERGENCY_SCORE_ISS_S_PANEL_PROJECT_DESC" Language="ru_RU">
+			<Text>Отправка солнечной панели на МКС</Text>
+		</Replace>
+		<Replace Tag="LOC_EMERGENCY_SCORE_ISS_S_SCIENCE_PROJECT_DESC" Language="ru_RU">
+			<Text>Отправка лабораторного модуля на МКС </Text>
+		</Replace>
+		<Replace Tag="LOC_EMERGENCY_SCORE_ISS_SUPPLY_PROJECT_DESC" Language="ru_RU">
+			<Text>Отправка грузового шаттла на МКС</Text>
+		</Replace>
+	
+	<!-- Train foreign astronauts -->
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_NAME"/>
+			<Set>
+				<Text>Обучить космонавтов из других стран</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_SHORT_NAME"/>
+			<Set>
+				<Text>Обучить иностранных космонавтов</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="LOC_PROJECT_TRAIN_ASTRONAUTS_DESCRIPTION"/>
+			<Set>
+				<Text>Открывается с соревнованием МКС. [NEWLINE]Можно повторять много раз. При каждом завершении, дает 25 [ICON_Favor] влияния и 30 очков к соревнованию МКС.[NEWLINE]Обучите космонавтов из других стран работать с нашим снаряжением и участвовать в совместных миссиях.</Text>
+			</Set>
+		</Update>
+	
+	
+	<!-- Launch ISS Solar panel -->
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_NAME" Language="ru_RU">
+			<Text>Отправить солнечную панель на МКС</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_SHORT_NAME" Language="ru_RU">
+			<Text>Отправить солнечную панель на МКС</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с соревнованием МКС. Необходим успешный запуск ракеты на Луну и проведенная состыковка в открытом космосе. [NEWLINE]Можно повторять много раз. При каждом завершении, дает +1 [ICON_Power] Электричества от возобновляемых источников каждому городу на планете (включая города других цивилизаций). Дает 50 очков соревнования МКС.[NEWLINE]Запустите солнечную панель на МКС, способную запитать всевозможные модули.</Text>
+		</Replace>		
+		<Replace Tag="LOC_PROJECT_ISS_S_PANEL_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили солнечную панель на МКС. +1 [ICON_Power] лектричества от возобновляемых источников каждому городу на планете. Вы получаете 50 очков соревнования МКС.</Text>
+		</Replace>
+		
+	<!-- Launch ISS Lab  -->
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_NAME" Language="ru_RU">
+			<Text>Отправить лабораторный модуль на МКС</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_SHORT_NAME" Language="ru_RU">
+			<Text>Отправить лабораторию на МКС</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с соревнованием МКС. Необходим успешный запуск ракеты на Луну и проведенная состыковка в открытом космосе. [NEWLINE]Можно повторить 2 раза. Дает +2 [ICON_Science] Науки каждому городу на планете (включая города других цивилизаций). Дает 100 очков соревнования МКС.[NEWLINE]Запустите лабораторный модуль, который станет местом для всевозможных исследований на МКС.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_ISS_SCIENCE_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили лабораторный модуль на МКС. Все города на планете получают +2 [ICON_Science] Науки. Вы получаете 100 очков соревнования МКС. Теперь мы понимаем, что исследования в космосе могут приносить пользу всем жителям Земли.</Text>
+		</Replace>
+
+	<!-- Launch ISS Supply -->
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_NAME" Language="ru_RU">
+			<Text>Запуск грузового шаттла к МКС</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск грузового шаттла к МКС</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с соревнованием МКС. Необходим успешный запуск ракеты на Луну и проведенная состыковка в открытом космосе. [NEWLINE]Можно повторять много раз. При каждом завершении, дает 65 очков соревнования МКС.[NEWLINE]Запустите автономный грузовой корабль, полный продовольствия и образцов для МКС.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_ISS_SUPPLY_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили грузовой шаттл к МКС. Вы получаете 65 очков соревнования МКС. Космонавты очень рады получить вашу посылку и отправляют вам слова благодарности!</Text>
+		</Replace>
+		
+<!-- MARS EXPLORATION AND COLONISATION-->
+		<!-- Motor 4 -->
+		<Replace Tag="LOC_PROJECT_MOTOR_4_NAME" Language="ru_RU">
+			<Text>Создать ядерный реактор</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_4_SHORT_NAME" Language="ru_RU">
+			<Text>Создать ядерный реактор</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOTOR_4_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Ядерного Синтеза. Необходимо создание твердотопливного ускорителя. Необходимо для проекта межпланетного полета. [NEWLINE]Создайте и протестируйте реактор, работающий от энергии ядерного синтеза. Позволяет отправлять грузы за пределы Земной орбиты.</Text>
+		</Replace>
+		<!-- Mars rover -->
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_NAME" Language="ru_RU">
+			<Text>Запуск марсохода</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск марсохода</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Дальней Связи. Необходим успешный запуск ракеты на Луну. Необходимо для отправки ядерного реактора Марсианской колонии, отправки жилых модулей Марсианской колонии и отправки Гидропонного модуля Марсианской колонии. [NEWLINE]После завершения, дает одноразовый бонус к [ICON_Science] Науке, равный пятикратному количеству [ICON_Science] Науки за ход.[NEWLINE]Отправьте марсоход на поверхность Красной планеты с целью поиска всевозможных форм жизни.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ROBOT_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили марсоход к Марсу! Теперь мы можем исследовать поверхность Красной планеты в поисках живых организмов. Получите одноразовый бонус к [ICON_Science] Науке, равный пятикратному количеству [ICON_Science] Науки за ход.</Text>
+		</Replace>
+	<!-- Deep space probe -->
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_NAME" Language="ru_RU">
+			<Text>Запустить космический зонд за пределы Солнечной Системы</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить космический зонд за пределы Солнечной Системы</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Дальней Связи. Необходимо создание твердотопливного ускорителя. Необходимо для проекта межпланетного полета. [NEWLINE]После завершения, дает одноразовый бонус к [ICON_Science] Науке, равный пятикратному количеству [ICON_Science] Науки за ход.[NEWLINE]Отправьте зонд на поиски пригодных к жизни планет за пределами Солнечной Системы.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DEEP_SPACE_PROBE_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили космический зонд и вывели его за пределы Солнечной Системы! Теперь мы можем изучить самые дальние уголки нашей галактики. Получите одноразовый бонус к [ICON_Science] Науке, равный пятикратному количеству [ICON_Science] Науки за ход.</Text>
+		</Replace>
+	<!-- Deep space probe -->
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_NAME" Language="ru_RU">
+			<Text>Запустить космический телескоп</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить космический телескоп</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Спутников. Необходимо создание твердотопливного ускорителя. Необходимо для проекта Дальнекосмической Станции. [NEWLINE]После завершения, дает одноразовый бонус к [ICON_Culture] Культуре, равный пятикратному количеству [ICON_Science] Науки за ход.[NEWLINE]Отправьте спутник, оборудованный гигантским телескопом для изучения далеких уголков галактики.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SPACE_TELSCOPE_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили космический телескоп! Теперь мы можем делать фото нашей Вселенной в сверхвысоком разрешении. Получите одноразовый бонус к [ICON_Culture] Культуре, равный пятикратному количеству [ICON_Science] Науки за ход.</Text>
+		</Replace>
+	<!-- Command module 3 -->
+		<Replace Tag="LOC_PROJECT_CMD_3_NAME" Language="ru_RU">
+			<Text>Создать межпланетный модуль управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_SHORT_NAME" Language="ru_RU">
+			<Text>Создать межпланетный модуль управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Дальней Связи. Необходим успешный запуск ракеты к поверхности Луны. Необходимо для проекта обучения работе с межпланетным модулем управления, отправки гидропонического модуля, жилых модулей и ядероного реактора на Марс.[NEWLINE]Создайте и протестируйте отсек, способный поддерживать жизнедеятельность человека на длительные периоды времени, идеальные для колонизации других планет.</Text>
+		</Replace>		
+	<!-- Training Command module 3 -->
+		<Replace Tag="LOC_PROJECT_CMD_3_TRAIN_NAME" Language="ru_RU">
+			<Text>Провести обучение работе с межпланетным модулем управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_TRAIN_SHORT_NAME" Language="ru_RU">
+			<Text>Обучить работе с межпланетным модулем управления</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CMD_3_TRAIN_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо создать межпланетный модуль управления. Необходимо для проектов создания колонии на Луне и создания колонии на Марсе.[NEWLINE]Отправьте на короткую миссию пилотируемый модуль управления, чтобы протестировать его возможности и изменить наш подход к заселению других планет.</Text>
+		</Replace>	
+	<!-- Rocket 2 -->
+		<Replace Tag="LOC_PROJECT_ROCKET_2_NAME" Language="ru_RU">
+			<Text>Запустить межпланетную ракету</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_2_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить межпланетную ракету</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_2_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо создать ядерный реактор и оправить космический зонд за пределы Солнечной Системы. Необходимо для проекта запуска элемента Сферы Дайсона, отправки ядерного реактора Марсианской колонии, отправки жилых модулей Марсианской колонии и отправки Гидропонного модуля Марсианской колонии.[NEWLINE]Запустите и протестируйте сверхтяжелую ракету, созданную для доставки грузов на другие планеты.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ROCKET_2_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили межпланетную ракету! С ее мощностями, мы можем отправлять самые тяжелые грузы на другие планеты!</Text>
+		</Replace>
+	<!-- Mars Reactor -->
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_NAME" Language="ru_RU">
+			<Text>Отправить ядерный реактор на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_SHORT_NAME" Language="ru_RU">
+			<Text>Отправить ядерный реактор на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Ядерного Синтеза. Необходимо создать межпланетную ракету, межпланетный модуль управления и запустить марсоход. Необходимо для проекта создания колонии на Марсе. [NEWLINE]Отправьте и приземлите на поверхность Марса ядерный реактор, способный запитать электричеством будущую колонию землян.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_REACTOR_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили ядерный реактор на Марс! Теперь наша марсианская колония снабжена электричеством.</Text>
+		</Replace>
+	<!-- Mars Habitation -->
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_NAME" Language="ru_RU">
+			<Text>Запустить жилые модули на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить жилые модули на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Робототехники. Необходимо создать межпланетную ракету, межпланетный модуль управления и запустить марсоход. Необходимо для проекта создания колонии на Марсе. [NEWLINE]Отправьте и приземлите на поверхность Марса жилые модули для будущих обитателей Марса.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HABITATION_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили жилые модули на Марс! Теперь у наших колонистов будет место, которое они смогут назвать своим домом.</Text>
+		</Replace>
+	<!-- Hydroponics -->
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONICS_NAME" Language="ru_RU">
+			<Text>Отправить гидропонический модуль на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONICS_SHORT_NAME" Language="ru_RU">
+			<Text>Отправить гидропонический модуль на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONICS_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Нанотехнологий. Необходимо создать межпланетную ракету, межпланетный модуль управления и запустить марсоход. Необходимо для проекта создания колонии на Марсе. [NEWLINE]Отправьте и приземлите на поверхность Марса запас воды, семян и гидропонический модуль для снабжения марсианских колонистов свежей едой.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_HYDROPONIC_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили гидропонический модуль на Марс! Теперь мы можем выращивать еду на Красной планете!</Text>
+		</Replace>
+	<!-- Mars landing -->
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_MARS_BASE_DESCRIPTION"/>
+			<Set>
+				<Text>Открывается с изучением Нанотехнологий. Необходима отправка гидропонического модуля, жилых модулей и ядероного реактора на Марс, а также обучение работе с межпланетным модулем управления. Необходимо для проектов укрепления связи с Марсом, отправки углекислого газа на Марс, запуска Дальнекосмический Станции и проекта добычи метеоритов.[NEWLINE]После завершения, город потеряет -3 [ICON_Citizen] Населения. Дает лодноразовый бонус к [ICON_Culture] Культуре, равный десятикратному количеству [ICON_Science] Науки за ход.[NEWLINE]Запустите космический корабль с первыми колонистами Марса.</Text>
+			</Set>
+		</Update>
+	<!-- Mars economic links -->
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_NAME" Language="ru_RU">
+			<Text>Укрепить отношения с Марсианской колонией</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_SHORT_NAME" Language="ru_RU">
+			<Text>Укрепить отношения с Марсианской колонией</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск колонии на Марс.[NEWLINE]Можно повторять много раз. При каждом завершении, город теряет -3 [ICON_Citizen] Населения. Город получит 15% бонус к [ICON_Science] Науке, [ICON_Culture] Культуре, [ICON_Gold] Золоту и производству.[NEWLINE]Отправьте больше колонистов на Марс для ускорения его полного заселения.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_ECONOMIC_LINKS_POPUP" Language="ru_RU">
+			<Text>Вы успешно завершили миссию по укреплению отношений с Марсианской колонией. Этот город будет получать больше бонусов от марсианских городов. Город теряет -3 [ICON_Citizen] Населения и получает на 15% больше [ICON_Science] Науки, [ICON_Culture] Культуры, [ICON_Gold] Золота и производства.</Text>
+		</Replace>
+
+
+
+<!-- SOLAR SYSTEM HARVERSTING -->
+	<!-- Meteor mine -->
+		<Replace Tag="LOC_PROJECT_METEOR_NAME" Language="ru_RU">
+			<Text>Запустить миссию по добыче метеоритов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_METEOR_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить миссию по добыче метеоритов</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_METEOR_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Робототехники. Необходим успешный запуск колонии на Марс.[NEWLINE]Можно повторять много раз. При каждом завершении, все каменоломни и шахты в вашей цивилизации получают +1 производства, а также 30 единиц Алюминия.[NEWLINE]Запустите ракету для перехвата и доставки метеорита на орбиту Земли для последющей его добычи.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_METEOR_POPUP" Language="ru_RU">
+			<Text>Вы успешно завершили миссию по перехвату метеорита и доставили его на орбиту Земли. Теперь мы можем направить полученные ресурсы на благо нашей цивилизации. Все каменоломни и шахты в вашей цивилизации получили +1 производства. +30 единиц Алюминия.</Text>
+		</Replace>
+	<!-- Space X -->
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_NAME" Language="ru_RU">
+			<Text>Создать многоразовую ракету-носитель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_SHORT_NAME" Language="ru_RU">
+			<Text>Создать многоразовую ракету-носитель</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Прогнозирующих систем. Необходимо создать Твердотопливный Ускоритель.[NEWLINE]После завершения, получите +50% производства для проектов космической гонки.[NEWLINE]Разработайте и протестируйте новое поколение ракет-носителей, способных безопасно приземляться на Землю после запуска ракеты для повторного использования.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_REUSABLE_ROCKET_POPUP" Language="ru_RU">
+			<Text>Вы успешно разработали многоразовую ракету-носитель. Теперь нам не нужно каждый раз создавать новую ракету для запуска новой космической миссии! +50% производства для проектов космической гонки.</Text>
+		</Replace>
+	<!-- Moon colony -->
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_NAME" Language="ru_RU">
+			<Text>Отправтить колонию на Луну</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_SHORT_NAME" Language="ru_RU">
+			<Text>Запуск Лунной колонии</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Лазеров. Необходимо создать Твердотопливный Ускоритель и обучить космонавтов работе с межпланетным модулем управления. Необходимо для проекта создания космопорта на Луне.[NEWLINE]После завершения, ваш город теряет -3 [ICON_Citizen] Населения.[NEWLINE]Отправьте переселенцев на Луну со всем необходим снаряжением и оборудованием для создания новой колонии.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_MOON_HABITAT_POPUP" Language="ru_RU">
+			<Text>Вы успешно основали колонию на Луне! Сейчас она не приносит пользы нашей цивилизации, но в будущем мы сможем построить там космопорт для недорогого и эффективного запуска ракет. Ваш город теряет -3 [ICON_Citizen] Населения.</Text>
+		</Replace>
+	<!-- Moon spaceport -->
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_NAME" Language="ru_RU">
+			<Text>Построить лунный космопорт</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_SHORT_NAME" Language="ru_RU">
+			<Text>Построить лунный космопорт</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_DESCRIPTION" Language="ru_RU">
+			<Text>Необходима основанная Лунная колония.[NEWLINE]После завершения, +100% производства для проектов космической гонки. Ваш город теряет -1 [ICON_Citizen] Населения.[NEWLINE]Отправьте Лунной колонии необходимое снаряжение и обученный персонал для создания вашего первого лунного космопорта.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOON_LAUNCHER_POPUP" Language="ru_RU">
+			<Text>Вы успешно построили космопорт на поверхности Луны. Благодаря пониженной лунной гравитации и наличию альтернативных источников топлива, теперь мы можем эффективнее запускать тяжелые ракеты, минимизируя возможные затраты. Ваш город теряет -1 [ICON_Citizen] Населения. +100% +100% производства для проектов космической гонки.</Text>
+		</Replace>
+	<!-- Dyson sphere -->
+		<Replace Tag="LOC_PROJECT_DYSON_NAME" Language="ru_RU">
+			<Text>Запустить элементы Сферы Дайсона</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DYSON_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить элементы Сферы Дайсона</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_DYSON_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Умных Материалов. Необходим успешный запуск межпланетной ракеты.[NEWLINE]Можно повторить много раз. При каждом завершении проекта, дает этому городу +8 [ICON_Power] Электричества от возобновляемых источников.[NEWLINE]Отправьте огромную солнечную панель к Солнцу для сбора энергии и последующей ее передачи на Землю.</Text>
+		</Replace>				
+		<Replace Tag="LOC_PROJECT_DYSON_POPUP" Language="ru_RU">
+			<Text>Вы успешно вывели элемент Сферы Дайсона на орбиту Солнца. Теперь мы можем получать больше электричества! +8 [ICON_Power] Электричества в этом городе.</Text>
+		</Replace>
+	<!-- Mars carbon -->
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_NAME" Language="ru_RU">
+			<Text>Отправить углекислый газ на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_SHORT_NAME" Language="ru_RU">
+			<Text>Отправить углекислый газ на Марс</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_DESCRIPTION" Language="ru_RU">
+			<Text>Необходима основанная колония на Марсе. Нужно повторить 15 раз для разблокировки проекта создания атмосферы на Марсе.[NEWLINE]Можно повторить много раз. При каждом завершении проекта, уменьшает количество выбросов на -50.[NEWLINE]Наберите углекислый газ из атмосферы Земли и отправьте его на Марс, дабы начать процесс создания атмосферы, пригодной для жизни.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MARS_CARBON_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили ракету с полными баками CO2 к поверхности Марса! Количество выбросов уменьшено на -50.</Text>
+		</Replace>
+	<!-- Breath Mars -->
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_NAME" Language="ru_RU">
+			<Text>Сделать Марс пригодным для жизни</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_SHORT_NAME" Language="ru_RU">
+			<Text>Сделать Марс пригодным для жизни</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_DESCRIPTION" Language="ru_RU">
+			<Text>Необходимо завершить проект отправки углекислого газа на Марс 15 раз.[NEWLINE]После завершения, все города в вашей цивилизации получат +50% к скорости роста. Дает 1 очко дипломатической победы.[NEWLINE]Отправьте на Марс всевозможные формы жизни, способные перерабатывать углекислый газ в кислород.</Text>
+		</Replace>	
+		<Replace Tag="LOC_PROJECT_LIFE_ON_MARS_POPUP" Language="ru_RU">
+			<Text>Вы успешно отправили ракету с биомассой на Марс! Теперь Красная планета потихоньку становится пригодной для жизни, и это положительно скажется на ее населении! +50% роста в городах вашей цивилизации. +1 очко дипломатической победы.</Text>
+		</Replace>
+		<Replace Tag="LOC_DVP_TOOLTIP_PROJECT_LIFE_ON_MARS_DIPLO_VP" Language="ru_RU">
+			<Text>[ICON_BOLT] {1_Amount} от процесса терраформирования Марса.</Text>
+		</Replace>			
+
+
+
+<!-- BEYOND EARTH PROJECTS-->
+	<!-- Beyond Space Station -->
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_NAME" Language="ru_RU">
+			<Text>Запустить Дальнекосмическую Станцию</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить Дальнекосмическую Станцию</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Умных Материалов. Необходима основанная колония на Марсе и успешный запуск космического телескопа. Необходимо для запуска Гидропонного модуля Дальнекосмической Станции, реактора Дальнекосмической Станции и обучения переселенцев для экспедиции к экзопланете.[NEWLINE]Запустите многофункциональную космическую станцию, способную путешествовать среди звезд и вмещать в себя достаточное количество переселенцев.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_SS_POPUP" Language="ru_RU">
+			<Text>Вы успешно создали и запустили Дальнекосмическую Станцию, предназначенную для путешествия к далеким планетам. Теперь нам нужно создать несколько критически важных компонентов, прежде чем отправиться покорять далекий космос!</Text>
+		</Replace>		
+	<!-- Beyond Space Station Hydro -->
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_NAME" Language="ru_RU">
+			<Text>Запустить Гидропонный модуля Дальнекосмической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить Гидропонный модуля Дальнекосмической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск Дальнекосмической Станции. Необходимо для отправки экспедиции к экзопланете.[NEWLINE]Запустите модуль, полный различных семян со всех планет для заселения других миров.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_HYDROPONICS_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили Гидропонный модуль Дальнекосмической Станции. Он пригодится нашим поселенцам для выращивания еды на далеких от дома планетах...</Text>
+		</Replace>	
+	<!-- Beyond Space Station -->
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_NAME" Language="ru_RU">
+			<Text>Запустить реактор Дальнекосмической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_SHORT_NAME" Language="ru_RU">
+			<Text>Запустить реактор Дальнекосмической Станции</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_DESCRIPTION" Language="ru_RU">
+			<Text>Открывается с изучением Силовых Ячеек. Необходим успешный запуск Дальнекосмической Станции. Необходимо для отправки экспедиции к экзопланете.[NEWLINE]Запустите термоядерный реактор для снабжения Дальнекосмической Станции электричеством на протяжении ее долгого пути к звездам.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_REACTOR_POPUP" Language="ru_RU">
+			<Text>Вы успешно запустили реактор Дальнекосмической Станции. Он пригодится нам для снабжения этого массивного судна электричеством!</Text>
+		</Replace>	
+	<!-- Beyond Space Station recruit -->
+		<Replace Tag="LOC_PROJECT_BEYOND_POPULATION_NAME" Language="ru_RU">
+			<Text>Обучить поселенцев для экспедиции к экзопланете</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_POPULATION_SHORT_NAME" Language="ru_RU">
+			<Text>Обучить поселенцев для экспедиции к экзопланете</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BEYOND_POPULATION_DESCRIPTION" Language="ru_RU">
+			<Text>Необходим успешный запуск Дальнекосмической Станции. Необходимо завершить 3 раза для отправки экспедиции к экзопланете.[NEWLINE]Можно повторить 3 раза. После завершения, ваш город теряет -3 Населения. [NEWLINE]Обучите ваших людей работать с Дальнекосмической Станцией и подготовьте их к жизни в криогенной капсуле.</Text>
+		</Replace>
+		
+		<Update>
+			<Where Tag="LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_DESCRIPTION"/>
+			<Set>
+				<Text>Открывается с изучением Умных Материалов. Необходимо обучить поселенцев для экспедиции к экзопланете 3 раза, запустить реактор Дальнекосмической Станции и Гидропонный модуль Космической Станции. Необходимо для проектов создания наземной лазерной станции и запуска модуля в точку Лагранжа.[NEWLINE]После завершения, запускает Дальнекосмическую Станцию к экзопланете, двигающуюся со скоростью 1 световой час за ход. Вы объявляете Научную Победу сразу после достижения станцией пункта назначения.</Text>
+			</Set>
+		</Update>
+	
+	
+	
+<!-- SPACEPORT ADJENCY -->
+		<Replace Tag="LOC_DISTRICT_SPACE_FOREST_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних клеток Лесов.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_JUNGLE_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних клеток Тропических Лесов.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_MARSH_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних Болотных клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_GRASS_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних Луговых клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_PLAINS_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних Равнинных клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_DESERT_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних Пустынных клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_DESERT_HILLS_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних клеток Пустынных Холмов.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_TUNDRA_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних клеток Тундры.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_SNOW_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних Снежных клеток.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_SNOW_HILLS_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних клеток Снежных Холмов.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_COAST_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от каждых {2_num} соседних клеток Побережья.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_HARBOR_PRODUCTION" Language="ru_RU">
+			<Text>+{2_num} [ICON_Production] Производства от соседства с Гаванью.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_CAMPUS_PRODUCTION" Language="ru_RU">
+			<Text>+{1_num} [ICON_Production] Производства от соседства с Кампусом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_INDUSTRIAL_PRODUCTION" Language="ru_RU">
+			<Text>+{2_num} [ICON_Production] Производства от соседства с Индустриальной Зоной.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SPACE_AERODROME_PRODUCTION" Language="ru_RU">
+			<Text>+{3_num} [ICON_Production] Производства от соседства с Аэродромом.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MISSILE_SILO_PRODUCTION" Language="ru_RU">
+			<Text>+{3_num} [ICON_Production] Производства от соседства с Пусковой Шахтой.</Text>
+		</Replace>
+	
+	</LocalizedText>
+</GameData>

@@ -151,6 +151,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Silk & Spice: Trade Route Rework (Alf.Net | Junky)
 1. Ski Resort Complexity (JNR | H.Humpel)
 1. SpatialX Civilian Helicopter (SpatialX & Shuricas | H.Humpel)
+1. SpatialX Space Race (SpatialX | H.Humpel)
 1. Spy Promotion Tree (Luke Vo | Junky)
 1. SquirrelMod - BetterCity (Neicureuil | H.Humpel)
 1. Steel and Thunder: Unique Units (Deliverator23, janboruta & chimp | Junky)

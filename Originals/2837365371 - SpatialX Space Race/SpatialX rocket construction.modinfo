@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="078ff062-c17d-4b11-a63a-805992bdaeac" version="1">
+  <Properties>
+    <Name>SpatialX Space Race</Name>
+    <Description>Adds numerous projects to achieve science victory. First before launching, you must develop the rocket and it's differents parts. You will also need to recruit astronauts, train them and construct the module they will sit on. Each project individually is quite cheap production wise, but there is so many of them that you will need to use multiple city to achieve the science victory.</Description>
+    <Created>1662745572</Created>
+    <Teaser>Adds numerous projects to achieve science victory</Teaser>
+    <Authors>SpatialX</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="4d9b8839-7dcf-4c76-8f5e-b5cd33ea24f4" title="Raubak Explorers" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="spatialX_sr_explorer">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_EXPLORERS</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="spatialX_sr_jnr_sat" />
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateIcons id="NewAction">
+      <File>Core/project_icon.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>SpatialX rocket construction.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="UpdateProjectText">
+      <File>Core/project_text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateProjectIcon">
+      <File>Core/project_icon.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="UpdateProjectDatabase">
+      <File>Core/projects.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateProjectArt">
+      <File>SpatialX rocket construction.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="UpdateDatabase_explorers">
+      <Properties>
+        <RuleSet>RULESET_EXPANSION_2</RuleSet>
+        <LoadOrder>18005</LoadOrder>
+      </Properties>
+      <Criteria>spatialX_sr_explorer</Criteria>
+      <File priority="150000">mod_support/compability_explorers.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText_explorers" />
+  </InGameActions>
+  <Files>
+    <File>Assets/SpatialX_Space_race_Project256.dds</File>
+    <File>Assets/SpatialX_Space_race_Project30.dds</File>
+    <File>Assets/SpatialX_Space_race_Project32.dds</File>
+    <File>Assets/SpatialX_Space_race_Project38.dds</File>
+    <File>Assets/SpatialX_Space_race_Project50.dds</File>
+    <File>Assets/SpatialX_Space_race_Project70.dds</File>
+    <File>Assets/SpatialX_Space_race_Project80.dds</File>
+    <File>Core/projects.xml</File>
+    <File>Core/project_icon.xml</File>
+    <File>Core/project_text.xml</File>
+    <File>mod_support/compability_explorers.xml</File>
+    <File>mod_support/compability_explorers_text.xml</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>SpatialX rocket construction.Art.xml</File>
+    <File>SpatialX rocket construction.dep</File>
+    <File>XLPs/UITexture.xlp</File>
+  </Files>
+</Mod>

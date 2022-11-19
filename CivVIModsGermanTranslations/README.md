@@ -180,6 +180,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | **NEW**
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
+2837365371 | SpatialX Space Race | SpatialX | H.Humpel | **NEW**
 2851654918 | Walled Quarter | blkbutterfly | Junky | **NEW**
 2856129795 | Enhanced Routes | Nightemaire | H.Humpel | #20
 2857099961 | Policy Pack: Corporations | JNR | H.Humpel | **NEW**
