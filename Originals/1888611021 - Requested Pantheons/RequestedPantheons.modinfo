@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ef3d3f18-490d-4244-866a-d8687d6570df" version="1">
+  <Properties>
+    <Name>Requested Pantheons</Name>
+    <Description>This is a mod containing all pantheons that have been requested from me.
+
+I'm trying to reduce/condense the number of mods I have in the workshop to a more managable number. 
+
+I'm also trying to improve the quality of all of my mods and reduce the number of bugs, which may mean changing the features that I cannot fix.</Description>
+    <Created>1570982180</Created>
+    <Teaser>This is a mod containing all pantheons that have been requested from me.
+
+I'm trying to reduce/condense the number of mods I</Teaser>
+    <Authors>Angryr</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+    <Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+    <Mod id="1F367231-A040-4793-BDBB-088816853683" title="DLC: Khmer and Indonesia Civilization Pack" />
+    <Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+    <Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+    <Mod id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" title="DLC: Vikings Content" />
+  </References>
+  <FrontEndActions>
+    <UpdateDatabase id="Text">
+      <File>Pantheons_Text.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>GodOfTheGods.sql</File>
+      <File>GodOfTheHolyEncampment.sql</File>
+      <File>GodOfTheHolySea.sql</File>
+      <File>GodOfTheSuperSea.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Pantheons_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>GodOfTheGods.sql</File>
+    <File>GodOfTheHolyEncampment.sql</File>
+    <File>GodOfTheHolySea.sql</File>
+    <File>GodOfTheSuperSea.sql</File>
+    <File>Icons.xml</File>
+    <File>Pantheons_Text.sql</File>
+  </Files>
+</Mod>
