@@ -2,8 +2,8 @@
 <Mod id="df96f749-d5a0-4c2b-8fa5-7b81dbaadac9" version="1">
   <Properties>
     <Name>[COLOR:190,255,129]Sailor Cat's[ENDCOLOR] Relics Plus</Name>
-    <Description>Adds new ways to obtain [ICON_GreatWork_Relic] Relics, including a new pantheon and goody-type improvement.</Description>
-    <Created>1668885268</Created>
+    <Description>Keeps relics rare while adding more reliability to their acquisition.[NEWLINE][NEWLINE][COLOR:190,255,129]Unexplored Ruins[ENDCOLOR] [NEWLINE]Like goody huts but much harder to come by. Delve into the depths of these ruins to discover a free relic. Generated at the start of a game.[NEWLINE][NEWLINE][COLOR:190,255,129]Investiture Pantheon[ENDCOLOR] [NEWLINE]Receive one free relic if you have an open slot before taking this Pantheon. The monument has a slot for relics.[NEWLINE][NEWLINE][COLOR:190,255,129]World Wonders[ENDCOLOR] [NEWLINE]Any world wonder with a slot specifically for relics will now also grant a single relic.</Description>
+    <Created>1668909538</Created>
     <Teaser>Expands relic options and availability.</Teaser>
     <Authors>Sailor Cat</Authors>
     <SpecialThanks>Leugi</SpecialThanks>
@@ -13,7 +13,7 @@
   <InGameActions>
     <UpdateDatabase id="vrmmorpg">
       <Properties>
-        <LoadOrder>1779</LoadOrder>
+        <LoadOrder>99999</LoadOrder>
       </Properties>
       <File>LivingInTheDatabase.sql</File>
     </UpdateDatabase>
@@ -23,16 +23,21 @@
     <UpdateArt id="hentai">
       <File>Sailor Cat's Relics Plus.dep</File>
     </UpdateArt>
-    <UpdateIcons id="NewAction">
+    <UpdateIcons id="idolatry">
       <File>Iconography.sql</File>
     </UpdateIcons>
-    <UpdateText id="NewAction">
+    <UpdateText id="lemon">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
       <File>FanFictionDotNet.xml</File>
+      <File>Dynamic_AI_Generated_Lemon_Updates.sql</File>
     </UpdateText>
   </InGameActions>
   <Files>
     <File>Artdefs/Improvements.artdef</File>
     <File>Artdefs/Landmarks.artdef</File>
+    <File>Dynamic_AI_Generated_Lemon_Updates.sql</File>
     <File>FanFictionDotNet.xml</File>
     <File>Iconography.sql</File>
     <File>LeaderUniqueAbility.lua</File>
