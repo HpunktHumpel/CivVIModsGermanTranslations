@@ -1,4 +1,5 @@
-# Version v0.3 - 15.11.2022
+# Version v0.4 - 20.11.2022
+# -*- coding: utf-8 -*-
 
 import os
 import re
@@ -49,7 +50,7 @@ mymod_modfolder = os.path.join(mymod_folder, mod_number)
 # check if the original mod has been downloaded
 if not os.path.isdir(workshop_modfolder):
     exit = input("ERROR: Original Mod not found!")
-    exit()
+    sys.exit()
 
 # get the modinfo file
 for i in os.listdir(workshop_modfolder):
@@ -61,7 +62,7 @@ for i in os.listdir(workshop_modfolder):
 # just in case there are more than one modinfo files... we habe a problem!
 if modinfo_files != 1:
     exit = input("ERROR with modinfo files!\n")
-    exit()
+    sys.exit()
 
 
 # get the website
@@ -74,11 +75,11 @@ if modinfo_files != 1:
 # open the modinfo file
 file_to_open = os.path.join(workshop_modfolder, modinfo_filename)
 #print(file_to_open)
-file_modinfo = open(file_to_open)
+file_modinfo = open(file_to_open, "r", encoding="utf8")
 modinfo_xml = minidom.parse(file_to_open)
 
 # open the outfile
-outfile = open(mod_number+".txt", "w")
+outfile = open(mod_number+".txt", "w", encoding="utf8")
 
 
 # get the basic information from the modinfo file
@@ -93,7 +94,7 @@ mod_NAME_NOEXTRA = re.sub("\[.*?\]","",mod_NAME)
 rx = re.compile('\W+')
 mod_NAME_CLEAN = rx.sub(' ', mod_NAME_NOEXTRA).strip()
 
-# get FrontEndActions and InGameActions fromthe modinfo file
+# get FrontEndActions and InGameActions from the modinfo file (if exist)
 if len(modinfo_xml.getElementsByTagName("FrontEndActions")) > 0:
     frontend_action = modinfo_xml.getElementsByTagName("FrontEndActions")[0]
 if len(modinfo_xml.getElementsByTagName("InGameActions")) > 0:
@@ -141,16 +142,16 @@ if backup_originals:
     #  create the folder
     filename_backup = os.path.join(originalsbackup_modfolder, modinfo_filename)
     if os.path.isdir(originalsbackup_modfolder):
-        print("Found (Backup): "+originalsbackup_modfolder)
+        print("Found DIR (Backup): "+originalsbackup_modfolder)
     else:
         os.mkdir(originalsbackup_modfolder)
-        print("CREATED (Backup): "+originalsbackup_modfolder)
+        print("CREATED DIR (Backup): "+originalsbackup_modfolder)
     # copy the modinfo file
     if os.path.isfile(filename_backup):
         print("Found (Backup): "+filename_backup)
     else:
-        file_backup = open(filename_backup, "w")
-        content = Path(os.path.join(workshop_modfolder, modinfo_filename)).read_text()
+        file_backup = open(filename_backup, "w", encoding="utf8")
+        content = Path(os.path.join(workshop_modfolder, modinfo_filename)).read_text(encoding="utf-8")
         file_backup.write(content)
         print("COPIED (Backup): "+filename_backup)
         file_backup.close()
@@ -172,73 +173,76 @@ if len(modinfo_xml.getElementsByTagName("FrontEndActions")) > 0:
         text.setAttribute("id", mod_COMPNAME_CLEAN+"_"+attribute_id+"_FrontEnd_de_DE")
         # get all the "File" entries
         filenodes = text.getElementsByTagName("File")
-        for filenode in filenodes:
-            filename = filenode.firstChild.nodeValue
-            mod_filenames.append(filename)
-            new_filename = mod_number + "/" + filename
-            new_filename = "_de_DE.".join(new_filename.rsplit(".", 1))
-            new_filenames.append(new_filename)
-            filenode.firstChild.replaceWholeText(new_filename)
-            filepath = filename.split("/")
-            filepath.pop(-1)
-            thisdir = mod_number
-            this_backupdir = ""
-            # build the directory structure
-            for dir in filepath:
-                thisdir = str(thisdir+"/"+dir)
-                this_backupdir = str(this_backupdir+"/"+dir)
-                realdir = str(mymod_folder+"/"+thisdir)
-                backupdir = str(originalsbackup_modfolder+"/"+this_backupdir)
-                if os.path.isdir(realdir):
-                    print("Found: "+realdir)
+        # gibt es keine File-Tags in diesem UpdateText ?
+        if len(filenodes) > 0:
+            for filenode in filenodes:
+                filename = filenode.firstChild.nodeValue
+                mod_filenames.append(filename)
+                new_filename = mod_number + "/" + filename
+                new_filename = "_de_DE.".join(new_filename.rsplit(".", 1))
+                new_filenames.append(new_filename)
+                filenode.firstChild.replaceWholeText(new_filename)
+                filepath = filename.split("/")
+                filepath.pop(-1)
+                thisdir = mod_number
+                this_backupdir = ""
+                # build the directory structure
+                for dir in filepath:
+                    thisdir = str(thisdir+"/"+dir)
+                    this_backupdir = str(this_backupdir+"/"+dir)
+                    realdir = str(mymod_folder+"/"+thisdir)
+                    backupdir = str(originalsbackup_modfolder+"/"+this_backupdir)
+                    if os.path.isdir(realdir):
+                        print("Found DIR: "+realdir)
+                    else:
+                        os.mkdir(realdir)
+                        print("CREATED DIR: "+realdir)
+                    folder_includes.append(str(thisdir+"/"))
+                    # don't forget the backup files (if wanted)
+                    if backup_originals:
+                        if os.path.isdir(backupdir):
+                            print("Found DIR (Backup): "+backupdir)
+                        else:
+                            os.mkdir(backupdir)
+                            print("CREATED DIR (Backup): "+backupdir)
+                    print()
+
+                filename_mod = str(workshop_modfolder+"/"+filename)
+                filename_backup = str(originalsbackup_modfolder+"/"+filename)
+                filename_new = str(mymod_folder+new_filename)
+                # copy/create files if not existing
+                if os.path.isfile(filename_new):
+                    print("Found: "+filename_new)
                 else:
-                    os.mkdir(realdir)
-                    print("CREATED: "+realdir)
-                folder_includes.append(str(thisdir+"/"))
+                    file_new = open(filename_new, "w", encoding="utf8")
+                    content = Path(filename_mod).read_text(encoding="utf-8")
+                    content = content.replace("en_US", "de_DE")
+                    content = content.replace("<Row ", "<Replace ")
+                    content = content.replace("</Row>", "</Replace>")
+                    file_new.write(content)
+                    print("CREATED: "+filename_new)
+                    file_new.close()
                 # don't forget the backup files (if wanted)
                 if backup_originals:
-                    if os.path.isdir(backupdir):
-                        print("Found (Backup): "+backupdir)
+                    if os.path.isfile(filename_backup):
+                        print("Found (Backup): "+filename_backup)
                     else:
-                        os.mkdir(backupdir)
-                        print("CREATED (Backup): "+backupdir)
+                        file_backup = open(filename_backup, "w", encoding="utf8")
+                        content = Path(filename_mod).read_text(encoding="utf-8")
+                        file_backup.write(content)
+                        print("COPIED (Backup): "+filename_backup)
+                        file_backup.close()
                 print()
 
-            filename_mod = str(workshop_modfolder+"/"+filename)
-            filename_backup = str(originalsbackup_modfolder+"/"+filename)
-            filename_new = str(mymod_folder+new_filename)
-            # copy/create files if not existing
-            if os.path.isfile(filename_new):
-                print("Found: "+filename_new)
-            else:
-                file_new = open(filename_new, "w")
-                content = Path(filename_mod).read_text()
-                content = content.replace("en_US", "de_DE")
-                content = content.replace("<Row ", "<Replace ")
-                content = content.replace("</Row>", "</Replace>")
-                file_new.write(content)
-                print("CREATED: "+filename_new)
-                file_new.close()
-            # don't forget the backup files (if wanted)
-            if backup_originals:
-                if os.path.isfile(filename_backup):
-                    print("Found (Backup): "+filename_backup)
-                else:
-                    file_backup = open(filename_backup, "w")
-                    content = Path(filename_mod).read_text()
-                    file_backup.write(content)
-                    print("COPIED (Backup): "+filename_backup)
-                    file_backup.close()
-            print()
+            # build and add the Criteria elements
+            hnode = modinfo_xml.createElement('Criteria')
+            htext = modinfo_xml.createTextNode(mod_COMPNAME_CLEAN+"_FrontEnd")
+            hnode.appendChild(htext)
+            text.insertBefore(hnode, filenodes[0])
+            newline = modinfo_xml.createTextNode('\n      ')
+            text.insertBefore(newline, filenodes[0])
+            outfile.write(str(text.toprettyxml(indent='  ', newl=''))+"\n\n")
 
-        # build and add the Criteria elements
-        hnode = modinfo_xml.createElement('Criteria')
-        htext = modinfo_xml.createTextNode(mod_COMPNAME_CLEAN+"_FrontEnd")
-        hnode.appendChild(htext)
-        text.insertBefore(hnode, filenodes[0])
-        newline = modinfo_xml.createTextNode('\n      ')
-        text.insertBefore(newline, filenodes[0])
-        outfile.write(str(text.toprettyxml(indent='  ', newl=''))+"\n\n")
     print("FrontEndActions: "+str(frontend_entries))
     if frontend_entries:
         outfile.write(str('      <Criteria id="'+mod_COMPNAME_CLEAN+'_FrontEnd'+'">			<ModIsEnabled>'+mod_ID+'</ModIsEnabled></Criteria>\n\n'))
@@ -260,73 +264,76 @@ if len(modinfo_xml.getElementsByTagName("InGameActions")) > 0:
         text.setAttribute("id", mod_COMPNAME_CLEAN+"_"+attribute_id+"_de_DE")
         # get all the "File" entries
         filenodes = text.getElementsByTagName("File")
-        for filenode in filenodes:
-            filename = filenode.firstChild.nodeValue
-            mod_filenames.append(filename)
-            new_filename = mod_number + "/" + filename
-            new_filename = "_de_DE.".join(new_filename.rsplit(".", 1))
-            new_filenames.append(new_filename)
-            filenode.firstChild.replaceWholeText(new_filename)
-            filepath = filename.split("/")
-            filepath.pop(-1)
-            thisdir = mod_number
-            this_backupdir = ""
-            # build the directory structure
-            for dir in filepath:
-                thisdir = str(thisdir+"/"+dir)
-                this_backupdir = str(this_backupdir+"/"+dir)
-                realdir = str(mymod_folder+"/"+thisdir)
-                backupdir = str(originalsbackup_modfolder+"/"+this_backupdir)
-                if os.path.isdir(realdir):
-                    print("Found: "+realdir)
+        # gibt es keine File-Tags in diesem UpdateText ?
+        if len(filenodes) > 0:
+            for filenode in filenodes:
+                filename = filenode.firstChild.nodeValue
+                mod_filenames.append(filename)
+                new_filename = mod_number + "/" + filename
+                new_filename = "_de_DE.".join(new_filename.rsplit(".", 1))
+                new_filenames.append(new_filename)
+                filenode.firstChild.replaceWholeText(new_filename)
+                filepath = filename.split("/")
+                filepath.pop(-1)
+                thisdir = mod_number
+                this_backupdir = ""
+                # build the directory structure
+                for dir in filepath:
+                    thisdir = str(thisdir+"/"+dir)
+                    this_backupdir = str(this_backupdir+"/"+dir)
+                    realdir = str(mymod_folder+"/"+thisdir)
+                    backupdir = str(originalsbackup_modfolder+"/"+this_backupdir)
+                    if os.path.isdir(realdir):
+                        print("Found DIR: "+realdir)
+                    else:
+                        os.mkdir(realdir)
+                        print("CREATED DIR: "+realdir)
+                    folder_includes.append(str(thisdir+"/"))
+                    # don't forget the backup files (if wanted)
+                    if backup_originals:
+                        if os.path.isdir(backupdir):
+                            print("Found DIR (Backup): "+backupdir)
+                        else:
+                            os.mkdir(backupdir)
+                            print("CREATED DIR (Backup): "+backupdir)
+                    print()
+
+                filename_mod = str(workshop_modfolder+"/"+filename)
+                filename_backup = str(originalsbackup_modfolder+"/"+filename)
+                filename_new = str(mymod_folder+new_filename)
+                # copy/create files if not existing
+                if os.path.isfile(filename_new):
+                    print("Found: "+filename_new)
                 else:
-                    os.mkdir(realdir)
-                    print("CREATED: "+realdir)
-                folder_includes.append(str(thisdir+"/"))
+                    file_new = open(filename_new, "w", encoding="utf8")
+                    content = Path(filename_mod).read_text(encoding="utf-8")
+                    content = content.replace("en_US", "de_DE")
+                    content = content.replace("<Row ", "<Replace ")
+                    content = content.replace("</Row>", "</Replace>")
+                    file_new.write(content)
+                    print("CREATED: "+filename_new)
+                    file_new.close()
                 # don't forget the backup files (if wanted)
                 if backup_originals:
-                    if os.path.isdir(backupdir):
-                        print("Found (Backup): "+backupdir)
+                    if os.path.isfile(filename_backup):
+                        print("Found (Backup): "+filename_backup)
                     else:
-                        os.mkdir(backupdir)
-                        print("CREATED (Backup): "+backupdir)
+                        file_backup = open(filename_backup, "w", encoding="utf8")
+                        content = Path(filename_mod).read_text(encoding="utf-8")
+                        file_backup.write(content)
+                        print("COPIED (Backup): "+filename_backup)
+                        file_backup.close()
                 print()
 
-            filename_mod = str(workshop_modfolder+"/"+filename)
-            filename_backup = str(originalsbackup_modfolder+"/"+filename)
-            filename_new = str(mymod_folder+new_filename)
-            # copy/create files if not existing
-            if os.path.isfile(filename_new):
-                print("Found: "+filename_new)
-            else:
-                file_new = open(filename_new, "w")
-                content = Path(filename_mod).read_text()
-                content = content.replace("en_US", "de_DE")
-                content = content.replace("<Row ", "<Replace ")
-                content = content.replace("</Row>", "</Replace>")
-                file_new.write(content)
-                print("CREATED: "+filename_new)
-                file_new.close()
-            # don't forget the backup files (if wanted)
-            if backup_originals:
-                if os.path.isfile(filename_backup):
-                    print("Found (Backup): "+filename_backup)
-                else:
-                    file_backup = open(filename_backup, "w")
-                    content = Path(filename_mod).read_text()
-                    file_backup.write(content)
-                    print("COPIED (Backup): "+filename_backup)
-                    file_backup.close()
-            print()
+            # build and add the Criteria elements
+            hnode = modinfo_xml.createElement('Criteria')
+            htext = modinfo_xml.createTextNode(mod_COMPNAME_CLEAN)
+            hnode.appendChild(htext)
+            text.insertBefore(hnode, filenodes[0])
+            newline = modinfo_xml.createTextNode('\n      ')
+            text.insertBefore(newline, filenodes[0])
+            outfile.write(str(text.toprettyxml(indent='  ', newl=''))+"\n\n")
 
-        # build and add the Criteria elements
-        hnode = modinfo_xml.createElement('Criteria')
-        htext = modinfo_xml.createTextNode(mod_COMPNAME_CLEAN)
-        hnode.appendChild(htext)
-        text.insertBefore(hnode, filenodes[0])
-        newline = modinfo_xml.createTextNode('\n      ')
-        text.insertBefore(newline, filenodes[0])
-        outfile.write(str(text.toprettyxml(indent='  ', newl=''))+"\n\n")
     print("InGameActions: "+str(ingame_entries))
     if ingame_entries:
         outfile.write(str('      <Criteria id="'+mod_COMPNAME_CLEAN+'">			<ModInUse>'+mod_ID+'</ModInUse></Criteria>\n\n'))
