@@ -188,6 +188,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | #20
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | #20
 2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | **NEW**
+2863225264 | Bear's Mods - Governor Overhaul | MarshmallowBear | Junky | **NEW**
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
 2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | **NEW**
 2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | **NEW**

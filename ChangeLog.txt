@@ -1,5 +1,6 @@
 20.11.2022
 
+- [NEW] Bear's Mods - Governor Overhaul (vom 15. Sep. 2022 um 15:00, Übersetzung von Junky)
 - [UPDATE] Sailor Cat's Relics Plus (vom 20. Nov. 2022 um 3:03, Übersetzung von H.Humpel)
 - [IMPROVED] Ancient Egyptian Pantheons
 - [IMPROVED] MoreTier1Policies

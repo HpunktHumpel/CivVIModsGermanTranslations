@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c3ae4eb5-5416-4f70-820b-ac8ee33187e4" version="1">
+  <Properties>
+    <Name>Bear's Mods - Governor Overhaul</Name>
+    <Description>A complete overhaul of the Governor system, to make them in some capacity mimic the Policy Trees of Civilization 5.</Description>
+    <Created>1660699144</Created>
+    <Teaser>A complete overhaul of the Governor system, to make them in some capacity mimic the Policy Trees of Civilization 5.</Teaser>
+    <Authors>TheMarshmallowBear</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0" title="6T - Grand Eras" />
+	<Mod id="4e12695f-0ae8-40c4-9230-aa605c284b64" title="Alliances Expanded"/>
+  </References>
+  <!-- Mod Buddy doesn't support ModInUse criteria properly, so we need to remember to keep a copy of this to paste anytime we update the mod via ModBuddy -->
+  <ActionCriteria>
+	<Criteria id="BearGovernor_Expansion1">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse>
+	</Criteria>
+	<Criteria id="BearGovernor_GrandEras">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
+	</Criteria>
+	<Criteria id="BearGovernor_AllianceExpanded">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>4e12695f-0ae8-40c4-9230-aa605c284b64</ModInUse>
+	</Criteria>
+  </ActionCriteria>
+  <!-- Mod Buddy doesn't support ModInUse criteria properly, so we need to remember to keep a copy of this to paste anytime we update the mod via ModBuddy -->
+  <InGameActions>
+	<ImportFiles id="BearGovernor_ImportFiles">
+	  <File>UI/Replacements/GovernorPanel.lua</File>
+	  <File>UI/Replacements/GovernorPanel.xml</File>
+	  <File>UI/Replacements/GovernorDetailsPanel.lua</File>
+	  <File>UI/Replacements/GovernorDetailsPanel.xml</File>
+	  <File>LUA/GovernorModifiersHandler.lua</File>
+	</ImportFiles>
+	<UpdateArt id="BearGovernor_UpdateArt">
+	  <File>Bear_s_Governor_Overhaul.dep</File>
+	</UpdateArt>
+	<UpdateDatabase id="BearGovernor_ParkText">
+	  <File>Data/FisheryPark.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="BearGovernor_Manager">
+	  <File>Data/Manager.sql</File>
+	</UpdateDatabase>
+	<ReplaceUIScript id="BearGovernor_ReplaceGovernorScreen">
+	  <Properties>
+		<LuaContext>GovernorPanel</LuaContext>
+		<LuaReplace>UI/Replacements/GovernorPanel.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="BearGovernor_ReplaceGovernorDetailsPanel">
+	  <Properties>
+		<LuaContext>GovernorDetailsPanel</LuaContext>
+		<LuaReplace>UI/Replacements/GovernorDetailsPanel.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<UpdateIcons id="BearGovernor_UpdateIcons">
+	  <File>Icons/GovernorIcons.sql</File>
+	</UpdateIcons>
+	<UpdateText id="BearGovernor_UpdateText">
+	  <File>Text/LocalizationEN.sql</File>
+	</UpdateText>
+	<UpdateDatabase id="BearGovernor_Governors">
+	  <Properties>
+		<LoadOrder>18002</LoadOrder>
+	  </Properties>
+	  <File>Data/Governors/Cardinal.sql</File>
+	  <File>Data/Governors/Castellan.sql</File>
+	  <File>Data/Governors/Curator.sql</File>
+	  <File>Data/Governors/Diplomat.sql</File>
+	  <File>Data/Governors/Educator.sql</File>
+	  <File>Data/Governors/Financier.sql</File>
+	  <File>Data/Governors/General.sql</File>
+	  <File>Data/Governors/GrandVizier.sql</File>
+	  <File>Data/Governors/Harbormaster.sql</File>
+	  <File>Data/Governors/Pioneer.sql</File>
+	  <File>Data/Governors/Spymaster.sql</File>
+	  <File>Data/Governors/Steward.sql</File>
+	  <File>Data/Governors/Surveyor.sql</File>
+	</UpdateDatabase>
+	<AddGameplayScripts id="BearGovernor_LuaHandler">
+	  <File>LUA/GovernorModifiersHandler.lua</File>
+	</AddGameplayScripts>
+	<UpdateDatabase id="BearGovernor_RiseAndFall">
+	  <Criteria>BearGovernor_Expansion1</Criteria>
+	  <Properties>
+		<LoadOrder>18003</LoadOrder>
+	  </Properties>
+	  <File>Data/ModSupport/RiseAndFall.sql</File>
+	</UpdateDatabase>
+	<!--<UpdateDatabase id="BearGovernor_GrandEras">
+	  <Criteria>BearGovernor_GrandEras</Criteria>
+	  <Properties>
+		<LoadOrder>18003</LoadOrder>
+	  </Properties>
+	  <File>Data/ModSupport/GrandEras.sql</File>
+	</UpdateDatabase>-->
+	<UpdateDatabase id="BearGovernor_AllianceExpanded">
+	  <Criteria>BearGovernor_AllianceExpanded</Criteria>
+	  <Properties>
+		<LoadOrder>18003</LoadOrder>
+	  </Properties>
+	  <File>Data/ModSupport/AlliancesExpanded.sql</File>
+	</UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/BearUI.artdef</File>
+    <File>Bear_s_Governor_Overhaul.dep</File>
+    <File>Data/Governors/Cardinal.sql</File>
+    <File>Data/Governors/Castellan.sql</File>
+    <File>Data/Governors/Curator.sql</File>
+    <File>Data/Governors/Diplomat.sql</File>
+    <File>Data/Governors/Educator.sql</File>
+    <File>Data/Governors/Financier.sql</File>
+    <File>Data/Governors/General.sql</File>
+    <File>Data/Governors/GrandVizier.sql</File>
+    <File>Data/Governors/Harbormaster.sql</File>
+    <File>Data/Governors/Pioneer.sql</File>
+    <File>Data/Governors/Spymaster.sql</File>
+    <File>Data/Governors/Steward.sql</File>
+    <File>Data/Governors/Surveyor.sql</File>
+    <File>Data/Manager.sql</File>
+    <File>Data/FisheryPark.sql</File>
+    <File>Data/ModSupport/RiseAndFall.sql</File>
+	<File>Data/ModSupport/AlliancesExpanded.sql</File>
+    <File>Icons/GovernorIcons.sql</File>
+    <File>LUA/GovernorModifiersHandler.lua</File>
+    <File>Platforms/MacOS/BLPs/UI/Governors.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Governors.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+    <File>Text/LocalizationEN.sql</File>
+    <File>UI/Replacements/GovernorDetailsPanel.lua</File>
+    <File>UI/Replacements/GovernorDetailsPanel.xml</File>
+    <File>UI/Replacements/GovernorPanel.lua</File>
+    <File>UI/Replacements/GovernorPanel.xml</File>
+  </Files>
+</Mod>
