@@ -93,7 +93,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
 1945460659 | Expanded Alliances | JNR | Junky | #12
-1987147435 | Appeal, Loyalty and Prestige (Diplo VP) Font Icons | Leugi | Junky | **NEW**
+1987147435 | Appeal, Loyalty and Prestige (Diplo VP) Font Icons | Leugi | Junky | #21
 2012127235 | Sukritact's Robespierre (France) | sukritact | Junky | #19
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
@@ -173,28 +173,28 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2793114889 | Unit Expansion: Artillery (Project 6T) | JNR | Junky | #17
 2793115058 | Unit Expansion: Naval (Project 6T) | JNR | Junky | #17
 2793115197 | Unit Expansion: Aircraft (Project 6T) | JNR | Junky | #17
-2793998824 | Age of Capital | Alf.Net | H.Humpel | **NEW**
+2793998824 | Age of Capital | Alf.Net | H.Humpel | #21
 2794603014 | Detailed Wonder Reminder Enhanced | Konomi | Junky | #17
 2794935656 | Silk & Spice: Trade Route Rework | Alf.Net | Junky | #18
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
-2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | **NEW**
+2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
-2837365371 | SpatialX Space Race | SpatialX | H.Humpel | **NEW**
-2851654918 | Walled Quarter | blkbutterfly | Junky | **NEW**
+2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21
+2851654918 | Walled Quarter | blkbutterfly | Junky | #21
 2856129795 | Enhanced Routes | Nightemaire | H.Humpel | #20
-2857099961 | Policy Pack: Corporations | JNR | H.Humpel | **NEW**
+2857099961 | Policy Pack: Corporations | JNR | H.Humpel | #21
 2857775718 | CIVILIZATION VI: WALLS OF BABYLON | Albro | H.Humpel | #20
 2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | #20
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | #20
-2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | **NEW**
-2863225264 | Bear's Mods - Governor Overhaul | MarshmallowBear | Junky | **NEW**
+2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | #21
+2863225264 | Bear's Mods - Governor Overhaul | MarshmallowBear | Junky | #21
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
-2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | **NEW**
-2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | **NEW**
+2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | #21
+2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | #21
 2878166834 | Mikecro's Military Camp | Mikecro & Sailor Cat | H.Humpel | #20
-2879431839 | Leugi's Preserve Rework | Leugi | Junky | **NEW**
-2879433599 | Leugi's Wildlife++ (Game Mode) | Leugi, Captain Lime, Deliverator23 & Shirotora Kenshin | Junky | **NEW**
+2879431839 | Leugi's Preserve Rework | Leugi | Junky | #21
+2879433599 | Leugi's Wildlife++ (Game Mode) | Leugi, Captain Lime, Deliverator23 & Shirotora Kenshin | Junky | #21
 2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | #20
-2887811648 | Policy Pack: Environment | JNR | Junky | **NEW**
-2890697127 | Sailor Cat's Relics Plus | Sailor Cat | H.Humpel | **NEW**
+2887811648 | Policy Pack: Environment | JNR | Junky | #21
+2890697127 | Sailor Cat's Relics Plus | Sailor Cat | H.Humpel | #21
