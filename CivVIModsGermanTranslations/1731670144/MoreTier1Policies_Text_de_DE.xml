@@ -2,20 +2,20 @@
 <GameData>
 	<LocalizedText>
 		<!-- The name of the policy. -->
-		<Row Tag="LOC_POLICY_FIRE_NAME" Language="de_DE">
-			<Text>Feuerstelle</Text>
+		<Row Tag="LOC_POLICY_FIRE_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Feuerstelle|Feuerstelle|Feuerstelle|Feuerstelle|Feuerstelle</Text>
 		</Row>
-		<Row Tag="LOC_POLICY_CAVE_ART_NAME" Language="de_DE">
-			<Text>Höhlenkunst</Text>
+		<Row Tag="LOC_POLICY_CAVE_ART_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Höhlenkunst|Höhlenkunst|Höhlenkunst|Höhlenkunst|Höhlenkunst</Text>
 		</Row>
-		<Row Tag="LOC_POLICY_PROTECTION_MONEY_NAME" Language="de_DE">
-			<Text>Schutzgeld</Text>
+		<Row Tag="LOC_POLICY_PROTECTION_MONEY_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Schutzgeld|Schutzgeld|Schutzgeld|Schutzgeldes|Schutzgeld</Text>
 		</Row>
-		<Row Tag="LOC_POLICY_GLUTTONY_NAME" Language="de_DE">
-			<Text>Königliche Völlerei</Text>
+		<Row Tag="LOC_POLICY_GLUTTONY_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Königliche Völlerei|Königliche Völlerei|Königlichen Völlerei|Königlichen Völlerei|Königliche Völlerei</Text>
 		</Row>
-		<Row Tag="LOC_POLICY_RECON_EXPRESS_NAME" Language="de_DE">
-			<Text>Express-Aufklärer</Text>
+		<Row Tag="LOC_POLICY_RECON_EXPRESS_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Express-Aufklärer|Express-Aufklärer|Express-Aufklärer|Express-Aufklärers|Express-Aufklärer</Text>
 		</Row>
 
 		<!-- The description of the policy. -->

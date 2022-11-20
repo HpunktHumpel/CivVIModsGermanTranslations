@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- The name of the policy. -->
+		<Row Tag="LOC_POLICY_FIRE_NAME" Language="en_US">
+			<Text>Domestic Fire</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_CAVE_ART_NAME" Language="en_US">
+			<Text>Cave Art</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PROTECTION_MONEY_NAME" Language="en_US">
+			<Text>Protection Money</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GLUTTONY_NAME" Language="en_US">
+			<Text>Kings Gluttony</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_RECON_EXPRESS_NAME" Language="en_US">
+			<Text>Recon Express</Text>
+		</Row>
+
+		<!-- The description of the policy. -->
+		<Row Tag="LOC_POLICY_FIRE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Science] Science in the [Icon_Capital] Capital.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_CAVE_ART_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture in the [Icon_Capital] Capital.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PROTECTION_MONEY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold in the [Icon_Capital] Capital.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GLUTTONY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Food] Food in the [Icon_Capital] Capital.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_RECON_EXPRESS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement for recon units, but -6 [ICON_Strength] combat strength.</Text>
+		</Row>
+
+		<!-- Civilopedia information about the policy. -->
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FIRE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Once fire was tamed by humans, food could be cooked.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_FIRE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>True story.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CAVE_ART_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Cavemen drew on walls. Fact.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CAVE_ART_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Alright?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PROTECTION_MONEY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>If you give money to the strong guys you're good to go.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PROTECTION_MONEY_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Highly recommended.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_GLUTTONY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>It's always the kings who demand the most food.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_GLUTTONY_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Ever seen a slim king?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RECON_EXPRESS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Working conditions for messengers have always been bad.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RECON_EXPRESS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>It's time for a change, isn't it?</Text>
+		</Row>
+
+		<Row Tag="LOC_RECON_EXPRESS_COMBAT_MODIFIER" Language="en_US">
+			<Text>Recon Express: -6 for recon units.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
