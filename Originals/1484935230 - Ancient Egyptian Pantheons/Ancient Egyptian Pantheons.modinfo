@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a7f26e08-378d-4b83-8df8-e672d93393fc" version="1">
+  <Properties>
+    <Name>Ancient Egyptian Pantheons</Name>
+    <Description>This mod adds 10 new Ancient Egypt-themed pantheons, adapted from the Gifts of the Nile scenario.</Description>
+    <Teaser>This mod adds 10 new Ancient Egypt-themed pantheons, adapted from the Gifts of the Nile scenario.</Teaser>
+    <Authors>p0kiehl</Authors>
+	<CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="GameData">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/EgyptianPantheon_Defines.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/EgyptianPantheon_Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Ancient Egyptian Pantheons.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <File>Core/EgyptianPantheon_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Ancient Egyptian Pantheons.dep</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/EgyptianPantheon_Defines.sql</File>
+    <File>Core/EgyptianPantheon_Icons.xml</File>
+    <File>Core/EgyptianPantheon_Localisation.sql</File>
+  </Files>
+</Mod>

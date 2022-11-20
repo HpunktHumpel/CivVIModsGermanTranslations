@@ -1,6 +1,7 @@
 20.11.2022
 
 - [UPDATE] Sailor Cat's Relics Plus (vom 20. Nov. 2022 um 3:03, Übersetzung von H.Humpel)
+- [IMPROVED] Ancient Egyptian Pantheons
 - [FIXED] Sukritact's Oceans
 
 
