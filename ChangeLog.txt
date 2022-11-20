@@ -1,6 +1,7 @@
 21.11.2022
 
 - [NEW] EpsTweak for Adaptation (vom 23. Mai 2021 um 17:38, Übersetzung von Junky)
+- [NEW] Sailor Cat's Persia Rework (vom 23. Okt. 2022 um 17:27, Übersetzung von Junky)
 
 
 ===== Version 21 =====

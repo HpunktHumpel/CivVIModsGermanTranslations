@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="21f80757-be4b-4cd8-88ee-3b064d21d470" version="1">
+  <Properties>
+    <Name>[COLOR:126,54,188,255]Sailor Cat's[ENDCOLOR] Persia Rework</Name>
+    <Description>Includes a wide array of changes, additions, and refinements to the Persian civilization.[NEWLINE][NEWLINE]Persia - Satrapies[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity per established [ICON_Governor] Governor. Receive +1 [ICON_Culture] Culture for routes between your own cities, and domestic routes to cities with an established [ICON_Governor] Governor also receive the base yields for international routes. Roads built in your territory are one level more advanced than usual.[NEWLINE][NEWLINE]Cyrus - The Achaemenid Ascension[NEWLINE]Receive a [ICON_Governor] Governor Title for the first city you capture from each civilization, including city-states. Capturing a city restores [ICON_Movement] Movement to all units, and automatically repairs that city's buildings and districts. +5 Loyalty per turn in cities with a garrisoned unit, doubled if that city also has an established [ICON_Governor] Governor.[NEWLINE][NEWLINE]Immortal[NEWLINE]Persian unique melee unit that replaces the Swordsman. Melee class unit with a ranged attack, [ICON_Range] Range 2. Trained 50% faster in your [ICON_Capital] Capital when you have less than 10. +5 [ICON_Strength] Combat Strength when you have at least 10.[NEWLINE][NEWLINE]Pairidaeza[NEWLINE]+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold. +1 Appeal. +1 [ICON_CULTURE] Culture for each adjacent Holy Site, Theater Square, or Natural Wonder. +1 [ICON_GOLD] Gold for each adjacent Commercial Hub and City Center. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology and Civics Tree. Cannot be built on Snow, Tundra, Snow Hills, or Tundra Hills or adjacent to another Pairidaeza.</Description>
+    <Created>1666538573</Created>
+    <Teaser>Reworks and refines Persia.</Teaser>
+    <Authors>Sailor Cat</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="XP1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP1 or XP2" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="loc">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File Priority="1">SailorCat_Persia_Loc_Misc.sql</File>
+      <File>SailorCat_Persia_Loc.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="config">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>SailorCat_Persia_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="rgbbw">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>SailorCat_Persia_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="db">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>SailorCat_Persia_Defines.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="lua">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>SailorCat_Persia_Gameplay.lua</File>
+    </AddGameplayScripts>
+    <UpdateText id="loc">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File Priority="1">SailorCat_Persia_Loc_Misc.sql</File>
+      <File>SailorCat_Persia_Loc.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="db_xp">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>SailorCat_Persia_Defines_XP.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="rgbbw">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>SailorCat_Persia_Colors.sql</File>
+    </UpdateColors>
+    <AddGameplayScripts id="lua_xp">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>SailorCat_Persia_Gameplay_XP.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>SailorCat_Persia_Colors.sql</File>
+    <File>SailorCat_Persia_Config.sql</File>
+    <File>SailorCat_Persia_Defines.sql</File>
+    <File>SailorCat_Persia_Defines_XP.sql</File>
+    <File>SailorCat_Persia_Gameplay.lua</File>
+    <File>SailorCat_Persia_Gameplay_XP.lua</File>
+    <File>SailorCat_Persia_Loc.xml</File>
+    <File>SailorCat_Persia_Loc_Misc.sql</File>
+  </Files>
+</Mod>

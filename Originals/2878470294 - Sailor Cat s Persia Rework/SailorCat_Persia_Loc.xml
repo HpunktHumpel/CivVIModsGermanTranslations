@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ENGLISH -->
+		<!-- Cyrus-->
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_NAME" Language="en_US">
+			<Text>The Achaemenid Ascension</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_DESCRIPTION" Language="en_US">
+			<Text>No penalties to yields in occupied cities. Declaring a Surprise War only counts as a Formal War for the purpose of warmongering and war weariness. Capturing a city restores [ICON_Movement] Movement to all units, and automatically repairs that city's buildings and districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>Receive a [ICON_Governor] Governor Title for the first city you capture from each civilization, including city-states. Capturing a city restores [ICON_Movement] Movement to all units, and automatically repairs that city's buildings and districts. +5 Loyalty per turn in cities with a garrisoned unit, doubled if that city also has an established [ICON_Governor] Governor.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Receive a [ICON_Governor] Governor Title for the first city you capture from each civilization, including city-states. Capturing a city restores [ICON_Movement] Movement to all units, and automatically repairs that city's buildings and districts. +5 Loyalty per turn in cities with a garrisoned unit, doubled if that city also has an established [ICON_Governor] Governor.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CYRUS" Language="en_US">
+			<Text>Claim the crown, Cyrus, King of Persia, for you are the anointed one. With immortal soldiers, you will conquer and rule the peoples of the world. You may see many alliances forming around you, but do not be fooled - such is an antiquated and weak way of navigating the world. Make no promise unless it aids you in achieving your goals.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BACKSTABBER_NAME" Language="en_US">
+			<Text>Campaigner</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CYRUS_ANY" Language="en_US">
+			<Text>Conquest is a truth every leader must embrace if he is to increase the glory of his realm. Act, before you are beaten like a filthy carpet.</Text>
+		</Replace>
+		<!-- Persia -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_EXPANSION_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity per established [ICON_Governor] Governor. Receive +1 [ICON_Culture] Culture for routes between your own cities, and domestic routes to cities with an established [ICON_Governor] Governor also receive the base yields for international routes. Roads built in your territory are one level more advanced than usual.</Text>
+		</Replace>
+		<!-- Immortal -->
+		<Row Tag="LOC_SAILOR_IMMORTAL_STR_PREVIEW_TEXT" Language="en_US">
+			<Text>[ICON_Strength] from 10 or more Immortals.</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="en_US">
+			<Text>Persian unique melee unit that replaces the Swordsman. Melee class unit with a ranged attack, [ICON_Range] Range 2. Trained 50% faster in your [ICON_Capital] Capital when you have less than 10. +5 [ICON_Strength] Combat Strength when you have at least 10.</Text>
+		</Replace>
+		<!-- Pairidaeza -->
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Pairidaeza, unique to Persia.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold. +1 Appeal. +1 [ICON_CULTURE] Culture for each adjacent Holy Site, Theater Square, or Natural Wonder. +1 [ICON_GOLD] Gold for each adjacent Commercial Hub and City Center. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology and Civics Tree. Cannot be built on Snow, Tundra, Snow Hills, or Tundra Hills or adjacent to another Pairidaeza.</Text>
+		</Replace>
+		
+		<!-- CHINESE (SIMPLIFIED)
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_NAME" Language="zh_Hans">
+			<Text>阿契美尼德的升华</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_DESCRIPTION" Language="zh_Hans">
+			<Text>占领城市的产量没有惩罚。宣告突袭战争只算作正式战争，以达到好战和厌战的目的。占领一个城市后，所有单位都会恢复[ICON_Movement]，并自动修复该城市的建筑和地区。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION1_DESCRIPTION" Language="zh_Hans">
+			<Text>为你从每个文明（包括城邦）占领的第一个城市获得一个[ICON_Governor]总督头衔。占领一个城市后，所有单位都会恢复[ICON_Movement]，并自动修复该城市的建筑和地区。+在有驻军单位的城市中，每回合增加5个忠诚度，如果该城市也有既定的[ICON_Governor]总督，则加倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION" Language="zh_Hans">
+			<Text>为你从每个文明（包括城邦）占领的第一个城市获得一个[ICON_Governor]总督头衔。占领一个城市后，所有单位都会恢复[ICON_Movement]，并自动修复该城市的建筑和地区。+在有驻军单位的城市中，每回合增加5个忠诚度，如果该城市也有既定的[ICON_Governor]总督，则加倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CYRUS" Language="zh_Hans">
+			<Text>居鲁士，波斯国王，请戴上皇冠，因为你是受膏者。与不朽的士兵一起，你将征服和统治世界上的人民。你可能会看到许多联盟在你周围形成，但不要被愚弄--这是一种过时的、软弱的世界航行方式。除非能帮助你实现你的目标，否则不要做出任何承诺。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BACKSTABBER_NAME" Language="zh_Hans">
+			<Text>竞选者</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CYRUS_ANY" Language="zh_Hans">
+			<Text>征服是每个领导者必须接受的真理，如果他要增加他的王国的荣耀。在你被打得像一块肮脏的地毯之前，请采取行动。</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_EXPANSION_DESCRIPTION" Language="zh_Hans">
+			<Text>每个已建立的[ICON_Governor]总督的贸易路线能力+1[ICON_TradeRoute]。在你自己的城市之间的路线获得+1[ICON_Culture]文化，通往已建立[ICON_Governor]总督的城市的国内路线也获得国际路线的基本收益。在你的领土上修建的道路比通常情况下要先进一级。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_IMMORTAL_STR_PREVIEW_TEXT" Language="zh_Hans">
+			<Text>来自10个或更多不朽者的[ICON_Strength]。</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="zh_Hans">
+			<Text>波斯人特有的近战单位，取代剑客的位置。具有远程攻击的近战类单位，[ICON_Range]范围为2。当你的[ICON_Capital]首都少于10个时，训练速度提高50%。当你拥有至少10个时，+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="zh_Hans">
+			<Text>解锁建造者建造波斯特有的Pairidaeza的能力。[新线][新线]+1 [ICON_CULTURE] 文化和+2 [ICON_GOLD] 黄金。+1 吸引力。每一个相邻的圣地、剧院广场或自然奇观，+1 [ICON_CULTURE] 文化。每个相邻的商业中心和城市中心+1[ICON_GOLD]黄金。随着你在科技和公民树上的进步，你可以获得额外的[ICON_Culture]文化和[ICON_Tourism]旅游。不能建在雪地、苔原、雪山、苔原山上，也不能与另一个Pairidaeza相邻。</Text>
+		</Replace>-->
+
+		<!-- CHINESE (TRADITIONAL)
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_NAME" Language="zh_Hant_HK">
+			<Text>阿契美尼德昇天</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>被佔領城市的產量不會受到懲罰。 出於好戰和厭戰的目的，宣布突襲戰爭僅算作正式戰爭。 佔領一座城市會為所有單位恢復 [ICON_Movement]，並自動修復該城市的建築和區域。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為您從每個文明（包括城邦）佔領的第一個城市獲得 [ICON_Governor] 總督頭銜。 佔領一座城市會為所有單位恢復 [ICON_Movement]，並自動修復該城市的建築和區域。 在擁有駐軍單位的城市中每回合忠誠度 +5，如果該城市還擁有已確立的 [ICON_Governor] 總督，則忠誠度翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>為您從每個文明（包括城邦）佔領的第一個城市獲得 [ICON_Governor] 總督頭銜。 佔領一座城市會為所有單位恢復 [ICON_Movement]，並自動修復該城市的建築和區域。 在擁有駐軍單位的城市中每回合忠誠度 +5，如果該城市還擁有已確立的 [ICON_Governor] 總督，則忠誠度翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CYRUS" Language="zh_Hant_HK">
+			<Text>獲得王冠，波斯國王居魯士，因為你是受膏者。 憑藉不朽的士兵，您將征服和統治世界人民。 你可能會看到在你周圍形成了許多聯盟，但不要被愚弄——這是一種過時而脆弱的世界導航方式。 除非它可以幫助您實現目標，否則不要做出任何承諾。</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BACKSTABBER_NAME" Language="zh_Hant_HK">
+			<Text>活動家</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CYRUS_ANY" Language="zh_Hant_HK">
+			<Text>征服是每個領導者都必須接受的真理，如果他要增加他的王國的榮耀。 行動，在你像骯髒的地毯一樣被毆打之前。</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_EXPANSION_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+1 [ICON_TradeRoute] 每個已建立的 [ICON_Governor] 總督的貿易路線容量。 您自己的城市之間的路線獲得 +1 [ICON_Culture] 文化，以及到已建立 [ICON_Governor] 總督的城市的國內路線也獲得國際路線的基本收益。 在您的領土上建造的道路比平時高一級。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_IMMORTAL_STR_PREVIEW_TEXT" Language="zh_Hant_HK">
+			<Text>[ICON_Strength] 來自 10 個或更多不朽者。</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>波斯獨特的近戰單位，取代了劍客。 具有遠程攻擊的近戰類單位，[ICON_Range] 範圍 2。當你的 [ICON_Capital] 首都少於 10 時，訓練速度提高 50%。當你有至少 10 時，+5 [ICON_Strength] 戰鬥力。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>解鎖建造者建造 Pairidaeza 的能力，這是波斯獨有的。[NEWLINE][NEWLINE]+1 [ICON_CULTURE] 文化和 +2 [ICON_GOLD] 金幣。 +1 上訴。 +1 [ICON_CULTURE] 每個相鄰聖地、劇院廣場或自然奇觀的文化。 每個相鄰的商業中心和市中心 +1 [ICON_GOLD] 金幣。 隨著您在科技和公民樹中前進，額外的 [ICON_Culture] 文化和 [ICON_Tourism] 旅遊。 不能建造在雪地、苔原、雪丘或苔原丘上或與另一個 Pairidaeza 相鄰。</Text>
+		</Replace>-->
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Deutsch | Translator Junky -->
+		<!-- Cyrus-->
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_NAME" Language="de_DE">
+			<Text>Der Aufstieg der Achämeniden</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_DESCRIPTION" Language="de_DE">
+			<Text>Keine Malusse für Erträge in besetzten Städten. Keine Malusse für Erträge in besetzten Städten. Das Erklären eines Überraschungskriegs zählt nur bezüglich Kriegstreiberei und Kriegsmüdigkeit als formeller Krieg. Die Übernahme einer Stadt stellt die [ICON_Movement] Bewegung aller Einheiten wieder her und repariert alle Gebäude und Bezirke dieser Stadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION1_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet einen [ICON_Governor] Gouverneur-Titel für die erste Stadt, die Ihr von einer Zivilisation einnehmt, einschließlich Stadtstaaten. Die Übernahme einer Stadt stellt die [ICON_Movement] Bewegung aller Einheiten wieder her und repariert alle Gebäude und Bezirke dieser Stadt. +5 Loyalität pro Runde in Städten mit einer Garnison. Wird verdoppelt, wenn ein [ICON_Governor] Gouverneur in der Stadt etabliert ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet einen [ICON_Governor] Gouverneur-Titel für die erste Stadt, die Ihr von einer Zivilisation einnehmt, einschließlich Stadtstaaten.	Die Übernahme einer Stadt stellt die [ICON_Movement] Bewegung aller Einheiten wieder her und repariert alle Gebäude und Bezirke dieser Stadt. +5 Loyalität pro Runde in Städten mit einer Garnison. Wird verdoppelt, wenn ein [ICON_Governor] Gouverneur in der Stadt etabliert ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CYRUS" Language="de_DE">
+			<Text>Beansprucht die Krone, Kyros, König von Persien, denn Ihr seid der Gesalbte. Mit unsterblichen Soldaten und einem unerschütterlichen Glauben werdet Ihr die Völker der Erde besiegen und über sie herrschen. Viele Bündnisse werden um Euch herum entstehen, doch lasst Euch nicht täuschen - nur die Schwachen wählen diesen veralteten Weg. Versprecht nichts, wenn es Euch nicht weiterhilft, Eure Ziele zu erreichen.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_BACKSTABBER_NAME" Language="de_DE">
+			<Text>Opportunist</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CYRUS_ANY" Language="de_DE">
+			<Text>Wenn eine Täuschung ansteht, ziehe ich es vor, dass ich derjenige bin, der die Intrige spinnt.</Text>
+		</Replace>
+		<!-- Persia -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_EXPANSION_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_TradeRoute] Handelswegkapazität pro etabliertem [ICON_Governor] Gouverneur. Erhaltet +1 [ICON_Culture] Kultur für Handelswege zwischen Euren Städten. Inländische Handelswege zu Städten mit etabliertem [ICON_Governor] Gouverneur erhalten auch die Basiserträge internationaler Handelswege. Straßen auf Eurem Gebiet sind eine Stufe fortschrittlicher als üblich.</Text>
+		</Replace>
+		<!-- Immortal -->
+		<Row Tag="LOC_SAILOR_IMMORTAL_STR_PREVIEW_TEXT" Language="de_DE">
+			<Text>[ICON_Strength] von 10 oder mehr Unsterblichen.</Text>
+		</Row>
+		<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="de_DE">
+			<Text>Spezialeinheit der Perser, die den Schwertkämpfer ersetzt. Einheit der Nahkampfklasse mit Fernangriff. [ICON_Range] Reichweite von 2. Starke Verteidigungskraft. 50% schnellere Ausbildung in Eurer [ICON_Capital] Hauptstadt, wenn Ihr weniger als 10 besitzt. +5 [ICON_Strength] Kampfstärke wenn ihr mindestens 10 besitzt.</Text>
+		</Replace>
+		<!-- Pairidaeza -->
+		<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei, eine Pairidaeza, die einzigartige Modernisierung Persiens, zu bauen.[NEWLINE][NEWLINE]+1 [ICON_Culture] Kultur und +2 [ICON_GOLD] Gold. +1 Anziehungskraft. +1 [ICON_Culture] Kultur, wenn neben einer Heiligen Stätte, einem Theaterplatz-Bezirk oder Naturwunder. +1 [ICON_Gold] Gold, wenn neben einem Handels- oder Stadtzentrum. Zusätzlich [ICON_Culture] Kultur und [ICON_Tourism] Tourismus beim Fortschritt durch den Technologie- und Ausrichtungsbaum. Kann nicht auf Schnee, Tundra, Schneehügeln, Tundra-Hügeln oder neben einer weiteren Pairidaeza gebaut werden..</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
