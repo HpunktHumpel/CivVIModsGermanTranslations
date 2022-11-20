@@ -98,6 +98,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
+2170418036 | EpsTweak for Adaptation | Eps | Junky | **NEW**
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | #19
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11

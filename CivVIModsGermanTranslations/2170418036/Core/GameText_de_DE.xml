@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="EPSTWEAK_ADAPT_MESSAGE_NAME" Language="de_DE"><Text>Anpassung</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_MESSAGE_INTRO" Language="de_DE"><Text>{1_CityName} wurde in widrigem Gelände gegründet. Infolgedessen hat sich Euer Volk an das harte Leben angepasst.[NEWLINE]Eure Zivilisation erhält die folgenden Fähigkeiten:[NEWLINE]</Text></Replace>
+		
+		<Replace Tag="EPSTWEAK_ADAPT_TO_TUNDRA_FARMS" Language="de_DE"><Text>Kann Bauernhöfe auf Tundra bauen.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_TUNDRA_FARMS_PRODUCTION" Language="de_DE"><Text>Bauernhöfe on Tundra erhalten +1 [ICON_Production] Produktion.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_TUNDRA_BLIZZARDS" Language="de_DE"><Text>Einheiten, Bezirke und Modernisierungen sind gegen Schneestürme immun.</Text></Replace>
+		
+		<Replace Tag="EPSTWEAK_ADAPT_TO_DESERT_FARMS" Language="de_DE"><Text>Kann Bauernhöfe auf Wüste bauen.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_DESERT_FARMS_PRODUCTION" Language="de_DE"><Text>Bauernhöfe auf Wüste erhalten +1 [ICON_Production] Produktion.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_DESERT_FARMS_FAITH" Language="de_DE"><Text>Bauernhöfe auf Wüste erhalten +1 [ICON_Faith] Glauben.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_DESERT_DUST_STORMS" Language="de_DE"><Text>Einheiten, Bezirke und Modernisierungen sind gegen Sandstürme immun.</Text></Replace>
+		
+		<Replace Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_WORK" Language="de_DE"><Text>Bürger können Berge bearbeiten.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_PRODUCTION" Language="de_DE"><Text>Berge erhalten +1 [ICON_Production] Produktion.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_FAITH" Language="de_DE"><Text>Berge erhalten +1 [ICON_Faith] Glauben.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_FOOD" Language="de_DE"><Text>Berge erhalten +1 [ICON_Food] Nahrung für jeden angrenzenden Bauernhof.</Text></Replace>
+		<Replace Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_ERUPTIONS" Language="de_DE"><Text>Einheiten, Bezirke und Modernisierungen sind gegen Vulkanausbrüche immun.</Text></Replace>
+	</LocalizedText>
+</GameData>

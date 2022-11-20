@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="EPSTWEAK_ADAPT_MESSAGE_NAME" Language="en_US"><Text>Adaptation</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_MESSAGE_INTRO" Language="en_US"><Text>{1_CityName} was founded in adverse terrain. As a result, your people have adapted to life within it.[NEWLINE]Your civilization gains the following abilities:[NEWLINE]</Text></Row>
+		
+		<Row Tag="EPSTWEAK_ADAPT_TO_TUNDRA_FARMS" Language="en_US"><Text>Able to build Farms on Tundra.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_TUNDRA_FARMS_PRODUCTION" Language="en_US"><Text>Farms on Tundra gain +1 [ICON_Production] Production.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_TUNDRA_BLIZZARDS" Language="en_US"><Text>Units, disctricts, and improvements are immune to Blizzards.</Text></Row>
+		
+		<Row Tag="EPSTWEAK_ADAPT_TO_DESERT_FARMS" Language="en_US"><Text>Able to build Farms on Desert.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_DESERT_FARMS_PRODUCTION" Language="en_US"><Text>Farms on Desert gain +1 [ICON_Production] Production.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_DESERT_FARMS_FAITH" Language="en_US"><Text>Farms on Desert gain +1 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_DESERT_DUST_STORMS" Language="en_US"><Text>Units, disctricts, and improvements are immune to Dust Storms.</Text></Row>
+		
+		<Row Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_WORK" Language="en_US"><Text>Citizens are able to work on Mountains.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_PRODUCTION" Language="en_US"><Text>Mountains gain +1 [ICON_Production] Production.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_FAITH" Language="en_US"><Text>Mountains gain +1 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_FOOD" Language="en_US"><Text>Mountains gain +1 [ICON_Food] Food per adjacent Farm.</Text></Row>
+		<Row Tag="EPSTWEAK_ADAPT_TO_MOUNTAINS_ERUPTIONS" Language="en_US"><Text>Units, disctricts, and improvements are immune to Volcanic Eruptions.</Text></Row>
+	</LocalizedText>
+</GameData>

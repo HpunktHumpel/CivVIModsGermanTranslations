@@ -78,6 +78,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Enlightenment Governments (Project 6T) (JNR | Junky)
 1. Environmentalistic Policy (weraptor | H.Humpel)
 1. Envoy Quest List (Stack Man | Junky)
+1. EpsTweak for Adaptation (Eps | Junky)
 1. EpsTweak for Adjacency Multipliers (Eps | Junky)
 1. EpsTweak for Catch-Up (Eps | Junky)
 1. Expanded Alliances (JNR | Junky)

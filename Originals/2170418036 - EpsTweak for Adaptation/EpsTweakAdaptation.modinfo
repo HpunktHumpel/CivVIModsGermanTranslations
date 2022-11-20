@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e11f6338-e69a-4175-8812-9a34bd933cfa" version="2">
+  <Properties>
+    <Name>EpsTweak for Adaptation</Name>
+    <Description>Civilizations now [COLOR_FLOAT_GOLD]Adapt[ENDCOLOR] tot their starting terrain. When the first city is placed, the game checks all tiles within 2 tiles of the Palace:[NEWLINE][NEWLINE]If there are at least 7 [COLOR_FLOAT_GOLD]Tundra[ENDCOLOR] tiles, your civ will be able to build Farms on Tundra with +1 Production.[NEWLINE]If there are at least 7 [COLOR_FLOAT_GOLD]Desert[ENDCOLOR] tiles, your civ will be able to build Farms on Desert with +1 Production and Faith. [COLOR_FLOAT_GOLD]Mountains[ENDCOLOR], your civ will be able to work them for 1 Production, 1 Faith, and 1 Food per each adjacent farm.[NEWLINE]</Description>
+    <Created>1621784256</Created>
+    <Teaser>Civilizations can adapt to their starting terrain.</Teaser>
+    <Authors>Eps</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Core/GameDefines.xml</File>
+      <File>Core/CivilopediaEntries.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="InGameText">
+      <File>Core/GameText.xml</File>
+      <File>Core/Civilopedia.xml</File>
+    </UpdateText>
+    <UpdateIcons id="InGameIcons">
+      <File>Core/Icons.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="NewAction">
+      <File>Scripts/AdaptationScript.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Core/Civilopedia.xml</File>
+    <File>Core/CivilopediaEntries.xml</File>
+    <File>Core/GameDefines.xml</File>
+    <File>Core/GameText.xml</File>
+    <File>Core/Icons.xml</File>
+    <File>Scripts/AdaptationScript.lua</File>
+  </Files>
+</Mod>
