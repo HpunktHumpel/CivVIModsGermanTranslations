@@ -185,7 +185,7 @@ VALUES
 		(
 			"LOC_IMPROVEMENT_FISHERY_DESCRIPTION",
 			"de_DE",
-			"Eine einzigartige [ICON_Gouverneur]-Gouverneursverbesserung, die in einer Stadt mit einem Landvermesser-Gouverneur mit der Aquakultur-Beförderung gebaut werden kann.[NEWLINE][NEWLINE]Dieses Feld kann nicht bearbeitet werden. Fischerboote, die an eine oder mehrere Fischereien angrenzen, bringen +2 [ICON_Food] Nahrung und weitere +1 [ICON_Production] Produktion, solange Liang in dieser Stadt ansässig ist. +1 [ICON_Housing] Wohnraum. Müssen auf einem Küsten- oder Seegeländefeld platziert werden, das an eine Meeresressource angrenzt."
+			"Eine einzigartige [ICON_Governor]-Gouverneursverbesserung, die in einer Stadt mit einem Landvermesser-Gouverneur mit der Aquakultur-Beförderung gebaut werden kann.[NEWLINE][NEWLINE]Dieses Feld kann nicht bearbeitet werden. Fischerboote, die an eine oder mehrere Fischereien angrenzen, bringen +2 [ICON_Food] Nahrung und weitere +1 [ICON_Production] Produktion, solange Liang in dieser Stadt ansässig ist. +1 [ICON_Housing] Wohnraum. Müssen auf einem Küsten- oder Seegeländefeld platziert werden, das an eine Meeresressource angrenzt."
 		);
 --========================================================================================================================
 --========================================================================================================================
