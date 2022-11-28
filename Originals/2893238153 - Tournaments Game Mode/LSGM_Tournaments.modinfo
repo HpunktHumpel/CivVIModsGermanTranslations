@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="991e60af-1bff-41e9-a826-ea8da30ab2c8" version="2">
+  <Properties>
+    <Name>Tournaments (Game Mode)</Name>
+    <Description>This game mode adds new diplomatic competitions - Tournaments.[NEWLINE][NEWLINE]With Games and Recreation City-States will start announcing Tournaments and invite all civilizations known to them. Make sure you explore the world to not be omitted.[NEWLINE][NEWLINE]Invited players will have a time to prepare their champion of selected unit class (chosen from melee, ranged, anti-cavalry, light or heavy cavalry).[NEWLINE][NEWLINE]Finally the set of friendly duels take place, winners claim rewards and the next tournament is announced.</Description>
+    <Created>1669588614</Created>
+    <Teaser>Adds a new game mode to the game.</Teaser>
+    <Authors>LastSword</Authors>
+    <SpecialThanks>Leugi</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="LSGM_Tournaments_OFF">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GAMEMODE_TOURNAMENTS</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Database/LSGM_Tournaments_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>Database/LSGM_Tournaments_Config_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Database/LSGM_Tournaments_GameText.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>LSGM_Tournaments.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>Database/LSGM_Tournaments_Database.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="Art">
+      <File>LSGM_Tournaments.dep</File>
+    </UpdateArt>
+    <UpdateText id="Text">
+      <File>Database/LSGM_Tournaments_GameText.xml</File>
+      <File>Database/LSGM_Text_Edits.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="TurnOff">
+      <Properties>
+        <LoadOrder>-1</LoadOrder>
+      </Properties>
+      <Criteria>LSGM_Tournaments_OFF</Criteria>
+      <Exclude mod_id="991e60af-1bff-41e9-a826-ea8da30ab2c8" action_id="Database" />
+      <Exclude mod_id="991e60af-1bff-41e9-a826-ea8da30ab2c8" action_id="Art" />
+      <Exclude mod_id="991e60af-1bff-41e9-a826-ea8da30ab2c8" action_id="Text" />
+      <Exclude mod_id="991e60af-1bff-41e9-a826-ea8da30ab2c8" action_id="Icons" />
+      <Exclude mod_id="991e60af-1bff-41e9-a826-ea8da30ab2c8" action_id="LUA" />
+      <Exclude mod_id="991e60af-1bff-41e9-a826-ea8da30ab2c8" action_id="Interface" />
+      <Exclude mod_id="991e60af-1bff-41e9-a826-ea8da30ab2c8" action_id="Import" />
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>Database/LSGM_Tournaments_Icons.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="LUA">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>LUA/LSGM_Tournaments_Core.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="Interface">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/LSGM_Tournaments_UI.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="Import">
+      <File>LUA/LSGM_Tournaments_Utilities.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/MandatoryFileInArtDefs.artdef</File>
+    <File>Database/LSGM_Text_Edits.sql</File>
+    <File>Database/LSGM_Tournaments_Config.xml</File>
+    <File>Database/LSGM_Tournaments_Config_Icons.xml</File>
+    <File>Database/LSGM_Tournaments_Database.xml</File>
+    <File>Database/LSGM_Tournaments_GameText.xml</File>
+    <File>Database/LSGM_Tournaments_Icons.xml</File>
+    <File>LSGM_Tournaments.dep</File>
+    <File>LUA/LSGM_Tournaments_Core.lua</File>
+    <File>LUA/LSGM_Tournaments_Utilities.lua</File>
+    <File>Platforms/Windows/BLPs/Textures.blp</File>
+    <File>UI/LSGM_Tournaments_UI.lua</File>
+    <File>UI/LSGM_Tournaments_UI.xml</File>
+  </Files>
+</Mod>

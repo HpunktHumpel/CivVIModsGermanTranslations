@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia -->
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>Tournaments</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH1_TITLE" Language="en_US">
+			<Text>Welcome</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH1_PARA_1" Language="en_US">
+			<Text>In game setup, players can turn on the Tournaments game mode. It enables completely new series of friendly competitions in which your units may test themselves for attractive rewards.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_TITLE" Language="en_US">
+			<Text>Announcement</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_PARA_1" Language="en_US">
+			<Text>With Games and Recreation first City-State will announce a tournament and invite all civilizations known to them. It is an additional motiviation for an early exploration. City-States knowing a lot of civilizations are more likely to be a host.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_PARA_2" Language="en_US">
+			<Text>At this point an unit class will be selected from the pool of melee, ranged, anti-cavalry, light cavalry and heavy cavalry.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_PARA_3" Language="en_US">
+			<Text>After a tournament takes place or a hosting player is eleminated the next one is announced. This cycle ends when first civilization enters modern era.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_TITLE" Language="en_US">
+			<Text>Tournament</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_1" Language="en_US">
+			<Text>After 20 [ICON_Turn] Turns (on standard speed) the tournament takes place. In this time you have time to train and prepare your champion.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_2" Language="en_US">
+			<Text>Game automatically chooses a champion for each participating civilization:[NEWLINE][ICON_BULLET]Unit class must match.[NEWLINE][ICON_BULLET]Embarked units are ignored.[NEWLINE][ICON_BULLET]Only stand-alone units are considered (corps and armies are excluded).[NEWLINE][ICON_BULLET][ICON_Strength] Combat Strength, Health, Level and proximity to [ICON_GreatGeneral] Great General are final factors to determine a champion.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_3" Language="en_US">
+			<Text>At least two civilizations must send their champions for a tournament to take place!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_4" Language="en_US">
+			<Text>Finally all champions clash with each other in the series of simulated attacks, unit which dealt the most simulated damage is victorious. Note: units are neither moved nor really damaged, this is a friendly competition.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH4_TITLE" Language="en_US">
+			<Text>Rewards</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH4_PARA_1" Language="en_US">
+			<Text>[ICON_Bolt][ICON_Reward_Gold]  (Top 1): +1 [ICON_Envoy] Envoy with the Host.[NEWLINE][ICON_Bolt][ICON_Reward_Silver]  (Top 2): +30 [ICON_GreatGeneral] Great General points.[NEWLINE][ICON_Bolt][ICON_Reward_Bronze]  (Top 3): +25 [ICON_Favor] Diplomatic Favor.[NEWLINE][ICON_Bolt]All participants earn 5 XP.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH5_TITLE" Language="en_US">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH5_PARA_1" Language="en_US">
+			<Text>A tournament, or tourney was a chivalrous competition or mock fight in the Middle Ages and Renaissance (12th to 16th centuries). It is one type of hastilude. The shows were held often because of coronations, the marriage of kings, births, baptisms, weddings of princesses, conquests, peace, alliances, welcoming ambassadors or people of great worth, and even other minor events, experienced by the nobility.</Text>
+		</Row>
+		
+		<!-- UI -->
+		<Row Tag="LOC_LSGM_TOURNAMENT_TOOLTIP" Language="en_US">
+			<Text>Prepare your champion for the tournament![NEWLINE]Make sure that your strongest stand-alone unit (corps and armies cannot be champions) of the combat class is well-rested, healthy and not lost on the sea (embarked units cannot participate).[NEWLINE][NEWLINE]Rewards:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT" Language="en_US">
+			<Text>Tournament</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT_DMG" Language="en_US">
+			<Text>DMG</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT_REWARD_LABEL" Language="en_US">
+			<Text>Rewards:</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT_REWARDS" Language="en_US">
+			<Text>[ICON_Bolt][ICON_Reward_Gold]  (Top 1): +1 [ICON_Envoy] Envoy with the Host.[NEWLINE][ICON_Bolt][ICON_Reward_Silver]  (Top 2): +{1_Num} [ICON_GreatGeneral] Great General points.[NEWLINE][ICON_Bolt][ICON_Reward_Bronze]  (Top 3): +{2_Num} [ICON_Favor] Diplomatic Favor.[NEWLINE][ICON_Bolt]All participants earn {3_Num} XP.</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT_HOST" Language="en_US">
+			<Text>Host:</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT_RESOLVED" Language="en_US">
+			<Text>Tournament ended</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT_NOT_ENOUGH_CHAMPIONS" Language="en_US">
+			<Text>Tournament was canceled because participanting champions were too few!</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENT_MASKED_CHAMPION" Language="en_US">
+			<Text>Masked Champion</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_LSGM_TOURNAMENTS_NAME" Language="en_US">
+			<Text>Tournaments Mode</Text>
+		</Row>
+		<Row Tag="LOC_LSGM_TOURNAMENTS_DESCRIPTION" Language="en_US">
+			<Text>This game mode adds new diplomatic competitions - Tournaments.[NEWLINE][NEWLINE]With Games and Recreation City-States will start announcing Tournaments and invite all civilizations known to them. Make sure you explore the world to not be omitted.[NEWLINE][NEWLINE]Invited players will have a time to prepare their champion of selected unit class (chosen from melee, ranged, anti-cavalry, light or heavy cavalry).[NEWLINE][NEWLINE]Finally the set of friendly duels take place, winners claim rewards and the next tournament is announced.</Text>
+		</Row>
+
+		<!-- Policy and abilities -->
+		<Row Tag="LOC_POLICY_LSGM_TOURNAMENT_DUELISTS_NAME" Language="en_US">
+			<Text>Duelists</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_LSGM_TOURNAMENT_DUELISTS_DESCRIPTION" Language="en_US">
+			<Text>All melee, ranged, anti-cavalry, light and heavy cavalry units gain +4 [ICON_Strength] Combat Strength vs. their own class units.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LSGM_TOURNAMENT_DUELISTS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>In Edo period Japan, there was a tradition of dueling among the samurai class. In Western society, the formal concept of a duel developed out of the medieval judicial duel and older pre-Christian practices such as the Viking Age holmgang. In medieval society, judicial duels were fought by knights and squires to end various disputes. During the early Renaissance, dueling established the status of a respectable gentleman and was an accepted manner to resolve disputes.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_POLICY_NAME" Language="en_US">
+			<Text>+4 Duelists</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_NAME" Language="en_US">
+			<Text>+2 Arena Champion</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_MELEE_NAME" Language="en_US">
+			<Text>Arena Champion (Melee)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_RANGED_NAME" Language="en_US">
+			<Text>Arena Champion (Ranged)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_ANTI_CAVALRY_NAME" Language="en_US">
+			<Text>Arena Champion (Anti-Cavalry)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_HEAVY_CAVALRY_NAME" Language="en_US">
+			<Text>Arena Champion (Heavy Cavalry)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_LIGHT_CAVALRY_NAME" Language="en_US">
+			<Text>Arena Champion (Light Cavalry)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_MELEE_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Strength] Combat Strength against Melee units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_RANGED_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Strength] Combat Strength against Melee units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_ANTI_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Strength] Combat Strength against Anti-Cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_HEAVY_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Strength] Combat Strength against Heavy Cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_LIGHT_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Strength] Combat Strength against Light Cavalry units.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

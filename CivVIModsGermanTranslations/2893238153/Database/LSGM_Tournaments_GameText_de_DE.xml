@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia -->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CONTENT_TITLE" Language="de_DE">
+			<Text>Turniere</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH1_TITLE" Language="de_DE">
+			<Text>Willkommen</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH1_PARA_1" Language="de_DE">
+			<Text>Im Spiel-Setup können Spieler den Turnier-Modus aktivieren. Dieser Modus schaltet eine Serie freundschaftlicher Wettbewerbe frei, in denen sich Eure Einheiten für attraktive Belohnungen messen können.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_TITLE" Language="de_DE">
+			<Text>Ankündigung</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_PARA_1" Language="de_DE">
+			<Text>Mit der Ausrichtung "Spiele und Erholung" wird der erste Stadtstaat ein Turnier ankündigen. Hierzu wird er alle ihm zu diesem Zeitpunkt bekannten Zivilisationen einladen. Somit gibt es eine zusätzliche Motivation für eine frühzeitige Erkundung. Stadtstaaten, die viele Zivilisationen kennen, sind mit einer größerer Wahrscheinlichkeit der Gastgeber eines Turniers.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_PARA_2" Language="de_DE">
+			<Text>Es wird die Einheitengattung (ausgewählt aus Nahkampf, Fernkampf, Anti-Kavallerie, leichter oder schwerer Kavallerie) bekannt gegeben, welche ausschliesslich an diesem Turnier teilnimmt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH2_PARA_3" Language="de_DE">
+			<Text>Nachdem ein Turnier stattgefunden hat oder ein gastgebender Spieler ausgeschieden ist, wird das nächste Turnier bekannt gegeben. Dieser Zyklus endet mit dem Eintritt der ersten Zivilisation in die Neuzeit.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_TITLE" Language="de_DE">
+			<Text>Turnier</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_1" Language="de_DE">
+			<Text>Nach 20 [ICON_Turn] Runden (bei Standardgeschwindigkeit) findet das Turnier statt. In dieser Zeit habt Ihr die Möglichkeit, Euren Champion zu trainieren und somit auf das Turnier vorzubereiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_2" Language="de_DE">
+			<Text>Das Spiel wählt automatisch einen Champion für jede teilnehmende Zivilisation:[NEWLINE][ICON_BULLET]Die Einheitenklasse muss übereinstimmen.[NEWLINE][ICON_BULLET]Eingeschiffte Einheiten werden ignoriert.[NEWLINE][ICON_BULLET]Nur eigenständige Einheiten, die also nicht Teil einer Formation sind, werden berücksichtigt (Korps und Armeen sind ausgeschlossen).[NEWLINE][ICON_BULLET][ICON_Strength] Kampfstärke, Gesundheit, Stufe und Nähe zu einem großen General [ICON_GreatGeneral] sind die letzten Faktoren, die die Auswahl eines Champions mitbestimmen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_3" Language="de_DE">
+			<Text>Mindestens zwei Zivilisationen müssen ihre Champions entsenden, damit ein Turnier stattfinden kann!</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH3_PARA_4" Language="de_DE">
+			<Text>Schließlich treffen alle Champions in der Serie in simulierten Angriffe aufeinander. Die Einheit, die den meisten simulierten Schaden verursacht hat, gewinnt. Hinweis: Einheiten werden weder bewegt noch wirklich beschädigt! Dies ist ein freundschaftlicher Wettbewerb.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH4_TITLE" Language="de_DE">
+			<Text>Belohnungen</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH4_PARA_1" Language="de_DE">
+			<Text>[ICON_Bolt][ICON_Reward_Gold] (Top 1): +1 [ICON_Envoy] Gesandter des Gastgebers.[NEWLINE][ICON_Bolt][ICON_Reward_Silver] (Top 2): +30 [ICON_GreatGeneral] Grosser General-Punkte.[NEWLINE][ICON_Bolt][ICON_Reward_Bronze] (Top 3): +25 [ICON_Favor] Diplomatische Gunst.[NEWLINE][ICON_Bolt]Alle Teilnehmer erhalten 5 EP.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH5_TITLE" Language="de_DE">
+			<Text>Geschichte</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_LSGM_TOURNAMENTS_CHAPTER_CH5_PARA_1" Language="de_DE">
+			<Text>Ein Turnier war im Mittelalter und in der Renaissance (12. bis 16. Jahrhundert) ein ritterlicher Wettbewerb oder Scheinkampf, eine Art von Hastiludia. Diese Show-Kämpfe wurden oft zur Feier von Krönungen, Hochzeiten von Königen, Geburten, Taufen, Hochzeiten von Prinzessinnen, Eroberungen, Frieden, Bündnissen, oder zur der Begrüßung von Botschaftern oder Personen von großem Wert und sogar anderer kleinerer Ereignissen, die der Adel erlebte, abgehalten.</Text>
+		</Replace>
+
+		<!-- UI -->
+		<Replace Tag="LOC_LSGM_TOURNAMENT_TOOLTIP" Language="de_DE">
+			<Text>Bereitet Euren Champion auf das Turnier vor![NEWLINE]Stellt sicher, dass Eure stärkste eigenständige Einheit (Korps und Armeen können keine Champions sein) der Kampfklasse gut ausgeruht, gesund und nicht auf See unterwegs ist (eingeschiffte Einheiten können nicht teilnehmen). [NEWLINE][NEWLINE]Belohnungen:[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT" Language="de_DE">
+			<Text>Turnier</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT_DMG" Language="de_DE">
+			<Text>DMG</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT_REWARD_LABEL" Language="de_DE">
+			<Text>Belohnungen:</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT_REWARDS" Language="de_DE">
+			<Text>[ICON_Bolt][ICON_Reward_Gold]  (Top 1): +1 [ICON_Envoy] Gesandter des Gastgebers.[NEWLINE][ICON_Bolt][ICON_Reward_Silver]  (Top 2): +30 [ICON_GreatGeneral] Grosser General-Punkte.[NEWLINE][ICON_Bolt] [ICON_Reward_Bronze]  (Top 3): +25 [ICON_Favor] Diplomatische Gunst.[NEWLINE][ICON_Bolt]Alle Teilnehmer erhalten 5 EP.</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT_HOST" Language="de_DE">
+			<Text>Gastgeber:</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT_RESOLVED" Language="de_DE">
+			<Text>Turnier wurde beendet</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT_NOT_ENOUGH_CHAMPIONS" Language="de_DE">
+			<Text>Das Turnier wurde abgesagt, weil zu wenige Champions teilnahmen!</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENT_MASKED_CHAMPION" Language="de_DE">
+			<Text>Maskierter Champion</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_LSGM_TOURNAMENTS_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Turnier-Modus|Turnier-Modus|Turnier-Modus|Turnier-Modus|Turnier-Modus</Text>
+		</Replace>
+		<Replace Tag="LOC_LSGM_TOURNAMENTS_DESCRIPTION" Language="de_DE">
+			<Text>Dieser Spielmodus fügt neue diplomatische Wettbewerbe hinzu – Turniere.[NEWLINE][NEWLINE]Mit der Ausrichtung "Spiele und Erholung" beginnen Stadtstaaten mit der Ankündigung von Turnieren und laden alle ihnen bekannten Zivilisationen ein. Stellt sicher, dass Ihr die Welt erkundet, um nicht ausgelassen zu werden.[NEWLINE][NEWLINE]Eingeladene Spieler haben Zeit, ihren Champion der ausgewählten Einheitenklasse vorzubereiten (ausgewählt aus Nahkampf, Fernkampf, Anti-Kavallerie, leichter oder schwerer Kavallerie).[NEWLINE ][NEWLINE]Schließlich finden diese Freundschaftsduelle statt und die Sieger erhalten Belohnungen und das nächste Turnier wird bekannt gegeben.</Text>
+		</Replace>
+
+		<!-- Policy and abilities -->
+		<Replace Tag="LOC_POLICY_LSGM_TOURNAMENT_DUELISTS_NAME" Language="de_DE" Gender="masculine" Plurality="2">
+			<Text>Duellanten|Duellanten|Duellanten|Duellanten|Duellanten</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LSGM_TOURNAMENT_DUELISTS_DESCRIPTION" Language="de_DE">
+			<Text>Alle Nahkampf-, Fernkampf-, Anti-Kavallerie-, leichte und schwere Kavallerie-Einheiten erhalten +4 [ICON_Strength] Kampfstärke gegenüber Einheiten ihrer eigenen Klasse.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LSGM_TOURNAMENT_DUELISTS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>In der Edo-Zeit in Japan gab es eine Tradition des Duellierens in der Samurai-Klasse. In der westlichen Gesellschaft entwickelte sich der formale Begriff des Duells aus dem mittelalterlichen Gerichtsduell und älteren vorchristlichen Praktiken wie dem wikingerzeitlichen Holmgang. In der mittelalterlichen Gesellschaft wurden Gerichtsduelle von Rittern und Knappen ausgetragen, um verschiedene Streitigkeiten zu beenden. Während der frühen Renaissance begründete das Duellieren den Status eines respektablen Gentleman und war eine akzeptierte Methode zur Beilegung von Streitigkeiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_POLICY_NAME" Language="de_DE">
+			<Text>+4 Duellanten</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_NAME" Language="de_DE">
+			<Text>+2 Arena-Champion</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_MELEE_NAME" Language="de_DE">
+			<Text>Arena-Champion (Nahkampf)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_RANGED_NAME" Language="de_DE">
+			<Text>Arena-Champion (Fernkampf)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_ANTI_CAVALRY_NAME" Language="de_DE">
+			<Text>Arena-Champion (Anti-Kavallerie)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_HEAVY_CAVALRY_NAME" Language="de_DE">
+			<Text>Arena-Champion (Schwere Kavallerie)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_LIGHT_CAVALRY_NAME" Language="de_DE">
+			<Text>Arena-Champion (Leichte Kavallerie)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_MELEE_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Strength] Kampfstärke gegen Nahkampf-Einheiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_RANGED_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Strength] Kampfstärke gegen Fernkampf-Einheiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_ANTI_CAVALRY_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Strength] Kampfstärke gegen Anti-Kavallerie-Einheiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_HEAVY_CAVALRY_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Strength] Kampfstärke gegen Schwere-Kavallerie-Einheiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LSGM_TOURNAMENT_ARENA_LIGHT_CAVALRY_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Strength] Kampfstärke gegen Leichte-Kavallerie-Einheiten.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
