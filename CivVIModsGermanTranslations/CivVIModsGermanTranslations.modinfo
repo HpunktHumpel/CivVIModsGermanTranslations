@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="22">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]198[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]199[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1668987341</Created>
+    <Created>1669657053</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, Mgwska, Mikecro, muyyi, naed21, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -429,6 +429,9 @@
     </Criteria>
     <Criteria id="LeugisAztecRework">
       <ModInUse>9090e2c0-43bf-4b24-84b6-428c21805998</ModInUse>
+    </Criteria>
+    <Criteria id="LeugisPreserveFoodandProductionNerfs">
+      <ModInUse>95d26d33-1004-4134-a986-324e5d21ce3c</ModInUse>
     </Criteria>
     <Criteria id="LeugisPreserveRework">
       <ModInUse>4cf11700-4bc8-4581-94ea-c39dfa9585cd</ModInUse>
@@ -2072,6 +2075,13 @@
         <LoadOrder>600</LoadOrder>
       </Properties>
       <File>2146587512/text/ImprovementText_AztecRework_MODE_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="LeugisPreserveFoodandProductionNerfs_Text_de_DE">
+      <Criteria>LeugisPreserveFoodandProductionNerfs</Criteria>
+      <Properties>
+        <LoadOrder>5000</LoadOrder>
+      </Properties>
+      <File>2885551724/Text/PreserveNerfTexts_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="LeugisPreserveRework_TextOS_de_DE">
       <Criteria>LeugisPreserveRework</Criteria>
@@ -3821,6 +3831,7 @@
     <File>2879433599/Text/WildlifePreserves_Texts_de_DE.sql</File>
     <File>2879433599/Text/WildlifeResources_Texts_de_DE.sql</File>
     <File>2880643181/LivingThingsGrow_Text_de_DE.xml</File>
+    <File>2885551724/Text/PreserveNerfTexts_de_DE.sql</File>
     <File>2887811648/Core/PP_Environment_Text_de_DE.sql</File>
     <File>2890697127/Dynamic_AI_Generated_Lemon_Updates_de_DE.sql</File>
     <File>2890697127/FanFictionDotNet_de_DE.xml</File>

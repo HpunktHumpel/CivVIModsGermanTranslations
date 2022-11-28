@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="95d26d33-1004-4134-a986-324e5d21ce3c" version="1">
+  <Properties>
+    <Name>Leugi's [COLOR_Civ6Green]Preserve[ENDCOLOR] Food and Production Nerfs</Name>
+    <Description>Adds a Food and Production penalty to tiles adjacent to Preserves (-2), while providing a couple of policies to override these penalties if necessary.</Description>
+    <Created>1667789266</Created>
+    <Teaser>Last Update: November 2022</Teaser>
+    <Authors>Leugi</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="Kublai Khan's and Vietnam Pack" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>5000</LoadOrder>
+      </Properties>
+      <File>sql/PreserveNerfPolicies.sql</File>
+      <File>sql/PreserveNerfs.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>sql/PreserveNerf_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>5000</LoadOrder>
+      </Properties>
+      <File>Text/PreserveNerfTexts.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>sql/PreserveNerfPolicies.sql</File>
+    <File>sql/PreserveNerfs.sql</File>
+    <File>sql/PreserveNerf_Icons.sql</File>
+    <File>Text/PreserveNerfTexts.sql</File>
+  </Files>
+</Mod>

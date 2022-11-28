@@ -198,5 +198,6 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2879431839 | Leugi's Preserve Rework | Leugi | Junky | #21
 2879433599 | Leugi's Wildlife++ (Game Mode) | Leugi, Captain Lime, Deliverator23 & Shirotora Kenshin | Junky | #21
 2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | #20
+2885551724 | Leugi's Preserve Food and Production Nerfs | Leugi | Junky | **NEW**
 2887811648 | Policy Pack: Environment | JNR | Junky | #21
 2890697127 | Sailor Cat's Relics Plus | Sailor Cat | H.Humpel | #21
