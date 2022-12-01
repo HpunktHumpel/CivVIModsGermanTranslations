@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Villa -->
+<!-- Author: Mikecro -->
+<!-- DateCreated: 7/11/2056 12:20:10 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_MIK_IMPROVEMENT_ROMAN_VILLA_NAME" Language="en_US">
+			<Text>Villa Rustica</Text>
+		</Row>
+		<Row Tag="LOC_MIK_IMPROVEMENT_ROMAN_VILLA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Roman Villa, unique to Rome. +1 [ICON_Food] Food,  +1 [ICON_Culture] Culture, and +0.5 [ICON_Housing] Housing. +1 [ICON_Food] Food for every 2 adjacent Farms or every 2 adjacent Plantations. With Feudalism, +1 [ICON_Food] Food for every adjacent Farm. +1 [ICON_Culture] Culture for each adjacent Theatre Square or City Center. +1 [ICON_Production] Production for every 2 adjacent Woods tiles or 2 adjacent Pasture tiles. +1 [ICON_Gold] Gold for each adjacent Luxury or Commercial Hub. Gains +2 [ICON_Culture] Culture after researching National History civic. Cannot be built next to another Roman Villa.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_MIK_IMPROVEMENT_ROMAN_VILLA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>What we today know about Roman civilization comes mostly from estates built by richer citizens of Rome, the Roman villas. Two most common types were either villa urbana, a highly decorated place intended for permanent living, or villa rustica, not so esthetically pleasing, but rather functional place, with farmhouses overlooking neighboring fields. Any villa had 3 parts: pars urbana where owner and his family lived, pars rustica where slaves and chef of villa were located and villa fructuaria - the storage rooms. Many villas had beautiful mosaics and some even had hypocaust, floor heating. By the end of Western Roman Empire, many villas were abandoned. Some would later be revived in forms of monasteries; others would be lost to time until recently. Today, Roman villas are still being discovered and you even have the chance to visit a restored villa, Villa Borg, in Germany!</Text>
+		</Row>	 
+	</LocalizedText>
+</GameData>

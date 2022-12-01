@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Villa -->
+<!-- Author: Mikecro -->
+<!-- DateCreated: 7/11/2056 12:20:10 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_MIK_IMPROVEMENT_ROMAN_VILLA_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Villa Rustica|Villa Rustica|Villa Rustica|Villa Rustica|Villa Rustica</Text>
+		</Replace>
+		<Replace Tag="LOC_MIK_IMPROVEMENT_ROMAN_VILLA_DESCRIPTION" Language="de_DE">
+			<Text>Schaltet die Handwerker-Fähigkeit frei eine Villa Rustica zu bauen, eine einzigartige Modernisierung Roms. +1 [ICON_Food] Nahrung, +1 [ICON_Culture] Kultur und +0,5 [ICON_Housing] Wohnraum. +1 [ICON_Food] Nahrung für je 2 angrenzende Bauernhöfe und für je 2 angrenzende Plantagen. Bei Feudalismus +1 [ICON_Food] Nahrung für jeden angrenzenden Bauernhof. +1 [ICON_Culture] Kultur für jeden angrenzenden Theaterplatz-Bezirk oder jedes angrenzende Stadtzentrum. +1 [ICON_Production] Produktion für je 2 angrenzende Wald-Geländefelder und für je 2 angrenzende Weide-Geländefelder. +1 [ICON_Gold] Gold für jedes angrenzende Luxusgut und jeden angrenzenden Handelszentrum-Bezirk. Erhält +2 [ICON_Culture] Kultur nach der Erforschung der Naturgeschichte. Kann nicht neben einer anderen Villa Rustica errichtet werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_MIK_IMPROVEMENT_ROMAN_VILLA_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Was wir heute über die römische Zivilisation wissen, stammt hauptsächlich aus den von reicheren Bürgern Roms erbauten Landgütern, den römischen Villen. Zwei der häufigsten Typen waren entweder die Villa Urbana, ein hoch dekorierter Ort, der zum dauerhaften Wohnen bestimmt war, oder die Villa Rustica, ein nicht so ästhetisch ansprechender und eher funktionaler Ort mit Bauernhäusern mit Blick auf benachbarte Felder. Jede Villa bestand aus 3 Teilen: Pars Urbana, wo der Besitzer und seine Familie lebten, Pars Rustica, wo die Sklaven und die Verwalter der Villa untergebracht waren sowie der Villa Fructuaria – den Lagerräumen. Viele Villen hatten wunderschöne Mosaike und einige besaßen sogar eine Fußbodenheizung. Bis zum Ende des Weströmischen Reiches wurden viele Villen aufgegeben. Einige wurden später in Form von Klöstern wiederbelebt, andere sind im Laufe der Zeit verloren gegangen. Aber auch heute noch werden römische Villen entdeckt und es gibt sogar die Möglichkeit eine restaurierte Villa, die Villa Borg, in Deutschland zu besuchen!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
