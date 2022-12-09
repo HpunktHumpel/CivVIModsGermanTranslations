@@ -1,7 +1,7 @@
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_P0K_BUILDING_TEMPLE_POSEIDON_NAME" Language="de_DE">
-			<Text>Tempel des Poseidon</Text>
+		<Row Tag="LOC_P0K_BUILDING_TEMPLE_POSEIDON_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Tempel des Poseidon|Tempel des Poseidon|Tempel des Poseidon|Tempels des Poseidon|Tempel des Poseidon</Text>
 		</Row>
 		<Row Tag="LOC_P0K_BUILDING_TEMPLE_POSEIDON_DESCRIPTION" Language="de_DE">
 			<Text>Jede Fischerboote-Modernisierung innerhalb von 4 Geländefeldern um dieses Wunder gewährt +1 [ICON_AMENITIES] Annehmlichkeiten. +1 [ICON_Faith] Glauben auf allen Wasser-Geländefeldern für diese Stadt.[NEWLINE]Muss neben einer Fischerboote-Modernisierung gebaut werden.</Text>
