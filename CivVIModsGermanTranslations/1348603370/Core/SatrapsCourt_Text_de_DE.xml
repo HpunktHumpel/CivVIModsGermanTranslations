@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_POK_DISTRICT_SATRAPS_COURT_NAME" Language="de_DE">
-			<Text>Satrapenhof</Text>
+		<Replace Tag="LOC_POK_DISTRICT_SATRAPS_COURT_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Satrapenhof|Satrapenhof|Satrapenhof|Satrapenhofs|Satrapenhof|</Text>
 		</Replace>
 		<Replace Tag="LOC_POK_DISTRICT_SATRAPS_COURT_DESCRIPTION" Language="de_DE">
 			<Text>Ein Bezirk für die Verwaltung des Reiches, der ausschließlich Persien und Makedonien zur Verfügung steht.[NEWLINE]In Städten mit voller Loyalität gewährt er die gleichen Erträge wie der Palast: +1 [ICON_Amenities] Annehmlichkeiten, +1 [ICON_Housing] Wohnraum, +2 [ICON_Science] Wissenschaft, +1 [ICON_Culture] Kultur, +2 [ICON_Production] Produktion und +5 [ICON_Gold] Gold.[NEWLINE]+1 [ICON_Gold] Gold pro Runde von ausländischen [ICON_TradeRoute] Handelsrouten, die durch diese Stadt führen. Wenn er geplündert wird, bringt es dem Feind eine große Menge [ICON_Gold] Gold.[NEWLINE]Kann nicht neben dem Stadtzentrum gebaut werden.</Text>
