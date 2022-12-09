@@ -98,7 +98,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
-2170418036 | EpsTweak for Adaptation | Eps | Junky | **NEW**
+2170418036 | EpsTweak for Adaptation | Eps | Junky | #22
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | #19
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
@@ -194,12 +194,12 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | #21
 2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | #21
 2878166834 | Mikecro's Military Camp | Mikecro & Sailor Cat | H.Humpel | #20
-2878470294 | Sailor Cat's Persia Rework | Sailor Cat | Junky | **NEW**
+2878470294 | Sailor Cat's Persia Rework | Sailor Cat | Junky | #22
 2879431839 | Leugi's Preserve Rework | Leugi | Junky | #21
 2879433599 | Leugi's Wildlife++ (Game Mode) | Leugi, Captain Lime, Deliverator23 & Shirotora Kenshin | Junky | #21
 2880643181 | Living Things Grow! | dreadanddespair | H.Humpel | #20
-2885551724 | Leugi's Preserve Food and Production Nerfs | Leugi | Junky | **NEW**
+2885551724 | Leugi's Preserve Food and Production Nerfs | Leugi | Junky | #22
 2887811648 | Policy Pack: Environment | JNR | Junky | #21
 2890697127 | Sailor Cat's Relics Plus | Sailor Cat | H.Humpel | #21
-2893238153 | Tournaments (Game Mode) | Teddyk | H.Humpel | **NEW**
-2893274394 | Mikecro's Roman Villa | Mikecro | H.Humpel | **NEW**
+2893238153 | Tournaments (Game Mode) | Teddyk | H.Humpel | #22
+2893274394 | Mikecro's Roman Villa | Mikecro | H.Humpel | #22
