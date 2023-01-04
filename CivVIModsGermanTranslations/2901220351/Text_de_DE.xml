@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JULIUS_CAESAR_REASON_CAESAR_LOVE_PATRA" Language="de_DE">
+			<Text>In Teppiche gehüllt, meine neue Isis, kommst du aus meinem Venustempel oder aus dem Hof des Herrenhauses? Mach Dir keine Sorgen und komm zu mir. Dein pharaonischer Thron wird so lange bestehen wie meine Liebe, meine Macht und mein Ruhm!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_CLEOPATRA_REASON_PATRA_LOVE_CAESAR" Language="de_DE">
+			<Text>Oh, Schutzherr von Ägypten, mein Geliebter, mein Cäsar! Deine Weisheit ist überragend, deine Tugenden sind unschuldig, und deine Armee ist mächtig! Kümmere dich nicht um meine unfähigen Brüder oder deinen leichtsinnigen Kavalleriekommandanten, Ägypten wird immer eine ebenso warme Bibliothek und Heimat meines teuren großen Regenten sein!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

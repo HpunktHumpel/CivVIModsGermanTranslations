@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a7533552-9f9d-4b9f-9126-ffb396620e13" version="1">
+  <Properties>
+    <Name>LOC_STRINGWHATYOUWANT_MOD_NAME</Name>
+    <Description>LOC_STRINGWHATYOUWANT_MOD_DESCRIPTION</Description>
+    <Created>1670726258</Created>
+    <Teaser>LOC_STRINGWHATYOUWANT_MOD_TEASER</Teaser>
+    <Authors>nea•baraja</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+
+  <LocalizedText>
+    <Text id="LOC_STRINGWHATYOUWANT_MOD_NAME">
+      <en_US>Alliance Bonus : Caesar and Patra</en_US>
+      <zh_Hans_CN>凯撒与艳后增加好感</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_STRINGWHATYOUWANT_MOD_TEASER">
+      <en_US>Alliance Bonus : Caesar and Patra</en_US>
+      <zh_Hans_CN>凯撒与艳后增加好感</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_STRINGWHATYOUWANT_MOD_DESCRIPTION">
+      <en_US>
+        1. Caesar and Patra will have +50 favorability for each other.
+        2. They will have special conversation.
+        3. They will share their leader's ability if they form an alliance.
+      </en_US>
+      <zh_Hans_CN>
+        1.凯撒与艳后会互相增加大量好感
+        2.两者结缔同盟后会获得对方的领袖能力
+        3.特殊的领袖羁绊对话
+      </zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  
+  <FrontEndActions>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="DistrictsFeatures">
+       <Properties><LoadOrder>114514</LoadOrder></Properties>
+       <Criteria>DistrictsFeatures</Criteria>
+       <File>Base.sql</File>
+    </UpdateDatabase>
+	    <UpdateText id="text">
+      <File>Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Base.sql</File>
+	<File>Text.xml</File>
+  </Files>
+</Mod>

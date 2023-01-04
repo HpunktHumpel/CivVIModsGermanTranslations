@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JULIUS_CAESAR_REASON_CAESAR_LOVE_PATRA" Language="zh_Hans_CN">
+			<Text>地毯中亲爱的新伊西斯，你来自我的维纳斯神庙，还是庄园之庭堂？无须担忧，来我身旁。你的法老之位，正如我的爱，我的权力和荣光般地久天长！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_CLEOPATRA_REASON_PATRA_LOVE_CAESAR" Language="zh_Hans_CN">
+			<Text>哦，埃及的庇护者，我的爱人，我的凯撒！您的智慧出众，您的德行清白，您的军队无比强大！不必担忧我无能的弟兄或是您桀骜轻佻的骑兵统领，埃及永远是伟大的狄克维多的另一个温暖的书房与家！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JULIUS_CAESAR_REASON_CAESAR_LOVE_PATRA" Language="en_US">
+			<Text>Wrapped in rugs, dear my New Isis, are you from my Temple of Venus, or the Court of the Manor? Don't worry, come to me. Thy Pharaoh is secure, as my love, my power and my glory are as long as ever!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_CLEOPATRA_REASON_PATRA_LOVE_CAESAR" Language="en_US">
+			<Text>O, patron of Egypt, my love, my Caesar! Your wisdom is outstanding, your virtues are innocent, and your army is mighty! Don't worry about my incompetent brothers or your frivolous cavalry commander, Egypt will always be another warm library and home of my dear great dictator!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -203,3 +203,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2890697127 | Sailor Cat's Relics Plus | Sailor Cat | H.Humpel | #21
 2893238153 | Tournaments (Game Mode) | Teddyk | H.Humpel | #22
 2893274394 | Mikecro's Roman Villa | Mikecro | H.Humpel | #22
+2901220351 | Alliance Bonus : Caesar and Patra | nea_baraja | Junky | **NEW**
