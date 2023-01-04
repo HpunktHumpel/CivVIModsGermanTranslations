@@ -1,16 +1,10 @@
 --------------------------------------------------------------------------------------------------------------------------
-
 -- LocalizedText | Translated by Junky
-
 --------------------------------------------------------------------------------------------------------------------------
-
 INSERT OR REPLACE INTO LocalizedText
-
 		(Tag, 								Language,	Text)
 VALUES
-
 -- Deutsch DE ------------------------------------------------------------------------------------------------------------
-
 		("LOC_CHEAT_MENU_ABOUT",  					"de_DE",		"Mogel Bedienfeld von [Sparrow]"),
 		("LOC_CHEAT_MENU_FREECITY",  				"de_DE",		"Ausgewählte Stadt zu FREIE Stadt machen"),
 		("LOC_CHEAT_EXPAND_MAX",  					"de_DE",		"Erweitertes Bedienfeld ausblenden"),
@@ -31,8 +25,8 @@ VALUES
 		("LOC_CHEAT_MENU_CULTURE",  				"de_DE",		"Schließe aktuelle Ausrichtung [ICON_Culture] ab"),
 		("LOC_CHEAT_MENU_FAITH",  					"de_DE",		"+1000 [ICON_Faith] hinzufügen"),
 		("LOC_CHEAT_MENU_ENVOY",  					"de_DE",		"+5 [ICON_Envoy] Gesandte hinzufügen"),
-		("LOC_CHEAT_MENU_ERA",  					"de_DE",		"Verringere Zeitalterpunkte +10"),
-		("LOC_CHEAT_MENU_ERAMINUS",  				"de_DE",		"Erhöhe Zeitalterpunkte -10"),
+		("LOC_CHEAT_MENU_ERA",  					"de_DE",		"Erhöhe Zeitalterpunkte +10"),
+		("LOC_CHEAT_MENU_ERAMINUS",  				"de_DE",		"Verringere Zeitalterpunkte -10"),
 		("LOC_CHEAT_MENU_MOVE",  					"de_DE",		"+5 Bewegung für ausgewählte Einheit"),
 		("LOC_CHEAT_MENU_XP",  						"de_DE",		"Ausgewählter Einheit eine Beförderung geben"),
 		("LOC_CHEAT_MENU_HEAL",  					"de_DE",		"Heilt ausgewählte Einheit"),

@@ -1,6 +1,7 @@
 04.01.2023
 
 - [UPDATE] Bear's Governor Overhaul (v1.2.1 vom  21. Dez. 2022 um 12:25, Übersetzung von Junky)
+- [FIXED] Cheat Menu Panel (R&F - GS)
 
 
 ===== Version 22 =====
