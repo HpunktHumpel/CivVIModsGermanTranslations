@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4ba3644d-43e6-4a29-9d25-86388400ddc7" version="1">
+  <Properties>
+    <Name>[COLOR:190,255,129]Sailor Cat's[ENDCOLOR] Upgrades Keep Unique Abilities</Name>
+    <Description>Upgrading a unique unit will pass on its unique abilities. Subsequent upgrades to the same unit will continue to pass on these abilities.</Description>
+    <Created>1672519390</Created>
+    <Teaser>Unique units pass on their abilities through upgrades.</Teaser>
+    <Authors>Sailor Cat</Authors>
+    <SpecialThanks>SeelingCat, Zegangani</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="db">
+      <Properties>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>
+      <File>PUA_Defines.sql</File>
+      <File>PUA_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="reamde">
+      <Properties>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>
+      <File>PUA_Loc.sql</File>
+      <File>PUA_Loc.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>PUA_Defines.sql</File>
+    <File>PUA_Loc.sql</File>
+    <File>PUA_Loc.xml</File>
+    <File>PUA_ModSupport.sql</File>
+  </Files>
+</Mod>

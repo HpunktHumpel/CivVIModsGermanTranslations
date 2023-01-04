@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_SAILOR_LLANERO_ADJACENCY_STRENGTH_UNIT_HELICOPTER_DESCRIPTION" Language="en_US">
+			<Text>+{CalculatedAmount} [ICON_Strength] Combat Strength from adjacent Helicopter.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAILOR_INHERITED_STRENGTH_PREVIEW_TEXT" Language="en_US">
+			<Text>{1_Amount} inherited from unique unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_INHERITED_STRENGTH_PREVIEW_TEXT" Language="zh_Hans">
+			<Text>{1_Amount} 继承自唯一单位。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_INHERITED_STRENGTH_PREVIEW_TEXT" Language="zh_Hant">
+			<Text>{1_Amount} 繼承自唯一單位。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_INHERITED_STRENGTH_PREVIEW_TEXT" Language="ja_JP">
+			<Text>{1_Amount} は固有のユニットから継承されました。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_INHERITED_STRENGTH_PREVIEW_TEXT" Language="it_IT">
+			<Text>{1_Amount} ereditato da un'unità unica.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_INHERITED_STRENGTH_PREVIEW_TEXT" Language="ru_RU">
+			<Text>{1_Amount} унаследовано от уникальной единицы.</Text>
+		</Row>
+		<!-- Steel & Thunder-->
+		<Row Tag="LOC_ABILITY_SAILOR_VARANGIAN_PREVIEW_TEXT" Language="en_US">
+			<Text>{1_Amount} inherited from unique unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_VARANGIAN_PREVIEW_TEXT" Language="zh_Hans">
+			<Text>{1_Amount} 继承自唯一单位。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_VARANGIAN_PREVIEW_TEXT" Language="zh_Hant">
+			<Text>{1_Amount} 繼承自唯一單位。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_VARANGIAN_PREVIEW_TEXT" Language="ja_JP">
+			<Text>{1_Amount} は固有のユニットから継承されました。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_VARANGIAN_PREVIEW_TEXT" Language="it_IT">
+			<Text>{1_Amount} ereditato da un'unità unica.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAILOR_VARANGIAN_PREVIEW_TEXT" Language="ru_RU">
+			<Text>{1_Amount} унаследовано от уникальной единицы.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

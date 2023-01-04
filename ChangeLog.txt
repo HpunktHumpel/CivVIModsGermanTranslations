@@ -2,6 +2,7 @@
 
 - [UPDATE] Bear's Governor Overhaul (v1.2.1 vom 21. Dez. 2022 um 12:25, Übersetzung von Junky)
 - [UPDATE] Sailor Cat's Persia Rework (vom 3. Jan. 2023 um 1:23, Übersetzung von Junky)
+- [UPDATE] Sailor Cat's Upgrades Keep Unique Abilities (vom 31. Dez. 2022 um 21:49, Übersetzung von Junky)
 - [FIXED] Cheat Menu Panel (R&F - GS)
 
 
