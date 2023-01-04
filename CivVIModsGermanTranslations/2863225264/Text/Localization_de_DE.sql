@@ -2,7 +2,7 @@
 
 INSERT OR REPLACE INTO LocalizedText
 		(Tag, 															Language,	Text)
-		-- Surveyor
+		-- Vermesser
 VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_GOVERNOR_BEAR_SURVEYOR_DESCRIPTION',						'de_DE',	'Ein Gouverneur, der sich darauf konzentriert, die Grenzen Eures Reiches durch Erkundung zu erweitern und das ungenutzte Potenzial Eurer Städte zu nutzen.'),
 		('LOC_GOVERNOR_BEAR_SURVEYOR_TITLE',							'de_DE',	'Vermesser'),
@@ -62,7 +62,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_ABILITY_BEARGOV_FORMATIONS_FLANKING_DESCRIPTION',			'de_DE',	'+50% Flankierungsbonus durch etablierten Gouverneur ([ICON_Governor] General Gouverneur mit [ICON_Promotion] Formationen Beförderung).'),
 		('LOC_ABILITY_BEARGOV_DRILLS_EXPERIENCE_NAME',					'de_DE',	'Drill'),
 		('LOC_ABILITY_BEARGOV_DRILLS_EXPERIENCE_DESCRIPTION',			'de_DE',	'+25% mehr Erhfahrung durch Kämpfe durch etablierten Gouverneur ([ICON_Governor] General Gouverneur mit [ICON_Promotion] Drill Beförderung).'),
-		--Spymaster		
+		--Spion		
 		('LOC_GOVERNOR_BEAR_SPYMASTER_NAME',							'de_DE',	'Meisterspion'),
 		('LOC_GOVERNOR_BEAR_SPYMASTER_DESCRIPTION',						'de_DE',	'Ein Gouverneur, spezialisiert darauf Euer Spionagenetzwerk zu verbessern, Intrigen zu spinnen und Geheiminformationen über Eure Feinde zu beschaffen.'),
 		('LOC_GOVERNOR_BEAR_SPYMASTER_TITLE',							'de_DE',	'Meisterspion'),
@@ -86,7 +86,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_PROPAGANDA_DESCRIPTION',					'de_DE',	'Gegnerische Spione operieren in Euren Städten 1 Stufe niedriger als normal. Eure Spione operieren 1 Stufe höher bei offensiven Missionen.'),
 		('LOC_BEAR_PROMOTION_INFORMANTS_DESCRIPTION',					'de_DE',	'Eure Städte erhalten +4 Loyaltät pro Runde und +1 [ICON_Amenities] Annehmlichkeiten durch einen Gouverneur, wenn ein Spion eine Gegenspionage-Mission in der Stadt ausführt.'),
 		('LOC_BEAR_PROMOTION_INSIDERS_DESCRIPTION',						'de_DE',	'[ICON_TradeRoute] Handelswege zu Euren Allianzpartnern gewähren +3 [ICON_Culture] Kultur und [ICON_Science] Wissenschaft für beide Städte.'),
-		--Harbormaster		
+		--Hafenmeister		
 		('LOC_GOVERNOR_BEAR_HARBORMASTER_NAME',							'de_DE',	'Hafenmeister'),
 		('LOC_GOVERNOR_BEAR_HARBORMASTER_DESCRIPTION',					'de_DE',	'Ein Gouverneur, spezialisiert auf die Verbesserung der Marinen Befähigung und Effizienz Eurer Küstenstädte.'),
 		('LOC_GOVERNOR_BEAR_HARBORMASTER_TITLE',						'de_DE',	'Hafenmeister'),
@@ -117,7 +117,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_ABILITY_BEARGOV_NAVTOOLS_MOVEMENT_EMBARKED_DESCRIPTION',	'de_DE',	'+1 [ICON_Movement] Bewegung und Sichtweite wenn gewassert durch [ICON_Governor] Gouverneur (Hafenmeister mit Navigationshilfen [ICON_Promotion] Beförderung).'),
 		('LOC_ABILITY_BEARGOV_NAVTOOLS_MOVEMENT_NAVY_DESCRIPTION',		'de_DE',	'+1 [ICON_Movement] Bewegung und Sichtweite durch [ICON_Governor] Gouverneur (Hafenmeister mit Navigationshilfen [ICON_Promotion] Beförderung).'),
 		
-		--Curator
+		--Kurator
 		('LOC_GOVERNOR_BEAR_CURATOR_NAME',								'de_DE',	'Kurator'),
 		('LOC_GOVERNOR_BEAR_CURATOR_DESCRIPTION',						'de_DE',	'Ein Gouverneur mit Fokus auf den Erhalt der Loyalität Eures Landes und der Anziehung neuer Touristen.'),
 		('LOC_GOVERNOR_BEAR_CURATOR_TITLE',								'de_DE',	'Kurator'),
@@ -140,7 +140,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_ARTISTIC_GENIUS_DESCRIPTION',				'de_DE',	'+15% [ICON_Production] Produktion für Weltwunder.'),
 		('LOC_BEAR_PROMOTION_FLOURISHING_OF_ARTS_DESCRIPTION',			'de_DE',	'+2 [ICON_Culture] Kultur durch Wunder. +20% [ICON_Culture] Kultur in Städten mit einem Wunder.'),
 
-		--Educator
+		--Bildung
 		('LOC_GOVERNOR_BEAR_EDUCATOR_NAME',								'de_DE',	'Erzieher'),
 		('LOC_GOVERNOR_BEAR_EDUCATOR_DESCRIPTION',						'de_DE',	'Ein Gouverneur, spezialisiert auf Gewinnung [Icon_GreatPerson] Großer Persönlichkeiten und Steigerung der [ICON_Science] Wissenschaft in Eurem Reich.'),
 		('LOC_GOVERNOR_BEAR_EDUCATOR_TITLE',							'de_DE',	'Erzieher'),
@@ -163,7 +163,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_RHETORIC_DESCRIPTION',						'de_DE',	'[ICON_TechBoosted] Heurekas und [ICON_CivicBoosted] Eingebungen gewähren jeweils zusätzlich +5% [ICON_Science] Wissenschaft und [ICON_Culture] Kultur.'),
 		('LOC_BEAR_PROMOTION_FREE_THOUGHT_DESCRIPTION',					'de_DE',	'+1% [ICON_Culture] Kultur, [ICON_Faith] Glauben, [ICON_Gold] Gold und [ICON_Science] Wissenschaft in Eurem Reich für jede rekrutierte Große Persönlichkeit.'),
 
-		--Cardinal
+		--Kardinal
 		('LOC_GOVERNOR_BEAR_CARDINAL_NAME',								'de_DE',	'Kardinal'),
 		('LOC_GOVERNOR_BEAR_CARDINAL_DESCRIPTION',						'de_DE',	'Ein Gouverneur zur Steigerung der Frömmigkeit Eures Reiches durch Glaube und Religion.'),
 		('LOC_GOVERNOR_BEAR_CARDINAL_TITLE',							'de_DE',	'Kardinal'),
@@ -214,7 +214,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_PRESS_RELEASE_DESCRIPTION',				'de_DE',	'+2 [ICON_Favor] Diplomatische Gunst pro Runde.'),
 		('LOC_BEAR_PROMOTION_PUPPETEERING_DESCRIPTION',					'de_DE',	'Das Ausheben des Miltärs von Stadstaaten kostet 25% weniger [ICON_Gold]. Erhaltet 1 [ICON_Envoy] Gesandten beim Ausheben des Miltärs von Stadstaaten.'),
 		
-		--Diplomat
+		--Verteidiger
 		('LOC_GOVERNOR_BEAR_DEFENDER_NAME',								'de_DE',	'Verteidiger'),
 		('LOC_GOVERNOR_BEAR_DEFENDER_DESCRIPTION',						'de_DE',	'Ein Gouverneur zum Schutze Eures Reichs vor Feinden und bei Kriegen.'),
 		('LOC_GOVERNOR_BEAR_DEFENDER_TITLE',							'de_DE',	'Verteidiger'),
@@ -240,7 +240,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEARGOV_WARRIOR_CODE_COMBAT_DESCRIPTION',					'de_DE',	'+5 [ICON_Strength] Kampfstärke gegen Einheiten Freier Städte durch [ICON_Governor] Gouverneur (Verteidiger mit Krieger-Kodex [ICON_Promotion] Beförderung)'),
 		('LOC_BEARGOV_GUERILLA_COMBAT_DESCRIPTION',						'de_DE',	'+3 [ICON_Strength] Kampfstärke beim Kampf in freundlichem Gebiet durch [ICON_Governor] Gouverneur (Verteidiger mit Guerilla-Kriegsführung [ICON_Promotion] Beförderung)'),
 		
-		--Financier
+		--Ökonom
 		('LOC_GOVERNOR_BEAR_MERCHANT_NAME',								'de_DE',	'Kaufmann'),
 		('LOC_GOVERNOR_BEAR_MERCHANT_DESCRIPTION',						'de_DE',	'Ein Gouverneur zum mehren Eures Reichstums und zur Stärkung Eurer Wirtschaft.'),
 		('LOC_GOVERNOR_BEAR_MERCHANT_TITLE',							'de_DE',	'Kaufmann'),
@@ -264,7 +264,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_NATIONAL_TREASURY_DESCRIPTION',			'de_DE',	'Erhaltet 1% Eures [ICON_Gold] Schatzkammerinhalts als [ICON_Gold] Gold pro Runde (max. 1000 Gold pro Runde.)'),
 		('LOC_BEAR_PROMOTION_CONTRACTORS_DESCRIPTION',					'de_DE',	'Kann in Städten mit etablierten [ICON_Governor] Gouverneur [ICON_Gold] Gold zum Kauf von Bezirken verwenden.'),
 		
-		--Pioneer
+		--Ingenieur
 		('LOC_GOVERNOR_BEAR_BUILDER_NAME',								'de_DE',	'Pionier'),
 		('LOC_GOVERNOR_BEAR_BUILDER_DESCRIPTION',						'de_DE',	'Ein Gouverneur der Euer Reich und Eure Städte wachsen und vergrößern lässt.'),
 		('LOC_GOVERNOR_BEAR_BUILDER_TITLE',								'de_DE',	'Pionier'),
@@ -275,9 +275,13 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_RESETTLEMENT_NAME',						'de_DE',	'Neuansiedlung'),
 		('LOC_BEAR_PROMOTION_URBAN_BOOM_NAME',							'de_DE',	'Stadtentwicklung'),
 		('LOC_BEAR_PROMOTION_GOLD_RUSH_NAME',							'de_DE',	'Goldrausch'),
-
+		
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ALT',					'de_DE',	'In der Stadt des [ICON_Governor] Gouverneurs verbrauchen erstellte Siedler keine [ICON_Citizen] Bürger.'),
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ALT_ADOPTER',			'de_DE',	'Gewährt bei Ernennung einen Siedler in der [ICON_Capital] Hauptstadt.'),
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ALT_FINISHER',			'de_DE',	'In dieser Stadt endende inländische [ICON_TradeRoute] Handelswege gewähren der Ursprungsstadt +2 [ICON_FOOD] Nahrung und [ICON_Production] Produktion.'),
+		
 		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION',						'de_DE',	'In der Stadt des [ICON_Governor] Gouverneurs erstellte Siedler verbrauchen keine [ICON_Citizen] Bürger.'),
-		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ADOPTER',				'de_DE',	'Gewährt bei Ernennung einen Siedler in der [ICON_Capital] Hauptstadt.'),
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ADOPTER',				'de_DE',	'Gewährt bei Ernennung 2 [ICON_Citizen] Bürger in der [ICON_Capital] Hauptstadt.'),
 		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_FINISHER',				'de_DE',	'Inländische [ICON_TradeRoute] Handelswege die in dieser Stadt enden erhalten +2 [ICON_FOOD] Nahrung und [ICON_Production] Produktion für die Ursprungsstadt.'),
 
 		('LOC_BEAR_PROMOTION_RESETTLEMENT_DESCRIPTION',					'de_DE',	'+15% [ICON_Production] Produktion für Siedler. Neue Städte beginnen mit einem zusätzlichen [ICON_Citizen] Bürger.'),
@@ -286,7 +290,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_LAND_ACQUISITION_DESCRIPTION',				'de_DE',	'Neue gegründete Städte beginnen mit 4 zusätzlichen Feldern. +4 Loyalität in allen Städten.'),
 		('LOC_BEAR_PROMOTION_SURPLUS_LOGISTICS_DESCRIPTION',			'de_DE',	'+2 [ICON_FOOD] Nahrung in jeder Stadt. +15% [ICON_Food] Wachstumsrate in jeder Stadt.'),
 
-		--Planner
+		--Planer
 		('LOC_GOVERNOR_BEAR_RESOURCE_MANAGER_NAME',						'de_DE',	'Baumeister'),
 		('LOC_GOVERNOR_BEAR_RESOURCE_MANAGER_DESCRIPTION',				'de_DE',	'Ein Gouverneur der die Infrastruktur Eurer Städte verbessert.'),
 		('LOC_GOVERNOR_BEAR_RESOURCE_MANAGER_TITLE',					'de_DE',	'Baumeister'),
@@ -310,7 +314,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_PROMOTION_POWER_GRIDS_DESCRIPTION',					'de_DE',	'+4 [ICON_Power] Energie in Euren Städten. +2 [ICON_Amenities] Annehmlichkeiten in [ICON_Power] energieversorgten Städten.'),
 		('LOC_BEAR_PROMOTION_SUBSIDIZATION_DESCRIPTION',				'de_DE',	'Verbesserte Luxusressourcen gewähren [ICON_Amenities] Annehmlichkeit für eine weitere Stadt.'),
 
-		--Visier
+		--Wesir
 		('LOC_GOVERNOR_BEAR_IBRAHIM_NAME',								'de_DE',	'Großwesir'),
 		('LOC_GOVERNOR_BEAR_IBRAHIM_DESCRIPTION',						'de_DE',	'Ein einzigartiger [ICON_Governor] Gouverneur ausschließlich für Suleiman vom Osmanischen Reich.'),
 		('LOC_GOVERNOR_BEAR_IBRAHIM_TITLE',								'de_DE',	'Großwesir'),
@@ -321,10 +325,10 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_GOVERNOR_PROMOTION_GRAND_VISIER_DESCRIPTION_ADOPTER',	'de_DE',	'Gewährt bei Ernennung einen zusätzlichen [ICON_Governor] Gouverneur-Titel.'),
 		('LOC_BEAR_GOVERNOR_PROMOTION_GRAND_VISIER_DESCRIPTION_FINISHER',	'de_DE',	'Städte mit einem etablierten [ICON_Governor] Meister-Gouverneur (Komplett befördert), üben zusätzlich +1 Loyalitätsdruck pro [ICON_Citizen] Bürger aus.'),
 
-		-- Fisheries update
+		-- Fischerei update
 		('LOC_IMPROVEMENT_BEAR_FISHERY_DESCRIPTION',						'de_DE',	'Liefert 1 [ICON_Food] Nahrung, +0,5 [ICON_Housing] Wohnraum, +1 zusätzliche [ICON_Food] Nahrung, wenn neben einer Meeresressource. Muss auf einem Küstenfeld gebaut werden.'),
 		('LOC_IMPROVEMENT_BEAR_CITY_PARK_DESCRIPTION',						'de_DE',	'+2 Anziehungskraft und +1 [ICON_Culture] Kultur. +1 [ICON_Amenities] Annehmlichkeit neben Wasser-Gelände. Kann nicht an einen Stadtpark angrenzen'),
-		-- User Interface                                                   
+		-- Benutzeroberfläche                                                   
 		('LOC_BEAR_ADOPTER_PREFIX',											'de_DE',	'Ernennung:'),
 		('LOC_BEAR_FINISHER_PREFIX',										'de_DE',	'Abschluss:'),
 		('LOC_BEAR_BASE_PREFIX',											'de_DE',	'Grundfähigkeit:'),
@@ -333,7 +337,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',								'de_DE',	'Vermesser'),
 		('LOC_BEAR_GOVERNOR_ADOPTER_ABILITY_TOOLTIP',						'de_DE',	'Freigeschaltet sobald der [ICON_Governor] Gouverneur zum ersten Mal ernannt wird.'),
 		('LOC_BEAR_GOVERNOR_FINISHER_ABILITY_TOOLTIP',						'de_DE',	'Freigeschaltet sobald dieser [ICON_Governor] alle Titel erhält. Gewährt der Stadt des [ICON_Governor] Gouverneurs einen zweiten starken Bonus.'),
 		('LOC_BEAR_GOVERNOR_TITLES_AVAILABLE',								'de_DE',	'Gouverneur-Titel verfügbar:'),
-		--- Text overrides                                                  
+		--- Text Überschreibungen                                                  
 		('LOC_MOMENT_GOVERNOR_ALL_APPOINTED_FIRST_INSTANCE_DESCRIPTION',	'de_DE',	'Der {GovernorName} tritt in Eure Dienste ein und erweitert so Euren kompetenten Beraterstab.'),
 		('LOC_MOMENT_GOVERNOR_FULLY_PROMOTED_FIRST_INSTANCE_DESCRIPTION',	'de_DE',	'Der Führungsstil von {GovernorName} ist Ausdruck höchster Staatskunst.'),
 		('LOC_NOTIFICATION_GOVERNOR_ESTABLISHED_IN_CITY_SUMMARY',			'de_DE',	'Der {1_GovernorName} [ICON_Governor] Gouverneur ist jetzt in {2_CityName} etabliert'),

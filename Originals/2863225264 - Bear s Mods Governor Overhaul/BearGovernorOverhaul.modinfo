@@ -30,6 +30,13 @@
 		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
 		<ModInUse>4e12695f-0ae8-40c4-9230-aa605c284b64</ModInUse>
 	</Criteria>
+	<Criteria id="BearGovernor_SecretSocieties">
+			<ConfigurationValueMatches>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
   </ActionCriteria>
   <!-- Mod Buddy doesn't support ModInUse criteria properly, so we need to remember to keep a copy of this to paste anytime we update the mod via ModBuddy -->
   <InGameActions>
@@ -45,6 +52,9 @@
 	</UpdateArt>
 	<UpdateDatabase id="BearGovernor_ParkText">
 	  <File>Data/FisheryPark.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="BearGovernor_UserSettings">
+	  <File>Data/UserSettings.sql</File>
 	</UpdateDatabase>
 	<UpdateDatabase id="BearGovernor_Manager">
 	  <File>Data/Manager.sql</File>
@@ -88,6 +98,13 @@
 	<AddGameplayScripts id="BearGovernor_LuaHandler">
 	  <File>LUA/GovernorModifiersHandler.lua</File>
 	</AddGameplayScripts>
+	<UpdateDatabase id="BearGovernor_PioneerSettler">
+	  <Criteria>BearGovernor_Expansion1</Criteria>
+	  <Properties>
+		<LoadOrder>18002</LoadOrder>
+	  </Properties>
+	  <File>Data/SettingsSupport/PioneerSettler.sql</File>
+	</UpdateDatabase>
 	<UpdateDatabase id="BearGovernor_RiseAndFall">
 	  <Criteria>BearGovernor_Expansion1</Criteria>
 	  <Properties>
@@ -95,19 +112,19 @@
 	  </Properties>
 	  <File>Data/ModSupport/RiseAndFall.sql</File>
 	</UpdateDatabase>
-	<!--<UpdateDatabase id="BearGovernor_GrandEras">
-	  <Criteria>BearGovernor_GrandEras</Criteria>
-	  <Properties>
-		<LoadOrder>18003</LoadOrder>
-	  </Properties>
-	  <File>Data/ModSupport/GrandEras.sql</File>
-	</UpdateDatabase>-->
 	<UpdateDatabase id="BearGovernor_AllianceExpanded">
 	  <Criteria>BearGovernor_AllianceExpanded</Criteria>
 	  <Properties>
 		<LoadOrder>18003</LoadOrder>
 	  </Properties>
 	  <File>Data/ModSupport/AlliancesExpanded.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="BearGovernor_SecretSocieties">
+	  <Criteria>BearGovernor_SecretSocieties</Criteria>
+	  <Properties>
+		<LoadOrder>18003</LoadOrder>
+	  </Properties>
+	  <File>Data/ModSupport/SecretSocieties.sql</File>
 	</UpdateDatabase>
   </InGameActions>
   <Files>
@@ -127,9 +144,12 @@
     <File>Data/Governors/Steward.sql</File>
     <File>Data/Governors/Surveyor.sql</File>
     <File>Data/Manager.sql</File>
+	<File>Data/UserSettings.sql</File>
     <File>Data/FisheryPark.sql</File>
     <File>Data/ModSupport/RiseAndFall.sql</File>
 	<File>Data/ModSupport/AlliancesExpanded.sql</File>
+	<File>Data/ModSupport/SecretSocieties.sql</File>
+	<File>Data/SettingsSupport/PioneerSettler.sql</File>
     <File>Icons/GovernorIcons.sql</File>
     <File>LUA/GovernorModifiersHandler.lua</File>
     <File>Platforms/MacOS/BLPs/UI/Governors.blp</File>

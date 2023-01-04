@@ -216,7 +216,7 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',			'en_US',	'Surveyor'),
 		('LOC_BEAR_PROMOTION_PRESS_RELEASE_DESCRIPTION','en_US',	'+2 [ICON_Favor] Diplomatic Favor per turn.'),
 		('LOC_BEAR_PROMOTION_PUPPETEERING_DESCRIPTION',	'en_US',	'Cost of Levying City States troops is reduced by 25%. Gain 1 [ICON_Envoy] Envoy when Levying City State troops.'),
 		
-		--Diplomat
+		--Defender
 		('LOC_GOVERNOR_BEAR_DEFENDER_NAME',			'en_US',	'Defender'),
 		('LOC_GOVERNOR_BEAR_DEFENDER_DESCRIPTION',	'en_US',	'A governor focused on protecting your Empire during war time and from enemies.'),
 		('LOC_GOVERNOR_BEAR_DEFENDER_TITLE',		'en_US',	'Defender'),
@@ -278,8 +278,12 @@ VALUES  ('LOC_GOVERNOR_BEAR_SURVEYOR_NAME',			'en_US',	'Surveyor'),
 		('LOC_BEAR_PROMOTION_URBAN_BOOM_NAME',		'en_US',	'Urban Boom'),
 		('LOC_BEAR_PROMOTION_GOLD_RUSH_NAME',		'en_US',	'Gold Rush'),
 
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ALT',			'en_US',	'Settlers trained in the city that the [ICON_Governor] Governor is established in do not consume [ICON_Citizen] Population.'),
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ALT_ADOPTER',	'en_US',	'Grants a Settler in the [ICON_Capital] Capital upon recruitment.'),
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ALT_FINISHER',	'en_US',	'Domestic [ICON_TradeRoute] Trade Routes ending in this city gain +2 [ICON_FOOD] Food and [ICON_Production] Production to their starting city.'),
+		
 		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION',			'en_US',	'Settlers trained in the city that the [ICON_Governor] Governor is established in do not consume [ICON_Citizen] Population.'),
-		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ADOPTER',	'en_US',	'Grants a Settler in the [ICON_Capital] Capital upon recruitment.'),
+		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_ADOPTER',	'en_US',	'Grants 2 [ICON_Citizen] Population in the [ICON_Capital] Capital upon recruitment.'),
 		('LOC_BEAR_PROMOTION_PIONEER_DESCRIPTION_FINISHER',	'en_US',	'Domestic [ICON_TradeRoute] Trade Routes ending in this city gain +2 [ICON_FOOD] Food and [ICON_Production] Production to their starting city.'),
 
 		('LOC_BEAR_PROMOTION_RESETTLEMENT_DESCRIPTION',			'en_US',	'+15% [ICON_Production] Production towards Settlers. New cities start with an extra [ICON_Citizen] Population.'),
