@@ -13,7 +13,7 @@
 			<Text>Erhaltet einen [ICON_Governor] Gouverneur-Titel für die erste Stadt, die Ihr von einer Zivilisation einnehmt, einschließlich Stadtstaaten. Die Übernahme einer Stadt stellt die [ICON_Movement] Bewegung aller Einheiten wieder her und repariert alle Gebäude und Bezirke dieser Stadt. +5 Loyalität pro Runde in Städten mit einer Garnison. Wird verdoppelt, wenn ein [ICON_Governor] Gouverneur in der Stadt etabliert ist.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION" Language="de_DE">
-			<Text>Erhaltet einen [ICON_Governor] Gouverneur-Titel für die erste Stadt, die Ihr von einer Zivilisation einnehmt, einschließlich Stadtstaaten.	Die Übernahme einer Stadt stellt die [ICON_Movement] Bewegung aller Einheiten wieder her und repariert alle Gebäude und Bezirke dieser Stadt. +5 Loyalität pro Runde in Städten mit einer Garnison. Wird verdoppelt, wenn ein [ICON_Governor] Gouverneur in der Stadt etabliert ist.</Text>
+			<Text>Erhaltet einen [ICON_Governor] Gouverneur-Titel für die erste Stadt, die Ihr von einer Zivilisation einnehmt, einschließlich Stadtstaaten. Die Übernahme einer Stadt stellt die [ICON_Movement] Bewegung aller Einheiten wieder her und repariert alle Gebäude und Bezirke dieser Stadt. +5 Loyalität pro Runde in Städten mit einer Garnison. Wird verdoppelt, wenn ein [ICON_Governor] Gouverneur in der Stadt etabliert ist.</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_CYRUS" Language="de_DE">
 			<Text>Beansprucht die Krone, Kyros, König von Persien, denn Ihr seid der Gesalbte. Mit unsterblichen Soldaten und einem unerschütterlichen Glauben werdet Ihr die Völker der Erde besiegen und über sie herrschen. Viele Bündnisse werden um Euch herum entstehen, doch lasst Euch nicht täuschen - nur die Schwachen wählen diesen veralteten Weg. Versprecht nichts, wenn es Euch nicht weiterhilft, Eure Ziele zu erreichen.</Text>
@@ -26,6 +26,9 @@
 		</Replace>
 		<!-- Persia -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_EXPANSION_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_TradeRoute] Handelswegkapazität pro etabliertem [ICON_Governor] Gouverneur. Erhaltet +1 [ICON_Culture] Kultur für Handelswege zwischen Euren Städten. Inländische Handelswege zu Städten mit etabliertem [ICON_Governor] Gouverneur erhalten auch die Basiserträge internationaler Handelswege. Straßen auf Eurem Gebiet sind eine Stufe fortschrittlicher als üblich.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="de_DE">
 			<Text>+1 [ICON_TradeRoute] Handelswegkapazität pro etabliertem [ICON_Governor] Gouverneur. Erhaltet +1 [ICON_Culture] Kultur für Handelswege zwischen Euren Städten. Inländische Handelswege zu Städten mit etabliertem [ICON_Governor] Gouverneur erhalten auch die Basiserträge internationaler Handelswege. Straßen auf Eurem Gebiet sind eine Stufe fortschrittlicher als üblich.</Text>
 		</Replace>
 		<!-- Immortal -->
