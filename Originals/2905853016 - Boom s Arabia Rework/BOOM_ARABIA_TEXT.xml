@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_ARABIA_TEXT -->
+<!-- Author: Boom -->
+<!-- DateCreated: 12/20/2022 9:21:22 PM -->
+<GameData>
+	<BaseGameText>
+		<!-- The name of the district. -->
+		<Row Tag="LOC_DISTRICT_BOOM_MADRASA_NAME">
+			<Text>Madrasa</Text>
+		</Row>
+
+		<!-- Its description. -->
+		<Row Tag="LOC_DISTRICT_BOOM_MADRASA_DESCRIPTION">
+			<Text>A district unique to Arabia for religious activity. Replaces the Holy Site district and cheaper to build. [NEWLINE][NEWLINE]Grants an additional standard adjacency to the Campus district. Provides a [ICON_GreatScientist] Great Scientist point instead of a [ICON_GreatProphet] Great Prophet point. Gains +1 [ICON_Faith] Faith adjacency if a Worship Building has been built.</Text>
+		</Row>
+
+		<!--Fix description of the last prophet ability-->
+		<Replace Tag ="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION">
+			<Text>The Worship Building of Arabia's religion is 90% cheaper to purchase with [ICON_Faith] Faith and provides +15% [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith to Arabian cities. </Text>
+		</Replace>
+		<Replace Tag ="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION">
+			<Text>May select any religious belief, including those already selected by other civilizations. Automatically receive the final [ICON_GreatProphet] Great Prophet when the next-to-last one is claimed (if you have not earned a [ICON_GreatProphet] Great Prophet already).</Text>
+		</Replace>
+
+		<Row Tag="LOC_DISTRICT_BOOM_MADRASA_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Science from adjacent Madrasas.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_CAMPUS_FAITH">
+			<Text>+{1_num} [ICON_Faith] Faith from adjacent Campuses.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>
+

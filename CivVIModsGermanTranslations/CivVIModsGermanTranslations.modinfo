@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="23">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]203[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]204[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1672877457</Created>
+    <Created>1672878465</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Boom, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -38,6 +38,9 @@
     </Criteria>
     <Criteria id="BetterCoastalCitiesAndWaterTiles_FrontEnd">
       <ModIsEnabled>7f55c3e9-93a9-41d6-8203-741f6a53d51d</ModIsEnabled>
+    </Criteria>
+    <Criteria id="BoomsArabiaRework_FrontEnd">
+      <ModIsEnabled>665f9594-019b-47b6-ac26-0d19328681ab</ModIsEnabled>
     </Criteria>
     <Criteria id="BoomsCaesarTweak_FrontEnd">
       <ModIsEnabled>280e5186-cd59-4687-a2b9-d79b77f0b947</ModIsEnabled>
@@ -291,6 +294,9 @@
     </Criteria>
     <Criteria id="BiofuelProductionBuilding">
       <ModInUse>5212f125-7015-4bdb-b0e3-64cd5a93cdc4</ModInUse>
+    </Criteria>
+    <Criteria id="BoomsArabiaRework">
+      <ModInUse>665f9594-019b-47b6-ac26-0d19328681ab</ModInUse>
     </Criteria>
     <Criteria id="BoomsCaesarTweak">
       <ModInUse>280e5186-cd59-4687-a2b9-d79b77f0b947</ModInUse>
@@ -1190,6 +1196,10 @@
       </Properties>
       <File>881541733/WaterTiles_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="BoomsArabiaRework_updateArabiaText_FrontEnd_de_DE">
+      <Criteria>BoomsArabiaRework_FrontEnd</Criteria>
+      <File>2905853016/BOOM_ARABIA_TEXT_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="BoomsCaesarTweak_updateCaesarText_FrontEnd_de_DE">
       <Criteria>BoomsCaesarTweak_FrontEnd</Criteria>
       <Properties>
@@ -1750,6 +1760,10 @@
       <Criteria>BiofuelProductionBuilding</Criteria>
       <File>1661944193/Text/BiofuelProduction_Buildings_Text_de_DE.xml</File>
       <File>1661944193/Text/BiofuelProduction_Districts_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="BoomsArabiaRework_updateArabiaText_de_DE">
+      <Criteria>BoomsArabiaRework</Criteria>
+      <File>2905853016/BOOM_ARABIA_TEXT_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="BoomsCaesarTweak_updateCaesarText_de_DE">
       <Criteria>BoomsCaesarTweak</Criteria>
@@ -3905,6 +3919,7 @@
     <File>2893274394/Roman_Villa_Localisation_de_DE.xml</File>
     <File>2894237415/BOOM_CAESAR_TEXT_de_DE.xml</File>
     <File>2901220351/Text_de_DE.xml</File>
+    <File>2905853016/BOOM_ARABIA_TEXT_de_DE.xml</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>

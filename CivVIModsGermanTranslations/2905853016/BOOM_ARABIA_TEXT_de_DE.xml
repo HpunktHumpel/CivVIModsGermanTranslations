@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_ARABIA_TEXT -->
+<!-- Author: Boom -->
+<!-- DateCreated: 12/20/2022 9:21:22 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- The name of the district. -->
+		<Replace Tag="LOC_DISTRICT_BOOM_MADRASA_NAME" Language="de_DE">
+			<Text>Madrasa</Text>
+		</Replace>
+
+		<!-- Its description. -->
+		<Replace Tag="LOC_DISTRICT_BOOM_MADRASA_DESCRIPTION" Language="de_DE">
+			<Text>Ein in Arabien einzigartiger Bezirk für religiöse Aktivitäten. Ersetzt die Heilige Stätte und ist günstiger im Bau. [NEWLINE][NEWLINE]Gewährt eine zusätzlichen Standard-Nachbarschaftsbonus für den Campus.[NEWLINE][NEWLINE]Bietet [ICON_GreatScientist]Großer-Wissenschaftler-Punkte statt [ICON_GreatProphet]Großer-Prophet-Punkte. Erhält +1 [ICON_Faith] Glauben als Nachbarschaftsbonus, wenn ein Kultgebäude errichtet wurde.</Text>
+		</Replace>
+
+		<!--Fix description of the last prophet ability-->
+		<Replace Tag ="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="de_DE">
+			<Text>Das Kultgebäude der Religion Arabiens ist mit [ICON_Faith] Glauben 90% günstiger zu erwerben und bringt arabischen Städten +15% [ICON_Science] Wissenschaft, [ICON_Culture] Kultur und [ICON_Faith] Glauben.</Text>
+		</Replace>
+		<Replace Tag ="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="de_DE">
+			<Text>Jede mögliche religiöse Glaubenssatz kann gewählt werden, einschließlich derer, die bereits von anderen Zivilisationen gewählt wurden. Sie erhalten automatisch den letzten [ICON_GreatProphet] Großen Propheten, wenn der vorletzte beansprucht wird (falls nicht bereits ein [ICON_GreatProphet] Großer Prophet erhalten wurde).</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_BOOM_MADRASA_SCIENCE" Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft durch angrenzende Madrasen</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzende Campusse</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
+

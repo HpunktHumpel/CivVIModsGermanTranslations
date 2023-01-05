@@ -205,3 +205,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2893274394 | Mikecro's Roman Villa | Mikecro | H.Humpel | #22
 2894237415 | Boom's Caesar Tweak | Boom | Junky | **NEW**
 2901220351 | Alliance Bonus : Caesar and Patra | nea_baraja | Junky | **NEW**
+2905853016 | Boom's Arabia Rework [RERELEASE] | Boom | Junky | **NEW**
