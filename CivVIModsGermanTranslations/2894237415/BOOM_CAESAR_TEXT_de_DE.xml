@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_CAESAR_TWEAK -->
+<!-- Author: Boom -->
+<!-- DateCreated: 11/25/2022 4:55:25 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet [ICON_Gold] Gold und Punkte für den [ICON_GreatGeneral] Großen General bei Räumung von Barbaren-Außenposten und beim Erobern von Städten. [ICON_GreatGeneral] Große Generäle haben eine zusätzliche Ladung. Erhält mit der Rad-Technologie Zugriff auf die einzigartige Einheit Skorpion.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_BOOM_UNIT_CAESAR_SCORPIO_NAME" Language="de_DE">
+			<Text>Skorpion</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_UNIT_CAESAR_SCORPIO_DESCRIPTION" Language="de_DE">
+			<Text>Einzigeartige Belagerungseinheit Roms in der Klassik. Kann in derselben Runde bewegen und angreifen. Erhält keine Kampfmalusse gegen Einheiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BOOM_UNIT_SCORPIO_NAME" Language="de_DE">
+			<Text>Skorpion</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BOOM_UNIT_SCORPIO_DESCRIPTION" Language="de_DE">
+			<Text>+17 [ICON_Strength] Kampfstärke gegen Einheiten (Skorpion)</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

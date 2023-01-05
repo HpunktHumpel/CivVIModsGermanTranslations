@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_CAESAR_TWEAK -->
+<!-- Author: Boom -->
+<!-- DateCreated: 11/25/2022 4:55:25 PM -->
+<GameData>
+	<EnglishText>
+		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION">
+			<Text>Gain [ICON_Gold] Gold and [ICON_GreatGeneral] Great General points when capturing a city or clearing a Barbarian Outpost. [ICON_GreatGeneral] Great Generals gain +1 charge. Gain the Scorpio unique unit with The Wheel.</Text>
+		</Replace>
+
+
+		<Row Tag="LOC_BOOM_UNIT_CAESAR_SCORPIO_NAME">
+			<Text>Scorpio</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_UNIT_CAESAR_SCORPIO_DESCRIPTION">
+			<Text>Roman unique Classical era Siege unit. Does not require setup before attacking and does not suffer combat penalties against units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BOOM_UNIT_SCORPIO_NAME">
+			<Text>Scorpio</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BOOM_UNIT_SCORPIO_DESCRIPTION">
+			<Text>+17 [ICON_Strength] Strength against units (Scorpio)</Text>
+		</Row>
+	</EnglishText>
+</GameData>
