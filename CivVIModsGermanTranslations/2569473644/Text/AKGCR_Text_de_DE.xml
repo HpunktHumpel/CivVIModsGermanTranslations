@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<LocalizedText>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK1_NAME" Text="Bedeutendste Stadt der Antike" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK2_NAME" Text="2te Stadt der Antike" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK3_NAME" Text="3te Stadt der Antike" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK1_NAME" Text="Bedeutendste Stadt der Klassik" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK2_NAME" Text="2te Stadt der Klassik" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK3_NAME" Text="3te Stadt der Klassik" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK1_NAME" Text="Bedeutendste Stadt des Mittelalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK2_NAME" Text="2te Stadt des Mittelalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK3_NAME" Text="3te Stadt des Mittelalters" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK1_NAME" Text="Bedeutendste Stadt der Renaissance" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK2_NAME" Text="2te Stadt der Renaissance" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK3_NAME" Text="3te Stadt der Renaissance" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK1_NAME" Text="Bedeutendste Stadt des Industriezeitalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK2_NAME" Text="2te Stadt des Industriezeitalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK3_NAME" Text="3te Stadt des Industriezeitalters" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK1_NAME" Text="Bedeutendste Stadt der Moderne" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK2_NAME" Text="2te Stadt der Moderne" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK3_NAME" Text="3te Stadt der Moderne" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK1_NAME" Text="Bedeutendste Stadt des Atomzeitalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK2_NAME" Text="2te Stadt des Atomzeitalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK3_NAME" Text="3te Stadt des Atomzeitalters" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK1_NAME" Text="Bedeutendste Stadt des Informationszeitalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK2_NAME" Text="2te Stadt des Informationszeitalters" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK3_NAME" Text="3te Stadt des Informationszeitalters" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK1_NAME" Text="Bedeutendste Stadt der Zukunft" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK2_NAME" Text="2te Stadt der Zukunft" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK3_NAME" Text="3te Stadt der Zukunft" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] Tourismus[NEWLINE]+2 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+4 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+													
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus[NEWLINE]+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+													
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] Tourismus nach der Aufklärung[NEWLINE]+2 [ICON_TOURISM] Tourismus mit Luftfahrt" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_CULTURE_NAME" 	Text="Kulturellste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_CULTURE_NAME" 	Text="Kulturellste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_CULTURE_NAME" 	Text="Kulturellste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_SCIENCE_NAME" 	Text="Wissenschaftlichste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_SCIENCE_NAME" 	Text="Wissenschaftlichste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_SCIENCE_NAME" 	Text="Wissenschaftlichste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_GOLD_NAME" 		Text="Reichste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_GOLD_NAME" 		Text="Reichste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_GOLD_NAME" 		Text="Reichste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_PRODUCTION_NAME"	Text="Produktivste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_PRODUCTION_NAME"	Text="Produktivste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_PRODUCTION_NAME"	Text="Produktivste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_DEFENSE_NAME" 	Text="Stärkste verteidigte Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_DEFENSE_NAME" 	Text="Stärkste verteidigte Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_DEFENSE_NAME" 	Text="Stärkste verteidigte Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_FAITH_NAME" 		Text="Gläubigste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_FAITH_NAME" 		Text="Gläubigste Stadt" Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_FAITH_NAME" 		Text="Gläubigste Stadt" Language="de_DE"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_CULTURE_DESCRIPTION" 	Text="Als weltweit führendes Kulturzentrum zieht die Stadt deutlich mehr große Schriftsteller an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_CULTURE_DESCRIPTION" 	Text="Als weltweit führendes Kulturzentrum zieht die Stadt erkennbar mehr große Schriftsteller an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_CULTURE_DESCRIPTION" 	Text="Als weltweit führendes Kulturzentrum zieht die Stadt etwas mehr große Schriftsteller an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_SCIENCE_DESCRIPTION" 	Text="Als weltweit führendes Wissenszentrum zieht es deutlich mehr große Wissenschaftler an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_SCIENCE_DESCRIPTION" 	Text="Als weltweit führendes Wissenszentrum zieht es erkennbar mehr große Wissenschaftler an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_SCIENCE_DESCRIPTION" 	Text="Als weltweit führendes Wissenszentrum zieht es etwas mehr große Wissenschaftler an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_GOLD_DESCRIPTION" 		Text="Als reichste Stadt der Welt zieht sie deutlich mehr Große Händler an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_GOLD_DESCRIPTION" 		Text="Als reichste Stadt der Welt zieht sie erkennbar mehr Große Händler an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_GOLD_DESCRIPTION" 		Text="Als reichste Stadt der Welt zieht sie etwas mehr Große Händler an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_PRODUCTION_DESCRIPTION" 	Text="Als produktivste Stadt der Welt zieht sie deutlich mehr Große Ingenieure an als üblich." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_PRODUCTION_DESCRIPTION" 	Text="Als produktivste Stadt der Welt zieht sie erkennbar mehr Große Ingenieure an als üblich." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_PRODUCTION_DESCRIPTION" 	Text="Als produktivste Stadt der Welt zieht sie etwas mehr Große Ingenieure an als üblich." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_DEFENSE_DESCRIPTION" 	Text="Als die am besten verteidigte Stadt der Welt zieht sie deutlich mehr Große Generäle an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_DEFENSE_DESCRIPTION" 	Text="Als die am besten verteidigte Stadt der Welt zieht sie erkennbar mehr Große Generäle an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_DEFENSE_DESCRIPTION" 	Text="Als die am besten verteidigte Stadt der Welt zieht sie etwas mehr Große Generäle an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_FAITH_DESCRIPTION" 		Text="Als die gläubigste Stadt der Welt zieht sie deutlich mehr Große Propheten an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_FAITH_DESCRIPTION" 		Text="Als die gläubigste Stadt der Welt zieht sie erkennbar mehr Große Propheten an als sonst." Language="de_DE"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_FAITH_DESCRIPTION" 		Text="Als die gläubigste Stadt der Welt zieht sie etwas mehr Große Propheten an als sonst." Language="de_DE"/>
+
+	<Replace Tag="LOC_AKGC_ENDOFERAAWARD_NOTIFICATION_HEADER" Text="Bedeutendste Städte der/s {1_era}"   Language='de_DE' />
+	<Replace Tag="LOC_AKGC_ENDOFERAAWARD_NOTIFICATION_TEXT" Text="{1_city}s Ruf als die {2_awardtype} der/s {3_era} zieht vorübergehend mehr {4_gpptype} an"   Language='de_DE' />
+	
+	<Replace Tag="LOC_AKGC_AWARDTYPE_CULTURE"				Text="kulturellste Stadt"  Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_CULTURE_GPPTYPE"		Text="Große Schriftsteller" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_SCIENCE"				Text="wissenschaftlichste Stadt" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_SCIENCE_GPPTYPE"		Text="Große Wissenschaftler" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_GOLD"					Text="reichste Stadt" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_GOLD_GPPTYPE"			Text="Große Händler" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_PRODUCTION"			Text="produktivste Stadt" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_PRODUCTION_GPPTYPE"	Text="Große Ingenieure" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_DEFENSE"				Text="stärkste verteidigte Stadt" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_DEFENSE_GPPTYPE"		Text="Große Generäle" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_FAITH"					Text="gläubigste Stadt" Language='de_DE' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_FAITH_GPPTYPE"			Text="Große Propheten" Language='de_DE' />
+	
+
+
+</LocalizedText>
+
+</GameData>

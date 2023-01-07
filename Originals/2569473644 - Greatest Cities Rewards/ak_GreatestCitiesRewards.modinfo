@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="867ba1d4-4186-49d3-bfb6-f74518b7bbd1" version="1">
+  <Properties>
+    <Name>Greatest Cities Rewards</Name>
+    <Description>Addon for Greatest Cites</Description>
+    <Created>1621957184</Created>
+    <Teaser>Rewards for the Greatest Cities of each Era</Teaser>
+    <Authors>Technoluddite</Authors>
+    <SpecialThanks>Infixo</SpecialThanks>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="9ec7d842-9ca3-4c1b-893f-2672dcaca71f" title="Greatest Cities" />
+  </Dependencies>
+  <InGameActions>
+    <ImportFiles id="AKGCR_Imports">
+      <File>Textures/AKGCR_Buildings256.dds</File>
+      <File>Textures/AKGCR_Buildings128.dds</File>
+      <File>Textures/AKGCR_Buildings80.dds</File>
+      <File>Textures/AKGCR_Buildings50.dds</File>
+      <File>Textures/AKGCR_Buildings38.dds</File>
+      <File>Textures/AKGCR_Buildings32.dds</File>
+    </ImportFiles>
+    <UpdateIcons id="AKGCR_Icons">
+      <File>AKGCR_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="GreatestCities_Rewards">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>AKGCR_RewardBuildings.xml</File>
+    </UpdateDatabase>    
+    <UpdateText id="AKGC_UpdateText">
+      <File>Text/AKGCR_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="AKGC_Rewards">
+      <File>AKGCR_Rewards.lua</File>
+    </AddGameplayScripts>	
+  </InGameActions>
+  <Files>
+	<File>AKGCR_RewardBuildings.xml</File>
+    <File>Text/AKGCR_Text.xml</File>
+    <File>AKGCR_Rewards.lua</File>
+    <File>AKGCR_Icons.sql</File>
+    <File>Textures/AKGCR_Buildings256.dds</File>
+    <File>Textures/AKGCR_Buildings128.dds</File>
+    <File>Textures/AKGCR_Buildings80.dds</File>
+    <File>Textures/AKGCR_Buildings50.dds</File>
+    <File>Textures/AKGCR_Buildings38.dds</File>
+    <File>Textures/AKGCR_Buildings32.dds</File>
+  </Files>
+</Mod>

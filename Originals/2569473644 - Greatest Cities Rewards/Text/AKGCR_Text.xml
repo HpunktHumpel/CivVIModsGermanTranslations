@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<LocalizedText>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK1_NAME" Text="Greatest City of the Ancient Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK2_NAME" Text="2nd City of the Ancient Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK3_NAME" Text="3rd City of the Ancient Era" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK1_NAME" Text="Greatest City of the Classical Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK2_NAME" Text="2nd City of the Classical Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK3_NAME" Text="3rd City of the Classical Era" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK1_NAME" Text="Greatest City of the Medieval Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK2_NAME" Text="2nd City of the Medieval Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK3_NAME" Text="3rd City of the Medieval Era" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK1_NAME" Text="Greatest City of the Renaissance" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK2_NAME" Text="2nd City of the Renaissance" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK3_NAME" Text="3rd City of the Renaissance" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK1_NAME" Text="Greatest City of the Industrial Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK2_NAME" Text="2nd City of the Industrial Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK3_NAME" Text="3rd City of the Industrial Era" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK1_NAME" Text="Greatest City of the Modern Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK2_NAME" Text="2nd City of the Modern Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK3_NAME" Text="3rd City of the Modern Era" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK1_NAME" Text="Greatest City of the Atomic Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK2_NAME" Text="2nd City of the Atomic Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK3_NAME" Text="3rd City of the Atomic Era" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK1_NAME" Text="Greatest City of the Information Age" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK2_NAME" Text="2nd City of the Information Age" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK3_NAME" Text="3rd City of the Information Age" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK1_NAME" Text="Greatest City of the Future Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK2_NAME" Text="2nd City of the Future Era" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK3_NAME" Text="3rd City of the Future Era" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK1_DESCRIPTION" Text="+2 [ICON_TOURISM] tourism[NEWLINE]+2 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+4 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+													
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK2_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism[NEWLINE]+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+													
+	<Replace Tag="LOC_BUILDING_AKGC_ERA0_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA1_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA2_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA3_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA4_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA5_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA6_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA7_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_ERA8_RANK3_DESCRIPTION" Text="+1 [ICON_TOURISM] tourism after the Enlightenment[NEWLINE]+2 [ICON_TOURISM] tourism with flight" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_CULTURE_NAME" 	Text="Most Cultured City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_CULTURE_NAME" 	Text="Most Cultured City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_CULTURE_NAME" 	Text="Most Cultured City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_SCIENCE_NAME" 	Text="Most Learned City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_SCIENCE_NAME" 	Text="Most Learned City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_SCIENCE_NAME" 	Text="Most Learned City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_GOLD_NAME" 		Text="Richest City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_GOLD_NAME" 		Text="Richest City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_GOLD_NAME" 		Text="Richest City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_PRODUCTION_NAME"	Text="Most Productive City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_PRODUCTION_NAME"	Text="Most Productive City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_PRODUCTION_NAME"	Text="Most Productive City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_DEFENSE_NAME" 	Text="Best Defended City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_DEFENSE_NAME" 	Text="Best Defended City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_DEFENSE_NAME" 	Text="Best Defended City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_FAITH_NAME" 		Text="Most Pious City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_FAITH_NAME" 		Text="Most Pious City" Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_FAITH_NAME" 		Text="Most Pious City" Language="en_US"/>
+
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_CULTURE_DESCRIPTION" 	Text="As the world's leading center of the arts, conisderably more Great Writers are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_CULTURE_DESCRIPTION" 	Text="As the world's leading center of the arts, noticeably more Great Writers are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_CULTURE_DESCRIPTION" 	Text="As the world's leading center of the arts, slightly more Great Writers are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_SCIENCE_DESCRIPTION" 	Text="As the world's leading center of learning, conisderably more Great Scientists are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_SCIENCE_DESCRIPTION" 	Text="As the world's leading center of learning, noticeably more Great Scientists are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_SCIENCE_DESCRIPTION" 	Text="As the world's leading center of learning, slightly more Great Scientists are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_GOLD_DESCRIPTION" 		Text="As the world's richest city, conisderably more Great Merchants are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_GOLD_DESCRIPTION" 		Text="As the world's richest city, noticeably more Great Merchants are being attracted  than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_GOLD_DESCRIPTION" 		Text="As the world's richest city, slightly more Great Merchants are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_PRODUCTION_DESCRIPTION" 	Text="As the world's most productive city, conisderably more Great Engineers are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_PRODUCTION_DESCRIPTION" 	Text="As the world's most productive city, noticeably more Great Engineers are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_PRODUCTION_DESCRIPTION" 	Text="As the world's most productive city, slightly more Great Engineers are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_DEFENSE_DESCRIPTION" 	Text="As the world's best defended city, conisderably more Great Generals are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_DEFENSE_DESCRIPTION" 	Text="As the world's best defended city, noticeably more Great Generals are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_DEFENSE_DESCRIPTION" 	Text="As the world's best defended city, slightly more Great Generals are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK1_GPPBOOST_FAITH_DESCRIPTION" 		Text="As the world's most pious city, conisderably more Great Prophets are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK2_GPPBOOST_FAITH_DESCRIPTION" 		Text="As the world's most pious city, noticeably more Great Prophets are being attracted than usual." Language="en_US"/>
+	<Replace Tag="LOC_BUILDING_AKGC_RANK3_GPPBOOST_FAITH_DESCRIPTION" 		Text="As the world's most pious city, slightly more Great Prophets are being attracted than usual." Language="en_US"/>
+
+	<Replace Tag="LOC_AKGC_ENDOFERAAWARD_NOTIFICATION_HEADER" Text="Greatest Cities of the {1_era}"   Language='en_US' />
+	<Replace Tag="LOC_AKGC_ENDOFERAAWARD_NOTIFICATION_TEXT" Text="{1_city}'s reputation as the {2_awardtype} of the {3_era} is temporarily attracting more {4_gpptype}"   Language='en_US' />
+	
+	<Replace Tag="LOC_AKGC_AWARDTYPE_CULTURE"				Text="most cultured city"  Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_CULTURE_GPPTYPE"		Text="Great Writers" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_SCIENCE"				Text="most learned city" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_SCIENCE_GPPTYPE"		Text="Great Scientists" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_GOLD"					Text="richest city" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_GOLD_GPPTYPE"			Text="Great Merchants" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_PRODUCTION"			Text="most productive city" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_PRODUCTION_GPPTYPE"	Text="Great Engineers" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_DEFENSE"				Text="best defended city" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_DEFENSE_GPPTYPE"		Text="Great Generals" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_FAITH"					Text="most pious city" Language='en_US' />
+	<Replace Tag="LOC_AKGC_AWARDTYPE_FAITH_GPPTYPE"			Text="Great Prophets" Language='en_US' />
+	
+
+
+</LocalizedText>
+
+</GameData>

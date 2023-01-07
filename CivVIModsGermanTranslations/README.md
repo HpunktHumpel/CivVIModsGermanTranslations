@@ -149,6 +149,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2542898147 | Sukritact's Oceans | sukritact | Junky | #7
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3
 2557418900 | Raubak Natural Gas | Searching... | Junky | #6
+2569473644 | Greatest Cities Rewards | Technoluddite | Junky | **NEW**
 2581704421 | What Did I Promise? | Technoluddite | Junky | #7
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
 2608223282 | Thrones and Palaces | Technoluddite | Junky | #7

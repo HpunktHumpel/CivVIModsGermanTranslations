@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="23">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]206[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]207[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1673134601</Created>
+    <Created>1673135505</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Boom, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -432,6 +432,9 @@
     </Criteria>
     <Criteria id="GreatestCities">
       <ModInUse>9ec7d842-9ca3-4c1b-893f-2672dcaca71f</ModInUse>
+    </Criteria>
+    <Criteria id="GreatestCitiesRewards">
+      <ModInUse>867ba1d4-4186-49d3-bfb6-f74518b7bbd1</ModInUse>
     </Criteria>
     <Criteria id="Herdsman">
       <ModInUse>0b46a76c-c719-4c04-8b79-543a26edc0d8</ModInUse>
@@ -2094,6 +2097,10 @@
     <UpdateText id="GreatestCities_de_DE">
       <Criteria>GreatestCities</Criteria>
       <File>2494925002/Text/AKGC_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="GreatestCitiesRewards_AKGC_UpdateText_de_DE">
+      <Criteria>GreatestCitiesRewards</Criteria>
+      <File>2569473644/Text/AKGCR_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Herdsman_de_DE">
       <Criteria>Herdsman</Criteria>
@@ -3867,6 +3874,7 @@
     <File>2542898147/Translations/Suk_Oceans_Localisation_de_DE.sql</File>
     <File>2546679477/Texts_de_DE.sql</File>
     <File>2557418900/Natural_gas_Text_de_DE.xml</File>
+    <File>2569473644/Text/AKGCR_Text_de_DE.xml</File>
     <File>2581704421/Text/AKWDIP_Text_de_DE.xml</File>
     <File>2601169154/Text/Waterfront_EXP_Text_de_DE.xml</File>
     <File>2608223282/Text/AKPAL_Text_de_DE.xml</File>
