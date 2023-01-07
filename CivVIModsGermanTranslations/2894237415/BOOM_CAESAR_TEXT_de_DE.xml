@@ -5,7 +5,7 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="de_DE">
-			<Text>Erhaltet [ICON_Gold] Gold und Punkte für den [ICON_GreatGeneral] Großen General bei Räumung von Barbaren-Außenposten und beim Erobern von Städten. [ICON_GreatGeneral] Große Generäle haben eine zusätzliche Ladung. Erhält mit der Rad-Technologie Zugriff auf die einzigartige Einheit Skorpion.</Text>
+			<Text>Erhaltet [ICON_Gold] Gold und Punkte für den [ICON_GreatGeneral] Großen General bei Räumung von Barbaren-Außenposten und beim Erobern von Städten. [ICON_GreatGeneral] Große Generäle haben eine zusätzliche Ladung. Erhält mit der Eisenverarbeitung-Technologie Zugriff auf die einzigartige Einheit Skorpion.</Text>
 		</Replace>
 
 

@@ -5,7 +5,7 @@
 <GameData>
 	<EnglishText>
 		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION">
-			<Text>Gain [ICON_Gold] Gold and [ICON_GreatGeneral] Great General points when capturing a city or clearing a Barbarian Outpost. [ICON_GreatGeneral] Great Generals gain +1 charge. Gain the Scorpio unique unit with The Wheel.</Text>
+			<Text>Gain [ICON_Gold] Gold and [ICON_GreatGeneral] Great General points when capturing a city or clearing a Barbarian Outpost. [ICON_GreatGeneral] Great Generals gain +1 charge. Gain the Scorpio unique unit with Iron Working.</Text>
 		</Replace>
 
 
