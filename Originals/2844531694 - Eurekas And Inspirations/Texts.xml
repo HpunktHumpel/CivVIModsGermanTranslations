@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: nikok -->
+<!-- DateCreated: 7/28/2021 11:32:10 PM -->
+<GameData>
+	<LocalizedText>
+		-- Remove "To Boost:" text to make room
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TO_BOOST"/>
+			<Set Text=""/>
+		</Update>
+		
+		-- Archery
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ARCHERY"/>
+			<Set Text="Build Slingers and kill units with Slingers. (10%)"/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_ARCHERY"/>
+			<Set Text="Slingers may be enough for now, but you long for a stronger ranged weapon."/>
+		</Update>
+		 
+		--Writing
+		
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_WRITING"/>
+			<Set Text="Build Granaries. (25%)"/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_WRITING"/>
+			<Set Text="After more things to keep up with, we need new ways to keep track of everything."/>
+		</Update>
+		
+		--Bronce Working
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_BRONZE_WORKING"/>
+			<Set Text="Kill Barbarians. (15%)"/>
+		</Update>
+		
+		-- Irrigation
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_IRRIGATION"/>
+			<Set Text="Farm resources. (20%)"/>
+		</Update>
+		
+		-- Sailing
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SAILING"/>
+			<Set Text="Found cities on the Coast. (30%)"/>
+		</Update>
+		
+		-- Masonry
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MASONRY"/>
+			<Set Text="Build Quarries. (20%)"/>
+		</Update>
+		
+		-- Wheel
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_THE_WHEEL"/>
+			<Set Text="Build Mines. (20%)"/>
+		</Update>
+		
+		-- Astrology
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ASTROLOGY"/>
+			<Set Text="Find a natural wonder. (30%)"/>
+		</Update>
+		
+		-- Pottery
+
+		<Row Tag="LOC_BOOST_TRIGGER_POTTERY" Language="en_US">
+			<Text>Build Builders and build improvements (10%)</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_POTTERY" Language="en_US">
+			<Text>All these new luxuries and crops need places to store them.</Text>
+		</Row>
+		
+		-- Animal Husbandry
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_ANIMAL_HUSBANDRY" Language="en_US">
+			<Text>Build Scouts. (20%)</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ANIMAL_HUSBANDRY" Language="en_US">
+			<Text>All these scouts think that there could be faster ways to travel than foot.</Text>
+		</Row>
+		
+		-- Mining
+
+		<Row Tag="LOC_BOOST_TRIGGER_MINING" Language="en_US">
+			<Text>3 different boosts (hover over to see all): Build your capital next to a mountain (30%). Get Craftsmanship civic (30%). Get State Workforce civic (30%).</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MINING_1" Language="en_US">
+			<Text>There is so much to mine!</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MINING_2" Language="en_US">
+			<Text>New ways of thinging have eased your way to mining!</Text>
+		</Row>
+		
+		-- Celestial Navigation
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CELESTIAL_NAVIGATION"/>
+			<Set Text="Improve sea resources. (20%)"/>
+		</Update>
+		
+		-- Currency
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CURRENCY"/>
+			<Set Text="Make [ICON_TradeRoute] Trade Routes. (20%)"/>
+		</Update>
+		
+		-- Horseback Riding
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_HORSEBACK_RIDING"/>
+			<Set Text="Build Horse Pastures. (25%)"/>
+		</Update>
+		
+		-- Iron working
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_IRON_WORKING"/>
+			<Set Text="Build an Iron Mines. (25%)"/>
+		</Update>
+		
+		--Shipbuilding
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SHIPBUILDING"/>
+			<Set Text="Build Galleys. (15%)"/>
+		</Update>
+		
+		-- Mathematics
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MATHEMATICS"/>
+			<Set Text="Build Campuses and Harbors. (10%)"/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_MATHEMATICS"/>
+			<Set Text="Harbors means more ships and more seas to sail."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MATHEMATICS_2" Language="en_US">
+			<Text>Campuses makes us think more mathematically.</Text>
+		</Row>
+		
+		-- Construction
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CONSTRUCTION"/>
+			<Set Text="Build Walls. (20%)"/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION"/>
+			<Set Text="Completing walls around your city demonstrated the principles of construction."/>
+		</Update>
+		
+		-- Engineering
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ENGINEERING"/>
+			<Set Text="Build Water Mills. (20%)"/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING"/>
+			<Set Text="Work on the Water Mill has taught your workers much about engineering practices."/>
+		</Update>
+		
+		--Buttress
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_BUTTRESS"/>
+			<Set Text="Build Shrines, Temples and Aqueducts. (10%)"/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS"/>
+			<Set Text="Now that you have finished Shrine, what will your architects build next?"/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS_2" Language="en_US">
+			<Text>Now that you have finished Temple, what will your architects build next?</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS_3" Language="en_US">
+			<Text>Now that you have finished Aqueduct, what will your architects build next?</Text>
+		</Row>
+		
+		-- Military Tactics
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MILITARY_TACTICS"/>
+			<Set Text="Get Great Generals and Kill units with a Spearman or a Swordsman.(15%) "/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TACTICS_2" Language="en_US">
+			<Text>Your swordsmen are proving effective, but now your opponents are stronger and faster. Perhaps a better armor is needed?</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_TACTICS_3" Language="en_US">
+			<Text>Better Generals provide better tactics.</Text>
+		</Row>
+
+		
+		-- Apprenticeship
+		
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP"/>
+			<Set Text="Build Commercial Hubs and Markets, and Get Civil Service.(15%) "/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP"/>
+			<Set Text="With the bigger customer base, the need to better teach new craftsmen to use them is essential."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP_2" Language="en_US">
+			<Text>Civil Service has shown us that other works can be organized better in the future.</Text>
+		</Row>
+
+		
+		-- Machinery
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MACHINERY"/>
+			<Set Text="Kill Catapults/Crossbowmen and build Wonders. (10%) "/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY"/>
+			<Set Text="Killing more advanced ranged units give you need to improve the performance of your ranged troops."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY_2" Language="en_US">
+			<Text>When the Wonders get bigger, the machinery should get better.</Text>
+		</Row>
+
+		
+		-- Education
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_EDUCATION"/>
+			<Set Text="Get Great Scientists, build cities with 10 population and get majority religion (10%). "/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EDUCATION_2" Language="en_US">
+			<Text>As the population of your cities rises, and need for educated officials does too. </Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EDUCATION_3" Language="en_US">
+			<Text>Our priests have noticed the need to educated our religious doctrine.</Text>
+		</Row>
+
+		--Stirrups
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_STIRRUPS"/>
+			<Set Text="Build Horsemen and Stables.(10%) "/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS"/>
+			<Set Text="Your Horsemen think that there should be better way to mount a horse."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS_2" Language="en_US">
+			<Text>Long-term maintenance of horses stirs up innovation!</Text>
+		</Row>
+		
+		--- Military Engineering
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MILITARY_ENGINEERING"/>
+			<Set Text="Build Battering Rams, Siege Towers and Catapults.(10%) "/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_ENGINEERING"/>
+			<Set Text="New ways of conquering a city has military specialists thinking of making it even more effective."/>
+		</Update>
+
+		-- Castles
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CASTLES"/>
+			<Set Text="Build Barracks and get Defensive Tactics and Feudalism Civics.(20%) "/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES"/>
+			<Set Text="We need better defensive tactics."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES_2" Language="en_US">
+			<Text>Knowledge of military education has bring in a question of defending our cities.</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CASTLES_3" Language="en_US">
+			<Text>Our feudal ways rises up a question of defending our money.</Text>
+		</Row>
+		
+		--Cartography
+		
+		
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CARTOGRAPHY"/>
+			<Set Text="Discover new Continents.(20%) "/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CARTOGRAPHY"/>
+			<Set Text="More Continents you find, more you want to discover!"/>
+		</Update>
+		
+		
+		--Mass Production
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MASS_PRODUCTION"/>
+			<Set Text="Build Lumber Mills and Industrial Zones (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_MASS_PRODUCTION_2"/>
+			<Set Text="Industrial Zones work, but could this be done quicker?"/>
+		</Update>
+
+		--Banking
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_BANKING"/>
+			<Set Text="Get Guilds Civic or get a +250 [ICON_Gold] Gold profit per turn. (30%)"/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_BANKING_2"/>
+			<Set Text="With all this money, we need a way to channel it to important matters."/>
+		</Update>
+
+		
+		-- Gunpowder
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_GUNPOWDER"/>
+			<Set Text="Build Armories and Niter Mines (20%)."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUNPOWDER_2" Language="en_US">
+			<Text>With a source of niter, your firearms industry is switching into top gear.</Text>
+		</Row>
+
+		
+		
+		-- Astronomy
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ASTRONOMY"/>
+			<Set Text="Build Universities next to a mountain (20%)."/>
+		</Update>
+		
+		-- Printing
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_PRINTING"/>
+			<Set Text="Recruit Great Writers and Apostles (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_PRINTING"/>
+			<Set Text="It would be great if the writings of Great Writers could be easily spread."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_PRINTING_2" Language="en_US">
+			<Text>Your Apostles wants new ways to spread the word of your religion.</Text>
+		</Row>
+		
+		-- Siege Tactics
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SIEGE_TACTICS"/>
+			<Set Text="Build and Kill units with Trebuchets and Bombards (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS"/>
+			<Set Text="After creating trebuchets you realize that castles are not impregnable – you need a stauncher defense!."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS_2" Language="en_US">
+			<Text>After creating bombards you realize that castles are not impregnable – you need a stauncher defense!.</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS_3" Language="en_US">
+			<Text>After using trebuchets effectively you realize that castles are not impregnable – you need a stauncher defense!.</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS_4" Language="en_US">
+			<Text>After using bombards effectively you realize that castles are not impregnable – you need a stauncher defense!.</Text>
+		</Row>
+		
+		-Square Rigging
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SQUARE_RIGGING"/>
+			<Set Text="Research Metal Casting Technology and Exploration Civic (30%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_SQUARE_RIGGING"/>
+			<Set Text="The research of Metal Casting has spurred a new idea: what if we upgrade to gunpowder weaponry at sea?"/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SQUARE_RIGGING_2" Language="en_US">
+			<Text>Exploration at seas has spurred a new idea: What if would use Square Riggings?</Text>
+		</Row>
+
+		--Metal Casting
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_METAL_CASTING"/>
+			<Set Text="Build Iron, Copper, Mercury and Silver Mines (5%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_METAL_CASTING"/>
+			<Set Text="New metals make your people interested in moulding them."/>
+		</Update>
+
+		-- INDUSTRIALIZATION
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_INDUSTRIALIZATION"/>
+			<Set Text="Build Workshops (15%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_INDUSTRIALIZATION_XP2"/>
+			<Set Text="Build Workshops (15%)."/>
+		</Update>
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_INDUSTRIALIZATION"/>
+			<Set Text="The busy Industrial Zones of your empire hint at greatness to come. Is an Industrial Revolution about to commence?"/>
+		</Update>
+
+		--Scientific Theory
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY"/>
+			<Set Text="Have The Enlightenment civic and Build Universities (of Sankore) (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_SCIENTIFIC_THEORY"/>
+			<Set Text="Our universities has sparked a serious discourse on our scientific methods."/>
+		</Update>
+		
+		--Ballistics
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_BALLISTICS"/>
+			<Set Text="Build Forts and kill units with Bombards (20%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS"/>
+			<Set Text="Your city have been protected by Fort, what if they could be defended by cannons?"/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS_2" Language="en_US">
+			<Text>Hitting targets effectively with Bombards have produced knowledge of Ballistics.</Text>
+		</Row>
+		
+		--Military Science
+		
+		
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MILITARY_SCIENCE"/>
+			<Set Text="Kill a unit with a Knight, Courser, Musketman or Pike and Shot (5%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_MILITARY_SCIENCE"/>
+			<Set Text="Your soldier has vanquished his foe. Let us learn from this victory and become students of military affairs."/>
+		</Update>
+
+		--Steam Power
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_STEAM_POWER"/>
+			<Set Text="Build Factories and Coal Mines (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER"/>
+			<Set Text="Our factories could get more productive with new innovations!"/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER_2" Language="en_US">
+			<Text>Coal seems to burn nice and long, maybe it could be used for something else than warming our houses.</Text>
+		</Row>
+
+		--Sanitation
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SANITATION"/>
+			<Set Text="Build Neighborhoods and grow cities to 20 population (15%)."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SANITATION_2" Language="en_US">
+			<Text>Our cities are growing larger than ever before.  Developing a sanitation plan is crucial.</Text>
+		</Row>
+
+		--Sanitation
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_RIFLING"/>
+			<Set Text="Build and Kill units with Line Infantry (20%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_RIFLING"/>
+			<Set Text="Our successful armies needs more accurate firearms."/>
+		</Update>
+
+		--Economics
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ECONOMICS"/>
+			<Set Text="Earn Great Merchants (20%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_ECONOMICS"/>
+			<Set Text="Our Great Merchants solify the principles of Economics."/>
+		</Update>
+
+		--Steel
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_STEEL"/>
+			<Set Text="Build a Factories (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_STEEL"/>
+			<Set Text="Your coal-powered blast furnaces should soon allow us to produce the finest-grade steel."/>
+		</Update>
+
+		--Electricity
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ELECTRICITY"/>
+			<Set Text="Build a Coal Power Plants (20%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ELECTRICITY_XP2"/>
+			<Set Text="Build a Coal Power Plants (20%)."/>
+		</Update>
+		
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_ELECTRICITY"/>
+			<Set Text="Our understanding of power increases with every new energy source."/>
+		</Update>
+
+		--Replaceable parts
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_REPLACEABLE_PARTS"/>
+			<Set Text="Build Line Infantries and Rangers (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_REPLACEABLE_PARTS"/>
+			<Set Text="Your armament makers are tired of having to hand craft so many muskets and rifles. Perhaps some standardization would help?"/>
+		</Update>
+
+		--Refining
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_REFINING"/>
+			<Set Text="Research Chemistry and build Coal Mines (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_REFINING"/>
+			<Set Text="What is this oil from our coal mines?."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_REFINING_2" Language="en_US">
+			<Text>Understanding in chemistry promotes the research of new resources.</Text>
+		</Row>
+
+		--Flight
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_FLIGHT"/>
+			<Set Text="Earn Great Engineers and Build industrial or later era wonders (10%)."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_FLIGHT_2" Language="en_US">
+			<Text>Our Great Engineers have always dreamed of ability to flight.</Text>
+		</Row>
+
+		--Combustion
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_COMBUSTION"/>
+			<Set Text="Build Oil Wells (20%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_COMBUSTION"/>
+			<Set Text="With the increasing availability of Oil, there is possibility to try new things with it."/>
+		</Update>
+
+		--Chemistry
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CHEMISTRY"/>
+			<Set Text="Extract Artifacts. (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CHEMISTRY"/>
+			<Set Text="Your archaeologist has noticed new substances on their travels. Perhaps your scientists would like to take a look?"/>
+		</Update>
+
+		--Advanced Ballistics
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ADVANCED_BALLISTICS"/>
+			<Set Text="Kill units with Infantry, Field Cannons and Artillery (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_BALLISTICS"/>
+			<Set Text="Hitting targets even more effectively needs Advanced Ballistics."/>
+		</Update>
+
+		--Advanced Flight
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ADVANCED_FLIGHT"/>
+			<Set Text="Build Aerodromes (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ADVANCED_FLIGHT_XP2"/>
+			<Set Text="Build Aerodromes (10%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_FLIGHT"/>
+			<Set Text="Expanding our Aerodrome network will expand our research of planes in the long run."/>
+		</Update>
+
+		--Combined Arms
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_COMBINED_ARMS"/>
+			<Set Text="Build Armies and Armadas (10%)."/>
+		</Update>
+
+
+		--Plastics
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_PLASTICS"/>
+			<Set Text="Build Oil Power Plants (20%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_PLASTICS"/>
+			<Set Text="Our oil power plant have created more need for Oil. Maybe something else could be done with it?"/>
+		</Update>
+
+		--Nuclear Fission
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_NUCLEAR_FISSION" Language="en_US">
+			<Text>Build Reseach Labs (10%).</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_FISSION" Language="en_US">
+			<Text>Our Research Lab starts to research new nuclear physics.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_FISSION_2" Language="en_US">
+			<Text>Our Allies keep us up with the new developments of nuclear physics.</Text>
+		</Row>
+
+		--Synthetic Materials
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS"/>
+			<Set Text="Build Offshore Oil Riggs (15%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_SYNTHETIC_MATERIALS"/>
+			<Set Text="Oil is everywhere, oh these new possibilities!"/>
+		</Update>
+
+		--Computers
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_COMPUTERS"/>
+			<Set Text="Build Spaceports (25%)."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_COMPUTERS"/>
+			<Set Text="Our dreams of space drives us forward. Developing ways to efficiently track data will be a huge help."/>
+		</Update>
+
+		--Telecommunications
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_TELECOMMUNICATIONS"/>
+			<Set Text="Build Broadcast Centers (20%)."/>
+		</Update>
+
+		--NanoTechnology
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_NANOTECHNOLOGY"/>
+			<Set Text="Build Aluminum Mines (10%)."/>
+		</Update>
+
+		--Guidance Systems
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_GUIDANCE_SYSTEMS"/>
+			<Set Text="Kill Modern or later era submarines and air units (5%)."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUIDANCE_SYSTEMS_2" Language="en_US">
+			<Text>Your military has defeated an enemy submarine. Now it is time to have the best defense against enemy submarines.</Text>
+		</Row>
+
+		--Composites
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_COMPOSITES"/>
+			<Set Text="Build, destroy and kill units with Tanks and Mechanized Infanry(5%)."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COMPOSITES_2" Language="en_US">
+			<Text>Innovations on the destroyed tank benefit the development of our tanks. </Text>
+		</Row>
+
+		--Nuclear Fusion
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_NUCLEAR_FUSION"/>
+			<Set Text="Build Nuclear Power Plants (20%)."/>
+		</Update>
+
+
+		-- No boost
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MUST_STEAL"/>
+			<Set Text="Boost through Great Scientist or Spy (40%)."/>
+		</Update>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--Civics-->
+		-- Code of laws
+
+		<Row Tag="LOC_CIVIC_CODE_OF_LAWS_DES" Language="en_US">
+			<Text>Grow a city to 4 population.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVIC_CODE_OF_LAWS_DES_LONG" Language="en_US">
+			<Text>You need laws to rule this many people.</Text>
+		</Row>
+
+		--Craftmanship
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CRAFTSMANSHIP"/>
+			<Set Text="Build a monument."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CRAFTSMANSHIP"/>
+			<Set Text="With the building of a monument, we can fine tune our production techniques."/>
+		</Update>
+		
+		-- Foreign Trade
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_FOREIGN_TRADE"/>
+			<Set Text="Meet a City-state."/>
+		</Update>
+
+		-- Early Empire
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_EARLY_EMPIRE"/>
+			<Set Text="Build 3 cities."/>
+		</Update>
+		
+		-- Games and Recreation
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_GAMES_RECREATION"/>
+			<Set Text="Grow your civilization to at least 15 population."/>
+		</Update>
+		
+		-- Political Philosophy
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_POLITICAL_PHILOSOPHY"/>
+			<Set Text="Be a suzerain of a City-state."/>
+		</Update>
+		
+		-- Recorded History
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_RECORDED_HISTORY"/>
+			<Set Text="Build 2 libraries or build Ancestral Hall."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_RECORDED_HISTORY_2" Language="en_US">
+			<Text>Veneration of our ancestors makes us think about recording our history.</Text>
+		</Row>
+
+		--Defensive Tactics
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_DEFENSIVE_TACTICS"/>
+			<Set Text="Be the target of a Declaration of War or build Warlord's Throne."/>
+		</Update>
+		
+		
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DEFENSIVE_TACTICS_2" Language="en_US">
+			<Text>After conquest, we must think of was to protect our lands.</Text>
+		</Row>
+		
+		
+		- Naval Tradition
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_NAVAL_TRADITION"/>
+			<Set Text="Earn a Great Admiral."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_NAVAL_TRADITION"/>
+			<Set Text="Your Great Admiral inspires your people to strive to become a naval power."/>
+		</Update>
+		
+		--Feudalism
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_FEUDALISM"/>
+			<Set Text="Build 6 Farms or Audience Chamber."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_FEUDALISM_2" Language="en_US">
+			<Text>An audience chamber enables our citizens to access their Governor.</Text>
+		</Row>
+
+		--Civil Service
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CIVIL_SERVICE"/>
+			<Set Text="Grow a city to 12 population."/>
+		</Update>
+		
+		-Mercenaries
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MERCENARIES"/>
+			<Set Text="Have 10 land combat units in your military or be a Suzerain of 3 City-states."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MERCENARIES_2" Language="en_US">
+			<Text>Maybe our smaller allies can borrow their military force in need?</Text>
+		</Row>
+
+
+		-- Medieval Faires
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MEDIEVAL_FAIRES"/>
+			<Set Text="Maintain 5 Trade Routes."/>
+		</Update>
+		
+		--Guilds
+		
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_GUILDS"/>
+			<Set Text="Build Colossus, Great Lighthouse or 3 Markets."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUILDS_2" Language="en_US">
+			<Text>The success of Colossus districts has spurred the growth of trade guilds.</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_GUILDS_3" Language="en_US">
+			<Text>The success of The Great Lighthouse has spurred the growth of trade guilds.</Text>
+		</Row>
+
+		--Divine Right
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_DIVINE_RIGHT"/>
+			<Set Text="Build Mahabodhi Temple, Meenakshi Temple, Hagia Sophia or 3 Temples."/>
+		</Update>
+		
+		--Diplomatic Service
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_DIPLOMATIC_SERVICE"/>
+			<Set Text="Have an alliance or build Consulate."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_DIPLOMATIC_SERVICE_2" Language="en_US">
+			<Text>The Consulate has trained up your first corps of diplomats.</Text>
+		</Row>
+		
+		--Reformed Church
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_REFORMED_CHURCH"/>
+			<Set Text="Have 6 cities following your Religion."/>
+		</Update>
+		
+		--Exploration
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_EXPLORATION"/>
+			<Set Text="Build 3 Caravels or have +500 [ICON_Gold] Gold profit per turn."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EXPLORATION_2" Language="en_US">
+			<Text>The riches of our crown have easied the funding of explorers.</Text>
+		</Row>
+
+		--Mercantilism
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MERCANTILISM"/>
+			<Set Text="Build 2 Banks."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MERCANTILISM_" Language="en_US">
+			<Text>Your new Banks are sharing ideas on how we can get the edge on our economic competitors.</Text>
+		</Row>
+		
+		--Colonialism
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_COLONIALISM"/>
+			<Set Text="Conquer a city, build Casa de Contratación or Venetian Arsenal."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_COLONIALISM_"/>
+			<Set Text="The city we have conquered should benefit our Capital in some way."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_COLONIALISM_2" Language="en_US">
+			<Text>Wonders of our nation has eased ways to control our far away citizens.</Text>
+		</Row>
+		
+		--Opera and Ballet
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_OPERA_BALLET"/>
+			<Set Text="Build 3 Amphitheaters."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_OPERA_BALLET"/>
+			<Set Text="The different types of plays is drawing people to the arts. Perhaps dance and opera are next?"/>
+		</Update>
+		
+		--Natural History
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_NATURAL_HISTORY"/>
+			<Set Text="Build 2 Archaeological Museums."/>
+		</Update>
+
+		--Urbanization
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_URBANIZATION"/>
+			<Set Text="Grow a city to 25 population."/>
+		</Update>
+
+		--Nationalism
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_NATIONALISM"/>
+			<Set Text="Grow your civilization to at least 80 population."/>
+		</Update>
+
+		-- Scorched Earth
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH"/>
+			<Set Text="Have 3 Corps in your military."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_SCORCHED_EARTH"/>
+			<Set Text="Your military is better organized. It can pull off better defensive tactics."/>
+		</Update>
+
+		-- Mobilization
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MOBILIZATION"/>
+			<Set Text="Declare war using a casus belli."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILIZATION"/>
+			<Set Text="Your people believe in the just nature of this war. They are ready to fight for their civilization!"/>
+		</Update>
+
+		-- Conservation
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CONSERVATION"/>
+			<Set Text="Build a Neighborhood or Preserve district with Breathtaking Appeal."/>
+		</Update>
+
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION_2" Language="en_US">
+			<Text>Your breathtaking new preserve clamor for a plan to conserve all the world’s natural treasures.</Text>
+		</Row>
+
+		-- Capitalism
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CAPITALISM"/>
+			<Set Text="Build a Stock Exchange."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CAPITALISM_XP2"/>
+			<Set Text="Build a Stock Exchange."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CAPITALISM"/>
+			<Set Text="With stock exchange springing up, investment capital is plentiful and a market economy is ready to emerge."/>
+		</Update>
+
+		-- Nuclear Program
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_NUCLEAR_PROGRAM"/>
+			<Set Text="Build a Uranium Mine."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_NUCLEAR_PROGRAM"/>
+			<Set Text="With this new intresting substance, your initiative to recruit scientists into a nuclear research program can commence."/>
+		</Update>
+
+
+
+		-- Totalitarianism
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_TOTALITARIANISM"/>
+			<Set Text="Build 2 Military Academies."/>
+		</Update>
+
+		-- Class Struggle
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CLASS_STRUGGLE"/>
+			<Set Text="Improve 100 tiles in your empire."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CLASS_STRUGGLE"/>
+			<Set Text="Your workers clamor for better working conditions. It is time for the workers of the world to unite!."/>
+		</Update>
+
+		-- Suffrage
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SUFFRAGE"/>
+			<Set Text="Build a National park."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_SUFFRAGE"/>
+			<Set Text="The people have created our first National park. Having won that battle, they now need a new frontier. Maybe voting rights?"/>
+		</Update>
+		
+		
+		-- Cultural Heritage
+		
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CULTURAL_HERITAGE"/>
+			<Set Text="Have a Themed Building or build National History Museum."/>
+		</Update>
+
+		-- Space Race
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SPACE_RACE"/>
+			<Set Text="Build a Spaceport district or Royal Society."/>
+		</Update>
+
+		-- Cold War
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_COLD_WAR"/>
+			<Set Text="Have a government with 8 policy slots."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_COLD_WAR"/>
+			<Set Text="Fight of ideologies are set to begin!"/>
+		</Update>
+
+		-- Professional Sports
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS"/>
+			<Set Text="Build 3 Arenas."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_PROFESSIONAL_SPORTS_XP2"/>
+			<Set Text="Build 3 Arenas."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_PROFESSIONAL_SPORTS"/>
+			<Set Text="Your cities with Arenas want to compete in a new professional sports league."/>
+		</Update>
+
+		-- Rabid Deployment
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_RAPID_DEPLOYMENT"/>
+			<Set Text="Build an Aerodrome or Airstrip on a foreign continent. Or build War Department."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_RAPID_DEPLOYMENT"/>
+			<Set Text="Fight of ideologies are set to begin!"/>
+		</Update>
+		
+		--Environmentalism
+
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ENVIRONMENTALISM"/>
+			<Set Text="Build 2 Solar Farms, Wind Farms or Off-Shore Wind Farms. Or build Biosphère."/>
+		</Update>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ENVIRONMENTALISM_2" Language="en_US">
+			<Text>Your people prove that wind power is more than an idea—it is potentially the future of power production.</Text>
+		</Row>
+
+		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ENVIRONMENTALISM_3" Language="en_US">
+			<Text>Biosphère has proven that renewable energy maybe the solution after all.</Text>
+		</Row>
+
+
+		-- Venture Politics
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CORPORATE_LIBERTARIANISM"/>
+			<Set Text="Have +3000 [ICON_Gold] Gold profit per turn."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CORPORATE_LIBERTARIANISM"/>
+			<Set Text="Our Corporations seems to have much power, maybe too much?"/>
+		</Update>
+
+		-- Distributed Sovereignity
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_DIGITAL_DEMOCRACY"/>
+			<Set Text="Own 4 Rock Bands."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_DIGITAL_DEMOCRACY"/>
+			<Set Text="Our Rock Bands has teached us how to love and take care of community."/>
+		</Update>
+
+		-- Optimization imperative
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SYNTHETIC_TECHNOCRACY"/>
+			<Set Text="Research the Advanced AI Technology."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_SYNTHETIC_TECHNOCRACY"/>
+			<Set Text="Research of Advanced AI has proven that it probably makes better decisions."/>
+		</Update>
+
+
+
+
+	</LocalizedText>
+</GameData>

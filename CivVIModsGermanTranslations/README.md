@@ -182,6 +182,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
 2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21
+2844531694 | Eurekas And Inspirations | J_Kovic | Junky | **NEW**
 2851654918 | Walled Quarter | blkbutterfly | Junky | #21
 2856129795 | Enhanced Routes | Nightemaire | H.Humpel | #20
 2857099961 | Policy Pack: Corporations | JNR | H.Humpel | #21
