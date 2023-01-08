@@ -211,3 +211,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2901220351 | Alliance Bonus : Caesar and Patra | nea_baraja | Junky | **NEW**
 2905853016 | Boom's Arabia Rework [RERELEASE] | Boom | Junky | **NEW**
 2910951427 | MC's Belisarius | MC | Junky | **NEW**
+2911040779 | Extra Starting Settler | p0kiehl | H.Humpel | **NEW**

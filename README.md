@@ -87,6 +87,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. EpsTweak for Catch-Up (Eps | Junky)
 1. Eurekas And Inspirations (J_Kovic | Junky)
 1. Expanded Alliances (JNR | Junky)
+1. Extra Starting Settler (p0kiehl | H.Humpel)
 1. First to Circumnavigate (Sailor Cat | Junky)
 1. Four Seasons (sharpNd | Junky)
 1. Globe Theatre (World Wonder) (Deliverator23 | H.Humpel)
