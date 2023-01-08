@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fd1efbc4-ced1-415a-a179-3c9d54c386f3" version="1">
+  <Properties>
+    <Name>MC's Belisarius</Name>
+    <Description>Introduces Flavius Belisarius as an alternate leader of Byzantine to Civilization VI.[NEWLINE][NEWLINE]Harness the fearsome Hippotoxotos and Kataphraktos Unique Units, whilst leveraging this Great Commander's Opportuna Res Militaris Unique Ability to command your armies to victory.</Description>
+    <Created>1672612735</Created>
+    <Teaser>Introduces Flavius Belisarius as an alternate leader of Byzantine to Civilization VI.</Teaser>
+    <Authors>maconnolly</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="Byzantium and Gaul Pack" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameModeInUse>
+        <GameCoreInUse>Expansion1</GameCoreInUse>
+      </GameModeInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>Leader/Leader_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Leader/Leader_Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="NewAction">
+      <File>MC's Belisarius.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Leader/Leader_Core.sql</File>
+      <File>Leader/Leader_Agenda.sql</File>
+      <File>Leader/Leader_Screens.sql</File>
+      <File>Core/Civilization_HistoricMoments.sql</File>
+      <File>Core/Civilization_FavoredReligions.sql</File>
+      <File>Leader/Leader_UU.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="NewAction">
+      <File>Leader/Leader_Colors.sql</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Leader/Leader_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewIcons">
+      <File>Core/NewIcons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>MC's Belisarius.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>9995</LoadOrder>
+      </Properties>
+      <File>Leader/Leader_UA.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/Civilization_FavoredReligions.sql</File>
+    <File>Core/Civilization_HistoricMoments.sql</File>
+    <File>Core/NewIcons.sql</File>
+    <File>Leader/Leader_Agenda.sql</File>
+    <File>Leader/Leader_Colors.sql</File>
+    <File>Leader/Leader_Config.sql</File>
+    <File>Leader/Leader_Core.sql</File>
+    <File>Leader/Leader_Localisation.sql</File>
+    <File>Leader/Leader_Screens.sql</File>
+    <File>Leader/Leader_UA.sql</File>
+    <File>Leader/Leader_UU.sql</File>
+    <File>MC's Belisarius.dep</File>
+    <File>MC_Belisarius.Art.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/leaders/leader_mc_belisarius.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Textures.blp</File>
+    <File>Platforms/MacOS/BLPs/UI_LeaderScenes.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_mc_belisarius.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Textures.blp</File>
+    <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+  </Files>
+</Mod>

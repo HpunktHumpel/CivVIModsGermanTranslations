@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="23">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]208[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]209[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1673136169</Created>
+    <Created>1673137279</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Boom, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, anders, Angryr, AOM, ARCANE, astog, blkbutterfly, Boom, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -95,6 +95,9 @@
     </Criteria>
     <Criteria id="LivingThingsGrow_FrontEnd">
       <ModIsEnabled>d324ec5a-ce0f-4dc6-8563-4e01a88251fc</ModIsEnabled>
+    </Criteria>
+    <Criteria id="MCsBelisarius_FrontEnd">
+      <ModIsEnabled>fd1efbc4-ced1-415a-a179-3c9d54c386f3</ModIsEnabled>
     </Criteria>
     <Criteria id="MikecrosRomanVilla_FrontEnd">
       <ModIsEnabled>5b544fc2-4573-421a-8021-5ca823a06211</ModIsEnabled>
@@ -480,6 +483,9 @@
     </Criteria>
     <Criteria id="Lyceum">
       <ModInUse>7272a538-f9c5-42c2-aee4-6e4e0c0a2fe3</ModInUse>
+    </Criteria>
+    <Criteria id="MCsBelisarius">
+      <ModInUse>fd1efbc4-ced1-415a-a179-3c9d54c386f3</ModInUse>
     </Criteria>
     <Criteria id="MechanizedBuilders">
       <ModInUse>f4ddbe8c-5cd7-83aa-a9d2-1c152163de9b</ModInUse>
@@ -1301,6 +1307,10 @@
     <UpdateText id="LivingThingsGrow_text_FrontEnd_de_DE">
       <Criteria>LivingThingsGrow_FrontEnd</Criteria>
       <File>2880643181/LivingThingsGrow_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="MCsBelisarius_FrontEnd_de_DE">
+      <Criteria>MCsBelisarius_FrontEnd</Criteria>
+      <File>2910951427/Leader/Leader_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="MikecrosRomanVilla_NewAction_FrontEnd_de_DE">
       <Criteria>MikecrosRomanVilla_FrontEnd</Criteria>
@@ -2230,6 +2240,10 @@
     <UpdateText id="MedievalPirateUnit_de_DE">
       <Criteria>MedievalPirateUnit</Criteria>
       <File>2511787097/Core/DL_Texts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MCsBelisarius_de_DE">
+      <Criteria>MCsBelisarius</Criteria>
+      <File>2910951427/Leader/Leader_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="MikecrosMilitaryCamp_de_DE">
       <Criteria>MikecrosMilitaryCamp</Criteria>
@@ -3962,6 +3976,7 @@
     <File>2894237415/BOOM_CAESAR_TEXT_de_DE.xml</File>
     <File>2901220351/Text_de_DE.xml</File>
     <File>2905853016/BOOM_ARABIA_TEXT_de_DE.xml</File>
+    <File>2910951427/Leader/Leader_Localisation_de_DE.sql</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>
