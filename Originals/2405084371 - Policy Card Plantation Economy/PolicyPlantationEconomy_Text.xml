@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- The name of the policy. -->
+		<Row Tag="LOC_POLICY_Plantation_Economy_NAME" Language="zh_Hans">
+			<Text>种植园经济</Text>
+		</Row>
+		
+		<Row Tag="LOC_POLICY_Plantation_Economy_NAME" Language="en_US">
+			<Text>Plantation Economy</Text>
+		</Row>
+
+		<!-- The description of the policy. -->
+		<Row Tag="LOC_POLICY_Plantation_Economy_DESCRIPTION" Language="zh_Hans">
+			<Text>种植园+2 [ICON_Production] 生产力。</Text>
+		</Row>
+		
+		<Row Tag="LOC_POLICY_Plantation_Economy_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Production] Production for Plantation.</Text>
+		</Row>
+
+		<!-- Civilopedia information about the policy. -->
+		<Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_Plantation_Economy_CHAPTER_HISTORY_PARA_1" Language="zh_Hans">
+			<Text>
+				种植园主为了保证土地上的劳动力，借用了古代奴隶制手段。奴隶不能“自由”支配其劳动力。但资本主义生产关系的突出特征——雇佣关系已经在隐含其中。应该说这不是资本主义发展的常态，而是一种变态。正是这种交换范围的有限性使之与成熟的资本主义还有很大差距。
+			</Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>

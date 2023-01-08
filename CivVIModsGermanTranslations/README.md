@@ -128,6 +128,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2394507496 | First to Circumnavigate | Sailor Cat | Junky | #13
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
 2402394695 | District Expansion: Industry | JNR | Junky | #14
+2405084371 | Better Plantations-Policy Card | Burkart | H.Humpel | **NEW**
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2435878977 | Zombie Worker & Zombie Power Plant | Flactine | H.Humpel | #19
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1

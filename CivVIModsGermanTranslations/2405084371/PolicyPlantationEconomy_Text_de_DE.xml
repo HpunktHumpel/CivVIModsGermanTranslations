@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- The name of the policy. -->
+		<Replace Tag="LOC_POLICY_Plantation_Economy_NAME" Language="de_DE">
+			<Text>Plantagenwirtschaft</Text>
+		</Replace>
+
+		<!-- The description of the policy. -->
+		<Replace Tag="LOC_POLICY_Plantation_Economy_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Production] Produktion für Plantagen.</Text>
+		</Replace>
+
+		<!-- Civilopedia information about the policy. -->
+		<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_Plantation_Economy_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>
+				Um sich Arbeitskräfte auf dem Land zu sichern bedienten sich Plantagenbesitzer der Sklaverei. Sklaven konnten dabei nicht „frei“ über ihre Arbeitskraft verfügen. Aber das hervorstechende Merkmal der kapitalistischen Produktionsverhältnisse – das Arbeitsverhältnis – ist darin bereits enthalten. Es sollte gesagt werden, dass dies nicht der normale Zustand der kapitalistischen Entwicklung ist, sondern eine Perversion. Es ist der begrenzte Umfang dieses Austauschs, der ihn weit entfernt vom ausgereiften Kapitalismus macht.[NEWLINE](übersetzt durch google translate)
+			</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>
