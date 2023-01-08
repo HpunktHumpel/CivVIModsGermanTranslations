@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	  <!-- SPACE CADET -->
+      <Replace Tag="LOC_UNIT_SPACE_CADET_NAME" Language="de_DE">
+        <Text>Weltraumkadett</Text>
+      </Replace>
+
+      <Replace Tag="LOC_UNIT_SPACE_CADET_DESCRIPTION" Language="de_DE">
+        <Text>Entdecker des Weltraums!</Text>
+      </Replace>
+	  
+	  <!-- OBSERVATION TOWER -->
+	  <Replace Tag="LOC_BUILDING_OBSERVATION_TOWER_NAME" Language="de_DE">
+		  <Text>Beobachtungsturm</Text>
+	  </Replace>
+	  <Replace Tag="LOC_BUILDING_OBSERVATION_TOWER_DESCRIPTION" Language="de_DE">
+		  <Text>+25% Kampferfahrung und eine freie Beförderung für alle in dieser Stadt erstellten Aufklärungseinheiten.[NEWLINE]Strategisches Ressourcen-Vorratslager +10 (auf Standardgeschwindigkeit).[NEWLINE][NEWLINE]Kann nicht in einem Lagerbezirk gebaut werden, in dem bereits Stallungen oder Kasernen sind.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_OBSERVATION_TOWER_XP_TRAINED_UNIT_DESCRIPTION" Language="de_DE">
+		  <Text>+25% verdiente Erfahrung durch Beobachtungsturm</Text>
+	  </Replace>
+	  
+	  <!-- NEW WORLD EXPLORERS -->
+	  <Replace Tag="LOC_POLICY_NEW_WORLD_EXPLORERS_NAME" Language="de_DE">
+		  <Text>Neue Weltentdecker</Text>
+	  </Replace>
+	  <Replace Tag="LOC_POLICY_NEW_WORLD_EXPLORERS_DESCRIPTION" Language="de_DE">
+		  <Text>Aufklärungseinheiten erhalten +1 Bewegung und +8 [ICON_STRENGTH] Kampfstärke.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NEW_WORLD_EXPLORERS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Da die Welt immer größer und gefährlicher wird, müssen diejenigen, die sie erforschen, in der Lage sein, dieser Aufgabe gerecht zu werden.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NEW_WORLD_EXPLORERS_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+		  <Text>Die Regierungen können sich dafür entscheiden, diese Expeditionen zu unterstützen, damit die Forscher besser vorbereitet sind, sowohl bei der Erkundung als auch im Kampf.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_RECON_COMBAT_BUFF_MODIFIER_STRING" Language="de_DE">
+		  <Text>+12 [ICON_Strength] Kampfstärke durch Neue Weltentdecker</Text>
+	  </Replace>
+
+	  <!-- DIPLOMATIC INMUNITY -->
+	  <Replace Tag="LOC_POLICY_DIPLOMATIC_INMUNITY_NAME" Language="de_DE">
+		  <Text>Diplomatische Immunität</Text>
+	  </Replace>
+	  <Replace Tag="LOC_POLICY_DIPLOMATIC_INMUNITY_DESCRIPTION" Language="de_DE">
+		  <Text>Aufklärungseinheiten können fremde Länder betreten.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLOMATIC_INMUNITY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Manchmal braucht man jemanden, der eingeweiht ist. Die meisten Zivilisationen werden Ihren Armeen nicht erlauben, ihre Grenzen zu passieren.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLOMATIC_INMUNITY_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+		  <Text>Das bedeutet, dass es kleinen und (wahrscheinlich) harmlosen Teams überlassen bleibt, den Zugang zu verhandeln.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_RECON_OPEN_BORDERS_DESCRIPTION" Language="de_DE">
+		  <Text>Kann fremde Länder ohne offene Grenzen betreten.</Text>
+	  </Replace>
+
+	  <!-- PUBLIC TRADE SECURITY -->
+	  <Replace Tag="LOC_POLICY_PUBLIC_TRADE_SECURITY_NAME" Language="de_DE">
+		  <Text>Öffentliche Handelssicherheit</Text>
+	  </Replace>
+	  <Replace Tag="LOC_POLICY_PUBLIC_TRADE_SECURITY_DESCRIPTION" Language="de_DE">
+		  <Text>Aufklärungseinheiten können fremde Länder betreten. Landhandelsrouten innerhalb von 3 Feldern um eine Aufklärungseinheit können nicht geplündert werden.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_TRADE_SECURITY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>In einer Welt, die von Handel und Märkten beherrscht wird, sind die Kaufleute sowohl das Rückgrat der Zivilisation als auch eine willkommene Beute für Banditen, die auf Kopfgeld aus sind.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_TRADE_SECURITY_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+		  <Text>Die zum Schutz dieser Handelsrouten eingesetzten Wachen dürfen die meisten Länder durchqueren; jeder ist sich ihrer Bedeutung bewusst!</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_RECON_PROTECT_TRADE_ROUTES_DESCRIPTION" Language="de_DE">
+		  <Text>Schützt nahe gelegene Landhandelseinheiten vor Plünderung.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_TRADER_PROTECTED_BY_RECON_DESCRIPTION" Language="de_DE">
+		  <Text>Handelseinheiten, die sich in der Nähe einer Aufklärungseinheit befinden, sind immun gegen Plünderungen auf Landfeldern.</Text>
+	  </Replace>
+
+	  <!-- LANDMARK REPURPOSING -->
+	  <Replace Tag="LOC_POLICY_LANDMARK_REPURPOSING_NAME" Language="de_DE">
+		  <Text>Wiederverwendung von Bauwerken</Text>
+	  </Replace>
+	  <Replace Tag="LOC_POLICY_LANDMARK_REPURPOSING_DESCRIPTION" Language="de_DE">
+		  <Text>Festungen und Schutzunterkünfte gewähren 2 [ICON_Gold] Gold und 1 [ICON_Culture] Kultur mit bezaubernder Anziehungskraft oder 5 [ICON_Gold] Gold und 3 [ICON_Culture] Kultur mit atemberaubender Anziehungskraft. Gewährt nach der Entdeckung der Luftfahrt, [ICON_Tourism] Tourismus in Höhe des Kulturertrags.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LANDMARK_REPURPOSING_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		  <Text>Verlassene Gebäude, die einst für Krieg und Erforschung genutzt wurden, müssen in Zeiten des Friedens und der Ruhe nicht abgerissen werden. Stattdessen können sie auf neue Weise genutzt werden. Alte Festungen können zu teuren Hotels mit einer spannenden Geschichte werden, verlassene Schutzhütten können Wanderern, die nahe gelegene Parks besuchen, Erleichterung verschaffen.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LANDMARK_REPURPOSING_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+		  <Text>Was auch immer sich Designer, Architekten und Visionäre einfallen lassen, diese Gebäude werden mit Sicherheit ein großer Anziehungspunkt für Menschen aus allen Teilen der Welt sein.</Text>
+	  </Replace>
+
+	  <!-- RECON FORTIFICATION BUFFS -->
+	  <Replace Tag="LOC_ABILITY_RECON_SHELTER_OCCUPATION_DESCRIPTION" Language="de_DE">
+		  <Text>Die Besetzung einer Verbesserung, die eine Verteidigung ermöglicht, gibt dieser Einheit zusätzlich +1 Sicht und + 5 Stärke beim Verteidigen.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_RECON_FORTIFICATION_DEFENSE_BUFF_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_STRENGTH] durch Besetzung defensiver Verbesserung.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_THB_RECON_BONUS_DEFENSE_STRING" Language="de_DE">
+		  <Text>+4 [ICON_STRENGTH] durch verschanzte Aufklärungseinheit.</Text>
+	  </Replace>
+
+	  <!-- SHELTER -->
+	  <Replace Tag="LOC_IMPROVEMENT_SHELTER_NAME" Language="de_DE">
+		  <Text>Schutzunterkunft</Text>
+	  </Replace>
+	  <Replace Tag="LOC_IMPROVEMENT_SHELTER_DESCRIPTION" Language="de_DE">
+		  <Text>Bietet die Hälfte der Verteidigungs- und Verschanzungsboni einer Festung. +1 Anziehungskraft auf umliegende Felder.</Text>
+	  </Replace>
+  </LocalizedText>
+</GameData>

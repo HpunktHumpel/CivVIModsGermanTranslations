@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	  <!-- SPACE CADET -->
+      <Row Tag="LOC_UNIT_SPACE_CADET_NAME" Language="en_US">
+        <Text>Space Cadet</Text>
+      </Row>
+
+      <Row Tag="LOC_UNIT_SPACE_CADET_DESCRIPTION" Language="en_US">
+        <Text>Explorers of Outer Space!</Text>
+      </Row>
+	  
+	  <!-- OBSERVATION TOWER -->
+	  <Row Tag="LOC_BUILDING_OBSERVATION_TOWER_NAME" Language="en_US">
+		  <Text>Observation Tower</Text>
+	  </Row>
+	  <Row Tag="LOC_BUILDING_OBSERVATION_TOWER_DESCRIPTION" Language="en_US">
+		  <Text>+25% combat experience and a free promotion for all recon units trained in this city.[NEWLINE]Strategic Resource Stockpiles increased +10 (on Standard Speed).[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable or Barracks.</Text>
+	  </Row>
+	  <Row Tag="LOC_ABILITY_OBSERVATION_TOWER_XP_TRAINED_UNIT_DESCRIPTION" Language="en_US">
+		  <Text>+25% Earned experience from Observation Tower</Text>
+	  </Row>
+	  
+	  <!-- NEW WORLD EXPLORERS -->
+	  <Row Tag="LOC_POLICY_NEW_WORLD_EXPLORERS_NAME" Language="en_US">
+		  <Text>New World Explorers</Text>
+	  </Row>
+	  <Row Tag="LOC_POLICY_NEW_WORLD_EXPLORERS_DESCRIPTION" Language="en_US">
+		  <Text>Recon Units gain +1 Movement and +8 [ICON_STRENGTH] Combat Strength.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NEW_WORLD_EXPLORERS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		  <Text>As the world becomes bigger and more dangerous, those who explore it must be capable of living up to the task.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_NEW_WORLD_EXPLORERS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		  <Text>Governments can choose to support these expeditions, allowing explorers to be better prepared, both in exploration and combat.</Text>
+	  </Row>
+	  <Row Tag="LOC_ABILITY_RECON_COMBAT_BUFF_MODIFIER_STRING" Language="en_US">
+		  <Text>+12 [ICON_Strength] Combat Strength from New World Explorers</Text>
+	  </Row>
+
+	  <!-- DIPLOMATIC INMUNITY -->
+	  <Row Tag="LOC_POLICY_DIPLOMATIC_INMUNITY_NAME" Language="en_US">
+		  <Text>Diplomatic Immunity</Text>
+	  </Row>
+	  <Row Tag="LOC_POLICY_DIPLOMATIC_INMUNITY_DESCRIPTION" Language="en_US">
+		  <Text>Recon Units can enter foreign lands.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLOMATIC_INMUNITY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		  <Text>Sometimes you need someone on the inside. Most civilizations will not allow your armies to pass through their borders.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLOMATIC_INMUNITY_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		  <Text>This means it is up to small and (probably) harmless teams to negotiate entrance.</Text>
+	  </Row>
+	  <Row Tag="LOC_ABILITY_RECON_OPEN_BORDERS_DESCRIPTION" Language="en_US">
+		  <Text>Can enter foreign lands without open borders.</Text>
+	  </Row>
+
+	  <!-- PUBLIC TRADE SECURITY -->
+	  <Row Tag="LOC_POLICY_PUBLIC_TRADE_SECURITY_NAME" Language="en_US">
+		  <Text>Public Trade Security</Text>
+	  </Row>
+	  <Row Tag="LOC_POLICY_PUBLIC_TRADE_SECURITY_DESCRIPTION" Language="en_US">
+		  <Text>Recon Units can enter foreign lands. Land Trade Routes within 3 tiles of a Recon unit cannot be plundered.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_TRADE_SECURITY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		  <Text>In a world controlled by trade and markets, merchants are both the backbone of civilization and a tasty prize for bandits wishing for bounty.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PUBLIC_TRADE_SECURITY_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		  <Text>Guards assinged to protect these trade routes are granted passage through most lands; everybody understands their importance!</Text>
+	  </Row>
+	  <Row Tag="LOC_ABILITY_RECON_PROTECT_TRADE_ROUTES_DESCRIPTION" Language="en_US">
+		  <Text>Protects nearby land Trade units from Plunder.</Text>
+	  </Row>
+	  <Row Tag="LOC_ABILITY_TRADER_PROTECTED_BY_RECON_DESCRIPTION" Language="en_US">
+		  <Text>Trade units near a your Recon Units are immune to being Plundered on Land Tiles.</Text>
+	  </Row>
+
+	  <!-- LANDMARK REPURPOSING -->
+	  <Row Tag="LOC_POLICY_LANDMARK_REPURPOSING_NAME" Language="en_US">
+		  <Text>Landmark Re-purposing</Text>
+	  </Row>
+	  <Row Tag="LOC_POLICY_LANDMARK_REPURPOSING_DESCRIPTION" Language="en_US">
+		  <Text>Forts and Shelters provide 2 [ICON_Gold] Gold and 1 [ICON_Culture] Culture with Charming appeal and 5 [ICON_Gold] Gold and 3 [ICON_Culture] Culture with Breathtaking appeal.  After Flight, they provide [ICON_Tourism] equals to their culture output.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LANDMARK_REPURPOSING_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		  <Text>Abandoned buildlings once used for war and exploration do not need to be torn down in times of peace and tranquility. Instead, they can repurposed in new ways. Old forts can become expensive hotels with an exciting history, abandoned shelters can provide relief for hikers visiting nearby parks.</Text>
+	  </Row>
+	  <Row Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LANDMARK_REPURPOSING_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		  <Text>Whatever designers, architects and visionaries come up with, these buildings are sure to become great atraction for people of all places.</Text>
+	  </Row>
+
+	  <!-- RECON FORTIFICATION BUFFS -->
+	  <Row Tag="LOC_ABILITY_RECON_SHELTER_OCCUPATION_DESCRIPTION" Language="en_US">
+		  <Text>Occupying an improvement that provides defense gives this unit an additional +1 Sight and + 5 Strength when defending.</Text>
+	  </Row>
+	  <Row Tag="LOC_ABILITY_RECON_FORTIFICATION_DEFENSE_BUFF_DESCRIPTION" Language="en_US">
+		  <Text>+4 [ICON_STRENGTH] from occupying defensive improvement.</Text>
+	  </Row>
+	  <Row Tag="LOC_ABILITY_THB_RECON_BONUS_DEFENSE_STRING" Language="en_US">
+		  <Text>+4 [ICON_STRENGTH] from fortified recon unit.</Text>
+	  </Row>
+
+	  <!-- SHELTER -->
+	  <Row Tag="LOC_IMPROVEMENT_SHELTER_NAME" Language="en_US">
+		  <Text>Shelter</Text>
+	  </Row>
+	  <Row Tag="LOC_IMPROVEMENT_SHELTER_DESCRIPTION" Language="en_US">
+		  <Text>Provides half the defense and fortification bonuses of a Fort. +1 Appeal to surrounding tiles.</Text>
+	  </Row>
+  </LocalizedText>
+</GameData>
