@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="72E2DEAE-22CD-8C04-4451-69E955D4959C" version="1">
+  <Properties>
+    <Name>ARS - Improved Goody Huts v1.3</Name>
+    <Description>Improves the overall quality of Tribal Village rewards.  Weak rewards have been boosted or removed altogether.  New rewards have been added to the mix.  All rewards are available from the start and Gold &amp; Faith rewards can be collected prior to founding a city.  [NEWLINE][NEWLINE]Rewards are weighted 40/30/20/10 in the order listed.[NEWLINE][NEWLINE][NEWLINE]-- MILITARY : Recon Unit / Ranged Unit / Melee Unit / +100 XP.[NEWLINE][NEWLINE]-- SURVIVORS : +1 Population / Builder Unit / +2 Population / Settler Unit.[NEWLINE][NEWLINE]-- GOLD : +100 Gold / +150 Gold / +200 Gold / +250 Gold.[NEWLINE][NEWLINE]-- FAITH : +100 Faith / +150 Faith / +200 Faith / +250 Faith.[NEWLINE][NEWLINE]-- CULTURE : 1 Civic Boost / 2 Civic Boosts / 1 Free Civic / Relic.[NEWLINE][NEWLINE]-- SCIENCE : 1 Tech Boost / 2 Tech Boosts / 1 Free Tech / Relic.[NEWLINE][NEWLINE]-- DIPLOMACY : 1 Envoy / +30 Favor / 2 Envoys / 1 Governor Title.[NEWLINE][NEWLINE][NEWLINE]NOTE: Settlers can swapped out for Traders by unticking an Advanced Options checkbox during game setup.</Description>
+    <Teaser>Improved Goody Hut Rewards</Teaser>
+    <Authors>Arstahd</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+	<AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+
+	<ActionCriteria>
+		<Criteria id="SETTLER_OPTION">
+			<ConfigurationValueMatches>
+				<ConfigurationId>SETTLER_OPTION</ConfigurationId>
+				<Group>Game</Group>
+				<Value>0</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+	</ActionCriteria>
+
+	<FrontEndActions>
+		<UpdateDatabase id="Arstahd_Goody_Huts_Setup_Data">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<File>Improved Goody Huts Setup Data.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="Arstahd_Goody_Huts_Setup_Text">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<File>Improved Goody Huts Setup Text.sql</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<InGameActions>
+		<UpdateDatabase id="Arstahd_Goody_Huts_Data">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<File>Improved Goody Huts Data.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="Arstahd_Goody_Huts_Text">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<File>Improved Goody Huts Text.sql</File>
+		</UpdateText>
+		<UpdateDatabase id="Arstahd_Goody_Huts_No_Settler">
+			<Properties>
+				<LoadOrder>1200</LoadOrder>
+			</Properties>
+			<Criteria>SETTLER_OPTION</Criteria>
+			<File>Improved Goody Huts No Settler.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+
+
+
+
+  <Files>
+    <File>Improved Goody Huts Setup Data.sql</File>
+    <File>Improved Goody Huts Setup Text.sql</File>
+    <File>Improved Goody Huts Data.sql</File>
+    <File>Improved Goody Huts Text.sql</File>
+    <File>Improved Goody Huts No Settler.sql</File>
+  </Files>
+
+
+</Mod>

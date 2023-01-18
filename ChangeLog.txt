@@ -1,5 +1,6 @@
 18.01.2023
 
+- [NEW] ARS - Improved Goody Huts v1.3 (v1.3 vom 6. Juni 2021 um 20:25, Übersetzung von H.Humpel)
 - [NEW] Top Panel Extension (vom 10. Aug. 2022 um 11:47, Übersetzung von H.Humpel)
 
 
