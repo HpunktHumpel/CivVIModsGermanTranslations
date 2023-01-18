@@ -1,0 +1,3 @@
+UPDATE LocalizedText SET Text = "Build 3 different specialty districts or 3 Alchemist's Ateliers." WHERE Tag = "LOC_BOOST_TRIGGER_MATHEMATICS";
+INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
+VALUES ("en_US", "LOC_BOOST_TRIGGER_SAILOR_MATHEMATICS_PLACEHOLDER", ""), ("en_US", "LOC_BOOST_TRIGGER_LONGDESC_SAILOR_MATHEMATICS_PLACEHOLDER", "");

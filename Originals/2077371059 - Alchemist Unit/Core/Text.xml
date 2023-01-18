@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: Darrell -->
+<!-- DateCreated: 4/26/2020 2:18:09 PM -->
+<GameData>
+	<LocalizedText>
+	<!-- Alchemist Unit -->
+	<Row Tag="LOC_UNIT_SAILOR_ALCHEMIST_NAME" Language="en_US">
+		<Text>Alchemist</Text>
+	</Row>
+	<Row Tag="LOC_UNIT_SAILOR_ALCHEMIST_DESCRIPTION" Language="en_US">
+		<Text>Resources in adjacent tiles have their yield bonuses doubled.</Text>
+	</Row>
+	<Row Tag="LOC_ABILITY_SAILOR_ALCHEMIST_RESOURCE_FOOD_DESCRIPTION" Language="en_US">
+		<Text>Resources in adjacent tiles have their yield bonuses doubled.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SAILOR_ALCHEMIST_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Text>
+			Cannot be trained. Receive one free Alchemist with each Alchemist's Atelier building.[NEWLINE][NEWLINE]Example Usage: The [ICON_Resource_Furs] Furs resource grants +1 [ICON_Food] Food and +1 [ICON_Gold] Gold to its tile. Having an Alchemist on or adjacent to the tile would increase this bonus to +2 [ICON_Food] Food and +2 [ICON_Gold] Gold.
+		</Text>
+	</Row>
+		<!-- Alchemist's Shop Building -->
+	<Row Tag="LOC_BUILDING_SAILOR_ALCHEMIST_SHOP_NAME" Language="en_US">
+		<Text>Alchemist's Atelier</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_SAILOR_ALCHEMIST_SHOP_DESCRIPTION" Language="en_US">
+		<Text>Grants a free Alchemist upon completion. +1 additional [ICON_Gold] Gold for each era since constructed or last repaired.</Text>
+	</Row>
+	</LocalizedText>
+</GameData>

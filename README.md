@@ -12,6 +12,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. AB2531 Buy Units with Faith (NHC | H.Humpel)
 1. Age of Capital (Alf.Net | H.Humpel)
 1. Aircraft Carriers Perfected (NullSpace | Junky)
+1. Alchemist Unit (SailorCat | H.Humpel)
 1. Alliance Bonus : Caesar and Patra (nea_baraja | Junky)
 1. Ancient Egyptian Pantheons (p0kiehl | H.Humpel)
 1. Angryr's Ancient Policies (Angryr | Junky)

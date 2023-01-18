@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: Darrell -->
+<!-- DateCreated: 4/26/2020 2:18:09 PM -->
+<GameData>
+	<LocalizedText>
+	<!-- Alchemist Unit -->
+	<Replace Tag="LOC_UNIT_SAILOR_ALCHEMIST_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+		<Text>Alchemist|Alchemisten|Alchemisten|Alchemisten|Alchemist</Text>
+	</Replace>
+	<Replace Tag="LOC_UNIT_SAILOR_ALCHEMIST_DESCRIPTION" Language="de_DE">
+		<Text>Die Ertragsboni von Ressourcen in angrenzenden Geländefeldern werden verdoppelt.</Text>
+	</Replace>
+	<Replace Tag="LOC_ABILITY_SAILOR_ALCHEMIST_RESOURCE_FOOD_DESCRIPTION" Language="de_DE">
+		<Text>Die Ertragsboni von Ressourcen in angrenzenden Geländefeldern werden verdoppelt.</Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SAILOR_ALCHEMIST_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+		<Text>
+			Kann nicht ausgebildet werden. Erhaltet einen kostenlosen Alchemisten mit jedem Alchemisten-Atelier.[NEWLINE][NEWLINE]Anwendungsbeispiel: Die Ressource [ICON_Resource_Furs] Pelze gewährt +1 [ICON_Food] Nahrung und +1 [ICON_Gold] Gold für ihr Geländefeld. Ein Alchemist auf oder neben diesem Geländefeld würde diesen Bonus auf +2 [ICON_Food] Nahrung und +2 [ICON_Gold] Gold erhöhen.
+		</Text>
+	</Replace>
+		<!-- Alchemist's Shop Building -->
+	<Replace Tag="LOC_BUILDING_SAILOR_ALCHEMIST_SHOP_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+		<Text>Alchemisten-Atelier|Alchemisten-Atelier|Alchemisten-Atelier|Alchemisten-Ateliers|Alchemisten-Atelier</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_SAILOR_ALCHEMIST_SHOP_DESCRIPTION" Language="de_DE">
+		<Text>Gewährt nach Abschluss einen kostenlosen Alchemisten. +1 [ICON_Gold] Gold zusätzlich für jedes Zeitalter seit der Errichtung oder jüngsten Reparatur.</Text>
+	</Replace>
+	</LocalizedText>
+</GameData>

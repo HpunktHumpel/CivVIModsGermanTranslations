@@ -98,7 +98,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
-2170418036 | EpsTweak for Adaptation | Eps | Junky | #22
+2077371059 | Alchemist Unit | SailorCat | H.Humpel | **NEW**
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | #19
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
@@ -112,6 +112,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2146587512 | [GS] Leugi's Aztec Rework | Captain Lime & Leugi | H.Humpel | #10
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2169184492 | AB2531 Buy Units with Faith | NHC | H.Humpel | #15
+2170418036 | EpsTweak for Adaptation | Eps | Junky | #22
 2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | #16
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2191979138 | EpsTweak for Adjacency Multipliers | Eps | Junky | #18
