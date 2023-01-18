@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_CC_PLUS_TEXT -->
+<!-- Author: Boom -->
+<!-- DateCreated: 1/4/2023 12:52:30 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BOOM_BUILDING_WELL_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Brunnen|Brunnen|Brunnen|Brunnens|Brunnen</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_DOCK_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Angelsteg|Angelsteg|Angelsteg|Angelsteges|Angelsteg</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_TAVERN_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Taverne|Taverne|Taverne|Taverne|Taverne</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_DOCK_DESC" Language="de_DE">
+			<Text>+1 [ICON_Production] Produktion für Fischerboote, die an ein Land-Geländefeld angrenzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_TAVERN_DESC" Language="de_DE">
+			<Text>+1 [ICON_Food] Nahrung und +1 [ICON_Gold] Gold für Eure [ICON_TradeRoute] Handelswege zu dieser Stadt. +1 [ICON_Gold] Gold pro Runde für jeden internationalen [ICON_TradeRoute] Handelsweg, der durch diese Stadt führt.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_GRANARY_DESC" Language="de_DE">
+			<Text>Durch Bauernhöfe verbesserte Bonus-Ressourcen erhalten jeweils +1 [ICON_Food] Nahrung.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_SEWER_DESC" Language="de_DE">
+			<Text>25 % der [ICON_Food] Nahrung wird übertragen, nachdem diese Stadt eine [ICON_Citizen] Bevölkerung hinzugewonnen hat.</Text>
+		</Replace>
+		<Replace Tag ="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="de_DE">
+			<Text>Bauernhöfe erhalten +1 [ICON_Production] Produktion, wenn sie an einen Fluss angrenzen, sowie +1 [ICON_Gold], wenn sie an einen Spezialbezirk angrenzen.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -34,6 +34,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Boom's Arabia Rework [RERELEASE] (Boom | Junky)
 1. Boom's Assyria (Boom | Junky)
 1. Boom's Caesar Tweak (Boom | Junky)
+1. Boom's City Center+ (Boom | H.Humpel)
 1. Borobudur (World Wonder) (Deliverator23 | H.Humpel)
 1. Botanist (AOM | H.Humpel)
 1. Brandenburg Gate (World Wonder) (Deliverator23 | H.Humpel)

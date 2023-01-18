@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_CC_PLUS_TEXT -->
+<!-- Author: Boom -->
+<!-- DateCreated: 1/4/2023 12:52:30 PM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_BOOM_BUILDING_WELL_NAME">
+			<Text>Well</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_DOCK_NAME">
+			<Text>Fishing Dock</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_TAVERN_NAME">
+			<Text>Tavern</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_DOCK_DESC">
+			<Text>+1 [ICON_Production] Production to Fishing Boats adjacent to a land tile.</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_TAVERN_DESC">
+			<Text>+1 [ICON_Food] Food and [ICON_Gold] Gold to your [ICON_TradeRoute] Trade Routes to this city. +1 [ICON_Gold] Gold per turn for each foreign [ICON_TradeRoute] Trader passing through this city.</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_GRANARY_DESC">
+			<Text>Bonus Resources improved by Farms gain +1 [ICON_Food] Food.</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_SEWER_DESC">
+			<Text>25% of [ICON_Food] Food is carried over after this city gains a [ICON_Citizen] Population.</Text>
+		</Row>
+		<Replace Tag ="LOC_BUILDING_WATER_MILL_DESCRIPTION">
+			<Text>Farms gain +1 [ICON_Production] Production if adjacent to a River and +1 [ICON_Gold] if adjacent to any specialty district.</Text>
+		</Replace>
+	</EnglishText>
+</GameData>
