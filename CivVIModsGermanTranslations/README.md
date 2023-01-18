@@ -113,6 +113,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2169184492 | AB2531 Buy Units with Faith | NHC | H.Humpel | #15
 2170418036 | EpsTweak for Adaptation | Eps | Junky | #22
+2175425165 | [NF] Alchemist Unit | SailorCat | H.Humpel | **NEW**
 2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | #16
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2191979138 | EpsTweak for Adjacency Multipliers | Eps | Junky | #18

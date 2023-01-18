@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bdd58157-c169-4ec4-9579-58e1bf1812bb" version="1">
+  <Properties>
+    <Name>[NF] Alchemist Unit</Name>
+    <Description>This mod changes the Alchemist unit's required building to the Alchemical Society.</Description>
+    <Created>1595691872</Created>
+    <Teaser>This mod changes the Alchemist unit's required building to the Alchemical Society.</Teaser>
+    <Authors>SailorCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="0623ec31-3b35-4f99-b0a3-dba786688963" title="Alchemist Unit" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="DLC8" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_MENELIK,StandardPlayers::LEADER_MENELIK,Players:Expansion1_Players::LEADER_MENELIK,Players:Expansion2_Players::LEADER_MENELIK</LeaderPlayable>
+    </Criteria>
+    <Criteria id="SS">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="db">
+      <Properties>
+        <LoadOrder>1781</LoadOrder>
+      </Properties>
+      <Criteria>SS</Criteria>
+      <File>Core.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="txt">
+      <Properties>
+        <LoadOrder>1781</LoadOrder>
+      </Properties>
+      <Criteria>SS</Criteria>
+      <File>TextUpdates.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Core.sql</File>
+    <File>TextUpdates.sql</File>
+  </Files>
+</Mod>
