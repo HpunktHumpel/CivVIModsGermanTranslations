@@ -4,6 +4,7 @@
 - [NEW] [NF] Alchemist Unit (vom 25. Juli 2020 um 17:49, Übersetzung von H.Humpel)
 - [NEW] ARS - Improved Goody Huts v1.3 (v1.3 vom 6. Juni 2021 um 20:25, Übersetzung von H.Humpel)
 - [NEW] Boom's City Center+ (vom 17. Jan. 2023 um 4:35, Übersetzung von H.Humpel)
+- [NEW] Resource Projects (vom 12. Jan. 2023 um 12:50, Übersetzung von H.Humpel)
 - [NEW] Top Panel Extension (vom 10. Aug. 2022 um 11:47, Übersetzung von H.Humpel)
 
 

@@ -160,6 +160,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Renewable Energy Complexity (JNR | Junky)
 1. Requested Pantheons (Angryr | H.Humpel)
 1. Resource Producing Buildings (Surt Ignir Magnis | H.Humpel)
+1. Resource Projects (liam | H.Humpel)
 1. Rest Reminder (Flactine | H.Humpel)
 1. Revenge of the Barbarians (Shadow | Junky)
 1. Riflemen Unit (ChessPro2007 | Junky)

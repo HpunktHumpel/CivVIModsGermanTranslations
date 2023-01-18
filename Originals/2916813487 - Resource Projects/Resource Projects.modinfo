@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="36670a2a-f4a5-4476-9ea0-24c5c1029b2c" version="1">
+	<Properties>
+		<Name>[COLOR_Civ6Green]Resource Projects[ENDCOLOR]</Name>
+		<Description>This mod adds 7 projects that upon completion will grant you 50 of the respective strategic resource.</Description>
+		<Created>1673522688</Created>
+		<Teaser>This mod adds 7 projects that upon completion will grant you 50 of the respective strategic resource.</Teaser>
+		<Authors>liam</Authors>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<FrontEndActions>
+		<UpdateText id="Localization">
+			<File>RP_Localization.sql</File>
+		</UpdateText>
+		<UpdateIcons id="Icons">
+			<File>RP_Icons.sql</File>
+		</UpdateIcons>
+	</FrontEndActions>
+	<InGameActions>
+		<UpdateText id="Localization">
+			<File>RP_Localization.sql</File>
+		</UpdateText>
+		<UpdateIcons id="Icons">
+			<File>RP_Icons.sql</File>
+		</UpdateIcons>
+		<UpdateDatabase id="Base">
+			<Properties>
+				<LoadOrder>250</LoadOrder>
+			</Properties>
+			<File>RP_Base.sql</File>
+		</UpdateDatabase>
+	</InGameActions>	
+	<Files>
+		<File>RP_Icons.sql</File>
+		<File>RP_Localization.sql</File>
+		<File>RP_Base.sql</File>
+	</Files>
+</Mod>

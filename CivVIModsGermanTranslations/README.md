@@ -217,4 +217,5 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2905853016 | Boom's Arabia Rework [RERELEASE] | Boom | Junky | #23
 2910951427 | MC's Belisarius | MC | Junky | #23
 2911040779 | Extra Starting Settler | p0kiehl | H.Humpel | #23
+2916813487 | Resource Projects | liam | H.Humpel | **NEW**
 2918188750 | Boom's City Center+ | Boom | H.Humpel | **NEW**
