@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TPE_TOP_PANEL_PRODUCTION_YIELD" Language="en_US" Text="Production per [ICON_Turn] Turn"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_LUXURY_RESOURCES" Language="en_US" Text="Number of Luxury resources owned: {1_Num} ({2_Type} type)"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_TOTAL_POPULATION" Language="en_US" Text="Total population"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_POPULATION_GROWTH_RATE" Language="en_US" Text="growth rate"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_TOTAL_AMENITIES" Language="en_US" Text="Average Amenity per city: [ICON_Amenities] {1_Num}"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_AMENITIES_TOOLTIP_YIELD" Language="en_US" Text="yields"/>
+	</LocalizedText>
+</GameData>

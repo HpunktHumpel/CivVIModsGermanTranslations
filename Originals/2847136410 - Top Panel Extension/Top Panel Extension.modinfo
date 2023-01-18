@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8e32afca-1d5d-48d4-9df5-aa5a85acb24a" version="1.0">
+	<Properties>
+		<Name>Top Panel Extension</Name>
+		<Description>Add information on Population, Production, Amenities, and Luxury resources to the top panel.</Description>
+		<Teaser>Add information for the top panel.</Teaser>
+		<Authors>HktkNban</Authors>
+		<SpecialThanks>Chrisy15, TC</SpecialThanks>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<SupportsMultiplayer>1</SupportsMultiplayer>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	
+	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+	</ActionCriteria>
+	
+	<Components>
+		<ImportFiles id="ImportFiles">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+			</Properties>
+			<Items>
+				<File>TopPanel/TopPanelExtension_BaseGame.lua</File>
+				<File>TopPanel/TopPanelExtension.lua</File>
+			</Items>
+		</ImportFiles>
+		
+		<ImportFiles id="ImportFiles_Exp1" criteria="Expansion1">
+			<Properties>
+				<LoadOrder>1001</LoadOrder>
+				<Context>InGame</Context>
+			</Properties>
+			<Items>
+				<File>TopPanel/TopPanelExtension_Expansion1.lua</File>
+			</Items>
+		</ImportFiles>
+		
+		<ImportFiles id="ImportFiles_Exp2" criteria="Expansion2">
+			<Properties>
+				<LoadOrder>1002</LoadOrder>
+				<Context>InGame</Context>
+			</Properties>
+			<Items>
+				<File>TopPanel/TopPanelExtension_Expansion2.lua</File>
+			</Items>
+		</ImportFiles>
+		
+		<UpdateText id="UpdateText">
+			<Properties>
+				<LoadOrder>1</LoadOrder>
+			</Properties>
+			<File>Text/Text.xml</File>
+			<File>Text/Text_ja_JP.xml</File>
+		</UpdateText>
+		
+		<ReplaceUIScript id="ReplaceUI_TopPanel">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+				<LuaContext>TopPanel</LuaContext>
+				<LuaReplace>TopPanel/TopPanelExtension_BaseGame.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		
+		<ReplaceUIScript id="ReplaceUI_TopPanel_Exp1" criteria="Expansion1">
+			<Properties>
+				<LoadOrder>1001</LoadOrder>
+				<LuaContext>TopPanel</LuaContext>
+				<LuaReplace>TopPanel/TopPanelExtension_Expansion1.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		
+		<ReplaceUIScript id="ReplaceUI_TopPanel_Exp2" criteria="Expansion2">
+			<Properties>
+				<LoadOrder>1002</LoadOrder>
+				<LuaContext>TopPanel</LuaContext>
+				<LuaReplace>TopPanel/TopPanelExtension_Expansion2.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+	</Components>
+
+	<Files>
+		<File>Text/Text.xml</File>
+		<File>Text/Text_ja_JP.xml</File>
+		<File>TopPanel/TopPanelExtension.lua</File>
+		<File>TopPanel/TopPanelExtension_BaseGame.lua</File>
+		<File>TopPanel/TopPanelExtension_Expansion1.lua</File>
+		<File>TopPanel/TopPanelExtension_Expansion2.lua</File>
+	</Files>
+</Mod>

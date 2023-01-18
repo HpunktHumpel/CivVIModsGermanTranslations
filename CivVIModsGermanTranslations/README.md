@@ -128,7 +128,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2394507496 | First to Circumnavigate | Sailor Cat | Junky | #13
 2399439885 | Monopoly++: Resource Requirement Setup | Leugi | Junky | #11
 2402394695 | District Expansion: Industry | JNR | Junky | #14
-2405084371 | Better Plantations-Policy Card | Burkart | H.Humpel | **NEW**
+2405084371 | Better Plantations-Policy Card | Burkart | H.Humpel | #23
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
 2435878977 | Zombie Worker & Zombie Power Plant | Flactine | H.Humpel | #19
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
@@ -150,7 +150,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2542898147 | Sukritact's Oceans | sukritact | Junky | #7
 2546679477 | Diversity City Center Buildings | D & cyj | H.Humpel | #3
 2557418900 | Raubak Natural Gas | Searching... | Junky | #6
-2569473644 | Greatest Cities Rewards | Technoluddite | Junky | **NEW**
+2569473644 | Greatest Cities Rewards | Technoluddite | Junky | #23
 2581704421 | What Did I Promise? | Technoluddite | Junky | #7
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
 2608223282 | Thrones and Palaces | Technoluddite | Junky | #7
@@ -181,12 +181,13 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2794935656 | Silk & Spice: Trade Route Rework | Alf.Net | Junky | #18
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
-2818358455 | Boom's Assyria | Boom | Junky | **NEW**
+2818358455 | Boom's Assyria | Boom | Junky | #23
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
 2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21
-2844531694 | Eurekas And Inspirations | J_Kovic | Junky | **NEW**
-2846567507 | Improved Recon Units! | Friend | Junky | **NEW**
+2844531694 | Eurekas And Inspirations | J_Kovic | Junky | #23
+2846567507 | Improved Recon Units! | Friend | Junky | #23
+2847136410 | Top Panel Extension | HktkNban | H.Humpel | **NEW**
 2851654918 | Walled Quarter | blkbutterfly | Junky | #21
 2856129795 | Enhanced Routes | Nightemaire | H.Humpel | #20
 2857099961 | Policy Pack: Corporations | JNR | H.Humpel | #21
@@ -208,8 +209,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2890697127 | Sailor Cat's Relics Plus | Sailor Cat | H.Humpel | #21
 2893238153 | Tournaments (Game Mode) | Teddyk | H.Humpel | #22
 2893274394 | Mikecro's Roman Villa | Mikecro | H.Humpel | #22
-2894237415 | Boom's Caesar Tweak | Boom | Junky | **NEW**
-2901220351 | Alliance Bonus : Caesar and Patra | nea_baraja | Junky | **NEW**
-2905853016 | Boom's Arabia Rework [RERELEASE] | Boom | Junky | **NEW**
-2910951427 | MC's Belisarius | MC | Junky | **NEW**
-2911040779 | Extra Starting Settler | p0kiehl | H.Humpel | **NEW**
+2894237415 | Boom's Caesar Tweak | Boom | Junky | #23
+2901220351 | Alliance Bonus : Caesar and Patra | nea_baraja | Junky | #23
+2905853016 | Boom's Arabia Rework [RERELEASE] | Boom | Junky | #23
+2910951427 | MC's Belisarius | MC | Junky | #23
+2911040779 | Extra Starting Settler | p0kiehl | H.Humpel | #23

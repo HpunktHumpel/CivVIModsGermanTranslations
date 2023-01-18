@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TPE_TOP_PANEL_PRODUCTION_YIELD" Language="ja_JP" Text="1 [ICON_Turn] ターン毎の生産力"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_LUXURY_RESOURCES" Language="ja_JP" Text="所有する高級資源の数: {1_Num} ({2_Type}種類)"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_TOTAL_POPULATION" Language="ja_JP" Text="総人口"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_POPULATION_GROWTH_RATE" Language="ja_JP" Text="成長率"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_TOTAL_AMENITIES" Language="ja_JP" Text="1都市当たりの平均快適性: [ICON_Amenities] {1_Num}"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_AMENITIES_TOOLTIP_YIELD" Language="ja_JP" Text="産出"/>
+	</LocalizedText>
+</GameData>

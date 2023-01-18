@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TPE_TOP_PANEL_PRODUCTION_YIELD" Language="de_DE" Text="Produktion je [ICON_Turn] Runde"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_LUXURY_RESOURCES" Language="de_DE" Text="Anzahl der Luxusressourcen: {1_Num} ({2_Type} verschiedene)"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_TOTAL_POPULATION" Language="de_DE" Text="Gesamtbevölkerung"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_POPULATION_GROWTH_RATE" Language="de_DE" Text="Wachstumsrate"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_TOTAL_AMENITIES" Language="de_DE" Text="Durchschnittliche Annehmlichkeiten pro Stadt: [ICON_Amenities] {1_Num}"/>
+		<Replace Tag="LOC_TPE_TOP_PANEL_AMENITIES_TOOLTIP_YIELD" Language="de_DE" Text="ergibt"/>
+	</LocalizedText>
+</GameData>
