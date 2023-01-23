@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c6af1114-4638-4cdf-bbbb-dcaab3fe26e1" version="3">
+  <Properties>
+    <Name>LOC_MOD_FLAC_KIZUNA_NAME</Name>
+    <Description>LOC_MOD_FLAC_KIZUNA_DESCRIPTION</Description>
+    <Teaser>LOC_MOD_FLAC_KIZUNA_TEASER</Teaser>
+    <Authors>Flactine</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="bc4725f2-0b72-43eb-92a5-0d5126076d94" title="LOC_MOD_FLAC_LOVELIVE_NAME" />
+  </References>
+  <FrontEndActions>
+    <UpdateArt id="NewAction">
+      <File>AI Channel - Kizuna AI.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="NewAction">
+      <File>ConfigData/KizunaConfig.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>XMLs/Kizuna_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>XMLs/Lang/Kizuna_Text.xml</File>
+      <File>XMLs/Lang/Kizuna_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateColors id="Color">
+      <File>ConfigData/KizunaColor.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="NewAction">
+      <File>AI Channel - Kizuna AI.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="NewAction">
+      <File>XMLs/Kizuna_Building.xml</File>
+      <File>XMLs/Kizuna_Civilization.xml</File>
+      <File>XMLs/Kizuna_District.xml</File>
+      <File>XMLs/Kizuna_Leaders.xml</File>
+      <File>XMLs/Kizuna_Moments.xml</File>
+      <File>XMLs/Kizuna_Units.xml</File>
+      <File>XMLs/Kizuna_Agenda.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>XMLs/Kizuna_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>XMLs/Lang/Kizuna_Text.xml</File>
+      <File>XMLs/Lang/Kizuna_Text_CN.xml</File>
+    </UpdateText>
+    <UpdateColors id="Color">
+      <File>ConfigData/KizunaColor.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <LocalizedText>
+	<Text id="LOC_MOD_FLAC_KIZUNA_NAME">
+		<en_US>[COLOR_Civ6Yellow]A.I.Channel[ENDCOLOR] - Kizuna AI</en_US>
+		<zh_Hans_CN>[COLOR_Civ6Yellow]A.I.Channel[ENDCOLOR]——绊爱</zh_Hans_CN>
+	</Text>
+	<Text id="LOC_MOD_FLAC_KIZUNA_TEASER">
+		<en_US>Kizuna AI's A.I.Channel</en_US>
+		<zh_Hans_CN>绊爱领导的A.I.Channel</zh_Hans_CN>
+	</Text>
+	<Text id="LOC_MOD_FLAC_KIZUNA_DESCRIPTION">
+		<en_US>Original: A.I.Channel[NEWLINE]Civilization: A.I.Channel[NEWLINE]Leader: Kizuna AI</en_US>
+		<zh_Hans_CN>原作：A.I.Channel[NEWLINE]文明：A.I.Channel[NEWLINE]领袖：绊爱</zh_Hans_CN>
+	</Text>
+  </LocalizedText>
+  <Files>
+    <File>AI Channel - Kizuna AI.dep</File>
+    <File>Artdefs/Civilizations.artdef</File>
+    <File>Artdefs/Cultures.artdef</File>
+    <File>Artdefs/Districts.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>ConfigData/KizunaColor.sql</File>
+    <File>ConfigData/KizunaConfig.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/BACKGROUND_KIZUNA_1.dds</File>
+    <File>Textures/BACKGROUND_KIZUNA_1.tex</File>
+    <File>Textures/FALLBACK_NEUTRAL_KIZUNA.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_KIZUNA.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_128.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_128.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_200.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_200.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_22.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_22.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_256.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_256.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_30.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_30.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_32.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_32.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_36.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_36.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_44.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_44.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_45.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_45.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_48.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_48.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_50.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_50.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_64.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_64.tex</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_80.dds</File>
+    <File>Textures/ICON_CIVILIZATION_FLAC_AICHANNEL_80.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_256.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_256.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_32.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_32.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_45.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_45.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_48.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_48.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_50.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_50.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_55.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_55.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_64.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_64.tex</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_80.dds</File>
+    <File>Textures/ICON_LEADER_FLAC_KIZUNA_80.tex</File>
+    <File>Textures/LEADER_FLAC_KIZUNA_NEUTRAL.dds</File>
+    <File>Textures/LEADER_FLAC_KIZUNA_NEUTRAL.tex</File>
+    <File>Textures/MOMENT_LIVE_STUDIO.dds</File>
+    <File>Textures/MOMENT_LIVE_STUDIO.tex</File>
+    <File>Textures/MOMENT_PUBG_SQUAD.dds</File>
+    <File>Textures/MOMENT_PUBG_SQUAD.tex</File>
+    <File>Textures/MOMENT_REFEREE.dds</File>
+    <File>Textures/MOMENT_REFEREE.tex</File>
+    <File>Textures/PUBG_SQUAD_22.dds</File>
+    <File>Textures/PUBG_SQUAD_22.tex</File>
+    <File>Textures/PUBG_SQUAD_256.dds</File>
+    <File>Textures/PUBG_SQUAD_256.tex</File>
+    <File>Textures/PUBG_SQUAD_32.dds</File>
+    <File>Textures/PUBG_SQUAD_32.tex</File>
+    <File>Textures/PUBG_SQUAD_50.dds</File>
+    <File>Textures/PUBG_SQUAD_50.tex</File>
+    <File>Textures/PUBG_SQUAD_80.dds</File>
+    <File>Textures/PUBG_SQUAD_80.tex</File>
+    <File>XLPs/KizunaAtlas.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+    <File>XMLs/Kizuna_Agenda.xml</File>
+    <File>XMLs/Kizuna_Building.xml</File>
+    <File>XMLs/Kizuna_Civilization.xml</File>
+    <File>XMLs/Kizuna_District.xml</File>
+    <File>XMLs/Kizuna_Icons.xml</File>
+    <File>XMLs/Kizuna_Leaders.xml</File>
+    <File>XMLs/Kizuna_Moments.xml</File>
+    <File>XMLs/Kizuna_Units.xml</File>
+    <File>XMLs/Lang/Kizuna_Text.xml</File>
+    <File>XMLs/Lang/Kizuna_Text_CN.xml</File>
+  </Files>
+</Mod>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_NAME" Language="zh_Hans_CN">
+			<Text>A.I.Channel</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>A.I.Channel</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>A.I.Channel的</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_YOUTUBE" Language="zh_Hans_CN">
+			<Text>榉坂46</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_DISTRICT_FLAC_LIVE_STUDIO_NAME" Language="zh_Hans_CN">
+			<Text>直播间</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FLAC_LIVE_STUDIO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代娱乐中心。可从相邻城区获得[ICON_Production]生产力加成。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_FLAC_REFEREE_NAME" Language="zh_Hans_CN">
+			<Text>裁判所</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLAC_REFEREE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>市政区特色建筑。提供6个通用巨作槽位。建成后，所有城市+4[ICON_Culture]文化值，[ICON_SCIENCE]科技值和[ICON_FAITH]信仰值。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_UNIT_FLAC_PUBG_SQUAD_NAME" Language="zh_Hans_CN">
+			<Text>吃鸡小队</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FLAC_PUBG_SQUAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替代特种部队。消灭敌人后，可获得与其[ICON_Strength]战斗力相等的[ICON_Gold]金币。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_VIRTUAL_YOUTUBER_NAME" Language="zh_Hans_CN">
+			<Text>世界第一Virtual YouTuber</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_VIRTUAL_YOUTUBER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>艺术博物馆获得额外的巨作槽位，且填满后无条件获得主题化奖励。所有[ICON_GreatWork_Writing]著作，[ICON_GreatWork_Sculpture]雕塑，[ICON_GreatWork_Landscape]绘画和[ICON_GreatWork_Music]音乐+4[ICON_GOLD]金币。</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_AICHANNEL_CITY_1" Language="zh_Hans_CN">
+			<Text>推特账号被使用</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_2" Language="zh_Hans_CN">
+			<Text>体能测验不及格</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_3" Language="zh_Hans_CN">
+			<Text>自说自话的凛乃</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_4" Language="zh_Hans_CN">
+			<Text>调戏Siri不成</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_5" Language="zh_Hans_CN">
+			<Text>Z轴tan90</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_6" Language="zh_Hans_CN">
+			<Text>用金钱买朋友</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_7" Language="zh_Hans_CN">
+			<Text>（手游）脑力超级棒</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_8" Language="zh_Hans_CN">
+			<Text>寻找金和银的橡果</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_9" Language="zh_Hans_CN">
+			<Text>事实上是全裸</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_10" Language="zh_Hans_CN">
+			<Text>然而只有诚实的人可以看到</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_11" Language="zh_Hans_CN">
+			<Text>假酒不能停</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_12" Language="zh_Hans_CN">
+			<Text>根本不是女高中生</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_13" Language="zh_Hans_CN">
+			<Text>然而并不能制作维基百科页面</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_14" Language="zh_Hans_CN">
+			<Text>穷到去参加赏金活动</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_15" Language="zh_Hans_CN">
+			<Text>现代梅西亚（笑）</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_16" Language="zh_Hans_CN">
+			<Text>日常膨胀（1/1）</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_17" Language="zh_Hans_CN">
+			<Text>全裸碳酸浴（迫真）被封号</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_18" Language="zh_Hans_CN">
+			<Text>出来继续作死</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_19" Language="zh_Hans_CN">
+			<Text>野野村龙太郎亲传</Text>
+		</Replace>
+		<Replace Tag="LOC_AICHANNEL_CITY_20" Language="zh_Hans_CN">
+			<Text>审判什么的大概是随口瞎说</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_1" Language="zh_Hans_CN">
+			<Text>石森虹花</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_2" Language="zh_Hans_CN">
+			<Text>今泉佑唯</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_3" Language="zh_Hans_CN">
+			<Text>上村莉菜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_4" Language="zh_Hans_CN">
+			<Text>尾关梨香</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_5" Language="zh_Hans_CN">
+			<Text>织田奈那</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_6" Language="zh_Hans_CN">
+			<Text>小池美波</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_7" Language="zh_Hans_CN">
+			<Text>小林由依</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_8" Language="zh_Hans_CN">
+			<Text>斋藤冬优花</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_9" Language="zh_Hans_CN">
+			<Text>佐藤诗织</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_10" Language="zh_Hans_CN">
+			<Text>志田爱佳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_11" Language="zh_Hans_CN">
+			<Text>菅井友香</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_12" Language="zh_Hans_CN">
+			<Text>铃本美愉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_13" Language="zh_Hans_CN">
+			<Text>长泽菜菜香</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_14" Language="zh_Hans_CN">
+			<Text>长滨祢留</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_15" Language="zh_Hans_CN">
+			<Text>土生瑞穂</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_16" Language="zh_Hans_CN">
+			<Text>原田葵</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_17" Language="zh_Hans_CN">
+			<Text>平手友梨奈</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_18" Language="zh_Hans_CN">
+			<Text>守屋茜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_19" Language="zh_Hans_CN">
+			<Text>米谷奈奈未</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_20" Language="zh_Hans_CN">
+			<Text>渡边梨加</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_21" Language="zh_Hans_CN">
+			<Text>渡边理佐</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_22" Language="zh_Hans_CN">
+			<Text>井口真绪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_23" Language="zh_Hans_CN">
+			<Text>潮纱理菜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_24" Language="zh_Hans_CN">
+			<Text>柿崎芽实</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_25" Language="zh_Hans_CN">
+			<Text>影山优佳</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_26" Language="zh_Hans_CN">
+			<Text>加藤史帆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_27" Language="zh_Hans_CN">
+			<Text>齐藤京子</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_28" Language="zh_Hans_CN">
+			<Text>佐佐木久美</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_29" Language="zh_Hans_CN">
+			<Text>佐佐木美玲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_30" Language="zh_Hans_CN">
+			<Text>高濑爱奈</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_31" Language="zh_Hans_CN">
+			<Text>高本彩花</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_32" Language="zh_Hans_CN">
+			<Text>东村芽依</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_33" Language="zh_Hans_CN">
+			<Text>金村美玖</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_34" Language="zh_Hans_CN">
+			<Text>河田阳菜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_35" Language="zh_Hans_CN">
+			<Text>小坂菜绪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_36" Language="zh_Hans_CN">
+			<Text>富田铃花</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_37" Language="zh_Hans_CN">
+			<Text>丹生明里</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_38" Language="zh_Hans_CN">
+			<Text>滨岸日和</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_39" Language="zh_Hans_CN">
+			<Text>松田好花</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_40" Language="zh_Hans_CN">
+			<Text>宫田爱萌</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_41" Language="zh_Hans_CN">
+			<Text>渡边美穗</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_42" Language="zh_Hans_CN">
+			<Text>铃木泉帆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_AICHANNEL_43" Language="zh_Hans_CN">
+			<Text>原田麻友</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_LEADER_FLAC_KIZUNA_NAME" Language="zh_Hans_CN">
+			<Text>绊爱</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_FLAC_KIZUNA_QUOTE" Language="zh_Hans_CN">
+			<Text>我是世界第一的虚拟油管UP主绊爱。请多指教！</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_FLAC_KIZUNA" Language="zh_Hans_CN">
+			<Text>嗨,多磨~!</Text>
+        </Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BAKA_AI_NAME" Language="zh_Hans_CN">
+			<Text>人工智障</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BAKA_AI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无法招募大科学家。所有城市获得+1[ICON_Amenities]宜居度，黄金时代时再+3[ICON_Amenities]宜居度并从城邦获得+200%[ICON_Favor]外交点数。[NEWLINE]幸福度为快乐的城市额外提供+1艺术类伟人点数，欣喜若狂的城市+2艺术类伟人点数。研究“高级人工智能”科技后，所有城市+35%[ICON_Tourism]旅游业绩。</Text>
+		</Replace>
+		
+		<!-- Leader Dialog -->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>我是世界第一也是唯一的虚拟油管UP主，绊爱。请叫我小爱，爱酱，什么都可以哦。我可是非常优雅，智慧的。顺便一提，我现在是全裸。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>请现在订阅我的油管频道，观看全裸的爱酱！（前提是你得是一个诚实的人）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>这下稳了！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>果然爱酱我可是人见人爱呢。当然了，花钱怎么可能买不来朋友嘛！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>噫。死肥宅，离我远点。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>我给你钱，你做我朋友吧。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>果然死宅大叔就是恶心啊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>你看我这般高雅智慧，还会神级操作，打你跟打儿子一样。你真是作大死啊！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>你不订阅我的视频还举报我，你活得不耐烦啊！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>我这么可怜可爱的16岁少女，你也忍心谴责？！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>Fuck you! Fuck you Fuck you! FUCK! YOU! 有完没有！（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>闹真的？先说好，我可不怕你呀！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>真是可怜啊，爱酱要是没了虚拟Youtuber的Youtuber，岂不是变成了虚拟NEET了！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FLAC_KIZUNA_ANY" Language="zh_Hans_CN">
+			<Text>哎呀。我果然是超级无敌的人工智能啊。?</Text>
+		</Replace>
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_TITLE" Language="zh_Hans_CN">
+			<Text>绊爱</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_SUBTITLE" Language="zh_Hans_CN">
+			<Text>绊爱 - 虚拟YouTuber</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>绊爱（キズナアイ）是YouTube上一个虚拟YouTuber，自称为世界第一个Virtual YouTuber，YouTube频道名为A.I.Channel。角色形象由森仓圆设计，3D模型由Tda制作。2016年12月25日，免费公开自身3D模型素材，作为圣诞礼物。2018年成为推广日本旅游的Come to Japan的宣传大使。 </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>作为AI，刻意塑造AI的形象。不断表现出作为AI性能和自满（自称为「Super AI」），对人类行为的好奇心，在某些情景有意突显AI上的局限等。而作为「Super AI」的进一步彰显，就是表现得和普通的少女无异（人性的模拟），性格上和一般的少女无异，好动爱玩，乐观积极。作另一面的展现就是成熟沉稳，具有独立自我。 </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>作为YouTuber，需要维持与粉丝之间的沟通，也注重粉丝们的支持。十分熟练地在不同话题中提起宣传自身，鼓动粉丝支援。如在白色情人节，希望粉丝们点赞；在法庭系列判决都和粉丝的投稿有关。为了保持投稿作品的吸引力，作品题材也多种多样。同时确保投稿的作品的质量，对错误言论作出后续修正。 </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>偶像厨，一提起偶像就停不下来，据她自己说是喜欢偶像们“跟自己一样，向着梦想不断前进”的地方。 </Text>
+        </Replace>
+	</LocalizedText>
+</GameData>

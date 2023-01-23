@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_NAME">
+			<Text>A.I.Channel</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_DESCRIPTION">
+			<Text>A.I.Channel</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FLAC_AICHANNEL_ADJECTIVE">
+			<Text>A.I.Channel's</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YOUTUBE">
+			<Text>Keyakizaka 46</Text>
+		</Row>
+		
+		<Row Tag="LOC_DISTRICT_FLAC_LIVE_STUDIO_NAME">
+			<Text>Live Studio</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FLAC_LIVE_STUDIO_DESCRIPTION">
+			<Text>A district replace entertainment complex. Provide [Icon_Production]Production from adjancy district.</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_FLAC_REFEREE_NAME">
+			<Text>Court</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FLAC_REFEREE_DESCRIPTION">
+			<Text>Government District's unique building. Provide 6 Greatwork Slots. All city will gain +4 [ICON_Culture]Culture, [ICON_SCIENCE]Science and [ICON_FAITH]Faith.</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_FLAC_PUBG_SQUAD_NAME">
+			<Text>PUBG Squad</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FLAC_PUBG_SQUAD_DESCRIPTION">
+			<Text>Replace SPEC OPS. After killed an enemy, gain [ICON_Gold] gold as the enemy's [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_VIRTUAL_YOUTUBER_NAME">
+			<Text>World's first virtual Youtuber</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_VIRTUAL_YOUTUBER_DESCRIPTION">
+			<Text>Each Art Museum can hold six Great works instead of three, and Art Museums are automatically themed when they have six Great Works. All [ICON_GreatWork_Writing]Writings, [ICON_GreatWork_Sculpture]Sculpture, [ICON_GreatWork_Landscape] Art and [ICON_GreatWork_Music] Music +4[ICON_GOLD] Gold.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_AICHANNEL_CITY_1">
+			<Text>Youtube</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_2">
+			<Text>Twitter</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_3">
+			<Text>Niconico</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_4">
+			<Text>Unity3D</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_5">
+			<Text>Photoshop</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_6">
+			<Text>Steam</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_7">
+			<Text>Inside</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_8">
+			<Text>Super Mario</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_9">
+			<Text>LINE</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_10">
+			<Text>Wikipedia</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_11">
+			<Text>Cortana</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_12">
+			<Text>Siri</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_13">
+			<Text>Aqua.Intelligence</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_14">
+			<Text>Brainwars</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_15">
+			<Text>Modern Messiah</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_16">
+			<Text>Tilt Brush</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_17">
+			<Text>Google</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_18">
+			<Text>Pandaful</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_19">
+			<Text>Banned by Youtube</Text>
+		</Row>
+		<Row Tag="LOC_AICHANNEL_CITY_20">
+			<Text>Reason: nudity, explicit</Text>
+		</Row>
+		
+		<Row Tag="LOC_CITIZEN_AICHANNEL_1">
+			<Text>Ishimori Nijika</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_2">
+			<Text>Imaizumi Yui</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_3">
+			<Text>Uemura Rina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_4">
+			<Text>Ozeki Rika</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_5">
+			<Text>Oda Nana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_6">
+			<Text>Koike Minami</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_7">
+			<Text>Kobayashi Yui</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_8">
+			<Text>Saito Fuyuka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_9">
+			<Text>Sato Shiori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_10">
+			<Text>Shida Manaka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_11">
+			<Text>Sugai Yuka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_12">
+			<Text>Suzumoto Miyu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_13">
+			<Text>Nagasawa Nanako</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_14">
+			<Text>Nagahama Neru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_15">
+			<Text>Habu Mizuho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_16">
+			<Text>Harada Aoi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_17">
+			<Text>Hirate Yurina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_18">
+			<Text>Moriya Akane</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_19">
+			<Text>Yonetani Nanami</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_20">
+			<Text>Watanabe Rika</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_21">
+			<Text>Watanabe Risa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_22">
+			<Text>Iguchi Mao</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_23">
+			<Text>Ushio Sarina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_24">
+			<Text>Kakizaki Memi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_25">
+			<Text>Kageyama Yuuka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_26">
+			<Text>Kato Shiho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_27">
+			<Text>Saito Kyoko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_28">
+			<Text>Sasaki Kumi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_29">
+			<Text>Sasaki Mirei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_30">
+			<Text>Takase Mana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_31">
+			<Text>Takamoto Ayaka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_32">
+			<Text>Higashimura Mei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_33">
+			<Text>Kanemura Miku</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_34">
+			<Text>Kawata Hina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_35">
+			<Text>Kosaka Nao</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_36">
+			<Text>Tomita Suzuka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_37">
+			<Text>Nibu Akari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_38">
+			<Text>Hamagishi Hiyori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_39">
+			<Text>Matsuda Konoka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_40">
+			<Text>Miyata Manamo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_41">
+			<Text>Watanabe Miho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_42">
+			<Text>Suzuki Mizuho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_AICHANNEL_43">
+			<Text>Harada Mayu</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_LEADER_FLAC_KIZUNA_NAME">
+			<Text>Kizuna AI</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FLAC_KIZUNA_QUOTE">
+			<Text>World's first virtual Youtuber!</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_FLAC_KIZUNA">
+			<Text>Tada!</Text>
+        </Row>
+		<Row Tag="LOC_TRAIT_LEADER_BAKA_AI_NAME">
+			<Text>Baka AI</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BAKA_AI_DESCRIPTION">
+			<Text>May not gain Great Scientists. All cities gain +1 [ICON_Amenities] Amenities, if in golden age, +3 more [ICON_Amenities] Amenities, +200% [ICON_Favor] favor from citystates. [NEWLINE]Happy cities receive +1 Art Great Person Point, Ecstatic cities receive +2 Art Great Person Point. All cities gain +35%[ICON_Tourism] Tourism after "Advanced AI" tech.</Text>
+		</Row>
+		
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_FLAC_KIZUNA_ANY">
+			<Text>I am world's first virtual youtuber, Kizuna AI. I am a super AI, and is very clever and elegant.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Subscribe my videos please.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Thanks a lot.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>It is really a nice day. Let us be friends. Here, take the money.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Lewd. You are so disgusting.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Subscribe now to become a friend of mine! I would give you money!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>You will regret it!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>... See my elegant skills!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Surrender before I finish you off in 10 seconds.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_FLAC_KIZUNA_ANY">
+			<Text>... Hey! What are you saying to such a beautiful and elegant JK like me!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Fuck you! Fuck you Fuck you! FUCK! YOU! (Denounced you)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Serious?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Why don't you think again?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_FLAC_KIZUNA_ANY">
+			<Text>Good, we have terms.</Text>
+		</Row>
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_TITLE">
+			<Text>Kizuna AI</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_SUBTITLE">
+			<Text>Kizuna AI - Virtual YouTuber</Text>
+        </Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_1">
+			<Text>Kizuna AI is a Japanese virtual YouTuber and self-proclaimed artificial intelligence. They operate two YouTube channels, "A.I.Channel" and "A.I.Games," which as of March 2018 have more than 2.4 million subscribers and 135 million views combined.</Text>
+        </Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_2">
+			<Text>Kizuna AI is also the ambassador for one of JNTO's Japanese tourism campaign's, Kizuna AI Come to Japan!</Text>
+        </Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_3">
+			<Text>Kizuna AI will host a television variety show titled Kizuna Ai no BEAT Scramble, which is scheduled to air from April 6, 2018.</Text>
+        </Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FLAC_KIZUNA_CHAPTER_HISTORY_PARA_4">
+			<Text>Kizuna AI will also voice a character in the anime television series Magical Girl Site, which is scheduled to air from the same day.</Text>
+        </Row>
+	</BaseGameText>
+</GameData>
