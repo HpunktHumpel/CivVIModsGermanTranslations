@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e6dc448b-563b-4c58-a124-55d80c7482dc" version="2">
+  <Properties>
+    <Name>Ethereal Invasion (Area 51 Expansion Pack)</Name>
+    <Description>Alien invasion begins later in the game if the barbarian are alive.This adds a menacing late game crysis.</Description>
+    <Created>1652541315</Created>
+    <Teaser>Alien invasion begins later in the game if the barbarian are alive.This adds a menacing late game crysis.</Teaser>
+    <Authors>Alterdrushnano</Authors>
+    <SpecialThanks>JNR</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="22e526ea-c015-4c88-b243-d6476be0cbf0" title="Area 51" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateArt id="Art">
+      <File>ArtDefs/Units.artdef</File>
+      <File>CIV6_XCOM_MOD.Art.xml</File>
+    </UpdateArt>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>CIV6_XCOM_MOD_Ability.xml</File>
+      <File>CIV6_XCOM_MOD_Gameplay.xml</File>
+      <File>ETHEREAL_LOYALTY.sql</File>
+      <File>CIV6_XCOM_MOD_FREELeaders.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>NewUnit_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>CIV6_XCOM_MOD_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="UpdateLua">
+      <File>LUA/EtherealInvasion.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Unit_Bins.artdef</File>
+    <File>CIV6_XCOM_MOD.dep</File>
+    <File>CIV6_XCOM_MOD_Ability.xml</File>
+    <File>CIV6_XCOM_MOD_FREELeaders.xml</File>
+    <File>CIV6_XCOM_MOD_Gameplay.xml</File>
+    <File>CIV6_XCOM_MOD_Icons.xml</File>
+    <File>CIV6_XCOM_MOD_Text.xml</File>
+    <File>ETHEREAL_LOYALTY.sql</File>
+    <File>LUA/EtherealInvasion.lua</File>
+  </Files>
+</Mod>

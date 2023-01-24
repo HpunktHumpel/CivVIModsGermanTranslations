@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="22e526ea-c015-4c88-b243-d6476be0cbf0" version="3">
+  <Properties>
+    <Name>Area 51</Name>
+    <Description>Adds Area 51 World Wonder with Alien U.F.O. and Infiltrator units.</Description>
+    <Created>1635169884</Created>
+    <Teaser>Adds Area 51 World Wonder with Alien UFO and Infiltrator units. UFO has unique promotions which also upgrade the Alien Infiltrators.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay_XCOM">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Aliens">
+      <Properties>
+        <LoadOrder>14</LoadOrder>
+      </Properties>
+      <File>Core/A51_Buildings.sql</File>
+      <File>Core/A51_Units.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/A51_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/A51_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Area51.dep</File>
+    </UpdateArt>
+	<UpdateAudio id="Audio">
+		<File>Platforms/Windows/Audio/DLC08Banks.ini</File>
+		<File>Platforms/Windows/Audio/DLC08_Ambiences.bnk</File>
+		<File>Platforms/Windows/Audio/DLC08_Notifications.bnk</File>
+		<File>Platforms/Windows/Audio/DLC08_UI_Bank.bnk</File>
+		<File>Platforms/Windows/Audio/DLC08_Ambiences.xml</File>
+		<File>Platforms/Windows/Audio/DLC08_Notifications.xml</File>
+		<File>Platforms/Windows/Audio/DLC08_UI_Bank.xml</File>
+	</UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>Area51.dep</File>
+    <File>Core/A51_Buildings.sql</File>
+    <File>Core/A51_Icons.sql</File>
+    <File>Core/A51_Text.sql</File>
+    <File>Core/A51_Units.sql</File>
+	<File>Platforms/Windows/Audio/DLC08Banks.ini</File>
+	<File>Platforms/Windows/Audio/DLC08_Ambiences.bnk</File>
+	<File>Platforms/Windows/Audio/DLC08_Notifications.bnk</File>
+	<File>Platforms/Windows/Audio/DLC08_UI_Bank.bnk</File>
+	<File>Platforms/Windows/Audio/DLC08_Ambiences.xml</File>
+	<File>Platforms/Windows/Audio/DLC08_Notifications.xml</File>
+	<File>Platforms/Windows/Audio/DLC08_UI_Bank.xml</File>
+  </Files>
+</Mod>

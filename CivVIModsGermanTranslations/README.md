@@ -182,6 +182,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2793998824 | Age of Capital | Alf.Net | H.Humpel | #21
 2794603014 | Detailed Wonder Reminder Enhanced | Konomi | Junky | #17
 2794935656 | Silk & Spice: Trade Route Rework | Alf.Net | Junky | #18
+2796565833 | Ethereal Invasion (Area 51 Expansion Pack) | Alterd-Rushnano | H.Humpel | **NEW**
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2818358455 | Boom's Assyria | Boom | Junky | #23

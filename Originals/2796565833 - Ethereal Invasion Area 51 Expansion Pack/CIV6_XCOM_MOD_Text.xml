@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_PROMOTION_ETHEREAL_MIND_CONTROL_NAME">
+			<Text>The Elder's ADVENT</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_ETHEREAL_MIND_CONTROL_DESCRIPTION">
+			<Text>-25 Loyalty to Every city in a whole civilization </Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JNR_AREA_51_CHAPTER_HISTORY_PARA_1">
+			<Text>Area 51 is the common name of a highly classified United States Air Force (USAF) facility within the Nevada Test and Training Range. A remote detachment administered by Edwards Air Force Base, the facility is officially called Homey Airport (XTA/KXTA) or Groom Lake(after the salt flat next to its airfield). Details of its operations are not made public, but the USAF says that it is an open training range, and it is commonly thought to support the development and testing of experimental aircraft and weapons systems. The USAF acquired the site in 1955, primarily for flight testing the Lockheed U-2 aircraft.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JNR_AREA_51_CHAPTER_HISTORY_PARA_2">
+			<Text>The intense secrecy surrounding the base has made it the frequent subject of conspiracy theories and a central component of unidentified flying object (UFO) folklore. It has never been declared a secret base, but all research and occurrences in Area 51 are Top Secret/Sensitive Compartmented Information (TS/SCI). The CIA publicly acknowledged the base's existence on June 25, 2013, following a Freedom of Information Act (FOIA) request filed in 2005, and declassified documents detailing its history and purpose. The surrounding area is a popular tourist destination, including the small town of Rachel on the "Extraterrestrial Highway".</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JNR_AREA_51_CHAPTER_HISTORY_PARA_3">
+			<Text>[COLOR_RED][The content below is based on Firaxis's XCOM official canon][ENDCOLOR] [NEWLINE] This is the information about Area 51 that we can officially access, in reality it is a little more complicated. It is true that Area 51 began as a secret base for the development and testing of new weapons. However, during the development and testing of a new weapon for the arms race with Soren, Area 51 at the time became aware of an object that was apparently of extraterrestrial origin. This led to the first invasion through the Outsiders in 1961. Covering up this deadly global event required global cooperation, and a separate facility to manage extraterrestrial technology and alien captives. Area 51 manages all of this under a shield of conspiracy theories, protecting the public perception that humanity has never encountered an alien invader.</Text>
+		</Row>
+
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_ALIEN_CHAPTER_HISTORY_PARA_1">
+			<Text>Unless adopt an extreme conspiracy theory that states that Earth has already been conquered by invaders such as raptilians or simulated universes, but that fact is covered up, objective evidence that there are invasive aliens on Earth that are often seen in mass media such as movies at this point. is difficult to find. Even in the 21st century, we live in a government, society, and culture made up of humans, and in this environment, the scenario of aliens sinking into our society requires several assumptions. Alien infiltrators will need a means of communication that can evade most of the stakeholders on Earth, and their work will also have to be done very covertly. They should also have intelligence or lures that would force them to conceal information on those who were accidentally or inevitably contacted. If all these hypotheses are accepted, the secret pre-aggression of aliens can be justified. In any case, they will be an important spearhead of great military operations in places undiscovered by human astronomy.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_UFO_CHAPTER_HISTORY_PARA_1">
+			<Text>An unidentified flying object (UFO) is an unidentified flying object that cannot be identified by standard standards. The time when UFOs were first discovered is unknown, and it is claimed that UFOs appear in ancient Egyptian documents to medieval murals, but there is insufficient data to ascertain their authenticity. It appeared later, and there is no known information about the motion principle or internal structure of such an aircraft, and it is classified as a supernatural phenomenon. However, most unidentified vehicles later turn out to be ordinary objects or phenomena. [NEWLINE] ...if we assume that UFOs do exist, it should be said that they perform reconnaissance missions with as little exposure to humans as possible.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_UFO_CHAPTER_HISTORY_PARA_2">
+			<Text>Given that UFOs are extraterrestrial intelligence patrol vessels, Earth's military common sense can infer the behavior they should follow. First of all, they must never be captured or left behind. All the technologies that make up UFOs are far superior to the current human civilization, so if you fall in front of mankind due to incorrect operation, you will lose your technological edge in a very bad way. Second, all landing sites must be carefully selected. If they do not reveal their identities themselves, they must land in an uninhabited area that even persistent conspiracy theorists can avoid, and the range will decrease as the surveillance system of human civilization develops. Finally, the means of propulsion, such as bombing, must be carefully chosen. Humanity reacts sensitively to beings that endanger itself, so without local support, an immediate reconnaissance operation will run into a fatal crisis.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_UFO_CHAPTER_HISTORY_PARA_3">
+			<Text>Of course, all of these hypotheses require the assumption that UFOs are focused on prior reconnaissance and observation. The behavior of the fleet of extraterrestrial intelligences that are no longer required for reconnaissance is unpredictable. We remember what happened when South American civilizations met the Spanish expeditionary force, for we know nothing of the absolute alien leader's ability to lead military expeditions beyond the stars.</Text>
+		</Replace>
+	</BaseGameText>
+	
+  <LocalizedText>
+	  <Replace Tag="LOC_PROMOTION_ETHEREAL_MIND_CONTROL_NAME" Language="ko_KR">
+		  <Text>엘더 재림</Text>
+	  </Replace>
+	  <Replace Tag="OC_PROMOTION_ETHEREAL_MIND_CONTROL_DESCRIPTION" Language="ko_KR">
+		  <Text>모든 문명의 모든 도시의 충성도 -25</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JNR_AREA_51_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+		  <Text>51구역은 1955년 정찰기인 록히드 U-2를 최초로 네바다 주에 보내면서 설립된 곳으로, 이후 신무기의 개발 및 시험을 위한 철저한 비밀 기지로 건설되었습니다. 일반적으로 판매되고 있는 지도나 구글 어스에까지 실렸을 뿐만 아니라, 존재를 숨길 수 없을 만큼 광대하고, 그 존재가 세계적으로 유명해져 버렸음에도 불구하고, 미국 정부 및 미군은 이 기지가 설립된 1955년부터 CIA 극비 문서가 해제된 2013년까지 51구역의 존재를 분명히 인정하지 않고, 공식으로 부정도 하고 있지 않았습니다. 미국 정부가 작성한 지도에도 51구역은 일절 표시되지 않았습니다. 51구역은 그동안 미국 정부의 공식적인 인정이 전혀 없었으며 그동안 미 정부는 해당 기지에 대해 무응답하였으나, 2013년 6월 미국 중앙정보국(CIA)의 355페이지 짜리 기밀문서가 공개되면서 해당 지역의 실체를 인정하였습니다. 이 CIA 보고서에 따르면, 51구역은 과거 냉전 시기 사용했던 록히드 U-2 고고도 정찰기, 록히드 SR-71 블랙버드 초음속 정찰기, 록히드 F-117 나이트호크 스텔스 폭격기 등의 최신 비행기 및 최신 무기들의 비밀 시험장이었다고 합니다.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JNR_AREA_51_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+		  <Text>이 비밀기지가 특히 화제를 모은 이유는 이 곳에서 UFO를 목격했다는 제보가 많다 보니, 외계인 연구, 비밀 신무기 연구 등을 위해 설치했다는 주장이 제기되어 왔기 때문입니다. 진실이 밝혀진 이후에도 51구역 주변에는 UFO를 보려는 관광객이나 연구가들이 많이 오고 있어, 그들을 상대로 음식이나 기념품 등을 판매하는 곳도 많습니다. 그중에서도, '작은 외계인(Little Alien, 리틀 에이리언)'의 이름을 딴 이름의 모텔 'Little A`Le`Inn(리틀 에이`리`인)'이 세계적으로 유명합니다.</Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_JNR_AREA_51_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+		  <Text>[COLOR_RED][아래 내용은 파이락시스의 XCOM 공식 설정을 기반으로 합니다][ENDCOLOR]  [NEWLINE]여기까지가 공식적으로 우리가 접할 수 있는 51구역에 대한 정보이며, 실제로는 조금 더 많이 복잡합니다. 51구역은 신무기의 개발 및 시험을 위한 비밀기지로 시작된 건 사실입니다. 하지만 소런과의 군비경쟁을 위한 신무기의 개발 및 시험도중 당시 51구역은 명백히 지구 밖에 기원을 둔 물체에 대해 알게 되었으며. 이는 1961도의 아웃사이더의 최초침공으로 이어졌습니다. 이 치명적이며 전 지구적인 사태를 은폐하기 위해 전세계적인 협력이 필요했고, 외계 기술 및 외계인 포로를 관리하기 위한 별도의 시설이 필요해졌습니다. 51구역은 음모론이라는 방패에 숨어 이 모든 것을 관리 중이며, 아직 인류가 외계침략자와 조우한 적 없다는 대중의 인식을 지켜내고 있습니다. </Text>
+	  </Replace>
+
+	  <Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_ALIEN_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+		  <Text>랩틸리언이나 시뮬레이션 우주와 같은 이미 지구가 침략자에게 정복당했지만 그 사실이 은폐되었다는 극단적인 음모론을 채택하지 않는 이상, 현 시점에서 영화와 같은 대중매체에서 자주 보이는 침략형 외계인이 지구에 있다는 객관적 증거는 찾기 어렵습니다. 21세기에 들어서도 우리는 인간으로 구성된 정부와 사회 그리고 문화 속에 살고 있으며, 이러한 환경 속에서 우리 사회 속에 외계인이 침락한다는 시나리오는 몇가지 가정이 필요합니다. 외계인 침투요원은 지구 내의 대부분 이해관계자들을 회피할 수 있는 통신 수단이 필요할 것이며, 이들의 작업 또한 매우 은밀히 이루어저야 할 것입니다. 또한 우연 또는 피치 못하게 접촉할 수 밖에 없는 대상에겐 정보 은폐를 강요할 수 있을 만한 첩보능력 또는 유인책을 가지고 있어야 할 것입니다. 이 모든 가설을 채택한다면 외계인의 비밀스러운 사전 침략행동이 정당화 될 수 있습니다. 어찌되었든 그들은 인류의 천문학으로 발견할 수 없는 곳에서 이루어지는 거대한 군사 작전의 중요한 선봉대일 것이니 말입니다.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_UFO_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+		  <Text>미확인비행체(unidentified flying object, UFO)는 표준적 기준으로 식별할 수 없는 정체불명의 비행 물체를 뜻합니다. UFO가 처음 발견된 시기는 알려져 있지 않으며, 고대 이집트 문서에서부터 중세 벽화 등에 UFO가 등장한다고 주장하기도 하나, 진위를 파악하기에는 자료적 근거가 빈약합니다.. UFO를 목격한 유의미한 사건들은 대체로 2차 세계대전 이후에 등장하였으며그러한 비행체의 운동 원리나 내부 구조 등에 대해서는 알려진 바가 존재하지 않고, 초자연현상으로 분류되고 있습니다. 하지만 거의 대부분의 미확인비행체는 나중에 평범한 물체 또는 현상으로 밝혀집니다. [NEWLINE] ...만일 UFO가 실존한다고 가정할 경우 이들은 인류에게 최대한 노출되지 않은 채 관측활동을 한다고 봐야 할 것입니다.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_UFO_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+		  <Text>UFO가 지구 밖의 지성체의 정찰선이라고 할 경우 지구의 군사적 상식을 통해 이들이 준수해야 할 행동을 추정해볼 수 있습니다. 첫번쨰로 이들은 절대 생포되거나 잔해를 남겨선 안됩니다. UFO를 구성하는 모든 기술은 현 시점의 인류 문명을 아득히 상회하기에 만약 잘못된 운영으로 인류 앞에서 추락할 경우 기술적 우위를 아주 나쁜 방향으로 상실합니다. 두번쨰로 모든 착륙장소는 신중히 결정되어야 합니다. 자신들의 정체를 스스로 밝힐 게 아니라면 집요한 음모론자조차 회피할 수 있는 무인지대에 착륙해야 하며  인류 문명의 감시체계가 발달할 수록 그 범위는 줄어들게 됩니다. 마지막으로 폭격과 같은 무력투사 수단은 신중히 결정해야 합니다. 인류는 자신에게 위헙을 가하는 존재에 대해선 민감하게 반응하기에 현지의 서포트가 없다면 즉각 정찰 작전은 치명적 위기에 봉착할 것입니다.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JNR_51_UFO_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+		  <Text>물론 이 모든 가설은  UFO가 사전 정찰 및 관측에 집중하고 있다는 가정이 필요합니다. 정찰활동이 더 이상 필요하지 않게 된 지구 밖 지성체의 함대의 행동은 예측할 수 없습니다. 우리는 남 아메리카 문명들이 스페인 원정군을 맞이 했을 때 일어났던 일을 기억하고 있으며, 별 너머까지 군사적 원정을 주도할 수 있을 정도로 강력한 외계인 리더의 능력에 대해선 아무것도 모르기 때문입니다.</Text>
+	  </Replace>
+  </LocalizedText>
+</GameData>
