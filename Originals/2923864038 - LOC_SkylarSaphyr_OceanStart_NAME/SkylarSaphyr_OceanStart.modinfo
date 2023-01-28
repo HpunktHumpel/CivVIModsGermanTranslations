@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="855958d8-a222-93c3-0592-9a9d4c3aaac9" version="1.1">
+	<Properties>
+		<Name>LOC_SkylarSaphyr_OceanStart_NAME</Name>
+		<Description>LOC_SkylarSaphyr_OceanStart_DESCRIPTION</Description>
+		<Created>1661187300</Created>
+		<Teaser>LOC_SkylarSaphyr_OceanStart_TEASER</Teaser>
+		<Authors>Skylar Saphyr</Authors>
+		<SpecialThanks>Gedemon, Zobtzler</SpecialThanks>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+
+	<FrontEndActions>
+		<UpdateText id="NewAction">
+			<Properties>
+				<LoadOrder>250</LoadOrder>
+			</Properties>
+			<File>SkylarSaphyr_OceanStart_Text.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<InGameActions>
+		<UpdateDatabase id="NewAction">
+			<Properties>
+				<LoadOrder>250</LoadOrder>
+			</Properties>
+			<File>SkylarSaphyr_OceanStart.xml</File>
+		</UpdateDatabase>
+		
+		<UpdateText id="NewAction">
+			<Properties>
+				<LoadOrder>250</LoadOrder>
+			</Properties>
+			<File>SkylarSaphyr_OceanStart_Text.xml</File>
+		</UpdateText>
+	</InGameActions>
+
+	<LocalizedText>
+		<Text id="LOC_SkylarSaphyr_OceanStart_NAME">
+			<en_US>[COLOR_Civ6LightBlue]Saph's[ENDCOLOR] Ocean Start for All</en_US>
+			<zh_Hant_HK>[COLOR_Civ6LightBlue]Saph's[ENDCOLOR] 全領袖始於海洋</zh_Hant_HK>
+			<zh_Hans_CN>[COLOR_Civ6LightBlue]Saph's[ENDCOLOR] 全领袖始于海洋</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_SkylarSaphyr_OceanStart_TEASER">
+			<en_US>Every official leader now starts on an ocean tile.</en_US>
+			<zh_Hant_HK>全部官方領袖遊戲開始於海洋單元格。</zh_Hant_HK>
+			<zh_Hans_CN>全部官方领袖游戏开始于海洋单元格。</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_SkylarSaphyr_OceanStart_DESCRIPTION">
+			<en_US>This mod starts every official leader on an Ocean tile with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles.</en_US>
+			<zh_Hant_HK>全部官方領袖遊戲開始時位於海洋單元格，並即解鎖「航海術」和「造船術」科技，及具備進入海洋單元格的能力。</zh_Hant_HK>
+			<zh_Hans_CN>全部官方领袖游戏开始时位于海洋单元格，并即解锁「航海术」和「造船术」科技，及具备进入海洋单元格的能力。</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+	
+	<Files>
+		<File>SkylarSaphyr_OceanStart.xml</File>
+		<File>SkylarSaphyr_OceanStart_Text.xml</File>
+	</Files>
+</Mod>

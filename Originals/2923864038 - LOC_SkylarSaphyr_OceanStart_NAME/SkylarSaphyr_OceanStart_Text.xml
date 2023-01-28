@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_LEADER_SAPH_OCEAN_START_NAME"			Language="en_US"><Text>Ocean Start</Text></Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SAPH_OCEAN_START_DESCRIPTION"	Language="en_US"><Text>Starts on an Ocean tile with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles.</Text></Replace>
+	</LocalizedText>
+</GameData>

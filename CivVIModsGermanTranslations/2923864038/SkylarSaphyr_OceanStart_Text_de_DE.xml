@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_LEADER_SAPH_OCEAN_START_NAME"	Language="de_DE"><Text>Ozean-Start</Text></Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_SAPH_OCEAN_START_DESCRIPTION"	Language="de_DE"><Text>Startet auf einem Ozeanfeld mit den freigeschalteten Technologien "Segeln" und "Schiffsbau" und der Fähigkeit aller Landeinheiten zu wassern.</Text></Replace>
+	</LocalizedText>
+</GameData>
