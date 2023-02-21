@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="24">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]219[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]220[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1674944173</Created>
+    <Created>1676997605</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -236,6 +236,9 @@
     </Criteria>
     <Criteria id="UniqueBuildingDojo_FrontEnd">
       <ModIsEnabled>1B28771A-C749-434B-9053-D1380C553DE9</ModIsEnabled>
+    </Criteria>
+    <Criteria id="UniqueBuildingDragonKilnChina_FrontEnd">
+      <ModIsEnabled>bb9f67cc-0308-46ba-b7f7-e503fcbd86a1</ModIsEnabled>
     </Criteria>
     <Criteria id="UniqueImprovementCastrum_FrontEnd">
       <ModIsEnabled>6bdbd506-bec5-432e-a9a7-c4fa6330b323</ModIsEnabled>
@@ -852,6 +855,9 @@
     </Criteria>
     <Criteria id="UniqueBuildingDojo">
       <ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse>
+    </Criteria>
+    <Criteria id="UniqueBuildingDragonKilnChina">
+      <ModInUse>bb9f67cc-0308-46ba-b7f7-e503fcbd86a1</ModInUse>
     </Criteria>
     <Criteria id="UniqueImprovementCastrum">
       <ModInUse>6bdbd506-bec5-432e-a9a7-c4fa6330b323</ModInUse>
@@ -1709,6 +1715,13 @@
         <LoadOrder>13</LoadOrder>
       </Properties>
       <File>2095575379/Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="UniqueBuildingDragonKilnChina_ConfigText_FrontEnd_de_DE">
+      <Criteria>UniqueBuildingDragonKilnChina_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>2935848037/Core/RECIV_DragonKiln_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="UniqueImprovementCastrum_FrontEnd_de_DE">
       <Criteria>UniqueImprovementCastrum_FrontEnd</Criteria>
@@ -3658,6 +3671,13 @@
       </Properties>
       <File>2095575379/Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="UniqueBuildingDragonKilnChina_Text_de_DE">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <Criteria>UniqueBuildingDragonKilnChina</Criteria>
+      <File>2935848037/Core/RECIV_DragonKiln_Text_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="UniqueImprovementCastrum_de_DE">
       <Criteria>UniqueImprovementCastrum</Criteria>
       <Properties>
@@ -4117,6 +4137,7 @@
     <File>2916813487/RP_Localization_de_DE.sql</File>
     <File>2918188750/BOOM_CC_PLUS_TEXT_de_DE.xml</File>
     <File>2923864038/SkylarSaphyr_OceanStart_Text_de_DE.xml</File>
+    <File>2935848037/Core/RECIV_DragonKiln_Text_de_DE.sql</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
     <File>880843004/RealEraStop_Text_de_DE.sql</File>

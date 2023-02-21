@@ -204,6 +204,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Trading Post Improvement (joshmanisdabomb | H.Humpel)
 1. Uffizi (World Wonder) (Deliverator23 | H.Humpel)
 1. Unique Building: Dojo (Japan) (JNR | Junky)
+1. Unique Building: Dragon Kiln (China) (JNR | H.Humpel)
 1. Unique Improvement: Castrum (Rome) (JNR | Junky)
 1. Unique Reworked: Carnival (Brazil) (JNR | Junky)
 1. Unique Reworked: Qhapaq Ñan (Inca) (JNR | Junky)
