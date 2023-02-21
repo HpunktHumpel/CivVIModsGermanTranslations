@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_CC_PLUS_TEXT -->
+<!-- Author: Boom -->
+<!-- DateCreated: 1/4/2023 12:52:30 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BOOM_BUILDING_WELL_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Brunnen|Brunnen|Brunnen|Brunnens|Brunnen</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_DOCK_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Angelsteg|Angelsteg|Angelsteg|Angelsteges|Angelsteg</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_TAVERN_NAME" Language="de_DE" Gender="feminine" Plurality="1">
+			<Text>Taverne|Taverne|Taverne|Taverne|Taverne</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_COURTHOUSE_NAME" Language="de_DE" Gender="neuter" Plurality="1">
+			<Text>Gerichtsgebäude|Gerichtsgebäude|Gerichtsgebäude|Gerichtsgebäudes|Gerichtsgebäude</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BOOM_BUILDING_DOCK_DESC" Language="de_DE">
+			<Text>+1 [ICON_Production] Produktion für Fischerboote, die an ein Land-Geländefeld angrenzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_TAVERN_DESC" Language="de_DE">
+			<Text>+1 [ICON_Food] Nahrung und +1 [ICON_Gold] Gold für Eure [ICON_TradeRoute] Handelswege zu dieser Stadt. +1 [ICON_Gold] Gold pro Runde für jeden internationalen [ICON_TradeRoute] Handelsweg, der durch diese Stadt führt.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_GRANARY_DESC" Language="de_DE">
+			<Text>Durch Bauernhöfe verbesserte Bonus-Ressourcen erhalten jeweils +1 [ICON_Food] Nahrung.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_COURTHOUSE_DESC" Language="de_DE">
+			<Text>+5% [ICON_Science] Wissenschaft und [ICON_Gold] Gold in dieser Stadt. +1 [ICON_Amenities] Annehmlichkeit, wenn eine Einheit in dieser Stadt stationiert ist. Kann nicht mit [ICON_Gold] Gold erworben werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOM_BUILDING_SEWER_DESC" Language="de_DE">
+			<Text>25 % der [ICON_Food] Nahrung wird übertragen, nachdem diese Stadt eine [ICON_Citizen] Bevölkerung hinzugewonnen hat.</Text>
+		</Replace>
+		<Replace Tag ="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="de_DE">
+			<Text>Bauernhöfe erhalten +1 [ICON_Production] Produktion, wenn sie an einen Fluss angrenzen, sowie +1 [ICON_Gold], wenn sie an einen Spezialbezirk angrenzen.</Text>
+		</Replace>>
+
+
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_WELL_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Menschheit ist schon immer dem Wasser gefolgt. Viele der größten Städte und Zivilisationen der Geschichte haben sich um eine Wasserquelle herum entwickelt, was nur natürlich ist, wenn man bedenkt, wie wichtig diese ist. Mit der Ausbreitung menschlicher Siedlungen wurde das Land neben leicht zugänglichem Süßwasser jedoch knapp und schwer zu beanspruchen. So wurden Brunnen geschaffen, Strukturen im Boden, um Wasser in unterirdischen Reservoirs zu erschließen. Anfangs waren diese nicht mehr als einfache Löcher im Boden, aber als eine Siedlung wuchs, gab es meistens mehrere Brunnen, jeder mit einer Abdeckung zum Schutz vor Verunreinigungen und einer Schutzverkleidung auf der Innenseite des Schachts, normalerweise aus Stein. Diese stammen aus der Zeit vor zehntausend Jahren.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_FISHING_DOCK_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>An der Küste eines Ozeans zu leben, bringt gewisse Vorteile mit sich. Dazu gehört die Fähigkeit, Fische zu fangen, die für viele Menschen ein fester Bestandteil der Ernährung waren. Natürlich entwickelte sich um dieses Handwerk herum eine Infrastruktur und enige Menschen lebten sogar direkt am Meer. So entstand der Angelsteg, ein Gehweg über dem Wasser, an dem Boote anlegen und festgemacht konnten und von dem sogar direkt geangelt werden konnte.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_TAVERN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Menschen neigen dazu, sich in ihrer Freizeit zu treffen, um sich zu erholen, und eine beliebte Freizeitbeschäftigung in der Geschichte war der Konsum von Alkohol. Tavernen sind Geschäfte, in denen Alkohol und in der Regel auch Speisen und Unterkunft gekauft werden können. Die ersten bekannten Tavernen befanden sich im 14. Jahrhundert in Frankreich, wo sie zu wichtigen Speiselokalen wurden, wenn auch in erster Linie für die Arbeiterklasse und nicht für Personen mit höherem sozialen Status. Mit der Zeit wurden Tavernen zu Zentren des gesellschaftlichen und politischen Lebens in ihren Städten oder Dörfern.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_COURTHOUSE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Mit der Gesellschaft kommen Gesetze, und mit Gesetzen kommen Urteil und Strafe. Um Fairness bei Strafe und Urteil zu gewährleisten, wurden Gerichte geschaffen, um einen Ort für einen fairen Gerichtsprozess zu gewährleisten. Im der Regel nimmt das Gerichtsgebäude einen auffällig wichtigen Platz im Zentrum einer Stadt ein – entweder, weil die Bürger es mit Stolz betrachten, oder weil die Regierung die Bürger daran erinnern möchte, dass sie ein Auge auf sie geworfen hat.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8650837d-bab3-444f-8c5e-6e52f7fca766" version="1">
+  <Properties>
+    <Name>Boom's City Center+</Name>
+    <Description>This mod expands and rebalances the buildings in the City Center, allowing more variety in the very early game as well as opening up choices to certain flatland or coastal spawns.</Description>
+    <Created>1675732742</Created>
+    <Teaser>This mod expands and rebalances the buildings in the City Center, allowing more variety in the very early game as well as openi</Teaser>
+    <Authors>Boom</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="addNewCC">
+      <File>BOOM_CC_NEW.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="updateCC">
+      <File>BOOM_CC_CHANGES.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="dummyHandler">
+      <File>BOOM_CC_DUMMIES.lua</File>
+    </AddGameplayScripts>
+    <UpdateText id="updateCCText">
+      <File>BOOM_CC_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="updateCCIcons">
+      <File>BOOM_CC_ICONS.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="updateCCArt">
+      <File>Boom_s_City_Center_.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Assets/BOOM_PLANK.ast</File>
+    <File>Assets/DIS_CTY_LARGE_SQUARE.ast</File>
+    <File>Assets/DIS_CTY_STONE_RECTANGLE.ast</File>
+    <File>Assets/DIS_CTY_STONE_SQUARE.ast</File>
+    <File>BOOM_CC_CHANGES.sql</File>
+    <File>BOOM_CC_DUMMIES.lua</File>
+    <File>BOOM_CC_ICONS.xml</File>
+    <File>BOOM_CC_NEW.sql</File>
+    <File>BOOM_CC_TEXT.xml</File>
+    <File>Boom_s_City_Center_.dep</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BOOM_COURTHOUSE_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BOOM_COURTHOUSE_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BOOM_CTY_TAVERN_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BOOM_CTY_TAVERN_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_COURTHOUSE_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_CTY_TAVERN_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_PILLAR_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_PLANK_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_BOOM_WELL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_BOOM_WELL_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_BOOM_WELL_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseA_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseB_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Lumbermill_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Lumbermill_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BOOM_COURTHOUSE_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BOOM_COURTHOUSE_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BOOM_CTY_TAVERN_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BOOM_CTY_TAVERN_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_COURTHOUSE_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_CTY_TAVERN_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_PILLAR_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BOOM_PLANK_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AW_Grounds_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_BOOM_WELL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Brick_Gray_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AW_Grounds_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_BOOM_WELL_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_BOOM_WELL_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseA_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RE_BaseB_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Brick_Gray_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Lumbermill_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Lumbermill_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>

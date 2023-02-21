@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BOOM_CC_PLUS_TEXT -->
+<!-- Author: Boom -->
+<!-- DateCreated: 1/4/2023 12:52:30 PM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_BOOM_BUILDING_WELL_NAME">
+			<Text>Well</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_DOCK_NAME">
+			<Text>Fishing Dock</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_TAVERN_NAME">
+			<Text>Tavern</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_COURTHOUSE_NAME">
+			<Text>Courthouse</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_DOCK_DESC">
+			<Text>+1 [ICON_Production] Production to Fishing Boats adjacent to a land tile.</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_TAVERN_DESC">
+			<Text>+1 [ICON_Food] Food and [ICON_Gold] Gold to your [ICON_TradeRoute] Trade Routes to this city. +1 [ICON_Gold] Gold per turn for each foreign [ICON_TradeRoute] Trader passing through this city.</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_GRANARY_DESC">
+			<Text>Bonus Resources improved by Farms gain +1 [ICON_Food] Food.</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_COURTHOUSE_DESC">
+			<Text>+5% [ICON_Science] Science and [ICON_Gold] Gold in this city. +1 [ICON_Amenities] Amenity if a unit is garrisoned in this city. May not be purchased with [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_BOOM_BUILDING_SEWER_DESC">
+			<Text>25% of [ICON_Food] Food is carried over after this city gains a [ICON_Citizen] Population.</Text>
+		</Row>
+		<Replace Tag ="LOC_BUILDING_WATER_MILL_DESCRIPTION">
+			<Text>Farms gain +1 [ICON_Production] Production if adjacent to a River and +1 [ICON_Gold] if adjacent to any specialty district.</Text>
+		</Replace>
+
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_WELL_CHAPTER_HISTORY_PARA_1">
+			<Text>Humanity has always followed water. Many of the largest cities and civilizations in history developed around a water source, only natural considering how important it is. As human settlements expanded however, the land beside readily accessible freshwater became scarce and difficult to claim. Thus, wells were created, structures in the ground in order to access water in underground reservoirs. At first these were no more than simple holes in the ground, but as a settlement grew there might be multiple wells, each with a covering to prevent contamination and a protective lining on the inside of the shaft, usually made of stone. These date to as far back as ten thousand years ago.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_FISHING_DOCK_CHAPTER_HISTORY_PARA_1">
+			<Text>Living on the coast of an ocean grants certain benefits. Among these are the ability to catch fish, which were a staple part of many people's diets. Naturally, infrastructure developed around this craft to make it easier, and some people even lived next to the sea in order to make their workday more streamlined. Thus, the Dock was born, a walkway over the water that boats could be docked at to prevent drift and would even allow fishing more easily.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_TAVERN_CHAPTER_HISTORY_PARA_1">
+			<Text>Humans tend to like to gather together to do recreation in their spare time, and a favorite recreation in history has been consumption of alcohol. Taverns are places of business where alcohol and typically food and lodging can be purchased. The first known taverns were in France in the 14th century, where they became the primary means of dining out, although primarily for the working class and not those of higher social standing. Over time, taverns became centers of social and political life in their cities or villages.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BOOM_BUILDING_COURTHOUSE_CHAPTER_HISTORY_PARA_1">
+			<Text>With society comes laws, and with laws comes judgement and punishment. To ensure fairness in punishment and judgement, courts were created, to ensure a fair judicial process. A courthouse hosts these proceedings. Generally the courthouse occupies a conspicuous place of importance in the central part of the city - either because the citizens view it with pride, or because the government wants to remind the citizens that it's got its eye on them.</Text>
+		</Row>
+	</EnglishText>
+</GameData>

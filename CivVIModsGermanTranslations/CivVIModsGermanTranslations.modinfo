@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]220[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1676997605</Created>
+    <Created>1677000242</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -335,7 +335,7 @@
       <ModInUse>280e5186-cd59-4687-a2b9-d79b77f0b947</ModInUse>
     </Criteria>
     <Criteria id="BoomsCityCenter">
-      <ModInUse>c1f59649-06fe-4f40-ab15-454f42803f63</ModInUse>
+      <ModInUse>8650837d-bab3-444f-8c5e-6e52f7fca766</ModInUse>
     </Criteria>
     <Criteria id="Borobudur">
       <ModInUse>f6556753-3531-4d36-b448-5a4053064524</ModInUse>
@@ -1915,10 +1915,7 @@
     </UpdateText>
     <UpdateText id="BoomsCityCenter_updateCCText_de_DE">
       <Criteria>BoomsCityCenter</Criteria>
-      <Properties>
-        <LoadOrder>50</LoadOrder>
-      </Properties>
-      <File>2918188750/BOOM_CC_PLUS_TEXT_de_DE.xml</File>
+      <File>2926564914/BOOM_CC_TEXT_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Borobudur_de_DE">
       <Criteria>Borobudur</Criteria>
@@ -4135,8 +4132,8 @@
     <File>2910951427/Leader/Leader_Localisation_de_DE.sql</File>
     <File>2911040779/Core/Text_de_DE.sql</File>
     <File>2916813487/RP_Localization_de_DE.sql</File>
-    <File>2918188750/BOOM_CC_PLUS_TEXT_de_DE.xml</File>
     <File>2923864038/SkylarSaphyr_OceanStart_Text_de_DE.xml</File>
+    <File>2926564914/BOOM_CC_TEXT_de_DE.xml</File>
     <File>2935848037/Core/RECIV_DragonKiln_Text_de_DE.sql</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>880843004/Config/RealEraStop_Config_Text_de_DE.sql</File>
