@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8b858b76-6a79-4a30-a388-2316c4fbf496" version="1">
+  <Properties>
+    <Name>Sukritact's Egypt Rework</Name>
+    <Description>Makes the Egypt a civ that requires more active city-planning. Gives Egypt a Unique Industrial Zone</Description>
+    <Created>1676233472</Created>
+    <Teaser>Sukritact's Egypt Rework</Teaser>
+    <Authors>Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Rosetta_Conflict">
+      <ModInUse inverse="1">f30353f2-8760-4f8d-a28e-08fb6445f627</ModInUse>
+      <ModInUse inverse="1">1053759f-6c27-4684-930f-870917dd37d3</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Config/Suk_EgyptRework_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Egypt_Rework.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/Config/Suk_EgyptRework_IconDefinitions.sql</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Core/Localisation/Suk_EgyptRework_Localisation.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Gameplay/Suk_EgyptRework_Civilizations.sql</File>
+      <File>Core/Gameplay/Suk_EgyptRework_Districts.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/Config/Suk_EgyptRework_IconDefinitions.sql</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Core/Localisation/Suk_EgyptRework_Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Egypt_Rework.dep</File>
+    </UpdateArt>
+    <ImportFiles id="ImportFiles">
+      <File>Core/Lua/Suk_BinaryPropertyManager.lua</File>
+      <File>Core/Lua/Suk_AdjacencyHandlerItem_SeasonOfInundation.lua</File>
+    </ImportFiles>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <File>Core/Lua/Suk_EgyptRework_Gameplay.Lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="UpdateDatabase_CityList">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>Rosetta_Conflict</Criteria>
+      <File>Core/Gameplay/Suk_EgyptRework_CityList.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText_CityList">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>Rosetta_Conflict</Criteria>
+      <File>Core/Localisation/Suk_EgyptRework_CityListText.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/Config/Suk_EgyptRework_Config.sql</File>
+    <File>Core/Config/Suk_EgyptRework_IconDefinitions.sql</File>
+    <File>Core/Gameplay/Suk_EgyptRework_CityList.sql</File>
+    <File>Core/Gameplay/Suk_EgyptRework_Civilizations.sql</File>
+    <File>Core/Gameplay/Suk_EgyptRework_Districts.sql</File>
+    <File>Core/Localisation/Suk_EgyptRework_CityListText.sql</File>
+    <File>Core/Localisation/Suk_EgyptRework_Localisation.sql</File>
+    <File>Core/Lua/Suk_AdjacencyHandlerItem_SeasonOfInundation.lua</File>
+    <File>Core/Lua/Suk_BinaryPropertyManager.lua</File>
+    <File>Core/Lua/Suk_EgyptRework_Gameplay.Lua</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_PRD_Pile_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_SUK_SET_MAAT_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Suk_SetMaat_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Suk_SetMaat_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_SUK_SET_MAAT_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_SUK_SET_MAAT_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_SUK_SET_MAAT_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Industrial_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_PRD_Pile_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_SUK_SET_MAAT_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Pile_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Suk_SetMaat_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_PRD_Suk_SetMaat_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_SUK_SET_MAAT_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_SUK_SET_MAAT_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_SUK_SET_MAAT_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact_s_Egypt_Rework.dep</File>
+  </Files>
+</Mod>
