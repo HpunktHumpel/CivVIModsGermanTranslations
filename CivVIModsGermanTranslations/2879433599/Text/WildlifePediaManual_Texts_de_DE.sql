@@ -39,7 +39,7 @@ VALUES
 
 		("de_DE", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_HUNTING_PARA_1",					
-		"Das Besiegen von Wildtieren liefert [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch, das in Euren Städten verzehrt werden kann und zusätzliche [ICON_FOOD] Nahrung liefert. Dies ist besonders am Anfang und für neu gegründete Städte nützlich."),
+		"Das Besiegen von Wildtieren liefert eine zufällige Menge [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch, das in Euren Städten verzehrt werden kann und zusätzliche [ICON_FOOD] Nahrung liefert. Dies ist besonders am Anfang und für neu gegründete Städte nützlich."),
 
 		("de_DE", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_HUNTING_PARA_2",					
@@ -53,9 +53,13 @@ VALUES
 		("de_DE", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_1",					
 		"Wenn Ihr Wildtiere nicht als Nahrung jagen wollt, gibt es einige Alternativen. Eine davon ist, sie als [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotische Arten oder [ICON_RESOURCE_LEU_AQUATIC_SPECIES] zu fangen und sie in Tierausstellungen in Städten mit Unterhaltungskomplexen bzw. Wasserparks zu verwenden. Dies ist eine hervorragende Quelle für [ICON_AMENITIES] Annehmlichkeiten und [ICON_TOURISM] Tourismus und kann Euch dank des Interesses Eurer Bevölkerung sogar zu etwas [ICON_GOLD] Gold und [ICON_CULTURE] Kultur verhelfen. Dies ist möglich, nachdem Ihr Spiele und Erholung mit der Politik der Tierdressur entdeckt haben."),
+		
+		("en_US", 
+		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_2",					
+		"Tier-Ausstellungen können in jeder Stadt produziert werden und für einen vorübergehenden Schub an [ICON_AMENITIES] Annehmlichkeiten sorgen; wenn sie jedoch in Städten mit Unterhaltungskomplexen und Wasserparks produziert werden, sorgen sie auch für etwas [ICON_TOURISM] Tourismus und wenn diese Bezirke auch Zoos oder Aquarien haben, erhöhen sie den [ICON_TOURISM] Tourismus der Stadt um 100%, was Ausstellungen zu einer mächtigen Alternative macht, um einen Kultursieg zu erringen. Für Wassertier-Ausstellungen müssen jedoch Wasserparks gebaut werden."),
 
 		("de_DE", 
-		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_2",					
+		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_3",					
 		"Im Gegensatz zu [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch verfallen diese Ressourcen nicht mit der Zeit, sondern werden durch Projekte verbraucht. Die Umwandlung von Wildtiereinheiten mit Hilfe von Missionaren, Boudicca oder Einheiten mit der Fähigkeit, feindliche Einheiten zu erbeuten, gewährt ebenfalls [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotische Arten."),
 
 		--PRESERVATION
@@ -65,11 +69,11 @@ VALUES
 
 		("de_DE", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_PRESERVATION_PARA_1",					
-		"Die andere Alternative zum Töten von Tieren zur Nahrungsgewinnung besteht darin, sie als [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna zu schützen. Baut dazu ein Reservat in der Nähe einer Wildtiereinheit; dadurch wird die Einheit sofort in eure Zivilisation übertragen. Die [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna kann sich weder bewegen noch angreifen, gewährt Euch aber jede Runde [ICON_FAITH] Glaube und [ICON_SCIENCE] Wissenschaft sowie [ICON_ENVOY] Gesandte und [ICON_FAVOR] Diplomatische Gunst, wenn Ihr bestimmte Politiken freischaltet und Schutzgebiete baut."),
+		"Die andere Alternative zum Töten von Tieren zur Nahrungsgewinnung besteht darin, sie als [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna zu schützen. Baut dazu ein Schutzgebiet oder Garten in der Nähe einer Wildtiereinheit; dadurch wird die Einheit sofort in eure Zivilisation übertragen. Die [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna kann sich weder bewegen noch angreifen, gewährt Euch aber jede Runde [ICON_FAITH] Glaube und [ICON_SCIENCE] Wissenschaft sowie [ICON_ENVOY] Gesandte und [ICON_FAITH] Glauben mit bestimmten religiösen Glaubenssätzen, sowie [ICON_FAVOR] Diplomatische Gunst, wenn Ihr bestimmte Politiken freischaltet und Schutzgebiete baut."),
 
 		("de_DE", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_PRESERVATION_PARA_2",					
-		"Es ist jedoch wichtig zu wissen, dass alle Wildtiere eine [ICON_Lifespan] Lebensspanne von 40 Runden (Standardgeschwindigkeit) haben. Dieser Wert kann durch den Abschluss des Projekts Schutzgebietbetreuung erhöht werden, wenn Ihr den Mod benutzt, der dies ermöglicht. Außerdem besteht die Chance, dass eine neue Generation geboren wird, wenn eine geschützte [ICON_LEU_LOCAL_FAUNA]-Einheit der einheimischen Fauna das Ende ihrer [ICON_Lifespan] Lebensspanne erreicht! Diese Chance hängt von der Anzahl der Gebäude in Eurem Schutzgebiet ab und davon, ob Ihr die Karte ''Zuchtprogramme'' habt oder nicht!"),
+		"Es ist jedoch wichtig zu wissen, dass alle Wildtiere eine [ICON_Lifespan] Lebensspanne von 40 Runden (Standardgeschwindigkeit) haben. Dieser Wert kann durch den Abschluss des Projekts Schutzgebietbetreuung oder Gartengestaltung erhöht werden, wenn Ihr den Mod benutzt, der dies ermöglicht. Außerdem besteht die Chance, dass eine neue Generation geboren wird, wenn eine geschützte [ICON_LEU_LOCAL_FAUNA]-Einheit der einheimischen Fauna das Ende ihrer [ICON_Lifespan] Lebensspanne erreicht! Diese Chance hängt von der Anzahl der Gebäude in Eurem Schutzgebiet oder Garten ab und davon, ob Ihr die Karte ''Zuchtprogramme'' habt oder nicht! Die Wahrscheinlichkeit kann auch durch Gründung eines Nationalparks im Gebiet des Tieres beträchtlich erhöht werden."),
 
 		("de_DE", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_PRESERVATION_PARA_3",					

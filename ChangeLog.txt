@@ -5,6 +5,7 @@
 - [UPDATE] Grand Eras (Project 6T Core) (vom 22. Jan. 2023 um 11:38, Übersetzung von Junky)
 - [UPDATE] Leugi's Preserve Food and Production Nerfs (vom 25. Feb. 2023 um 17:31, Übersetzung von Junky)
 - [UPDATE] Leugi's Preserve Rework (vom 25. Feb. 2023 um 17:33, Übersetzung von Junky)
+- [UPDATE] Leugi's Wildlife++ (New Game Mode) (vom 24. Feb. 2023 um 14:43, Übersetzung von Junky)
 - [UPDATE] Sukritact's Egypt Rework (vom 16. Feb. 2023 um 19:34, Übersetzung von Junky)
 - [UPDATE] Sukritact's Simple UI Adjustments (vom 19. Feb. 2023 um 11:56, Übersetzung von Junky)
 

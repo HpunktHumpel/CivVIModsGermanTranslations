@@ -260,20 +260,22 @@ WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_COLOSSEUM_DESCRIPTION";
 
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]When completed, all [ICON_LEU_LOCAL_FAUNA] Local Fauna within a tile of the Preserve recover +15 [ICON_LIFESPAN] Lifespan.","[NEWLINE][NEWLINE]Bei Abschluss, erhalten alle [ICON_LEU_LOCAL_FAUNA] Einheimischen Tiere innerhalb eines Feldes des Schutzgebietes +15 [ICON_LIFESPAN] Lebenszeit.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]When completed, all [ICON_LEU_LOCAL_FAUNA] Local Fauna within a tile of the Preserve recover +15 [ICON_LIFESPAN] Lifespan.","[NEWLINE][NEWLINE]Bei Abschluss, erhalten alle [ICON_LEU_LOCAL_FAUNA] Einheimischen Faunen innerhalb eines Feldes des Schutzgebietes +15 [ICON_LIFESPAN] Lebenszeit.")
 WHERE Language = "de_DE" AND Tag = "LOC_PROJECT_LEU_ENHANCE_DISTRICT_PRESERVE_DESC";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_GREATPROPHET] Great Prophet Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+1 [ICON_GREATSCIENTIST] Great Scientist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.","[NEWLINE][NEWLINE]+1 [ICON_GREATPROPHET] Großer-Prophet-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna-Einheit.[NEWLINE]+1 [ICON_GREATSCIENTIST] Großer-Wissenschaftler-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna-Einheit. [NEWLINE]+25% Chance, dass benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna-Einheiten eine neue Generation gebären, nachdem ihre Lebensspanne aufgebraucht ist.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_GREATARTIST] Great Artist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+1 [ICON_GREATSCIENTIST] Great Scientist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.","[NEWLINE][NEWLINE]+1 [ICON_GREATARTIST] Großer-Künstler-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna.[NEWLINE]+1 [ICON_GREATSCIENTIST] Großer-Wissenschaftler-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna. [NEWLINE]+25% Chance, dass benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna eine neue Generation zeugt, nachdem ihre [ICON_LIFESPAN] Lebensspanne erschöpft ist.")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_GROVE_DESCRIPTION";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Favor for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.","[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Gunst für jede benachbarte [ICON_LEU_LOCAL_FAUNA]-Einheit der einheimischen Fauna[NEWLINE]+25% Chance der angrenzenden [ICON_LEU_LOCAL_FAUNA]-Einheit der einheimischen Fauna, eine neue Generation zu gebären, nachdem ihre Lebensspanne erschöpft ist.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Favor for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.","[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Diplomatische Gunst für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna[NEWLINE]+25% Chance der angrenzenden [ICON_LEU_LOCAL_FAUNA] Einheimischen Fauna, eine neue Generation zu erzeugen, nachdem ihre [ICON_LIFESPAN] Lebensspanne erschöpft ist.")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_SANCTUARY_DESCRIPTION";
 
 UPDATE LocalizedText
 SET Text = REPLACE(Text,"[NEWLINE][NEWLINE][COLOR_Civ6Red]The [ICON_RESOURCE_LEU_BUSHMEAT] Consume Bushmeat project reduces [ICON_FAVOR] Favor by 5 every turn.[ENDCOLOR]","[NEWLINE][NEWLINE][COLOR_Civ6Red]Das Projekt [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch verzehren reduziert [ICON_FAVOR] Gunst jede Runde um 5.[ENDCOLOR]")
 WHERE Language = "de_DE" AND Tag = "LOC_CIVIC_CONSERVATION_DESCRIPTION";
+
+
 --==========================================================================================================================
 --==========================================================================================================================
 

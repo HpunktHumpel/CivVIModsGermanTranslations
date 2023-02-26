@@ -39,7 +39,7 @@ VALUES
 
 		("en_US", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_HUNTING_PARA_1",					
-		"Defeating Wild Animals provides [ICON_RESOURCE_LEU_BUSHMEAT] Bushmeat, which can be consumed at your cities to provide additional [ICON_FOOD] Food. This is specially useful early on, and for newly founded cities."),
+		"Defeating Wild Animals provides a random amount of [ICON_RESOURCE_LEU_BUSHMEAT] Bushmeat, which can be consumed at your cities to provide additional [ICON_FOOD] Food. This is specially useful early on, and for newly founded cities."),
 
 		("en_US", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_HUNTING_PARA_2",					
@@ -52,7 +52,11 @@ VALUES
 
 		("en_US", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_1",					
-		"If you don't want to hunt the Wild Animals for food, there are some alternatives. One of them is capturing them as [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotic Species or [ICON_RESOURCE_LEU_AQUATIC_SPECIES] instead, allowing you to use them in Animal Exhibits at cities with Entertainment Complexes and Water Parks respectively. This is a great source of [ICON_AMENITIES] Amenities and [ICON_TOURISM] Tourism, and can even help you gain some [ICON_GOLD] Gold and [ICON_CULTURE] Culture thanks to the interest of your population in them. This can be done after discovering Games & Recreation with the Animal Training policy."),
+		"If you don't want to hunt the Wild Animals for food, there are some alternatives. One of them is capturing them as [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotic Species or [ICON_RESOURCE_LEU_AQUATIC_SPECIES] instead, allowing you to use them in Animal Exhibits. This is a great source of [ICON_AMENITIES] Amenities and [ICON_TOURISM] Tourism, and can even help you gain some [ICON_GOLD] Gold thanks to the interest of your population in them. This can be done after discovering Games & Recreation with the Animal Training policy."),
+
+		("en_US", 
+		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_2",					
+		"Animal Exhibits can be performed at any city for a temporal boost of [ICON_AMENITIES] Amenities while produced; however, when produced at cities with Entertainment Complexes and Water Parks they also provide some [ICON_TOURISM] Tourism, and if these districts also have Zoos or Aquariums they increase the [ICON_TOURISM] Tourism from the city by 100% making exhibits a powerful option towards achieving a Cultural Victory. Aquatic Animal Exhibits, however, require Water Parks to be produced."),
 
 		("en_US", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_2",					
@@ -65,11 +69,11 @@ VALUES
 
 		("en_US", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_PRESERVATION_PARA_1",					
-		"The other alternative for killing animals for food is to protect them as [ICON_LEU_LOCAL_FAUNA] Local Fauna. To do this, build a Preserve near a Wild Animal unit; doing this instantly transfers the unit to your civilization. [ICON_LEU_LOCAL_FAUNA] Local Fauna may not move or attack, but grants you [ICON_FAITH] Faith and [ICON_SCIENCE] Science each turn, as well as [ICON_ENVOY] Envoys and  [ICON_FAVOR] Diplomatic Favor as you unlock certain Policies and build Sanctuaries, so this is specially useful if you are pursuing a Diplomatic Victory. "),
+		"The other alternative for killing animals for food is to protect them as [ICON_LEU_LOCAL_FAUNA] Local Fauna. To do this, build a Preserve or a Garden near a Wild Animal unit; doing this instantly transfers the unit to your civilization. [ICON_LEU_LOCAL_FAUNA] Local Fauna may not move or attack, but grants you [ICON_Culture] Culture and [ICON_SCIENCE] Science each turn, as well as [ICON_ENVOY] Envoys and [ICON_FAITH] Faith with certain Religious Beliefs and [ICON_FAVOR] Diplomatic Favor as you unlock certain Policies and build Sanctuaries (or Conservatories with the Garden Mod), so this is specially useful if you are pursuing a Diplomatic Victory. "),
 
 		("en_US", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_PRESERVATION_PARA_2",					
-		"However it is important to know that Wild Animals all have a [ICON_Lifespan] Lifespan of 40 turns (Standard Speed). This amount can be increased by completing the Preserve Stewardship project if you have the mod that enables it. Aside from that, when a protected [ICON_LEU_LOCAL_FAUNA] Local Fauna unit reaches the end of its [ICON_Lifespan] Lifespan, there is a chance a new generation will be born! This chance depends on the amount of buildings your Preserve holds as well as whether or not you have the Breeding Programs policy card!"),
+		"However it is important to know that Wild Animals all have a [ICON_Lifespan] Lifespan of 40 turns (Standard Speed). This amount can be increased by completing the Preserve Stewardship project or the Garden Landscaping project if you have the mod that enables it. Aside from that, when a protected [ICON_LEU_LOCAL_FAUNA] Local Fauna unit reaches the end of its [ICON_Lifespan] Lifespan, there is a chance a new generation will be born! This chance depends on the amount of buildings your Preserve or Garden holds as well as whether or not you have the Breeding Programs policy card. The chance can also be increased hugely by establishing a National Park on the animal's tile."),
 
 		("en_US", 
 		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_PRESERVATION_PARA_3",					

@@ -2,7 +2,7 @@
 -- PRESERVE  TEXT
 --==========================================================================================================================
 UPDATE LocalizedText
-SET Text = Text || "[NEWLINE][NEWLINE]Wild Animals that come within 1 tile of a Preserve that has not been pillaged are acquired by the owner as [ICON_LEU_LOCAL_FAUNA] Local Fauna, losing the ability to move or attack but granting additional bonuses.[NEWLINE]+3 [ICON_SCIENCE] Science from adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna][NEWLINE]+3 [ICON_FAITH] Faith from adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna.[NEWLINE]10% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted."
+SET Text = Text || "[NEWLINE][NEWLINE]Wild Animals that come within 1 tile of a Preserve that has not been pillaged are acquired by the owner as [ICON_LEU_LOCAL_FAUNA] Local Fauna, losing the ability to move or attack but granting additional bonuses.[NEWLINE]+3 [ICON_SCIENCE] Science from adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna[NEWLINE]+3 [ICON_CULTURE] Culture from adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna.[NEWLINE]10% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted."
 WHERE Tag LIKE "LOC_DISTRICT_PRESERVE_DESCRIPTION";
 
 
@@ -19,7 +19,7 @@ VALUES
 
 		("en_US", 
 		"LOC_ABILITY_WILDLIFE_PRESERVE_DESC",					
-		"Protected by your civilization as [ICON_LEU_LOCAL_FAUNA] Local Fauna. May no longer move or attack but provides additional benefits to the adjacent Preserve."),
+		"Protected by your civilization as [ICON_LEU_LOCAL_FAUNA] Local Fauna. May no longer move or attack but provides additional benefits to the adjacent district."),
 
 		("en_US", 
 		"LOC_ABILITY_CANT_ENTER_COAST_DESC",					
@@ -27,7 +27,7 @@ VALUES
 
 		("en_US", 
 		"LOC_ABILITY_WILDLIFE_SANCTUARY_DESC",					
-		"Protected by the near Sanctuary, may no longer move or attack and provides [ICON_FAVOR] Diplomatic Favor each turn."),
+		"Protected by the near district, may no longer move or attack and provides [ICON_FAVOR] Diplomatic Favor each turn."),
 
 		("en_US", 
 		"LOC_ABILITY_FERAL_DESC",					
@@ -46,13 +46,13 @@ VALUES
 --------------------------------------------------------------------
 		("en_US", 
 		"MOD_LEU_WILDLIFE_PRESERVE_ACTIVE",					
-		"[ICON_LEU_LOCAL_FAUNA] Local Fauna[NEWLINE][NEWLINE]The Preserve is receiving the following bonuses from supporting the adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna:[NEWLINE]+{1_num} [ICON_SCIENCE] Science.[NEWLINE]+{1_Num} [ICON_FAITH] Faith."),
+		"[ICON_LEU_LOCAL_FAUNA] Local Fauna[NEWLINE][NEWLINE]The city is receiving the following bonuses from sheltering [ICON_LEU_LOCAL_FAUNA] Local Fauna:[NEWLINE]+{1_num} [ICON_SCIENCE] Science.[NEWLINE]+{1_Num} [ICON_CULTURE] Culture."),
 
 		("en_US", 
 		"MOD_LEU_WILDLIFE_PRESERVE_ACTIVE_GROVE",					
-		"[ICON_LEU_LOCAL_FAUNA] Local Fauna[NEWLINE][NEWLINE]The Preserve is receiving the following bonuses from supporting the adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna:[NEWLINE]+{1_num} [ICON_SCIENCE] Science.[NEWLINE]+{1_Num} [ICON_FAITH] Faith.[NEWLINE]+{2_Num} [ICON_GREATSCIENTIST] Great Scientist Points.[NEWLINE]+{2_Num} [ICON_GREATPROPHET] Great Prophet Points."),
+		"[ICON_LEU_LOCAL_FAUNA] Local Fauna[NEWLINE][NEWLINE]The city is receiving the following bonuses from sheltering [ICON_LEU_LOCAL_FAUNA] Local Fauna:[NEWLINE]+{1_num} [ICON_SCIENCE] Science.[NEWLINE]+{1_Num} [ICON_CULTURE] Culture.[NEWLINE]+{2_Num} [ICON_GREATSCIENTIST] Great Scientist Points.[NEWLINE]+{2_Num} [ICON_GREATARTIST] Great Artist Points."),
 
 		("en_US", 
 		"MOD_LEU_WILDLIFE_PRESERVE_ACTIVE_SANCTUARY",					
-		"[ICON_LEU_LOCAL_FAUNA] Local Fauna[NEWLINE][NEWLINE]The Preserve is receiving the following bonuses from supporting the adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna:[NEWLINE]+{1_num} [ICON_SCIENCE] Science.[NEWLINE]+{1_Num} [ICON_FAITH] Faith.[NEWLINE]+{2_Num} [ICON_GREATSCIENTIST] Great Scientist Points.[NEWLINE]+{2_Num} [ICON_GREATPROPHET] Great Prophet Points.[NEWLINE]+{3_Num} [ICON_FAVOR] Favor");
+		"[ICON_LEU_LOCAL_FAUNA] Local Fauna[NEWLINE][NEWLINE]The city is receiving the following bonuses from sheltering [ICON_LEU_LOCAL_FAUNA] Local Fauna:[NEWLINE]+{1_num} [ICON_SCIENCE] Science.[NEWLINE]+{1_Num} [ICON_Culture] Culture.[NEWLINE]+{2_Num} [ICON_GREATSCIENTIST] Great Scientist Points.[NEWLINE]+{2_Num} [ICON_GREATARTIST] Great Artist Points.[NEWLINE]+{3_Num} [ICON_FAVOR] Favor");
 

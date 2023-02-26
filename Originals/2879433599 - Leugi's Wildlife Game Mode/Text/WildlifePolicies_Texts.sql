@@ -283,14 +283,12 @@ UPDATE LocalizedText
 SET Text = Text || "[NEWLINE][NEWLINE]While this city is producing an Animal Exhibit project, all owned cities receive +4 Loyalty."
 WHERE Tag = "LOC_BUILDING_COLOSSEUM_DESCRIPTION";
 
-
-
 UPDATE LocalizedText
 SET Text = Text ||"[NEWLINE][NEWLINE]When completed, all [ICON_LEU_LOCAL_FAUNA] Local Fauna within a tile of the Preserve recover +15 [ICON_LIFESPAN] Lifespan."
 WHERE Tag = "LOC_PROJECT_LEU_ENHANCE_DISTRICT_PRESERVE_DESC";
 
 UPDATE LocalizedText
-SET Text = Text ||"[NEWLINE][NEWLINE]+1 [ICON_GREATPROPHET] Great Prophet Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+1 [ICON_GREATSCIENTIST] Great Scientist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted."
+SET Text = Text ||"[NEWLINE][NEWLINE]+1 [ICON_GREATARTIST] Great Artist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+1 [ICON_GREATSCIENTIST] Great Scientist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted."
 WHERE Tag = "LOC_BUILDING_GROVE_DESCRIPTION";
 
 UPDATE LocalizedText
@@ -300,6 +298,8 @@ WHERE Tag = "LOC_BUILDING_SANCTUARY_DESCRIPTION";
 UPDATE LocalizedText
 SET Text = Text ||"[NEWLINE][NEWLINE][COLOR_Civ6Red]The [ICON_RESOURCE_LEU_BUSHMEAT] Consume Bushmeat project reduces [ICON_FAVOR] Favor by 5 every turn.[ENDCOLOR]"
 WHERE Tag = "LOC_CIVIC_CONSERVATION_DESCRIPTION";
+
+
 --==========================================================================================================================
 --==========================================================================================================================
 

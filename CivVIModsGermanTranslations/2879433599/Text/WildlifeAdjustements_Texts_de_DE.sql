@@ -11,6 +11,14 @@ VALUES
 		("de_DE", 
 		"LOC_ABILITY_LEU_RECON_HUNTER_DESC",					
 		"+20 [ICON_Strength] Kampfstärke gegen Wildtiere."),
+		
+		("de_DE", 
+		"LOC_ABILITY_LEU_ANIMAL_CAPTURE_NAME",					
+		"Dompteur"),
+
+		("de_DE", 
+		"LOC_ABILITY_LEU_ANIMAL_CAPTURE_DESC",					
+		"Besiegte Wildtiere gewähren [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotische Arten oder [ICON_RESOURCE_LEU_AQUATIC_SPECIES] Wassertierarten statt [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch."),		
 
 		("de_DE", 
 		"LOC_ABILITY_LEU_RECON_HUNTER_MODIFIER_DESCRIPTION",					

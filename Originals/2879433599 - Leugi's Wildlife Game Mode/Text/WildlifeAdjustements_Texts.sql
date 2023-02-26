@@ -13,6 +13,15 @@ VALUES
 		"+20 [ICON_Strength] Combat Strength versus Wild Animals."),
 
 		("en_US", 
+		"LOC_ABILITY_LEU_ANIMAL_CAPTURE_NAME",					
+		"Animal Tamer"),
+
+		("en_US", 
+		"LOC_ABILITY_LEU_ANIMAL_CAPTURE_DESC",					
+		"Defeating Wild Animals provides [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotic Species or [ICON_RESOURCE_LEU_AQUATIC_SPECIES] Aquatic Species instead of [ICON_RESOURCE_LEU_BUSHMEAT] Bushmeat."),
+		
+
+		("en_US", 
 		"LOC_ABILITY_LEU_RECON_HUNTER_MODIFIER_DESCRIPTION",					
 		"+20 [ICON_Strength] Combat Strength vs. Wild Animals."),
 		
