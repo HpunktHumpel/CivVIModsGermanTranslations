@@ -4,6 +4,24 @@
 <!-- DateCreated: 7/28/2021 11:32:10 PM -->
 <GameData>
 	<LocalizedText>
+		-- China Dynastic Cycle
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION"/>
+			<Set Text="[ICON_TechBoosted] Eurekas provide an additional 5% of Technology cost. [ICON_CivicBoosted] Inspirations provide an additional 10% of Civic cost. When completing a wonder receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration from the era of the wonder, if available."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION"/>
+			<Set Text="[ICON_TechBoosted] Eurekas provide an additional 5% of Technology cost. [ICON_CivicBoosted] Inspirations provide an additional 10% of Civic cost. When completing a wonder receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration from the era of the wonder, if available."/>
+		</Update>
+
+		<Update>
+			<Where Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"/>
+			<Set Text="[ICON_TechBoosted] Eurekas provide an additional 5% of Technology cost. [ICON_CivicBoosted] Inspirations provide an additional 10% of Civic cost. When completing a wonder receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration from the era of the wonder, if available."/>
+		</Update>
+		
+		
 		-- Remove "To Boost:" text to make room
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TO_BOOST"/>
@@ -13,7 +31,7 @@
 		-- Archery
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ARCHERY"/>
-			<Set Text="Build Slingers and kill units with Slingers. (10%)"/>
+			<Set Text="Build Slingers and kill units with Slingers. (15%)"/>
 		</Update>
 
 		<Update>
@@ -25,7 +43,7 @@
 		
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_WRITING"/>
-			<Set Text="Build Granaries. (25%)"/>
+			<Set Text="Build Granaries. (30%)"/>
 		</Update>
 
 		<Update>
@@ -37,7 +55,7 @@
 
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_BRONZE_WORKING"/>
-			<Set Text="Kill Barbarians. (15%)"/>
+			<Set Text="Kill Barbarians. (20%)"/>
 		</Update>
 		
 		-- Irrigation
@@ -51,14 +69,14 @@
 
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SAILING"/>
-			<Set Text="Found cities on the Coast. (30%)"/>
+			<Set Text="Found cities on the Coast. (40%)"/>
 		</Update>
 		
 		-- Masonry
 
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MASONRY"/>
-			<Set Text="Build Quarries. (20%)"/>
+			<Set Text="Build Quarries. (25%)"/>
 		</Update>
 		
 		-- Wheel
@@ -78,7 +96,7 @@
 		-- Pottery
 
 		<Row Tag="LOC_BOOST_TRIGGER_POTTERY" Language="en_US">
-			<Text>Build Builders and build improvements (10%)</Text>
+			<Text>Build Builders and build improvements (20%)</Text>
 		</Row>
 
 		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_POTTERY" Language="en_US">
@@ -89,7 +107,7 @@
 
 
 		<Row Tag="LOC_BOOST_TRIGGER_ANIMAL_HUSBANDRY" Language="en_US">
-			<Text>Build Scouts. (20%)</Text>
+			<Text>Build Scouts. (30%)</Text>
 		</Row>
 
 		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_ANIMAL_HUSBANDRY" Language="en_US">
@@ -99,7 +117,7 @@
 		-- Mining
 
 		<Row Tag="LOC_BOOST_TRIGGER_MINING" Language="en_US">
-			<Text>3 different boosts (hover over to see all): Build your capital next to a mountain (30%). Get Craftsmanship civic (30%). Get State Workforce civic (30%).</Text>
+			<Text>3 different boosts (hover over to see all): Build your capital next to a mountain. Get Craftsmanship civic. Get State Workforce civic (40%).</Text>
 		</Row>
 
 		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MINING_1" Language="en_US">
@@ -189,7 +207,7 @@
 
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_BUTTRESS"/>
-			<Set Text="Build Shrines, Temples and Aqueducts. (10%)"/>
+			<Set Text="Build Shrines and Aqueducts. (20%)"/>
 		</Update>
 
 		<Update>
@@ -198,9 +216,6 @@
 		</Update>
 
 
-		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS_2" Language="en_US">
-			<Text>Now that you have finished Temple, what will your architects build next?</Text>
-		</Row>
 
 		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS_3" Language="en_US">
 			<Text>Now that you have finished Aqueduct, what will your architects build next?</Text>
@@ -228,7 +243,7 @@
 		
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP"/>
-			<Set Text="Build Commercial Hubs and Markets, and Get Civil Service.(15%) "/>
+			<Set Text="Build Commercial Hubs and Get Civil Service.(10%) "/>
 		</Update>
 
 		<Update>
@@ -245,7 +260,7 @@
 		-- Machinery
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MACHINERY"/>
-			<Set Text="Kill Catapults/Crossbowmen and build Wonders. (10%) "/>
+			<Set Text="Build Catapults and kill Catapults/Crossbowmen. (20%) "/>
 		</Update>
 
 		<Update>
@@ -255,14 +270,14 @@
 
 
 		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY_2" Language="en_US">
-			<Text>When the Wonders get bigger, the machinery should get better.</Text>
+			<Text>When the Wonders get bigger, the machinery should get better too.</Text>
 		</Row>
 
 		
 		-- Education
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_EDUCATION"/>
-			<Set Text="Get Great Scientists, build cities with 10 population and get majority religion (10%). "/>
+			<Set Text="Build Libraries and Temples (10%). "/>
 		</Update>
 
 		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_EDUCATION_2" Language="en_US">
@@ -292,7 +307,7 @@
 		--- Military Engineering
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_MILITARY_ENGINEERING"/>
-			<Set Text="Build Battering Rams, Siege Towers and Catapults.(10%) "/>
+			<Set Text="Build Battering Rams and Siege Towers.(10%) "/>
 		</Update>
 
 		<Update>
@@ -326,7 +341,7 @@
 		
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_CARTOGRAPHY"/>
-			<Set Text="Discover new Continents.(20%) "/>
+			<Set Text="Discover new Continents.(10%) "/>
 		</Update>
 
 		<Update>
@@ -349,7 +364,7 @@
 		--Banking
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_BANKING"/>
-			<Set Text="Get Guilds Civic or get a +250 [ICON_Gold] Gold profit per turn. (30%)"/>
+			<Set Text="Get Guilds Civic and build Markets. (15%)"/>
 		</Update>
 
 		<Update>
@@ -523,7 +538,7 @@
 
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_SANITATION"/>
-			<Set Text="Build Neighborhoods and grow cities to 20 population (15%)."/>
+			<Set Text="Build Neighborhoods (25%)."/>
 		</Update>
 
 		<Row Tag="LOC_BOOST_TRIGGER_LONGDESC_SANITATION_2" Language="en_US">
@@ -548,7 +563,7 @@
 
 		<Update>
 			<Where Language="en_US" Tag="LOC_BOOST_TRIGGER_ECONOMICS"/>
-			<Set Text="Earn Great Merchants (20%)."/>
+			<Set Text="Earn Great Merchants (15%)."/>
 		</Update>
 
 		<Update>
@@ -709,11 +724,11 @@
 			<Set Text="Our oil power plant have created more need for Oil. Maybe something else could be done with it?"/>
 		</Update>
 
-		--Nuclear Fission
+		--Nuclear Fission ???
 
 
 		<Row Tag="LOC_BOOST_TRIGGER_NUCLEAR_FISSION" Language="en_US">
-			<Text>Build Reseach Labs (10%).</Text>
+			<Text>Build Reseach Labs.</Text>
 		</Row>
 
 

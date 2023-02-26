@@ -14,7 +14,7 @@
 		- Feel free to give me feedback, I'll try to make this as balanced as I can.
 		- Also please report if some Eurekas or inspirations don't work as intented, I'll try to fix them as fast as I can!
 		- If you don't like some Eureka/Inpsiration change but like others, I can help you to remove that change by editing the files.</Description>
-    <Created>1659862778</Created>
+    <Created>1676282736</Created>
     <Teaser>Eurekas are now repeatable friendly!</Teaser>
     <Authors>J_Kovic</Authors>
     <AffectsSavedGames>0</AffectsSavedGames>
@@ -23,7 +23,7 @@
   <InGameActions>
     <UpdateDatabase id="Data">
       <Properties>
-        <LoadOrder>1000</LoadOrder>
+        <LoadOrder>10000</LoadOrder>
       </Properties>
       <File>Eurekas.xml</File>
     </UpdateDatabase>
@@ -33,9 +33,13 @@
       </Properties>
       <File>Texts.xml</File>
     </UpdateText>
+    <AddGameplayScripts id="NewAction">
+      <File>LuaScript1.lua</File>
+    </AddGameplayScripts>
   </InGameActions>
   <Files>
     <File>Eurekas.xml</File>
+    <File>LuaScript1.lua</File>
     <File>Texts.xml</File>
   </Files>
 </Mod>

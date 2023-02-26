@@ -4,6 +4,21 @@
 <!-- DateCreated: 7/28/2021 11:32:10 PM -->
 <GameData>
 	<LocalizedText>
+		<!-- China Dynastic Cycle-->
+		<Update>
+			<Where Language="de_DE" Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION"/>
+			<Set Text="[ICON_TechBoosted] Heurekas gewähren zusätzlich 5% der Technologiekosten. [ICON_CivicBoosted] Eingebungen gewähren zusätzlich 10% der Ausrichtungskosten. Bei Fertigstellung eines Wunders erhaltet Ihr einen zufälliges [ICON_TechBoosted] Heureka und [ICON_CivicBoosted] Eingebung des Wunderzeitalters, wenn verfügbar."/>
+		</Update>
+
+		<Update>
+			<Where Language="de_DE" Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION"/>
+			<Set Text="[ICON_TechBoosted] Heurekas gewähren zusätzlich 5% der Technologiekosten. [ICON_CivicBoosted] Eingebungen gewähren zusätzlich 10% der Ausrichtungskosten. Bei Fertigstellung eines Wunders erhaltet Ihr einen zufälliges [ICON_TechBoosted] Heureka und [ICON_CivicBoosted] Eingebung des Wunderzeitalters, wenn verfügbar."/>
+		</Update>
+
+		<Update>
+			<Where Language="de_DE" Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"/>
+			<Set Text="[ICON_TechBoosted] Heurekas gewähren zusätzlich 5% der Technologiekosten. [ICON_CivicBoosted] Eingebungen gewähren zusätzlich 10% der Ausrichtungskosten. Bei Fertigstellung eines Wunders erhaltet Ihr einen zufälliges [ICON_TechBoosted] Heureka und [ICON_CivicBoosted] Eingebung des Wunderzeitalters, wenn verfügbar."/>
+		</Update>
 		<!-- Remove "To Boost:" text to make room-->
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TO_BOOST"/>
@@ -13,7 +28,7 @@
 		<!-- Archery-->
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_ARCHERY"/>
-			<Set Text="Baut Schleuderschützen und besiegt damit Einheiten. (10%)"/>
+			<Set Text="Baut Schleuderschützen und besiegt damit Einheiten. (15%)"/>
 		</Update>
 
 		<Update>
@@ -25,7 +40,7 @@
 		
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_WRITING"/>
-			<Set Text="Baut Kornspeicher (25%)"/>
+			<Set Text="Baut Kornspeicher (30%)"/>
 		</Update>
 
 		<Update>
@@ -37,7 +52,7 @@
 
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_BRONZE_WORKING"/>
-			<Set Text="Besiegt Barbaren (15%)"/>
+			<Set Text="Besiegt Barbaren (20%)"/>
 		</Update>
 		
 		<!-- Irrigation-->
@@ -51,14 +66,14 @@
 
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_SAILING"/>
-			<Set Text="Gründet Städte an der Küste (30%)"/>
+			<Set Text="Gründet Städte an der Küste (40%)"/>
 		</Update>
 		
 		<!-- Masonry-->
 
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_MASONRY"/>
-			<Set Text="Baut Steinbrüche (20%)"/>
+			<Set Text="Baut Steinbrüche (25%)"/>
 		</Update>
 		
 		<!-- Wheel-->
@@ -78,7 +93,7 @@
 		<!-- Pottery-->
 
 		<Replace Tag="LOC_BOOST_TRIGGER_POTTERY" Language="de_DE">
-			<Text>Baut Handerwerker und Modernisierungen (10%)</Text>
+			<Text>Baut Handerwerker und Modernisierungen (20%)</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_POTTERY" Language="de_DE">
@@ -89,7 +104,7 @@
 
 
 		<Replace Tag="LOC_BOOST_TRIGGER_ANIMAL_HUSBANDRY" Language="de_DE">
-			<Text>Baut Späher (20%)</Text>
+			<Text>Baut Späher (30%)</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ANIMAL_HUSBANDRY" Language="de_DE">
@@ -99,7 +114,7 @@
 		<!-- Mining-->
 
 		<Replace Tag="LOC_BOOST_TRIGGER_MINING" Language="de_DE">
-			<Text>3 verschiedene Boosts (Fahrt drüber zum Entdecken): Baut Eure Hauptstadt neben einem Berg (30%). Erhaltet die Handwerkskunst Ausrichtung (30%). Erhaltet Staatsdienertum Ausrichtung (30%).</Text>
+			<Text>3 verschiedene Boosts (Fahrt drüber zum Entdecken): Baut Eure Hauptstadt neben einem Berg. Erhaltet die Handwerkskunst Ausrichtung. Erhaltet Staatsdienertum Ausrichtung (40%).</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MINING_1" Language="de_DE">
@@ -189,7 +204,7 @@
 
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_BUTTRESS"/>
-			<Set Text="Baut Schreine, Tempel und Aquädukte (10%)"/>
+			<Set Text="Baut Schreine und Aquädukte (20%)"/>
 		</Update>
 
 		<Update>
@@ -197,10 +212,6 @@
 			<Set Text="Jetzt, wo Euer Schrein fertig ist, was werden Eure Architekten als nächstes bauen?"/>
 		</Update>
 
-
-		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS_2" Language="de_DE">
-			<Text>Jetzt, wo Euer Tempel fertig ist, was werden Eure Architekten als nächstes bauen?</Text>
-		</Replace>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS_3" Language="de_DE">
 			<Text>Jetzt, wo Euer Aquädukt fertig ist, was werden Eure Architekten als nächstes bauen?</Text>
@@ -228,7 +239,7 @@
 		
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_APPRENTICESHIP"/>
-			<Set Text="Baut Handelszentren und Märkte, und erhaltet öffentliche Verwaltung (15%) "/>
+			<Set Text="Baut Handelszentren und erhaltet öffentliche Verwaltung (10%)"/>
 		</Update>
 
 		<Update>
@@ -245,7 +256,7 @@
 		<!-- Machinery-->
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_MACHINERY"/>
-			<Set Text="Besiegt Katapulte/Armbrustschützen und baut Wunder (10%) "/>
+			<Set Text="Baut Katapulte und besiegt Katapulte/Armbrustschützen (20%) "/>
 		</Update>
 
 		<Update>
@@ -255,14 +266,14 @@
 
 
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY_2" Language="de_DE">
-			<Text>Wenn die Wunder größer werden, sollten auch die Maschinen besser werden.</Text>
+			<Text>Wenn die Wunder größer werden, sollten die Maschinen besser werden.</Text>
 		</Replace>
 
 		
 		<!-- Education-->
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_EDUCATION"/>
-			<Set Text="Erhaltet Große Wissenschaftler, habt Städte mit 10 Bürgern und habt eine Mehrheitsreligion (10%). "/>
+			<Set Text="Baut Büchereien und Tempel (10%) "/>
 		</Update>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_EDUCATION_2" Language="de_DE">
@@ -292,7 +303,7 @@
 		<!--- Military Engineering-->
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_MILITARY_ENGINEERING"/>
-			<Set Text="Baut Rammmböcke, Belagerungstürme und Katapulte (10%) "/>
+			<Set Text="Baut Rammmböcke und Belagerungstürme (10%) "/>
 		</Update>
 
 		<Update>
@@ -326,7 +337,7 @@
 		
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_CARTOGRAPHY"/>
-			<Set Text="Entdeckt neue Kontinente (20%) "/>
+			<Set Text="Entdeckt neue Kontinente (10%) "/>
 		</Update>
 
 		<Update>
@@ -349,7 +360,7 @@
 		<!--Banking-->
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_BANKING"/>
-			<Set Text="Habt die Gilde Ausrichtung oder erhaltet mehr als 250 [ICON_Gold] Gold pro Runde (30%)"/>
+			<Set Text="Habt die Gilde Ausrichtung und baut Märkte (15%)"/>
 		</Update>
 
 		<Update>
@@ -523,7 +534,7 @@
 
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_SANITATION"/>
-			<Set Text="Baut Wohnviertel und habt Städte mit 20 Bürgern (15%)"/>
+			<Set Text="Baut Wohnviertel (25%)"/>
 		</Update>
 
 		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SANITATION_2" Language="de_DE">
@@ -548,7 +559,7 @@
 
 		<Update>
 			<Where Language="de_DE" Tag="LOC_BOOST_TRIGGER_ECONOMICS"/>
-			<Set Text="Erhaltet Große Händler (20%)"/>
+			<Set Text="Erhaltet Große Händler (15%)"/>
 		</Update>
 
 		<Update>
@@ -713,7 +724,7 @@
 
 
 		<Replace Tag="LOC_BOOST_TRIGGER_NUCLEAR_FISSION" Language="de_DE">
-			<Text>Baut Forschungslabore (10%)</Text>
+			<Text>Baut Forschungslabore</Text>
 		</Replace>
 
 
