@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="4cf11700-4bc8-4581-94ea-c39dfa9585cd" version="1">
   <Properties>
-    <Name>Leugi's [COLOR_Civ6Green]Preserve[ENDCOLOR] Rework</Name>
+    <Name>Leugi's [COLOR_Civ6Green]Greenery:[ENDCOLOR] Preserve Rework</Name>
     <Description>Adjusts the Preserve to fit more into a bridge focus between Faith and Science and a bit of Diplomatic Favor rather than having all possible yields. It also changes the icon to something less culture-specific.[NEWLINE][NEWLINE][ICON_BULLET]Preserves no longer provide Housing from Appeal, instead they provide Science. This makes the Preserve be a cool source of science if the player decided to focus on culture early on.[NEWLINE][ICON_BULLET] Preserves may be built on Woods, Rainforests, Marshes and Floodplains because they removing features always felt weird.[NEWLINE][ICON_BULLET] Bonuses to adjacent tiles have been reworked. A Preserve without buildlings provides +1 [ICON_SCIENCE] Science to adjacent Charming and Water tiles regardless of improvements, this bonus is doubled for unimproved Breathtaking tiles and unimproved Water tiles with features (compatible with any mod that adds water features)[NEWLINE][ICON_BULLET] Groves copy all of the science provided by Preserves (both the Science from the District and from adjacent appealing tiles) as [ICON_FAITH] Faith and provides Great Scientist and Great Prophet Points.[NEWLINE][ICON_BULLET] Sanctuaries duplicate the previous bonuses while also giving Favor based on the appeal of the Preserve's tile. They also require a Grove to be built.[NEWLINE][ICON_BULLET] In order for Preserves to have a better interplay with other districts, Preserves provide a major adjacency bonus to Holy Sites, Campuses, so if the space is crammed you can still take advantage of these districts.[NEWLINE][ICON_BULLET]Preserves unlock a new project called Preserve Stewardship which increases Appeal at its city by 1 while produced and provides Great Scientist and Great Prophet points upon completion.</Description>
-    <Created>1667789266</Created>
-    <Teaser>Last Update: October 2022</Teaser>
+    <Created>1677342061</Created>
+    <Teaser>Last Update: February 2023</Teaser>
     <Authors>Leugi</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
@@ -12,6 +12,11 @@
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
     <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="Kublai Khan and Vietnam Package" />
   </Dependencies>
+  <ActionCriteria>
+    <Criteria id="SixT">
+      <ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
+    </Criteria>
+  </ActionCriteria>
   <FrontEndActions />
   <InGameActions>
     <UpdateDatabase id="Database">
@@ -43,11 +48,33 @@
       </Properties>
       <File>PreserveAdjustments.dep</File>
     </UpdateArt>
+    <UpdateDatabase id="EarlierUnlock">
+      <Properties>
+        <LoadOrder>15000</LoadOrder>
+      </Properties>
+      <File>Database/Sanctuary_EarlierUnlock.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EarlierUnlockSixT">
+      <Properties>
+        <LoadOrder>14000</LoadOrder>
+      </Properties>
+      <Criteria>SixT</Criteria>
+      <Exclude mod_id="4cf11700-4bc8-4581-94ea-c39dfa9585cd" action_id="EarlierUnlock" />
+      <File>Database/Sanctuary_EarlierUnlock_6T.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NaturalistText">
+      <Properties>
+        <LoadOrder>3000</LoadOrder>
+      </Properties>
+      <File>Text/NaturalistText.sql</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>ArtDefs/StrategicView.artdef</File>
     <File>Database/PreserveAdjustments.sql</File>
     <File>Database/PreserveProject.sql</File>
+    <File>Database/Sanctuary_EarlierUnlock.sql</File>
+    <File>Database/Sanctuary_EarlierUnlock_6T.sql</File>
     <File>Icons/PreserveIcons.sql</File>
     <File>Lua/PreserveProject_OngoingModifier.lua</File>
     <File>Platforms/MacOS/BLPs/StrategicView_Sprite.blp</File>
@@ -75,6 +102,7 @@
     <File>Textures/LeuStewardship_50.dds</File>
     <File>Textures/LeuStewardship_70.dds</File>
     <File>Textures/LeuStewardship_80.dds</File>
+    <File>Text/NaturalistText.sql</File>
     <File>Text/PreserveAdjustments_Text.sql</File>
     <File>Text/PreserveProject_Text.sql</File>
   </Files>
