@@ -1,0 +1,5 @@
+----------------------
+
+UPDATE LocalizedText
+SET Text = Text||" {LOC_NATURALIST_REQUIREMENT}"
+WHERE Tag = "LOC_UNIT_NATURALIST_DESCRIPTION";
