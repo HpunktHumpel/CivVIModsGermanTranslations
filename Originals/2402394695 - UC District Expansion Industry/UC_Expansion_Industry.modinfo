@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="39c78c55-8c39-4f0d-b4c8-0097f6bcd87a" version="15">
+<Mod id="39c78c55-8c39-4f0d-b4c8-0097f6bcd87a" version="19">
   <Properties>
     <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_INDUSTRIAL_ZONE] Industry</Name>
     <Description>New Production-focused building choices for Industrial Zone.</Description>
@@ -117,7 +117,6 @@
     </UpdateDatabase>
     <UpdateDatabase id="GameplayAdvanced" criteria="UC">
       <Properties>
-        <LoadOrder>209</LoadOrder>
         <LoadOrder>231</LoadOrder>
       </Properties>
       <File>Data/UC_PRD_Bonuses_Yields.sql</File>

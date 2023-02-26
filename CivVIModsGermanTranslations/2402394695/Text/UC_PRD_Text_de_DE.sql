@@ -6,6 +6,7 @@
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 (	Language,	Tag,															Text, 																											Gender, 	Plurality	) VALUES
+(	'de_DE',	'LOC_BUILDING_JNR_IRRIGATION_WHEEL_NAME',						'Bewässerungsrad|Bewässerungsrad|Bewässerungsrad|Bewässerungsrad|Bewässerungsrad',								'neuter',	1			),
 (	'de_DE',	'LOC_BUILDING_JNR_MILL_RACE_NAME',								'Mühlkanal|Mühlkanal|Mühlkanal|Mühlkanals|Mühlkanal',															'masculine',1			),
 (	'de_DE',	'LOC_BUILDING_JNR_WIND_MILL_NAME',								'Windmühle|Windmühle|Windmühle|Windmühle|Windmühle',															'feminine',	1			),
 (	'de_DE',	'LOC_BUILDING_JNR_MANUFACTURY_NAME',							'Manufaktur|Manufaktur|Manufaktur|Manufaktur|Manufaktur',														'feminine',	1			),
@@ -24,12 +25,13 @@ VALUES	('de_DE',	'LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'Ein ausschließl
 		('de_DE',	'LOC_DISTRICT_JNR_UC_Industry_Production',						'+{1_num} [ICON_PRODUCTION] Produktion durch angrenzende {1_Num : plural 1?Industrie; other?Industrien;}.'),
 		('de_DE',	'LOC_DISTRICT_JNR_UC_Corporation_Production',					'+{1_num} [ICON_PRODUCTION] Produktion durch angrenzende {1_Num : plural 2?Korporation; other?Korporationen;}.'),
 		
-		('de_DE',	'LOC_BUILDING_GRANARY_DESCRIPTION_UC_JNR_PRD',					'Durch Bauernhöfe verbesserbare Bonus-Ressourcen erhalten jeweils +1 [ICON_Food] Nahrung.'),
-		('de_DE',	'LOC_BUILDING_JNR_MILL_RACE_DESCRIPTION',						'Wird automatisch in jeder Stadt mit einem an einem Fluss gelegenen Industriegebiet errichtet.'),
-		('de_DE',	'LOC_BUILDING_WATER_MILL_DESCRIPTION_UC_JNR',					'+1 [ICON_Production] Produktion durch jeden an einen Fluss angrenzenden Bezirk.[NEWLINE]Dieser Bezirk erhält einen Standard-Nachbarschaftsbonus, da er sich angrenzend an einem Fluss befindet.[NEWLINE]Industriegebiet muss an einen Fluss angrenzen.[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
+--		('de_DE',	'LOC_BUILDING_GRANARY_DESCRIPTION_UC_JNR_PRD',					'Durch Bauernhöfe verbesserbare Bonus-Ressourcen erhalten jeweils +1 [ICON_Food] Nahrung.'),
+		('de_DE',	'LOC_BUILDING_JNR_MILL_RACE_DESCRIPTION',						'Wird automatisch in jeder Stadt mit einem an einem Fluss gelegenen Industriegebiet errichtet.'),		
+		('de_DE',	'LOC_BUILDING_JNR_IZ_WATER_MILL_DESCRIPTION',					'+1 [ICON_Production] Produktion durch jeden an einen Fluss angrenzenden Bezirk.[NEWLINE]Dieser Bezirk erhält einen Standard-Nachbarschaftsbonus, da er sich angrenzend an einem Fluss befindet.[NEWLINE]Industriegebiet muss an einen Fluss angrenzen.[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
 		('de_DE',	'LOC_BUILDING_JNR_WIND_MILL_DESCRIPTION',						'Dieser Bezirk erhält einen Standard-Nachbarschaftsbonus, wenn er auf einem Hügel Gelände platziert wurde.[NEWLINE]Dieser Bezirk erhält einen Standard-Nachbarschaftsbonus, wenn er neben einem Küsten Gelände platziert wurde.[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
 		('de_DE',	'LOC_BUILDING_WORKSHOP_DESCRIPTION_UC_JNR',						'In dieser Stadt etablierte [ICON_Governor] Gouverneure bringen +1 [ICON_Production] Produktion für jede verdiente Beförderung, inklusive der ersten.[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
 		('de_DE',	'LOC_BUILDING_JNR_MANUFACTURY_DESCRIPTION',						'Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
+		('de_DE',	'LOC_BUILDING_JNR_DRAGON_KILN_DESCRIPTION_UC',					'Einzigartiges Gebäude Chinas. Ersetzt die Werkstatt und die Manufaktur.[NEWLINE]Ein in der Stadt etablierter Gouverneur gewährt eine Kopie für [ICON_RESOURCE_PORCELAIN] Porzellan, einer einzigartigen Luxusressource, die +4 [ICON_Amenities] Annehmlichkeiten gewährt.[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
 		('de_DE',	'LOC_BUILDING_FACTORY_DESCRIPTION_UC_JNR',						'+0,3 [ICON_Production] Produktion pro Runde für jeden [ICON_Citizen] Bürger in der Stadt.[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
 		('de_DE',	'LOC_BUILDING_JNR_CHEMICAL_DESCRIPTION',						'+5% [ICON_Production] Produktion in dieser Stadt für jede Art einer verbesserten strategische Ressource im Stadtgebiet.[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
 		('de_DE',	'LOC_BUILDING_JNR_FREIGHT_YARD_DESCRIPTION',					'Strategisches Ressourcen-Vorratslager +20 (bei Standardgeschwindigkeit).[NEWLINE][NEWLINE]Inländische [ICON_TradeRoute] Handelswege zu dieser Stadt erhalten +1 [ICON_Production] Produktion.'),
@@ -53,9 +55,9 @@ VALUES	('de_DE',	'LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'Ein ausschließl
 		('de_DE',	'LOC_PROJECT_CONVERT_REACTOR_TO_OIL_DESCRIPTION',				'Legt das aktuelle Kraftwerk in dieser Stadt still und ersetzt es durch das {LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}.[NEWLINE][NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_NAME}:[NEWLINE]{LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION_UC_JNR}'),
 		('de_DE',	'LOC_PROJECT_CONVERT_REACTOR_TO_COAL_DESCRIPTION',				'Legt das aktuelle Kraftwerk in dieser Stadt still und ersetzt es durch das {LOC_BUILDING_COAL_POWER_PLANT_NAME}.[NEWLINE][NEWLINE]{LOC_BUILDING_COAL_POWER_PLANT_NAME}:[NEWLINE]{LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION_UC_JNR}'),
 		
-		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION_JNR_UC',				'Der Bau von Mauern um Eure Stadt hat Euren Handwerkern wichtige Bautechniken gezeigt.'),
-		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING_JNR_UC',				'Der Bau vieler Minen-Varianten hat Prinzipien demonstriert, die auch für Aquädukte und Katapulte benötigt werden.'),
-		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP_JNR_UC',				'Die Arbeiten an der Wassermühle haben dazu geführt, dass neue Handwerker besser unterrichtet werden müssen, um ihre Stärke voll auszunutzen.'),
+--		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION_JNR_UC',				'Der Bau von Mauern um Eure Stadt hat Euren Handwerkern wichtige Bautechniken gezeigt.'),
+--		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING_JNR_UC',				'Der Bau vieler Minen-Varianten hat Prinzipien demonstriert, die auch für Aquädukte und Katapulte benötigt werden.'),
+--		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP_JNR_UC',				'Die Arbeiten an der Wassermühle haben dazu geführt, dass neue Handwerker besser unterrichtet werden müssen, um ihre Stärke voll auszunutzen.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_INDUSTRIALIZATION_JNR_UC',					'Baut 2 Manufakturen.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_INDUSTRIALIZATION_JNR_UC',			'Die emsigen Manufakturen Eures Reiches deuten auf kommende Glanzzeiten hin. Steht eine industrielle Revolution bevor?'),
 		('de_DE',	'LOC_BOOST_TRIGGER_CLASS_STRUGGLE_JNR_UC',						'Baut 2 Fabriken.'),
@@ -77,4 +79,13 @@ VALUES	('de_DE',	'LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'Ein ausschließl
 		('de_DE',	'LOC_GREATPERSON_JAMES_WATT_ACTIVE_JNR_UC',						'+1 [ICON_Production] Produktion für Felder im Stadtgebiet mit Frischwasser-Zugang oder angrenzend an Aquädukt, Damm oder Kanal-Bezirke.'),
 		
 		('de_DE',	'LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION_JNR_UC',		'Schweden erhält 50 [ICON_Favor] Diplomatische Gunst, wenn es eine Große Persönlichkeit verdient (auf Standardgeschwindigkeit). Schweden erhält +1 [ICON_GreatEngineer] Großer-Ingenieur-Punkt durch Gebäude der Stufe 2 im Industriegebiet und +1 [ICON_GreatScientist] Großer-Wissenschaftler-Punkt durch Gebäude der Stufe 2 im Campus. Wenn Schweden mit im Spiel ist, beginnen im Industriezeitalter drei zusätzliche einzigartige Weltkongress-Wettkämpfe.');
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'eine Wassermühle', 'ein Bewässerungsrad')	WHERE Language='de_DE' AND Tag='LOC_BOOST_TRIGGER_CONSTRUCTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'an der Wassermühle', 'am Bewässerungsrad')	WHERE Language='de_DE' AND Tag='LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industriegebiete, Werkstätten und Fabriken', 'Industriegebieten und ihren Stufe 1, 2 und 3 Gebäuden')	WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industriegebiete, Werkstätten und Fabriken', 'Industriegebieten und ihren Stufe 1, 2 und 3 Gebäuden')	WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industriegebieten und ihren Gebäuden', 'Industriegebieten und ihren Stufe 1, 2 und 3 Gebäuden')		WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industriegebieten und ihren Gebäuden', 'Industriegebieten und ihren Stufe 1, 2 und 3 Gebäuden')		WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
 --------------------------------------------------------------

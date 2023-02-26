@@ -12,16 +12,18 @@ VALUES	('LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'A district unique to Germ
 		('LOC_DISTRICT_JNR_UC_Cothon_Production',						'+{1_num} [ICON_Production] Production from the adjacent Cothon district.'),
 		('LOC_DISTRICT_JNR_UC_Industry_Production',						'+{1_num} [ICON_PRODUCTION] Production from the adjacent {1_Num : plural 1?Industry; other?Industries;}.'),
 		('LOC_DISTRICT_JNR_UC_Corporation_Production',					'+{1_num} [ICON_PRODUCTION] Production from the adjacent {1_Num : plural 2?Corporation; other?Corporations;}.'),
-		('LOC_BUILDING_GRANARY_DESCRIPTION_UC_JNR_PRD',					'Bonus resources improved by Farms gain +1 [ICON_Food] Food each.'),
+--		('LOC_BUILDING_GRANARY_DESCRIPTION_UC_JNR_PRD',					'Bonus resources improved by Farms gain +1 [ICON_Food] Food each.'),
 		('LOC_BUILDING_JNR_DUMMY_IZ_RIVER_NAME',						'river-adjacent Industrial Zone'),
 		('LOC_BUILDING_JNR_MILL_RACE_NAME',								'Mill Race'),
 		('LOC_BUILDING_JNR_MILL_RACE_DESCRIPTION',						'Automatically created in every city with an Industrial Zone built adjacent to a river.'),
-		('LOC_BUILDING_WATER_MILL_DESCRIPTION_UC_JNR',					'+1 [ICON_Production] Production from every District in this city adjacent to a River.[NEWLINE]This district gains a standard adjacency bonus from being next to a river.[NEWLINE]Industrial Zone must be adjacent to a River.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
+		('LOC_BUILDING_JNR_IRRIGATION_WHEEL_NAME',						'Irrigation Wheel'),
+		('LOC_BUILDING_JNR_IZ_WATER_MILL_DESCRIPTION',					'+1 [ICON_Production] Production from every District in this city adjacent to a River.[NEWLINE]This district gains a standard adjacency bonus from being next to a river.[NEWLINE]Industrial Zone must be adjacent to a River.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_JNR_WIND_MILL_NAME',								'Wind Mill'),
 		('LOC_BUILDING_JNR_WIND_MILL_DESCRIPTION',						'This district gains a standard adjacency bonus if located on Hills terrain.[NEWLINE]This district gains a standard adjacency bonus if located next to Coast terrain.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_WORKSHOP_DESCRIPTION_UC_JNR',					'+1 [ICON_Production] Production per [ICON_GOVERNOR] Promotion of a Governor established in this city.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_JNR_MANUFACTURY_NAME',							'Manufactory'),
 		('LOC_BUILDING_JNR_MANUFACTURY_DESCRIPTION',					'Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
+		('LOC_BUILDING_JNR_DRAGON_KILN_DESCRIPTION_UC',					'A building unique to China. Replaces the Workshop and the Manufactory.[NEWLINE]If a governor is established in this city, grants a copy of [ICON_RESOURCE_PORCELAIN] Porcelain, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_FACTORY_DESCRIPTION_UC_JNR',						'+0.3 [ICON_Production] Production per turn for each [ICON_Citizen] Citizen in the city.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_JNR_CHEMICAL_NAME',								'Chemical Plant'),
 		('LOC_BUILDING_JNR_CHEMICAL_DESCRIPTION',						'+5% [ICON_Production] Production in this city for every unique strategic resource improved in its territory.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
@@ -43,9 +45,9 @@ VALUES	('LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'A district unique to Germ
 		('LOC_PROJECT_JNR_CONVERT_REACTOR_TO_FREIGHT_NAME',				'Convert to Logistics Center'),
 		('LOC_PROJECT_JNR_CONVERT_REACTOR_TO_FREIGHT_SHORT_NAME',		'Convert to Logistics Center'),
 		('LOC_PROJECT_JNR_CONVERT_REACTOR_TO_FREIGHT_DESCRIPTION',		'Decommissions the current Power Plant in this city, and replaces it with the {LOC_BUILDING_JNR_FREIGHT_YARD_NAME}.[NEWLINE][NEWLINE]{LOC_BUILDING_JNR_FREIGHT_YARD_NAME}:[NEWLINE]{LOC_BUILDING_JNR_FREIGHT_YARD_DESCRIPTION}'),
-		('LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION_JNR_UC',				'Completing walls around your city has taught your workers much about construction practices.'),
-		('LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING_JNR_UC',				'Building a wide variety of mines has demonstrated the principles of engineering needed for Aqueducts and Catapults.'),
-		('LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP_JNR_UC',			'Work on the Water Mill has created the need to better teach new craftsmen to use its new power to the fullest.'),
+--		('LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION_JNR_UC',				'Completing walls around your city has taught your workers much about construction practices.'),
+--		('LOC_BOOST_TRIGGER_LONGDESC_ENGINEERING_JNR_UC',				'Building a wide variety of mines has demonstrated the principles of engineering needed for Aqueducts and Catapults.'),
+--		('LOC_BOOST_TRIGGER_LONGDESC_APPRENTICESHIP_JNR_UC',			'Work on the Water Mill has created the need to better teach new craftsmen to use its new power to the fullest.'),
 		('LOC_BOOST_TRIGGER_INDUSTRIALIZATION_JNR_UC',					'Build 2 Manufactories.'),
 		('LOC_BOOST_TRIGGER_LONGDESC_INDUSTRIALIZATION_JNR_UC',			'The busy manufactories of your empire hint at greatness to come. Is an Industrial Revolution about to commence?'),
 		('LOC_BOOST_TRIGGER_CLASS_STRUGGLE_JNR_UC',						'Build 2 Factories.'),
@@ -65,4 +67,13 @@ VALUES	('LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'A district unique to Germ
 		('LOC_GREATPERSON_LEONARDO_DA_VINCI_ACTIVE_JNR_UC',				'Workshops provide +3 [ICON_Culture] Culture and +1 [ICON_Production] Production. Triggers the [ICON_TechBoosted] Eureka moment for 1 random technology from the Modern era.'),
 		('LOC_GREATPERSON_JAMES_WATT_ACTIVE_JNR_UC',					'+1 [ICON_Production] Production to all tiles in this city with fresh water or adjacent to Aqueduct, Dam, or Canal districts.'),
 		('LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION_JNR_UC',		'Sweden gains 50 [ICON_Favor] Diplomatic Favor when earning a Great Person (on Standard Speed). Sweden receives +1 [ICON_GreatEngineer] Great Engineer point from Level 2 Industrial Zone buildings and +1 [ICON_GreatScientist] Great Scientist point from Level 2 Campus buildings. Having Sweden in the game adds three unique World Congress competitions starting in the Industrial Era.');
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'a Water Mill', 'an Irrigation Wheel')	WHERE Tag='LOC_BOOST_TRIGGER_CONSTRUCTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Water Mill', 'Irrigation Wheel')			WHERE Tag='LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones, Workshops, and Factories', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')	WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones, Workshops, and Factories', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')	WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones and their buildings', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')		WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones and their buildings', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')		WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
 --------------------------------------------------------------

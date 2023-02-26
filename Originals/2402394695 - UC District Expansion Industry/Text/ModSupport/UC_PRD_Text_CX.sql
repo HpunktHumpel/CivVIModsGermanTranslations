@@ -24,7 +24,7 @@ WHERE	Tag='LOC_P0K_LAUTARO_ABILITY_DESCRIPTION';
 
 INSERT OR REPLACE INTO EnglishText
 		(Tag,															Text)
-SELECT	'LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION',				'+50% [ICON_Production] Production towards districts and buildings constructed across a River from a City Center. Campus, Theater Square, Holy Site, and Industrial Zone districts receive a major adjacency bonus from Rivers.'
+SELECT	'LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION',				'Cities founded on a River receive a free Irrigation Wheel. +50% [ICON_Production] Production towards districts and buildings constructed across a River from a City Center. Campus, Theater Square, Holy Site, and Industrial Zone districts receive a major adjacency bonus from Rivers.'
 FROM	LocalizedText
 WHERE	Tag='LOC_P0K_LAUTARO_ABILITY_DESCRIPTION';
 
@@ -54,7 +54,7 @@ WHERE	Tag='LOC_P0K_LAUTARO_ABILITY_DESCRIPTION';
 
 INSERT OR REPLACE INTO EnglishText
 		(Tag,															Text)
-SELECT	'LOC_BUILDING_PALGUM_DESCRIPTION',								'A building unique to Babylon that replaces the Water Mill. +2 [ICON_PRODUCTION] Production, +1 [ICON_Amenities] Amenity, and +1 [ICON_Housing] Housing. +1 [ICON_Food] Food and +1 [ICON_Gold] Gold to all tiles in this city adjacent to a source of Freshwater. Can only be built in cities founded on a River.'
+SELECT	'LOC_BUILDING_PALGUM_DESCRIPTION',								'A building unique to Babylon that replaces the Irrigation Wheel. +2 [ICON_PRODUCTION] Production, +1 [ICON_Amenities] Amenity, and +1 [ICON_Housing] Housing. +1 [ICON_Food] Food and +1 [ICON_Gold] Gold to all tiles in this city adjacent to a source of Freshwater. Can only be built in cities founded on a River.'
 FROM	LocalizedText
 WHERE	Tag='LOC_P0K_LAUTARO_ABILITY_DESCRIPTION';
 --------------------------------------------------------------
