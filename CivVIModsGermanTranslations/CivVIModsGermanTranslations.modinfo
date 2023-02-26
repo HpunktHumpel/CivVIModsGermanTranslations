@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]220[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1677438113</Created>
+    <Created>1677438934</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -499,7 +499,7 @@
     <Criteria id="LeugisAztecRework">
       <ModInUse>9090e2c0-43bf-4b24-84b6-428c21805998</ModInUse>
     </Criteria>
-    <Criteria id="LeugisPreserveFoodandProductionNerfs">
+    <Criteria id="LeugisGreeneryPreserveFoodandProductionNerfs">
       <ModInUse>95d26d33-1004-4134-a986-324e5d21ce3c</ModInUse>
     </Criteria>
     <Criteria id="LeugisPreserveRework">
@@ -1025,6 +1025,10 @@
       <!-- Ethiopia DLC -->
       <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
       <!-- Vietnam DLC -->
+    </Criteria>
+    <!-- Leugi's Preserve Food and Production Nerfs -->
+    <Criteria id="GardenMod">
+      <ModInUse>1bd6e042-25c3-4584-9bc3-66f1ce3bd249</ModInUse>
     </Criteria>
     <!-- Religion Expanded -->
     <Criteria id="XP1 or XP2" any="1">
@@ -2304,12 +2308,27 @@
       </Properties>
       <File>2146587512/text/ImprovementText_AztecRework_MODE_de_DE.sql</File>
     </UpdateText>
-    <UpdateText id="LeugisPreserveFoodandProductionNerfs_Text_de_DE">
-      <Criteria>LeugisPreserveFoodandProductionNerfs</Criteria>
+    <UpdateText id="LeugisGreeneryPreserveFoodandProductionNerfs_Text_de_DE">
+      <Criteria>LeugisGreeneryPreserveFoodandProductionNerfs</Criteria>
       <Properties>
         <LoadOrder>5000</LoadOrder>
       </Properties>
       <File>2885551724/Text/PreserveNerfTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="LeugisGreeneryPreserveFoodandProductionNerfs_GardenTextCompatibility_de_DE">
+      <Criteria>GardenMod</Criteria>
+      <Criteria>LeugisGreeneryPreserveFoodandProductionNerfs</Criteria>
+      <Properties>
+        <LoadOrder>5000</LoadOrder>
+      </Properties>
+      <File>2885551724/Text/GardenNerfTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="LeugisGreeneryPreserveFoodandProductionNerfs_HangingGardensText_de_DE">
+      <Criteria>LeugisGreeneryPreserveFoodandProductionNerfs</Criteria>
+      <Properties>
+        <LoadOrder>5000</LoadOrder>
+      </Properties>
+      <File>2885551724/Text/HangingGardensText_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="LeugisPreserveRework_NaturalistText_de_DE">
       <Criteria>LeugisPreserveRework</Criteria>
@@ -4127,6 +4146,8 @@
     <File>2879433599/Text/WildlifePreserves_Texts_de_DE.sql</File>
     <File>2879433599/Text/WildlifeResources_Texts_de_DE.sql</File>
     <File>2880643181/LivingThingsGrow_Text_de_DE.xml</File>
+    <File>2885551724/Text/GardenNerfTexts_de_DE.sql</File>
+    <File>2885551724/Text/HangingGardensText_de_DE.sql</File>
     <File>2885551724/Text/PreserveNerfTexts_de_DE.sql</File>
     <File>2887811648/Core/PP_Environment_Text_de_DE.sql</File>
     <File>2890697127/Dynamic_AI_Generated_Lemon_Updates_de_DE.sql</File>
