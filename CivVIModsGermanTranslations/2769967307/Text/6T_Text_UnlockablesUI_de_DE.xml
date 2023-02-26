@@ -97,8 +97,13 @@
 	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_WALLS">
 		<Text>Ihr erhaltet [ICON_TOURISM] Tourismus durch Stadtmauern.</Text>
 	</Replace>
+	
+	<!-- Monopolies Mode -->
 	<Replace Language= "de_DE" Tag="LOC_BTT_RESOURCE_REPORT">
 		<Text>Gewährt die Fähigkeit die gesamte Anzahl der Ressourcen der Welt einzusehen.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_CORPORATION_REQ">
+		<Text>Benötigt um Korporationen zu bauen.</Text>
 	</Replace>
 	
 	<!-- UnitOperations --> 

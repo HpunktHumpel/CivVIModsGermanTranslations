@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0" version="15">
+  <Properties>
+    <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Grand Eras</Name>
+    <Description>Adds one new era and many new techs and civics. New icons for all "special" unlocks. Designed from the ground up with available modded content in mind.</Description>
+    <Teaser>Adds one new era and many new techs and civics.</Teaser>
+    <Authors>JNR</Authors>
+	<SpecialThanks>Zegangani, Infixo</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="TreeRandomizer_Mode">
+	  <ConfigurationValueMatches>
+		<Group>Game</Group>
+		<ConfigurationId>GAMEMODE_TREE_RANDOMIZER</ConfigurationId>
+		<Value>1</Value>
+	  </ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="No_TreeRandomizer_Mode">
+	  <ConfigurationValueMatches>
+		<Group>Game</Group>
+		<ConfigurationId>GAMEMODE_TREE_RANDOMIZER</ConfigurationId>
+		<Value>0</Value>
+	  </ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="Heroes_Mode">
+	  <ConfigurationValueMatches>
+		<Group>Game</Group>
+		<ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+		<Value>1</Value>
+	  </ConfigurationValueMatches>
+	</Criteria>
+	<Criteria id="Uniques_Nubia">
+	  <ModInUse>643EA320-8E1A-4CF1-A01C-00D88DDD131A</ModInUse>				<!-- DLC: Nubia Pack -->
+	</Criteria>
+	<Criteria id="Uniques_GranColombia">
+	  <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>				<!-- DLC: Gran Colombia & Maya Pack -->
+	</Criteria>
+	<Criteria id="MOD_Extended_Eras">
+	  <ModInUse>9388ec5d-e6c3-4314-95d4-ffa47046947d</ModInUse>				<!-- Extended Eras -->
+	</Criteria>
+	<Criteria id="MOD_Units_Vanilla">
+	  <ModInUse inverse="1">01159f41-7ca0-4181-84cf-2f2c912edfdd</ModInUse>	<!-- Steel  & Thunder: Unit Expansion -->
+	  <ModInUse inverse="1">38a49494-5ec4-46ac-b01b-9629d96950f3</ModInUse>	<!-- Warfare Expanded -->
+	</Criteria>
+	<Criteria id="MOD_Units_ST">
+	  <ModInUse>01159f41-7ca0-4181-84cf-2f2c912edfdd</ModInUse>				<!-- Steel  & Thunder: Unit Expansion -->
+	</Criteria>
+	<Criteria id="MOD_Units_WE">
+	  <ModInUse>38a49494-5ec4-46ac-b01b-9629d96950f3</ModInUse>				<!-- Warfare Expanded -->
+	</Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Data/StartEras/6T_StartEras_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>Text/6T_Text_Config.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Eras">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Data/6T_Eras.sql</File>
+	  <File>Data/UnlockableIcons/6T_ExtraUnlockables_Base.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TechCivic">
+      <Properties>
+        <LoadOrder>2</LoadOrder>
+      </Properties>
+      <File>Data/6T_Technologies.sql</File>
+      <File>Data/6T_Civics.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TreeRandomizer_MODE" criteria="TreeRandomizer_Mode">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Data/Modes/6T_TreeRandomizer_Technologies.sql</File>
+      <File>Data/Modes/6T_TreeRandomizer_Civics.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Advanced">
+      <Properties>
+        <LoadOrder>12000</LoadOrder>
+      </Properties>
+      <File>Data/6T_Boosts.sql</File>
+      <File>Data/6T_TechnologyPrereqs.sql</File>
+      <File>Data/6T_Civic_Prereqs.sql</File>
+	  <File>Data/StartEras/6T_StartEras_Bonuses.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Unlocks">
+      <Properties>
+        <LoadOrder>13000</LoadOrder>
+      </Properties>
+      <File>Data/Unlocks/6T_Unlock_Buildings.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Districts.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Governance.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Great_People.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Improvements.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Misc.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Tokens.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Tourism.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Units.sql</File>
+      <File>Data/Unlocks/6T_Unlock_Wonders.sql</File>
+      <File>Data/Modes/6T_Unlock_Heroes.sql</File>
+	  <File>Data/ModSupport/6T_ST_Uniques.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Unlock_Diplo">
+      <Properties>
+        <LoadOrder>33000</LoadOrder>
+      </Properties>
+      <File>Data/Unlocks/6T_Unlock_Diplomacy.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ModSupport_ExtendedEras" criteria="MOD_Extended_Eras">
+      <Properties>
+        <LoadOrder>14000</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/6T_Extended_Eras.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Unlock_Units_Vanilla" criteria="MOD_Units_Vanilla">
+      <Properties>
+        <LoadOrder>13001</LoadOrder>
+      </Properties>
+      <File>Data/UnitOptions/6T_Units_Vanilla.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Unlock_Units_ST" criteria="MOD_Units_ST">
+      <Properties>
+        <LoadOrder>13001</LoadOrder>
+      </Properties>
+      <File>Data/UnitOptions/6T_Units_ST.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Unlock_Units_WE" criteria="MOD_Units_WE">
+      <Properties>
+        <LoadOrder>13001</LoadOrder>
+      </Properties>
+      <File>Data/UnitOptions/6T_Units_WE.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uniques_Vanilla">
+      <Properties>
+        <LoadOrder>13010</LoadOrder>
+      </Properties>
+      <File>Data/Uniques/6T_America.sql</File>
+      <File>Data/Uniques/6T_Norway.sql</File>
+      <File>Data/Uniques/6T_Spain.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uniques_RF">
+      <Properties>
+        <LoadOrder>13030</LoadOrder>
+      </Properties>
+      <File>Data/Uniques/6T_Dutch.sql</File>
+      <File>Data/Uniques/6T_Zulu.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uniques_GS">
+      <Properties>
+        <LoadOrder>13040</LoadOrder>
+      </Properties>
+      <File>Data/Uniques/6T_Canada.sql</File>
+      <File>Data/Uniques/6T_Maori.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uniques_GranColombia" criteria="Uniques_GranColombia">
+      <Properties>
+        <LoadOrder>13051</LoadOrder>
+      </Properties>
+      <File>Data/Uniques/6T_Gran_Colombia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uniques_Nubia" criteria="Uniques_Nubia">
+      <Properties>
+        <LoadOrder>13021</LoadOrder>
+      </Properties>
+      <File>Data/Uniques/6T_Nubia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Uniques_Persia">
+      <Properties>
+        <LoadOrder>13022</LoadOrder>
+      </Properties>
+      <File>Data/Uniques/6T_Persia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Populate_Unlockables">
+      <Properties>
+        <LoadOrder>15000</LoadOrder>
+      </Properties>
+      <File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate.sql</File>
+    </UpdateDatabase>
+	<ImportFiles id="6T_ImportFiles">
+	  <Properties>
+		<LoadOrder>10</LoadOrder>
+	  </Properties>
+      <Items>
+		<File>UI/Replacements/TechAndCivicSupport_6T.lua</File>
+		<File>UI/Replacements/CivicsTree.lua</File>
+		<File>UI/Replacements/CivicsTree.xml</File>
+		<File>UI/Replacements/TechTree.xml</File>
+		<File>UI/Replacements/CivicsChooser_6T.lua</File>
+		<File>UI/Replacements/ResearchChooser_6T.lua</File>
+		<File>UI/Replacements/TechCivicCompletedPopup_6T.lua</File>
+		<File>UI/Replacements/WorldTracker_6T.lua</File>
+		<File>UI/Replacements/EraCompletePopup.lua</File>
+		<File>Icons/6T_UnlockFrames.dds</File>
+		<File>UI/Textures/EraBG_Empty.dds</File>
+		<File>UI/Textures/Checkboxes_2.dds</File>
+		<File>UI/Textures/Tree_Path_DashEN_2.dds</File>
+		<File>UI/Textures/Tree_Path_DashES_2.dds</File>
+		<File>UI/Textures/Tree_Path_DashEW_2.dds</File>
+		<File>UI/Textures/Tree_Path_DashNE_2.dds</File>
+		<File>UI/Textures/Tree_Path_DashNS_2.dds</File>
+		<File>UI/Textures/Tree_Path_DashSE_2.dds</File>
+		<File>UI/Textures/EraLabel_Civic.dds</File>
+		<File>UI/Textures/EraLabel_Tech.dds</File>
+		<File>UI/Textures/EraLabel_Parchment.dds</File>
+		<File>UI/Textures/Tree_Path_EN_2.dds</File>
+		<File>UI/Textures/Tree_Path_ES_2.dds</File>
+		<File>UI/Textures/Tree_Path_EW_2.dds</File>
+		<File>UI/Textures/Tree_Path_NE_2.dds</File>
+		<File>UI/Textures/Tree_Path_NS_2.dds</File>
+		<File>UI/Textures/Tree_Path_SE_2.dds</File>
+		<File>UI/Textures/Frame_EraRollover_PostClassical_6T_Bottom.dds</File>
+		<File>UI/Textures/Frame_EraRollover_Medieval_6T_Top.dds</File>
+      </Items>
+    </ImportFiles>
+	<ImportFiles id="6T_ImportFiles_Tech" criteria="No_TreeRandomize">
+	  <Properties>
+		<LoadOrder>10</LoadOrder>
+	  </Properties>
+      <Items>
+		<File>UI/Replacements/TechTree.lua</File>
+      </Items>
+    </ImportFiles>
+	<ImportFiles id="6T_ImportFiles_Tech_Shuffle" criteria="TreeRandomizer_Mode">
+	  <Properties>
+		<LoadOrder>10</LoadOrder>
+	  </Properties>
+      <Items>
+		<File>UI/Replacements/ShuffleMode/TechTree.lua</File>
+      </Items>
+    </ImportFiles>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <File>Icons/6T_Icons_TechCivics.sql</File>
+	  <File>Icons/6T_Icons_UnlockFrames.xml</File>
+    </UpdateIcons>
+	<ReplaceUIScript id="6T_ReplaceUI_TechTree" criteria="No_TreeRandomizer_Mode">
+	  <Properties>
+		<LoadOrder>12</LoadOrder>
+		<LuaContext>TechTree</LuaContext>
+		<LuaReplace>UI/Replacements/TechTree.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="6T_ReplaceUI_TechTree_Shuffle" criteria="TreeRandomizer_Mode">
+	  <Properties>
+		<LoadOrder>13</LoadOrder>
+		<LuaContext>TechTree</LuaContext>
+		<LuaReplace>UI/Replacements/ShuffleMode/TechTree.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="6T_ReplaceUI_CivicsTree">
+	  <Properties>
+		<LoadOrder>12</LoadOrder>
+		<LuaContext>CivicsTree</LuaContext>
+		<LuaReplace>UI/Replacements/CivicsTree.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="6T_ReplaceUI_ResearchChooser">
+	  <Properties>
+		<LoadOrder>12</LoadOrder>
+		<LuaContext>ResearchChooser</LuaContext>
+		<LuaReplace>UI/Replacements/ResearchChooser_6T.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="6T_ReplaceUI_CivicsChooser">
+	  <Properties>
+		<LoadOrder>12</LoadOrder>
+		<LuaContext>CivicsChooser</LuaContext>
+		<LuaReplace>UI/Replacements/CivicsChooser_6T.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="6T_ReplaceUI_TechCivicCompletedPopup">
+	  <Properties>
+		<LoadOrder>12</LoadOrder>
+		<LuaContext>TechCivicCompletedPopup</LuaContext>
+		<LuaReplace>UI/Replacements/TechCivicCompletedPopup_6T.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="6T_ReplaceUI_WorldTracker">
+	  <Properties>
+		<LoadOrder>12</LoadOrder>
+		<LuaContext>EraCompletePopup</LuaContext>
+		<LuaReplace>UI/Replacements/EraCompletePopup.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+	<ReplaceUIScript id="6T_ReplaceUI_WorldTracker">
+	  <Properties>
+		<LoadOrder>1200</LoadOrder>
+		<LuaContext>WorldTracker</LuaContext>
+		<LuaReplace>UI/Replacements/WorldTracker_6T.lua</LuaReplace>
+	  </Properties>
+	</ReplaceUIScript>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>6T_Eras.dep</File>
+    </UpdateArt>
+    <UpdateText id="Text_Base">
+      <Properties>
+        <LoadOrder>13000</LoadOrder>
+      </Properties>
+      <File>Text/6T_Text_Boosts.sql</File>
+	  <File>Text/6T_Text_Config.sql</File>
+      <File>Text/6T_Text_Names.sql</File>
+	  <File>Text/6T_Text_Misc.sql</File>
+	  <File>Text/6T_Text_UnlockablesUI.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>6T_Eras.dep</File>
+    <File>Data/6T_Boosts.sql</File>
+    <File>Data/6T_Civics.sql</File>
+    <File>Data/6T_Civic_Prereqs.sql</File>
+    <File>Data/6T_Eras.sql</File>
+    <File>Data/6T_Technologies.sql</File>
+    <File>Data/6T_TechnologyPrereqs.sql</File>
+    <File>Data/Modes/6T_TreeRandomizer_Civics.sql</File>
+    <File>Data/Modes/6T_TreeRandomizer_Technologies.sql</File>
+    <File>Data/Modes/6T_Unlock_Heroes.sql</File>
+    <File>Data/ModSupport/6T_Extended_Eras.sql</File>
+	<File>Data/ModSupport/6T_ST_Uniques.sql</File>
+	<File>Data/StartEras/6T_StartEras_Bonuses.sql</File>
+	<File>Data/StartEras/6T_StartEras_Config.sql</File>
+    <File>Data/Uniques/6T_America.sql</File>
+    <File>Data/Uniques/6T_Canada.sql</File>
+    <File>Data/Uniques/6T_Dutch.sql</File>
+    <File>Data/Uniques/6T_Gran_Colombia.sql</File>
+    <File>Data/Uniques/6T_Maori.sql</File>
+    <File>Data/Uniques/6T_Norway.sql</File>
+    <File>Data/Uniques/6T_Nubia.sql</File>
+    <File>Data/Uniques/6T_Persia.sql</File>
+    <File>Data/Uniques/6T_Spain.sql</File>
+    <File>Data/Uniques/6T_Zulu.sql</File>
+    <File>Data/UnitOptions/6T_Units_ST.sql</File>
+    <File>Data/UnitOptions/6T_Units_Vanilla.sql</File>
+    <File>Data/UnitOptions/6T_Units_WE.sql</File>
+	<File>Data/UnlockableIcons/6T_ExtraUnlockables_Base.sql</File>
+    <File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Buildings.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Diplomacy.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Districts.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Governance.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Great_People.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Improvements.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Misc.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Tokens.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Tourism.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Units.sql</File>
+    <File>Data/Unlocks/6T_Unlock_Wonders.sql</File>
+    <File>Icons/6T_Icons_TechCivics.sql</File>
+	<File>Icons/6T_Icons_UnlockFrames.xml</File>
+	<File>Icons/6T_UnlockFrames.dds</File>
+    <File>Text/6T_Text_Boosts.sql</File>
+    <File>Text/6T_Text_Misc.sql</File>
+	<File>Text/6T_Text_Config.sql</File>
+    <File>Text/6T_Text_Names.sql</File>
+	<File>Text/6T_Text_UnlockablesUI.xml</File>
+	<File>UI/Replacements/TechAndCivicSupport_6T.lua</File>
+	<File>UI/Replacements/TechTree.lua</File>
+	<File>UI/Replacements/ShuffleMode/TechTree.lua</File>
+	<File>UI/Replacements/CivicsTree.lua</File>
+	<File>UI/Replacements/TechTree.xml</File>
+	<File>UI/Replacements/CivicsTree.xml</File>
+	<File>UI/Replacements/ResearchChooser_6T.lua</File>
+	<File>UI/Replacements/CivicsChooser_6T.lua</File>
+	<File>UI/Replacements/TechCivicCompletedPopup_6T.lua</File>
+	<File>UI/Replacements/WorldTracker_6T.lua</File>
+	<File>UI/Replacements/EraCompletePopup.lua</File>
+	<File>UI/Textures/Checkboxes_2.dds</File>
+	<File>UI/Textures/EraBG_Empty.dds</File>
+	<File>UI/Textures/Tree_Path_DashEN_2.dds</File>
+	<File>UI/Textures/Tree_Path_DashES_2.dds</File>
+	<File>UI/Textures/Tree_Path_DashEW_2.dds</File>
+	<File>UI/Textures/Tree_Path_DashNE_2.dds</File>
+	<File>UI/Textures/Tree_Path_DashNS_2.dds</File>
+	<File>UI/Textures/Tree_Path_DashSE_2.dds</File>
+	<File>UI/Textures/EraLabel_Civic.dds</File>
+	<File>UI/Textures/EraLabel_Tech.dds</File>
+	<File>UI/Textures/EraLabel_Parchment.dds</File>
+	<File>UI/Textures/Tree_Path_EN_2.dds</File>
+	<File>UI/Textures/Tree_Path_ES_2.dds</File>
+	<File>UI/Textures/Tree_Path_EW_2.dds</File>
+	<File>UI/Textures/Tree_Path_NE_2.dds</File>
+	<File>UI/Textures/Tree_Path_NS_2.dds</File>
+	<File>UI/Textures/Tree_Path_SE_2.dds</File>
+	<File>UI/Textures/Frame_EraRollover_PostClassical_6T_Bottom.dds</File>
+	<File>UI/Textures/Frame_EraRollover_Medieval_6T_Top.dds</File>
+  </Files>
+</Mod>

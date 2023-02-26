@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Better Tech Tree -->
+<!-- Author: Infixo -->
+<!-- 2019-04-11: Created -->
+<GameData>
+
+<BaseGameText>
+
+	<Row Tag="LOC_BTT_CAPACITY">
+		<Text>capacity.</Text>
+	</Row>
+	
+	<!-- Custom unlock item descriptions -->
+	
+	<Row Tag="LOC_BTT_URBAN_DEFENSES">
+		<Text>Unlocks Urban Defenses, giving all of your cities an automatic 400 Fortification Strength and the ability to perform a ranged attack. All previous wall improvements become obsolete and siege support units are no longer effective.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_FORMATIONS">
+		<Text>Grants flanking and support combat bonuses to all combat units.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_DIPLO_VISIBILITY"> 
+		<Text>+1 level of diplomatic visibility.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_EXTRA_AGENDA"> 
+		<Text>Unlocks an extra random hidden agenda.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_CARBON_UNITS_REDUCTION">
+		<Text>CO2 emissions from units reduced by 50%.</Text>
+	</Row>
+	<!-- Embark and Naval Movement -->
+	<Row Tag="LOC_BTT_EMBARK_ALL_UNITS">
+		<Text>Allows all land units to embark.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_EMBARKED_MOVEMENT">
+		<Text>+{1_Num} [ICON_Movement] Movement for embarked units.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_ALL_NAVAL_UNITS_MOVEMENT">
+		<Text>+{1_Num} [ICON_Movement] Movement for all naval units.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_VALID_OCEAN">
+		<Text>All naval and embarked units can navigate Ocean tiles.</Text>
+	</Row>
+	<!-- Improvements -->
+	<Row Tag="LOC_BTT_PLANT_FOREST">
+		<Text>Allows Builders to plant Woods (second-growth). Woods in your territory that have never been removed (old-growth) gain +1 Appeal.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TRADE_ROUTE">
+		<Text>Allows the creation of [ICON_TradeRoute] Trade Routes. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_HILL_FARMS">
+		<Text>Can build Farms on Grassland Hills and Plains Hills.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_JUNGLE_LUMBER_MILL">
+		<Text>Lumber Mills can be built on Rainforest.</Text>
+	</Row>
+	<!-- Victory -->
+	<Row Tag="LOC_BTT_DIPLO_VP">
+		<Text>Awards 1 Diplomatic Victory point.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_SCORE">
+		<Text>Can be completed multiple times, increasing your points towards the Score Victory.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_PROJECT_PRODUCTION_BONUS">
+		<Text>Grants all of your cities +5% [ICON_Production] Production towards city projects each time it is completed.</Text>
+	</Row>
+	
+	<!-- Giant Death Robot upgrades --> 
+	<Row Tag="LOC_BTT_GDR_ARMOR">
+		<Text>Unlocks Giant Death Robot upgrade: Reinforced Armor Plating[NEWLINE]+10 [ICON_Strength] Combat Strength when defending against land and naval units.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_GDR_SIEGE_LASER">
+		<Text>Unlocks Giant Death Robot upgrade: Particle Beam Siege Cannon[NEWLINE]Ranged attacks against Cities and Encampments are 100% effective and gain +30 [ICON_Ranged] Ranged Strength.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_GDR_AA_DEFENSE">
+		<Text>Unlocks Giant Death Robot upgrade: Drone Air Defense[NEWLINE]+100 [ICON_AntiAir_Large] Anti-Air Strength.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_GDR_MOVEMENT">
+		<Text>Unlocks Giant Death Robot upgrade: Enhanced Mobility[NEWLINE]+3 [ICON_Movement] Movement. Can perform a Jump action to cross over mountain terrain.</Text>
+	</Row>
+	
+	<!-- Tourism --> 
+	<Row Tag="LOC_BTT_TOURISM_WRITING">
+		<Text>All [ICON_Tourism] Tourism yields from [ICON_GreatWork_Writing] Great Works of Writing are doubled.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_IMPROVEMENTS">
+		<Text>Receive [ICON_Tourism] Tourism on all improvements that provide [ICON_Culture] Culture.  Amount of [ICON_Tourism] Tourism generated is equivalent to the improvement's [ICON_Culture] Culture output.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_100">
+		<Text>+100% [ICON_Tourism] Tourism across your empire.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_25">
+		<Text>+25% [ICON_Tourism] Tourism across your empire.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_RELIGIOUS">
+		<Text>Religious [ICON_Tourism] Tourism effects are halved versus your civilization.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_WALLS">
+		<Text>Receive [ICON_TOURISM] Tourism from Walls.</Text>
+	</Row>
+	
+	<!-- Monopolies Mode -->
+	<Row Tag="LOC_BTT_RESOURCE_REPORT">
+		<Text>Grants the ability to see the amounts of all of the resources in the world.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_CORPORATION_REQ">
+		<Text>Required to build Corporations.</Text>
+	</Row>
+	
+	<!-- UnitOperations --> 
+	<Row Tag="LOC_BTT_CORPS_FLEET">
+		<Text>Allows forming two identical units into a Corps or Fleet.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_ARMY_ARMADA">
+		<Text>Allows forming three identical units into an Army or Armada.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_AIRLIFT">
+		<Text>Airlift: Allows for the transport of land units between Aerodrome districts that have all their buildings.</Text>
+	</Row>
+</BaseGameText>
+
+</GameData>

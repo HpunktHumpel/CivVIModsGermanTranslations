@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]220[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1677438934</Created>
+    <Created>1677440549</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -30,6 +30,9 @@
       <GameCoreInUse>Expansion2</GameCoreInUse>
     </Criteria>
     <!-- FrontEnd Actions -->
+    <Criteria id="6TGrandEras_FrontEnd">
+      <ModIsEnabled>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModIsEnabled>
+    </Criteria>
     <Criteria id="AIChannelKizunaAI_FrontEnd">
       <ModIsEnabled>c6af1114-4638-4cdf-bbbb-dcaab3fe26e1</ModIsEnabled>
     </Criteria>
@@ -125,9 +128,6 @@
     </Criteria>
     <Criteria id="p0kiehlsSatrapsCourt_FrontEnd">
       <ModIsEnabled>beb72f5a-1b9b-4211-812a-1382fc5290f9</ModIsEnabled>
-    </Criteria>
-    <Criteria id="P6T_GrandEras_FrontEnd">
-      <ModIsEnabled>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModIsEnabled>
     </Criteria>
     <Criteria id="Panda_FrontEnd">
       <ModIsEnabled>724e7828-3c76-4936-8184-ad04ceb7b25e</ModIsEnabled>
@@ -256,6 +256,9 @@
       <ModIsEnabled>b2007676-c4b2-447e-b553-bc41a6d268c5</ModIsEnabled>
     </Criteria>
     <!-- InGame Actions -->
+    <Criteria id="6TGrandEras">
+      <ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
+    </Criteria>
     <Criteria id="AB2531BuyUnitsWithFaith">
       <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c89</ModInUse>
     </Criteria>
@@ -591,9 +594,6 @@
     </Criteria>
     <Criteria id="P6T_EnlightenmentGovernments">
       <ModInUse>c6c62855-e22a-47b2-9c36-be0a8c09519e</ModInUse>
-    </Criteria>
-    <Criteria id="P6T_GrandEras">
-      <ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
     </Criteria>
     <Criteria id="P6T_UnitExpansion_Aircraft">
       <ModInUse>32823673-0ef1-4465-9c37-76b64c6bf54b</ModInUse>
@@ -1256,6 +1256,13 @@
       </Properties>
       <File>FrontEnd_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="6TGrandEras_ConfigText_FrontEnd_de_DE">
+      <Criteria>6TGrandEras_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>260</LoadOrder>
+      </Properties>
+      <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="AIChannelKizunaAI_FrontEnd_de_DE">
       <Criteria>AIChannelKizunaAI_FrontEnd</Criteria>
       <File>1661384856/XMLs/Lang/Kizuna_Text_de_DE.xml</File>
@@ -1422,13 +1429,6 @@
         <LoadOrder>10</LoadOrder>
       </Properties>
       <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>
-    </UpdateText>
-    <UpdateText id="P6T_GrandEras_FrontEnd_de_DE">
-      <Criteria>P6T_GrandEras_FrontEnd</Criteria>
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
-      <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="Panda_FrontEnd_de_DE">
       <Criteria>Panda_FrontEnd</Criteria>
@@ -1758,6 +1758,17 @@
     </UpdateText>
   </FrontEndActions>
   <InGameActions>
+    <UpdateText id="6TGrandEras_Text_Base_de_DE">
+      <Criteria>6TGrandEras</Criteria>
+      <Properties>
+        <LoadOrder>13000</LoadOrder>
+      </Properties>
+      <File>2769967307/Text/6T_Text_Boosts_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_Names_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_Misc_de_DE.sql</File>
+      <File>2769967307/Text/6T_Text_UnlockablesUI_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="AB2531BuyUnitsWithFaith_de_DE">
       <Criteria>AB2531BuyUnitsWithFaith</Criteria>
       <File>2169184492/Holy_Army_Text_de_DE.xml</File>
@@ -2556,17 +2567,6 @@
         <LoadOrder>13</LoadOrder>
       </Properties>
       <File>2770023017/Core/Gov_Tier5_Text_de_DE.sql</File>
-    </UpdateText>
-    <UpdateText id="P6T_GrandEras_Text_Base_de_DE">
-      <Criteria>P6T_GrandEras</Criteria>
-      <Properties>
-        <LoadOrder>13000</LoadOrder>
-      </Properties>
-      <File>2769967307/Text/6T_Text_Boosts_de_DE.sql</File>
-      <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
-      <File>2769967307/Text/6T_Text_Names_de_DE.sql</File>
-      <File>2769967307/Text/6T_Text_Misc_de_DE.sql</File>
-      <File>2769967307/Text/6T_Text_UnlockablesUI_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="P6T_UnitExpansion_Aircraft_de_DE">
       <Criteria>P6T_UnitExpansion_Aircraft</Criteria>
