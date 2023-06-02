@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="48a2ffab-93d4-4ec4-bc92-a84dc3e063b9" version="9">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - Bonus Resource Improvements</Name>
+    <Description>Each Bonus Resource provides a unique bonus to their city, including 5 new improvements. Custom bonuses for bonus resources added by Wetlands, Latin American Resources, and Sukritact's Resources. Compatible with Resourceful 2 as well.</Description>
+    <Teaser>Cities receive Unique Improvements and Abilities from local Bonus Resources.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="NFP_01">
+	  <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>				<!-- Maya & Gran Colombia DLC -->
+	</Criteria>
+	<Criteria id="Mod_Wet">
+	  <ModInUse>73b1478a-73bf-4907-8914-b1b5acca388b</ModInUse>				<!-- Wetlands -->
+	</Criteria>
+	<Criteria id="MOD_Latin">
+	  <ModInUse>78aa4d0b-742a-4d7a-be7d-a8317d69fb30</ModInUse>				<!-- Latin American Resources -->
+	</Criteria>
+	<Criteria id="MOD_Suk">
+	  <ModInUse>37fdca0b-9275-4235-9c18-c7ec348f930e</ModInUse>				<!-- Sukritact's Resources -->
+	</Criteria>
+	<Criteria id="MOD_Suk_Oceans">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>				<!-- Sukritact's Oceans -->
+        <Value>1</Value>
+      </ConfigurationValueMatches>				
+	</Criteria>
+	<Criteria id="MOD_R2">
+	  <ModInUse>23879c66-7cbb-4320-a891-ad24026f1b6b</ModInUse>				<!-- Resourceful 2 -->
+	</Criteria>
+	<Criteria id="MOD_BTT">
+	  <ModInUse>23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse>				<!-- Better Tech Tree (UI) -->
+	</Criteria>
+	<Criteria id="MOD_No_BTT">
+	  <ModInUse inverse="1">23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse>	<!-- Better Tech Tree (UI) -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="GameplayGeneral">
+      <Properties>
+        <LoadOrder>410</LoadOrder>
+      </Properties>
+      <File>Data/RIB_Requirements.sql</File>
+      <File>Data/RIB_Improvements.sql</File>
+      <File>Data/RIB_Improvement_Yields.sql</File>
+      <File>Data/RIB_Resource_Bonuses.sql</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="GameplayCaravanserai_Suk" criteria="MOD_Suk">
+      <Properties>
+        <LoadOrder>411</LoadOrder>
+      </Properties>
+      <File>Data/RIB_Improvements_Caravanserai.sql</File>
+	  <File>Data/RIB_Improvement_Yields_Caravanserai.sql</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="GameplayCaravanserai_R2" criteria="MOD_R2">
+      <Properties>
+        <LoadOrder>411</LoadOrder>
+      </Properties>
+      <File>Data/RIB_Improvements_Caravanserai.sql</File>
+	  <File>Data/RIB_Improvement_Yields_Caravanserai.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GameplayAdjustments">
+      <Properties>
+        <LoadOrder>412</LoadOrder>
+      </Properties>
+      <File>Data/RIB_Misc.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ActivateBase">
+      <Properties>
+        <LoadOrder>413</LoadOrder>
+      </Properties>
+      <File>Data/Activators/RIB_Base.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ActivateNFP" criteria="NFP_01">
+      <Properties>
+        <LoadOrder>414</LoadOrder>
+      </Properties>
+      <File>Data/Activators/RIB_NFP.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ActivateModSupport_Wetlands" criteria="Mod_Wet">
+      <Properties>
+        <LoadOrder>415</LoadOrder>
+      </Properties>
+      <File>Data/Activators/RIB_Wetlands.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ActivateModSupport_Latin" criteria="MOD_Latin">
+      <Properties>
+        <LoadOrder>416</LoadOrder>
+      </Properties>
+      <File>Data/Activators/RIB_Latin.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ActivateModSupport_Suk" criteria="MOD_Suk">
+      <Properties>
+        <LoadOrder>417</LoadOrder>
+      </Properties>
+      <File>Data/Activators/RIB_Suk.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ActivateModSupport_Suk_Oceans" criteria="MOD_Suk_Oceans">
+      <Properties>
+        <LoadOrder>418</LoadOrder>
+      </Properties>
+      <File>Data/Activators/RIB_Suk_Oceans.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ActivateModSupport_Resourceful" criteria="MOD_R2">
+      <Properties>
+        <LoadOrder>419</LoadOrder>
+      </Properties>
+      <File>Data/Activators/RIB_Resourceful.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TechCivic_Descriptions" criteria="MOD_No_BTT">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Data/RIB_TechCivic.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TechCivic_Descriptions_BTT" criteria="MOD_BTT">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Data/ModSupport/RIB_TechCivic_BTT.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextBase">
+      <Properties>
+        <LoadOrder>413</LoadOrder>
+      </Properties>
+      <File>Text/RIB_Text_Base.sql</File>
+    </UpdateText>
+    <UpdateText id="TextNFP" criteria="NFP_01">
+      <Properties>
+        <LoadOrder>414</LoadOrder>
+      </Properties>
+      <File>Text/RIB_Text_NFP.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Wetlands" criteria="Mod_Wet">
+      <Properties>
+        <LoadOrder>415</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/RIB_Text_Wetlands.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Latin" criteria="MOD_Latin">
+      <Properties>
+        <LoadOrder>416</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/RIB_Text_Latin.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Suk" criteria="MOD_Suk">
+      <Properties>
+        <LoadOrder>417</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/RIB_Text_Suk.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Suk_Oceans" criteria="MOD_Suk_Oceans">
+      <Properties>
+        <LoadOrder>418</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/RIB_Text_Suk_Oceans.sql</File>
+    </UpdateText>
+    <UpdateText id="TextModSupport_Resourceful" criteria="MOD_R2">
+      <Properties>
+        <LoadOrder>419</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/RIB_Text_Resourceful.sql</File>
+    </UpdateText>
+    <UpdateText id="Text_TechCivic" criteria="MOD_No_BTT">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Text/RIB_Text_TechCivic.sql</File>
+    </UpdateText>
+    <UpdateText id="Text_TechCivic_BTT" criteria="MOD_BTT">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Text/ModSupport/RIB_Text_TechCivic_BTT.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>411</LoadOrder>
+      </Properties>
+      <File>Icons/RIB_Icons.sql</File>
+    </UpdateIcons>
+	<UpdateIcons id="Icons_BonusUnlocks_Base">
+      <Properties>
+        <LoadOrder>413</LoadOrder>
+      </Properties>
+      <File>Icons/BonusUnlocks/RIB_Icons_Base.sql</File>
+    </UpdateIcons>
+    <UpdateIcons id="Icons_BonusUnlocks_NFP" criteria="NFP_01">
+      <Properties>
+        <LoadOrder>414</LoadOrder>
+      </Properties>
+      <File>Icons/BonusUnlocks/RIB_Icons_NFP.sql</File>
+    </UpdateIcons>
+    <UpdateIcons id="Icons_BonusUnlocks_Wetlands" criteria="Mod_Wet">
+      <Properties>
+        <LoadOrder>415</LoadOrder>
+      </Properties>
+      <File>Icons/BonusUnlocks/RIB_Icons_Wetlands.sql</File>
+    </UpdateIcons>
+    <UpdateIcons id="Icons_BonusUnlocks_Latin" criteria="MOD_Latin">
+      <Properties>
+        <LoadOrder>416</LoadOrder>
+      </Properties>
+      <File>Icons/BonusUnlocks/RIB_Icons_Latin.sql</File>
+    </UpdateIcons>
+    <UpdateIcons id="Icons_BonusUnlocks_Suk" criteria="MOD_Suk">
+      <Properties>
+        <LoadOrder>417</LoadOrder>
+      </Properties>
+      <File>Icons/BonusUnlocks/RIB_Icons_Suk.sql</File>
+    </UpdateIcons>
+    <UpdateIcons id="Icons_BonusUnlocks_Resourceful" criteria="MOD_R2">
+      <Properties>
+        <LoadOrder>419</LoadOrder>
+      </Properties>
+      <File>Icons/BonusUnlocks/RIB_Icons_Resourceful.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Dependency">
+      <Properties>
+        <LoadOrder>410</LoadOrder>
+      </Properties>
+      <File>UC_Resource_Improvements_Bonus.dep</File>
+    </UpdateArt>
+    <ImportFiles id="Import_UI_Files">
+      <Properties>
+        <LoadOrder>410</LoadOrder>
+      </Properties>
+      <Items>
+		<File>UI/TechAndCivicUnlockables_RIB.lua</File>
+      </Items>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>Data/Activators/RIB_Base.sql</File>
+    <File>Data/Activators/RIB_Latin.sql</File>
+    <File>Data/Activators/RIB_NFP.sql</File>
+    <File>Data/Activators/RIB_Resourceful.sql</File>
+    <File>Data/Activators/RIB_Suk.sql</File>
+    <File>Data/Activators/RIB_Suk_Oceans.sql</File>
+    <File>Data/Activators/RIB_Wetlands.sql</File>
+	<File>Data/ModSupport/RIB_TechCivic_BTT.sql</File>
+    <File>Data/RIB_Improvements.sql</File>
+    <File>Data/RIB_Improvement_Yields.sql</File>
+	<File>Data/RIB_Improvements_Caravanserai.sql</File>
+    <File>Data/RIB_Improvement_Yields_Caravanserai.sql</File>
+    <File>Data/RIB_Misc.sql</File>
+    <File>Data/RIB_Requirements.sql</File>
+    <File>Data/RIB_Resource_Bonuses.sql</File>
+	<File>Data/RIB_TechCivic.sql</File>
+    <File>Icons/BonusUnlocks/RIB_Icons_Base.sql</File>
+    <File>Icons/BonusUnlocks/RIB_Icons_Latin.sql</File>
+    <File>Icons/BonusUnlocks/RIB_Icons_NFP.sql</File>
+    <File>Icons/BonusUnlocks/RIB_Icons_Resourceful.sql</File>
+    <File>Icons/BonusUnlocks/RIB_Icons_Suk.sql</File>
+    <File>Icons/BonusUnlocks/RIB_Icons_Wetlands.sql</File>
+    <File>Icons/RIB_Icons.sql</File>
+    <File>Text/ModSupport/RIB_Text_Latin.sql</File>
+    <File>Text/ModSupport/RIB_Text_Resourceful.sql</File>
+    <File>Text/ModSupport/RIB_Text_Suk.sql</File>
+    <File>Text/ModSupport/RIB_Text_Suk_Oceans.sql</File>
+    <File>Text/ModSupport/RIB_Text_Wetlands.sql</File>
+	<File>Text/ModSupport/RIB_Text_TechCivic_BTT.sql</File>
+    <File>Text/RIB_Text_Base.sql</File>
+    <File>Text/RIB_Text_NFP.sql</File>
+	<File>Text/RIB_Text_TechCivic.sql</File>
+	<File>UI/TechAndCivicUnlockables_RIB.lua</File>
+    <File>UC_Resource_Improvements_Bonus.dep</File>
+  </Files>
+</Mod>

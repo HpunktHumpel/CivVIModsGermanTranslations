@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]225[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1685746313</Created>
+    <Created>1685747891</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -938,10 +938,6 @@
       <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
     </Criteria>
     <!-- Maya & Gran Colombia DLC -->
-    <Criteria id="MOD_Suk">
-      <ModInUse>37fdca0b-9275-4235-9c18-c7ec348f930e</ModInUse>
-    </Criteria>
-    <!-- Sukritact's Resources -->
     <Criteria id="MOD_BTT">
       <ModInUse>23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse>
     </Criteria>
@@ -954,6 +950,10 @@
       <ModInUse>89cedcae-a9c5-42d5-badf-cb011ccac69d</ModInUse>
     </Criteria>
     <!-- Better Tech Tree (UI) - 6T -->
+    <Criteria id="MOD_Suk">
+      <ModInUse>37fdca0b-9275-4235-9c18-c7ec348f930e</ModInUse>
+    </Criteria>
+    <!-- Sukritact's Resources -->
     <Criteria id="HarmonyInDiversity_not_in_use">
       <ModInUse inverse="1">3e78c674-e4d8-4cb4-a62e-ea2338b7c7f9</ModInUse>
     </Criteria>
