@@ -8,12 +8,12 @@ INSERT OR REPLACE INTO EnglishText
 		(Tag,															Text)
 VALUES	('LOC_DISTRICT_JNR_UC_OASIS_GOLD',								'+{1_num} [ICON_Gold] Gold from the adjacent Oasis {1_Num : plural 1?tile; other?tiles;}.'),
 		('LOC_DISTRICT_JNR_UC_LUXURY_GOLD',								'+{1_num} [ICON_Gold] Gold from the adjacent Luxury {1_Num : plural 1?resource; other?resources;}.'),
-		('LOC_DISTRICT_JNR_UC_AERODROME_GOLD',							'+{1_num} [ICON_Gold] Gold from the adjacent Aerodrome {1_Num : plural 2?district; other?districts;}.'),
-		('LOC_DISTRICT_JNR_UC_CANAL_GOLD',								'+{1_num} [ICON_Gold] Gold from the adjacent Canal {1_Num : plural 2?district; other?districts;}.'),
-		('LOC_DISTRICT_JNR_UC_FAIRGROUNDS_GOLD',						'+{1_num} [ICON_Gold] Gold from the adjacent Entertainment Complex {1_Num : plural 2?district; other?districts;}.'),
-		('LOC_DISTRICT_JNR_UC_WATER_PARK_GOLD',							'+{1_num} [ICON_Gold] Gold from the adjacent Water Park {1_Num : plural 2?district; other?districts;}.'),
-		('LOC_JNR_UC_DISTRICT_STREET_CARNIVAL_GOLD',					'+{1_num} [ICON_Gold] Gold from the adjacent {LOC_DISTRICT_STREET_CARNIVAL_NAME} {1_Num : plural 2?district; other?districts;}.'),
-		('LOC_JNR_UC_DISTRICT_WATER_STREET_CARNIVAL_GOLD',				'+{1_num} [ICON_Gold] Gold from the adjacent {LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME} {1_Num : plural 2?district; other?districts;}.'),
+		('LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT',						'+{1_num} [ICON_Gold] Gold from the adjacent '),
+		('LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_END',						' {1_Num : plural 1?district; other?districts;}.'),
+		('LOC_DISTRICT_JNR_UC_AERODROME_GOLD',							'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}Aerodrome{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_END}'),
+		('LOC_DISTRICT_JNR_UC_CANAL_GOLD',								'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}Canal{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_END}'),
+		('LOC_DISTRICT_JNR_UC_FAIRGROUNDS_GOLD',						'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}Entertainment Complex{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_END}'),
+		('LOC_DISTRICT_JNR_UC_WATER_PARK_GOLD',							'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}Water Park{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_END}'),
 		('LOC_DISTRICT_JNR_UC_Industry_Gold',							'+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Industry; other?Industries;}.'),
 		('LOC_DISTRICT_JNR_UC_Corporation_Gold',						'+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 2?Corporation; other?Corporations;}.'),
 		('LOC_DISTRICT_SUGUBA_DESCRIPTION_JNR_UC',						'A district unique to Mali specializing in finance and trade that replaces the Commercial Hub. Units, Buildings, and Districts are 20% cheaper to purchase with [ICON_GOLD] Gold and [ICON_FAITH] Faith in this City.[NEWLINE][NEWLINE]+2 [ICON_Gold] Gold bonus for each adjacent Holy Site.'),
@@ -69,6 +69,12 @@ VALUES	('LOC_DISTRICT_JNR_UC_OASIS_GOLD',								'+{1_num} [ICON_Gold] Gold from
 		('LOC_PROMOTION_JNR_STUNT_MASTER_DESCRIPTION',					'Performs at Airstrips and Aerodromes for +500 [ICON_TOURISM] Tourism (+1000 [ICON_TOURISM] Tourism if Aerodrome has a Hangar building) and 1 level more experienced.'),
 		('LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION_JNR_UC',					'+2 [ICON_GreatMerchant] Great Merchant points per turn for every Level 2 building in Commercial Hub districts. +4 [ICON_GreatMerchant] Great Merchant points per turn for every Level 3 building in Commercial Hub districts. +2 [ICON_GreatAdmiral] Great Admiral points per turn for every Level 2 building in Harbor districts. +4 [ICON_GreatAdmiral] Great Admiral points per turn for every Level 3 building in Harbor districts.'),
 		('LOC_POLICY_FREE_MARKET_DESCRIPTION_JNR_UC',					'Extra [ICON_Gold] Gold from buildings in Commercial Hubs: +2 if city [ICON_CITIZEN] population is 15 or higher, +2 if district has at least +5 adjacency bonus.'),
+		('LOC_POLICY_JNR_DEREGULATION_NAME',							'Deregulation'),
+		('LOC_POLICY_JNR_DEREGULATION_DESCRIPTION',						'Extra [ICON_Gold] Gold from buildings in Commercial Hubs: equal to building tier x2 if city [ICON_CITIZEN] population is 15 or higher, equal to building tier x2 if district has at least +5 adjacency bonus.'),
 		('LOC_POLICY_JNR_ADMIRALITY_COURT_NAME',						'Admirality Court'),
-		('LOC_POLICY_JNR_ADMIRALITY_COURT_DESCRIPTION',					'Extra Yields from buildings in Harbors: +1 [ICON_PRODUCTION] if city [ICON_CITIZEN] population is 15 or higher, +1 [ICON_FOOD] Food if district has at least +5 adjacency bonus.');
+		('LOC_POLICY_JNR_ADMIRALITY_COURT_DESCRIPTION',					'Extra Yields from buildings in Harbors: +1[ICON_PRODUCTION] Production if city [ICON_CITIZEN] population is 15 or higher, +1 [ICON_FOOD] Food if district has at least +5 adjacency bonus.'),
+		('LOC_POLICY_JNR_CONTAINERIZATION_NAME',						'Containerization'),
+		('LOC_POLICY_JNR_CONTAINERIZATION_DESCRIPTION',					'Extra Yields from buildings in Harbors: [ICON_PRODUCTION] Production equal to building tier if city [ICON_CITIZEN] population is 15 or higher, [ICON_FOOD] Food equal to building tier if district has at least +5 adjacency bonus.');
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'the Market gains', 'Markets, Mints, and Waystations gain') WHERE Tag='LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION';
 --------------------------------------------------------------

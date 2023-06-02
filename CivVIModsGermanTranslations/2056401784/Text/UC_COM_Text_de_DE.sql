@@ -21,18 +21,22 @@ VALUES	('de_DE',	'LOC_BUILDING_JNR_MINT_NAME',									'Münze|Münze|Münze|Mü
 		('de_DE',	'LOC_BUILDING_JNR_HAVEN_NAME',									'Anlegestelle|Anlegestelle|Anlegestelle|Anlegestelle|Anlegestelle', 																'feminine',	1			),
 		('de_DE',	'LOC_BUILDING_JNR_FREEPORT_NAME',								'Zolllager|Zolllager|Zolllager|Zolllagers|Zolllager', 																				'neuter',	1			),
 		('de_DE',	'LOC_BUILDING_JNR_CRUISE_TERMINAL_NAME',						'Kreuzfahrtterminal|Kreuzfahrtterminal|Kreuzfahrtterminal|Kreuzfahrtterminals|Kreuzfahrtterminal',									'neuter',	1			),
-		('de_DE',	'LOC_POLICY_JNR_ADMIRALITY_COURT_NAME',							'Admiralitätsgericht|Admiralitätsgericht|Admiralitätsgericht|Admiralitätsgerichts|Admiralitätsgericht', 							'neuter',	1			);
+		('de_DE',	'LOC_POLICY_JNR_DEREGULATION_NAME',								'Deregulierung|Deregulierung|Deregulierung|Deregulierung|Deregulierung',															'feminine',	1			),
+		('de_DE',	'LOC_POLICY_JNR_ADMIRALITY_COURT_NAME',							'Admiralitätsgericht|Admiralitätsgericht|Admiralitätsgericht|Admiralitätsgerichts|Admiralitätsgericht', 							'neuter',	1			),
+		('de_DE',	'LOC_POLICY_JNR_CONTAINERIZATION_NAME',							'Standardcontainer|Standardcontainer|Standardcontainer|Standardcontainer|Standardcontainer',										'feminine', 1			);
 		
 INSERT OR REPLACE INTO LocalizedText
 		(Language,	Tag,															Text)
 VALUES	('de_DE',	'LOC_DISTRICT_JNR_UC_OASIS_GOLD',								'+{1_num} [ICON_Gold] Gold durch angrenzende {1_Num : plural 1?Oase; other?Oasen;}.'),
 		('de_DE',	'LOC_DISTRICT_JNR_UC_LUXURY_GOLD',								'+{1_num} [ICON_Gold] Gold durch angrenzende Luxus{1_Num : plural 1?ressource; other?ressourcen;}.'),
-		('de_DE',	'LOC_DISTRICT_JNR_UC_AERODROME_GOLD',							'+{1_num} [ICON_Gold] Gold durch {1_Num : plural 2?angrenzenden Flughafen; other?angrenzende Flughäfen;}.'),
-		('de_DE',	'LOC_DISTRICT_JNR_UC_CANAL_GOLD',								'+{1_num} [ICON_Gold] Gold durch {1_Num : plural 2?angrenzenden Kanal; other?angrenzende Kanäle;}.'),
-		('de_DE',	'LOC_DISTRICT_JNR_UC_FAIRGROUNDS_GOLD',							'+{1_num} [ICON_Gold] Gold durch {1_Num : plural 2?angrenzenden Unterhaltungskomplex; other?angrenzende Unterhaltungskomplexe;}.'),
-		('de_DE',	'LOC_DISTRICT_JNR_UC_WATER_PARK_GOLD',							'+{1_num} [ICON_Gold] Gold durch {1_Num : plural 2?angrenzenden Wasserpark; other?angrenzende Wasserparks;}.'),
-		('de_DE',	'LOC_JNR_UC_DISTRICT_STREET_CARNIVAL_GOLD',						'+{1_num} [ICON_Gold] Gold durch {1_Num : plural 2?angrenzenden; other?angrenzende;} {LOC_DISTRICT_STREET_CARNIVAL_NAME}.'),
-		('de_DE',	'LOC_JNR_UC_DISTRICT_WATER_STREET_CARNIVAL_GOLD',				'+{1_num} [ICON_Gold] Gold durch {1_Num : plural 2?angrenzenden; other?angrenzende;} {LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME}.'),
+		('de_DE',	'LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT',						'+{1_num} [ICON_Gold] Gold durch '),
+--		('de_DE',	'LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_END',						' {1_Num : plural 1?district; other?districts;}.'),
+		('de_DE',	'LOC_DISTRICT_JNR_UC_AERODROME_GOLD',							'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}{1_Num : plural 2?angrenzenden Flughafen; other?angrenzende Flughäfen;}.'),
+		('de_DE',	'LOC_DISTRICT_JNR_UC_CANAL_GOLD',								'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}{1_Num : plural 2?angrenzenden Kanal; other?angrenzende Kanäle;}.'),
+		('de_DE',	'LOC_DISTRICT_JNR_UC_FAIRGROUNDS_GOLD',							'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}{1_Num : plural 2?angrenzenden Unterhaltungskomplex; other?angrenzende Unterhaltungskomplexe;}.'),
+		('de_DE',	'LOC_DISTRICT_JNR_UC_WATER_PARK_GOLD',							'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}{1_Num : plural 2?angrenzenden Wasserpark; other?angrenzende Wasserparks;}.'),
+--		('de_DE',	'LOC_JNR_UC_DISTRICT_STREET_CARNIVAL_GOLD',						'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}{1_Num : plural 2?angrenzenden; other?angrenzende;} {LOC_DISTRICT_STREET_CARNIVAL_NAME}.'),
+--		('de_DE',	'LOC_JNR_UC_DISTRICT_WATER_STREET_CARNIVAL_GOLD',				'{LOC_DISTRICT_JNR_UC_GOLD_DISTRICT_FRONT}{1_Num : plural 2?angrenzenden; other?angrenzende;} {LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_NAME}.'),
 		('de_DE',	'LOC_DISTRICT_JNR_UC_Industry_Gold',							'+{1_num} [ICON_Gold] Gold durch angrenzende {1_Num : plural 1?Industrie; other?Industrien;}.'),
 		('de_DE',	'LOC_DISTRICT_JNR_UC_Corporation_Gold',							'+{1_num} [ICON_Gold] Gold durch angrenzende {1_Num : plural 2?Korporation; other?Korporationen;}.'),
 		('de_DE',	'LOC_DISTRICT_SUGUBA_DESCRIPTION_JNR_UC',						'Ein ausschließlich Mali zur Verfügung stehender Bezirk, der sich auf Finanzen und Handel spezialisiert und das Handelszentrum ersetzt. Einheiten, Gebäude und Bezirke kosten 20 % weniger mit [ICON_GOLD] Gold und [ICON_FAITH] Glauben in dieser Stadt.[NEWLINE][NEWLINE]+2 [ICON_Gold] Gold für jede angrenzende Heilige Stätte.'),
@@ -73,5 +77,9 @@ VALUES	('de_DE',	'LOC_DISTRICT_JNR_UC_OASIS_GOLD',								'+{1_num} [ICON_Gold] 
 		('de_DE',	'LOC_PROMOTION_JNR_STUNT_MASTER_DESCRIPTION',					'Auftritte auf Landebahnen und Flugplätzen bringen +500 [ICON_TOURISM] Tourismus (+1000 [ICON_TOURISM] Tourismus, wenn der Flugplatz ein Hangargebäude hat) und 1 Stufe mehr Erfahrung.'),
 		('de_DE',	'LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION_JNR_UC',					'+2 [ICON_GreatMerchant] Punkte des Typs ''Großer Händler'' pro Runde für jedes Stufe 2 Gebäude in Handelszentren. +4 [ICON_GreatMerchant] Punkte des Typs ''Großer Händler'' pro Runde für jedes Stufe 3 Gebäude in Handelszentren. +2 [ICON_GreatAdmiral] Punkte des Typs ''Großer Admiral'' pro Runde für jedes Stufe 2 Gebäude in Hafen-Bezirken. +4 [ICON_GreatAdmiral] Punkte des Typs ''Großer Admiral'' für jedes Stufe 3 Gebäude in Hafen-Bezirken.'),
 		('de_DE',	'LOC_POLICY_FREE_MARKET_DESCRIPTION_JNR_UC',					'Zusätzliches [ICON_Gold] Gold durch Gebäude in Handelszentren: +2 wenn die [ICON_CITIZEN] Bevölkerung der Stadt 15 oder mehr beträgt, +2, wenn der Bezirk mindestens +5 Nachbarschaftsbonus hat.'),
-		('de_DE',	'LOC_POLICY_JNR_ADMIRALITY_COURT_DESCRIPTION',					'Zusätzliche Erträge von Gebäuden in Häfen: +1 [ICON_PRODUCTION], wenn die [ICON_CITIZEN] Bevölkerung der Stadt 15 oder mehr beträgt, +1 [ICON_FOOD] Nahrung, wenn der Bezirk mindestens +5 Nachbarschaftsbonus hat.');
+		('de_DE',	'LOC_POLICY_JNR_DEREGULATION_DESCRIPTION',						'Zusätzliches [ICON_Gold] Gold durch Gebäude in Handelszentren: gleich der Gebäudestufe x2, wenn die Stadt 15 oder mehr [ICON_CITIZEN] Bürger hat und gleich der Gebäudestufe x2, mit Nachbarschaftsbonus bei mindestens +5.'),
+		('de_DE',	'LOC_POLICY_JNR_ADMIRALITY_COURT_DESCRIPTION',					'Zusätzliche Erträge von Gebäuden in Häfen: +1 [ICON_PRODUCTION], wenn die [ICON_CITIZEN] Bevölkerung der Stadt 15 oder mehr beträgt, +1 [ICON_FOOD] Nahrung, wenn der Bezirk mindestens +5 Nachbarschaftsbonus hat.'),
+		('de_DE',	'LOC_POLICY_JNR_CONTAINERIZATION_DESCRIPTION',					'Zusätzliche Erträge von Gebäuden in Häfen: [ICON_PRODUCTION] Produktion in Höhe der Gebäudestufe, wenn die Stadt 15 oder mehr [ICON_CITIZEN] Bürger hat und [ICON_FOOD] Nahrung in Höhe der Gebäudestufe bei Nachbarschaftsbonus von mindestens +5.');
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'der Markt erhält', 'Märkte, Münzen und Umschlagplätze erhalten') WHERE Tag='LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION' AND Language = 'de_DE';
 --------------------------------------------------------------
