@@ -5,7 +5,7 @@
     <Description>Adds a font icon to Appeal and Loyalty. It also renames Diplomatic Victory Points to Prestige and gives it a font icon.
 
 Will also modify existing texts automatically so don't worry about compatibility or putting it yourself.</Description>
-    <Created>1586116681</Created>
+    <Created>1680717350</Created>
     <Teaser>Last Update: April 2020</Teaser>
     <Authors>Leugi,</Authors>
     <AffectsSavedGames>0</AffectsSavedGames>
@@ -17,7 +17,7 @@ Will also modify existing texts automatically so don't worry about compatibility
     </UpdateIcons>
     <UpdateText id="Text">
       <Properties>
-        <LoadOrder>1000</LoadOrder>
+        <LoadOrder>10000000</LoadOrder>
       </Properties>
       <File>AppealIconReplace.sql</File>
     </UpdateText>
@@ -31,7 +31,7 @@ Will also modify existing texts automatically so don't worry about compatibility
     </UpdateIcons>
     <UpdateText id="Text">
       <Properties>
-        <LoadOrder>1000</LoadOrder>
+        <LoadOrder>10000000</LoadOrder>
       </Properties>
       <File>AppealIconReplace.sql</File>
     </UpdateText>
@@ -44,6 +44,7 @@ Will also modify existing texts automatically so don't worry about compatibility
     <File>AppealIconReplace.sql</File>
     <File>Appeal_FontIcon.sql</File>
     <File>ArtDefs/UserInterfaceBLPs.artdef</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
     <File>Platforms/Windows/BLPs/UITexture.blp</File>
     <File>Textures/AppealFontIcon.dds</File>
     <File>Textures/AppealFontIcon.tex</File>
@@ -55,6 +56,7 @@ Will also modify existing texts automatically so don't worry about compatibility
     <File>Textures/CYAN_LOYALTY_FONTICON_BIG_22.tex</File>
     <File>Textures/DVP_Prestige_FontIcon_22.dds</File>
     <File>Textures/DVP_Prestige_FontIcon_22.tex</File>
+    <File>Textures/LightYears_FontIcon_22.dds</File>
     <File>Textures/LoyaltyFontIcon_22..dds</File>
     <File>Textures/LoyaltyFontIcon_22..tex</File>
     <File>Textures/LoyaltyFontIcon_22.dds</File>

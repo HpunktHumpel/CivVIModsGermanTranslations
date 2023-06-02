@@ -42,9 +42,6 @@ SET Text = '{2_AppealValue} [ICON_APPEAL] Appeal ({1_AppealDesc})'
 WHERE Tag = 'LOC_TOOLTIP_APPEAL';
 
 --LOYALTY
-UPDATE LocalizedText
-SET Text = '+10 [ICON_Strength] Combat Strength when fighting Free Cities or civilizations that are in a Golden or Heroic Age. Defeating an enemy unit within the borders of an enemy city causes that city to lose 20 Loyalty and 40 Loyalty if that civilization is in a Golden or Heroic Age.'
-WHERE Tag = 'LOC_TRAIT_LEADER_LAUTARO_ABILITY_DESCRIPTION_ALT';
 
 UPDATE LocalizedText
 SET Text = REPLACE(Text, 'Loyalty per turn', '[ICON_LOYALTY] Loyalty per turn')
@@ -73,6 +70,32 @@ WHERE Tag = Tag;
 UPDATE LocalizedText
 SET Text = REPLACE(Text, 'Full [ICON_LOYALTY] Loyalty', '[ICON_LOYALTY] Full Loyalty')
 WHERE Tag = Tag;
+
+--LIGHT YEARS
+UPDATE LocalizedText
+SET Text = REPLACE(Text, 'Light Year', '[ICON_LIGHTYEARS] Light Year')
+WHERE Tag = Tag;
+
+UPDATE LocalizedText
+SET Text = REPLACE(Text, 'light year', '[ICON_LIGHTYEARS] Light Year')
+WHERE Tag = Tag AND Tag NOT IN ('LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_CHAPTER_HISTORY_PARA_8');
+
+UPDATE LocalizedText
+SET Text = 'Help the Expedition reach {1_NumLightYears} [ICON_LIGHTYEARS] Light Years.'
+WHERE Tag = 'LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_FINAL';
+
+
+UPDATE LocalizedText
+SET Text = 'To achieve a [COLOR:ResScienceLabelCS]SCIENCE[ENDCOLOR] victory, you must accomplish the following milestones:'
+WHERE Tag = 'LOC_WORLD_RANKINGS_SCIENCE_DETAILS_EXP2';
+
+UPDATE LocalizedText
+SET Text = 'Exoplanet Expedition has traveled {1_LightYearsTraveled} / {2_LightYearsTotalNeeded} [ICON_LIGHTYEARS] Light {2_LightYearsTotalNeeded : plural 1?Year; other?Years;}.'
+WHERE Tag = 'LOC_WORLD_RANKINGS_SCIENCE_HAS_MOVED';
+
+UPDATE LocalizedText
+SET Text = 'Exoplanet Expedition is traveling {1_LightYearsPerTurn} [ICON_LIGHTYEARS] Light {1_LightYearsPerTurn : plural 1?Year; other?Years;} per turn.'
+WHERE Tag = 'LOC_WORLD_RANKINGS_SCIENCE_IS_MOVING';
 
 
 --CREATE TRIGGER LEU_APPEAL_REPLACE

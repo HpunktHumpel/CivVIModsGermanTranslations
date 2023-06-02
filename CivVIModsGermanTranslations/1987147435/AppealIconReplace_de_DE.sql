@@ -67,6 +67,32 @@ UPDATE LocalizedText
 SET Text = REPLACE(Text, 'Volle [ICON_LOYALTY] Loyalität', '[ICON_LOYALTY] Volle Loyalität')
 WHERE Language= 'de_DE' AND Tag = Tag;
 
+--LIGHT YEARS
+UPDATE LocalizedText
+SET Text = REPLACE(Text, 'Lichtjahr', '[ICON_LIGHTYEARS] Lichtjahr')
+WHERE Language= 'de_DE' AND Tag = Tag;
+
+/*UPDATE LocalizedText --Kleine Schreibweise gibt es im Deutschen nicht
+SET Text = REPLACE(Text, 'light year', '[ICON_LIGHTYEARS] Light Year')
+WHERE Language= 'de_DE' AND Tag = Tag AND Tag NOT IN ('LOC_PEDIA_LEADERS_PAGE_LEADER_QIN_CHAPTER_HISTORY_PARA_8');
+*/
+UPDATE LocalizedText
+SET Text = 'Helft der Exoplanet-Expedition dabei, [ICON_LIGHTYEARS] {1_NumLightYears : plural 1?Lichtjahr; other?Lichtjahre;} zu reisen.'
+WHERE Language= 'de_DE' AND Tag = 'LOC_WORLD_RANKINGS_SCIENCE_REQUIREMENT_FINAL';
+
+
+UPDATE LocalizedText
+SET Text = 'Zum Erzielen eines [COLOR:ResScienceLabelCS]WISSENSCHAFTS[ENDCOLOR]sieges müsst Ihr vier große Meilensteine erreichen:'
+WHERE Language= 'de_DE' AND Tag = 'LOC_WORLD_RANKINGS_SCIENCE_DETAILS_EXP2';
+
+UPDATE LocalizedText
+SET Text = 'Exoplanet-Expedition ist {1_LightYearsTraveled} / {2_LightYearsTotalNeeded} [ICON_LIGHTYEARS] {2_LightYearsTotalNeeded : plural 1?Lichtjahr; other?Lichtjahren;} gereist.'
+WHERE Language= 'de_DE' AND Tag = 'LOC_WORLD_RANKINGS_SCIENCE_HAS_MOVED';
+
+UPDATE LocalizedText
+SET Text = 'Exoplanet-Expedition reist {1_LightYearsPerTurn} [ICON_LIGHTYEARS] {1_LightYearsPerTurn : plural 1?Lichtjahr; other?Lichtjahre;} pro Runde.'
+WHERE Language= 'de_DE' AND Tag = 'LOC_WORLD_RANKINGS_SCIENCE_IS_MOVING';
+
 
 --CREATE TRIGGER LEU_APPEAL_REPLACE
 --AFTER INSERT ON LocalizedText
