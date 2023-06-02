@@ -32,14 +32,20 @@ VALUES	-- Deer Parks
 -- Hängende Gärten
 		("de_DE", 
 		"LOC_HANGING_GARDENS_PRESERVE_REBUFF",					
-		"Entfernt [ICON_FOOD] Nahrungs- und [ICON_PRODUCTION] Produktionsabzüge von Feldern angrenzend an Gebäude des Schutzgebiets und Gartens.");
+		"Entfernt [ICON_FOOD] Nahrungseinbußen von Feldern angrenzend an Gebäude des Schutzgebiets und Gartens."),
+		
+		("de_DE", 
+		"LOC_EIFFEL_TOWER_PRESERVE_REBUFF",					
+		"Entfernt [ICON_PRODUCTION] Produktionseinbußen von Feldern angrenzend an Gebäude des Schutzgebiets und Gartens.");
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]Tiles adjacent to the Preserve have their [ICON_FOOD] Food and [ICON_PRODUCTION] Production yields reduced by 1.","[NEWLINE][NEWLINE]Felder, die an das Schutzgebiet angrenzen, werden die [ICON_FOOD]-Nahrungsmittel- und [ICON_PRODUCTION]-Produktionserträge um 1 reduziert.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]Tiles adjacent to the Preserve have their [ICON_FOOD] Food and [ICON_PRODUCTION] Production yields reduced by 1.",
+						"[NEWLINE][NEWLINE]An das Schutzgebiet angrenzende Felder, reduzieren ihre [ICON_FOOD] Nahrungs- und [ICON_PRODUCTION] Produktionserträge um 1.")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_GROVE_DESCRIPTION";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]Tiles adjacent to the Preserve have their [ICON_FOOD] Food and [ICON_PRODUCTION] Production yields further reduced by 1.","[NEWLINE][NEWLINE]Felder, die an das Schutzgebiet angrenzen, werden die [ICON_FOOD]-Nahrungsmittel- und [ICON_PRODUCTION]-Produktionserträge zusätzlich um 1 reduziert.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]Tiles adjacent to the Preserve have their [ICON_FOOD] Food and [ICON_PRODUCTION] Production yields further reduced by 1.",
+						"[NEWLINE][NEWLINE]An das Schutzgebiet angrenzende Felder, reduzieren ihre [ICON_FOOD] Nahrungs- und [ICON_PRODUCTION] Produktionserträge zusätzlich um 1.")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_SANCTUARY_DESCRIPTION";
 
 --==========================================================================================================================

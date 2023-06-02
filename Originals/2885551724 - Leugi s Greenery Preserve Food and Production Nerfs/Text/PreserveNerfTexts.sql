@@ -32,7 +32,11 @@ VALUES	-- Deer Parks
 		-- Hanging Gardens
 		("en_US", 
 		"LOC_HANGING_GARDENS_PRESERVE_REBUFF",					
-		"Removes [ICON_FOOD] Food and [ICON_PRODUCTION] Production penalties from tiles adjacent to Preserve and Garden Buildings.");
+		"Removes the [ICON_FOOD] Food penalties from tiles adjacent to Preserve and Garden Buildings."),
+		
+		("en_US", 
+		"LOC_EIFFEL_TOWER_PRESERVE_REBUFF",					
+		"Removes the [ICON_PRODUCTION] Production penalties from tiles adjacent to Preserve and Garden Buildings.");
 
 UPDATE LocalizedText
 SET Text = Text||"[NEWLINE][NEWLINE]Tiles adjacent to the Preserve have their [ICON_FOOD] Food and [ICON_PRODUCTION] Production yields reduced by 1."
