@@ -3,7 +3,7 @@
   <Properties>
     <Name>Leugi's [COLOR_Civ6Green]Greenery:[ENDCOLOR] Garden District</Name>
     <Description>Adds a new district: The Garden, to act as a mirror to the Preserve district (as designed around my rework). The Garden makes use of the Appeal of its tile and surrounding tiles to generate Culture and Gold. Unlike the Preserve it can be built next to the City Center but it doesn't claim tiles.[NEWLINE][NEWLINE] The Garden also comes with two new buildings: the Pavillion and the Conservatory, also mimicking the Preserve's two buildings.[NEWLINE][NEWLINE]This mod is compatible with Wildlife++ and it is also recommended to play it alongside my Preserve Reworks and Nerfs (which also apply to the Garden).</Description>
-    <Created>1677342057</Created>
+    <Created>1682901766</Created>
     <Teaser>Last Update: February 2023</Teaser>
     <Authors>Leugi</Authors>
     <SpecialThanks>Sukritact</SpecialThanks>
@@ -68,7 +68,7 @@
         <LoadOrder>3000</LoadOrder>
       </Properties>
       <Criteria>JNRHolySite</Criteria>
-      <Exclude mod_id="1bd6e042-25c3-4584-9bc3-66f1ce3bd249" action_id="Text" />
+      <Exclude mod_id="1047a269-38a8-4cee-b70a-a7681015eed7" action_id="Text" />
       <File>Text/Garden_Compatibility_JNR_HolySite.sql</File>
     </UpdateText>
     <UpdateText id="NaturalistText">
