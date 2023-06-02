@@ -2,6 +2,7 @@
 
 - [NEW] All Vikings Scenario units (vom 9. Okt. 2022 um 2:22, Übersetzung von Junky)
 - [NEW] Armagh Monastery Rework (vom 15. Apr. 2023 um 5:22, Übersetzung von Junky)
+- [NEW] Better Civilopedia (UI) (vom 7. Apr. 2023 um 17:57, Übersetzung von Junky)
 
 
 ===== Version 24 =====

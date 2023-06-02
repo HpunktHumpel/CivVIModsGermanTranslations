@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="de_DE" Tag="LOC_PEDIA_CONGRESS_PAGE_INTRO_CHAPTER_CONTENT_PARA_1">
+      <Text>{LOC_PEDIA_CONCEPTS_PAGE_WORLD_CONGRESS_CHAPTER_CONGRESS_PARA_1}</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_PEDIA_CONGRESS_PAGE_INTRO_CHAPTER_CONTENT_PARA_2">
+      <Text>{LOC_PEDIA_CONCEPTS_PAGE_WORLD_CONGRESS_CHAPTER_CONGRESS_PARA_2}</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_BCP_TARGET_GOALS">
+      <Text>Zielvorgaben:</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_BCP_SCORE_SOURCES">
+      <Text>Punktequellen:</Text>
+    </Replace>
+    <Replace Language="de_DE" Tag="LOC_BCP_REWARDS">
+      <Text>Belohnungen:</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

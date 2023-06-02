@@ -25,6 +25,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
 1331757859 | CIVITAS City-States Expanded | thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky | #16
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
+1341630847 | Better Civilopedia (UI) | Infixo | Junky | **NEW**
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8

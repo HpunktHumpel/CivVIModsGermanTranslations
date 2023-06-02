@@ -27,6 +27,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Ayakashi Saigyou (KCucumber | H.Humpel)
 1. Basic Buildings (carterrosenberg | H.Humpel)
 1. Bear's Mods - Governor Overhaul (MarshmallowBear | Junky)
+1. Better Civilopedia (UI) (Infixo | Junky)
 1. Better Coastal Cities and Water Tiles (p0kiehl | Junky)
 1. Better Plantations-Policy Card (Burkart | H.Humpel)
 1. Better Religion Window (UI) (infixo | Junky)
