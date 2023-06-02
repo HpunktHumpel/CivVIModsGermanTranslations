@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e5b0586d-df6e-45ea-ac67-df9858a9e82e" version="1">
+  <Properties>
+    <Name>All Vikings Scenario units</Name>
+    <Description>Adds Huscarls, Farfanes and Caballarii from scenario Vikings, Traders, and Raiders! as unique units for multiple civilizations. Requires Gathering Storm.</Description>
+    <Created>1663111415</Created>
+    <Teaser>Adds Huscarls, Farfanes and Caballarii from scenario Vikings, Traders, and Raiders! as unique units for multiple civilizations.</Teaser>
+    <Authors>Mikecro</Authors>
+    <SpecialThanks>MC, SailorCat, blkbutterfly, WildW (bear-able)</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" title="DLC: Vikings Content" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>1028</LoadOrder>
+      </Properties>
+      <File>Joint_Config_Data.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>Joint_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>Joint_icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>AllVikingsScenarioUnits.dep</File>
+    </UpdateArt>
+    <ImportFiles id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>Textures/Moment_UniqueUnit_Caballarii.dds</File>
+      <File>Textures/Moment_UniqueUnit_Caballarii.tex</File>
+      <File>Textures/Moment_UniqueUnit_Farfanes.dds</File>
+      <File>Textures/Moment_UniqueUnit_Farfanes.tex</File>
+      <File>Textures/Moment_UniqueUnit_Huscarl.dds</File>
+      <File>Textures/Moment_UniqueUnit_Huscarl.tex</File>
+      <File>Textures/All_VikingsScenario_icons22.dds</File>
+      <File>Textures/All_VikingsScenario_icons22.tex</File>
+      <File>Textures/All_VikingsScenario_icons256.dds</File>
+      <File>Textures/All_VikingsScenario_icons256.tex</File>
+      <File>Textures/All_VikingsScenario_icons32.dds</File>
+      <File>Textures/All_VikingsScenario_icons32.tex</File>
+      <File>Textures/All_VikingsScenario_icons38.dds</File>
+      <File>Textures/All_VikingsScenario_icons38.tex</File>
+      <File>Textures/All_VikingsScenario_icons50.dds</File>
+      <File>Textures/All_VikingsScenario_icons50.tex</File>
+      <File>Textures/All_VikingsScenario_icons80.dds</File>
+      <File>Textures/All_VikingsScenario_icons80.tex</File>
+      <File>Textures/All_VikingsScenario_portraits200.dds</File>
+      <File>Textures/All_VikingsScenario_portraits200.tex</File>
+      <File>Textures/All_VikingsScenario_portraits256.dds</File>
+      <File>Textures/All_VikingsScenario_portraits256.tex</File>
+      <File>Textures/All_VikingsScenario_portraits38.dds</File>
+      <File>Textures/All_VikingsScenario_portraits38.tex</File>
+      <File>Textures/All_VikingsScenario_portraits50.dds</File>
+      <File>Textures/All_VikingsScenario_portraits50.tex</File>
+      <File>Textures/All_VikingsScenario_portraits70.dds</File>
+      <File>Textures/All_VikingsScenario_portraits70.tex</File>
+      <File>Textures/All_VikingsScenario_portraits95.dds</File>
+      <File>Textures/All_VikingsScenario_portraits95.tex</File>
+    </ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>Joint_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>Joint_Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>AllVikingsScenarioUnits.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>Joint_icons.xml</File>
+    </UpdateIcons>
+    <ImportFiles id="NewAction">
+      <Properties>
+        <LoadOrder>278</LoadOrder>
+      </Properties>
+      <File>Textures/All_VikingsScenario_icons22.dds</File>
+      <File>Textures/All_VikingsScenario_icons22.tex</File>
+      <File>Textures/All_VikingsScenario_icons256.dds</File>
+      <File>Textures/All_VikingsScenario_icons256.tex</File>
+      <File>Textures/All_VikingsScenario_icons32.dds</File>
+      <File>Textures/All_VikingsScenario_icons32.tex</File>
+      <File>Textures/All_VikingsScenario_icons38.dds</File>
+      <File>Textures/All_VikingsScenario_icons38.tex</File>
+      <File>Textures/All_VikingsScenario_icons50.dds</File>
+      <File>Textures/All_VikingsScenario_icons50.tex</File>
+      <File>Textures/All_VikingsScenario_icons80.dds</File>
+      <File>Textures/All_VikingsScenario_icons80.tex</File>
+      <File>Textures/All_VikingsScenario_portraits200.dds</File>
+      <File>Textures/All_VikingsScenario_portraits200.tex</File>
+      <File>Textures/All_VikingsScenario_portraits256.dds</File>
+      <File>Textures/All_VikingsScenario_portraits256.tex</File>
+      <File>Textures/All_VikingsScenario_portraits38.dds</File>
+      <File>Textures/All_VikingsScenario_portraits38.tex</File>
+      <File>Textures/All_VikingsScenario_portraits50.dds</File>
+      <File>Textures/All_VikingsScenario_portraits50.tex</File>
+      <File>Textures/All_VikingsScenario_portraits70.dds</File>
+      <File>Textures/All_VikingsScenario_portraits70.tex</File>
+      <File>Textures/All_VikingsScenario_portraits95.dds</File>
+      <File>Textures/All_VikingsScenario_portraits95.tex</File>
+      <File>Textures/Moment_UniqueUnit_Caballarii.dds</File>
+      <File>Textures/Moment_UniqueUnit_Caballarii.tex</File>
+      <File>Textures/Moment_UniqueUnit_Farfanes.dds</File>
+      <File>Textures/Moment_UniqueUnit_Farfanes.tex</File>
+      <File>Textures/Moment_UniqueUnit_Huscarl.dds</File>
+      <File>Textures/Moment_UniqueUnit_Huscarl.tex</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>AllVikingsScenarioUnits.dep</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Unit_Bins.artdef</File>
+    <File>Joint_Config_Data.sql</File>
+    <File>Joint_Gameplay.sql</File>
+    <File>Joint_icons.xml</File>
+    <File>Joint_Localisation.sql</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/All_VikingsScenario_icons22.dds</File>
+    <File>Textures/All_VikingsScenario_icons22.tex</File>
+    <File>Textures/All_VikingsScenario_icons256.dds</File>
+    <File>Textures/All_VikingsScenario_icons256.tex</File>
+    <File>Textures/All_VikingsScenario_icons32.dds</File>
+    <File>Textures/All_VikingsScenario_icons32.tex</File>
+    <File>Textures/All_VikingsScenario_icons38.dds</File>
+    <File>Textures/All_VikingsScenario_icons38.tex</File>
+    <File>Textures/All_VikingsScenario_icons50.dds</File>
+    <File>Textures/All_VikingsScenario_icons50.tex</File>
+    <File>Textures/All_VikingsScenario_icons80.dds</File>
+    <File>Textures/All_VikingsScenario_icons80.tex</File>
+    <File>Textures/All_VikingsScenario_portraits200.dds</File>
+    <File>Textures/All_VikingsScenario_portraits200.tex</File>
+    <File>Textures/All_VikingsScenario_portraits256.dds</File>
+    <File>Textures/All_VikingsScenario_portraits256.tex</File>
+    <File>Textures/All_VikingsScenario_portraits38.dds</File>
+    <File>Textures/All_VikingsScenario_portraits38.tex</File>
+    <File>Textures/All_VikingsScenario_portraits50.dds</File>
+    <File>Textures/All_VikingsScenario_portraits50.tex</File>
+    <File>Textures/All_VikingsScenario_portraits70.dds</File>
+    <File>Textures/All_VikingsScenario_portraits70.tex</File>
+    <File>Textures/All_VikingsScenario_portraits95.dds</File>
+    <File>Textures/All_VikingsScenario_portraits95.tex</File>
+    <File>Textures/Moment_UniqueUnit_Caballarii.dds</File>
+    <File>Textures/Moment_UniqueUnit_Caballarii.tex</File>
+    <File>Textures/Moment_UniqueUnit_Farfanes.dds</File>
+    <File>Textures/Moment_UniqueUnit_Farfanes.tex</File>
+    <File>Textures/Moment_UniqueUnit_Huscarl.dds</File>
+    <File>Textures/Moment_UniqueUnit_Huscarl.tex</File>
+    <File>Platforms/MacOS/BLPs/units/units.blp</File>
+    <File>Platforms/Windows/BLPs/units/units.blp</File>
+  </Files>
+</Mod>

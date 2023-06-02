@@ -98,14 +98,14 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2021476879 | City Original Owner Info | Imhotep | Stevie | #14
 2056401784 | District Expansion: Commerce | JNR | Junky | #8
 2068247220 | Tower Bridge (World Wonder) | Deliverator23 | H.Humpel | #4
-2077371059 | Alchemist Unit | SailorCat | H.Humpel | **NEW**
+2077371059 | Alchemist Unit | SailorCat | H.Humpel | #24
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | #19
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
-2134633861 | ARS - Improved Goody Huts v1.3 | Arstahd | H.Humpel | **NEW**
+2134633861 | ARS - Improved Goody Huts v1.3 | Arstahd | H.Humpel | #24
 2135724456 | Wetlands | JNR | Junky | #7
 2139486665 | Better World Rankings (UI) | infixo | Junky | #12
 2145663327 | Better Religion Window (UI) | infixo | Junky | #12
@@ -113,7 +113,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2155632734 | Latin American Resources | Leugi & p0kiehl | Junky | #7
 2169184492 | AB2531 Buy Units with Faith | NHC | H.Humpel | #15
 2170418036 | EpsTweak for Adaptation | Eps | Junky | #22
-2175425165 | [NF] Alchemist Unit | SailorCat | H.Humpel | **NEW**
+2175425165 | [NF] Alchemist Unit | SailorCat | H.Humpel | #24
 2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | #16
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2191979138 | EpsTweak for Adjacency Multipliers | Eps | Junky | #18
@@ -182,7 +182,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2793998824 | Age of Capital | Alf.Net | H.Humpel | #21
 2794603014 | Detailed Wonder Reminder Enhanced | Konomi | Junky | #17
 2794935656 | Silk & Spice: Trade Route Rework | Alf.Net | Junky | #18
-2796565833 | Ethereal Invasion (Area 51 Expansion Pack) | Alterd-Rushnano | H.Humpel | **NEW**
+2796565833 | Ethereal Invasion (Area 51 Expansion Pack) | Alterd-Rushnano | H.Humpel | #24
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2818358455 | Boom's Assyria | Boom | Junky | #23
@@ -191,7 +191,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21
 2844531694 | Eurekas And Inspirations | J_Kovic | Junky | #23
 2846567507 | Improved Recon Units! | Friend | Junky | #23
-2847136410 | Top Panel Extension | HktkNban | H.Humpel | **NEW**
+2847136410 | Top Panel Extension | HktkNban | H.Humpel | #24
 2851654918 | Walled Quarter | blkbutterfly | Junky | #21
 2856129795 | Enhanced Routes | Nightemaire | H.Humpel | #20
 2857099961 | Policy Pack: Corporations | JNR | H.Humpel | #21
@@ -199,6 +199,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | #20
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | #20
 2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | #21
+2862851843 | All Vikings Scenario units | Mikecro | Junky | **NEW**
 2863225264 | Bear's Mods - Governor Overhaul | MarshmallowBear | Junky | #21
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
 2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | #21
@@ -218,9 +219,9 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2905853016 | Boom's Arabia Rework [RERELEASE] | Boom | Junky | #23
 2910951427 | MC's Belisarius | MC | Junky | #23
 2911040779 | Extra Starting Settler | p0kiehl | H.Humpel | #23
-2916813487 | Resource Projects | liam | H.Humpel | **NEW**
-2923864038 | Saph's Ocean Start for All | Skylar Saphyr | H.Humpel | **NEW**
-2926564914 | Boom's City Center+ | Boom | H.Humpel | **NEW**
-2929355120 | PlantAndBreed | C1sen | Junky | **NEW**
-2935848037 | Unique Building: Dragon Kiln (China) | JNR | H.Humpel | **NEW**
-2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | **NEW**
+2916813487 | Resource Projects | liam | H.Humpel | #24
+2923864038 | Saph's Ocean Start for All | Skylar Saphyr | H.Humpel | #24
+2926564914 | Boom's City Center+ | Boom | H.Humpel | #24
+2929355120 | PlantAndBreed | C1sen | Junky | #24
+2935848037 | Unique Building: Dragon Kiln (China) | JNR | H.Humpel | #24
+2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | #24
