@@ -6,7 +6,7 @@
 --------------------------------------------------------------
 INSERT OR REPLACE INTO EnglishText
 		(Tag,													Text)
-VALUES	('LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS',	'+2 [ICON_Food] Food in every Orchard, Hammer Works, or Bathhouse building.'),
+VALUES	('LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS',	'+2 [ICON_Food] Food in every Orchard, Forge, or Bathhouse building.'),
 		('LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS',	'+2 [ICON_Food] Food in every Sewer building.');
 
 INSERT OR REPLACE INTO EnglishText

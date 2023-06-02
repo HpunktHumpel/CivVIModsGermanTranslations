@@ -5,6 +5,7 @@
 - [NEW] Better Civilopedia (UI) (vom 7. Apr. 2023 um 17:57, Übersetzung von Junky)
 - [UPDATE] Appeal, Loyalty and Prestige Font Icons (vom 5. Apr. 2023 um 20:06, Übersetzung von Junky)
 - [UPDATE] UC - Bonus Resource Improvements (vom  11. Apr. 2023 um 18:55, Übersetzung von Junky)
+- [UPDATE] UC - District Expansion:  Aqueduct (vom  2. Apr. 2023 um 17:39, Übersetzung von Junky)
 
 
 ===== Version 24 =====

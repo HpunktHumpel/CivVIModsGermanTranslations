@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="1373373a-f34d-4041-a0f8-49e2004e19a1" version="9">
+<Mod id="1373373a-f34d-4041-a0f8-49e2004e19a1" version="13">
   <Properties>
     <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_AQUEDUCT] Aqueduct</Name>
     <Description>New buildings and an adjacency policy for the Aqueduct, which is renamed to "Cistern" (Roman Bath is renamed "Aqueduct").</Description>
