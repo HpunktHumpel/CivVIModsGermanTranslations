@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ce53453f-78b0-482f-9da5-b2d04474fef8" version="1">
+  <Properties>
+    <Name>Armagh Monastery Rework</Name>
+    <Description>Monasteries are a unique looking tile improvement but I don't find them interesting to use because of their lackluster effects outside of housing. This mod reworks monasteries so that they contribute more to adjacent tiles to better represent how monasteries would interact with their surrounding communities and to hopefully create more interesting placement decisions.</Description>
+    <Created>1681528174</Created>
+    <Teaser>Armagh's monastery reworked to scale based on tile appeal, increase faith for holy sites and food for pastures and farms.</Teaser>
+    <Authors>Skunk</Authors>
+    <SpecialThanks>Weklim</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="ARMAGH_TOTAL_REWORK">
+      <File priority="6001">MonasteryDistrictRework.sql</File>
+      <File priority="6002">MonasteryFaithRework.sql</File>
+      <File priority="6003">MonasteryFoodRework.sql</File>
+      <File priority="6005">ArmaghReworkedText.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArmaghReworkedText.xml</File>
+    <File>MonasteryDistrictRework.sql</File>
+    <File>MonasteryFaithRework.sql</File>
+    <File>MonasteryFoodRework.sql</File>
+  </Files>
+</Mod>

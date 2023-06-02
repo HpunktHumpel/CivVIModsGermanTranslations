@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ArmaghReworkedText -->
+<!-- Author: Paoli | Übersetzer Junky-->
+<!-- DateCreated: 4/14/2023 1:45:35 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="de_DE" Tag="LOC_DISTRICT_MONASTERY_FAITH">
+			<Text>+1{Num} [ICON_Faith] Glauben von angrenzende{1_Num : plural 1?m Kloster; other?n Klöstern;}</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_DISTRICT_MONASTERY_FOOD">
+			<Text>+1{Num} [ICON_Food] Nahrung von angrenzende{1_Num : plural 1?m Kloster; other?n Klöstern;}</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

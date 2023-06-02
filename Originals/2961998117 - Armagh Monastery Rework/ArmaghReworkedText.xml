@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ArmaghReworkedText -->
+<!-- Author: Paoli -->
+<!-- DateCreated: 4/14/2023 1:45:35 PM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_DISTRICT_MONASTERY_FAITH">
+			<Text>+1{Num} [ICON_Faith] Faith from the adjacent Monastery, thank Armagh! {1_Num : plural 1?tile; other?tiles;} </Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MONASTERY_FOOD">
+			<Text>+1{Num} [ICON_Food] Food from the adjacent Monastery, thank Armagh! {1_Num : plural 1?tile; other?tiles;} </Text>
+		</Row>
+	</BaseGameText>
+</GameData>

@@ -225,3 +225,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2929355120 | PlantAndBreed | C1sen | Junky | #24
 2935848037 | Unique Building: Dragon Kiln (China) | JNR | H.Humpel | #24
 2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | #24
+2961998117 | Armagh Monastery Rework | Skunk | Junky | **NEW**
