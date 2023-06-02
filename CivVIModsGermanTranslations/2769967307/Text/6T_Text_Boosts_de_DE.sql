@@ -1,5 +1,5 @@
 -- 6T_Text_Boosts
--- Author: JNR | German Translation by Junky -- 24.07.2022 überprüft
+-- Author: JNR | German Translation by Junky -- 20.05.2023 überprüft
 --------------------------------------------------------------
 
 -- Deutsch
@@ -52,7 +52,7 @@ VALUES			 ('de_DE',   'LOC_BOOST_TRIGGER_6T_CITIZENSHIP',				'Baut 2 Theaterplä
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_ALCHEMY',					'Die Kunst der Alchemie ist uns vom Himmel geschenkt worden, und es ist der Wille des Himmels, dass der Mensch die Geheimnisse der Erde entschlüsselt.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_ASTROLOGY_JNR_6T',				'Baut ein Monument.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_ASTROLOGY_JNR_6T',				'Ein Denkmal lenkt unseren Blick zum Himmel und wir versuchen, den höheren Sinn in der himmlischen Ordnung zu ergründen.'),
-		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS_JNR_6T',				'Paltzhalter.'),
+		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_BALLISTICS_JNR_6T',				'Eure Quartiermeister verbessern die Pulverlagerung und die Logistik Eurer schweren Geschützstellungen, wodurch es einfacher wird, sie ins Feld zu führen.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_BRONZE_WORKING_JNR_6T',			'Werkzeuge aus Kupfer sind bei eurem Volk weit verbreitet. Für Waffen muss eine festere Legierung verwendet werden.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_BIOLOGY',					'Baut 3 Fischzuchten.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_BIOLOGY',					'Eure Küstenwirtschaft bietet Wissenschaftlern viele Möglichkeiten zur weiteren Erforschung von Meeresorganismen. Stammt alles Leben ursprünglich aus dem Meer?'),
@@ -131,8 +131,10 @@ VALUES			 ('de_DE',   'LOC_BOOST_TRIGGER_6T_CITIZENSHIP',				'Baut 2 Theaterplä
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_SATELLITES_JNR_UC',				'Ein Prototypsatellit wurde erfolgreich gestartet, und Eure Experten arbeiten bereits an spezielleren Systemen.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_SIEGE_ENGINES',				'Habt 2 Katapulte.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_SIEGE_ENGINES',				'Steine gegen Wände zu schleudern, funktioniert bisher gut. Mit fortschrittlicheren Motoren könnten wir 90 kg schwere Geschosse auf Ziele in über 300 m Entfernung abfeuern.'),
+				 ('de_DE',	'LOC_BOOST_TRIGGER_SIEGE_TACTICS_JNR_UC',			'Besitzt 2 Bombarden.'),
+		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_SIEGE_TACTICS_JNR_UC',			'Nach der Erstellung von Bombarden wird Euch klar, dass Burgen nicht unbezwingbar sind - Ihr braucht eine standhaftere Verteidigung!'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_SPINNING_WHEEL',				'Baut 3 Wassermühlen.'),
-				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_SPINNING_WHEEL_JNR_UC',		'Baut 2 Wassermühlen.'),
+				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_SPINNING_WHEEL_JNR_UC',		'Build 2 Wassermühlen.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_SPINNING_WHEEL',				'Eure Wassermühlen könnten ein großer Segen für die Textilindustrie sein.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_SQUARE_RIGGING_JNR_6T',			'Unsere Werften bauen Schiffe, die größer sind als je zuvor, aber neue Takeltechniken sind erforderlich, um sie effizient zu betreiben.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_STEALTH_TECHNOLOGY_JNR_6T',		'Habt 2 Atom-Unterseeboote.'),
@@ -141,7 +143,7 @@ VALUES			 ('de_DE',   'LOC_BOOST_TRIGGER_6T_CITIZENSHIP',				'Baut 2 Theaterplä
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER_JNR_6T',			'Wie viel größer können Segelschiffe werden? Unsere Ingenieure experimentieren mit der Nutzung von Dampfkraft zum Antrieb von Schiffen.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_STEEL_JNR_6T',					'Baut eine Kohlemine.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_STEEL_JNR_6T',					'Mit Kohle als Brennstoff können unsere Öfen höhere Temperaturen erreichen und unser Eisen kann noch widerstandsfähiger gemacht werden.'),
-		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS_JNR_6T',				'Die Feudalherren versuchen, beeindruckende Befestigungsanlagen zu errichten, um ihre Ländereien zu schützen.'),
+		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_STIRRUPS_JNR_6T',				'Die Feudalherren versuchen, beeindruckende Befestigungsanlagen zu errichten, um ihre Ländereien zu schützen.'),	
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_SURVEYING',					'Baut eine Plantage.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_SURVEYING',					'Unsere Landwirte erheben Anspruch auf die fruchtbarsten Böden. Wir müssen unser Land vermessen und dokumentieren, um eventuelle Streitigkeiten zu lösen.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_SYNTHETIC_MATERIALS_JNR_6T',	'Baut 2 Hangar.'),

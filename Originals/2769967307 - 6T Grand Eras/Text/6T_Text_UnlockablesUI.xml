@@ -29,7 +29,7 @@
 	</Row>
 	<!-- Embark and Naval Movement -->
 	<Row Tag="LOC_BTT_EMBARK_ALL_UNITS">
-		<Text>Allows all land units to embark.</Text>
+		<Text>Embark: All units.</Text>
 	</Row>
 	<Row Tag="LOC_BTT_EMBARKED_MOVEMENT">
 		<Text>+{1_Num} [ICON_Movement] Movement for embarked units.</Text>
@@ -53,6 +53,12 @@
 	<Row Tag="LOC_BTT_JUNGLE_LUMBER_MILL">
 		<Text>Lumber Mills can be built on Rainforest.</Text>
 	</Row>
+	<Row Tag="LOC_JNR_CLOTHIER_LATE_GAME_BONUS">
+		<Text>+1 [ICON_Gold] Gold to Pastures in cities with a Clothier.</Text>
+	</Row>
+	<Row Tag="LOC_JNR_BREWERY_LATE_GAME_BONUS">
+		<Text>+1 [ICON_Gold] Gold to Farms over Resources in cities with a Brewery.</Text>
+	</Row>
 	<!-- Victory -->
 	<Row Tag="LOC_BTT_DIPLO_VP">
 		<Text>Awards 1 Diplomatic Victory point.</Text>
@@ -63,7 +69,6 @@
 	<Row Tag="LOC_BTT_PROJECT_PRODUCTION_BONUS">
 		<Text>Grants all of your cities +5% [ICON_Production] Production towards city projects each time it is completed.</Text>
 	</Row>
-	
 	<!-- Giant Death Robot upgrades --> 
 	<Row Tag="LOC_BTT_GDR_ARMOR">
 		<Text>Unlocks Giant Death Robot upgrade: Reinforced Armor Plating[NEWLINE]+10 [ICON_Strength] Combat Strength when defending against land and naval units.</Text>
@@ -77,7 +82,6 @@
 	<Row Tag="LOC_BTT_GDR_MOVEMENT">
 		<Text>Unlocks Giant Death Robot upgrade: Enhanced Mobility[NEWLINE]+3 [ICON_Movement] Movement. Can perform a Jump action to cross over mountain terrain.</Text>
 	</Row>
-	
 	<!-- Tourism --> 
 	<Row Tag="LOC_BTT_TOURISM_WRITING">
 		<Text>All [ICON_Tourism] Tourism yields from [ICON_GreatWork_Writing] Great Works of Writing are doubled.</Text>
@@ -97,7 +101,33 @@
 	<Row Tag="LOC_BTT_TOURISM_WALLS">
 		<Text>Receive [ICON_TOURISM] Tourism from Walls.</Text>
 	</Row>
-	
+	<Row Tag="LOC_BTT_TOURISM_ARENA">
+		<Text>Receive [ICON_TOURISM] Tourism from Arenas.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_IMPROVEMENTS_KURGAN">
+		<Text>Receive [ICON_Tourism] Tourism on every Kurgan equivalent to the improvement's [ICON_Faith] Faith output.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_IMPROVEMENTS_KAMPUNG">
+		<Text>Receive [ICON_Tourism] Tourism on every Kampung equivalent to the improvement's [ICON_Food] Food output.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_IMPROVEMENTS_ROCK_HEWN_CHURCH">
+		<Text>Receive [ICON_Tourism] Tourism on every Rock-Hewn Church equivalent to the improvement's [ICON_Faith] Faith output.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_BUILDING_PRASAT">
+		<Text>In cities with a Prasat, receive +10 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] population is 10 or higher and +20 [ICON_Tourism] Tourism if the city [ICON_CITIZEN] population is 20 or higher.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_BUILDING_MARAE">
+		<Text>In cities with a Marae, receive +1 [ICON_TOURISM] Tourism to all of this city's tiles with a feature or natural wonder.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_DISTRICT_THANH">
+		<Text>Receive [ICON_Tourism] Tourism on every Thanh equivalent to the district's [ICON_Culture] Culture output.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_LEADER_TOKUGAWA">
+		<Text>Cities within 6 tiles of Tokugawa's [ICON_Capital] Capital receive +1 [ICON_Tourism] Tourism for every District.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TOURISM_LEADER_LUDWIG">
+		<Text>All [ICON_CULTURE] Culture adjacencies in districts provide [ICON_TOURISM] Tourism for Ludwig II.</Text>
+	</Row>
 	<!-- Monopolies Mode -->
 	<Row Tag="LOC_BTT_RESOURCE_REPORT">
 		<Text>Grants the ability to see the amounts of all of the resources in the world.</Text>
@@ -105,7 +135,6 @@
 	<Row Tag="LOC_BTT_CORPORATION_REQ">
 		<Text>Required to build Corporations.</Text>
 	</Row>
-	
 	<!-- UnitOperations --> 
 	<Row Tag="LOC_BTT_CORPS_FLEET">
 		<Text>Allows forming two identical units into a Corps or Fleet.</Text>
@@ -115,6 +144,84 @@
 	</Row>
 	<Row Tag="LOC_BTT_AIRLIFT">
 		<Text>Airlift: Allows for the transport of land units between Aerodrome districts that have all their buildings.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TREASURE_FLEET_NAVAL_CORPS_EARLY">
+		<Text>Allows Spain to form two identical naval units into a Fleet.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_TREASURE_FLEET_NAVAL_ARMIES_EARLY">
+		<Text>Allows Spain to form three identical naval units into an Armada.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_AMABUTHO_LAND_CORPS_EARLY">
+		<Text>Allows the Zulu to form two identical land units into a Corps.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_AMABUTHO_LAND_ARMIES_EARLY">
+		<Text>Allows the Zulu to form three identical land units into an Army.</Text>
+	</Row>
+	<!-- Casus Belli -->
+	<Row Tag="LOC_BTT_ARTHASHASTRA_TERRITORIAL_WAR_PREREQ">
+		<Text>{LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_NAME} ({LOC_TRAIT_LEADER_ARTHASHASTRA_NAME})[NEWLINE][NEWLINE]{LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_DESCRIPTION}</Text>
+	</Row>
+	<Row Tag="LOC_BTT_BANNOCKBURN_LIBERATION_WAR_PREREQ">
+		<Text>{LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_NAME} ({LOC_TRAIT_LEADER_BANNOCKBURN_NAME})[NEWLINE][NEWLINE]{LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_DESCRIPTION}</Text>
+	</Row>
+	<!-- Misc Uniques -->
+	<Row Tag="LOC_BTT_BUILDING_ELECTRONICS_FACTORY">
+		<Text>Electronics Factories provide an additional +4 [ICON_Culture] Culture to their city.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_FLYING_SQUADRON_FREE_SPY">
+		<Text>Catherine de Medici (Black Queen) receives +1 spy capacity and a free Spy.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_GOLD_CAPTURED">
+		<Text>Julius Caesar receives +500 [ICON_GOLD] Gold (on Standard Speed) when conquering a city for the first time or when earning [ICON_GOLD] Gold from a Barbarian Outpost instead of the previous amounts.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_WU_ZETIAN_FREE_SPY">
+		<Text>Wu Zetian receives +1 spy capacity and a free Spy.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_SATRAPIES_TRADE_ROUTE">
+		<Text>Persia receives +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_CREE_TRADE_ROUTE">
+		<Text>The Cree receive +1 [ICON_TradeRoute] Trade Route capacity and a free Trader.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_PORTUGAL_TRADE_EMBARK">
+		<Text>{LOC_UNITOPERATION_EMBARK_DESCRIPTION}: {LOC_UNIT_TRADER_NAME}</Text>
+	</Row>
+	<!-- Maori Mana -->
+	<Row Tag="LOC_BTT_MANA_WOODS_MERCANTILISM">
+		<Text>The Maori receive an additional +1 [ICON_PRODUCTION] Production on unimproved Woods.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_MANA_RAINFOREST_MERCANTILISM">
+		<Text>The Maori receive an additional +1 [ICON_PRODUCTION] Production on unimproved Rainforest.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_MANA_WOODS_CONSERVATION">
+		<Text>The Maori receive an additional +2 [ICON_PRODUCTION] Production on unimproved Woods.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_MANA_RAINFOREST_CONSERVATION">
+		<Text>The Maori receive an additional +2 [ICON_PRODUCTION] Production on unimproved Rainforest.</Text>
+	</Row>
+	<!-- MOD: Commerce District Expansion -->
+	<Row Tag="LOC_JNR_FISHING_DOCK_LATE_GAME_BONUS">
+		<Text>Fishing Docks provide +1 [ICON_FOOD] Food on all Ocean tiles for the city.</Text>
+	</Row>
+	<Row Tag="LOC_JNR_HAVEN_LATE_GAME_BONUS">
+		<Text>Havens provide +1 [ICON_GOLD] Gold on all Ocean tiles for the city. Doubled if the city is on a different continent from your capital.</Text>
+	</Row>
+	<!-- MOD: Power Progression -->
+	<Row Tag="LOC_PPC_TECH_ITEM_CC_1">
+		<Text>Cities require 1 [ICON_Power] Power by default.</Text>
+	</Row>
+	<Row Tag="LOC_PPC_TECH_ITEM_CC_2">
+		<Text>Cities require 1 more [ICON_Power] Power by default. Unlocks Power consumption and yields for second-highest building tiers in districts.</Text>
+	</Row>
+	<Row Tag="LOC_PPC_TECH_ITEM_AQ">
+		<Text>Aqueducts and Neighborhoods require 1 [ICON_Power] Power and provide +2 [ICON_Production] Production if powered.</Text>
+	</Row>
+	<!-- MOD: Silk & Spice: Trade Route Rework -->
+	<Row Tag="LOC_BTT_SILK_TRADE_ROUTE_RANGE_4">
+		<Text>Increases [Icon_SEARANGE] Sea Trade Range by 4 tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BTT_SILK_TRADE_ROUTE_RANGE_6">
+		<Text>Increases [Icon_SEARANGE] Sea Trade Range by 6 tiles.</Text>
 	</Row>
 </BaseGameText>
 

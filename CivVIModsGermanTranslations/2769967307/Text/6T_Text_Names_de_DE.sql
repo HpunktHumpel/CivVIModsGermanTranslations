@@ -1,5 +1,5 @@
 -- 6T_Text_Names
--- Author: JNR | German Translation by Junky - 24.07.2022
+-- Author: JNR | German Translation by Junky - 20.05.2023
 --------------------------------------------------------------
 
 -- Deutsch

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Better Tech Tree -->
-<!-- Author: Infixo --><!-- German Translation by Junky  -- 24.07.2022 -->
+<!-- Author: Infixo --><!-- German Translation by Junky  -- 20.05.2023 -->
 <!-- 2019-04-11: Created -->
 <GameData>
 
@@ -29,7 +29,7 @@
 	</Replace>
 	<!-- Embark and Naval Movement -->
 	<Replace Language= "de_DE" Tag="LOC_BTT_EMBARK_ALL_UNITS">
-		<Text>Ermöglicht allen Landeinheiten das Wassern.</Text>
+		<Text>Wassern: Alle Einheiten.</Text>
 	</Replace>
 	<Replace Language= "de_DE" Tag="LOC_BTT_EMBARKED_MOVEMENT">
 		<Text>+{1_Num} [ICON_Movement] Fortbewegung für gewasserte Einheiten.</Text>
@@ -52,6 +52,12 @@
 	</Replace>
 	<Replace Language= "de_DE" Tag="LOC_BTT_JUNGLE_LUMBER_MILL">
 		<Text>Sägewerke können auf Regenwald gebaut werden.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_JNR_CLOTHIER_LATE_GAME_BONUS">
+		<Text>+1 [ICON_Gold] Gold für Weiden in Städten mit einer Schneiderei.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_JNR_BREWERY_LATE_GAME_BONUS">
+		<Text>+1 [ICON_Gold] Gold für Bauernhöfe auf Ressourcen in Städten mit einer Brauerei.</Text>
 	</Replace>
 	<!-- Victory -->
 	<Replace Language= "de_DE" Tag="LOC_BTT_DIPLO_VP">
@@ -98,6 +104,33 @@
 		<Text>Ihr erhaltet [ICON_TOURISM] Tourismus durch Stadtmauern.</Text>
 	</Replace>
 	
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_ARENA">
+		<Text>Erhaltet [ICON_TOURISM] Tourismus durch Arenen.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_IMPROVEMENTS_KURGAN">
+		<Text>Erhaltet [ICON_TOURISM] Tourismus für jeden Kurgan in Höhe dessen [ICON_Faith] Glaubensertrags.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_IMPROVEMENTS_KAMPUNG">
+		<Text>Erhaltet [ICON_TOURISM] Tourismus für jeden Kampung in Höhe dessen [ICON_Food] Nahrungsertrags.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_IMPROVEMENTS_ROCK_HEWN_CHURCH">
+		<Text>Erhaltet [ICON_TOURISM] Tourismus für jede Felskirche in Höhe deren [ICON_Faith] Glaubensertrags.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_BUILDING_PRASAT">
+		<Text>In Städten mit einem Prasat erhaltet Ihr +10 [ICON_Tourism] Tourismus ab 10 oder mehr [ICON_CITIZEN] Bürgern, sowie +20 [ICON_Tourism] Tourismus ab 20 oder mehr [ICON_CITIZEN] Bürgern.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_BUILDING_MARAE">
+		<Text>In Städten mit einer Marae erhaltet Ihr +1 [ICON_TOURISM] Tourismus auf jedem Geländefeld der Stadt das eine Geländeart oder ein Naturwunder enthält.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_DISTRICT_THANH">
+		<Text>Erhaltet [ICON_TOURISM] Tourismus für jeden Thành in Höhe des [ICON_Culture] Kulturertrags des Bezirks.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_LEADER_TOKUGAWA">
+		<Text>Städte innerhalb 6 Geländefelder der [ICON_Capital] Hauptstadt Tokugawa's erhalten +1 [ICON_Tourism] Tourismus für jeden Bezirk.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TOURISM_LEADER_LUDWIG">
+		<Text>Jeder [ICON_CULTURE] Kultur-Nachbarschaftsbonus in Bezirken gewährt [ICON_TOURISM] Tourismus für Ludwig II.</Text>
+	</Replace>
 	<!-- Monopolies Mode -->
 	<Replace Language= "de_DE" Tag="LOC_BTT_RESOURCE_REPORT">
 		<Text>Gewährt die Fähigkeit die gesamte Anzahl der Ressourcen der Welt einzusehen.</Text>
@@ -115,6 +148,84 @@
 	</Replace>
 	<Replace Language= "de_DE" Tag="LOC_BTT_AIRLIFT">
 		<Text>Lufttransport:Ermöglicht den Transport von Landeinheiten zwischen Flugplatz-Bezirken mit Flughäfen.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TREASURE_FLEET_NAVAL_CORPS_EARLY">
+		<Text>Ermöglicht Spanien mit zwei identischen Marineeinheiten eine Flotte zu formen.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_TREASURE_FLEET_NAVAL_ARMIES_EARLY">
+		<Text>Ermöglicht Spanien mit drei identischen Marineeinheiten eine Armada zu formen.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_AMABUTHO_LAND_CORPS_EARLY">
+		<Text>Ermöglicht den Zulu mit zwei identischen Landeinheiten ein Korps zu formen.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_AMABUTHO_LAND_ARMIES_EARLY">
+		<Text>Ermöglicht den Zulu mit drei identischen Landeinheiten eine Armee zu formen.</Text>
+	</Replace>
+	<!-- Casus Belli -->
+	<Replace Language= "de_DE" Tag="LOC_BTT_ARTHASHASTRA_TERRITORIAL_WAR_PREREQ">
+		<Text>{LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_NAME} ({LOC_TRAIT_LEADER_ARTHASHASTRA_NAME})[NEWLINE][NEWLINE]{LOC_DIPLOACTION_DECLARE_TERRITORIAL_WAR_DESCRIPTION}</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_BANNOCKBURN_LIBERATION_WAR_PREREQ">
+		<Text>{LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_NAME} ({LOC_TRAIT_LEADER_BANNOCKBURN_NAME})[NEWLINE][NEWLINE]{LOC_DIPLOACTION_DECLARE_LIBERATION_WAR_DESCRIPTION}</Text>
+	</Replace>
+	<!-- Misc Uniques -->
+	<Replace Language= "de_DE" Tag="LOC_BTT_BUILDING_ELECTRONICS_FACTORY">
+		<Text>Elektronikfabriken gewähren ihrer Stadt zusätzlich +4 [ICON_Culture] Kultur.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_FLYING_SQUADRON_FREE_SPY">
+		<Text>Katharina von Medici (Schwarze Königin) erhält +1 Spionkapazität und einen kostenfreien Spion.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_GOLD_CAPTURED">
+		<Text>Julius Cäsar erhält +500 [ICON_GOLD] Gold (auf Standard-Geschwindigkeit) beim erstmaligen Erobern einer Stadt oder bei Erhalt von [ICON_GOLD] Gold durch ein Barbarenlager statt der vormaligen Erträge.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_WU_ZETIAN_FREE_SPY">
+		<Text>Wu Zetian erhält +1 Spionkapazität und einen kostenfreien Spion.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_SATRAPIES_TRADE_ROUTE">
+		<Text>Persien erhält +1 [ICON_TradeRoute] Handelswegkapazität.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_CREE_TRADE_ROUTE">
+		<Text>Die Cree erhalten +1 [ICON_TradeRoute] Handelswegkapazität und einen kostenfreien Händler.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_PORTUGAL_TRADE_EMBARK">
+		<Text>{LOC_UNITOPERATION_EMBARK_DESCRIPTION}: {LOC_UNIT_TRADER_NAME}</Text>
+	</Replace>
+	<!-- Maori Mana -->
+	<Replace Language= "de_DE" Tag="LOC_BTT_MANA_WOODS_MERCANTILISM">
+		<Text>Die Maori erhalten auf unverbessertem Wald zusätzlich +1 [ICON_PRODUCTION] Produktion.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_MANA_RAINFOREST_MERCANTILISM">
+		<Text>Die Maori erhalten auf unverbessertem Regenwald +1 [ICON_PRODUCTION] Produktion.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_MANA_WOODS_CONSERVATION">
+		<Text>Die Maori erhalten auf unverbessertem Wald +2 [ICON_PRODUCTION] Produktion.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_MANA_RAINFOREST_CONSERVATION">
+		<Text>Die Maori erhalten auf unverbesserten Regenwald +2 [ICON_PRODUCTION] Produktion.</Text>
+	</Replace>
+	<!-- MOD: Commerce District Expansion -->
+	<Replace Language= "de_DE" Tag="LOC_JNR_FISHING_DOCK_LATE_GAME_BONUS">
+		<Text>Fischerstege gewähren +1 [ICON_FOOD] Nahrung auf Ozeanfeldern der Stadt.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_JNR_HAVEN_LATE_GAME_BONUS">
+		<Text>Anlegestellen gewähren +1 [ICON_GOLD] Gold auf Ozeanfeldern der Stadt. Wird verdoppelt, wenn die Stadt auf einem anderen Kontinent als dem der Hauptstadt liegt.</Text>
+	</Replace>
+	<!-- MOD: Power Progression -->
+	<Replace Language= "de_DE" Tag="LOC_PPC_TECH_ITEM_CC_1">
+		<Text>Städte benötigen von vornherein 1 [ICON_Power] Energie.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_PPC_TECH_ITEM_CC_2">
+		<Text>Städte benötigen standardmäßig 1 [ICON_Power] Energie mehr. Schaltet Energieverbrauch und Erträge für Stufe-2-Gebäude in Bezirken frei.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_PPC_TECH_ITEM_AQ">
+		<Text>Aquädukte und Wohnviertel benötigen 1 [ICON_Power] Energie und gewähren +2 [ICON_Production] Produktion, wenn energieversorgt.</Text>
+	</Replace>
+	<!-- MOD: Silk & Spice: Trade Route Rework -->
+	<Replace Language= "de_DE" Tag="LOC_BTT_SILK_TRADE_ROUTE_RANGE_4">
+		<Text>Erhöht die [Icon_SEARANGE] Reichweite von Seehandelswegen um 4 Felder.</Text>
+	</Replace>
+	<Replace Language= "de_DE" Tag="LOC_BTT_SILK_TRADE_ROUTE_RANGE_6">
+		<Text>Erhöht die [Icon_SEARANGE] Reichweite von Seehandelswegen um 6 Felder.</Text>
 	</Replace>
 </LocalizedText>
 

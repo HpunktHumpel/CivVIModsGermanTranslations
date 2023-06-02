@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0" version="15">
+<Mod id="3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0" version="19">
   <Properties>
     <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Grand Eras</Name>
     <Description>Adds one new era and many new techs and civics. New icons for all "special" unlocks. Designed from the ground up with available modded content in mind.</Description>
@@ -38,6 +38,9 @@
 	</Criteria>
 	<Criteria id="Uniques_GranColombia">
 	  <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>				<!-- DLC: Gran Colombia & Maya Pack -->
+	</Criteria>
+	<Criteria id="Uniques_Korea">
+	  <ModInUse>249D9276-0832-48E4-B370-14531FA4E33C</ModInUse>				<!-- DLC: Great Builders Pack -->
 	</Criteria>
 	<Criteria id="MOD_Extended_Eras">
 	  <ModInUse>9388ec5d-e6c3-4314-95d4-ffa47046947d</ModInUse>				<!-- Extended Eras -->
@@ -173,6 +176,12 @@
       </Properties>
       <File>Data/Uniques/6T_Gran_Colombia.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="Uniques_Korea" criteria="Uniques_Korea">
+      <Properties>
+        <LoadOrder>13051</LoadOrder>
+      </Properties>
+      <File>Data/Uniques/6T_Korea.sql</File>
+    </UpdateDatabase>
     <UpdateDatabase id="Uniques_Nubia" criteria="Uniques_Nubia">
       <Properties>
         <LoadOrder>13021</LoadOrder>
@@ -190,6 +199,8 @@
         <LoadOrder>15000</LoadOrder>
       </Properties>
       <File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate.sql</File>
+	  <File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate_Uniques.sql</File>
+	  <File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate_Mods.sql</File>
     </UpdateDatabase>
 	<ImportFiles id="6T_ImportFiles">
 	  <Properties>
@@ -342,6 +353,7 @@
     <File>Data/Uniques/6T_Canada.sql</File>
     <File>Data/Uniques/6T_Dutch.sql</File>
     <File>Data/Uniques/6T_Gran_Colombia.sql</File>
+    <File>Data/Uniques/6T_Korea.sql</File>
     <File>Data/Uniques/6T_Maori.sql</File>
     <File>Data/Uniques/6T_Norway.sql</File>
     <File>Data/Uniques/6T_Nubia.sql</File>
@@ -353,6 +365,8 @@
     <File>Data/UnitOptions/6T_Units_WE.sql</File>
 	<File>Data/UnlockableIcons/6T_ExtraUnlockables_Base.sql</File>
     <File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate.sql</File>
+	<File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate_Mods.sql</File>
+	<File>Data/UnlockableIcons/6T_ExtraUnlockables_Populate_Uniques.sql</File>
     <File>Data/Unlocks/6T_Unlock_Buildings.sql</File>
     <File>Data/Unlocks/6T_Unlock_Diplomacy.sql</File>
     <File>Data/Unlocks/6T_Unlock_Districts.sql</File>

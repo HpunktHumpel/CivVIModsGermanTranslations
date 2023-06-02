@@ -1,5 +1,5 @@
 -- 6T_Text_Misc
--- Author: JNR | German Translation by Junky -- 24.07.2022
+-- Author: JNR | German Translation by Junky -- 20.05.2023
 --------------------------------------------------------------
 
 -- Deutsch
@@ -24,7 +24,10 @@ VALUES	('de_DE',	'LOC_POLICY_AGOGE_DESCRIPTION_6T',								'+50% [ICON_Productio
 		('de_DE',	'LOC_POLICY_6T_DRESSAGE_DESCRIPTION',							'+50% [ICON_Production] Produktion für Schwere und Leichte Kavallerieeinheiten des Industriezeitalters oder früher.'),
 		
 		('de_DE',	'LOC_POLICY_6T_CLINKER_DESCRIPTION',							'+100% [ICON_Production] Produktion für Seekampfeinheiten des Mittelalters oder früher.'),
-		
+
+		('de_DE',	'LOC_GREATWORKOBJECT_ARTIFACT_ERA_6T_POST_CLASSICAL',			'[ICON_GreatWork_Artifact] Artefakt der Spätklassik'),
+		('de_DE',	'LOC_GREATWORKOBJECT_ARTIFACT_ERA_6T_POST_CLASSICAL_PLURAL',	'[ICON_GreatWork_Artifact] Artefakte der Spätklassik'),
+	
 		('de_DE',	'LOC_GREATWORK_ARTIFACT_6T_01_NAME',							'Artefakt A der Spätklassik'),
 		('de_DE',	'LOC_GREATWORK_ARTIFACT_6T_02_NAME',							'Artefakt B der Spätklassik'),
 		('de_DE',	'LOC_GREATWORK_ARTIFACT_6T_03_NAME',							'Artefakt C der Spätklassik'),
