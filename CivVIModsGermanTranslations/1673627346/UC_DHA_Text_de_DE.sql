@@ -71,4 +71,5 @@ VALUES	-- Text Updates
 		('de_DE',	'LOC_PEDIA_CONCEPTS_PAGE_JNR_UC_DISTRICT_HAPPINESS_CHAPTER_JNRDHAAUSSIE_PARA_1',
 		'Der Erhalt weiterer Boni durch Bezirke an Orten mit atemberaubender Anziehungskraft ist eine sehr starke Veränderung für Australien, das dank seiner einzigartigen Fähigkeit über enorme Synergien verfügt. Infolgedessen wurden die folgenden Änderungen zum Zwecke der Ausgewogenheit vorgenommen. Denkt daran: Alles in Australien will euch töten, und Feuchtgebiete sind ein Paradies für gefährliche Kreaturen.[NEWLINE][NEWLINE][ICON_Bullet]Schwemmland in Gebieten Australiens reduzieren die Anziehungskraft angrenzender Felder um 1.[NEWLINE][ICON_Bullet]Sümpfe in Gebieten Australiens reduzieren die Anziehungskraft angrenzender Felder um 2 (statt 1).');
 
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Geländefeldern statt wie üblich -1.', 'Geländefeldern.') WHERE Language = 'de_DE' AND Tag='LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION';
 --------------------------------------------------------------

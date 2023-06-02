@@ -8,6 +8,7 @@
 - [UPDATE] UC - Bonus Resource Improvements (vom  11. Apr. 2023 um 18:55, Übersetzung von Junky)
 - [UPDATE] UC - District Expansion: Aqueduct (vom  2. Apr. 2023 um 17:39, Übersetzung von Junky)
 - [UPDATE] UC - District Expansion: Commerce (vom 29. März 2023 um 4:42, Übersetzung von Junky)
+- [UPDATE] UC - Happy Districts (vom 21. März 2023 um 16:44, Übersetzung von Junky)
 
 
 ===== Version 24 =====

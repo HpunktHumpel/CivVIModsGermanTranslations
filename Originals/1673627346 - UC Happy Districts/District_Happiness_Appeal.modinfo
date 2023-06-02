@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="34f67921-9d87-4089-b5d7-d1f259f5f04f" version="4">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - Happy Districts</Name>
+    <Description>Appeal Overhaul mod for more complex district placement. Districts with breathtaking Appeal receive an extra Amenity, while districts with poor Appeal lose Amenities. Includes several changes to Appeal sources, such as Floodplains no longer reducing the Appeal of surrounding tiles, and many more. Also includes balance adjustments for Australia and Ptolemaic Cleopatra when the respective DLCs active. See ingame Civilopedia for more details.</Description>
+    <Teaser>Appeal Overhaul mod.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>130</LoadOrder>
+      </Properties>
+      <File>UC_DHA_Text.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>130</LoadOrder>
+      </Properties>
+      <File>UC_DHA_Sources.sql</File>
+      <File>UC_DHA_Amenities.sql</File>
+      <File>UC_DHA_Balance.sql</File>
+      <File>UC_DHA_Pedia.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>130</LoadOrder>
+      </Properties>
+      <File>UC_DHA_Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>UC_DHA_Amenities.sql</File>
+    <File>UC_DHA_Balance.sql</File>
+    <File>UC_DHA_Pedia.sql</File>
+    <File>UC_DHA_Sources.sql</File>
+    <File>UC_DHA_Text.sql</File>
+  </Files>
+</Mod>
