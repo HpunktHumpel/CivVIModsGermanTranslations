@@ -1,9 +1,23 @@
 --==========================================================================================================================
--- UNIT TEXT
+-- UNIT TEXT --geprüft am 31.05.2023
 --==========================================================================================================================
 INSERT OR REPLACE INTO LocalizedText
 		(Language, Tag,	Text)
 VALUES
+--------------------------------------------------------------------
+-- Reyna Changes
+--------------------------------------------------------------------
+		("de_DE", 
+		"LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_NAME",					
+		"Rechnungsprüfer"),
+		
+		("de_DE", 
+		"LOC_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_DESCRIPTION",					
+		"Verbesserungen von Großunternehmern und Investoren innerhalb 6 Geländefeldern gewähren +4 [ICON_GOLD] Gold. Die [ICON_GOLD] Goldkosten zum Kauf eines Großunternehmers und Investors verringern sich in dieser Stadt um 10%."),
+		
+		("de_DE", 
+		"LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR_CHAPTER_HISTORY_PARA_1",					
+		"Ein Wirtschaftsprüfer (Auditor General), der in einigen Ländern auch als Rechnungsprüfer bezeichnet wird, ist ein hochrangiger Beamter, der die Aufgabe hat, die Rechenschaftspflicht der Regierung zu verbessern, indem er die Vorgänge der Regierung prüft und darüber berichtet. Die Rechnungsprüfung ist seit der Antike eine Schutzmaßnahme und hat sich inzwischen auf so viele Bereiche des öffentlichen Sektors und der Unternehmen ausgedehnt, dass Akademiker eine so genannte Audit Society (Rechnungsprüfungsgesellschaft) ausgemacht haben. Im Mittelalter, als die manuelle Buchführung weit verbreitet war, ließen sich die Rechnungsprüfer in Großbritannien die Konten vorlesen und überprüften, ob das Personal der Organisation nicht nachlässig oder betrügerisch handelte. 1951 stellte Moyer fest, dass die wichtigste Aufgabe des Rechnungsprüfers darin bestand, Betrug aufzudecken. Chatfield dokumentierte, dass die frühe Rechnungsprüfung in den Vereinigten Staaten hauptsächlich als Überprüfung von Buchhaltungsdetails angesehen wurde. Ein Gouverneur, der als Rechnungsprüfer in Ihrer Zivilisation arbeitet, wird wahrscheinlich in der Lage sein, dafür zu sorgen, dass staatliche Einrichtungen und Unternehmen weniger Geld durch Korruption verlieren, und sicherzustellen, dass Verträge angemessen und nicht überteuert sind."),
 --------------------------------------------------------------------
 -- Basic Unit Info
 --------------------------------------------------------------------

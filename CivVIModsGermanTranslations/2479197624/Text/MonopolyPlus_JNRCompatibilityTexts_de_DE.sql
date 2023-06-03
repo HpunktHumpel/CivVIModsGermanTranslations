@@ -1,4 +1,5 @@
-INSERT OR REPLACE INTO LocalizedText
+ --geprüft am 31.05.2023
+ INSERT OR REPLACE INTO LocalizedText
 		(Language, Tag,	Text)
 SELECT
 		"de_DE", 
