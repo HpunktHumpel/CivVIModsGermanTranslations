@@ -86,7 +86,7 @@ VALUES
 		
 		("de_DE", 
 		"LOC_POLICY_LEU_BIG_GAME_HUNTING_DESC",					
-		"Das Besiegen von Wildtieren an Land liefert +50% [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch und [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotische Arten."),
+		"Das Besiegen von Wildtieren an Land liefert +50% mehr Ressourcen."),
 
 		("de_DE", 
 		"LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LEU_BIG_GAME_HUNTING_CHAPTER_HISTORY_PARA_1",					
@@ -162,7 +162,7 @@ VALUES
 		
 		("de_DE", 
 		"LOC_POLICY_LEU_WHALESHIPS_DESC",					
-		"Das Besiegen von Wasser-Wildtieren liefert +100% [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch und +100% [ICON_RESOURCE_LEU_AQUATIC_SPECIES] Wasserarten."),
+		"Das Besiegen von Wasser-Wildtieren liefert +100% mehr Ressourcen."),
 
 		("de_DE", 
 		"LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LEU_WHALESHIPS_CHAPTER_HISTORY_PARA_1",					
@@ -206,7 +206,7 @@ VALUES
 		
 		("de_DE", 
 		"LOC_POLICY_LEU_EX_SITU_CONSERVATION_DESC",					
-		"Erhält +10 [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotische Arten bei der Einrichtung von Nationalparks."),
+		"Erhält +5 [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotische Arten bei der Errichtung von Nationalparks."),
 
 		("de_DE", 
 		"LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LEU_EX_SITU_CONSERVATION_CHAPTER_HISTORY_PARA_1",					
@@ -250,29 +250,35 @@ VALUES
 		"Einige der Bewegungen in unserem Land bestehen darauf, dass wir den Schutz der Tiere als internationale Priorität fördern, auch wenn dies bedeutet, dass wir sie von anderen Staaten fernhalten, die sie zur Erholung nutzen, anstatt sie zu pflegen.");
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text, "Combat victories over Wild Animals provide [ICON_FAITH] Faith equal to the [ICON_Strength] Combat Strength of the defeated unit.[NEWLINE][NEWLINE]","Kampfsiege über wilde Tiere verleihen [ICON_FAITH] Glaube in Höhe der [ICON_Strength] Kampfstärke der besiegten Einheit.[NEWLINE][NEWLINE]")
+SET Text = REPLACE(Text, "Combat victories over Wild Animals provide [ICON_FAITH] Faith equal to the [ICON_Strength] Combat Strength of the defeated unit.[NEWLINE][NEWLINE]",
+						 "Kampfsiege über wilde Tiere verleihen [ICON_FAITH] Glaube in Höhe der [ICON_Strength] Kampfstärke der besiegten Einheit.[NEWLINE][NEWLINE]")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text, "[NEWLINE][NEWLINE]While this city is producing an Animal Exhibit project, all owned cities receive +4 Loyalty.", "[NEWLINE][NEWLINE]Während diese Stadt ein Tierausstellungsprojekt produziert, erhalten alle Städte, die Euch gehören, +4 Loyalität.")
+SET Text = REPLACE(Text, "[NEWLINE][NEWLINE]While this city is producing an Animal Exhibit project, all owned cities receive +4 Loyalty.", 
+						 "[NEWLINE][NEWLINE]Während diese Stadt ein Tierausstellungsprojekt produziert, erhalten alle Städte, die Euch gehören, +4 Loyalität.")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_COLOSSEUM_DESCRIPTION";
 
 
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]When completed, all [ICON_LEU_LOCAL_FAUNA] Local Fauna within a tile of the Preserve recover +15 [ICON_LIFESPAN] Lifespan.","[NEWLINE][NEWLINE]Bei Abschluss, erhalten alle [ICON_LEU_LOCAL_FAUNA] Einheimischen Faunen innerhalb eines Feldes des Schutzgebietes +15 [ICON_LIFESPAN] Lebenszeit.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]When completed, all [ICON_LEU_LOCAL_FAUNA] Local Fauna within a tile of the Preserve recover +15 [ICON_LIFESPAN] Lifespan.",
+						"[NEWLINE][NEWLINE]Bei Abschluss, erhalten alle [ICON_LEU_LOCAL_FAUNA] Einheimischen Faunen innerhalb eines Feldes des Schutzgebietes +15 [ICON_LIFESPAN] Lebenszeit.")
 WHERE Language = "de_DE" AND Tag = "LOC_PROJECT_LEU_ENHANCE_DISTRICT_PRESERVE_DESC";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_GREATARTIST] Great Artist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+1 [ICON_GREATSCIENTIST] Great Scientist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.","[NEWLINE][NEWLINE]+1 [ICON_GREATARTIST] Großer-Künstler-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna.[NEWLINE]+1 [ICON_GREATSCIENTIST] Großer-Wissenschaftler-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna. [NEWLINE]+25% Chance, dass benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna eine neue Generation zeugt, nachdem ihre [ICON_LIFESPAN] Lebensspanne erschöpft ist.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_GREATARTIST] Great Artist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+1 [ICON_GREATSCIENTIST] Great Scientist Points for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.",
+						"[NEWLINE][NEWLINE]+1 [ICON_GREATARTIST] Großer-Künstler-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna.[NEWLINE]+1 [ICON_GREATSCIENTIST] Großer-Wissenschaftler-Punkte für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna. [NEWLINE]+25% Chance, dass benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna eine neue Generation zeugt, nachdem ihre [ICON_LIFESPAN] Lebensspanne erschöpft ist.")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_GROVE_DESCRIPTION";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Favor for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.","[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Diplomatische Gunst für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna[NEWLINE]+25% Chance der angrenzenden [ICON_LEU_LOCAL_FAUNA] Einheimischen Fauna, eine neue Generation zu erzeugen, nachdem ihre [ICON_LIFESPAN] Lebensspanne erschöpft ist.")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Favor for each adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna unit.[NEWLINE]+25% Chance of adjacent [ICON_LEU_LOCAL_FAUNA] Local Fauna to give birth to a new generation after their Lifespan is depleted.",
+						"[NEWLINE][NEWLINE]+1 [ICON_FAVOR] Diplomatische Gunst für jede benachbarte [ICON_LEU_LOCAL_FAUNA] Einheimische Fauna[NEWLINE]+25% Chance der angrenzenden [ICON_LEU_LOCAL_FAUNA] Einheimischen Fauna, eine neue Generation zu erzeugen, nachdem ihre [ICON_LIFESPAN] Lebensspanne erschöpft ist.")
 WHERE Language = "de_DE" AND Tag = "LOC_BUILDING_SANCTUARY_DESCRIPTION";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"[NEWLINE][NEWLINE][COLOR_Civ6Red]The [ICON_RESOURCE_LEU_BUSHMEAT] Consume Bushmeat project reduces [ICON_FAVOR] Favor by 5 every turn.[ENDCOLOR]","[NEWLINE][NEWLINE][COLOR_Civ6Red]Das Projekt [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch verzehren reduziert [ICON_FAVOR] Gunst jede Runde um 5.[ENDCOLOR]")
+SET Text = REPLACE(Text,"[NEWLINE][NEWLINE][COLOR_Civ6Red]The [ICON_RESOURCE_LEU_BUSHMEAT] Consume Bushmeat project reduces [ICON_FAVOR] Favor by 5 every turn.[ENDCOLOR]",
+						"[NEWLINE][NEWLINE][COLOR_Civ6Red]Das Projekt [ICON_RESOURCE_LEU_BUSHMEAT] Wildfleisch verzehren reduziert [ICON_FAVOR] Gunst jede Runde um 5.[ENDCOLOR]")
 WHERE Language = "de_DE" AND Tag = "LOC_CIVIC_CONSERVATION_DESCRIPTION";
 
 

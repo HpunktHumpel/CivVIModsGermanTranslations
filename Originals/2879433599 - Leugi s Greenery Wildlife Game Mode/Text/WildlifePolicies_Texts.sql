@@ -79,7 +79,7 @@ VALUES
 		
 		("en_US", 
 		"LOC_POLICY_LEU_BIG_GAME_HUNTING_DESC",					
-		"Defeating land Wild Animals provides +50% [ICON_RESOURCE_LEU_BUSHMEAT] Bushmeat and [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotic Species."),
+		"Defeating land Wild Animals provides +50% more Resources."),
 
 		("en_US", 
 		"LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LEU_BIG_GAME_HUNTING_CHAPTER_HISTORY_PARA_1",					
@@ -173,7 +173,7 @@ VALUES
 		
 		("en_US", 
 		"LOC_POLICY_LEU_WHALESHIPS_DESC",					
-		"Defeating water Wild Animals provides +100% [ICON_RESOURCE_LEU_BUSHMEAT] Bushmeat and +100% [ICON_RESOURCE_LEU_AQUATIC_SPECIES] Aquatic Species."),
+		"Defeating water Wild Animals provides +100% more Resources."),
 
 		("en_US", 
 		"LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LEU_WHALESHIPS_CHAPTER_HISTORY_PARA_1",					
@@ -226,7 +226,7 @@ VALUES
 		
 		("en_US", 
 		"LOC_POLICY_LEU_EX_SITU_CONSERVATION_DESC",					
-		"Receives +10 [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotic Species when establishing National Parks."),
+		"Receives +5 [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotic Species when establishing National Parks."),
 
 		("en_US", 
 		"LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LEU_EX_SITU_CONSERVATION_CHAPTER_HISTORY_PARA_1",					

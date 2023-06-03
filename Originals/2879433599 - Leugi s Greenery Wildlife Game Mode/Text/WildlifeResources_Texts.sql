@@ -64,7 +64,7 @@ VALUES
 		
 		("en_US", 
 		"LOC_PROJECT_LEU_ANIMAL_EXHIBIT_DESC",					
-		"Resource-based project which provides +2 [ICON_AMENITIES] Amenities Tourism while produced, and converts 100% of its city's [ICON_PRODUCTION] Production into [ICON_GOLD] Gold. If the city has an Entertainment Complex the [ICON_AMENITIES] Amenities are doubled and the district provides +4 [ICON_TOURISM] Tourism whlie produced.[NEWLINE][NEWLINE]If the city has a Zoo the project provides +100% [ICON_TOURISM] Tourism at the city while produced and grants the Zoo +4 [ICON_Tourism] Tourism permanently upon completion.[NEWLINE][NEWLINE]The cost may vary based on Game Speed.[NEWLINE]"),
+		"Resource-based project which provides +2 [ICON_AMENITIES] Amenities Tourism while produced, and converts 35% of its city's [ICON_PRODUCTION] Production into [ICON_SCIENCE] Science. If the city has an Entertainment Complex the [ICON_AMENITIES] Amenities are doubled and the district provides +4 [ICON_TOURISM] Tourism whlie produced.[NEWLINE][NEWLINE]If the city has a Zoo the project provides +100% [ICON_TOURISM] Tourism at the city while produced.[NEWLINE][NEWLINE]The cost may vary based on Game Speed.[NEWLINE]"),
 		
 		--
 		("en_US", 
@@ -77,7 +77,7 @@ VALUES
 		
 		("en_US", 
 		"LOC_PROJECT_LEU_AQUATIC_EXHIBIT_DESC",					
-		"Requires a Water Park.[NEWLINE]Resource-based project which provides +4 [ICON_AMENITIES] Amenities and +8 [ICON_TOURISM] Tourism while produced, and converts [ICON_PRODUCTION] Production into [ICON_GOLD] Gold.[NEWLINE][NEWLINE]If the city has an Aquarium the project increases [ICON_TOURISM] Tourism from the city by +100% [ICON_TOURISM] Tourism at the city while produced and grants the Aquarium +4 [ICON_Tourism] Tourism permanently upon completion.[NEWLINE][NEWLINE]The cost may vary based on Game Speed.[NEWLINE]"),
+		"Requires a Water Park.[NEWLINE]Resource-based project which provides +4 [ICON_AMENITIES] Amenities and +8 [ICON_TOURISM] Tourism while produced, and converts 50% of its city's [ICON_PRODUCTION] Production into [ICON_SCIENCE] Science.[NEWLINE][NEWLINE]If the city has an Aquarium the project increases [ICON_TOURISM] Tourism from the city by +100% [ICON_TOURISM] Tourism at the city while produced.[NEWLINE][NEWLINE]The cost may vary based on Game Speed.[NEWLINE]"),
 		
 		--
 		("en_US", 

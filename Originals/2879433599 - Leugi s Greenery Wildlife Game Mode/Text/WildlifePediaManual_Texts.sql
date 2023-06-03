@@ -59,7 +59,7 @@ VALUES
 		"Animal Exhibits can be performed at any city for a temporal boost of [ICON_AMENITIES] Amenities while produced; however, when produced at cities with Entertainment Complexes and Water Parks they also provide some [ICON_TOURISM] Tourism, and if these districts also have Zoos or Aquariums they increase the [ICON_TOURISM] Tourism from the city by 100% making exhibits a powerful option towards achieving a Cultural Victory. Aquatic Animal Exhibits, however, require Water Parks to be produced."),
 
 		("en_US", 
-		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_2",					
+		"LOC_PEDIA_CONCEPTS_PAGE_LEU_WILDLIFE_CHAPTER_EXHIBITS_PARA_3",					
 		"Unlike [ICON_RESOURCE_LEU_BUSHMEAT] Bushmeat, these resources do not decay over time, however, the projects expend them. Converting Wild Animal units with the help of Missionaries, Boudicca or units with the ability to capture enemy units grants [ICON_RESOURCE_LEU_EXOTIC_SPECIES] Exotic Species as well."),
 
 		--PRESERVATION
