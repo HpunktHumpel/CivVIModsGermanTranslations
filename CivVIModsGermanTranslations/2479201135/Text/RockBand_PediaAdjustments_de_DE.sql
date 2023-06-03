@@ -21,7 +21,7 @@ VALUES
 		-- Promotion: Photo Op (Wonders. At least 2 Paragraphs)
 		("de_DE", 
 		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ALBUM_COVER_ART_CHAPTER_HISTORY_PARA_1",					
-		"Ein Fototermin (manchmal auch Foto-Opp), kurz für Fotogelegenheit, ist eine arrangierte Gelegenheit, ein Foto von einem Politiker, einer Berühmtheit oder einem bemerkenswerten Ereignis zu machen, insbesondere an einem ikonischen Ort. dministration von US-Präsident Richard Nixon. William Safire schrieb den Begriff Bruce Whelihan zu, einem Assistenten von Nixons Pressesprecher Ron Ziegler. Ziegler sagte: ''Holt sie für ein Foto herein'', und Whelihan verkündete pflichtbewusst im Presseraum des Weißen Hauses: ''Es wird einen Fototermin im Oval Office geben.''"),
+		"Ein Fototermin (manchmal auch Foto-Opp), kurz für Fotogelegenheit, ist eine arrangierte Gelegenheit, ein Foto von einem Politiker, einer Berühmtheit oder einem bemerkenswerten Ereignis zu machen, insbesondere an einem ikonischen Ort. Administration von US-Präsident Richard Nixon: William Safire schrieb den Begriff Bruce Whelihan zu, einem Assistenten von Nixons Pressesprecher Ron Ziegler. Ziegler sagte: ''Holt sie für ein Foto herein'', und Whelihan verkündete pflichtbewusst im Presseraum des Weißen Hauses: ''Es wird einen Fototermin im Oval Office geben.''"),
 
 		("de_DE", 
 		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ALBUM_COVER_ART_CHAPTER_HISTORY_PARA_2",					

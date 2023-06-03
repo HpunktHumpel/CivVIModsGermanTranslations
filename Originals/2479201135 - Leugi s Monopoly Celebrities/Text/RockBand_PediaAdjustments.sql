@@ -1,0 +1,117 @@
+
+INSERT OR REPLACE INTO LocalizedText
+		(Language, Tag,	Text)
+VALUES
+		-- Celebrity Pedia
+		("en_US", 
+		"LOC_PEDIA_UNITS_PAGE_UNIT_ROCK_BAND_CHAPTER_HISTORY_PARA_1",					
+		"People may become celebrities in a wide range of ways; from their professions, following appearances in the media, or by complete accident. The term ''instant celebrity'' describes someone who becomes a celebrity in a very short time. Someone who achieves a small amount of transient fame (through, say, hype or mass media) may become labeled a ''B-grade celebrity''. Often, the generalization extends to someone who falls short of mainstream or persistent fame but who seeks to extend or exploit it."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITS_PAGE_UNIT_ROCK_BAND_CHAPTER_HISTORY_PARA_2",					
+		"Thanks to publications such as People, tabloids such as Star and The National Enquirer, and talk shows where both celebrities and supposedly ordinary people bare their lives for public consumption, there is a diminished sense of otherness in the famous. Close-up shots, tours of celebrity homes such as those originated by Edward R. Murrow's television show Person to Person, and intimate interviews such as those developed for television by Barbara Walters and by shows such as Today and 60 Minutes have changed the public's sense of scale with celebrity. Americans are invited, especially through visual media, to believe they know celebrities intimately."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITS_PAGE_UNIT_ROCK_BAND_CHAPTER_HISTORY_PARA_3",					
+		"Celebrity culture is a symbiotic business relationship from which performers obtain wealth, honors, and social power in exchange for selling a sense of intimacy to audiences. Enormous salaries are commonplace. Multimillion dollar contracts for athletes pale in comparison to their revenues from advertising, epitomized by basketball player Michael Jordan's promotion of footwear, soft drinks, underwear, and hamburgers. Celebrities also parade in public media events as they receive honors and awards ranging from the Cy Young Award for baseball, the Grammys for recording stars, and the Oscars for movie stars. Although it is certainly difficult to measure the social power accruing to celebrities, Beatle John Lennon's controversial assertion that ''The Beatles are] more popular than Jesus,'' suggests something of the sort of grandiosity that celebrity culture fosters."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITS_PAGE_UNIT_ROCK_BAND_CHAPTER_HISTORY_PARA_4",					
+		"For the fan, celebrity culture can produce intense identification at rock concerts, athletic arenas, and other displays of the fantasy object, whether live or recorded and mechanically reproduced. Such identifications can lead to role reversals where the fan covets the wealth, honors, and supposed power of the celebrity."),
+		-- Promotion: Photo Op (Wonders. At least 2 Paragraphs)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ALBUM_COVER_ART_CHAPTER_HISTORY_PARA_1",					
+		"A photo op (sometimes written as photo opp), short for photo opportunity is an arranged opportunity to take a photograph of a politician, a celebrity, or a notable event; particularly on an iconic location. dministration of US President Richard Nixon. William Safire credited its coinage to Bruce Whelihan, an aide to Nixon Press Secretary Ron Ziegler. Ziegler would say Get 'em in for a picture, and Whelihan would dutifully announce to the White House press room, There will be a photo opportunity in the Oval Office."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ALBUM_COVER_ART_CHAPTER_HISTORY_PARA_2",					
+		"Theterm has acquired a negative connotation, referring to a carefully planned pseudo-event, often masqueraded as news. However, with the advent of conventions and social media, Celebrities take every change to get photos that will make it to the news outlets, or that will let them gain more reach in online platforms."),
+		-- Promotion: Professional Athlete (Fairgrounds. At least 1 Paragraphs)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ARENA_ROCK_CHAPTER_HISTORY_PARA_1",					
+		"Professional athletes play sports for a living. They have achieved top standing in their chosen field through years of training. Professional athletes are people with natural talent, stamina, and competitive drive. They have excellent reflexes and coordination and are well disciplined when it comes to rigorous practice and training. Professional Athletes tend to be idolized as celebrities by sports fans, to the point of selling trading cards for the most important Athletes in the world."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ARENA_ROCK_CHAPTER_HISTORY_PARA_2",					
+		"Most professional athletes have risen from the ranks of fine amateur athletes. Amateur athletes play for the joy of competing and winning and occasionally for awards such as Olympic medals. Some play for schools, colleges, or clubs or in tournaments. Unlike amateurs, however, professional athletes earn money for playing sports. They play for profit-making teams—professional football, baseball, basketball, and hockey teams to name several. In individual sports including golf, tennis, and boxing, athletes play in tournaments in which prize money is awarded to the winner."),
+		-- Promotion: Musical Theatre (Theater Square. At least 1 Paragraphs)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GLAM_ROCK_CHAPTER_HISTORY_PARA_1",					
+		"Musical theatre is a form of theatrical performance that combines songs, spoken dialogue, acting and dance. The story and emotional content of a musical – humor, pathos, love, anger – are communicated through words, music, movement and technical aspects of the entertainment as an integrated whole. Although musical theatre overlaps with other theatrical forms like opera and dance, it may be distinguished by the equal importance given to the music as compared with the dialogue, movement and other elements. Since the early 20th century, musical theatre stage works have generally been called, simply, musicals."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GLAM_ROCK_CHAPTER_HISTORY_PARA_2",					
+		"Although music has been a part of dramatic presentations since ancient times, modern Western musical theatre emerged during the 19th century, with many structural elements established by the works of Gilbert and Sullivan in Britain and those of Harrigan and Hart in America. These were followed by the numerous Edwardian musical comedies and the musical theatre works of American creators like George M. Cohan at the turn of the 20th century. The Princess Theatre musicals (1915–1918) and other smart shows like Of Thee I Sing (1931) were artistic steps forward beyond revues and other frothy entertainments of the early 20th century and led to such groundbreaking works as Show Boat (1927) and Oklahoma! (1943). Some of the most famous musicals through the decades that followed include West Side Story (1957), The Fantasticks (1960), Hair (1967), A Chorus Line (1975), Les Misérables (1985), The Phantom of the Opera (1986), Rent (1996), The Producers (2001), Wicked (2003) and Hamilton (2015)."),
+		-- Press Coverage (Tourism reach. At least 1)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GOES_TO_CHAPTER_HISTORY_PARA_1",					
+		"The celebrity world and the mass media are inextricably tied together in a relationship that is both mutually beneficial and destructive. Celebrity culture is deeply rooted in the media. It would not exist without the publicity it gained from the media, and would certainly not be as prominent today without its continued relationship with the media. The media also gains from this, as its constant updates on the celebrity world allows it to capture massive amounts of public attention. The media, as it attempts to garner and hold public attention, is often very temperamental in its treatment of celebrities. It builds them up so it can, in the future, tear them down. This can be seen in figures such as Britney Spears and Michael Jackson. Britney Spears, for example, gained a massive amount of popularity and favorable media attention during her peak years of success. After her career spiraled downhill, such as the incident in 2007 where she shaved her head, the media then latched onto the idea of her as an unstable figure, which allowed them to report about her in this vein and continue producing content around her despite her decrease in popularity as an artist (see above video for the intense media coverage that resulted from Spears' hairstyle change). Similarly, with Michael Jackson, as his popularity as an artist decreased, the media stopped portraying him in a positive light and shifted to a negative focus to maintain public attention."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GOES_TO_CHAPTER_HISTORY_PARA_2",					
+		"Celebrities may be resented for their accolades, and the public may have a love/hate relationship with celebrities. Due to the high visibility of celebrities' private lives, their successes and shortcomings are often made very public. Celebrities are alternately portrayed as glowing examples of perfection, when they garner awards, or as decadent or immoral if they become associated with a scandal. When seen in a positive light, celebrities are frequently portrayed as possessing skills and abilities beyond average people; for example, celebrity actors are routinely celebrated for acquiring new skills necessary for filming a role within a very brief time, and to a level that amazes the professionals who train them. Similarly, some celebrities with very little formal education can sometimes be portrayed as experts on complicated issues. Some celebrities have been very vocal about their political views. For example, Matt Damon expressed his displeasure with 2008 US vice presidential nominee Sarah Palin, as well as with the 2011 United States debt-ceiling crisis."),
+		-- Countercultural Icon (Loyalty)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_INDIE_CHAPTER_HISTORY_PARA_1",					
+		"Counterculture is a sociopolitical term indicating a point of dissent between dominant or mainstream ideologies and alternative value systems, so creating a collective voice that can be considered a significant minority. The countercultural movement emerged in the mid-1960s as a self appellation among young people within the middle-class youth movement as politics merged with cultural issues. The issues of racism, collusion of higher education institutions with the military and corporate worlds in support of the Vietnam War, and en loco parentis regulations in colleges and universities fused with struggles over hair length, communal living, musical tastes, drug use, gender roles, and sexuality."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_INDIE_CHAPTER_HISTORY_PARA_2",					
+		"As the era unfolded, what emerged were new cultural forms and a dynamic subculture that celebrated experimentation, modern incarnations of Bohemianism, and the rise of the hippie and other alternative lifestyles. This embrace of creativity is particularly notable in the works of musical acts such as the Beatles and Bob Dylan, as well as of New Hollywood filmmakers, whose works became far less restricted by censorship. Within and across many disciplines, many other creative artists, authors, and thinkers helped define the counterculture movement. Everyday fashion experienced a decline of the suit and especially of the wearing of hats; styles based around jeans, for both men and women, became an important fashion movement that has continued up to the present day."),
+		-- Environmentalist (Natural Wonders)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_MUSIC_FESTIVAL_CHAPTER_HISTORY_PARA_1",					
+		"An environmentalist is a person who may speak out about our natural environment and the sustainable management of its resources through changes in public policy or individual behaviour. This may include supporting practices such as informed consumption, conservation initiatives, investment in renewable resources, improved efficiencies in the materials economy, transitioning to new accounting paradigms such as Ecological economics, renewing and revitalizing our connections with non-human life or even opting to have one less child to reduce consumption and pressure on resources. In various ways (for example, grassroots activism and protests), environmentalists and environmental organisations seek to give the natural world a stronger voice in human affairs."),
+
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_MUSIC_FESTIVAL_CHAPTER_HISTORY_PARA_2",					
+		"Celebrity advocacy for environmental causes has grown dramatically in recent decades. Organizations like Surfrider Foundation, Oceana, Ian Somerhalder Foundation and Heal the Bay are made up of dedicated environmentalists as well as celebrity founders and supporters. With the advent of social media and the new digital landscape, the scope of celebrity endorsements on environmental and philanthropic causes has widened as the ability for celebrities to contribute or support in a public way has become as easy as the tap of a finger on a phone screen."),
+		-- Glamorous Lifestyle (Gold)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_POP_CHAPTER_HISTORY_PARA_1",					
+		"Glamour is the impression of attraction or fascination that a particularly luxurious or elegant appearance creates, an impression which intensifies reality. Typically, a person, event, location, technology, or product such as a piece of clothing can be glamorous or add glamour. ''Glamour'' originally referred to a magic spell, an illusion said to be cast by witches. Hollywood studios presented their female stars in designer gowns and exquisite jewelry, both on screen and in carefully orchestrated occasions for publicity. Joan Crawford is quoted to have said, ''I never go outside unless I look like Joan Crawford the movie star.''"),
+		
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_POP_CHAPTER_HISTORY_PARA_2",					
+		"Celebrities are considered glamorous based on how they perform ordinary tasks in a different, more luxurious or extravagant way. Virushka's wedding that set internet on fire, was the most glamorous wedding of B-Town till now. From the location to decoration to their outfits to the huge amount of money spent, everything was different from how an ordinary man's wedding would be. All these factors combined together ignited curiosity in this union of cricket and Bollywood like never before. Celebrity status of a celebrity is maintained as long as fans are interested in their lifestyle and this curiosity is ensured by glamour. Glamour is the most important thing in a celebrity's lifestyle, as the moment glamour is lost, curiosity is lost and hence all the hype around celebrity is lost. The fact that what they have is what we want, makes a celebrity's lifestyle glamorous. No matter how big our house is or how much we love it, if given a chance to live in Antilla, Mukesh Ambani's house worth billion dollars, we would grab it in a heartbeat."),
+		-- Crocodile Hunter (Waterparks)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_REGGAE_ROCK_CHAPTER_HISTORY_PARA_1",					
+		"The Crocodile Hunter is a wildlife documentary television series that was hosted by Steve Irwin and his wife, Terri. The show became a popular franchise due to Irwin's unconventional approach to wildlife. It spawned a number of separate projects, including the feature film The Crocodile Hunter: Collision Course and two television spinoffs: Croc Files and The Crocodile Hunter Diaries. The series was presented on Animal Planet, becoming the network's highest-rated series at the time, and was in international syndication on networks worldwide."),
+		
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_REGGAE_ROCK_CHAPTER_HISTORY_PARA_2",					
+		"The show was a success, so much so that it turned into a series called The Crocodile Hunter, which is where Irwin picked up the nickname. The TV series, hosted by Irwin and Terri was internationally broadcast and was a big hit with wildlife lovers all over the world. Alongside his TV work, which saw him appear on international chat shows, play cameo roles in films, and present other wildlife programs, Irwin continued making improvements and expansions to the wildlife park started by his parents. One big step was renaming it Australia Zoo in 1998. Irwin's approach of ''conservation through exciting education'' was adopted in every avenue of his work and Irwin hoped that one day his park would become the world's best zoo. Family was also a big part of Irwin's life and with Terri he shared his love for wildlife with his two children, Bindi and Robert, who looked as though they were to follow in their father's footsteps."),
+		-- Televangelist (Religious Conversion)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_RELIGIOUS_ROCK_CHAPTER_HISTORY_PARA_1",					
+		"Televangelism  is the use of media, specifically radio and television, to communicate Christianity. Televangelists are ministers, whether official or self-proclaimed, who devote a large portion of their ministry to television broadcasting. Some televangelists are also regular pastors or ministers in their own places of worship (often a megachurch), but the majority of their followers come from TV and radio audiences. Others do not have a conventional congregation, and work primarily through television. The term is also used derisively by critics as an insinuation of aggrandizement by such ministers."),
+		
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_RELIGIOUS_ROCK_CHAPTER_HISTORY_PARA_2",					
+		"Televangelism began as a uniquely American phenomenon, resulting from a largely deregulated media where access to television networks and cable TV is open to virtually anyone who can afford it, combined with a large Christian population that is able to provide the necessary funding. It became especially popular among Evangelical Protestant audiences, whether independent or organized around Christian denominations. However, the increasing globalisation of broadcasting has enabled some American televangelists to reach a wider audience through international broadcast networks, including some that are specifically Christian in nature, such as Trinity Broadcasting Network and The God Channel. Domestically produced televangelism is increasingly present in some other nations such as Brazil."),
+		-- Private Jets (Movement)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ROADIES_CHAPTER_HISTORY_PARA_1",					
+		"A business jet, private jet, or bizjet is a jet aircraft designed for transporting small groups of people. Business jets may be adapted for other roles, such as the evacuation of casualties or express parcel deliveries, and some are used by public bodies, government officials or the armed forces, as well as for Celebrities as part of their VIP lifestyle."),
+		
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_ROADIES_CHAPTER_HISTORY_PARA_2",					
+		"In many ways, the luxurious appointments of private jet cabins recall the glamour of the 1940s when butlers served tuxedoed passengers on the earliest commercial airliners. While commercial air travel has become more accessible, and almost anyone can now enjoy indifferent service while dressed in a tracksuit and sneakers, private jet travel offers a return to glamor and luxury – only at much faster speeds and with onboard Wi-Fi. All this would've been very much to the taste of Frank Sinatra, who would have equally appreciated the evolution of in-flight entertainment on long flights. From the first in-flight film screening in 1925 (of silent film The Lost World on a flight out of London), to personal screens putting hundreds of films and games at passengers' fingertips in the 21st Century, the way we entertain ourselves mid-air has undergone as much progress and innovation as the engines that propel our aircraft through the sky. Private jet charter flights continue to raise the bar, with Wi-Fi speeds that permit live streaming, and cabins roomy enough to bring gym equipment on board and work out while you travel."),
+		-- Science Guy (Campus and Spaceport)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPACE_ROCK_CHAPTER_HISTORY_PARA_1",					
+		"Bill Nye the Science Guy is an American half-hour live action science program produced by KCTS Seattle and McKenna/Gottlieb Producers. It was substantially financed by the National Science Foundation. After the producers entered a distribution agreement with Buena Vista Television. Nye portrays a hyper-kinetic tall and slender scientist wearing a blue lab coat and a bow-tie. He combines the serious science of everyday things with fast-paced action and humor. Each half-hour show begins with a cold open, where Nye introduces the episode's theme, which leads into an opening credit sequence, and featuring Nye in a computer animated scientific world, along with his head spinning, radio frequencies, and plastic toy dinosaurs flying. Science-related TV and movie parodies configure the facts of the episode's theme, along with parodies of TV commercials. The show has featured many guest appearances. Each episode featured Nye visiting many places relating to the episode's theme, showing interviews of people talking about their work and other contributions. At the end of each episode, Nye thanks the viewers for watching, before explaining in a clever description of a theme's activity. "),
+		
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SPACE_ROCK_CHAPTER_HISTORY_PARA_2",					
+		"In the US, Bill Nye inspired an entire generation of scientists and science enthusiasts. . The show was nominated for 23 Emmy awards, and won 19 of them. And from an educational standpoint, it worked. Across elementary and middle schools in the US, the show often took the place of science lessons on days when the teachers were off—something Nye joked about at an annual meeting of the National Science Teachers Association in the 2017 documentary Bill Nye: Science Guy."),
+		--Beach Parties (Harbors and Seaside Resorts)
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SURF_ROCK_CHAPTER_HISTORY_PARA_1",					
+		"Beach Parties developed as part of surf culture in the 1960s. Aspects of 1960s surf culture in Southern California, where it was first popularized, include the woodie, bikinis and other beach wear, such as boardshorts or baggies, and surf music. Eventually they inspired the Beach Party genre which focused on marketing to teenagers of the time through the use of surf culture elements and a care-free appeal."),
+		
+		("en_US", 
+		"LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_SURF_ROCK_CHAPTER_HISTORY_PARA_2",					
+		"Beach party films were a film sub-genre popular in the mid-1960s, beginning with the Frankie Avalon/Annette Funicello hit Beach Party in 1963. A few dozen titles in total were categorized into the beach party genre during the 1960s. Most of them were low-budget B-films, almost all were comedies, and they relied on silly plots, teen trends, romantic storylines, musical acts, and a tongue-in-cheek style of innuendo comedy. They were dumb, bright, colorful, and musical. They appealed to the carefree spirit of people during the 1960s and found wild, unexpected success with audiences.");
+		

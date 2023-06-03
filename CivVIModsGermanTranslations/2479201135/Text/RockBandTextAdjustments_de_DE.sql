@@ -33,12 +33,14 @@ SET Text = REPLACE(Text, 'Konzertgebäude', 'Veranstaltungsorte')
 WHERE Tag = Tag AND Language = 'de_DE';
 
 UPDATE LocalizedText
-SET Text = " Ermöglicht den Kauf von Prominenten mit [ICON_FAITH] Glauben. " || Text
+SET Text = REPLACE(Text," Allows Celebrities to be purchased with [ICON_FAITH] Faith. ",
+						" Ermöglicht den Kauf von Prominenten mit [ICON_FAITH] Glauben. ")
 WHERE Tag = "LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" AND Language = 'de_DE';
 
 
 UPDATE LocalizedText
-SET Text = " +100 [ICON_POPULARITY] Bekanntheitsgrad für Prominente. " || Text
+SET Text = REPLACE(Text," +100 [ICON_POPULARITY] Popularity for Celebrities. ",
+						" +100 [ICON_POPULARITY] Bekanntheitsgrad für Prominente. ")
 WHERE Tag = "LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" AND Language = 'de_DE';
 
 ------------------------------------------------------------
@@ -78,6 +80,10 @@ VALUES
 		("de_DE", 
 		"LOC_PROMOTION_INDIE_NAME",					
 		"Ikone der Gegenkultur"),
+
+		("de_DE", 
+		"LOC_PROMOTION_INDIE_DESCRIPTION",					
+		"Bei Durchführung eines Konzerts verliert diese Stadt 40 Loyalität. Kann ohne offene Grenzen fremdes Gebiet betreten"),
 
 		("de_DE", 
 		"LOC_PROMOTION_MUSIC_FESTIVAL_NAME",					
@@ -227,7 +233,7 @@ VALUES
 		--Other stuff
 		("de_DE", 
 		"LOC_BOOST_TRIGGER_DIGITAL_DEMOCRACY",					
-		"Besitzt einen Prominenten"),
+		"Habt einen Prominenten"),
 
 		("de_DE", 
 		"LOC_BOOST_TRIGGER_LONGDESC_DIGITAL_DEMOCRACY",					
