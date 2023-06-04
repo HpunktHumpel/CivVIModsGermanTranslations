@@ -140,6 +140,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Movable Districts (wltk | Junky)
 1. National Projects: Satellites (JNR | H.Humpel)
 1. Naval Mine (Shuricas | H.Humpel)
+1. Necropolis: Unique District for Egypt (p0kiehl & Sukritact | Junky)
 1. Notre-Dame de Paris (WindFly | H.Humpel)
 1. Olympic Pantheons (DB | duestere Legende)
 1. p0kiehl's Better Aqueduct (p0kiehl | Junky)

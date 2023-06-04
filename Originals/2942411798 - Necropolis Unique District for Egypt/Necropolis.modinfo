@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d3f1e993-5b37-4d70-a5a6-c591fbc8d27b" version="1">
+  <Properties>
+    <Name>Necropolis: Unique District for Egypt</Name>
+    <Description>Adds the Necropolis, unique district replacing the Holy Site for Egypt.</Description>
+    <Created>1611496229</Created>
+    <Teaser>Adds the Necropolis, unique district replacing the Holy Site for Egypt.</Teaser>
+    <Authors>p0kiehl; Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Religion_Expanded">
+      <ModInUse>c6775ded-6693-474a-ade5-b4c51d932bd8</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Necropolis_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Necropolis_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Necropolis_Localisation.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Necropolis_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Necropolis_Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Necropolis.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Gameplay_Districts">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+      <File>Core/Necropolis_Districts.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Buildings">
+      <Properties>
+        <LoadOrder>501</LoadOrder>
+      </Properties>
+      <File>Core/Necropolis_Buildings.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_ReligionExpanded">
+      <Properties>
+        <LoadOrder>502</LoadOrder>
+      </Properties>
+      <Criteria>Religion_Expanded</Criteria>
+      <File>Core/Necropolis_Religion_Expanded.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Core/Necropolis_Buildings.sql</File>
+    <File>Core/Necropolis_Config.xml</File>
+    <File>Core/Necropolis_Config.sql</File>	
+    <File>Core/Necropolis_Districts.sql</File>
+    <File>Core/Necropolis_Icons.xml</File>
+    <File>Core/Necropolis_Localisation.sql</File>
+    <File>Core/Necropolis_Religion_Expanded.sql</File>
+    <File>Necropolis.dep</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons_District.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons_District.blp</File>
+    <File>Textures/Necropolis_128.dds</File>
+    <File>Textures/Necropolis_128.tex</File>
+    <File>Textures/Necropolis_256.dds</File>
+    <File>Textures/Necropolis_256.tex</File>
+    <File>Textures/Necropolis_32.dds</File>
+    <File>Textures/Necropolis_32.tex</File>
+    <File>Textures/Necropolis_38.dds</File>
+    <File>Textures/Necropolis_38.tex</File>
+    <File>Textures/Necropolis_50.dds</File>
+    <File>Textures/Necropolis_50.tex</File>
+    <File>Textures/Necropolis_80.dds</File>
+    <File>Textures/Necropolis_80.tex</File>
+    <File>XLPs/Icons_District.xlp</File>
+  </Files>
+</Mod>

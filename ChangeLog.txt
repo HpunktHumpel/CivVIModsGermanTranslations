@@ -2,6 +2,7 @@
 
 - [NEW] Great Sovereigns (vom 17. Mai 2023 um 1:04, Übersetzung von Junky)
 - [NEW] Movable Cities (vom 2. Apr. 2023 um 20:17, Übersetzung von Junky)
+- [NEW] Necropolis: Unique District for Egypt (vom 5. März 2023 um 3:39, Übersetzung von Junky)
 - [FIXED] Leugi's Greenery: Wildlife++ (Game Mode)
 - [FIXED] Leugi's Monopoly++: Tycoons and Investors
 - [FIXED] UC - District Expansion: Aqueduct
