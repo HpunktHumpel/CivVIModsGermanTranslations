@@ -176,7 +176,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Sailor Cat's Persia Rework (Sailor Cat | Junky)
 1. Sailor Cat's Relics Plus (Sailor Cat | H.Humpel)
 1. Saph's Ocean Start for All (Skylar Saphyr | H.Humpel)
-1. Sappers - Military Engineers support sieges (JNR | Junky)
+1. Sappers (Project 6T) (JNR | Junky)
 1. Seeds of Growth Policy (Ian G | H.Humpel)
 1. Select Natural Wonders++ (sukritact | Junky)
 1. Silk & Spice: Trade Route Rework (Alf.Net | Junky)

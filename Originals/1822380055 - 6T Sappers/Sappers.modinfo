@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e9c77c6d-5c14-4cc0-8246-7d178d2f5a0d" version="4">
+  <Properties>
+    <Name>[COLOR:ResFaithLabelCS]6T[ENDCOLOR] - Sappers</Name>
+    <Description>Military Engineers provide the bonuses of Battering Rams and Siege Towers once Siege Tactics are researched.</Description>
+    <Teaser>Military Engineers incorporate Battering Rams and Siege Towers.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>213</LoadOrder>
+      </Properties>
+      <File>MC_Sappers_Units.sql</File>
+      <File>MC_Sappers_Technologies.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>213</LoadOrder>
+      </Properties>
+      <File>MC_Sappers_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>213</LoadOrder>
+      </Properties>
+      <File>MC_Sappers_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>MC_Sappers_Technologies.sql</File>
+    <File>MC_Sappers_Text.sql</File>
+    <File>MC_Sappers_Units.sql</File>
+    <File>MC_Sappers_Icons.sql</File>
+  </Files>
+</Mod>

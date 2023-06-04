@@ -76,7 +76,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1782204294 | Uffizi (World Wonder) | Deliverator23 | H.Humpel | #4
 1782215547 | Borobudur (World Wonder) | Deliverator23 | H.Humpel | #5
 1782222841 | Buddhas of Bamyan (World Wonder) | Deliverator23 | H.Humpel | #5
-1822380055 | Sappers - Military Engineers support sieges | JNR | Junky | #11
+1822380055 | Sappers (Project 6T) | JNR | Junky | #11
 1823811062 | CIVITAS City-States (Mekong Ruleset) | chimp | Junky | #16
 1827447798 | Basic Buildings | carterrosenberg | H.Humpel | #12
 1828854812 | Leaning Tower of Pisa (World Wonder) | Deliverator23 | H.Humpel | #4

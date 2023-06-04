@@ -4,7 +4,7 @@
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]228[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1685900566</Created>
+    <Created>1685900991</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Plati, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -267,6 +267,9 @@
     <!-- InGame Actions -->
     <Criteria id="6TGrandEras">
       <ModInUse>3ec8a6fb-2a3f-425f-bff5-b00146b7d5b0</ModInUse>
+    </Criteria>
+    <Criteria id="6TSappers">
+      <ModInUse>e9c77c6d-5c14-4cc0-8246-7d178d2f5a0d</ModInUse>
     </Criteria>
     <Criteria id="AB2531BuyUnitsWithFaith">
       <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c89</ModInUse>
@@ -726,9 +729,6 @@
     </Criteria>
     <Criteria id="SaphsOceanStartforAll">
       <ModInUse>855958d8-a222-93c3-0592-9a9d4c3aaac9</ModInUse>
-    </Criteria>
-    <Criteria id="Sappers">
-      <ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
     </Criteria>
     <Criteria id="SeedsOfGrowthPolicy">
       <ModInUse>053a803e-d930-4fe6-9a61-2e569f374c84</ModInUse>
@@ -1841,6 +1841,13 @@
       <File>2769967307/Text/6T_Text_Names_de_DE.sql</File>
       <File>2769967307/Text/6T_Text_Misc_de_DE.sql</File>
       <File>2769967307/Text/6T_Text_UnlockablesUI_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="6TSappers_Text_de_DE">
+      <Properties>
+        <LoadOrder>213</LoadOrder>
+      </Properties>
+      <Criteria>6TSappers</Criteria>
+      <File>1822380055/MC_Sappers_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="AB2531BuyUnitsWithFaith_de_DE">
       <Criteria>AB2531BuyUnitsWithFaith</Criteria>
@@ -2964,13 +2971,6 @@
         <LoadOrder>250</LoadOrder>
       </Properties>
       <File>2923864038/SkylarSaphyr_OceanStart_Text_de_DE.xml</File>
-    </UpdateText>
-    <UpdateText id="Sappers_de_DE">
-      <Criteria>Sappers</Criteria>
-      <Properties>
-        <LoadOrder>213</LoadOrder>
-      </Properties>
-      <File>1822380055/MC_Sappers_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SeedsOfGrowthPolicy_de_DE">
       <Criteria>SeedsOfGrowthPolicy</Criteria>
