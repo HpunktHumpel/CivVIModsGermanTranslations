@@ -1,6 +1,7 @@
 04.06.2023
 
 - [FIXED] Leugi's Greenery: Wildlife++ (Game Mode)
+- [FIXED] Leugi's Monopoly++: Tycoons and Investors
 - [FIXED] UC - District Expansion: Aqueduct
 
 

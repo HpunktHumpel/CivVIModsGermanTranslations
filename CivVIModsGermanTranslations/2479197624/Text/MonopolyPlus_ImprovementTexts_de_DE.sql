@@ -7,16 +7,16 @@ SET Text = REPLACE(Text,"Receive [icon_tourism] Tourism on Stations equivalent t
 WHERE Language = "de_DE" AND Tag = "LOC_TECH_STEEL_DESCRIPTION";
 
 UPDATE LocalizedText
-SET Text = REPLACE(Text,"Unlocks the ability to create Industries.[NEWLINE][NEWLINE]","Schaltet die Fähigkeit frei Industrien zu erstellen")
+SET Text = REPLACE(Text,"Unlocks the ability to create Industries.[NEWLINE][NEWLINE]","Schaltet die Fähigkeit frei Industrien zu erstellen.[NEWLINE][NEWLINE]")
 WHERE Language = "de_DE" AND Tag = "LOC_TECH_PRINTING_DESCRIPTION";
 
 
 UPDATE LocalizedText
-SET Text = "Schaltet die Großunternehmer-Fähigkeit frei Seebäder zu errichten.[NEWLINE][NEWLINE]Gewährt [ICON_Tourism] Tourismus in Höhe der Anziehungskraft des Feldes. Kann nur auf Küsten-Wüsten-, Küsten-Ebenen- oder Küsten-Grasland-Geländefeldern gebaut werden. Mindest-Anziehungskraft ''Atemberaubend''."
+SET Text = "Schaltet die Großunternehmer-Fähigkeit frei, Seebäder zu bauen.[NEWLINE][NEWLINE]Bringt [ICON_Tourism] Tourismus in Höhe der Anziehungskraft des Geländefelds. Kann nur auf Küsten-Wüsten-, Küsten-Ebenen- oder Küsten-Grasland-Geländefeldern gebaut werden. Mindest-Anziehungskraft ''Atemberaubend''."
 WHERE Language = "de_DE" AND Tag = "LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION";
 
 UPDATE LocalizedText
-SET Text = "Schaltet die Großunternehmer-Fähigkeit frei Skiorte zu errichten.[NEWLINE][NEWLINE]Gewährt +4 [ICON_Tourism] Tourismus. Gewährt eine [ICON_AMENITIES] Annehmlichkeit. Kann nur auf Bergen errichtet werden. Kann nicht angrenzend an einen anderen Skiort gebaut werden. Kann nicht geplündert, bearbeitet oder entfernt werden."
+SET Text = "Schaltet die Großunternehmer-Fähigkeit frei, einen Skiort zu bauen.[NEWLINE][NEWLINE]Bringt +4 [ICON_Tourism] Tourismus. Gewährt 1 [ICON_AMENITIES] Annehmlichkeit. Kann nur auf einem Berg gebaut werden. Darf nicht an einen weiteren Skiort angrenzen. Kann nicht geplündert, bearbeitet oder entfernt werden."
 WHERE Language = "de_DE" AND Tag = "LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION";
 
 

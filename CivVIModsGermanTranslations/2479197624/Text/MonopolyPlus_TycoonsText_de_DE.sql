@@ -1,6 +1,14 @@
 --==========================================================================================================================
 -- UNIT TEXT --geprüft am 31.05.2023
 --==========================================================================================================================
+UPDATE LocalizedText
+SET Text = "Schaltet die Großunternehmer-Fähigkeit frei, Seebäder zu bauen.[NEWLINE][NEWLINE]Bringt [ICON_Tourism] Tourismus in Höhe der Anziehungskraft des Geländefelds. Kann nur auf Küsten-Wüsten-, Küsten-Ebenen- oder Küsten-Grasland-Geländefeldern gebaut werden. Mindest-Anziehungskraft ''Atemberaubend''."
+WHERE Language = "de_DE" AND Tag = "LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION";
+
+UPDATE LocalizedText
+SET Text = "Schaltet die Großunternehmer-Fähigkeit frei, einen Skiort zu bauen.[NEWLINE][NEWLINE]Bringt +4 [ICON_Tourism] Tourismus. Gewährt 1 [ICON_AMENITIES] Annehmlichkeit. Kann nur auf einem Berg gebaut werden. Darf nicht an einen weiteren Skiort angrenzen. Kann nicht geplündert, bearbeitet oder entfernt werden."
+WHERE Language = "de_DE" AND Tag = "LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION";
+
 
 INSERT OR REPLACE INTO LocalizedText
 		(Language, Tag,	Text)
