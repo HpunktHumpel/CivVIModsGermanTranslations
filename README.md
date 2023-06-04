@@ -151,7 +151,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Persuade Defectors Project (Sailor Cat | Junky)
 1. Phantagonist's Hybrid Rice and Biofuel (Phantagonist | H.Humpel)
 1. Phantagonist’s Slavery and Emancipation (Phantagonist | H.Humpel)
-1. Plant And Breed (C1sen | Junky)
+1. Plant and Breed (C1sen | Junky)
 1. Policy Change Reminder (FinalFreak16 | Junky)
 1. Policy Pack: Corporations (JNR | H.Humpel)
 1. Policy Pack: Environment (JNR | Junky)

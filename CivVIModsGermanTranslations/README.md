@@ -223,7 +223,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2916813487 | Resource Projects | liam | H.Humpel | #24
 2923864038 | Saph's Ocean Start for All | Skylar Saphyr | H.Humpel | #24
 2926564914 | Boom's City Center+ | Boom | H.Humpel | #24
-2929355120 | PlantAndBreed | C1sen | Junky | #24
+2929355120 | Plant and Breed | C1sen | Junky | #24
 2935848037 | Unique Building: Dragon Kiln (China) | JNR | H.Humpel | #24
 2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | #24
 2942411798 | Necropolis: Unique District for Egypt | p0kiehl & Sukritact | Junky | **NEW**

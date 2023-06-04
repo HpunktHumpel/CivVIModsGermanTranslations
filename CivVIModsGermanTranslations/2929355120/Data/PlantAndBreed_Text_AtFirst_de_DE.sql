@@ -8,7 +8,7 @@
 /* Districts and Buildings */
 
 INSERT OR REPLACE INTO LocalizedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 VALUES
 	('de_DE', 'LOC_DISTRICT_PLANTANDBREED_630E123F_NAME'			, 'Landwirtschaftszone'),
 	('de_DE', 'LOC_DISTRICT_PLANTANDBREED_630E123F_DESCRIPTION'		, 'Ein Bezirk für landwirtschaftliche Industrie. Dieser Bezirk benötigt keine [ICON_Citizen] Bevölkerung, muss auf flachem Gelände gebaut werden, darf nicht an ein Stadtzentrum angrenzen und gilt nicht als Spezialbezirk.'),
@@ -32,81 +32,81 @@ VALUES
 /* Resources */
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', SUBSTR(Tag, 1, LENGTH(Tag) - 5) || '_630E123F_NAME', Text || ' Saatgut'
+	'de_DE', SUBSTR(Tag, 1, LENGTH(Tag) - 5) || '_630E123F_NAME', `Text` || ' Saatgut'
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources WHERE IsPlant == 1) AND Language == 'de_DE';
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', SUBSTR(Tag, 1, LENGTH(Tag) - 5) || '_630E123F_NAME', Text || ' Nachwuchs'
+	'de_DE', SUBSTR(Tag, 1, LENGTH(Tag) - 5) || '_630E123F_NAME', `Text` || ' Nachwuchs'
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources WHERE IsBreed == 1) AND Language == 'de_DE';
 
 /* Breeding Project */
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_NAME', 'Züchtung: ' || Text
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_NAME', 'Züchtung: ' || `Text`
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources) AND Language == 'de_DE';
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_SHORT_NAME', 'Züchtung: ' || Text
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_SHORT_NAME', 'Züchtung: ' || `Text`
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources) AND Language == 'de_DE';
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_DESCRIPTION', 'Gewährt 100 [ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || Text || ' Saatgut.'
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_DESCRIPTION', 'Gewährt 100 [ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || `Text` || ' Saatgut.'
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources WHERE IsPlant == 1) AND Language == 'de_DE';
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_DESCRIPTION', 'Gewährt 100 [ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || Text || ' Nachwuchs.'
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_1_DESCRIPTION', 'Gewährt 100 [ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || `Text` || ' Nachwuchs.'
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources WHERE IsBreed == 1) AND Language == 'de_DE';
 
 /* Cross Breeding Project */
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_NAME', 'Kreuzung: ' || Text
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_NAME', 'Kreuzung: ' || `Text`
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources) AND Language == 'de_DE';
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_SHORT_NAME', 'Kreuzung: ' || Text
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_SHORT_NAME', 'Kreuzung: ' || `Text`
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources) AND Language == 'de_DE';
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_DESCRIPTION', '[ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || Text || ' +1 [ICON_Food] Nahrung, +1 [ICON_Production] Produktion.'
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_DESCRIPTION', '[ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || `Text` || ' +1 [ICON_Food] Nahrung, +1 [ICON_Production] Produktion.'
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources WHERE NOT IsLuxury == 1) AND Language == 'de_DE';
 
 INSERT OR REPLACE INTO PlantAndBreedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_DESCRIPTION', '[ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || Text || ' +2 [ICON_Faith] Glauben, +2 [ICON_Gold] Gold.'
+	'de_DE', 'LOC_PROJECT_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '_630E123F_2_DESCRIPTION', '[ICON_' || SUBSTR(Tag, 5, LENGTH(Tag) - 9) || '] ' || `Text` || ' +2 [ICON_Faith] Glauben, +2 [ICON_Gold] Gold.'
 FROM LocalizedText WHERE Tag IN (SELECT 'LOC_' || ResourceType || '_NAME' FROM PlantAndBreedResources WHERE IsLuxury == 1) AND Language == 'de_DE';
 
 /* Insert */
 
 INSERT OR REPLACE INTO LocalizedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 SELECT
-	Language, Tag, Text
+	Language, Tag, `Text`
 FROM PlantAndBreedText WHERE Language == 'de_DE';
 
 /* UI Text */
 
 INSERT OR REPLACE INTO LocalizedText
-	(Language, Tag, Text)
+	(Language, Tag, `Text`)
 VALUES
 	('de_DE', 'LOC_PLANTANDBREED_630E123F_TITLE', 'Pflanze und Züchte'),
 	('de_DE', 'LOC_PLANTANDBREED_630E123F_SHOW_AVAILABLE', 'Verfügbar'),
