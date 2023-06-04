@@ -4,8 +4,9 @@
 - [NEW] Movable Cities (vom 2. Apr. 2023 um 20:17, Übersetzung von Junky)
 - [NEW] Necropolis: Unique District for Egypt (vom 5. März 2023 um 3:39, Übersetzung von Junky)
 - [NEW] Statue of Zeus+ (vom 9. Okt. 2022 um 17:05, Übersetzung von Junky)
-- [UPDATE] Plant And Breed (vom 15. Apr. 2023 um 11:056, Übersetzung von Junky)
 - [UPDATE] 6T - Sappers (vom 15. Apr. 2023 um 2:28, Übersetzung von Junky)
+- [UPDATE] Plant And Breed (vom 15. Apr. 2023 um 11:056, Übersetzung von Junky)
+- [UPDATE] Sukritact's Simple UI Adjustments (vom  13. Mai 2023 um 9:01, Übersetzung von Junky)
 - [UPDATE] UC - Power Progression (vom 11. Apr. 2023 um 18:31, Übersetzung von Junky)
 - [FIXED] Leugi's Greenery: Wildlife++ (Game Mode)
 - [FIXED] Leugi's Monopoly++: Tycoons and Investors
