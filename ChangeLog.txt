@@ -1,3 +1,9 @@
+04.06.2023
+
+- [FIXED] Leugi's Greenery: Wildlife++ (Game Mode)
+- [FIXED] UC - District Expansion: Aqueduct
+
+
 03.06.2023
 
 - [NEW] All Vikings Scenario units (vom 9. Okt. 2022 um 2:22, Übersetzung von Junky)

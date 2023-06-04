@@ -141,7 +141,7 @@ WHERE Language= "de_DE" AND Tag = "LOC_BUILDING_AQUARIUM_DESCRIPTION";
 
 UPDATE LocalizedText
 SET Text = REPLACE(Text,"[NEWLINE][NEWLINE]Animal Exhibits produced in this city increase [ICON_TOURISM] Tourism at the city by 100% while produced. +4 [ICON_Tourism] Tourism for every new Animal Exhibit completed at this city.",
-						"[NEWLINE][NEWLINE]Während einer Wildtier-Ausstellung wird der [ICON_TOURISM] Tourismusausstoß der Stadt verdoppelt. +4 [ICON_Tourism] Tourismus für jede volendete neue Wildtier-Ausstellung der Stadt."
+						"[NEWLINE][NEWLINE]Während einer Wildtier-Ausstellung wird der [ICON_TOURISM] Tourismusausstoß der Stadt verdoppelt. +4 [ICON_Tourism] Tourismus für jede vollendete neue Wildtier-Ausstellung der Stadt.")
 WHERE Language= "de_DE" AND Tag = "LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION";
 
 UPDATE LocalizedText
