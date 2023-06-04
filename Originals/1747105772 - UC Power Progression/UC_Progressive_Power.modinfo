@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d3bf6f00-6eab-4737-8d93-fa30c9cad29e" version="9">
+  <Properties>
+    <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - Power Progression</Name>
+    <Description>Your high-level buildings as well as cities themselves will require more Power as you progress along the tech tree, but the yields will scale along. With time, neglecting to fulfill the Power demands of your cities will incur higher and higher penalties.</Description>
+    <Created>1600983204</Created>
+    <Teaser>Makes powering your cities mandatory and rewarding.</Teaser>
+    <Authors>JNR</Authors>
+    <SpecialThanks>View619</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="MOD_No_CL">
+	  <ModInUse inverse="1">95b955fc-2dd1-41c5-989e-0265d98a28bd</ModInUse>	<!-- City Lights -->
+	</Criteria>
+	<Criteria id="MOD_MMSS">
+	  <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>				<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="DatabaseTable">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Data/UC_PPC_Tier_Table.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseTableUniques">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Data/UC_PPC_Tier_Table_Uniques.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>1301</LoadOrder>
+      </Properties>
+      <File>Data/Mechanics/UC_PPC_Tech_Requirements.sql</File>
+      <File>Data/Mechanics/UC_PPC_Power_Load.sql</File>
+      <File>Data/Mechanics/UC_PPC_Power_Yields.sql</File>
+      <File>Data/Mechanics/UC_PPC_Power_Amenities.sql</File>
+      <File>Data/Mechanics/UC_PPC_Great_Persons.sql</File>
+      <File>Data/Mechanics/UC_PPC_Penalties.sql</File>
+    </UpdateDatabase>
+	<UpdateDatabase id="DatabaseRefinery" criteria="MOD_No_CL">
+      <Properties>
+        <LoadOrder>1302</LoadOrder>
+      </Properties>
+      <File>Data/Mechanics/UC_PPC_Refinery.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Database_MMSS" criteria="MOD_MMSS">
+      <Properties>
+        <LoadOrder>1200</LoadOrder>
+      </Properties>
+	  <File>Data/ModSupport/UC_PPC_ARS.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Text/UC_PPC_Text.sql</File>
+    </UpdateText>
+    <UpdateArt id="Dependency" criteria="MOD_No_CL">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>UC_Progressive_Power.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons" criteria="MOD_No_CL">
+      <Properties>
+        <LoadOrder>2</LoadOrder>
+      </Properties>
+      <File>Icons/UC_PPC_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>Data/Mechanics/UC_PPC_Great_Persons.sql</File>
+    <File>Data/Mechanics/UC_PPC_Penalties.sql</File>
+    <File>Data/Mechanics/UC_PPC_Power_Amenities.sql</File>
+    <File>Data/Mechanics/UC_PPC_Power_Load.sql</File>
+    <File>Data/Mechanics/UC_PPC_Power_Yields.sql</File>
+    <File>Data/Mechanics/UC_PPC_Refinery.sql</File>
+    <File>Data/Mechanics/UC_PPC_Tech_Requirements.sql</File>
+	<File>Data/ModSupport/UC_PPC_ARS.sql</File>
+    <File>Data/UC_PPC_Tier_Table.sql</File>
+    <File>Data/UC_PPC_Tier_Table_Uniques.sql</File>
+    <File>Icons/UC_PPC_Icons.sql</File>
+    <File>Text/UC_PPC_Text.sql</File>
+    <File>UC_Progressive_Power.dep</File>
+  </Files>
+</Mod>
