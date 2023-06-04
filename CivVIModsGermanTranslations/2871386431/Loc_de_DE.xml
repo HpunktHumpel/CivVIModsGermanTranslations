@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="v" Language="de_DE">
+			<Text>Gewährt 3 Bogenschützen, 3 Hopliten und einen Rammbock. +50 % [ICON_PRODUCTION] Produktion für Kavallerie-Abwehreinheiten. Muss auf flachem Land neben einem Lager-Bezirk mit einer Kaserne gebaut werden.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

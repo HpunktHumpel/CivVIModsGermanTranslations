@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="en_US">
+			<Text>Grants 3 Archers, 3 Hoplites, and a Battering Ram. +50% [ICON_PRODUCTION] Production towards anti-cavalry units. Must be built on flat land adjacent to an Encampment district with a Barracks.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="zh_Hans">
+			<Text>授予3个弓箭手、3个霍普利特人和一个攻城槌。+对反骑兵部队的生产量增加50%[ICON_PRODUCTION]。必须建在与有兵营的营地区相邻的平地上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得 3 個弓箭手、3 個重裝步兵和 1 個攻城錘。 +50% [ICON_PRODUCTION] 對反騎兵單位的生產。 必須建在靠近帶有兵營的營地區的平坦土地上。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

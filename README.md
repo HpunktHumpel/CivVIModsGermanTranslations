@@ -185,6 +185,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. SpatialX Space Race (SpatialX | H.Humpel)
 1. Spy Promotion Tree (Luke Vo | Junky)
 1. SquirrelMod - BetterCity (Neicureuil | H.Humpel)
+1. Statue of Zeus+ (Sailor Cat | Junky)
 1. Steel and Thunder: Unique Units (Deliverator23, janboruta & chimp | Junky)
 1. Strategic Forts (TC | H.Humpel)
 1. Sukritact's Babylon Rework (sukritact | Junky)

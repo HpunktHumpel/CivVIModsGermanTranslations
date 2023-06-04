@@ -202,6 +202,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | #21
 2862851843 | All Vikings Scenario units | Mikecro | Junky | **NEW**
 2863225264 | Bear's Mods - Governor Overhaul | MarshmallowBear | Junky | #21
+2871386431 | Statue of Zeus+ | Sailor Cat | Junky | **NEW**
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
 2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | #21
 2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | #21

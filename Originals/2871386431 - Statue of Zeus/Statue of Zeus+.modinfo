@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="79320153-bcb3-4324-97e4-09476a479e2f" version="1">
+  <Properties>
+    <Name>Statue of Zeus+</Name>
+    <Description>The Statue of Zeus wonder will now grant more era-appropriate units: 2 pikemen, 2 crossbowmen, and 1 siege tower. To account for increased unit maintenance, its gold yield has been adjusted from 3 to 6.</Description>
+    <Created>1665327905</Created>
+    <Teaser>Buffs Statue of Zeus.</Teaser>
+    <Authors>Sailor Cat</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="Byzantium and Gaul Pack" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="db">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Updates.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="loc">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Loc.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="NewAction">
+      <File>Scripts.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Loc.xml</File>
+    <File>Scripts.lua</File>
+    <File>Updates.sql</File>
+  </Files>
+</Mod>
