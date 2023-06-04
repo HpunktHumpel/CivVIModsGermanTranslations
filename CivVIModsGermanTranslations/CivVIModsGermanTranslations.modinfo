@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="25">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]229[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]230[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1685902751</Created>
+    <Created>1685903177</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Plati, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -206,6 +206,9 @@
     </Criteria>
     <Criteria id="SukritactsTonleSap_FrontEnd">
       <ModIsEnabled>28e0e437-f324-43e9-b6b1-4d344ce0f98e</ModIsEnabled>
+    </Criteria>
+    <Criteria id="SukritactsTourismOverviewScreen_FrontEnd">
+      <ModIsEnabled>847dc17e-2042-4f28-a2dd-5a4b18625a71</ModIsEnabled>
     </Criteria>
     <Criteria id="TournamentsGameMode_FrontEnd">
       <ModIsEnabled>991e60af-1bff-41e9-a826-ea8da30ab2c8</ModIsEnabled>
@@ -801,6 +804,9 @@
     </Criteria>
     <Criteria id="SukritactsTonleSap">
       <ModInUse>28e0e437-f324-43e9-b6b1-4d344ce0f98e</ModInUse>
+    </Criteria>
+    <Criteria id="SukritactsTourismOverviewScreen">
+      <ModInUse>847dc17e-2042-4f28-a2dd-5a4b18625a71</ModInUse>
     </Criteria>
     <Criteria id="SukritactsWatArun">
       <ModInUse>b21b4017-3e53-4e35-ae38-1b5d7501e6d0</ModInUse>
@@ -1631,6 +1637,10 @@
         <LoadOrder>10</LoadOrder>
       </Properties>
       <File>902785246/Core/Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="SukritactsTourismOverviewScreen_UpdateText_FrontEnd_de_DE">
+      <Criteria>SukritactsTourismOverviewScreen_FrontEnd</Criteria>
+      <File>2953909938/Core/Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="TournamentsGameMode_NewAction_FrontEnd_de_DE">
       <Criteria>TournamentsGameMode_FrontEnd</Criteria>
@@ -3151,6 +3161,10 @@
       </Properties>
       <File>902785246/Core/Localisation_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SukritactsTourismOverviewScreen_UpdateText_de_DE">
+      <Criteria>SukritactsTourismOverviewScreen</Criteria>
+      <File>2953909938/Core/Localisation_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SukritactsWatArun_de_DE">
       <Criteria>SukritactsWatArun</Criteria>
       <File>933787677/Core/Suk_Wat_Arun_Localisation_de_DE.sql</File>
@@ -4379,6 +4393,7 @@
     <File>2937953680/Text/Garden_Texts_PreserveExclusivity_de_DE.sql</File>
     <File>2942411798/Core/Necropolis_Localisation_de_DE.sql</File>
     <File>2950891319/Text/MC_Text_de_DE.xml</File>
+    <File>2953909938/Core/Localisation_de_DE.sql</File>
     <File>2961998117/ArmaghReworkedText_de_DE.xml</File>
     <File>2973448849/GreatSovereigns_Localisation_de_DE.xml</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>

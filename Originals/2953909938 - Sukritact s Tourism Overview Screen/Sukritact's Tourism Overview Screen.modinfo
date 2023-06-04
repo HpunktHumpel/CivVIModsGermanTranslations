@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="847dc17e-2042-4f28-a2dd-5a4b18625a71" version="1">
+  <Properties>
+    <Name>Sukritact's Tourism Overview Screen</Name>
+    <Description>Adds a screen to help players understand and track their progress towards a Culture Victory better.</Description>
+    <Created>1680012818</Created>
+    <Teaser>Sukritact's Tourism Overview Screen</Teaser>
+    <Authors>Sukritact</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Core/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <File>Core/Localisation.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="UpdateText">
+      <File>Core/Localisation.sql</File>
+    </UpdateText>
+    <AddUserInterfaces id="AddUserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Suk_TourismOverview.xml</File>
+    </AddUserInterfaces>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Tourism_Overview_Screen.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/Config.sql</File>
+    <File>Core/Localisation.sql</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact_s_Tourism_Overview_Screen.dep</File>
+    <File>UI/Suk_TourismOverview.lua</File>
+    <File>UI/Suk_TourismOverview.xml</File>
+  </Files>
+</Mod>

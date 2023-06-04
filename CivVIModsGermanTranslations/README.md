@@ -229,5 +229,6 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | #24
 2942411798 | Necropolis: Unique District for Egypt | p0kiehl & Sukritact | Junky | **NEW**
 2950891319 | Movable Cities | yiboy | Junky | **NEW**
+2953909938 | Sukritact's Tourism Overview Screen | Sukritact | Junky | **NEW**
 2961998117 | Armagh Monastery Rework | Skunk | Junky | **NEW**
 2973448849 | Great Sovereigns | Plati | Junky | **NEW**
