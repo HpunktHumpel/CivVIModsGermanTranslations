@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MC_Text_de_DE -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 3/12/2023 12:33:09 PM -->
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_MOVECITY_DISABLED_ORIGINAL_CAPITAL_TOOLTIP" Language="de_DE">
+			<Text>Hauptstadt bewegen nicht möglich</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_CAPITAL_AND_NO_ORIGINAL_CAPITAL_TOOLTIP" Language="de_DE">
+			<Text>Zuerst müsst Ihr Eure ursprüngliche Hauptstadt wiedererlangen</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_OTHER_ORIGINAL_CAPITAL_NOT_ALIVE_TOOLTIP" Language="de_DE">
+			<Text>Diese Stadt ist die vormalige Hauptstadt einer besiegten Zivilisation</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_NOT_FINISHED_PROJECT_TOOLTIP" Language="de_DE">
+			<Text>Benötigt "Vorbereitung zum Umzug der Stadt"-Projektabschluss</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_NO_PROPERTY_TOOLTIP" Language="de_DE">
+			<Text>Kein Eigentum</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_YIELD_TOOLTIP" Language="de_DE">
+			<Text>Ziehe Stadt um</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_NAME" Language="de_DE">
+			<Text>Vorbereitung zum Umzug der Stadt</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_SHORT_NAME" Language="de_DE">
+			<Text>Vorbereitung zum Umzug der Stadt</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_DESCRIPTION" Language="de_DE">
+			<Text>Bezirksbezogenes Projekt das jede Runde [ICON_Science] Wissenschaft gewährt und bei Fertigstellung [ICON_GreatEngineer] Großer-Ingenieur-Punkte ausschüttet. Erlaubt dem Spieler die Stadt an einen anderen Ort umzuziehen.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

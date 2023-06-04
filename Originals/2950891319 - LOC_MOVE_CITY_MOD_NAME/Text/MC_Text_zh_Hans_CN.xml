@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MC_Text_zh_Hans_CN -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 3/8/2023 12:39:31 AM -->
+<GameData>
+	<LocalizedText>
+		
+		<Replace Tag="LOC_MOVECITY_DISABLED_ORIGINAL_CAPITAL_TOOLTIP" Language="zh_Hans_CN">
+			<Text>您的原始首都无法移动</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_CAPITAL_AND_NO_ORIGINAL_CAPITAL_TOOLTIP" Language="zh_Hans_CN">
+			<Text>您的原始首都被占领，当前的首都城市无法移动</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_OTHER_ORIGINAL_CAPITAL_NOT_ALIVE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>此城市是一个已经灭亡的文明的原始首都，无法移动</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_NOT_FINISHED_PROJECT_TOOLTIP" Language="zh_Hans_CN">
+			<Text>未完成项目</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_NO_PROPERTY_TOOLTIP" Language="zh_Hans_CN">
+			<Text>没有属性</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_YIELD_TOOLTIP" Language="zh_Hans_CN">
+			<Text>移动城市</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_NAME" Language="zh_Hans_CN">
+			<Text>准备移动城市</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>准备移动城市</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合提供 [ICON_Science] 科技值，完成后提供 [ICON_GreatEngineer] 大工程师点数，并且允许移动城市。</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

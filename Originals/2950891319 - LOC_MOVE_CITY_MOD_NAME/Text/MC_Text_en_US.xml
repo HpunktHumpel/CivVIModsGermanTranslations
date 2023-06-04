@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MC_Text_en_US -->
+<!-- Author: yiboy -->
+<!-- DateCreated: 3/12/2023 12:33:09 PM -->
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_MOVECITY_DISABLED_ORIGINAL_CAPITAL_TOOLTIP" Language="en_US">
+			<Text>Can't move your original Capital</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_CAPITAL_AND_NO_ORIGINAL_CAPITAL_TOOLTIP" Language="en_US">
+			<Text>Your have to take back your original Capital first</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_OTHER_ORIGINAL_CAPITAL_NOT_ALIVE_TOOLTIP" Language="en_US">
+			<Text>This city is the original Capital of a defeated Civilization</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_NOT_FINISHED_PROJECT_TOOLTIP" Language="en_US">
+			<Text>Need "Preparing for moving city" project finished</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_DISABLED_NO_PROPERTY_TOOLTIP" Language="en_US">
+			<Text>No property</Text>
+		</Replace>
+		<Replace Tag="LOC_MOVECITY_YIELD_TOOLTIP" Language="en_US">
+			<Text>Move City</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_NAME" Language="en_US">
+			<Text>Preparing for moving city</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_SHORT_NAME" Language="en_US">
+			<Text>Preparing for moving city</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CITY_NOT_CAPITAL_DESCRIPTION" Language="en_US">
+			<Text>District-based project which provides [ICON_Science] Science every turn and [ICON_GreatEngineer] Great Engineer points once finished, and allows player to move this city.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

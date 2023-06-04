@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="16e2f249-122b-480c-a17c-07401ae3c541" version="1">
+  <Properties>
+    <Name>LOC_MOVE_CITY_MOD_NAME</Name>
+    <Description>LOC_MOVE_CITY_MOD_DESCRIPTION</Description>
+    <Created>1678202418</Created>
+    <Teaser>LOC_MOVE_CITY_MOD_TEASER</Teaser>
+    <Authors>LOC_MOVE_CITY_MOD_AUTHORS</Authors>
+    <SpecialThanks>LOC_MOVE_CITY_MOD_SPECIALTHANKS</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <!-- <Dependencies> -->
+    <!-- <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" /> -->
+  <!-- </Dependencies> -->
+  <References> 
+   <Mod id="bdce8c55-d0b7-46bc-bfba-c99f527d334c" title="Movable Cities: Wonders Reserved" /> 
+  </References> 
+  <LocalizedText>
+    <Text id="LOC_MOVE_CITY_MOD_NAME">
+      <en_US>Movable Cities</en_US>
+      <zh_Hans_CN>可移动的城市</zh_Hans_CN>
+	  <zh_Hant_HK>可移动的城市</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_MOVE_CITY_MOD_TEASER">
+      <en_US>A mod that allows human players to move their cities.</en_US>
+      <zh_Hans_CN>允许玩家移动城市到相邻单元格</zh_Hans_CN>
+	  <zh_Hant_HK>允许玩家移动城市到相邻单元格</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_MOVE_CITY_MOD_DESCRIPTION">
+      <en_US>A mod that makes city more flexible![NEWLINE][NEWLINE][ICON_BUllet]Human players can move cities to adjacent tiles after completing a certain project.[NEWLINE][ICON_BUllet]Cities can only be moved to adjacent tiles (that units can pass, can settle and with no other civ's units on), which are indicated in green when the button is selected.[NEWLINE][ICON_BUllet]You can't move a city if: This city is your original capital; This city is your current capital and your original capital no longer belongs to you; The city is the original capital of a defeated civilization.[NEWLINE][ICON_BUllet]The new city copies the population, name, and religion, as well as tiles, districts, buildings, and improvements within 3 tiles. If districts and buildings are 4 tiles away, the new city can complete the districts and buildings instantly when you rebuild them.[NEWLINE][ICON_BUllet]Special buildings and districts such as aqueducts and water mills are also retained if the conditions do not meet after the move.[NEWLINE][ICON_BUllet]In theory, multiplayer mode is supported, and you can contact me if you find a bug.[NEWLINE][NEWLINE]Recent Updates: [NEWLINE]1.The new city can complete the wonders (that used to be in the city before the move) instantly when rebuilding (if you subscribe to my new supplemental mod)! [NEWLINE]2.Fix some bugs in tile yields. [NEWLINE]3.Now compatible with CME!
+	  </en_US>
+      <zh_Hans_CN>
+	  一个功能性mod。[NEWLINE][NEWLINE][ICON_BUllet]人类主流文明玩家可以在完成项目后移动城市到相邻单元格。
+	  [NEWLINE][ICON_BUllet]城市只能移动到相邻的可跨越、可定居、没有其他文明单位的陆地单元格上，选中按钮后会以绿色进行提示。
+	  [NEWLINE][ICON_BUllet]以下情况无法移动城市：此城市是您的原始首都；此城市是您现在的首都，且您的原始首都已经不属于您；此城市是一个已经灭亡的文明的原始首都。
+	  [NEWLINE][ICON_BUllet]移动后的城市会保留人口、名字和宗教（待测试），保留3环内的单元格、区域、建筑和改良。如果是4环的区域和建筑，则新城市可在建造此区域时瞬间完成区域和建筑。
+	  [NEWLINE][ICON_BUllet]类似水渠、水磨的特殊区域和建筑，移动后也会保留。
+	  [NEWLINE][ICON_BUllet]如果您订阅了扩展模组，那么也可以保留奇观，但是需要手动放置。
+	  [NEWLINE][ICON_BUllet]理论上支持多人模式，有bug可以和我联系。
+	  [NEWLINE][NEWLINE]最近更新：增加了保留奇观的功能，修复了移动城市后地块产出异常的问题，兼容CME及工人加速相邻奇观。
+	  </zh_Hans_CN>
+	  <zh_Hant_HK>
+	  一个功能性mod。[NEWLINE][NEWLINE][ICON_BUllet]人类主流文明玩家可以在完成项目后移动城市到相邻单元格。
+	  [NEWLINE][ICON_BUllet]城市只能移动到相邻的可跨越、可定居、没有其他文明单位的陆地单元格上，选中按钮后会以绿色进行提示。
+	  [NEWLINE][ICON_BUllet]以下情况无法移动城市：此城市是您的原始首都；此城市是您现在的首都，且您的原始首都已经不属于您；此城市是一个已经灭亡的文明的原始首都。
+	  [NEWLINE][ICON_BUllet]移动后的城市会保留人口、名字和宗教（待测试），保留3环内的单元格、区域、建筑和改良。如果是4环的区域和建筑，则新城市可在建造此区域时瞬间完成区域和建筑。
+	  [NEWLINE][ICON_BUllet]类似水渠、水磨的特殊区域和建筑，移动后也会保留。
+	  [NEWLINE][ICON_BUllet]如果您订阅了扩展模组，那么也可以保留奇观，但是需要手动放置。
+	  [NEWLINE][ICON_BUllet]理论上支持多人模式，有bug可以和我联系。
+	  [NEWLINE][NEWLINE]最近更新：增加了保留奇观的功能，修复了移动城市后地块产出异常的问题，兼容CME及工人加速相邻奇观。
+	  </zh_Hant_HK>
+    </Text>
+	<Text id="LOC_MOVE_CITY_MOD_AUTHORS">
+      <en_US>Maple_Leaves</en_US>
+      <zh_Hans_CN>枫叶(Maple_Leaves)</zh_Hans_CN>
+	  <zh_Hant_HK>枫叶(Maple_Leaves)</zh_Hant_HK>
+    </Text>
+	<Text id="LOC_MOVE_CITY_MOD_SPECIALTHANKS">
+      <en_US>Hemmelfort, Konomi, bottlep, Alexandre Torres, C1sen, Lawrence Shark, Flactine, nea baraja, pen</en_US>
+      <zh_Hans_CN>Hemmelfort，榊野木乃实，bottlep，Alexandre Torresm，C1sen，姥鲨，焰色，nea baraja，pen</zh_Hans_CN>
+	  <zh_Hant_HK>Hemmelfort，榊野木乃实，bottlep，Alexandre Torresm，C1sen，姥鲨，焰色，nea baraja，pen</zh_Hant_HK>
+    </Text>
+  </LocalizedText>
+  <ActionCriteria>
+	<Criteria id="MOVE_CITY">
+	  <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+	<UpdateDatabase id="MovableCities_Database">
+		<Properties> 
+			 <LoadOrder>99999999</LoadOrder>
+        </Properties>
+		<Criteria>MOVE_CITY</Criteria>
+		<!-- <File>Data/MC_Buildings.xml</File> -->
+		<!-- <File>Data/MC_Civilopedia.xml</File> -->
+		<File>Data/MC_Projects.xml</File>
+		<!-- <File>Data/MC_WonderRecover.sql</File> -->
+    </UpdateDatabase>
+    <AddGameplayScripts id="MovableCities_Scripts">
+		<Criteria>MOVE_CITY</Criteria>
+		<File>Scripts/MC_Gameplay.lua</File>
+    </AddGameplayScripts>
+	<AddUserInterfaces id="MovableCities_UI" >
+		<Properties>
+			<LoadOrder>300</LoadOrder>
+			<Context>InGame</Context>
+        </Properties>
+		<Criteria>MOVE_CITY</Criteria>
+		<File>UI/MC_MoveCityButton.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="MovableCities_IF" >
+		<Criteria>MOVE_CITY</Criteria>
+		<File>UI/MC_MoveCityButton.lua</File>
+    </ImportFiles>
+	<UpdateText id="MovableCities_Text">
+		<Criteria>MOVE_CITY</Criteria>
+		<File>Text/MC_Text_zh_Hans_CN.xml</File>
+		<File>Text/MC_Text_en_US.xml</File>
+		<File>Text/MC_Text_zh_Hant_HK.xml</File>
+    </UpdateText>
+	<UpdateIcons id="MovableCities_Icon">
+		<Criteria>MOVE_CITY</Criteria>
+		<File>Icon/MC_Icons.xml</File>
+    </UpdateIcons>
+	<UpdateArt id="MovableCities_Art">
+      <File>Movable_Cities.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/MC_Buildings.xml</File>
+    <File>Data/MC_Civilopedia.xml</File>
+    <File>Data/MC_Projects.xml</File>
+	<File>Data/MC_WonderRecover.sql</File>
+    <File>Icon/MC_Icons.xml</File>
+    <File>Movable_Cities.dep</File>
+    <File>Platforms/MacOS/BLPs/MovableCitiesPictures.blp</File>
+    <File>Platforms/Windows/BLPs/MovableCitiesPictures.blp</File>
+    <File>Scripts/MC_Gameplay.lua</File>
+    <File>Text/MC_Text_en_US.xml</File>
+    <File>Text/MC_Text_zh_Hans_CN.xml</File>
+    <File>Text/MC_Text_zh_Hant_HK.xml</File>
+    <File>UI/MC_MoveCityButton.lua</File>
+    <File>UI/MC_MoveCityButton.xml</File>
+  </Files>
+</Mod>
