@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b820e109-c326-7375-b44f-1635a8bedbe5" version="1">
+  <Properties>
+    <Name>Great Sovereigns</Name>
+    <Description>Adds completely new Great People type with new individuals.</Description>
+    <Created>1639777325</Created>
+    <Teaser>Completely new Great People type.</Teaser>
+    <Authors>Plati</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="game">
+      <File>GreatSovereigns_People.xml</File>
+      <File>GreatSovereigns_Core.xml</File>
+	  <File>GreatSovereigns_Policy.xml</File>
+	  <!-- Expansion beyond base 18 -->
+	  <File>Expansion/PLATI_Sovereign_First.xml</File>
+	  <File>Expansion/PLATI_Sovereign_Zayed.xml</File>
+	  <File>Expansion/PLATI_Sovereign_Frederick.xml</File>
+	  <File>Expansion/PLATI_Sovereign_Gediminas.xml</File>
+	  <!-- SUMUS MAGNUS -->
+	  <File>Expansion/Merchant_Rodrigo_Borgia.xml</File>
+	  <File>Expansion/Merchant_Kosemi_Sultan.xml</File>
+	  <File>Expansion/PLATI_General_Bismark.xml</File>
+	  <File>Expansion/PLATI_Merchant_Arbe.xml</File>
+	  <File>Expansion/PLATI_Scientist_Beg.xml</File>
+	  <File>Expansion/PLATI_General_Akbar.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>GreatSovereigns_Icon.xml</File>
+	  <File>GreatSovereigns_Portraits.xml</File>
+	  <File>GreatSovereigns_Policies_Icon.xml</File>
+    </UpdateIcons>
+	<ImportFiles id="SOVEREIGNS_Import">
+		<!-- Portraits -->
+		<File>Icons/PLATI_ZERO.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_SOLOMON.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_AURELIUS.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_DARIUS.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_ASHOKA.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_FREDERICH.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_AHMAD.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_CHARLEMAGNE.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_RAMKH.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_THERESA.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_HAILE.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_ATATURK.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_MEIJI.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_LEE_KUAN_YEW.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_AKBAR.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_ASKIA.dds</File>
+		<File>Icons/PLATI_SOVEREIGN_HARUN.dds</File>
+		<!-- Expansion beyond base 18 -->
+		<File>Icons/Expanded/PLATI_SOVEREIGN_FIRST.dds</File>
+		<File>Icons/Expanded/PLATI_SOVEREIGN_ZAYED.dds</File>
+		<File>Icons/Expanded/PLATI_SOVEREIGN_FREDERICK.dds</File>
+		<File>Icons/Expanded/PLATI_SOVEREIGN_GEDIMINAS.dds</File>
+		<!-- SUMUS MAGNUS -->
+		<File>Icons/Expanded/PLATI_GENERAL_BISMARK.dds</File>
+		<File>Icons/Expanded/PLATI_MERCHANT_ARBE.dds</File>
+		<File>Icons/Expanded/PLATI_MERCHANT_KOSEM_SULTAN.dds</File>
+		<File>Icons/Expanded/PLATI_MERCHANT_RODRIGO_BORGIA.dds</File>
+		<File>Icons/Expanded/PLATI_SCIENTIST_BEG.dds</File>
+		<File>Icons/Expanded/PLATI_GENERAL_AKBAR.dds</File>
+		<!-- Interface -->
+		<File>Textures/ICON_GREAT_SOVEREIGN_38.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_50.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_80.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_256.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_38.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_50.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_70.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_95.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_200.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_256.dds</File>
+		<!---->
+		<File>Textures/ICON_GREAT_SOVEREIGN_ACTION_38.dds</File>
+		<File>Textures/ICON_GREAT_SOVEREIGN_Z_22.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_30.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_32.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_38.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_50.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_70.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_80.dds</File>
+		<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_256.dds</File>
+    </ImportFiles>
+	<UpdateArt id="SOVEREIGNS_ART">
+      <File>GreatSovereigns.dep</File>
+    </UpdateArt>
+	<UpdateText id="SOBEREIGN_TEXTn">
+		<File>GreatSovereigns_Localisation.xml</File>
+	</UpdateText>
+  </InGameActions>
+  <Files>
+	<!-- Core -->
+    <File>ArtDefs/PLATI_SOVEREIGNS.artdef</File>
+    <File>GreatSovereigns_People.xml</File>
+    <File>GreatSovereigns_Icon.xml</File>
+    <File>GreatSovereigns_Core.xml</File>
+	<File>GreatSovereigns_Policy.xml</File>
+	<File>GreatSovereigns.xml</File>
+	<File>GreatSovereigns_Portraits.xml</File>
+	<File>GreatSovereigns_Policies_Icon.xml</File>
+	<File>GreatSovereigns.dep</File>
+	<File>GreatSovereigns_Localisation.xml</File>
+	<!-- Expansion beyond base 18 -->
+	<File>Expansion/PLATI_Sovereign_First.xml</File>
+	<File>Expansion/PLATI_Sovereign_Zayed.xml</File>
+	<File>Expansion/PLATI_Sovereign_Frederick.xml</File>
+	<File>Expansion/PLATI_Sovereign_Gediminas.xml</File>
+	<!-- SUMUS MAGNUS -->
+	<File>Expansion/Merchant_Rodrigo_Borgia.xml</File>
+	<File>Expansion/Merchant_Kosemi_Sultan.xml</File>
+	<File>Expansion/PLATI_General_Bismark.xml</File>
+	<File>Expansion/PLATI_Merchant_Arbe.xml</File>
+	<File>Expansion/PLATI_Scientist_Beg.xml</File>
+	<File>Expansion/PLATI_General_Akbar.xml</File>
+	<!-- Portraits -->
+	<File>Icons/PLATI_ZERO.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_SOLOMON.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_AURELIUS.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_DARIUS.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_ASHOKA.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_FREDERICH.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_AHMAD.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_CHARLEMAGNE.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_RAMKH.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_THERESA.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_HAILE.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_ATATURK.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_MEIJI.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_LEE_KUAN_YEW.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_AKBAR.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_ASKIA.dds</File>
+	<File>Icons/PLATI_SOVEREIGN_HARUN.dds</File>
+	<!-- Expansion beyond base 18 -->
+	<File>Icons/Expanded/PLATI_SOVEREIGN_FIRST.dds</File>
+	<File>Icons/Expanded/PLATI_SOVEREIGN_ZAYED.dds</File>
+	<File>Icons/Expanded/PLATI_SOVEREIGN_FREDERICK.dds</File>
+	<File>Icons/Expanded/PLATI_SOVEREIGN_GEDIMINAS.dds</File>
+	<!-- SUMUS MAGNUS -->
+	<File>Icons/Expanded/PLATI_GENERAL_BISMARK.dds</File>
+	<File>Icons/Expanded/PLATI_MERCHANT_ARBE.dds</File>
+	<File>Icons/Expanded/PLATI_MERCHANT_KOSEM_SULTAN.dds</File>
+	<File>Icons/Expanded/PLATI_MERCHANT_RODRIGO_BORGIA.dds</File>
+	<File>Icons/Expanded/PLATI_SCIENTIST_BEG.dds</File>
+	<File>Icons/Expanded/PLATI_GENERAL_AKBAR.dds</File>
+	<!-- Interface -->
+	<File>Textures/ICON_GREAT_SOVEREIGN_38.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_50.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_80.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_256.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_38.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_50.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_70.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_95.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_200.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_PORTRAIT_256.dds</File>
+	<!---->
+	<File>Textures/ICON_GREAT_SOVEREIGN_ACTION_38.dds</File>
+	<File>Textures/ICON_GREAT_SOVEREIGN_Z_22.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_30.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_32.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_38.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_50.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_70.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_80.dds</File>
+	<File>Textures/ICON_PROJECT_GreatSovereigns_DISTRICT_GOVERNMENT_256.dds</File>
+  </Files>
+</Mod>

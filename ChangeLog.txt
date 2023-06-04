@@ -1,5 +1,6 @@
 04.06.2023
 
+- [NEW] Great Sovereigns (vom 17. Mai 2023 um 1:04, Übersetzung von Junky)
 - [FIXED] Leugi's Greenery: Wildlife++ (Game Mode)
 - [FIXED] Leugi's Monopoly++: Tycoons and Investors
 - [FIXED] UC - District Expansion: Aqueduct
