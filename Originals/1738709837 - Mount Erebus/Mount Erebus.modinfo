@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0f0c40f8-d205-41c5-9ee3-8214f6c4f5cf" version="2">
+  <Properties>
+    <Name>Mount Erebus</Name>
+    <Description>Adds the natural wonder Mount Erebus to the game.</Description>
+    <Teaser>Adds the natural wonder Mount Erebus to the game.</Teaser>
+    <Authors>AOM</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>3000</LoadOrder>
+      </Properties>
+      <File>MountErebus_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>MountErebus_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Mount Erebus.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Clutter.artdef</File>
+    <File>ArtDefs/Features.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>ArtDefs/VFX.artdef</File>
+    <File>Icons.xml</File>
+    <File>Mount Erebus.dep</File>
+    <File>MountErebus_Gameplay.sql</File>
+    <File>MountErebus_Text.xml</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+  </Files>
+</Mod>

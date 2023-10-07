@@ -138,6 +138,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. More Maritime: Seaside Sectors (Albro | H.Humpel)
 1. MoreTier1Policies (VanillaThunder | H.Humpel)
 1. Motherland Calls (WindFly | H.Humpel)
+1. Mount Erebus (AOM | ASM590319)
 1. Movable Cities (yiboy | Junky)
 1. Movable Districts (wltk | Junky)
 1. National Projects: Satellites (JNR | H.Humpel)

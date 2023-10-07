@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US"
+			 Tag="LOC_FEATURE_MOUNT_EREBUS_NAME">
+			<Text>Mount Erebus</Text>
+		</Row>
+		<Row Language="en_US"
+			 Tag="LOC_FEATURE_MOUNT_EREBUS_DESCRIPTION">
+			<Text>One tile impassible natural wonder. It appears as a Volcano and provides +7 [ICON_Science]. Adjacent plots yield +2 [ICON_Science]. +6 [ICON_Science] to adjacent Campus districts.</Text>
+		</Row>
+		<Row Language="en_US"
+			 Tag="LOC_FEATURE_MOUNT_EREBUS_QUOTE">
+			<Text>“All the coast one mass of dazzling beautiful peaks of snow which, when the sun approached the horizon, reflected the most brilliant tints of golden yellow and scarlet; and then to see the dark cloud of smoke, tinged with flame, rising from the volcano in a perfectly unbroken column, one side jet-black, the other giving back the colors of the sun….This was a sight so surpassing everything that can be imagined…“. [NEWLINE] – Dr. Joseph Dalton Hooker </Text>
+		</Row>
+		<Row Language="en_US"
+			 Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MOUNT_EREBUS_CHAPTER_HISTORY_PARA_1">
+			<Text>Mount Erebus is the southernmost active volcano on Earth and is located on Ross Island in Antarctica. It was discovered in 1841 by Sir James Clark Ross and was first summited in 1908 by members of Sir Ernest Shackleton's party. Mount Erebus is currently the most active volcano in Antarctica, and it contains one of the few long lasting lava lakes on Earth. The volcano is of interest to scientists for several reasons. Its relatively low level and persistent eruptive activity allows long term volcanological study of a Strombolian eruptive system very close to the active vents, a characteristic present in only a few volcanos on Earth. Further it is the Earth's only presently erupting phonolite volcano. It is of special interest for studying oligotrophs (organisms that survive on minimal amounts of resources). Its caves are important to the study of astrobiology as they are at high altitude, accessible for study, and highly unlikely to contain photosynthetic-based organics or animals in a food chain based on photosynthesis. Most micro-organisms there are chemolithoautotrophic (microbes that obtain all energy from chemical reactions with rock). The volcano is the site of the Mount Erebus Volcano Observatory and is in proximity to McMurdo Station and Scott Base. In 1979 Mount Erebus was the site of the tragic crash of Air New Zealand Flight 901, a sight-seeing venture, that resulted in the death of all 257 people on board.</Text>
+		</Row>
+		<Row Language="en_US"
+			 Tag="LOC_DISTRICT_MOUNT_EREBUS_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Science from adjacent Mount Erebus {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

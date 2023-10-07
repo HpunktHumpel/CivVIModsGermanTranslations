@@ -68,6 +68,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1720804635 | p0kiehl's Better Aqueduct | p0kiehl | Junky | #18
 1720820463 | p0kiehl's Better Encampment | p0kiehl | Junky | #18
 1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | #13
+1738709837 | Mount Erebus | AOM | ASM590319 | **NEW**
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1746994170 | Spy Promotion Tree | Luke Vo | Junky | #18
 1747105772 | Progressive Power Consumption | JNR | Junky | #4

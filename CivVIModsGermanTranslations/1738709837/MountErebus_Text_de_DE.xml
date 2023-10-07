@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 00:03:50 -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="de_DE"
+			 Tag="LOC_FEATURE_MOUNT_EREBUS_NAME">
+			<Text>Mount Erebus</Text>
+		</Replace>
+		<Replace Language="de_DE"
+			 Tag="LOC_FEATURE_MOUNT_EREBUS_DESCRIPTION">
+			<Text>Unpassierbares natürliches Wunder auf 1 Feld. Es erscheint als Vulkan und bietet +7 [ICON_Science] Wissenschaft. Angrenzende Felder geben +2 [ICON_Science] Wissenschaft. +6 [ICON_Science] Wissenschaft für angrenzenden Campusbezirk.</Text>
+		</Replace>
+		<Replace Language="de_DE"
+			 Tag="LOC_FEATURE_MOUNT_EREBUS_QUOTE">
+			<Text>„Die gesamte Küste entlang schillernde schöne Spitzen aus Schnee, die, als sich die Sonne dem Horizont näherte, die brillantesten Farbtöne von goldenem Gelb und Scharlach widerspiegelte. Und dann die dunkle Rauchwolke, die mit einer Flamme gefärbt ist und aus dem Vulkan in einer perfekt ungebrochenen Säule steigt, eine Seite tiefschwarz, die andere die Farben der Sonne zurückgebend. Dies war ein Anblick, der alles übertraf, was man sich vorstellen kann...“.[NEWLINE]- Dr. Joseph Dalton Hooker</Text>
+		</Replace>
+		<Replace Language="de_DE"
+			 Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MOUNT_EREBUS_CHAPTER_HISTORY_PARA_1">
+			<Text>Mount Erebus ist der südlichste Vulkan der Erde und befindet sich auf Ross Island in der Antarktis. Es wurde 1841 von Sir James Clark Ross entdeckt und 1908 von Mitgliedern der Expedition von Sir Ernest Shackleton erstmals kartiert. Mount Erebus ist derzeit der aktivste Vulkan in der Antarktis und enthält eine der wenigen langlebigen Lava -Seen auf der Erde. Der Vulkan ist aus mehreren Gründen für Wissenschaftler von Interesse. Die relativ niedrige und anhaltende Eruptivaktivität ermöglicht eine langfristige vulkanologische Untersuchung eines strombolianischen Eruptionssystems, das sehr nahe an den aktiven Lüftungsschlitzen ist, ein Merkmal, das nur in wenigen Vulkanen auf der Erde vorhanden ist. Ferner ist es der einzige derzeit ausbrennende Phonolit-Vulkan der Erde. Es ist von besonderem Interesse für die Untersuchung von Oligotrophen (Organismen, die mit minimalen Mengen an Ressourcen überleben). Seine Höhlen sind wichtig für die Untersuchung der Astrobiologie, da sie in großer Höhe und für das Studium zugänglich sind und nicht auf photosynthetischer Basis oder Tieren mit einer photosynthetischen Nahrungskette basieren. Die meisten Mikroorganismen sind Chemolithoautotrophe (Mikroben, die die gesamte Energie aus chemischen Reaktionen mit Gestein erhalten). Der Vulkan ist der Standort des Mount Erebus Vulcano Observatory und befindet sich in der Nähe der McMurdo Station und der Scott-Basis. Im Jahr 1979 war Mount Erebus der Ort des tragischen Absturzes von Air New Zealand Flight 901, einem Tourismusflug, der zum Tod aller 257 Menschen an Bord führte.</Text>
+		</Replace>
+		<Replace Language="de_DE"
+			 Tag="LOC_DISTRICT_MOUNT_EREBUS_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft aus angrenzende{1_Num : plural 1?m; other?n;} Mount Erebus-Feld{1_Num : plural 1?; other?ern;}.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

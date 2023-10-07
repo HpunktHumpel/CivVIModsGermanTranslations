@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="26">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]232[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]233[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1696717138</Created>
+    <Created>1696717882</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -594,6 +594,9 @@
     </Criteria>
     <Criteria id="MotherlandCalls">
       <ModInUse>ce086704-334c-43cd-b26a-478365503137</ModInUse>
+    </Criteria>
+    <Criteria id="MountErebus">
+      <ModInUse>0f0c40f8-d205-41c5-9ee3-8214f6c4f5cf</ModInUse>
     </Criteria>
     <Criteria id="MovableCities">
       <ModInUse>16e2f249-122b-480c-a17c-07401ae3c541</ModInUse>
@@ -2702,6 +2705,13 @@
       <Criteria>MotherlandCalls</Criteria>
       <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="MountErebus_UpdateText_de_DE">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <Criteria>MountErebus</Criteria>
+      <File>1738709837/MountErebus_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="MovableCities_Text_de_DE">
       <Criteria>MovableCities</Criteria>
       <File>2950891319/Text/MC_Text_de_DE.xml</File>
@@ -4124,6 +4134,7 @@
     <File>1720820463/Core/BetterEncampment_Localisation_de_DE.sql</File>
     <File>1720820463/Core/BetterEncampment_ModCompat_Localisation_de_DE.sql</File>
     <File>1731670144/MoreTier1Policies_Text_de_DE.xml</File>
+    <File>1738709837/MountErebus_Text_de_DE.xml</File>
     <File>1746376988/Core/p0k_Temple_Poseidon_Localisation_de_DE.xml</File>
     <File>1746994170/spypromotiontree_text_de_DE.sql</File>
     <File>1747105772/Text/UC_PPC_Text_de_DE.sql</File>
