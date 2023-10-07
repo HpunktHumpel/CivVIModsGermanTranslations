@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Text modifications by FinalFreak16 -->
+<GameData>
+	<LocalizedText>
+			
+		<!-- Expansion 1 Policies -->		
+		<Replace Tag="LOC_POLICY_MONASTICISM_DESCRIPTION" Language="en_US">
+			<Text>[ICON_Science]+75% Science in cities with a Holy Site.[COLOR:StatBadCS] -25% [ICON_Culture] Culture in all cities.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TWILIGHT_VALOR_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength for all melee attack units.[COLOR:StatBadCS] Cannot heal outside your territory.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INQUISITION_DESCRIPTION" Language="en_US">
+			<Text>Start Inquisition with 1 Apostle charge. All Religious units are +15 [ICON_Religion] Religious Combat Strength in friendly territory.[COLOR:StatBadCS] -25% [ICON_Science] Science in all cities.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ISOLATIONISM_DESCRIPTION" Language="en_US">
+			<Text>Domestic routes provide +2 [ICON_Food] Food, +2 [ICON_Production] Production.[COLOR:StatBadCS] Can't train or buy Settlers nor settle new cities.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LETTERS_OF_MARQUE_DESCRIPTION" Language="en_US">
+			<Text>Naval Raiders: +100% [ICON_Production] Production, +2 [ICON_Movement] Movement. Yields doubled from plundering Trade Routes.[COLOR:StatBadCS] [ICON_TradeRoute] Trade Route yields -50%.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Gold] Gold in cities with a Stock Exchange. +25% [ICON_Production] Production in cities with a Factory.[COLOR:StatBadCS] -2 [ICON_Amenities] Amenities in all cities.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ELITE_FORCES_DESCRIPTION" Language="en_US">
+			<Text>+100% combat experience for all units.[COLOR:StatBadCS] +2 [ICON_Gold] Gold to maintain each combat and spy unit.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLLECTIVISM_DESCRIPTION" Language="en_US">
+			<Text>Farms +1 [ICON_Food] Food. All cities +2 [ICON_Housing] Housing. +100% Industrial Zone adjacency bonuses.[COLOR:StatBadCS] [ICON_GreatPerson] Great People Points earned 50% slower.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production to nuclear program projects and Nuclear Devices.[COLOR:StatBadCS] Earn no influence toward new [ICON_Envoy] Envoys.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" Language="en_US">
+			<Text>+5 [ICON_Religion] Religious Strength in Theological Combat. +.5 [ICON_Faith] Faith per [ICON_Citizen] Citizen in cities with [ICON_Governor] Governors.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_AUTOMATED_WORKFORCE_DESCRIPTION" Language="en_US">
+			<Text>Your cities get +20% [ICON_Production] Production towards city projects.[COLOR:StatBadCS] -1 [ICON_Amenities] Amenity and -5 Loyalty per turn in your cities.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_CYBER_WARFARE_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength against units from the Information and Future Eras.[COLOR:StatBadCS] [ICON_STAT_GRIEVANCE] Grievances against you do not decay.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DISINFORMATION_CAMPAIGN_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Favor] Diplomatic Favor per turn for each Broadcast Center.[COLOR:StatBadCS] -10% [ICON_SCIENCE] Science and [ICON_Culture] Culture in all cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FLOWER_POWER_DESCRIPTION" Language="en_US">
+			<Text>All Civilizations not currently at war receive +100% of the [ICON_TOURISM] Tourism from your Concerts.[COLOR:StatBadCS] The cost of producing is decreased by 100% and purchasing is +100% for units other than Rock Bands..</Text>
+		</Replace>
+		
+		<!-- Dramatic Ages Policies -->
+		<Replace Tag="LOC_POLICY_MONASTICISM_DA_DESCRIPTION" Language="en_US">
+			<Text>+75% [ICON_Science] Science in cities with a Holy Site.[COLOR:StatBadCS] -25% [ICON_Culture] Culture in cities without a Holy Site.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ELITE_FORCES_DA_DESCRIPTION" Language="en_US">
+			<Text>+100% combat experience for all units.[COLOR:StatBadCS] +1 [ICON_Gold] Gold to maintain each combat and spy unit.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INQUISITION_DA_DESCRIPTION" Language="en_US">
+			<Text>Start Inquisition with 1 Apostle charge. All Religious units +15 [ICON_Religion] Religious Combat Strength in friendly territory.[COLOR:StatBadCS] -15% [ICON_Science] Science in all cities.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ISOLATIONISM_DA_DESCRIPTION" Language="en_US">
+			<Text>Domestic routes provide +3 [ICON_Food] Food, +3 [ICON_Production] Production, and +3 [ICON_Gold] Gold.[COLOR:StatBadCS] Can't train or buy Settlers nor settle new cities.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DA_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Gold] Gold and +25% [ICON_Production] Production in cities with a Bank or a Shipyard.[COLOR:StatBadCS] -2 [ICON_Amenities] Amenities in all cities.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLLECTIVISM_DA_DESCRIPTION" Language="en_US">
+			<Text>Farms provide +1 [ICON_Production] Production. All cities +2 [ICON_Housing] Housing. Industrial Zones provide [ICON_FOOD] Food equal to their adjacency bonus.[COLOR:StatBadCS] [ICON_GreatPerson] Great People Points earned 50% slower.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DECENTRALIZATION_DESCRIPTION" Language="en_US">
+			<Text>Cities with 6 or less [ICON_CITIZEN] population receive +4 Loyalty per turn.[COLOR:StatBadCS] Cities with more than 6 [ICON_CITIZEN] population receive -15% [ICON_Gold] Gold.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DESPOTIC_PATERNALISM_DESCRIPTION" Language="en_US">
+			<Text>+4 Loyalty per turn in cities with [ICON_Governor] Governors.[COLOR:StatBadCS] -15% [ICON_Science] Science and -15% [ICON_Culture] Culture in all cities without an established [ICON_Governor] Governor.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SAMODERZHAVIYE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_PRODUCTION] Production in your [ICON_CAPITAL] Capital.[COLOR:StatBadCS] All [ICON_Governor] Governors are neutralized and cannot be reestablished.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SOFT_TARGETS_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength vs. city attacks and district defenses.[COLOR:StatBadCS] -3 [ICON_Strength] Combat Strength against units.[ENDCOLOR]</Text>
+		</Replace>
+			
+	</LocalizedText>
+</GameData>

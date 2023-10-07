@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Text modifications by FinalFreak16 -->
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION" Language="de_DE">
+		  <Text>Alle Einheiten erhalten +25 % Kampferfahrung.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION" Language="de_DE">
+		  <Text>Eure [ICON_TradeRoute] Handelswege zur Stadt eines Verbündeten bieten +4 [ICON_Food] Nahrung und +4 [ICON_Production] Produktion für beide Städte. Allianzpunkte durch jeden Verbündeten erhöhen sich 25 % schneller.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION" Language="de_DE">
+		  <Text>Etablierte [ICON_GOVERNOR] Gouverneure mit mindestens 3 Beförderungen liefern +1 [ICON_Amenities] Annehmlichkeit und +1 [ICON_Housing] Wohnraum.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION" Language="de_DE">
+		  <Text>+15 % schnelleres Wachstum und +3 Loyalität pro Runde für Städte, nicht auf dem Kontinent Eurer ursprünglichen [ICON_Capital] Hauptstadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLONIAL_TAXES_DESCRIPTION" Language="de_DE">
+		  <Text>+25 % [ICON_Gold] Gold und +10 % [ICON_PRODUCTION] Produktion für Städte, nicht auf dem Kontinent Eurer ursprünglichen [ICON_Capital] Hauptstadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COMMUNICATIONS_OFFICE_DESCRIPTION" Language="de_DE">
+		  <Text>[ICON_Governor] Gouverneure liefern ihrer Stadt +1 Loyalität pro Runde pro Beförderung des [ICON_Governor] Gouverneurs.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="de_DE">
+		  <Text>Mehr [ICON_Gold] Gold durch Gebäude in Handelszentren: +50 %, bei 10 [ICON_CITIZEN] Stadtbevölkerung und mehr, +50 %, wenn Nachbarschaftsbonus +4 und mehr.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="de_DE">
+		  <Text>Mehr [ICON_Culture] Kultur von Gebäuden im Theaterplatz: +50 %, bei 10 [ICON_CITIZEN] Stadtbevölkerung und mehr, +50 %, bei +3 Nachbarschaftsbonus und mehr.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIMITANEI_DESCRIPTION" Language="de_DE">
+		  <Text>+2 Loyalität pro Runde für Städte mit Garnisons-Einheit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION" Language="de_DE">
+		  <Text>Sammelt 25 % weniger Kriegsmüdigkeit als gewöhnlich. +2 Loyalität pro Runde für Städte mit Garnisons-Einheit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION" Language="de_DE">
+		  <Text>-2 feindliche Spionagestufe in Eurem Land. Alle Städte erleiden aber -2 Loyalität pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PRAETORIUM_DESCRIPTION" Language="de_DE">
+		  <Text>[ICON_Governor] Gouverneure liefern ihrer Stadt +2 Loyalität pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="de_DE">
+		  <Text>Mehr [ICON_Science] Wissenschaft von Campus-Gebäuden: +50 %, bei 10 [ICON_CITIZEN] Stadtbevölkerung und mehr, +50 %, bei +3 Nachbarschaftsbonus und mehr.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SECOND_STRIKE_CAPABILITY_DESCRIPTION" Language="de_DE">
+		  <Text>Nuklearwaffenunterhalt um 50 % [ICON_Gold] Gold pro Runde reduziert.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="de_DE">
+		  <Text>Mehr [ICON_Faith] Glauben von Heilige Stätte-Gebäuden: +50 %, bei 10 [ICON_CITIZEN] Stadtbevölkerung oder mehr, +50 %, bei Nachbarschaftsbonus +3 oder mehr.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_WISSELBANKEN_DESCRIPTION" Language="de_DE">
+		  <Text>Eure [ICON_TradeRoute] Handelswege zu verbündeten Städten bieten +2 [ICON_Food] und +2 [ICON_Production] für beide Städte. Allianzpunkte steigen 25 % schneller.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MONASTICISM_DESCRIPTION" Language="de_DE">
+		  <Text>[ICON_Science] Wissenschaft verdoppelt in Städten mit einer Heiligen Stätte.[COLOR_RED] -25 % [ICON_Culture] Kultur in allen Städten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TWILIGHT_VALOR_DESCRIPTION" Language="de_DE">
+		  <Text>+5 [ICON_Strength] Kampfstärke für alle Nahkampf-Angriffseinheiten.[COLOR_RED] Keine Heilung außerhalb Eures Territoriums.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INQUISITION_DESCRIPTION" Language="de_DE">
+		  <Text>Startet Inquisition mit 1 Apostel-Ladung. Alle religiösen Einheiten mit +15 [ICON_Religion] Kampfstärke in freundlich gesinntem Territorium.[COLOR_RED] -25 % [ICON_Science] Wissenschaft in allen Städten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ISOLATIONISM_DESCRIPTION" Language="de_DE">
+		  <Text>Heimische Wege bieten +2 [ICON_Food] und +2 [ICON_Production].[COLOR_RED] Kein Kauf oder Ausbildung von Siedlern und keine besiedeln neuer Städte.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LETTERS_OF_MARQUE_DESCRIPTION" Language="de_DE">
+		  <Text>Marine-Räuber: +100 % [ICON_Production] Produktion, +2 [ICON_Movement] Bewegung. Erträge beim Plündern von Handelswegen werden verdoppelt.[COLOR_RED] -50 % [ICON_TradeRoute] Handelsweg-Ertrag.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Gold] Gold in Städten mit einer Börse. +25 % [ICON_Production] Produktion in Städten mit einer Fabrik.[COLOR_RED] -2 [ICON_Amenities] Annehmlichkeit in allen Städten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ELITE_FORCES_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Kampferfahrung für alle Einheiten.[COLOR_RED] +2 [ICON_Gold] Gold für jede Militäreinheit, um sie zu erhalten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLLECTIVISM_DESCRIPTION" Language="de_DE">
+		  <Text>Bauernhöfe erhalten +1 [ICON_Food] Nahrung. Alle Städte erhalten +2 [ICON_Housing] Wohnraum. +100 % Industriegebiet-Nachbarschaftsbonusse.[ICON_GreatPerson][COLOR_RED] Große-Persönlichkeit-Punkte werden 50 % langsamer verdient.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_DESCRIPTION" Language="de_DE">
+		  <Text>‘+50 % [ICON_Production] Produktion für Atomprogramm-Projekte und Massenvernichtungswaffen.[COLOR_RED] Kein Einfluss-Verdienst bei neuen [ICON_Envoy] Gesandten.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" Language="de_DE">
+		  <Text>+5 [ICON_Religion] Stärke im theologischen Kampf. +0,5 [ICON_Faith] Glauben pro [ICON_Citizen] Bürger in Städten mit [ICON_Governor] Gouverneuren.</Text>
+		</Replace>
+	
+	</LocalizedText>
+</GameData>

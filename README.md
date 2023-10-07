@@ -16,6 +16,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. (NF) Alchemist Unit (SailorCat | H.Humpel)
 1. All Vikings Scenario units (Mikecro | Junky)
 1. Alliance Bonus : Caesar and Patra (nea_baraja | Junky)
+1. Alternate Policy Screen (FinalFreak16, Infixo | ASM590319)
 1. Ancient Egyptian Pantheons (p0kiehl | H.Humpel)
 1. Angryr's Ancient Policies (Angryr | Junky)
 1. AOK_Units (anders | H.Humpel)
@@ -264,7 +265,7 @@ Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
-- duestere Legende, Gorowynn, Junky & Stevie
+- ASM590319, duestere Legende, Gorowynn, Junky & Stevie
 
 
 Und zu guter Letzt natürlich auch Dank an alle, die diesem Mod einen Preis verliehen haben.

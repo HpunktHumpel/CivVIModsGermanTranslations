@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Text modifications by FinalFreak16 -->
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_POLICY_AESTHETICS_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Nachbarschafts-bonusse für den Theaterplatz-Bezirk.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_AGOGE_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für Nah- und Fern-kampfeinheiten der Antike und Klassik.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ARSENAL_OF_DEMOCRACY_DESCRIPTION" Language="de_DE">
+		  <Text>Eure [ICON_TradeRoute] Handelswege zur Stadt eines  Verbündeten bieten +2 [ICON_Food] und +2 [ICON_Production] für beide Städte.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_BASTIONS_DESCRIPTION" Language="de_DE">
+		  <Text>+6 [ICON_Strength] Stadtver-teidigungs-Stärke. +5 [ICON_Ranged] Stadt-Fernkampfstärke.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_Gold] Gold durch alle [ICON_TradeRoute] Handelswege.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION" Language="de_DE">
+		  <Text>+2 Einflusspunkte pro Runde für [ICON_Envoy] Gesandte in Stadtstaaten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CHIVALRY_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für Schwere und Leichte Kavallerie von Mittelalter, Renaissance und Industriezeitalter.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION" Language="de_DE">
+		  <Text>+10 % [ICON_Culture] Kultur pro Stadtstaat, dessen Suzerän Ihr seid.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_Food] Nahrung aus inländischen [ICON_TradeRoute] Handelswegen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION" Language="de_DE">
+		  <Text>+15 % Wachstum für Städte, die nicht auf dem Kontinent Eurer ursprünglichen [ICON_Capital] Hauptstadt liegen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLONIAL_TAXES_DESCRIPTION" Language="de_DE">
+		  <Text>+25 % [ICON_Gold] Gold in Städten, die nicht auf dem Kontinent Eurer ursprünglichen [ICON_Capital] Hauptstadt liegen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLONIZATION_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für Siedler.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CONSCRIPTION_DESCRIPTION" Language="de_DE">
+		  <Text>Einheitenunterhalt um 1 [ICON_Gold] Gold pro Runde und Einheit reduziert.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CONTAINMENT_DESCRIPTION" Language="de_DE">
+		  <Text>Jeder [ICON_Envoy] Gesandte zählt als zwei [ICON_Envoy] Gesandte, wenn dessen Suzerän eine andere Regierung hat als Ihr.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CORVEE_DESCRIPTION" Language="de_DE">
+		  <Text>+15 % [ICON_Production] Produktion für Wunder der Antike und Klassik.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION" Language="de_DE">
+		  <Text>100% Nachbar-schaftsbonusse für Industrie-Bezirk.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION" Language="de_DE">
+		  <Text>-2 Spionagestufe des Feindes in Eurem Gebiet. +1 Spionagestufe für euch bei offensiven Operationen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_DESCRIPTION" Language="de_DE">
+		  <Text>Keine Kriegs-müdigkeit durch Kämpfe in Eurem Territorium.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DIPLOMATIC_LEAGUE_DESCRIPTION" Language="de_DE">
+		  <Text>Der erste [ICON_Envoy] Gesandte, den Ihr zu jedem Stadtstaat schickt, zählt als zwei [ICON_Envoy] Gesandte.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION" Language="de_DE">
+		  <Text>+5 [ICON_Strength] Kampfstärke beim Kampf gegen Barbaren.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ECOMMERCE_DESCRIPTION" Language="de_DE">
+		  <Text>+5 [ICON_Production] Produktion und +10 [ICON_Gold] Gold durch  internationale [ICON_TradeRoute] Handelswege.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Nachbar-schaftsbonusse für Handelszentrum- und Hafenbezirk.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="de_DE">
+		  <Text>+50% [ICON_Production] Produktion für Siedler. Kosten für Landkauf um 20% reduziert.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für Nah-, Fern- und Kavallerieabwehr-Einheiten des Mittelalters und der Renaissance.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für Lufteinheiten der Moderne und des Atomzeitalters.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Nachbar-schaftsbonusse für Campus und Industrie-Bezirk.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Gold] Gold-Ertrag durch Gebäude im Handelszentrum-Bezirk.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FRESCOES_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatArtist] Großer Künstler-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GOD_KING_DESCRIPTION" Language="de_DE">
+		  <Text>+1 [ICON_Faith] Glauben und +1 [ICON_Gold] Gold in der [ICON_Capital] Hauptstadt.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GOTHIC_ARCHITECTURE_DESCRIPTION" Language="de_DE">
+		  <Text>+15 % [ICON_Production] Produktion für Wunder des Mittelalters und der Renaissance.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion  Nah-, Fern- und Kavallerieabwehr-Einheiten aus Industriezeitalter und Moderne.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Culture] Kultur-Ertrag durch Gebäude im Theaterplatz-Bezirk.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION" Language="de_DE">
+		  <Text>Offene Grenzen mit allen Stadtstaaten und +4 Einfluss-Punkte pro Runde auf das Verdienen von [ICON_Envoy] Gesandten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Tourism] Tourismus durch [ICON_GreatWork_Landscape] Große Kunstwerke und [ICON_GreatWork_Artifact] Artefakte.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ILKUM_DESCRIPTION" Language="de_DE">
+		  <Text>+30 % [ICON_Production] Produktion für Handwerker.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INSPIRATION_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatScientist] Großer Wissenschaftler-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INSULAE_DESCRIPTION" Language="de_DE">
+		  <Text>+1 [ICON_Housing] Wohnraum in allen Städten mit mindestens 2 Spezialbezirken.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INTEGRATED_SPACE_CELL_DESCRIPTION" Language="de_DE">
+		  <Text>+15 % [ICON_Production] Produktion für Weltraumrennen-Projekte, für Städte mit Militärakademie oder Seehafen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION" Language="de_DE">
+		  <Text>+10 % [ICON_Science] Wissenschaft pro Stadtstaat, in dem Ihr Suzerän seid.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Production] Produktion für Marineeinheiten in Moderne, Atom- und Informations-zeitalter, außer Träger.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INVENTION_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatEngineer] Großer Ingenieur-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_GreatMerchant] Großer Händler-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="de_DE">
+		  <Text>Reduziert die Kosten für den Kauf eines Geländefelds um 20 %.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION" Language="de_DE">
+		  <Text>Unterhaltskosten für Einheiten werden um 2 [ICON_Gold] Gold pro Runde und Einheit reduziert.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="de_DE">
+		  <Text>+1 [ICON_Amenities] Annehmlichkeit für alle Städte mit mindestens 2 Spezialbezirken.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für alle Kavallerieeinheiten in Moderne, Atom- und Informations-zeitalter.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIMES_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Production] Produktion für defensive Gebäude.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatWriter] Großer Schriftsteller-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LOGISTICS_DESCRIPTION" Language="de_DE">
+		  <Text>+1 Fortbewegung, wenn zu Beginn der Runde in freundlich gesinntem Gebiet.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MACHIAVELLIANISM_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für Spione. Spionagemissionen enden 25 % schneller.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MANEUVER_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion für Schwere und Leichte Kavallerieeinheiten der Antike und Klassik.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Production] Produktion für Marineeinheiten der Antike und Klassik.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION" Language="de_DE">
+		  <Text>Internationale [ICON_TradeRoute] Handelswege geben +1 [ICON_Gold] pro strategischer und Luxusressource-Modernisierung am Zielort, sowie +2 [ICON_Culture] und +2 [ICON_Science].</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION" Language="de_DE">
+		  <Text>Sammelt 25 % weniger Kriegsmüdigkeit als gewöhnlich.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_Housing] Wohnraum in allen Städten mit mindestens 3 Spezialbezirken.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION" Language="de_DE">
+		  <Text>+1 [ICON_Gold] Gold durch jeden [ICON_Envoy] Gesandten in Stadtstaaten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MERITOCRACY_DESCRIPTION" Language="de_DE">
+		  <Text>Jede Stadt erhält +1 [ICON_Culture] Kultur für jeden Spezialbezirk, den sie baut.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Production] Produktion  Nah-, Fern- und Kavallerieabwehr-Einheiten des Atom- und Informationszeitalters.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_GreatGeneral] Großer General-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_DESCRIPTION" Language="de_DE">
+		  <Text>Militärakademien und Seehäfen generieren +1 [ICON_Science] Wissenschaft.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NATIONAL_IDENTITY_DESCRIPTION" Language="de_DE">
+		  <Text>Einheiten haben 50% weniger [ICON_Strength] Kampfstärke-reduktion, wenn sie verletzt sind.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NATIVE_CONQUEST_DESCRIPTION" Language="de_DE">
+		  <Text>Kampfsiege gegen Einheiten aus früheren Zeitaltern bringen [ICON_Gold] in Höhe von 50% der [ICON_Strength] Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Campus-Bezirk-Nachbarschafts-bonusse.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Hafenbezirk-Nachbarschafts-bonusse.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NAVIGATION_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatAdmiral] Großer Admiral-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION" Language="de_DE">
+		  <Text>+4[ICON_Housing]Wohnraum, +2[ICON_Amenities]Annehmlichkeiten, -8[ICON_Gold]für Städte mit mindestens 3 Spezialbezirken.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_GreatScientist] Großer Wissenschaftler-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NUCLEAR_ESPIONAGE_DESCRIPTION" Language="de_DE">
+		  <Text>Spione, die einen Technik-Bonus stehlen, ohne  entdeckt zu werden, erhalten einen Extra-Bonus.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ONLINE_COMMUNITIES_DESCRIPTION" Language="de_DE">
+		  <Text>+50 % [ICON_Tourism] Tourismus von Zivilisationen, zu denen Ihr einen [ICON_TradeRoute] Handelsweg habt.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Production] Produktion für Unterstützungs-einheiten in Moderne, Atom- und Informations-zeitalter.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION" Language="de_DE">
+		  <Text>-2 feindliche Spionagestufe in Eurem Land. Alle Städte erleiden aber -1 [ICON_Amenities] Annehmlichkeit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION" Language="de_DE">
+		  <Text>100 % [ICON_Production] Produktion für Marineeinheiten aus Renaissance und Industriezeitalter.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION" Language="de_DE">
+		  <Text>50 % Nachlass auf alle Einheiten-Verbesserungen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROPAGANDA_DESCRIPTION" Language="de_DE">
+		  <Text>Sammelt 25 % weniger Kriegsmüdigkeit als gewöhnlich.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PUBLIC_TRANSPORT_DESCRIPTION" Language="de_DE">
+		  <Text>50 [ICON_Gold] Gold pro Anziehungskraft von Geländefeldern bei Ersatz von Farmen durch Wohnviertel.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PUBLIC_WORKS_DESCRIPTION" Language="de_DE">
+		  <Text>+30 % [ICON_Production] Produktion für Handwerker. Neu ausgebildete Handwerker haben 2 Bau-Aktionen mehr.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RAJ_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Faith] Glauben und [ICON_Gold] Gold durch  jeden Stadtstaat, in dem Ihr Suzerän seid.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RAID_DESCRIPTION" Language="de_DE">
+		  <Text>Erträge durch Plünderung werden für das Plündern von Modernisierungen verdoppelt.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % [ICON_Science] Wissenschaft durch Campus-Bezirk-Gebäude.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RELIGIOUS_ORDERS_DESCRIPTION" Language="de_DE">
+		  <Text>+5 [ICON_Religion] religiöse Stärke für alle religiösen Einheiten im theologischen Kampf.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RESOURCE_MANAGEMENT_DESCRIPTION" Language="de_DE">
+		  <Text>1 strategische Ressource ermöglicht Euch Produktion und Kauf von Einheiten, die sie benötigen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RETAINERS_DESCRIPTION" Language="de_DE">
+		  <Text>+1 [ICON_Amenities] Annehmlichkeit für Städte mit Garnisons-Einheit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_REVELATION_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatProphet] Großer Prophet-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SACK_DESCRIPTION" Language="de_DE">
+		  <Text>Erträge durch Plünderung werden für das Plündern von Bezirken verdoppelt.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION" Language="de_DE">
+		  <Text>Verdreifacht[ICON_Tourism] Tourismus durch [ICON_GreatWork_Music] Große Musikwerke.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SCRIPTURE_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Heilige-Stätte-Nachbarschafts-bonusse.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SERFDOM_DESCRIPTION" Language="de_DE">
+		  <Text>Neu ausgebildete Handwerker erhalten 2 zusätzliche Bau-Aktionen.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION" Language="de_DE">
+		  <Text>Doppelter [ICON_Faith] Glauben-Gewinn durch Heilige- Stätte-Bezirk- Gebäude.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SKYSCRAPERS_DESCRIPTION" Language="de_DE">
+		  <Text>+15 % [ICON_Production] Produktion für Wunder ab dem Industriezeitalter.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Theaterplatz- Bezirk-Nachbar schaftsbonusse. Stadien generieren +1 [ICON_Amenities] Annehmlichkeit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION" Language="de_DE">
+		  <Text>+50 [ICON_Production] Produktion für alle Träger und Einheiten des Informations-zeitalters.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGOS_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatGeneral] Großer General-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SURVEY_DESCRIPTION" Language="de_DE">
+		  <Text>Doppelte Erfahrung für Aufklärungs-einheiten durch Erkundung.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_GreatMusician] Großer Musiker-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_Gold] Gold durch jedes Forschungslabor, jede Militär-akademie und jedes Kraftwerk.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_DESCRIPTION" Language="de_DE">
+		  <Text>Erträge durch Plünderung werden verdoppelt.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION" Language="de_DE">
+		  <Text>+100 % Handelszentrum-Bezirk-Nachbar-schaftsbonusse.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION" Language="de_DE">
+		  <Text>+1 [ICON_Culture] Kultur und +1 [ICON_Science] Wissenschaft durch internationale [ICON_TradeRoute] Handelswege.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRAVELING_MERCHANTS_DESCRIPTION" Language="de_DE">
+		  <Text>+2 [ICON_GreatMerchant] Großer Händler-Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_Gold] Gold und +1 [ICON_Faith] Glauben durch alle [ICON_TradeRoute] Handelswege.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION" Language="de_DE">
+		  <Text>+1 [ICON_Production] Produktion in allen Städten.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_VETERANCY_DESCRIPTION" Language="de_DE">
+		  <Text>+30 % [ICON_Production] Produktion für Lagerbezirke und deren Gebäude.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_WARS_OF_RELIGION_DESCRIPTION" Language="de_DE">
+		  <Text>+4 [ICON_Strength] Kampfstärke, wenn eine nicht-religiöse Einheit gegen eine Zivilisation kämpft, die einer anderen Religion angehört.</Text>
+		</Replace>
+	
+	</LocalizedText>
+</GameData>

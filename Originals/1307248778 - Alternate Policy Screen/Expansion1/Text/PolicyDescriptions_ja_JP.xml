@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Text modifications by FinalFreak16 -->
+<GameData>
+	<LocalizedText>
+			
+		<!-- Expansion 1 Policies -->		
+		<Replace Tag="LOC_POLICY_MONASTICISM_DESCRIPTION" Language="ja_JP">
+			<Text>聖地がある都市の [ICON_SCIENCE] 科学力+75%。[COLOR:StatBadCS]ただし、すべての都市の [ICON_Culture] 文化力-25%。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TWILIGHT_VALOR_DESCRIPTION" Language="ja_JP">
+			<Text>全近接攻撃ユニットの [ICON_Strength] 戦闘力+5。[COLOR:StatBadCS]ただし、領土外では回復できなくなる。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INQUISITION_DESCRIPTION" Language="ja_JP">
+			<Text>使徒が布教力を1消費して審問を開始できる。友好的な領土にいる全宗教ユニットの [ICON_Religion] 宗教戦闘力+15。[COLOR:StatBadCS]ただし、全都市の [ICON_SCIENCE] 科学力-25%。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ISOLATIONISM_DESCRIPTION" Language="ja_JP">
+			<Text>国内の交易路からもたらされる [ICON_Food] 食料+2、 [ICON_Production] 生産力+2。[COLOR:StatBadCS]ただし、開拓者の訓練や購入、新たな都市の開拓ができなくなる。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LETTERS_OF_MARQUE_DESCRIPTION" Language="ja_JP">
+			<Text>海洋略奪ユニット: [ICON_Production] 生産力+100%、 [ICON_Movement] 移動力+2。交易路の略奪による産出量が2倍。[COLOR:StatBadCS]ただし、 [ICON_TradeRoute] 交易路からの産出量-50%。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROBBER_BARONS_DESCRIPTION" Language="ja_JP">
+			<Text>証券取引所がある都市の [ICON_Gold] ゴールド+50%。工場がある都市の [ICON_Production] 生産力+25%。[COLOR:StatBadCS]ただし、すべての都市の [ICON_Amenities] 快適性-2。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ELITE_FORCES_DESCRIPTION" Language="ja_JP">
+			<Text>すべてのユニットの戦闘経験値+100%。[COLOR:StatBadCS]ただし、戦闘ユニットとスパイユニットの維持に必要な [ICON_Gold] ゴールド+2。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_COLLECTIVISM_DESCRIPTION" Language="ja_JP">
+			<Text>農場の [ICON_Food] 食料+1。すべての都市の [ICON_Housing] 住宅+2。工業地帯の隣接ボーナス+100%。[COLOR:StatBadCS]ただし、 [ICON_GreatPerson] 偉人ポイントの獲得速度が50%低下する。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ROGUE_STATE_DESCRIPTION" Language="ja_JP">
+			<Text>核開発プロジェクトと核分裂兵器に対する [ICON_Production] 生産力+50%。[COLOR:StatBadCS]ただし、新たな [ICON_Envoy] 代表団を獲得するための影響力ポイントを得られなくなる。[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" Language="ja_JP">
+			<Text>神学戦争の [ICON_Religion] 宗教戦闘力+5。[ICON_Governor] 総督がいる都市の [ICON_Citizen] 市民1人ごとに [ICON_Faith] 信仰力+0.5。</Text>
+		</Replace>
+				
+	</LocalizedText>
+</GameData>

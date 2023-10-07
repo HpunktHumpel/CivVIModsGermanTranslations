@@ -23,9 +23,10 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
 1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | #14
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
+1307248778 | Alternate Policy Screen | FinalFreak16, Infixo | ASM590319 | **NEW**
 1331757859 | CIVITAS City-States Expanded | thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky | #16
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
-1341630847 | Better Civilopedia (UI) | Infixo | Junky | **NEW**
+1341630847 | Better Civilopedia (UI) | Infixo | Junky | #25
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
@@ -200,9 +201,9 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2859087238 | ZJ's Policies Update | ARCANE | H.Humpel | #20
 2859097166 | ZJ's BeliefsRework | ARCANE | H.Humpel | #20
 2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | #21
-2862851843 | All Vikings Scenario units | Mikecro | Junky | **NEW**
+2862851843 | All Vikings Scenario units | Mikecro | Junky | #25
 2863225264 | Bear's Mods - Governor Overhaul | MarshmallowBear | Junky | #21
-2871386431 | Statue of Zeus+ | Sailor Cat | Junky | **NEW**
+2871386431 | Statue of Zeus+ | Sailor Cat | Junky | #25
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20
 2876231256 | Unique Reworked: Qhapaq Ñan (Inca) | JNR | Junky | #21
 2876231574 | Unique Reworked: Carnival (Brazil) | JNR | Junky | #21
@@ -227,8 +228,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2929355120 | Plant and Breed | C1sen | Junky | #24
 2935848037 | Unique Building: Dragon Kiln (China) | JNR | H.Humpel | #24
 2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | #24
-2942411798 | Necropolis: Unique District for Egypt | p0kiehl & Sukritact | Junky | **NEW**
-2950891319 | Movable Cities | yiboy | Junky | **NEW**
-2953909938 | Sukritact's Tourism Overview Screen | Sukritact | Junky | **NEW**
-2961998117 | Armagh Monastery Rework | Skunk | Junky | **NEW**
-2973448849 | Great Sovereigns | Plati | Junky | **NEW**
+2942411798 | Necropolis: Unique District for Egypt | p0kiehl & Sukritact | Junky | #25
+2950891319 | Movable Cities | yiboy | Junky | #25
+2953909938 | Sukritact's Tourism Overview Screen | Sukritact | Junky | #25
+2961998117 | Armagh Monastery Rework | Skunk | Junky | #25
+2973448849 | Great Sovereigns | Plati | Junky | #25

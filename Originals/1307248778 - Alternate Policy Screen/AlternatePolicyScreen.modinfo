@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="158100a7-5ff0-4e47-bd6b-33bf8ee6bd3c" version="1">
+  <Properties>
+    <Name>Alternate Policy Screen</Name>
+    <Description>No more cards! This mod changes the policy selector screen in the My Government menu into a more traditional RPG style ability menu.[NEWLINE][NEWLINE]Features:[NEWLINE]- Policies are now menu items toggled on and off at a single click.[NEWLINE]- No horizontal scrolling. Policies are listed vertically in a neat menu.[NEWLINE]- Active policies are highlighted by glowing icon and text.[NEWLINE]- Expanded filter options. Filter policies by their effects or status.[NEWLINE][NEWLINE]Also when the Better Report Screen mod is also enabled, the effects of enabling each policy is listed in its description.</Description>
+    <Teaser>Overhaul of government policy selector screen.</Teaser>
+    <Authors>FinalFreak16, Infixo</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+	<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	<SubscriptionID>1307248778</SubscriptionID>
+  </Properties>
+  
+  <References>
+    <Mod id="6f2888d4-79dc-415f-a8ff-f9d81d7afb53" title="Better Report Screen" min_version="1" />
+  </References>
+  
+  <InGameActions>
+  
+    <!-- Files common between all rulesets -->
+	<ImportFiles id="AlternatePolicyScreen_ImportFiles_COMMON">
+	  <Properties>
+		<LoadOrder>54</LoadOrder>
+	  </Properties>  
+	  <File>Common/GovernmentScreen.xml</File>	
+	</ImportFiles>
+	
+	<UpdateText id="AlternatePolicyScreen_UpdateText_COMMON">
+	  <Properties>
+		<LoadOrder>54</LoadOrder>
+	  </Properties>  
+	  <File>Common/localisation.sql</File>
+	</UpdateText>
+	
+	<!-- Files for Base Game Ruleset -->
+	<ImportFiles id="AlternatePolicyScreen_ImportFiles_BASE">
+      <Properties>
+		<LoadOrder>54</LoadOrder>
+		<RuleSet>RULESET_STANDARD</RuleSet>
+	  </Properties>  
+	  <File>Base/UI/GovernmentScreen.lua</File>
+    </ImportFiles>
+	
+	<UpdateText id="AlternatePolicyScreen_UpdateText_BASE">
+	  <Properties>
+		<LoadOrder>54</LoadOrder>
+	  </Properties>  
+	  <File>Base/Text/PolicyDescriptions_de_DE.xml</File>
+    </UpdateText>
+   
+	<!-- Files for Expansion1 Ruleset -->
+    <ImportFiles id="AlternatePolicyScreen_ImportFiles_EXPANSION1">
+      <Properties>
+		<LoadOrder>54</LoadOrder>
+		<RuleSet>RULESET_EXPANSION_1</RuleSet>
+	  </Properties>  
+	  <File>Expansion1/UI/GovernmentScreen.lua</File>
+    </ImportFiles>
+	
+	<UpdateText id="AlternatePolicyScreen_UpdateText_EXPANSION1">
+	  <Properties>
+		<LoadOrder>55</LoadOrder>
+		<RuleSet>RULESET_EXPANSION_1</RuleSet>
+	  </Properties>
+	  <File>Expansion1/Text/PolicyDescriptions.xml</File>
+	  <File>Expansion1/Text/PolicyDescriptions_de_DE.xml</File>
+	  <File>Expansion1/Text/PolicyDescriptions_ja_JP.xml</File>
+    </UpdateText>
+		
+	<!-- Files for Expansion2 Ruleset -->
+    <ImportFiles id="AlternatePolicyScreen_ImportFiles_EXPANSION1">
+      <Properties>
+		<LoadOrder>56</LoadOrder>
+		<RuleSet>RULESET_EXPANSION_2</RuleSet>
+	  </Properties>  
+	  <File>Expansion2/UI/GovernmentScreen.lua</File>
+    </ImportFiles>
+	
+	<UpdateText id="AlternatePolicyScreen_UpdateText_EXPANSION1">
+	  <Properties>
+		<LoadOrder>57</LoadOrder>
+		<RuleSet>RULESET_EXPANSION_2</RuleSet>
+	  </Properties>
+	  <File>Expansion2/Text/PolicyDescriptions.xml</File>
+	  <File>Expansion2/Text/PolicyDescriptions_de_DE.xml</File>
+	  <File>Expansion2/Text/PolicyDescriptions_ja_JP.xml</File>
+    </UpdateText>
+	
+  </InGameActions>
+  
+  <Files> 
+	<File>Common/GovernmentScreen.xml</File>	
+	<File>Common/localisation.sql</File>
+	
+	<File>Base/UI/GovernmentScreen.lua</File>
+	<File>Base/Text/PolicyDescriptions_de_DE.xml</File>
+	
+    <File>Expansion1/UI/GovernmentScreen.lua</File>
+	<File>Expansion1/Text/PolicyDescriptions.xml</File>
+	<File>Expansion1/Text/PolicyDescriptions_de_DE.xml</File>
+	<File>Expansion1/Text/PolicyDescriptions_ja_JP.xml</File>
+	
+	<File>Expansion2/UI/GovernmentScreen.lua</File>
+	<File>Expansion2/Text/PolicyDescriptions.xml</File>
+	<File>Expansion2/Text/PolicyDescriptions_de_DE.xml</File>
+	<File>Expansion2/Text/PolicyDescriptions_ja_JP.xml</File>
+  </Files>
+</Mod>
