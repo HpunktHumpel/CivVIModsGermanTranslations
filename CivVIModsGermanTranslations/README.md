@@ -188,6 +188,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2818358455 | Boom's Assyria | Boom | Junky | #23
+2822229024 | Coastline | Rdner | ASM590319 | **NEW**
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
 2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21

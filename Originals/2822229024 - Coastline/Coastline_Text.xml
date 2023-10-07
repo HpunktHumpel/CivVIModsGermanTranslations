@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+        <Row Tag="LOC_FEATURE_MANGROVE_NAME">
+            <Text>Mangrove</Text>
+        </Row>
+        <Row Tag="LOC_FEATURE_SEAGRASS_NAME">
+            <Text>Seagrass</Text>
+        </Row>
+        <Row Tag="LOC_FEATURE_KELP_NAME">
+            <Text>Kelp</Text>
+        </Row>
+        <Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_COASTLINE_DESCRIPTION">
+            <Text>+2 [ICON_Production] Production from Marsh, Mangrove, Oasis, and Desert Floodplains.</Text>
+        </Row>
+        <Row Tag="LOC_TECH_SAILING_COASTLINE_DESCRIPTION">
+            <Text>Allows Builders to embark and allows chopping of Kelp, Mangrove and Seagrass.</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_MARAE_COASTLINE_DESCRIPTION">
+            <Text>A building unique to the Māori. +1 [ICON_CULTURE] Culture and [ICON_FAITH] Faith to all of this city's tiles with a passable unimproved feature or natural wonder. After Flight is researched receive +1 [ICON_TOURISM] Tourism to all of this city's tiles with a feature or natural wonder. Costs no maintenance. Has no Great Work slots.</Text>
+        </Row>
+        <Replace Tag="LOC_BUILDING_MARAE_DESCRIPTION">
+            <Text>{LOC_BUILDING_MARAE_COASTLINE_DESCRIPTION}</Text>
+        </Replace>
+        <Row Tag="LOC_DISTRICT_WATERFRONT_COASTLINE_SEAGRASS_FOOD">
+            <Text>+{1_num} [ICON_FOOD] Food from the adjacent Seagrass features.</Text>
+        </Row>
+        <Row Tag="LOC_DISTRICT_WATERFRONT_COASTLINE_KELP_FOOD">
+            <Text>+{1_num} [ICON_FOOD] Food from the adjacent Kelp {1_num : plural 1?feature; other?features;}.</Text>
+        </Row>
+
+        <!-- Mangrove -->
+        <!-- https://oceana.org/marine-life/mangrove-forest/ -->
+        <!-- https://oceanservice.noaa.gov/facts/mangroves.html -->
+        <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MANGROVE_CHAPTER_HISTORY_PARA_1">
+            <Text>Mangroves are trees that live along tropical coastlines, rooted in salty sediments, often underwater. Like seagrasses, mangroves are flowering plants, but unlike seagrasses, most of the plant lives above water. The upper trunk and all of the branches and leaves of a mangrove tree live completely above the waterline, while the lower trunk and the very large system of aboveground roots (called prop roots) are often covered by seawater.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MANGROVE_CHAPTER_HISTORY_PARA_2">
+            <Text>There are about 80 different species of mangrove trees. All of these trees grow in areas with low-oxygen soil, where slow-moving waters allow fine sediments to accumulate. Mangrove forests only grow at tropical and subtropical latitudes near the equator because they cannot withstand freezing temperatures.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MANGROVE_CHAPTER_HISTORY_PARA_3">
+            <Text>Many mangrove forests can be recognized by their dense tangle of prop roots that make the trees appear to be standing on stilts above the water. This tangle of roots allows the trees to handle the daily rise and fall of tides, which means that most mangroves get flooded at least twice per day. The roots also slow the movement of tidal waters, causing sediments to settle out of the water and build up the muddy bottom.</Text>
+        </Row>
+
+        <!-- Seagrass -->
+        <!-- https://www.seagrasswatch.org/seagrass/ -->
+        <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_SEAGRASS_CHAPTER_HISTORY_PARA_1">
+            <Text>Since the time of the dinosaurs, four groups of flowering plants (angiosperms) colonized the oceans. Known as ‘seagrass’, they are the only flowering plants that can live underwater. More closely related to lilies and gingers than to true grasses, they grow in sediment on the seafloor with erect, elongate leaves and a buried root-like structure (rhizome).</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_SEAGRASS_CHAPTER_HISTORY_PARA_2">
+            <Text>Seagrass live in near-shore waters of most of the world’s continents. They are the main diet of dugongs and green turtles and provide a habitat for many, smaller marine animals, some of which, like prawns and fish, are commercially important. They also absorb nutrients from coastal run-off and stabilize sediment, helping to keep the water clear.</Text>
+        </Row>
+
+        <!-- Kelp -->
+        <!-- https://oceana.org/marine-life/kelp-forest/ -->
+        <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_KELP_CHAPTER_HISTORY_PARA_1">
+            <Text>Kelp Forests are underwater ecosystems formed in shallow water by the dense growth of several different species known as kelps. Though they look very much like plants, kelps are actually extremely large brown algae. Some species can reach heights (underwater) of 150 feet (45 m), and under ideal physical conditions, kelp can grow 18 inches (45 cm) in a single day! As a result of this incredible growth, kelp forests can develop very quickly in areas that did not previously exist.</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_KELP_CHAPTER_HISTORY_PARA_2">
+            <Text>Kelp thrives in cold, nutrient-rich waters. Because kelp attaches to the seafloor and eventually grows to the water’s surface and relies on sunlight to generate food and energy, kelp forests are always coastal and require shallow, relatively clear water. Generally speaking, kelps live further from the tropics than coral reefs, mangrove forests, and warm-water seagrass beds, so kelp forests do not overlap with those systems. Like those systems, though, kelp forests provide important three-dimensional, underwater habitat that is home to hundreds or thousands of species of invertebrates, fishes, and other algae. Some species aggregate and spawn in kelp forests or utilize these areas as juvenile nursery habitats. Large predatory species of sharks and marine mammals are known to hunt in the long corridors that form in kelp forests between rows of individual plants.</Text>
+        </Row>
+
+    </EnglishText>
+</GameData>

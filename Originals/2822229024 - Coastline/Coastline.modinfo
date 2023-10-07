@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="CA22B60D-94B9-40E1-BE22-F3DA8F31B60C" version="1">
+    <Properties>
+        <Name>Coastline</Name>
+        <Teaser>LOC_COASTLINE_MOD_TEASER</Teaser>
+        <Description>LOC_COASTLINE_MOD_DESCRIPTION</Description>
+        <Authors>Rdner</Authors>
+        <AffectsSavedGames>1</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <References>
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+        <Mod id="4922ba47-61e1-4b15-9281-db996b14522d" title="Sukritact's Oceans"/>
+        <Mod id="58ecce8a-d3df-430a-b135-280908153662" title="More Maritime: Seaside Sectors"/>
+    </References>
+    <ActionCriteria>
+        <Criteria id="Coastline">
+            <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+        </Criteria>
+        <Criteria id="Coastline_Expansion1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+        </Criteria>
+        <Criteria id="Coastline_Expansion2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+        </Criteria>
+        <Criteria id="Coastline_Suk_Oceans">
+            <ConfigurationValueMatches>
+                <Group>Game</Group>
+                <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+                <Value>1</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="Coastline_MoreMaritime">
+            <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+            <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>
+        </Criteria>
+    </ActionCriteria>
+    <InGameActions>
+        <UpdateArt id="CoastlineArt" criteria="Coastline">
+            <File>Coastline.dep</File>
+        </UpdateArt>
+        <UpdateDatabase id="CoastlineGameplay" criteria="Coastline">
+            <File>Features.xml</File>
+            <File>Coastline.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="CoastlineGameplay_2" criteria="Coastline">
+            <Properties>
+                <LoadOrder>200</LoadOrder>
+            </Properties>
+            <File>Coastline.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="CoastlineGameplay_XP1" criteria="Coastline_Expansion1">
+            <File>Coastline_XP1.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="CoastlineGameplay_XP2" criteria="Coastline_Expansion2">
+            <File>Coastline_XP1.xml</File>
+            <File>Coastline_XP2.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="CoastlineGameplay_Oceans" criteria="Coastline_Suk_Oceans">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Coastline_Suk_Oceans.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="CoastlineGameplay_MoreMaritime" criteria="Coastline_MoreMaritime">
+            <File>Coastline_MoreMaritime.xml</File>
+        </UpdateDatabase>
+        <AddGameplayScripts id="CoastlineScripts" criteria="Coastline">
+            <File>FeaturesGen.lua</File>
+        </AddGameplayScripts>
+        <UpdateIcons id="CoastlineIcons" criteria="Coastline">
+            <File>Coastline_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateText id="CoastlineText" criteria="Coastline">
+            <File>Coastline_Text.xml</File>
+        </UpdateText>
+        <ImportFiles id="CoastlineFiles" criteria="Coastline">
+            <File>Icons/Coastline_Features50.dds</File>
+            <File>Icons/Coastline_Features64.dds</File>
+            <File>Icons/Coastline_Features256.dds</File>
+        </ImportFiles>
+    </InGameActions>
+    <LocalizedText>
+        <Text id="LOC_COASTLINE_MOD_TEASER">
+            <en_US>Coastline adds new coastal features for yield diversity and strategy.</en_US>
+        </Text>
+        <Text id="LOC_COASTLINE_MOD_DESCRIPTION">
+            <en_US>Coastline adds three new coastal features, each bringing familiar yields and strategy to your game.</en_US>
+        </Text>
+    </LocalizedText>
+    <Files>
+        <File>Coastline.dep</File>
+        <File>Features.xml</File>
+        <File>FeaturesGen.lua</File>
+        <File>Coastline.xml</File>
+        <File>Coastline.sql</File>
+        <File>Coastline_XP1.xml</File>
+        <File>Coastline_XP2.xml</File>
+        <File>Coastline_Suk_Oceans.xml</File>
+        <File>Coastline_MoreMaritime.xml</File>
+        <File>Coastline_Icons.xml</File>
+        <File>Coastline_Text.xml</File>
+        <File>Icons/Coastline_Features50.dds</File>
+        <File>Icons/Coastline_Features64.dds</File>
+        <File>Icons/Coastline_Features256.dds</File>
+    </Files>
+</Mod>

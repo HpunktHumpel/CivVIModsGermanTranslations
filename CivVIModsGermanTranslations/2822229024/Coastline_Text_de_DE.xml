@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 10:34:05 -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_FEATURE_MANGROVE_NAME" Language="de_DE">
+            <Text>Mangroven</Text>
+        </Replace>
+        <Replace Tag="LOC_FEATURE_SEAGRASS_NAME" Language="de_DE">
+            <Text>Seegras</Text>
+        </Replace>
+        <Replace Tag="LOC_FEATURE_KELP_NAME" Language="de_DE">
+            <Text>Seetang</Text>
+        </Replace>
+        <Replace Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_COASTLINE_DESCRIPTION" Language="de_DE">
+            <Text>+2 [ICON_Production] Produktion aus Schwemmland in Sümpfen, Mangroven, Oasen oder Wüsten.</Text>
+        </Replace>
+        <Replace Tag="LOC_TECH_SAILING_COASTLINE_DESCRIPTION" Language="de_DE">
+            <Text>Ermöglicht es Handwerkern, Seetang, Mangroven und Seegras zu ernten.</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_MARAE_COASTLINE_DESCRIPTION" Language="de_DE">
+            <Text>Ein Gebäude, das einzigartig für die Māori ist. +1 [ICON_CULTURE] Kultur und [ICON_FAITH] Glauben für alle Felder dieser Stadt mit einer passierbaren, nicht modernisierten Geländeart oder einem Naturwunder. Nach der Erforschung des Flugs erhaltet Ihr +1 [ICON_TOURISM] Tourismus für alle Felder dieser Stadt mit einer Geländeart oder einem Naturwunder. Keine Wartungskosten. Hat keine Plätze für Große Werke.</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_MARAE_DESCRIPTION" Language="de_DE">
+            <Text>{LOC_BUILDING_MARAE_COASTLINE_DESCRIPTION}</Text>
+        </Replace>
+        <Replace Tag="LOC_DISTRICT_WATERFRONT_COASTLINE_SEAGRASS_FOOD" Language="de_DE">
+            <Text>+{1_num} [ICON_FOOD] Nahrung aus benachbarten Seegrasfeldern.</Text>
+        </Replace>
+        <Replace Tag="LOC_DISTRICT_WATERFRONT_COASTLINE_KELP_FOOD" Language="de_DE">
+            <Text>+{1_num} [ICON_FOOD] Nahrung aus benachbarten Seetangfeldern.</Text>
+        </Replace>
+
+        <!-- Mangrove -->
+        <!-- https://oceana.org/marine-life/mangrove-forest/ -->
+        <!-- https://oceanservice.noaa.gov/facts/mangroves.html -->
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MANGROVE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Mangroven sind Bäume an tropischen Küsten, die in salzigen Ablagerungen, oft unter Wasser, verwurzelt sind. Mangroven sind, wie Seegras, blühende Pflanzen, aber im Gegensatz zu Seegras befindet sich der größte Teil der Pflanze über Wasser. Der obere Stamm und alle Zweige und Blätter eines Mangrovenbaums sind vollständig über der Wasserlinie, während der untere Teil des Stammes und das aüßerst umfangreiche Wurzelsystem oft von Seewasser überdeckt wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MANGROVE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+            <Text>Es gibt ungefähr 80 verschiedene Arten von Mangrovenbäumen. Sie wachsen in Gebieten mit sauerstoffarmen Böden, in denen langsam fließende Gewässer die Ansammlung feiner Ablagerungen erlauben. Mangrovenwälder wachsen nur in tropischen und subtropischen Breiten in der Nähe des Äquators, da sie Frost nicht standhalten können.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MANGROVE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+            <Text>Viele Mangrovenwälder sind durch ihr dichtes Gewirr von Wurzeln erkennbar, das die Bäume über dem Wasser, auf Stelzen stehend, erscheinen lässt. Dieses Gewirr von Wurzeln ermöglicht es den Bäumen, das tägliche Steigen und Fallen der Gezeiten zu bewältigen, was bedeutet, dass die meisten Mangroven mindestens zweimal pro Tag überflutet werden. Die Wurzeln verlangsamen auch die Bewegung von Gezeitengewässern, was dazu führt, dass sich Sedimente aus dem Wasser absetzen und den schlammigen Boden aufbauen.</Text>
+        </Replace>
+
+        <!-- Seagrass -->
+        <!-- https://www.seagrasswatch.org/seagrass/ -->
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_SEAGRASS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Seit der Zeit der Dinosaurier besiedelten vier Gruppen von Blütenpflanzen (Angiospermen) die Ozeane. Bekannt als Seegras, sind sie die einzigen Blütenpflanzen, die unter Wasser leben können. Enger verwandt mit Lilien und Ingwer als mit echten Gräsern, wachsen sie im Meeresboden mit aufrechten, länglichen Blättern und einer unterirdischen Wurzelstruktur (Rhizom).</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_SEAGRASS_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+            <Text>Seegras wächst in den küstennahen Gewässern der meisten Kontinente dieser Welt. Es ist die Hauptnahrung von Seekühen und Schildkröten. Es bietet den Lebensraum für viele kleinere Meerestiere, von denen einige, wie Garnelen und Fische, von wirtschaftlicher Bedeutung sind. Sie absorbieren auch Nährstoffe aus Zuflüssen und stabilisieren Ablagerungen, um das Wasser klar zu halten.</Text>
+        </Replace>
+
+        <!-- Kelp -->
+        <!-- https://oceana.org/marine-life/kelp-forest/ -->
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_KELP_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+            <Text>Seetangwälder sind Unterwasserökosysteme, die durch das dichte Wachstum mehrerer verschiedener Arten, die als Seetang bekannt sind, in Flachwasser gebildet werden. Obwohl Seetang Pflanzen sehr ähnlich ist, sind es tatsächlich extrem große, braune Algen. Einige Arten können unter Wasser Höhen von 45 m erreichen. Unter idealen physikalischen Bedingungen kann Seetang an einem einzigen Tag 45 cm wachsen. Infolge dieses unglaublichen Wachstums können sich Seetangwälder in Gebieten, wo sie zuvor nicht vorhanden waren, sehr schnell entwickeln.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_KELP_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+            <Text>Seetang gedeiht in kalten, nährstoffreichen Gewässern. Da Seetang am Meeresboden wurzelt, bis an die Wasseroberfläche wächst und Sonnenlicht braucht, um Nahrung und Energie zu erzeugen, befinden sich Seetangwälder immer an Küsten und erfordern flaches, relativ klares Wasser. Im Allgemeinen lebt Seetang weiter von den Tropen entfernt als Korallenriffe, Mangrovenwälder und Seegrasfelder in warmen Wasser, sodass Seetangwälder sich nicht mit diesen Ökosystemen überlappen. Wie diese Systeme bieten Seetangwälder jedoch einen wichtigen Unterwasserlebensraum, der hunderte oder tausende Arten von Wirbellosen, Fischen und verwandten Algenarten beherbergt. Einige Arten versammeln sich zum Laichen in Seetangwäldern oder nutzen diese Gebiete als Kindergärten für Jungtiere. Es ist bekannt, dass große, räuberische Arten von Haien und marinen Säugetieren in den langen Korridoren jagen, die sich in Seetangwäldern zwischen Reihen einzelner Pflanzen bilden.</Text>
+        </Replace>
+
+    </LocalizedText>
+</GameData>
