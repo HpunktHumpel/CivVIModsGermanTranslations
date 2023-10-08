@@ -234,6 +234,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2929355120 | Plant and Breed | C1sen | Junky | #24
 2935848037 | Unique Building: Dragon Kiln (China) | JNR | H.Humpel | #24
 2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | #24
+2942091784 | Real Preserve | C1sen | ASM590319 | **NEW**
 2942411798 | Necropolis: Unique District for Egypt | p0kiehl & Sukritact | Junky | #25
 2949095377 | Sukritact’s Monument Valley (Tsé Bii’ Ndzisgaii) | Sukritact | ASM590319 | **NEW**
 2950891319 | Movable Cities | yiboy | Junky | #25

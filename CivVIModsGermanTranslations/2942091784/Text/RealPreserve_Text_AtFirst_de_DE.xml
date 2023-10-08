@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RealPreserve_Text_de_DE -->
+<!-- Author: C1sen - ASM Montag, 21. August 2023, 01:41:31 -->
+<!-- DateCreated: 3/2/2023 9:03:56 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Language="de_DE" Tag="LOC_DISTRICT_PRESERVE_48A42391_NAME"
+			Text="Naturschutzgebiet"/>
+		<Row Language="de_DE" Tag="LOC_DISTRICT_PRESERVE_48A42391_DESCRIPTION"
+			Text="Ein Bezirk in Ihrer Stadt für Naturschutz. Bezieht benachbarte Felder in das Naturschutzgebiet ein, über die keine Verbesserungen gebaut werden und die Bürger nicht arbeiten können. [ICON_SCIENCE] Wissenschaftsbonus aus angrenzendem Gelände, Geländearten und natürlichen Wundern. Dieser Bezirk benötigt keine Bevölkerung und ist kein Spezialbezirk."/>
+		<Row Language="de_DE" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_NAME"
+			Text="Landschaftsgebiet"/>
+		<Row Language="de_DE" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_DESCRIPTION"
+			Text="Ein Bezirk in Ihrer Stadt für den Besichtigungstourismus. Bezieht benachbarte Felder in das Landschaftsgebiet ein. [ICON_CULTURE] Kulturbonus und [ICON_GOLD] Gold für benachbarte verbesserte Felder, die 50% der Anziehung des Feldes entsprechen. [ICON_TOURISM] Bonustourismus für benachbarte, nicht verbesserte Felder, die 100% der Anziehung der Felder entsprechen. Dieser Bezirk erfordert keine Bevölkerung und ist kein Spezialbezirk."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_TERRAIN_1"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Berg{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_TERRAIN_2"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Berg{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_TERRAIN_3"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Berg{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_TERRAIN_4"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Berg{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_TERRAIN_5"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Berg{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_TERRAIN_6"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Küsten{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_RIVER"
+			Text="+{1_num} [ICON_Science] Wissenschaft aus dem benachbarten Fluss."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_FEATURE_1"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Geothermischer-Riss{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_FEATURE_2"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Vulkanischer-Boden{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_FEATURE_3"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Riff{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_FEATURE_4"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Oasen{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_FEATURE_5"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Sumpf{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_FEATURE_6"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Wald{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_FEATURE_7"
+			Text="+{1_num} [ICON_Science] Wissenschaft von benachbarte{1_Num : plural 1?m; other?n;} Regenwald{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_PRESERVE_48A42391_WONDER"
+			Text="+{1_num} [ICON_Science] Wissenschaft aus dem benachbarten Naturwunder."/>
+		<Row Language="de_DE" Tag="LOC_LANDSCAPE_48A42391_COAST_GOLD"
+			Text="+{1_num} [ICON_Gold] Gold von benachbarte{1_Num : plural 1?m; other?n;} Küsten{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_LANDSCAPE_48A42391_COAST_CULTURE"
+			Text="+{1_num} [ICON_Culture] Kultur von benachbarte{1_Num : plural 1?m; other?n;} Küsten{1_Num : plural 1?feld; other?feldern;}."/>
+		<Row Language="de_DE" Tag="LOC_POLICY_PRESERVE_48A42391_NAME"
+			Text="Biodiversität"/>
+		<Row Language="de_DE" Tag="LOC_POLICY_PRESERVE_48A42391_DESCRIPTION"
+			Text="+100% Natureschutzgebiet-Nachbarschaftsboni."/>
+		<Row Language="de_DE" Tag="LOC_POLICY_LANDSCAPE_48A42391_NAME"
+			Text="Nationale Tourismusverwaltung"/>
+		<Row Language="de_DE" Tag="LOC_POLICY_LANDSCAPE_48A42391_DESCRIPTION"
+			Text="+100% [ICON_Tourism] Tourismus für Städte mit Landschaftsgebiet."/>
+		<Row Language="de_DE" Tag="LOC_BOOST_TRIGGER_CONSERVATION_48A42391"
+			Text="Baut ein Naturschutzgebiet."/>
+		<Row Language="de_DE" Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION_48A42391"
+			Text="Neues Projekt, um alle natürlichen Schätze der Welt zu erhalten."/>
+		<Row Language="de_DE" Tag="LOC_DISTRICT_PRESERVE_48A42391_UI_NAME"
+			Text="Naturschutzgebiet"/>
+		<Row Language="de_DE" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_UI_NAME"
+			Text="Landschaftsgebiet"/>
+	</LocalizedText>
+</GameData>

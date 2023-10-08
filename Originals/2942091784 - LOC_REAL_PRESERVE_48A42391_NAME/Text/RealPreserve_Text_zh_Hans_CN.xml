@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RealPreserve_Text_zh_Hans_CN -->
+<!-- Author: C1sen -->
+<!-- DateCreated: 3/2/2023 9:04:24 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_PRESERVE_48A42391_NAME"
+			Text="保护区"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_PRESERVE_48A42391_DESCRIPTION"
+			Text="您城市里的自然保护区。将相邻单元格纳入保护区范围，无法建造改良设施也无法派遣公民工作。从相邻的地形、地貌和自然奇观获得 [ICON_Science] 科技值。该区域不需要人口，也并非专业化区域。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_NAME"
+			Text="风景区"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_DESCRIPTION"
+			Text="您城市里的旅游风景区。将相邻单元格纳入风景区范围。为相邻已改良的单元格提供等于其魅力值50%的 [ICON_Culture] 文化值和 [ICON_Gold] 金币，为相邻未改良的单元格提供等于其魅力值100%的 [ICON_Tourism] 旅游业绩。该区域不需要人口，也并非专业化区域。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_TERRAIN_1"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻山脉单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_TERRAIN_2"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻山脉单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_TERRAIN_3"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻山脉单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_TERRAIN_4"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻山脉单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_TERRAIN_5"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻山脉单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_TERRAIN_6"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻海岸单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_RIVER"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻河流。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_FEATURE_1"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻地热裂隙单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_FEATURE_2"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻火山土单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_FEATURE_3"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻礁石单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_FEATURE_4"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻绿洲单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_FEATURE_5"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻沼泽单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_FEATURE_6"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻树林单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_FEATURE_7"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻雨林单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_PRESERVE_48A42391_WONDER"
+			Text="+{1_num} [ICON_Science] 科技值来自相邻自然奇观。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_LANDSCAPE_48A42391_COAST_GOLD"
+			Text="+{1_num} [ICON_Gold] 金币来自相邻海岸单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_LANDSCAPE_48A42391_COAST_CULTURE"
+			Text="+{1_num} [ICON_Culture] 文化值来自相邻海岸单元格。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_PRESERVE_48A42391_NAME"
+			Text="生物多样性"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_PRESERVE_48A42391_DESCRIPTION"
+			Text="+100%保护区相邻加成。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_LANDSCAPE_48A42391_NAME"
+			Text="国家旅游局"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_POLICY_LANDSCAPE_48A42391_DESCRIPTION"
+			Text="拥有风景区的城市+100% [ICON_Tourism] 旅游业绩。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_BOOST_TRIGGER_CONSERVATION_48A42391"
+			Text="建造1个保护区。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION_48A42391"
+			Text="您那惊艳的保护区开始实行一项保护世界自然宝藏的计划。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_PRESERVE_48A42391_UI_NAME"
+			Text="保护区"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_UI_NAME"
+			Text="风景区"/>
+	</LocalizedText>
+</GameData>

@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="26">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]239[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]240[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1696765567</Created>
+    <Created>1696766378</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -720,6 +720,9 @@
     </Criteria>
     <Criteria id="RealEraStop">
       <ModInUse>bbaf474e-e476-4ea8-8a98-b6fa6d12b515</ModInUse>
+    </Criteria>
+    <Criteria id="RealPreserve">
+      <ModInUse>48a42391-31e9-4857-bad6-7f2659a21281</ModInUse>
     </Criteria>
     <Criteria id="Reindeer">
       <ModInUse>a847b8ed-e266-4d30-8037-a7372f4f4b40</ModInUse>
@@ -2975,6 +2978,10 @@
       <Criteria>RealEraStop</Criteria>
       <File>880843004/RealEraStop_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="RealPreserve_RealPreserveText_de_DE">
+      <Criteria>RealPreserve</Criteria>
+      <File>2942091784/Text/RealPreserve_Text_AtFirst_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="Reindeer_de_DE">
       <Criteria>Reindeer</Criteria>
       <File>1595724214/Reindeer_Text_de_DE.xml</File>
@@ -4514,6 +4521,7 @@
     <File>2937953680/Text/Garden_Texts_Naturalist_de_DE.sql</File>
     <File>2937953680/Text/Garden_Texts_PreserveAdjustments_de_DE.sql</File>
     <File>2937953680/Text/Garden_Texts_PreserveExclusivity_de_DE.sql</File>
+    <File>2942091784/Text/RealPreserve_Text_AtFirst_de_DE.xml</File>
     <File>2942411798/Core/Necropolis_Localisation_de_DE.sql</File>
     <File>2949095377/Core/Suk_MonumentValley_Localisation_de_DE.sql</File>
     <File>2950891319/Text/MC_Text_de_DE.xml</File>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RealPreserve_Text_AtFirst -->
+<!-- Author: C1sen -->
+<!-- DateCreated: 3/2/2023 9:03:56 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_DISTRICT_PRESERVE_48A42391_NAME"
+			Text="Nature Reserve"/>
+		<Row Language="en_US" Tag="LOC_DISTRICT_PRESERVE_48A42391_DESCRIPTION"
+			Text="A district in your city for nature conservation. Includes adjacent tiles into Nature Reserve, on which improvements cannot be built and citizens cannot work. Bonus to [ICON_Science] Science from adjacent terrains, features and natural wonders. This district does not require population and is not a specialty district."/>
+		<Row Language="en_US" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_NAME"
+			Text="Landscape Area"/>
+		<Row Language="en_US" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_DESCRIPTION"
+			Text="A district in your city for sightseeing tourism. Includes adjacent tiles into Landscape Area. Bonus [ICON_Culture] Culture and [ICON_Gold] Gold to adjacent improved tiles equal to 50% of the tile's Appeal. Bonus [ICON_Tourism] Tourism to adjacent unimproved tiles equal to 100% of the tile's Appeal. This district does not require population and is not a specialty district."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_TERRAIN_1"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_TERRAIN_2"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_TERRAIN_3"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_TERRAIN_4"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_TERRAIN_5"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_TERRAIN_6"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Coast {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_RIVER"
+			Text="+{1_num} [ICON_Science] Science from the adjacent River."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_FEATURE_1"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Geothermal Fissure {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_FEATURE_2"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Volcanic Soil {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_FEATURE_3"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Reef {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_FEATURE_4"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Oasis {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_FEATURE_5"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Marsh {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_FEATURE_6"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Woods {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_FEATURE_7"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Rainforest {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_PRESERVE_48A42391_WONDER"
+			Text="+{1_num} [ICON_Science] Science from the adjacent Natural Wonder."/>
+		<Row Language="en_US" Tag="LOC_LANDSCAPE_48A42391_COAST_GOLD"
+			Text="+{1_num} [ICON_Gold] Gold from the adjacent Coast {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_LANDSCAPE_48A42391_COAST_CULTURE"
+			Text="+{1_num} [ICON_Culture] Culture from the adjacent Coast {1_Num : plural 1?tile; other?tiles;}."/>
+		<Row Language="en_US" Tag="LOC_POLICY_PRESERVE_48A42391_NAME"
+			Text="Biodiversity"/>
+		<Row Language="en_US" Tag="LOC_POLICY_PRESERVE_48A42391_DESCRIPTION"
+			Text="+100% Nature Reserve district adjacency bonuses."/>
+		<Row Language="en_US" Tag="LOC_POLICY_LANDSCAPE_48A42391_NAME"
+			Text="National Tourism Administration"/>
+		<Row Language="en_US" Tag="LOC_POLICY_LANDSCAPE_48A42391_DESCRIPTION"
+			Text="+100% [ICON_Tourism] Tourism to cities with Landscape Area."/>
+		<Row Language="en_US" Tag="LOC_BOOST_TRIGGER_CONSERVATION_48A42391"
+			Text="Build a Nature Reserve."/>
+		<Row Language="en_US" Tag="LOC_BOOST_TRIGGER_LONGDESC_CONSERVATION_48A42391"
+			Text="Your breathtaking new preserve start a plan to conserve all the world's natural treasures."/>
+		<Row Language="en_US" Tag="LOC_DISTRICT_PRESERVE_48A42391_UI_NAME"
+			Text=" Nature Reserve"/>
+		<Row Language="en_US" Tag="LOC_DISTRICT_LANDSCAPE_48A42391_UI_NAME"
+			Text=" Landscape Area"/>
+	</LocalizedText>
+</GameData>

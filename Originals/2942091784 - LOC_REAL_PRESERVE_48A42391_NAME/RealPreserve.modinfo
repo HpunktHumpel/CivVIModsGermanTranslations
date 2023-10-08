@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="48a42391-31e9-4857-bad6-7f2659a21281" version="1">
+  <Properties>
+    <Name>LOC_REAL_PRESERVE_48A42391_NAME</Name>
+    <Description>LOC_REAL_PRESERVE_48A42391_DESCRIPTION</Description>
+    <Created>1677308543</Created>
+    <Teaser>LOC_REAL_PRESERVE_48A42391_TEASER</Teaser>
+    <Authors>C1sen</Authors>
+    <SpecialThanks>LOC_REAL_PRESERVE_48A42391_SPECIALTHANKS</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_REAL_PRESERVE_48A42391_NAME">
+      <en_US>Real Preserve</en_US>
+      <zh_Hans_CN>更真实的保护区</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_REAL_PRESERVE_48A42391_TEASER">
+      <en_US>Remake and add two districts: Nature Reserve and Landscape Area.</en_US>
+      <zh_Hans_CN>重制并添加了两个区域：保护区、风景区。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_REAL_PRESERVE_48A42391_DESCRIPTION">
+      <en_US>The original Preserve is interesting, but fits only few civilizations and is useless for victories.[NEWLINE]This mod remakes new Nature Reserve and Landscape Area. They are unlocked in later game to fit the reality, and are re-design to help for either science or culture victories.</en_US>
+      <zh_Hans_CN>原版的保护区机制非常有趣，但只适合少数文明游玩，且对各种胜利方式作用有限。[NEWLINE]该模组制作了新的保护区和风景区，推迟了它们的解锁时间以更加贴合现实，重新设计了它们的效果使其分别对科技和文化胜利有所帮助。</zh_Hans_CN>
+     </Text>
+    <Text id="LOC_REAL_PRESERVE_48A42391_SPECIALTHANKS">
+      <en_US>Nea_baraja[NEWLINE]Maple_Leaves[NEWLINE]UzukiShimamura[NEWLINE]www139154[NEWLINE]Suyuxinchen[NEWLINE]Hemmelfort</en_US>
+      <zh_Hans_CN>nea_baraja[NEWLINE]枫叶[NEWLINE]UzukiShimamura卯月[NEWLINE]www139154[NEWLINE]苏雨欣晨[NEWLINE]Hemmelfort</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <Dependencies>
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="KublaiKhan Vietnam Pack" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="RealPreserveData">
+      <File>Data/RealPreserve_Districts.xml</File>
+      <File>Data/RealPreserve_Improvements.xml</File>
+      <File>Data/RealPreserve_Policies.xml</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="RealPreserveScript">
+      <File>Script/RealPreserve_Gameplay.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="RealPreserveUI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Addition/RealPreserve_UI.xml</File>
+    </AddUserInterfaces>
+    <UpdateIcons id="RealPreserveIcons">
+      <File>Data/RealPreserve_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="RealPreserveArt">
+      <File>RealPreserve.dep</File>
+    </UpdateArt>
+    <UpdateText id="RealPreserveText">
+      <File>Text/RealPreserve_Text_AtFirst.xml</File>
+      <File>Text/RealPreserve_Text_zh_Hans_CN.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>Data/RealPreserve_Districts.xml</File>
+    <File>Data/RealPreserve_Icons.xml</File>
+    <File>Data/RealPreserve_Improvements.xml</File>
+    <File>Data/RealPreserve_Policies.xml</File>
+    <File>Platforms/MacOS/BLPs/RealPreserve_Districts.blp</File>
+    <File>Platforms/MacOS/BLPs/RealPreserve_StrategicView.blp</File>
+    <File>Platforms/Windows/BLPs/RealPreserve_Districts.blp</File>
+    <File>Platforms/Windows/BLPs/RealPreserve_StrategicView.blp</File>
+    <File>RealPreserve.dep</File>
+    <File>Script/RealPreserve_Gameplay.lua</File>
+    <File>Text/RealPreserve_Text_AtFirst.xml</File>
+    <File>Text/RealPreserve_Text_zh_Hans_CN.xml</File>
+    <File>UI/Addition/RealPreserve_UI.lua</File>
+    <File>UI/Addition/RealPreserve_UI.xml</File>
+  </Files>
+</Mod>
