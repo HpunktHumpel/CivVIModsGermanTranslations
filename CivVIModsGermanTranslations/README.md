@@ -40,6 +40,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1528155583 | Cheat Menu Panel (R&F - GS) | Sparrow | Junky | #13
 1540083970 | Olympic Pantheons | DB | duestere Legende | #18
 1564497864 | Herdsman | AOM | H.Humpel | #2
+1570652296 | Merrick's Austria | Merrick | ASM590319 | **NEW**
 1588097397 | Botanist | AOM | H.Humpel | #3
 1595724214 | Reindeer | AOM | Junky | #12
 1628605090 | Radial Measuring Tool | Zur13 | Junky | #13

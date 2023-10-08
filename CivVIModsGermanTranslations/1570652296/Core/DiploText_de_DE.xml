@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DiploText -->
+<!-- Author: Richard & ASM Montag, 21. August 2023, 00:20:24 -->
+<!-- DateCreated: 12/3/2017 6:10:28 PM -->
+<GameData>
+	<LocalizedText>
+		<!--Pedia-->
+		<Replace Tag="LOC_CIVINFO_MER_AUSTRIA_LOCATION" Language="de_DE">
+			<Text>Österreich</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Österreich ist ein deutschsprachiges Land in Mitteleuropa, geprägt von Bergdörfern, Barockarchitektur, kaiserlicher Geschichte und schroffem Alpengelände. Wien, die Hauptstadt an der Donau, beherbergt das Schloss Schönbrunn und die Hofburg. Zu ihren Bewohnern zählten Mozart, Strauss und Freud. Weitere bemerkenswerte Regionen des Landes sind der Nordböhmerwald, der Traunsee und die Weinberge im Osten Österreichs.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Österreich wurde von 1273 bis 1918 vom Haus Habsburg bzw. Habsburg-Lothringen (Haus Österreich) beherrscht. 1808, als Kaiser Franz II. von Österreich das Heilige Römische Reich auflöste, wurde Österreich zum Österreichischen Reich und war auch Teil des Deutschen Bundes bis zum österreichisch-preußischen Krieg von 1866. 1867 bildete Österreich eine Doppelmonarchie mit Ungarn: Das österreichisch-ungarische Reich (1867–1918). Als dieses Reich nach dem Ende des Ersten Weltkrieges 1918 zusammenbrach, wurde Österreich auf die wichtigsten, meist deutschsprachigen Gebiete des Reiches (seine heutigen Grenzen) reduziert und erhielt den Namen Republik Deutsch-Österreich. Der Anschluss an Deutschland und der Name wurden jedoch von den Alliierten im Vertrag von Versailles verboten. Dies führte zur Gründung der Ersten Republik (1918-1933).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MER_AUSTRIA_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Nach der Ersten Republik versuchte der Austrofaschismus, vom Deutschen Reich unabhängig zu bleiben. Engelbert Dollfuß akzeptierte, dass die meisten Österreicher Deutsche und Österreicher waren, wollte aber, dass Österreich von Deutschland unabhängig bleibt. Der in Österreich geborene Adolf Hitler annektierte Österreich 1938 mit dem Anschluss an das Deutsche Reich, der von einer großen Mehrheit des österreichischen Volkes unterstützt wurde. Zehn Jahre nach dem Zweiten Weltkrieg wurde Österreich als Zweite Republik 1955 wieder eigenständig.</Text>
+		</Replace>
+		<!--DOM-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MER_MARIA_THERESA" Language="de_DE">
+			<Text>Möge Gott Euch segnen und beschützen, Maria Theresia, Herrin der Wendischen Mark und Kaiserin von Österreich. Eure Aufgabe und Hoffnung besteht darin, die Weiten der Kronländer zu einer Nation zu vereinen, mit Voraussicht und dem Glauben an sich selbst und Ihre Majestät. Durch Diplomatie, gute Regentschaft und die Förderung der Hohen Künste wird Eure Nation gedeihen, doch auch das Schwert muss Österreich dienen, ebenso wie die Feder. Euer Kampf um die Hoffnung beginnt, Eure Majestät, und er beginnt hier und heute.</Text>
+		</Replace>
+		<!--Agenda-->
+		<Replace Tag="LOC_AGENDA_MER_THERESA_AGENDA_NAME" Language="de_DE">
+			<Text>Staatskirche</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_MER_THERESA_AGENDA_DESCRIPTION" Language="de_DE">
+			<Text>Mag Zivilisationen, die ihre Regierung und Religion teilen und hassen jene mit einer anderen Regierung und Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDOS_LEADER_MER_MARIA_THERESA_REASON_RELIGION" Language="de_DE">
+			<Text>(Sie teilen eine Regierung und Religion)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_MER_MARIA_THERESA_THERESA_AGENDA_SAME_REL_GOV" Language="de_DE">
+			<Text>Maria Theresia lobt Eure gemeinsame Regierung und Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_MER_MARIA_THERESA_REASON_NO_RELIGION" Language="de_DE">
+			<Text>(Sie teilen keine Regierung und Religion)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="de_DE">
+			<Text>Maria Theresia hasst Eure Regierung und Religion.</Text>
+		</Replace>
+		<!--Civilopedia-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_TITLE" Language="de_DE">
+			<Text>Maria Theresia</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_SUBTITLE" Language="de_DE">
+			<Text>Heilige Römische Kaiserin, Erzherzogin von Österreich, Königin von Ungarn und Kroatien</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_QUOTE" Language="de_DE">
+			<Text>Nur wir hatten in all diesen Schwierigkeiten noch den größten Mut, Gottes Unterstützung in kindlichem Vertrauen und häufigem Gebet in Anspruch zu nehmen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Maria Theresia Walburga Amalia Christina war die einzige Herrscherin der Habsburger und die letzte des Hauses Habsburg. Sie war die Souveränin Österreichs, Ungarns, Kroatiens, Böhmens, Siebenbürgens, Mantuas, Mailands, Lodomerias und Galiziens, der österreichischen Niederlande und Parmas. Durch Heirat war sie Herzogin von Lothringen, Großherzogin der Toskana und Heilige Römische Kaiserin.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Sie begann ihre 40-jährige Regierungszeit als ihr Vater, Kaiser Karl VI., im Oktober 1740 starb. Karl VI. ebnete den Weg für ihre Regentschaft mit der Pragmatischen Sanktion von 1713 und verbrachte seine gesamte Regierungszeit damit, diese zu sichern. Nach dem Tod ihres Vaters lehnten Sachsen, Preußen, Bayern und Frankreich die Sanktion ab, die sie zu Lebzeiten des Kaisers anerkannt hatten. Friedrich II. von Preußen (der für den größten Teil seiner Regierungszeit Maria Theresias größter Rivale war) marschierte prompt ein und eroberte die wohlhabende habsburgische Provinz Schlesien in einem siebenjährigen Konflikt, der als Österreichischer Erbfolgekrieg bekannt ist. Im Verlauf des Krieges verteidigte Maria Theresia trotz des Verlusts Schlesiens und einiger kleiner Gebiete in Italien erfolgreich ihre Herrschaft über den größten Teil des Habsburgerreichs. Maria Theresia versuchte später erfolglos, Schlesien während des Siebenjährigen Krieges zurückzuerobern.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Maria Theresia und ihr Gemahl Franz I., der Heilige Römische Kaiser, hatten elf Töchter, darunter die Königin von Frankreich, die Königin von Neapel und Sizilien, die Herzogin von Parma, und fünf Söhne, darunter die beiden Heiligen Römischen Kaiser Joseph II. Und Leopold II. Von den sechzehn Kindern erlebten nur zehn das Erwachsenenalter. Obwohl von ihr erwartet wurde, dass sie die Macht an Franz und Joseph abgab, die beide offiziell Herrscher in Österreich und Böhmen waren, war Maria Theresia die absolute Souveränin, die mit ihren Beratern regierte. Sie kritisierte und missbilligte viele von Josephs Handlungen. Maria Theresia verstand die Bedeutung ihrer öffentlichen Rolle und konnte bei ihren Untertanen Wertschätzung und Zuneigung hervorrufen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_CAPSULE_BODY" Language="de_DE">
+			<Text>Österreich setzt auf Städtebau und Stadtstaaten-Diplomatie.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MER_MARIA_THERESA_CHAPTER_DETAILED_BODY" Language="de_DE">
+			<Text>Maria Theresias Österreich konzentriert sich auf den Aufbau ihrer Städte und ihrer Hauptstadt, um ihnen Boni zu gewähren.</Text>
+		</Replace>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Die Erzherzogin von Österreich begrüßt Eure Eminenz zu... Geh', lasst uns das hinter uns bringen! Wir haben um vier ein Mittagessen.</Text>
+		</Replace>
+		<!--AI invitation to visit nearby City-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Besucht unsere schöne Wiener Stadt, da gibt's viel zu sehen!</Text>
+		</Replace>
+		<!--AI accepts Human invitation-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir würden Euch gern einmal besuchen, aber wir können unseren Palast nicht lange verlassen.</Text>
+		</Replace>
+		<!--AI invitation to exchange Capital Information-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir sollten einmal Informationen austauschen...</Text>
+		</Replace>
+		<!--GREETINGS-->
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir hören.</Text>
+		</Replace>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir danken Euch, das wird sicher sehr unterhaltsam.</Text>
+		</Replace>
+		<!--AI Rejects-->
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir möchten momentan keine Besucher empfangen.</Text>
+		</Replace>
+		<!--AI Requests-->
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir haben eine Delegation mit feinstem Kaffee und Strudel geschickt. Wir hoffen, es wird Euch schmecken.</Text>
+		</Replace>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Das ist akzeptabel.</Text>
+		</Replace>
+		<!--AI rejects from human-->
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Dem können wir nicht zustimmen.</Text>
+		</Replace>
+		<!--AI requests from human-->
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Gemeinsame Grenzen werden es unseren Völkern ermöglichen, zusammen zu wachsen und dazu beitragen, unsere Kulturen zu stärken.</Text>
+		</Replace>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir nehmen gern an! Unsere Freundschaft wird unseren Reichen gut tun.</Text>
+		</Replace>
+		<!--AI Rejects from human-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir können niemals jemand unsere Freundschaft erklären, der so niedrig steht wie Ihr!</Text>
+		</Replace>
+		<!--AI Requests friendship from human-->
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Eine Freundschaft zwischen uns wäre doch gut für unsere Völker, nicht wahr?</Text>
+		</Replace>
+		<!--Human accepts AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir nehmen an, das ist das Beste das Ihr habt.</Text>
+		</Replace>
+		<!--Human rejects AI requests, AI responds-->
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Entschuldigung?!</Text>
+		</Replace>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Niemand soll sagen, wir seien eine ungerechte Frau. Also lasst uns eine Einigung erzielen!</Text>
+		</Replace>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir gratulieren Euch zu Eurer klugen Entscheidung. Ihr wisst, wie man am besten regiert.</Text>
+		</Replace>
+		<!--AI Warnings-->
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Euer Glaube und Eure Art zu herrschen sind töricht! Euer Volk ist anscheinend blind, Euch zu folgen.</Text>
+		</Replace>
+		<!--AI warns player for border troops-->
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Bettelt Ihr vielleicht um Krieg? Sonst verschwindet mit Euren Truppen!</Text>
+		</Replace>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir nehmen an.</Text>
+		</Replace>
+		<!-- AI Rejects Deal -->
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Seid kein Idiot!</Text>
+		</Replace>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Pardon? Das meint Ihr aber nicht ernst?!</Text>
+		</Replace>
+		<!--From AI-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Euer Imperium braucht einen Herrscher, der im Namen des Volkes schwerwiegende Entscheidungen treffen kann. Ihr seid das sicher nicht! (Denunziert Euch)</Text>
+		</Replace>
+		<!--Rationale-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_MER_MARIA_THERESA_THERESA_AGENDA_DIFF_REL_GOV" Language="de_DE">
+			<Text>(Sie haben keine andere Religion und/oder Regierung)</Text>
+		</Replace>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Was für ein Idiot Ihr doch seid! Ihr werdet schnell zu einem unrühmlichen Ende kommen!</Text>
+		</Replace>
+		<!--AI Declares War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Schade, dass es so weit kommen musste, aber Ihr habt es selbst so gewollt. Seid das nächste Mal so gut und wählt Eure Worte weiser.</Text>
+		</Replace>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Wir hoffen, Ihr seid jetzt glücklich mit Euch selbst. Eine törichte Haltung ohne Grund, wie es scheint.</Text>
+		</Replace>
+		<!--AI refuses human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Sicherlich nicht!</Text>
+		</Replace>
+		<!--AI requests from human-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Das ist ja schrecklich langeweilig hier...</Text>
+		</Replace>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Die Welt ist erbärmlich! Es ist keine Schönheit darin, keine Weisheit. Wir sind fast schon froh, zu gehen.</Text>
+		</Replace>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MER_MARIA_THERESA_ANY" Language="de_DE">
+			<Text>Die Welt wird sich weiterdrehen und ohne Euch ein besserer Ort sein.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
