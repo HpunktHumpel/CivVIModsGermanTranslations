@@ -194,6 +194,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Steel and Thunder: Unique Units (Deliverator23, janboruta & chimp | Junky)
 1. Strategic Forts (TC | H.Humpel)
 1. Strategy Resources to ProductionE (Windfly | ASM590319)
+1. Sukritact's Angel Falls (Kerepakupai Merú) (Sukritact | ASM590319)
 1. Sukritact's Babylon Rework (sukritact | Junky)
 1. Sukritact's Egypt Rework (sukritact | Junky)
 1. Sukritact's Embarkation++ (sukritact | H.Humpel)

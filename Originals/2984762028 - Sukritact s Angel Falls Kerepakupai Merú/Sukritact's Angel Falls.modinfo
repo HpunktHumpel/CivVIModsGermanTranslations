@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b68716ec-4deb-460d-930e-4e3e39a49ed9" version="1">
+  <Properties>
+    <Name>Sukritact's Angel Falls (Kerepakupai Merú)</Name>
+    <Description>Adds Angel Falls (Kerepakupai Merú) to the game as a new Natural Wonder.</Description>
+    <Created>1685870383</Created>
+    <Teaser>Adds Angel Falls (Kerepakupai Merú) to the game as a new Natural Wonder.</Teaser>
+    <Authors>Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="14393f83-3f48-4b36-9821-dfc21d3eb229" title="Select Natural Wonders++" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="BaseGame">
+      <GameCoreInUse>Base</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion1+">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Core/Suk_AngelFalls_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Core/Suk_AngelFalls_Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Sukritact_s_Angel_Falls.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Core/Suk_AngelFalls_Icons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Suk_AngelFalls_Features.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Suk_AngelFalls_Localisation.sql</File>
+    </UpdateText>
+    <ImportFiles id="ImportFiles">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Core/NaturalWonderGenerator_Suk_AngelFalls.lua</File>
+    </ImportFiles>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Sukritact_s_Angel_Falls.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Suk_AngelFalls_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateAudio id="UpdateAudio">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <Criteria>Expansion2</Criteria>
+      <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.bnk</File>
+      <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.ini</File>
+      <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.txt</File>
+      <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.xml</File>
+    </UpdateAudio>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Features.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/NaturalWonderGenerator_Suk_AngelFalls.lua</File>
+    <File>Core/Suk_AngelFalls_Config.sql</File>
+    <File>Core/Suk_AngelFalls_Features.sql</File>
+    <File>Core/Suk_AngelFalls_Icons.sql</File>
+    <File>Core/Suk_AngelFalls_Localisation.sql</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Grass_Dark_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_AngelFalls_CreekDecal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_AngelFalls_Rock_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Flood_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FireFX_Smooth_Sphere_Normal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_HB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_WaterfallSprite</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/MacOS/BLPs/VFX_FireFX.blp</File>
+    <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.bnk</File>
+    <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.ini</File>
+    <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.txt</File>
+    <File>Platforms/Windows/Audio/NaturalWonder_Suk_AngelFalls.xml</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Grass_Dark_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_AngelFalls_CreekDecal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_AngelFalls_Rock_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Flood_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FireFX_Smooth_Sphere_Normal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Grass_Dark_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_CreekDecal_HB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_Rock_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_AngelFalls_WaterfallSprite</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Flood_Decal_H</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/VFX_FireFX.blp</File>
+    <File>Sukritact_s_Angel_Falls.dep</File>
+  </Files>
+</Mod>

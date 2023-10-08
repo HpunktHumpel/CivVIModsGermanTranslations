@@ -240,3 +240,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2953909938 | Sukritact's Tourism Overview Screen | Sukritact | Junky | #25
 2961998117 | Armagh Monastery Rework | Skunk | Junky | #25
 2973448849 | Great Sovereigns | Plati | Junky | #25
+2984762028 | Sukritact's Angel Falls (Kerepakupai Merú) | Sukritact | ASM590319 | **NEW**
