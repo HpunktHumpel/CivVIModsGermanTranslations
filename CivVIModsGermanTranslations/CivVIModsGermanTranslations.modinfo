@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="26">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]237[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]238[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1696763851</Created>
+    <Created>1696764926</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -194,6 +194,9 @@
     </Criteria>
     <Criteria id="SukritactsKhmerReworkBaray_FrontEnd">
       <ModIsEnabled>0be03c78-49f0-473f-9865-6a5004994397</ModIsEnabled>
+    </Criteria>
+    <Criteria id="SukritactsMonumentValleyTséBiiNdzisgaii_FrontEnd">
+      <ModIsEnabled>1a0615a0-0810-4b04-b258-759b0c86806a</ModIsEnabled>
     </Criteria>
     <Criteria id="SukritactsNgorongoroCrater_FrontEnd">
       <ModIsEnabled>981c5038-48a6-44b5-af64-bf2ebcde63f9</ModIsEnabled>
@@ -811,6 +814,9 @@
     <Criteria id="SukritactsKhmerReworkBaray">
       <ModInUse>0be03c78-49f0-473f-9865-6a5004994397</ModInUse>
     </Criteria>
+    <Criteria id="SukritactsMonumentValleyTséBiiNdzisgaii">
+      <ModInUse>1a0615a0-0810-4b04-b258-759b0c86806a</ModInUse>
+    </Criteria>
     <Criteria id="SukritactsNgorongoroCrater">
       <ModInUse>981c5038-48a6-44b5-af64-bf2ebcde63f9</ModInUse>
     </Criteria>
@@ -1002,6 +1008,9 @@
       <ModInUse>37fdca0b-9275-4235-9c18-c7ec348f930e</ModInUse>
     </Criteria>
     <!-- Sukritact's Resources -->
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
     <Criteria id="HarmonyInDiversity_not_in_use">
       <ModInUse inverse="1">3e78c674-e4d8-4cb4-a62e-ea2338b7c7f9</ModInUse>
     </Criteria>
@@ -1639,6 +1648,10 @@
     <UpdateText id="SukritactsKhmerReworkBaray_FrontEnd_de_DE">
       <Criteria>SukritactsKhmerReworkBaray_FrontEnd</Criteria>
       <File>2086623426/Core/Suk_KhmerRework_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="SukritactsMonumentValleyTséBiiNdzisgaii_UpdateText_FrontEnd_de_DE">
+      <Criteria>SukritactsMonumentValleyTséBiiNdzisgaii_FrontEnd</Criteria>
+      <File>2949095377/Core/Suk_MonumentValley_Localisation_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="SukritactsNgorongoroCrater_FrontEnd_de_DE">
       <Criteria>SukritactsNgorongoroCrater_FrontEnd</Criteria>
@@ -3169,6 +3182,11 @@
       <Criteria>Suk_Jayavarman_Expansion2</Criteria>
       <File>2086623426/Core/Suk_KhmerRework_Localisation_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="SukritactsMonumentValleyTséBiiNdzisgaii_UpdateText_de_DE">
+      <Criteria>Expansion2</Criteria>
+      <Criteria>SukritactsMonumentValleyTséBiiNdzisgaii</Criteria>
+      <File>2949095377/Core/Suk_MonumentValley_Localisation_de_DE.sql</File>
+    </UpdateText>
     <UpdateText id="SukritactsNgorongoroCraterd_de_DE">
       <Criteria>SukritactsNgorongoroCrater</Criteria>
       <Properties>
@@ -4476,6 +4494,7 @@
     <File>2937953680/Text/Garden_Texts_PreserveAdjustments_de_DE.sql</File>
     <File>2937953680/Text/Garden_Texts_PreserveExclusivity_de_DE.sql</File>
     <File>2942411798/Core/Necropolis_Localisation_de_DE.sql</File>
+    <File>2949095377/Core/Suk_MonumentValley_Localisation_de_DE.sql</File>
     <File>2950891319/Text/MC_Text_de_DE.xml</File>
     <File>2953909938/Core/Localisation_de_DE.sql</File>
     <File>2961998117/ArmaghReworkedText_de_DE.xml</File>

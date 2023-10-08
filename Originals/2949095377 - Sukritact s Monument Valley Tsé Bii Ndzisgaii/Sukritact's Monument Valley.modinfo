@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1a0615a0-0810-4b04-b258-759b0c86806a" version="1">
+  <Properties>
+    <Name>Sukritact’s Monument Valley (Tsé Bii’ Ndzisgaii)</Name>
+    <Description>Adds Monument Valley (Tsé Bii’ Ndzisgaii), to the game as a new Natural Wonder</Description>
+    <Created>1679208764</Created>
+    <Teaser>Adds Monument Valley (Tsé Bii’ Ndzisgaii), to the game as a new Natural Wonder</Teaser>
+    <Authors>Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="BaseGame">
+      <GameCoreInUse>Base</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion1+">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="CQUI_Conflict">
+      <ModInUse inverse="1">1d44b5e7-753e-405b-af24-5ee634ec8a01</ModInUse>
+    </Criteria>
+    <Criteria id="CQUI_Required">
+      <ModInUse>1d44b5e7-753e-405b-af24-5ee634ec8a01</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Core/Suk_MonumentValley_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/Suk_MonumentValley_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <File>Core/Suk_MonumentValley_Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Monument_Valley.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Suk_MonumentValley_Features.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Suk_MonumentValley_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <Criteria>Expansion2</Criteria>
+      <File>Core/Suk_MonumentValley_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="UpdateArt">
+      <Criteria>Expansion2</Criteria>
+      <File>Sukritact_s_Monument_Valley.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <Criteria>Expansion2</Criteria>
+      <File>Lua/Suk_MonumentValley_CoreFunctions.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Clutter.artdef</File>
+    <File>ArtDefs/Features.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>Core/Suk_MonumentValley_Config.sql</File>
+    <File>Core/Suk_MonumentValley_Features.sql</File>
+    <File>Core/Suk_MonumentValley_Icons.sql</File>
+    <File>Core/Suk_MonumentValley_Localisation.sql</File>
+    <File>Lua/Suk_MonumentValley_CoreFunctions.lua</File>
+    <File>Platforms/MacOS/BLPs/environment/clutter.blp</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_MonumentValley_Blackbrush_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_MonumentValley_Buttes_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_MonumentValley_Decal_basecolor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_Dirt_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Blackbrush_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Blackbrush_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Blackbrush_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Decal_basecolor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Decal_bump</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Decal_fow</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_Dirt_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_Dirt_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_Dirt_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/environment/clutter.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_MonumentValley_Blackbrush_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_MonumentValley_Buttes_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Suk_MonumentValley_Decal_basecolor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_Dirt_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Blackbrush_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Blackbrush_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Blackbrush_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Buttes_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Decal_basecolor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Decal_bump</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Suk_MonumentValley_Decal_fow</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_Dirt_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_Dirt_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_Dirt_Decal_H</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact_s_Monument_Valley.dep</File>
+  </Files>
+</Mod>

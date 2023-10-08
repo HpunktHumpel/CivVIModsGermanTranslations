@@ -201,6 +201,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Sukritact's Grand Canyon (sukritact | Junky)
 1. Sukritact's Great Blue Hole (sukritact | Junky)
 1. Sukritact's Khmer Rework (Baray) (sukritact | Junky)
+1. Sukritact’s Monument Valley (Tsé Bii’ Ndzisgaii) (Sukritact | ASM590319)
 1. Sukritact's Ngorongoro Crater (sukritact | Junky)
 1. Sukritact's Oceans (sukritact | Junky)
 1. Sukritact's Resources (Deliverator23 & sukritact | Junky)
