@@ -8,6 +8,7 @@ Deutsche Übersetzungen für diverse Civilization VI Mods.
 
 Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt (Mod-Autor | Übersetzer):
 
+1. A Mountain Is Fine Too  (_Zur13_ | ASM590319)
 1. A.I.Channel - Kizuna AI (Flactine | H.Humpel)
 1. AB2531 Buy Units with Faith (NHC | H.Humpel)
 1. Age of Capital (Alf.Net | H.Humpel)

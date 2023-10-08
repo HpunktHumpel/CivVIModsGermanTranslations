@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="26">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]234[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]235[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1696755402</Created>
+    <Created>1696756155</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -303,6 +303,9 @@
     </Criteria>
     <Criteria id="AlternatePolicyScreen">
       <ModInUse>158100a7-5ff0-4e47-bd6b-33bf8ee6bd3c</ModInUse>
+    </Criteria>
+    <Criteria id="AMountainIsFineToo">
+      <ModInUse>3abeb412-605f-4e92-8f63-bd88e803780c</ModInUse>
     </Criteria>
     <Criteria id="AncientEgyptianPantheons">
       <ModInUse>a7f26e08-378d-4b83-8df8-e672d93393fc</ModInUse>
@@ -1947,6 +1950,10 @@
       </Properties>
       <Criteria>AlternatePolicyScreen</Criteria>
       <File>1307248778/Common/localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="AMountainIsFineToo_AMIFT_Texts_de_DE">
+      <Criteria>AMountainIsFineToo</Criteria>
+      <File>2218997774/AMIFT_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="AncientEgyptianPantheons_de_DE">
       <Criteria>AncientEgyptianPantheons</Criteria>
@@ -4239,6 +4246,7 @@
     <File>2187202390/TheMotherLandCalls_Text_de_DE.xml</File>
     <File>2191979138/Core/GameText_de_DE.xml</File>
     <File>2215414456/Core/Localisation_de_DE.sql</File>
+    <File>2218997774/AMIFT_Text_de_DE.xml</File>
     <File>2292979207/UC_Babylon_Text_de_DE.sql</File>
     <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSB_de_DE.sql</File>
     <File>2314657561/Text/ModSupport/UC_THR_Text_CS_CSE_Default_de_DE.sql</File>

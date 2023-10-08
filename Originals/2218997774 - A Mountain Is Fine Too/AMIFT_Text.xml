@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AMIFT_Text -->
+<!-- Author: Zur13 -->
+<!-- DateCreated: 8/28/2020 1:04:45 AM -->
+<GameData>
+	<LocalizedText>
+		<!-- UI -->
+		<Row Tag="LOC_AMIFT_MOUNTAIN_MINE"  Language="en_US">
+			<Text>Mountain Mine</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_MOUNTAIN_MINE_DESC"  Language="en_US">
+			<Text>Unlocks the Builder ability to construct Mountain Mines.[NEWLINE][NEWLINE]+1 [ICON_Production] Production. -1 Appeal. Can be built on mountains or valid resources.[NEWLINE][NEWLINE]If built on Luxury or Strategic resources, the city will gain use of that resource. [COLOR_RED]Not effective on non-mountain tiles.[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="LOC_AMIFT_ANCHORITE_HOVEL"  Language="en_US">
+			<Text>Anchorite Hovel</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_ANCHORITE_HOVEL_DESC"  Language="en_US">
+			<Text>Unlocks the Anchorite ability to construct Anchorite Hovel.[NEWLINE][NEWLINE] Can be built on bleak mountains. Religious trained in this city receive +1 [ICON_Movement] on friendly territory and +1 sight range. With each hovel Apostles and Missionaries cost 2% less in the city where hovel is built.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_MOUNTAIN_HAMLET"  Language="en_US">
+			<Text>Mountain Hamlet</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_MOUNTAIN_HAMLET_DESC"  Language="en_US">
+			<Text>Unlocks the Builder ability to construct Mountain Hamlet.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture and +0.5 [ICON_Housing] Housing +3% city growth. +1 [ICON_Food] Food if build on mountain tiles with Sheeps or Mountain Streams. Can be built on mountain tiles. [COLOR_RED]Not effective on non-mountain tiles.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_VOLCANO_THERMAL_PLANT"  Language="en_US">
+			<Text>Volcanothermal plant</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_VOLCANO_THERMAL_PLANT_DESC"  Language="en_US">
+			<Text>Unlocks the Builder ability to construct Volcanothermal plant.[NEWLINE][NEWLINE]+2 [ICON_Production] Production and +2 [ICON_Science] Science. Could be constructed on Volcano tile.</Text>
+		</Row>
+		
+		
+		
+		<Row Tag="LOC_AMIFT_RESOURCE_GOLD"  Language="en_US">
+			<Text>Gold</Text>
+		</Row>
+		
+		<Row Tag="LOC_AMIFT_RESOURCE_AMIFTSHEEP"  Language="en_US">
+			<Text>Sheep</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_BLEAK"  Language="en_US">
+			<Text>Bleak</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_STREAMS"  Language="en_US">
+			<Text>Mountain Streams</Text>
+		</Row>
+		
+		
+
+		<Row Tag="LOC_AMIFT_INDUSTRIAL_ZONE_MOUNTAIN_ADJACENT_MOUNTAIN_MINE_PRODUCTION_DESC"  Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Mountain mines; other?Mountain mines;}.	</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_INDUSTRIAL_ZONE_MOUNTAIN_ADJACENT_MOUNTAIN_STREAM_PRODUCTION_DESC"  Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Mountain stream; other?Mountain streams;}.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_CAMPUS_ADJACENT_BLEAK_SCIENCE_DESC"  Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent {1_Num : plural 1?Bleak mountain; other?Bleak mountains;}.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_HOLY_SITE_ADJACENT_ANCHORITE_HOVEL_FAITH_DESC"  Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent {1_Num : plural 1?Anchorite hovel; other?Anchorite hovels;}.</Text>
+		</Row>
+
+		
+		
+		<Row Tag="LOC_AMIFT_ANCHORITE_VISIT_ABIL_NAME"  Language="en_US">
+			<Text>Anchorite visit</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_ANCHORITE_VISIT_ABIL_DESC"  Language="en_US">
+			<Text>+1 [ICON_Movement] on friendly territory and +1 sight range</Text>
+		</Row>
+		
+		<Row Tag="LOC_AMIFT_ADJACENT_MOUNTAIN_COMBAT_BONUS_MOD"  Language="en_US">
+			<Text>Mountain training: +10 strength when fighting adjacent to mountain</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_MOUNTAIN_COMBAT_TRAINING_ABILITY"  Language="en_US">
+			<Text>Mountain combat training.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_MOUNTAIN_COMBAT_TRAINING_ABILITY_DESC"  Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when fighting adjacent to mountain. Faster [ICON_Movement] Movement on Hill terrain.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_MOUNTAIN_STREAM_HEALING_MOD"  Language="en_US">
+			<Text>+15 HP per turn when adjacent to Mountain stream.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_ADJACENT_RIVER_IGNORES_ZOC_MOD"  Language="en_US">
+			<Text>Adjacent river allows to ignore enemy unit ZOC.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_ABILITY_MOUNTAIN_SURVIVAL_TRAINING"  Language="en_US">
+			<Text>Mountain survival training course.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_ABILITY_MOUNTAIN_SURVIVAL_TRAINING_DESC"  Language="en_US">
+			<Text>Ignores enemy ZOC when adjacent to river. +15 HP per turn when adjacent to Mountain Stream. Faster crossing rivers.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_TRAINING_SITE"  Language="en_US">
+			<Text>Mountain Training Range</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_TRAINING_SITE_DESC"  Language="en_US">
+			<Text>Recon, melee, ranged, light cavalry, ranged cavalry and anti cavalry, units trained in this city receive +10 [ICON_Strength] Combat Strength when fighting adjacent to mountain and faster [ICON_Movement] Movement on Hill terrain. [COLOR_RED]Slower military unit production in this city.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_STREAMS_TRAINING_SITE"  Language="en_US">
+			<Text>Mountain Water Obstacle Training Range</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_STREAMS_TRAINING_SITE_DESC"  Language="en_US">
+			<Text>Recon, melee, ranged, light cavalry, ranged cavalry and anti cavalry, units trained in this city receive +15 HP per turn when adjacent to Mountain stream and could ignore enemy ZOC when adjacent to river and also could cross the rivers faster. [COLOR_RED]Slower military unit production in this city.[ENDCOLOR]</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_AMIFT_UNIT_AMIFT_ANCHORITE"  Language="en_US">
+			<Text>Anchorite</Text>
+		</Row>
+
+		<Row Tag="LOC_AMIFT_UNIT_AMIFT_ANCHORITE_DESC"  Language="en_US">
+			<Text>Can build anchorite hovel improvement.</Text>
+		</Row>
+		
+		
+		
+		<Row Tag="LOC_AMIFT_UNITOPERATION_REMOVE_ADJACENT_IMPROVEMENT"  Language="en_US">
+			<Text>Remove Adjacent Improvement</Text>
+		</Row>
+		<Row Tag="LOC_AMIFT_UNITOPERATION_REMOVE_ADJACENT_IMPROVEMENT_CONFIRM"  Language="en_US">
+			<Text>Removing adjacent improvement will use ALL charges and unit will be removed. Proceed?</Text>
+		</Row>
+
+
+		<Row Tag="LOC_AMIFT_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION"  Language="en_US">
+			<Text>+1 [ICON_Culture] Culture from Mountain Hamlets with sheeps and from Pastures.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_AMIFT_BELIEF_MISTRESS_OF_THE_COPPER_MOUNTAIN_NAME"  Language="en_US">
+			<Text>Mistress Of The Copper Mountain</Text>
+		</Row>
+		<Row Tag="LOC_AMIFT_BELIEF_MISTRESS_OF_THE_COPPER_MOUNTAIN_DESCRIPTION"  Language="en_US">
+			<Text>+1 [ICON_Production] Production from improved copper resource and +1 [ICON_Culture] Culture from Mountain Hamlets adjacent to strategic resources.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

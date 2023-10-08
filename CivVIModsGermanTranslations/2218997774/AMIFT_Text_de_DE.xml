@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AMIFT_Text -->
+<!-- Author: Zur13 - ASM Montag, 21. August 2023, 00:13:53 -->
+<!-- DateCreated: 8/28/2020 1:04:45 AM -->
+<GameData>
+	<LocalizedText>
+		<!-- UI -->
+		<Replace Tag="LOC_AMIFT_MOUNTAIN_MINE"  Language="de_DE">
+			<Text>Bergmine</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_MOUNTAIN_MINE_DESC"  Language="de_DE">
+			<Text>Ermöglicht einem Handwerker, Bergminen zu bauen.[NEWLINE][NEWLINE]+1 [ICON_Production] Produktion. -1 Anziehungskraft. Kann auf Bergen oder geeigneten Ressourcen gebaut werden.[NEWLINE][NEWLINE]Wenn auf Luxus- oder Strategischen Ressourcen gebaut, kann die Stadt diese Ressource nutzen.[COLOR_RED]Nur wirksam auf Bergfeldern![ENDCOLOR]</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_AMIFT_ANCHORITE_HOVEL"  Language="de_DE">
+			<Text>Einsiedlerhütte</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_ANCHORITE_HOVEL_DESC"  Language="de_DE">
+			<Text>Schaltet die Fähigkeit der Geistlichen frei, die Einsiedlerhütte zu bauen.[NEWLINE][NEWLINE]Kann auf kahlen Bergen gebaut werden. In dieser Stadt ausgebildete religiöse Einheiten erhalten +1 [ICON_Movement] Bewegung auf freundlichem Gebiet und +1 Sichtweite. Mit jeder Hütte kosten Apostel und Missionare in der Stadt, in der die Hütte gebaut wurde, 2% weniger.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_MOUNTAIN_HAMLET"  Language="de_DE">
+			<Text>Bergdorf</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_MOUNTAIN_HAMLET_DESC"  Language="de_DE">
+			<Text>Schaltet die Fähigkeit des Handwerkers frei, Bergdörfer zu errichten.[NEWLINE][NEWLINE]+1 [ICON_Culture] Kultur und +0,5 [ICON_Housing] Wohnraum, +3% Stadtwachstum. +1 [ICON_Food] Nahrung, wenn auf Bergfeldern mit Schafen oder Gebirgsbächen gebaut.[COLOR_RED]Nur wirksam auf Bergfeldern![ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_VOLCANO_THERMAL_PLANT"  Language="de_DE">
+			<Text>Vulkan-Wärmekraftwerk</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_VOLCANO_THERMAL_PLANT_DESC"  Language="de_DE">
+			<Text>Fähigkeit des Handwerkers, eine vulkanotherme Anlage zu errichten.[NEWLINE][NEWLINE]+2 [ICON_Production] Produktion und +2 [ICON_Science] Wissenschaft. Kann auf Vulkanfeldern gebaut werden.</Text>
+		</Replace>
+		
+		
+		
+		<Replace Tag="LOC_AMIFT_RESOURCE_GOLD"  Language="de_DE">
+			<Text>Gold</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_AMIFT_RESOURCE_AMIFTSHEEP"  Language="de_DE">
+			<Text>Schafe</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_BLEAK"  Language="de_DE">
+			<Text>Kahl</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_STREAMS"  Language="de_DE">
+			<Text>Gebirgsbäche</Text>
+		</Replace>
+		
+		
+
+		<Replace Tag="LOC_AMIFT_INDUSTRIAL_ZONE_MOUNTAIN_ADJACENT_MOUNTAIN_MINE_PRODUCTION_DESC"  Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion von angrenzende{1_Num : plural 1?r Bergmine; other?n Bergminen;}.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_INDUSTRIAL_ZONE_MOUNTAIN_ADJACENT_MOUNTAIN_STREAM_PRODUCTION_DESC"  Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion von angrenzende{1_Num : plural 1?m Gebirgsbach; other?n Gebirgsbächen;}.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_CAMPUS_ADJACENT_BLEAK_SCIENCE_DESC"  Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft von angrenzende{1_Num : plural 1?m kahlen Berg; other?n kahlen Bergen;}.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_HOLY_SITE_ADJACENT_ANCHORITE_HOVEL_FAITH_DESC"  Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glaube von angrenzende{1_Num : plural 1?r Einsiedlerhütte; other?n Einsiedlerhütten;}.</Text>
+		</Replace>
+
+		
+		
+		<Replace Tag="LOC_AMIFT_ANCHORITE_VISIT_ABIL_NAME"  Language="de_DE">
+			<Text>Geistlicher Besuch</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_ANCHORITE_VISIT_ABIL_DESC"  Language="de_DE">
+			<Text>+1 [ICON_Movement] Bewegung auf freundlichem Gebiet und +1 Sichtweite.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_AMIFT_ADJACENT_MOUNTAIN_COMBAT_BONUS_MOD"  Language="de_DE">
+			<Text>Bergtraining: +10 [ICON_Strength] Stärke beim Kampf neben einem Berg.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_MOUNTAIN_COMBAT_TRAINING_ABILITY"  Language="de_DE">
+			<Text>Bergkampftraining</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_MOUNTAIN_COMBAT_TRAINING_ABILITY_DESC"  Language="de_DE">
+			<Text>+10 [ICON_Strength] Kampfstärke beim Kampf neben einem Berg. Schnellere [ICON_Movement] Bewegung auf Hügelgelände.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_MOUNTAIN_STREAM_HEALING_MOD"  Language="de_DE">
+			<Text>+15 Heilungspunkte pro Runde, wenn angrenzend an einen Gebirgsbach.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_ADJACENT_RIVER_IGNORES_ZOC_MOD"  Language="de_DE">
+			<Text>Ein benachbarter Fluss ermöglicht es, die feindliche Kontrollzone zu ignorieren.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_ABILITY_MOUNTAIN_SURVIVAL_TRAINING"  Language="de_DE">
+			<Text>Trainingskurs zum Überleben am Berg</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_ABILITY_MOUNTAIN_SURVIVAL_TRAINING_DESC"  Language="de_DE">
+			<Text>Ignoriert die feindliche Kontrollzone, wenn neben einem Fluss. +15 Heilungspunkte pro Runde, wenn angrenzend an einen Gebirgsbach. Schnelleres Überqueren von Flüssen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_TRAINING_SITE"  Language="de_DE">
+			<Text>Bergausbildung</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_TRAINING_SITE_DESC"  Language="de_DE">
+			<Text>In dieser Stadt ausgebildete Versorgungs-, Nahkampf-, Fernkampf-, leichte Kavallerie-, Kavallerie- und Anti-Kavallerie-Einheiten erhalten +10 [ICON_Strength] Kampfstärke, wenn sie neben einem Berg kämpfen. Schnellere [ICON_Movement] Fortbewegung auf hügeligem Terrain. [COLOR_RED]Langsamere Produktion von Militäreinheiten in dieser Stadt![ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_STREAMS_TRAINING_SITE"  Language="de_DE">
+			<Text>Berggewässer Hindernistraining</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_BUILDING_AMIFT_MNT_STREAMS_TRAINING_SITE_DESC"  Language="de_DE">
+			<Text>In dieser Stadt ausgebildete Versorgungs-, Nahkampf-, Fernkampf-, leichte Kavallerie-, Kavallerie- und Anti-Kavallerie-Einheiten erhalten, wenn sie an einen Gebirgsbach angrenzenn, +15 Heilungspunkte pro Runde. Sie ignorieren die feindliche Kontrollzone angrenzend an einem Fluss und können Flüsse schneller überqueren. [COLOR_RED]Langsamere Produktion von Militäreinheiten in dieser Stadt![ENDCOLOR]</Text>
+		</Replace>
+
+
+
+		<Replace Tag="LOC_AMIFT_UNIT_AMIFT_ANCHORITE"  Language="de_DE">
+			<Text>Geistlicher</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AMIFT_UNIT_AMIFT_ANCHORITE_DESC"  Language="de_DE">
+			<Text>Kann eine Einsiedlerhütte bauen.</Text>
+		</Replace>
+		
+		
+		
+		<Replace Tag="LOC_AMIFT_UNITOPERATION_REMOVE_ADJACENT_IMPROVEMENT"  Language="de_DE">
+			<Text>Benachbarte Verbesserung entfernen</Text>
+		</Replace>
+		<Replace Tag="LOC_AMIFT_UNITOPERATION_REMOVE_ADJACENT_IMPROVEMENT_CONFIRM"  Language="de_DE">
+			<Text>Durch das Entfernen der benachbarten Verbesserung werden ALLE Ladungen verwendet und die Einheit wird entfernt. [COLOR_RED]Fortfahren?[ENDCOLOR]</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_AMIFT_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION"  Language="de_DE">
+			<Text>+1 [ICON_Culture] Kultur aus Bergdörfern mit Schafen und Weiden.</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_AMIFT_BELIEF_MISTRESS_OF_THE_COPPER_MOUNTAIN_NAME"  Language="de_DE">
+			<Text>Herrin des Kupferberges</Text>
+		</Replace>
+		<Replace Tag="LOC_AMIFT_BELIEF_MISTRESS_OF_THE_COPPER_MOUNTAIN_DESCRIPTION"  Language="de_DE">
+			<Text>+1 [ICON_Production] Produktion aus verbesserten Kupferressourcen und +1 [ICON_Culture] Kultur aus Bergdörfern neben strategischen Ressourcen.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
