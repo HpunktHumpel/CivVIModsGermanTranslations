@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="74c5c3d9-5408-4315-9e0a-b0c369f82bcd" version="1">
+  <Properties>
+    <Name>Terra Mirabilis</Name>
+    <Description>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Created>1598618345</Created>
+    <Teaser>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Teaser>
+    <Authors>Deliverator, ChimpanG</Authors>
+    <SpecialThanks>CIVITAS</SpecialThanks>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="XP1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP1 or XP2" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="DLC1" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_JADWIGA,StandardPlayers::LEADER_JADWIGA,Players:Expansion1_Players::LEADER_JADWIGA,Players:Expansion2_Players::LEADER_JADWIGA</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC3" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_JOHN_CURTIN,StandardPlayers::LEADER_JOHN_CURTIN,Players:Expansion1_Players::LEADER_JOHN_CURTIN,Players:Expansion2_Players::LEADER_JOHN_CURTIN</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC4" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_ALEXANDER,Players:StandardPlayers::LEADER_CYRUS,StandardPlayers::LEADER_ALEXANDER,StandardPlayers::LEADER_CYRUS,Players:Expansion1_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS,Players:Expansion2_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC5" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_AMANITORE,StandardPlayers::LEADER_AMANITORE,Players:Expansion1_Players::LEADER_AMANITORE,Players:Expansion2_Players::LEADER_AMANITORE</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC6" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_GITARJA,Players:StandardPlayers::LEADER_JAYAVARMAN,StandardPlayers::LEADER_GITARJA,StandardPlayers::LEADER_JAYAVARMAN,Players:Expansion1_Players::LEADER_GITARJA,Players:Expansion2_Players::LEADER_JAYAVARMAN,Players:Expansion2_Players::LEADER_GITARJA,Players:Expansion2_Players::LEADER_JAYAVARMAN</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC7" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_SIMON_BOLIVAR,Players:StandardPlayers::LEADER_LADY_SIX_SKY,StandardPlayers::LEADER_SIMON_BOLIVAR,StandardPlayers::LEADER_LADY_SIX_SKY,Players:Expansion1_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY,Players:Expansion2_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="TM_Config_Text">
+      <File>Core/Localisation/TM_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="TM_Config_Icons">
+      <File>Core/Natural Wonders/TM_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="TM_Config_Schema">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Core/Framework/TM_Schema.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Config_Master">
+      <Properties>
+        <LoadOrder>2</LoadOrder>
+      </Properties>
+      <File>Core/Framework/TM_Master.sql</File>
+      <File>Core/User Settings/TM_UserSettings.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Config_Data">
+      <Properties>
+        <LoadOrder>3</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/TM_Features_Config.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>NaturalWondersMod.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="TM_Schema">
+      <Properties>
+        <LoadOrder>-1</LoadOrder>
+      </Properties>
+      <File>Core/Framework/TM_Schema.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Preliminaries">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File priority="1">Core/Natural Wonders/TM_Features.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Preliminaries_XP1">
+      <Properties>
+        <LoadOrder>101</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File priority="1">Core/Natural Wonders/TM_Features_XP1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Preliminaries_XP2">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+    </UpdateDatabase>
+    <ImportFiles id="TM_Import">
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
+    </ImportFiles>
+    <UpdateText id="TM_Localisation">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Localisation/TM_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="TM_Icons">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/TM_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="TM_Globals">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/TM_Globals.sql</File>
+      <File>Core/Natural Wonders/TM_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Globals_XPAny">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>Core/Natural Wonders/TM_Globals_XP1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Framework">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File priority="3">Core/Framework/TM_Master.sql</File>
+      <File priority="2">Core/Framework/TM_Validation.sql</File>
+      <File>Core/User Settings/TM_UserSettings.sql</File>
+      <File>Core/Framework/TM_Version.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Setup">
+      <Properties>
+        <LoadOrder>2</LoadOrder>
+      </Properties>
+      <File>Core/Framework/TM_Setup.sql</File>
+      <File>Core/Natural Wonders/TM_Resources.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Common">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/TM_Common.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Common_XP1">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>Core/Natural Wonders/TM_Common_XP1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Common_XP2">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>Core/Natural Wonders/TM_Common_XP2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Wonders_Base">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/Base/TM_CliffsDover.sql</File>
+      <File>Core/Natural Wonders/Base/TM_CraterLake.sql</File>
+      <File>Core/Natural Wonders/Base/TM_DeadSea.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Everest.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Galapagos.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Kilimanjaro.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Pantanal.sql</File>
+      <File>Core/Natural Wonders/Base/TM_BarrierReef.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Piopiotahi.sql</File>
+      <File>Core/Natural Wonders/Base/TM_TorresDelPaine.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Tsingy.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Yosemite.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Wonders_DLC">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/DLC/TM_Eyjafjallajokull.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_GiantsCauseway.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_HaLongBay.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_Lysefjorden.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_Uluru.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Wulingyuan_DLC6.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_Paititi.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_FountainOfYouth.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Wonders_XP1">
+      <Properties>
+        <LoadOrder>51</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/XP1/TM_DelicateArch.sql</File>
+      <File>Core/Natural Wonders/XP1/TM_EyeOfTheSahara.sql</File>
+      <File>Core/Natural Wonders/XP1/TM_LakeRetba.sql</File>
+      <File>Core/Natural Wonders/XP1/TM_Matterhorn.sql</File>
+      <File>Core/Natural Wonders/XP1/TM_Roraima.sql</File>
+      <File>Core/Natural Wonders/XP1/TM_Ubsunur_Hollow.sql</File>
+      <File>Core/Natural Wonders/XP1/TM_Zhangye_Danxia.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Wonders_XP2">
+      <Properties>
+        <LoadOrder>52</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>Core/Natural Wonders/XP2/TM_ChocolateHills.sql</File>
+      <File>Core/Natural Wonders/XP2/TM_Gobustan.sql</File>
+      <File>Core/Natural Wonders/XP2/TM_IkKil.sql</File>
+      <File>Core/Natural Wonders/XP2/TM_MatoTipila.sql</File>
+      <File>Core/Natural Wonders/XP2/TM_Pamukkale.sql</File>
+      <File>Core/Natural Wonders/XP2/TM_SaharaElBeyda.sql</File>
+      <File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File>
+      <File>Core/Natural Wonders/Base/TM_Kilimanjaro_XP2.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_Eyjafjallajokull_XP2.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Krakatoa_XP2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Wonders_TM">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_BarringerCrater.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_BioluminescentBay.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_CerroDePotosi.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Dallol.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Gibraltar.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_GrandMesa.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Kailash.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_LakeVictoria.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_MosiOaTunya.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_MotlatseCanyon.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Namib.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_OldFaithful.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Ounianga.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_SalarDeUyuni.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Sinai.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_SriPada.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_VredefortDome.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Lencois_Maranhenses.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Disasters_XP2">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Clutter.artdef</File>
+    <File>ArtDefs/Features.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Terrains.artdef</File>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>Core/Framework/TM_Master.sql</File>
+    <File>Core/Framework/TM_Schema.sql</File>
+    <File>Core/Framework/TM_Setup.sql</File>
+    <File>Core/Framework/TM_Validation.sql</File>
+    <File>Core/Framework/TM_Version.sql</File>
+    <File>Core/Localisation/TM_Localisation.sql</File>
+    <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
+    <File>Core/Natural Wonders/Base/TM_BarrierReef.sql</File>
+    <File>Core/Natural Wonders/Base/TM_CliffsDover.sql</File>
+    <File>Core/Natural Wonders/Base/TM_CraterLake.sql</File>
+    <File>Core/Natural Wonders/Base/TM_DeadSea.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Everest.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Galapagos.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Kilimanjaro.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Kilimanjaro_XP2.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Pantanal.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Piopiotahi.sql</File>
+    <File>Core/Natural Wonders/Base/TM_TorresDelPaine.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Tsingy.sql</File>
+    <File>Core/Natural Wonders/Base/TM_Yosemite.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_Eyjafjallajokull.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_Eyjafjallajokull_XP2.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_FountainOfYouth.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_GiantsCauseway.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_HaLongBay.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_Lysefjorden.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_Paititi.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_Uluru.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_BarringerCrater.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_BioluminescentBay.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_CerroDePotosi.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Dallol.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Gibraltar.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_GrandMesa.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Kailash.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Krakatoa_XP2.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_LakeVictoria.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Lencois_Maranhenses.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_MosiOaTunya.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_MotlatseCanyon.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Namib.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_OldFaithful.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Ounianga.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_SalarDeUyuni.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Sinai.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_SriPada.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_VredefortDome.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Wulingyuan_DLC6.sql</File>
+    <File>Core/Natural Wonders/TM_Common.sql</File>
+    <File>Core/Natural Wonders/TM_Common_XP1.sql</File>
+    <File>Core/Natural Wonders/TM_Common_XP2.sql</File>
+    <File>Core/Natural Wonders/TM_Features.sql</File>
+    <File>Core/Natural Wonders/TM_Features_Config.sql</File>
+    <File>Core/Natural Wonders/TM_Features_XP1.sql</File>
+    <File>Core/Natural Wonders/TM_Globals.sql</File>
+    <File>Core/Natural Wonders/TM_Globals_XP1.sql</File>
+    <File>Core/Natural Wonders/TM_Icons.sql</File>
+    <File>Core/Natural Wonders/TM_ModSupport.sql</File>
+    <File>Core/Natural Wonders/TM_Resources.sql</File>
+    <File>Core/Natural Wonders/XP1/TM_DelicateArch.sql</File>
+    <File>Core/Natural Wonders/XP1/TM_EyeOfTheSahara.sql</File>
+    <File>Core/Natural Wonders/XP1/TM_LakeRetba.sql</File>
+    <File>Core/Natural Wonders/XP1/TM_Matterhorn.sql</File>
+    <File>Core/Natural Wonders/XP1/TM_Roraima.sql</File>
+    <File>Core/Natural Wonders/XP1/TM_Ubsunur_Hollow.sql</File>
+    <File>Core/Natural Wonders/XP1/TM_Zhangye_Danxia.sql</File>
+    <File>Core/Natural Wonders/XP2/TM_ChocolateHills.sql</File>
+    <File>Core/Natural Wonders/XP2/TM_Gobustan.sql</File>
+    <File>Core/Natural Wonders/XP2/TM_IkKil.sql</File>
+    <File>Core/Natural Wonders/XP2/TM_MatoTipila.sql</File>
+    <File>Core/Natural Wonders/XP2/TM_Pamukkale.sql</File>
+    <File>Core/Natural Wonders/XP2/TM_SaharaElBeyda.sql</File>
+    <File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File>
+    <File>Core/User Settings/TM_UserSettings.sql</File>
+    <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
+    <File>NaturalWondersMod.dep</File>
+    <File>Platforms/MacOS/BLPs/environment/clutter.blp</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/NW_VFX.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_2TileDecalGuide3</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_3TileDecalGuide5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BioBayBlue_EM</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BioBayBlue_OPAC5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Dallol_01_b</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Dallol_01_fow</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Dallol_01_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Dallol_01_h_2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_2TileDecalGuide3_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_3TileDecalGuide5_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BioBayBlue_B6_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Dallol_01_b_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_Flowered_White_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_BarrierReef_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Crater_Decal4_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Kailash_Decal3_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Mosi_Decal_B5_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Reef_Fish_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_SriPadaS7_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Okavango_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_2_B4_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Fish_x2_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Vredefort_Decal_B2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_AQD_Water_a_still</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_01</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_02</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOWSprite</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal2_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_S</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_B5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_G4</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_H4</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Tsingy_Decal_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_2_O4</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Aluminum_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Fish_x2_EM</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_DarkMap_0x6b28231d</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_ScatterMap_0x6b28231d</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_DarkMap_0x47b164c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_ScatterMap_0x47b164c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_B2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_G2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_H4</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_White32</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainMaterialSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/Water.blp</File>
+    <File>Platforms/Windows/BLPs/environment/clutter.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/NW_VFX.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_2TileDecalGuide3</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_3TileDecalGuide5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BioBayBlue_EM</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BioBayBlue_OPAC5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Dallol_01_b</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Dallol_01_fow</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Dallol_01_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Dallol_01_h_2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_2TileDecalGuide3_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_3TileDecalGuide5_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_BioBayBlue_B6_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Dallol_01_b_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_Flowered_White_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_BarrierReef_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Crater_Decal4_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Kailash_Decal3_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Mosi_Decal_B5_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Reef_Fish_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_SriPadaS7_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Okavango_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_2_B4_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Fish_x2_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Vredefort_Decal_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_AQD_Water_a_still</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_01</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_02</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOWSprite</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal2_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_S</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_B5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_G4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_H4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Reef_Fish_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Tsingy_Decal_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_2_O4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Aluminum_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Fish_x2_EM</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_DarkMap_0x6b28231d</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_ScatterMap_0x6b28231d</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_DarkMap_0x47b164c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_ScatterMap_0x47b164c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_B2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_G2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_H4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_White32</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainMaterialSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/Water.blp</File>
+  </Files>
+</Mod>
