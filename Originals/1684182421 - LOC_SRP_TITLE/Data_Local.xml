@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Data_Local -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 3/11/2019 4:37:27 PM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_HUD_CITY_SELL_HORSE_TOOLTIP">
+			<Text>Sell 10 [ICON_RESOURCE_HORSES] Horses for 20 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_CITY_SELL_IRON_TOOLTIP">
+			<Text>Sell 10 [ICON_RESOURCE_IRON] Irons for 40 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_CITY_SELL_NITER_TOOLTIP">
+			<Text>Sell 10 [ICON_RESOURCE_NITER] Niters for 60 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_CITY_SELL_ALUMINUM_TOOLTIP">
+			<Text>Sell 10 [ICON_RESOURCE_ALUMINUM] Aluminums for 80 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_CITY_SELL_COAL_TOOLTIP">
+			<Text>Sell 10 [ICON_RESOURCE_COAL] Coals for 100 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_CITY_SELL_OIL_TOOLTIP">
+			<Text>Sell 10 [ICON_RESOURCE_OIL] Oil for 150 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HUD_CITY_SELL_URANIUM_TOOLTIP">
+			<Text>Sell 10 [ICON_RESOURCE_URANIUM] Uraniums for 200 [ICON_Production] Production.</Text>
+		</Row>
+	</EnglishText>
+	<LocalizedText>
+		<Replace Tag="LOC_HUD_CITY_SELL_HORSE_TOOLTIP" Language="zh_Hans_CN">
+			<Text>消耗10[ICON_RESOURCE_HORSES]马以获得20[ICON_Production]生产力.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_IRON_TOOLTIP" Language="zh_Hans_CN">
+			<Text>消耗10[ICON_RESOURCE_IRON]铁以获得40[ICON_Production]生产力.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_NITER_TOOLTIP" Language="zh_Hans_CN">
+			<Text>消耗10[ICON_RESOURCE_NITER]硝石以获得60[ICON_Production]生产力.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_ALUMINUM_TOOLTIP" Language="zh_Hans_CN">
+			<Text>消耗10[ICON_RESOURCE_ALUMINUM]铝以获得80[ICON_Production]生产力.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_COAL_TOOLTIP" Language="zh_Hans_CN">
+			<Text>消耗10[ICON_RESOURCE_COAL]煤以获得100[ICON_Production]生产力.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_OIL_TOOLTIP" Language="zh_Hans_CN">
+			<Text>消耗10[ICON_RESOURCE_OIL]石油以获得150[ICON_Production]生产力.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_URANIUM_TOOLTIP" Language="zh_Hans_CN">
+			<Text>消耗10[ICON_RESOURCE_URANIUM]铀以获得200[ICON_Production]生产力.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

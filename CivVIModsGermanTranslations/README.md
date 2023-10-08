@@ -60,6 +60,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1677687338 | District-Themed Recruiting | JNR | Junky | #12
 1681965868 | AOK_Units | anders | H.Humpel | #9
+1684182421 | Strategy Resources to Production | Windfly | ASM590319 | **NEW**
 1684556488 | District Expansion: Goverment (Tier 4) | JNR | Junky | #12
 1699707052 | Environmentalistic Policy | weraptor | H.Humpel | #9
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9

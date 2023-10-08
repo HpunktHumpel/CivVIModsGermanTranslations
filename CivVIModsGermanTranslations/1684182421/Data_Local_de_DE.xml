@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 01:17:48 -->
+<!-- Data_Local -->
+<!-- Author: aall1 -->
+<!-- DateCreated: 3/11/2019 4:37:27 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_HUD_CITY_SELL_HORSE_TOOLTIP" Language="de_DE">
+			<Text>Verkaufe 10 [ICON_RESOURCE_HORSES] Pferde für 20 [ICON_Production] Produktion.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_IRON_TOOLTIP" Language="de_DE">
+			<Text>Verkaufe 10 [ICON_RESOURCE_IRON] Eisen für 40 [ICON_Production] Produktion.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_NITER_TOOLTIP" Language="de_DE">
+			<Text>Verkaufe 10 [ICON_RESOURCE_NITER] Salpeter für 60 [ICON_Production] Produktion.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_ALUMINUM_TOOLTIP" Language="de_DE">
+			<Text>Verkaufe 10 [ICON_RESOURCE_ALUMINUM] Aluminium für 80 [ICON_Production] Produktion.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_COAL_TOOLTIP" Language="de_DE">
+			<Text>Verkaufe 10 [ICON_RESOURCE_COAL] Kohle für 100 [ICON_Production] Produktion.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_OIL_TOOLTIP" Language="de_DE">
+			<Text>Verkaufe 10 [ICON_RESOURCE_OIL] Öl für 150 [ICON_Production] Produktion.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_SELL_URANIUM_TOOLTIP" Language="de_DE">
+			<Text>Verkaufe 10 [ICON_RESOURCE_URANIUM] Uran für 200 [ICON_Production] Produktion.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

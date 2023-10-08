@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="863a8bbf-fb58-45fb-86b3-61677cb904fc" version="1">
+  <Properties>
+    <Name>LOC_SRP_TITLE</Name>
+    <Description>LOC_SRP_DESC</Description>
+    <Teaser>LOC_SRP_DESC</Teaser>
+    <Authors>Windfly</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddUserInterfaces id="UpdateUI">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+        <Context>InGame</Context>
+      </Properties>
+      <File>SRP_CityPanel.xml</File>
+    </AddUserInterfaces>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Data_Local.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="SetupLua">
+      <Properties>
+        <loadOrder>100</loadOrder>
+      </Properties>
+      <File>Lua_ScriptSetUp.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <LocalizedText>
+	<Text id="LOC_SRP_TITLE">
+		<en_US>Strategy Resources to Production</en_US>
+		<zh_Hans_CN>战略资源转化为生产力</zh_Hans_CN>
+	</Text>
+	<Text id="LOC_SRP_DESC">
+		<en_US>This mod can let player turn Old Strategy Resource to Productions</en_US>
+		<zh_Hans_CN>这个MOD可以让玩家将储存的战略资源转化为城市生产力。</zh_Hans_CN>
+	</Text>
+  </LocalizedText>
+  <Files>
+    <File>Data_Local.xml</File>
+    <File>Lua_ScriptSetUp.lua</File>
+    <File>SRP_CityPanel.lua</File>
+    <File>SRP_CityPanel.xml</File>
+  </Files>
+</Mod>
