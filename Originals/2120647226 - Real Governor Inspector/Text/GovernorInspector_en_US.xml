@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Real Governor Inspector
+	Author: Infixo       
+	2020-06-03: Created
+-->
+
+<GameData>
+
+<BaseGameText>
+
+	<Row Tag="LOC_RGI_WINDOW_TITLE">
+		<Text>Real Governor Inspector</Text>
+	</Row>
+	<Row Tag="LOC_RGI_BUTTON_LABEL">
+		<Text>Governor Inspector</Text>
+	</Row>
+	<!--
+	<Row Tag="LOC_GOVERNOR_ASSIGNMENT_CONFIRM_REPLACEMENT">
+			<Text>REPLACE GOVERNOR? Slotting this governor will replace the governor in this city.</Text>
+	</Row>
+		<Row Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ASSIGN_TO">
+			<Text>Assign {1_GovernorName} to:</Text>
+		</Row>
+	-->
+	<!-- VICTOR -->
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT">
+		<Text>Nuclear armament project in the city.[NEWLINE][COLOR_Gray]Production gain is based on the total city production and since other modifiers are already included, it can be bigger than the actual gain.[ENDCOLOR]</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS">
+		<Text>Improved strategic resources in the city.</Text>
+	</Row>
+	<!-- MAGNUS -->
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER">
+		<Text>Number of features and resources that can be removed or harvested, split by yield they can provide in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS">
+		<Text>Number of Your [ICON_TradeRoute] Trade Routes ending in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST">
+		<Text>Type of the Power Plant in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION">
+		<Text>Number of extra Industrial Zone buildings that can provide bonus production to the city.</Text>
+	</Row>
+	<!-- LIANG -->
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_AQUACULTURE">
+		<Text>Number of Fisheries in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_PARKS_RECREATION">
+		<Text>Number of City Parks in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_WATER_WORKS">
+		<Text>Number of districts providing the bonuses in the city (split into amenities / housing).</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_ZONING_COMMISSIONER">
+		<Text>District produced in the city.[NEWLINE][COLOR_Gray]Production gain is based on the total city production and since other modifiers are already included, it can be bigger than the actual gain.[ENDCOLOR]</Text>
+	</Row>
+	<!-- PINGALA -->
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN">
+		<Text>[COLOR_Gray]Yield gain is based on the total city yield and since other modifiers are already included, it can be bigger than the actual gain.[ENDCOLOR]</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR">
+		<Text>Number of [ICON_Citizen] Citizens in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER">
+		<Text>Number of [ICON_Citizen] Citizens in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_GRANTS">
+		<Text>Extra [ICON_GreatPerson] Great People points generated per turn in the city.[NEWLINE][COLOR_Gray]It includes only base GP points from districts and buildings.[ENDCOLOR]</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_CURATOR">
+		<Text>Number of Great Works of Art, Music, and Writing in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE">
+		<Text>Space-program project in the city.[NEWLINE][COLOR_Gray]Production gain is based on the total city production and since other modifiers are already included, it can be bigger than the actual gain.[ENDCOLOR]</Text>
+	</Row>
+	<!-- REYNA -->
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION">
+		<Text>Number of foreign [ICON_TradeRoute] Trade Route passing through the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT">
+		<Text>Number of tiles with unimproved features in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY">
+		<Text>Number of eligible renewable power sources in the city.</Text>
+	</Row>
+	<Row Tag="LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR">
+		<Text>Number of [ICON_Citizen] Citizens in the city.</Text>
+	</Row>
+
+</BaseGameText>
+
+</GameData>

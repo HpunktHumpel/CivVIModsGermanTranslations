@@ -111,6 +111,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
+2120647226 | Real Governor Inspector | Infixo | ASM590319 | **NEW**
 2134633861 | ARS - Improved Goody Huts v1.3 | Arstahd | H.Humpel | #24
 2135724456 | Wetlands | JNR | Junky | #7
 2139486665 | Better World Rankings (UI) | infixo | Junky | #12

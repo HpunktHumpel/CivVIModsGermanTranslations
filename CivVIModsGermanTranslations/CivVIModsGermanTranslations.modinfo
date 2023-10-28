@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="27">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]241[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]242[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1698515069</Created>
+    <Created>1698516604</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -723,6 +723,9 @@
     </Criteria>
     <Criteria id="RealEraStop">
       <ModInUse>bbaf474e-e476-4ea8-8a98-b6fa6d12b515</ModInUse>
+    </Criteria>
+    <Criteria id="RealGovernorInspector">
+      <ModInUse>48F8BEFC-11AA-6F44-0030-09E989A2459F</ModInUse>
     </Criteria>
     <Criteria id="RealPreserve">
       <ModInUse>48a42391-31e9-4857-bad6-7f2659a21281</ModInUse>
@@ -2985,6 +2988,10 @@
       <Criteria>RealEraStop</Criteria>
       <File>880843004/RealEraStop_Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="RealGovernorInspector_RGI_UpdateText_de_DE">
+      <Criteria>RealGovernorInspector</Criteria>
+      <File>2120647226/Text/GovernorInspector_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="RealPreserve_RealPreserveText_de_DE">
       <Criteria>RealPreserve</Criteria>
       <File>2942091784/Text/RealPreserve_Text_AtFirst_de_DE.xml</File>
@@ -4308,6 +4315,7 @@
     <File>2112359835/Text/UC_CMP_Text_CS_Ethiopia_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_CS_GS_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
+    <File>2120647226/Text/GovernorInspector_de_DE.xml</File>
     <File>2134633861/Improved Goody Huts Setup Text_de_DE.sql</File>
     <File>2134633861/Improved Goody Huts Text_de_DE.sql</File>
     <File>2135724456/Text/Wetlands_Text_de_DE.sql</File>

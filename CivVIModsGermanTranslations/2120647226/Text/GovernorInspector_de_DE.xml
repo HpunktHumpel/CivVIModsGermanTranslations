@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Real Governor Inspector
+	Author: Infixo - ASM Montag, 21. August 2023, 10:59:45
+	2020-06-03: Created
+-->
+
+<GameData>
+
+<LocalizedText>
+
+	<Replace Tag="LOC_RGI_WINDOW_TITLE" Language="de_DE">
+		<Text>Gouverneursinspektor</Text>
+	</Replace>
+	<Replace Tag="LOC_RGI_BUTTON_LABEL" Language="de_DE">
+		<Text>Gouverneursinspektor</Text>
+	</Replace>
+
+<!--
+	<Replace Tag="LOC_GOVERNOR_ASSIGNMENT_CONFIRM_REPLACEMENT" Language="de_DE">
+	<Text>GOUVERNEUR ERSETZEN? Wenn Sie diesen Gouverneur einsetzen, wird der Gouverneur in dieser Stadt ersetzt.</ Text>
+	</Replace>
+	<Replace Tag="LOC_GOVERNORS_SCREEN_GOVERNOR_ASSIGN_TO" Language="de_DE">
+	<Text>Weist {1_GovernorName} zu:</ Text>
+	</Replace>
+-->
+
+	<!-- VICTOR -->
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT" Language="de_DE">
+	<Text>Nukleares Rüstungsprojekt in der Stadt.[NEWLINE][COLOR_Gray]Der Produktionsgewinn basiert auf der gesamten Stadtproduktion. Da bereits andere Modifikatoren enthalten sind, kann er größer sein als der tatsächliche Gewinn.[ENDCOLOR]</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS" Language="de_DE">
+	<Text>Verbesserte strategische Ressourcen in der Stadt.</ Text>
+	</ Row>
+
+	<!-- MAGNUS -->
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER" Language="de_DE">
+	<Text>Anzahl der Features und Ressourcen, die entfernt oder geerntet werden können, aufgeteilt nach Ertrag, den sie in der Stadt liefern können.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS" Language="de_DE">
+	<Text>Anzahl Eurer [ICON_TradeRoute] Handelsrouten, die in der Stadt enden.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST" Language="de_DE">
+	<Text>Typ des Kraftwerks in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION" Language="de_DE">
+	<Text>Anzahl der zusätzlichen Industriezonengebäude, die der Stadt eine Bonusproduktion bieten können.</ Text>
+	</ Row>
+
+	<!-- LIANG -->
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_AQUACULTURE" Language="de_DE">
+	<Text>Anzahl der Aquakulturen in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_PARKS_RECREATION" Language="de_DE">
+	<Text>Anzahl der Stadtparks in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_WATER_WORKS" Language="de_DE">
+	<Text>Anzahl der Bezirke, die die Boni in der Stadt bereitstellen (aufgeteilt in Annehmlichkeiten / Wohnraum).</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_ZONING_COMMISSIONER" Language="de_DE">
+	<Text>In der Stadt produzierter Bezirk.[NEWLINE][COLOR_Gray]Der Produktionsgewinn basiert auf der gesamten Stadtproduktion. Da bereits andere Modifikatoren enthalten sind, kann er größer sein als der tatsächliche Gewinn.[ENDCOLOR]</ Text>
+	</ Row>
+
+	<!-- PINGALA -->
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN" Language="de_DE">
+	<Text>[COLOR_Gray]Der Ertragsgewinn basiert auf dem Gesamtertrag der Stadt. Da bereits andere Modifikatoren enthalten sind, kann er größer sein als der tatsächliche Gewinn.[ENDCOLOR]</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR" Language="de_DE">
+	<Text>Anzahl der [ICON_Citizen] Bürger in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER" Language="de_DE">
+	<Text>Anzahl der [ICON_Citizen] Bürger in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_GRANTS" Language="de_DE">
+	<Text>Extra [ICON_GreatPerson] Große Persönlichkeitspunkte, die pro Runde in der Stadt generiert werden.[NEWLINE][COLOR_Gray]Enthält nur Basis-GP-Punkte aus Distrikten und Gebäuden.[ENDCOLOR]</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_CURATOR" Language="de_DE">
+	<Text>Anzahl der großen Kunstwerke, Musik und Schriften in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE" Language="de_DE">
+	<Text>Raumfahrtprojekt in der Stadt.[NEWLINE][COLOR_Gray]Der Produktionsgewinn basiert auf der gesamten Stadtproduktion. Da andere Modifikatoren bereits enthalten sind, kann er größer sein als der tatsächliche Gewinn.[ENDCOLOR]</ Text>
+	</ Row>
+
+	<!-- REYNA -->
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION" Language="de_DE">
+	<Text>Anzahl der ausländischen [ICON_TradeRoute] Handelsrouten, die durch die Stadt führen.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT" Language="de_DE">
+	<Text>Anzahl der Felder mit nicht verbesserten Merkmalen in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY" Language="de_DE">
+	<Text>Anzahl der in Frage kommenden erneuerbaren Energiequellen in der Stadt.</ Text>
+	</ Row>
+	<Replace Tag = "LOC_RGI_GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR" Language="de_DE">
+	<Text>Anzahl der [ICON_Citizen] Bürger in der Stadt.</ Text>
+	</ Row>
+
+</LocalizedText>
+
+</GameData>
