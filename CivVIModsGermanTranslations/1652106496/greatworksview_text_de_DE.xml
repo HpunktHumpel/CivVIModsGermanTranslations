@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!-- ASM Montag, 21. August 2023, 12:04:49 -->
+<GameData>
+  <LocalizedText>
+	<Replace Tag="LOC_GREATWORKSVIEW_ORDER_BY_TYPE"		Language="de_DE">	<Text>Nach Typ</Text>										</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ORDER_BY_TYPE_TT"	Language="de_DE">	<Text>Alternative Reihenfolge (nach Gebäudetyp)</Text>		</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ORIG_ORDER"		Language="de_DE">	<Text>Nach Ort</Text>										</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ORIG_ORDER_TT"		Language="de_DE">	<Text>Originale Reihenfolge (nach Ausstellungsort)</Text>	</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ALLOWY"			Language="de_DE">	<Text>Erweitert</Text>										</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ALLOWY_TT"			Language="de_DE">	<Text>Erweiterte Fensterhöhe</Text>							</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_DISALLOWY"			Language="de_DE">	<Text>Normal</Text>											</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_DISALLOWY_TT"		Language="de_DE">	<Text>Normale Fensterhöhe</Text>							</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ART"				Language="de_DE">	<Text>Kunst</Text>											</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ART_TT"			Language="de_DE">	<Text>Orte für Kunst anzeigen</Text>						</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ARTIFACT"			Language="de_DE">	<Text>Artefakte</Text>										</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_ARTIFACT_TT"		Language="de_DE">	<Text>Orte für Artefakte anzeigen</Text>					</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_MUSIC"				Language="de_DE">	<Text>Musik</Text>											</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_MUSIC_TT"			Language="de_DE">	<Text>Orte für Musik anzeigen</Text>						</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_RELIC"				Language="de_DE">	<Text>Reliquien</Text>										</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_RELIC_TT"			Language="de_DE">	<Text>Orte für Reliquien anzeigen</Text>					</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_WRITING"			Language="de_DE">	<Text>Schriften</Text>										</Replace>
+	<Replace Tag="LOC_GREATWORKSVIEW_WRITING_TT"		Language="de_DE">	<Text>Orte für Schriften anzeigen</Text>					</Replace>
+	<Replace Tag="LOC_CUI_GWV_THEMING_HELPER"			Language="de_DE">	<Text>Motto</Text>											</Replace>
+	<Replace Tag="LOC_CUI_GWV_THEMING_HELPER_TOOLTIP"	Language="de_DE">	<Text>Wählt 3 große Werke bzw. Artefakte derselben Farbe mit verschiedenen Zahlen, um ein Motto zu vervollständigen.</Text>	</Replace>
+  </LocalizedText>
+</GameData>

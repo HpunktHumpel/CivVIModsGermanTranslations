@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bcdbbbea-984f-474c-b921-6ea0be143600" version="14">
+  <Properties>
+    <Name>Great Works Viewer</Name>
+    <Description>Improves the Great Works view by:[NEWLINE]Sort by building type to get similar works close to each other.[NEWLINE]Expand view to your screen size.[NEWLINE]Filter on work slot type.[NEWLINE]Themeing Helper.</Description>
+    <Teaser>Better Great Works view</Teaser>
+    <Authors>Peter Spjuth</Authors>
+    <SpecialThanks>Themeing helper from Concise UI by eudaimonia</SpecialThanks>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SubscriptionID>1652106496</SubscriptionID>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion1AndBeyond" any="1">
+      <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Expansion2AndBeyond" any="1">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <ImportFiles id="GreatWorksView_Files">
+      <File>greatworksoverview.lua</File>
+      <File>GreatWorksOverview_gwv.lua</File>
+      <File>greatworksoverview.xml</File>
+    </ImportFiles>
+    <LocalizedText id="GreatWorksView_Text">
+      <Items>
+	<File>greatworksview_text.xml</File>
+      </Items>
+    </LocalizedText>
+  </InGameActions>
+  <Files>
+    <File>greatworksoverview.lua</File>
+    <File>GreatWorksOverview_gwv.lua</File>
+    <File>greatworksoverview.xml</File>
+    <File>greatworksview_text.xml</File>
+  </Files>
+</Mod>
