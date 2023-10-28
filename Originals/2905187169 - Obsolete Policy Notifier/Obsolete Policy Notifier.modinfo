@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3d703cdb-cad1-47e3-aee9-59d9c2e61152" version="5">
+  <Properties>
+    <Name>Obsolete Policy Notifier</Name>
+    <Description>Notifies which active policy has been obsolete and what policy that replaces it.</Description>
+    <Created>1678527184</Created>
+    <Teaser>Notifies which active policy has been obsolete and what policy that replaces it.</Teaser>
+    <Authors>Patrik Andersson</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions />
+  <InGameActions>
+    <AddUserInterfaces id="opn_ui">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>opn_ui.xml</File>
+    </AddUserInterfaces>
+    <UpdateText id="opn_update_text">
+      <File>opn_text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>opn_text.xml</File>
+    <File>opn_ui.lua</File>
+    <File>opn_ui.xml</File>
+  </Files>
+</Mod>

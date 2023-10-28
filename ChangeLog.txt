@@ -1,3 +1,8 @@
+28.10.2023
+
+- [NEW] Obsolete Policy Notifier (vom 11. März 2023 um 11:08, Übersetzung von ASM590319)
+
+
 ===== Version 26 =====
 
 08.10.2023

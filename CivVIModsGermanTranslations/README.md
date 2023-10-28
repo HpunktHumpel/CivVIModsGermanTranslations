@@ -23,7 +23,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
 1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | #14
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
-1307248778 | Alternate Policy Screen | FinalFreak16, Infixo | ASM590319 | **NEW**
+1307248778 | Alternate Policy Screen | FinalFreak16, Infixo | ASM590319 | #26
 1331757859 | CIVITAS City-States Expanded | thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky | #16
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
 1341630847 | Better Civilopedia (UI) | Infixo | Junky | #25
@@ -31,7 +31,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
 1362931045 | Steel and Thunder: Unique Units | Deliverator23, janboruta & chimp | Junky | #8
 1437226966 | Sukritact's Great Blue Hole | sukritact | Junky | #19
-1461463960 | Terra Mirabilis | Deliverator, ChimpanG | ASM590319 | **NEW**
+1461463960 | Terra Mirabilis | Deliverator, ChimpanG | ASM590319 | #26
 1461815805 | Radiant Additional Base Buildings | Shirohô | H.Humpel | #16
 1471380224 | Sukritact's Grand Canyon | sukritact | Junky | #19
 1484935230 | Ancient Egyptian Pantheons | p0kiehl | H.Humpel | #9
@@ -41,7 +41,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1528155583 | Cheat Menu Panel (R&F - GS) | Sparrow | Junky | #13
 1540083970 | Olympic Pantheons | DB | duestere Legende | #18
 1564497864 | Herdsman | AOM | H.Humpel | #2
-1570652296 | Merrick's Austria | Merrick | ASM590319 | **NEW**
+1570652296 | Merrick's Austria | Merrick | ASM590319 | #26
 1588097397 | Botanist | AOM | H.Humpel | #3
 1595724214 | Reindeer | AOM | Junky | #12
 1628605090 | Radial Measuring Tool | Zur13 | Junky | #13
@@ -61,7 +61,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1677687338 | District-Themed Recruiting | JNR | Junky | #12
 1681965868 | AOK_Units | anders | H.Humpel | #9
-1684182421 | Strategy Resources to Production | Windfly | ASM590319 | **NEW**
+1684182421 | Strategy Resources to Production | Windfly | ASM590319 | #26
 1684556488 | District Expansion: Goverment (Tier 4) | JNR | Junky | #12
 1699707052 | Environmentalistic Policy | weraptor | H.Humpel | #9
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
@@ -71,7 +71,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1720804635 | p0kiehl's Better Aqueduct | p0kiehl | Junky | #18
 1720820463 | p0kiehl's Better Encampment | p0kiehl | Junky | #18
 1731670144 | MoreTier1Policies | VanillaThunder | H.Humpel | #13
-1738709837 | Mount Erebus | AOM | ASM590319 | **NEW**
+1738709837 | Mount Erebus | AOM | ASM590319 | #26
 1746376988 | p0kiehl's Temple of Poseidon | p0kiehl | H.Humpel | #5
 1746994170 | Spy Promotion Tree | Luke Vo | Junky | #18
 1747105772 | Progressive Power Consumption | JNR | Junky | #4
@@ -124,7 +124,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2191979138 | EpsTweak for Adjacency Multipliers | Eps | Junky | #18
 2215414456 | Select Natural Wonders++ | sukritact | Junky | #19
-2218997774 | A Mountain Is Fine Too  | _Zur13_ | ASM590319 | **NEW**
+2218997774 | A Mountain Is Fine Too  | _Zur13_ | ASM590319 | #26
 2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
 2317145428 | CIVILIZATION VI: ARECIBO OBSERVATORY | Albro & Deliverator23 | H.Humpel | #1
 2329124484 | CIVILIZATION VI: KINKAKU-JI | Albro & Deliverator23 | H.Humpel | #1
@@ -193,7 +193,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2798127335 | Detailed Wonder Reminder | Konomi | Junky | #19
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2818358455 | Boom's Assyria | Boom | Junky | #23
-2822229024 | Coastline | Rdner | ASM590319 | **NEW**
+2822229024 | Coastline | Rdner | ASM590319 | #26
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
 2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21
@@ -225,6 +225,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2893274394 | Mikecro's Roman Villa | Mikecro | H.Humpel | #22
 2894237415 | Boom's Caesar Tweak | Boom | Junky | #23
 2901220351 | Alliance Bonus : Caesar and Patra | nea_baraja | Junky | #23
+2905187169 | Obsolete Policy Notifier | aioli | ASM590319 | **NEW**
 2905853016 | Boom's Arabia Rework [RERELEASE] | Boom | Junky | #23
 2910951427 | MC's Belisarius | MC | Junky | #23
 2911040779 | Extra Starting Settler | p0kiehl | H.Humpel | #23
@@ -234,11 +235,11 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2929355120 | Plant and Breed | C1sen | Junky | #24
 2935848037 | Unique Building: Dragon Kiln (China) | JNR | H.Humpel | #24
 2937953680 | Leugi's Garden District | Leugi & Zharques | Junky | #24
-2942091784 | Real Preserve | C1sen | ASM590319 | **NEW**
+2942091784 | Real Preserve | C1sen | ASM590319 | #26
 2942411798 | Necropolis: Unique District for Egypt | p0kiehl & Sukritact | Junky | #25
-2949095377 | Sukritact’s Monument Valley (Tsé Bii’ Ndzisgaii) | Sukritact | ASM590319 | **NEW**
+2949095377 | Sukritact’s Monument Valley (Tsé Bii’ Ndzisgaii) | Sukritact | ASM590319 | #26
 2950891319 | Movable Cities | yiboy | Junky | #25
 2953909938 | Sukritact's Tourism Overview Screen | Sukritact | Junky | #25
 2961998117 | Armagh Monastery Rework | Skunk | Junky | #25
 2973448849 | Great Sovereigns | Plati | Junky | #25
-2984762028 | Sukritact's Angel Falls (Kerepakupai Merú) | Sukritact | ASM590319 | **NEW**
+2984762028 | Sukritact's Angel Falls (Kerepakupai Merú) | Sukritact | ASM590319 | #26
