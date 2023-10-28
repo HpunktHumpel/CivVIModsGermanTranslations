@@ -1,5 +1,6 @@
 28.10.2023
 
+- [NEW] Bermuda Triangle++ (vom 19. Aug. 2020 um 22:45, Übersetzung von ASM590319)
 - [NEW] Great Works Viewer (vom 30. Dez. 2020 um 1:47, Übersetzung von ASM590319)
 - [NEW] Obsolete Policy Notifier (vom 11. März 2023 um 11:08, Übersetzung von ASM590319)
 - [NEW] Real Governor Inspector (vom 27. Feb. 2021, Übersetzung von ASM590319)
