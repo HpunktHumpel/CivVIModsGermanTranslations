@@ -1,3 +1,5 @@
+===== Version 27 =====
+
 29.10.2023
 
 - [NEW] Camera Hotkeys (vom 15. Apr. 2023 um 9:18, Übersetzung von ASM590319)
