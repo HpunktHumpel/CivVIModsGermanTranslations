@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 00:09:47-->
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Freitag, 6. Oktober 2023, 17:59:51 -->
 <GameData>
 	<LocalizedText>
 		<!-- TOP PANEL EXTENSION -->
-		<Replace Tag="LOC_TPT_TOP_PANEL_FOOD_YIELD" Language="de_DE">
-			<Text>Nahrung pro [ICON_Turn] Runde</Text>
+		<Replace Tag="LOC_TPT_TOP_PANEL_FOOD_SURPLUS_YIELD" Language="de_DE">
+			<Text>Nahrungsüberschuss pro [ICON_Turn] Runde</Text>
 		</Replace>
 		<Replace Tag="LOC_TPT_TOP_PANEL_PRODUCTION_YIELD" Language="de_DE">
 			<Text>Produktion pro [ICON_Turn] Runde</Text>
 		</Replace>
+		<Replace Tag="LOC_TPT_TOP_PANEL_PRODUCTION_TOTAL" Language="de_DE">
+			<Text>[ICON_ProductionQueue] Kumulierte Produktion: </Text>
+		</Replace>				
 		<Replace Tag="LOC_TPT_TOP_PANEL_LUXURY_RESOURCES" Language="de_DE">
-			<Text>[ICON_RESOURCE_TOYS] Luxusressourcen im Besitz ({1_Type} Arten)</Text>
+			<Text>[ICON_Resource_Toys] Luxusressourcen im Besitz ({1_Type} Arten)</Text>
 		</Replace>
 		<Replace Tag="LOC_TPT_TOP_PANEL_TOTAL_POPULATION" Language="de_DE">
 			<Text>[ICON_Citizen] Gesamtbevölkerung</Text>
