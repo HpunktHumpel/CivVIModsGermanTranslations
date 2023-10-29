@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="81423aeb-17fa-4b7b-ab73-0a25bfcb0e8c" version="1">
+  <Properties>
+    <Name>Map Search Extension</Name>
+    <Description>Extends build-in map search panel with search area selection and quick search terms selection panels. Now you don't need to type to search and combine most common search terms.</Description>
+    <Created>1620385320</Created>
+    <Teaser>Extends build-in map search panel with search area selection and quick search terms selection panels.</Teaser>
+    <Authors>_Zur13_</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="19ED1A36-D744-4A58-8F8B-0376C2BA86E5" title="Barbarian Clans Mode" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="Expansion2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <ImportFiles id="ImportMseCore">
+      <Properties>
+        <LoadOrder>14100</LoadOrder>
+      </Properties>
+      <File>MapSearchExtension.lua</File>
+      <File>MapSearchPanel.xml</File>
+      <File>MseTileCriteria.lua</File>
+      <File>Icons/MyFilterIcon.dds</File>
+      <File>Icons/MySearchIcon.dds</File>
+      <File>MseQuickResources.lua</File>
+      <File>MseQuickCivilizations.lua</File>
+      <File>MseQuickUnits.lua</File>
+      <File>MseQuickImprov.lua</File>
+      <File>MseQuickPanelsGeneral.lua</File>
+      <File>MseSearchOptions.lua</File>
+      <File>MseQuickWonders.lua</File>
+    </ImportFiles>
+    <UpdateText id="AddLocalization">
+      <File>MSELocalizedText.xml</File>
+    </UpdateText>
+    <ReplaceUIScript id="ReplaceUIScriptNew">
+      <Properties>
+        <LuaContext>MapSearchPanel</LuaContext>
+        <LuaReplace>MapSearchPanelExtended.lua</LuaReplace>
+        <LoadOrder>14230</LoadOrder>
+      </Properties>
+    </ReplaceUIScript>
+  </InGameActions>
+  <Files>
+    <File>Icons/MyFilterIcon.dds</File>
+    <File>Icons/MySearchIcon.dds</File>
+    <File>MapSearchPanel.xml</File>
+    <File>MapSearchPanelExtended.lua</File>
+    <File>MSELocalizedText.xml</File>
+    <File>MseQuickCivilizations.lua</File>
+    <File>MseQuickImprov.lua</File>
+    <File>MseQuickPanelsGeneral.lua</File>
+    <File>MseQuickResources.lua</File>
+    <File>MseQuickUnits.lua</File>
+    <File>MseQuickWonders.lua</File>
+    <File>MseSearchOptions.lua</File>
+    <File>MseTileCriteria.lua</File>
+  </Files>
+</Mod>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MSELocalizedText_en_US -->
+<!-- Author: Zur13 & ASM Montag, 21. August 2023, 11:26:20 -->
+<!-- DateCreated: 4/8/2019 1:14:30 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_MSE_WINDOW_TITLE" Language="de_DE">
+			<Text>Erweiterte Kartensuche</Text>
+		</Replace>
+		
+		<!-- Main Window -->
+		<Replace Tag="LOC_MSE_BTN_REMOVE_LAST_WORD" Language="de_DE">
+			<Text>R</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_BTN_REMOVE_LAST_WORD_TT" Language="de_DE">
+			<Text>Letzten Begriff aus dem Eingabefeld entfernen.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_APPEND" Language="de_DE">
+			<Text>Suchbegriffe hinzufügen</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_APPEND_TT" Language="de_DE">
+			<Text>Suchbegriffe aus den Auswahllisten hinzufügen.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_SEARCH_AREA" Language="de_DE">
+			<Text>Suche nur diese Felder:</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_AREA_TT" Language="de_DE">
+			<Text>Nur Felder, die mit den unten in den Kästchen ausgewählten Kriterien übereinstimmen, werden nach dem Suchbegriff durchsucht.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_SEARCH_AREA_ME" Language="de_DE">
+			<Text>Eigene Felder</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_AREA_ME_TT" Language="de_DE">
+			<Text>Suche auf Feldern, die der Zivilisation des aktuellen Spielers angehören.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_SEARCH_AREA_OTHER" Language="de_DE">
+			<Text>Fremde Felder</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_AREA_OTHER_TT" Language="de_DE">
+			<Text>Suche auf Feldern, die NICHT der Zivilisation des aktuellen Spielers angehören.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_SEARCH_AREA_NONE" Language="de_DE">
+			<Text>Freie Felder</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_AREA_NONE_TT" Language="de_DE">
+			<Text>Suche auf Feldern, die keiner Zivilisation angehören.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_SEARCH_AREA_PURCHASED_BY_ME" Language="de_DE">
+			<Text>In Stadtnähe</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_AREA_PURCHASED_BY_ME_TT" Language="de_DE">
+			<Text>Suche im Umkreis von 3 Feldern meiner Städte.</Text>
+		</Replace>
+
+		<!--MSE Search Options-->
+		
+		<Replace Tag="LOC_MSE_SEARCH_OPTIONS_BTN" Language="de_DE">
+			<Text>O</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_OPTIONS_BTN_TT" Language="de_DE">
+			<Text>MSE Optionen konfigurieren.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MSE_SEARCH_OPTIONS_WND_TITLE" Language="de_DE">
+			<Text>Erweiterte Suchoptionen</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_TITLE" Language="de_DE">
+			<Text>Farben der Karten-Hervorhebungen</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_FILL" Language="de_DE">
+			<Text>Farbe der Füllung der Ergebnisfelder</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_BORDER1" Language="de_DE">
+			<Text>Farbe des Rands der Ergebnisfelder</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_BORDER2" Language="de_DE">
+			<Text>Farbe des Schattens der Ergebnisfelder</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MSE_COLOR_BLACK" Language="de_DE">
+			<Text>Schwarz</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_BLACK_TRANS" Language="de_DE">
+			<Text>Schwarz transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_WHITE" Language="de_DE">
+			<Text>Weiß</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_WHITE_TRANS" Language="de_DE">
+			<Text>Weiß transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_GREY" Language="de_DE">
+			<Text>Grau</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_GREY_TRANS" Language="de_DE">
+			<Text>Grau transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_GREEN" Language="de_DE">
+			<Text>Grün</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_GREEN_TRANS" Language="de_DE">
+			<Text>Grün transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_GREEN_DEFAULT" Language="de_DE">
+			<Text>Standard-Grün</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_BLUE" Language="de_DE">
+			<Text>Blau</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_BLUE_TRANS" Language="de_DE">
+			<Text>Blau transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_RED" Language="de_DE">
+			<Text>Rot</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_RED_TRANS" Language="de_DE">
+			<Text>Rot transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_YELLOW" Language="de_DE">
+			<Text>Gelb</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_YELLOW_TRANS" Language="de_DE">
+			<Text>Gelb transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_CYAN" Language="de_DE">
+			<Text>Türkis</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_CYAN_TRANS" Language="de_DE">
+			<Text>Türkis transparent</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_MAGENTA" Language="de_DE">
+			<Text>Violett</Text>
+		</Replace>
+		<Replace Tag="LOC_MSE_COLOR_MAGENTA_TRANS" Language="de_DE">
+			<Text>Violett transparent</Text>
+		</Replace>
+		
+		<!--Quick Search Window selector-->
+		<Replace Tag="LOC_MSE_EXT_SEL_DEST_SEARCH_TT" Language="de_DE">
+			<Text>Gewählter Ausdruck wird ins Suchfeld übertragen. Klicken, um das Ziel zu ändern.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_EXT_SEL_DEST_FILTER_TT" Language="de_DE">
+			<Text>Gewählter Ausdruck wird ins Filterfeld übertragen. Klicken, um das Ziel zu ändern.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_EXT_SEL_RESOURCE_TT" Language="de_DE">
+			<Text>Ressourcenauswahl der erweiterten Suche anzeigen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MSE_EXT_SEL_CITY_TT" Language="de_DE">
+			<Text>Stadtauswahl der erweiterten Suche anzeigen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MSE_EXT_SEL_CIVILIZATION_TT" Language="de_DE">
+			<Text>Zivilisationsauswahl der erweiterten Suche anzeigen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MSE_EXT_SEL_IMPROVEMENT_TT" Language="de_DE">
+			<Text>Modernisierungsauswahl der erweiterten Suche anzeigen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MSE_EXT_SEL_UNIT_TT" Language="de_DE">
+			<Text>Einheitenauswahl der erweiterten Suche anzeigen.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_EXT_SEL_WONDER_TT" Language="de_DE">
+			<Text>Wunderauswahl der erweiterten Suche anzeigen.</Text>
+		</Replace>
+		
+		<!-- Quick Search Windows -->
+		<Replace Tag="LOC_MSE_EXT_WINDOW_TITLE" Language="de_DE">
+			<Text>SUCHBEGRIFF AUSWÄHLEN</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_MSE_EXT_WINDOW_TITLE_FILTER" Language="de_DE">
+			<Text>FILTERBEGRIFF AUSWÄHLEN</Text>
+		</Replace>
+
+		<!-- Additional search terms -->
+
+		<!-- Search term tooltip free form -->
+		<Replace Tag="LOC_MSE_EXT_SEARCH_TERMS_IMPROVEMENT_DOES_NOT_MATCH_RESOURCE_DESC" Language="de_DE">
+			<Text>Suche die Felder, deren Modernisierung nicht mit der darunterliegenden Ressource übereinstimmt und die daher nicht vom Spieler genutzt werden können.</Text>
+		</Replace>
+		
+		<!-- For translators this terms should not match words which are exist in the game and could be searched when the mod is disabled or the search will find both the original search term and this new term -->
+		<!-- and remember whitespaces are not allowed here because it will make 2 terms instead of one, you should test your result in game -->
+		
+		<Replace Tag="LOC_MSE_EXT_SEARCH_TERMS_IMPROVEMENT_DOES_NOT_MATCH_RESOURCE" Language="de_DE">
+			<Text>Modernisierungsfehler</Text>
+		</Replace>
+		
+		
+	</LocalizedText>
+</GameData>

@@ -128,6 +128,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Leugi's Wildlife++ (Game Mode) (Leugi, Captain Lime, Deliverator23 & Shirotora Kenshin | Junky)
 1. Living Things Grow! (dreadanddespair | H.Humpel)
 1. Lyceum - Early Science Building (Linguaphile | H.Humpel)
+1. Map Search Extension (_Zur13_ | ASM590319)
 1. MC's Belisarius (MC | Junky)
 1. Mechanized Builders (Masked Man | Junky)
 1. Merrick's Austria (Merrick | ASM590319)

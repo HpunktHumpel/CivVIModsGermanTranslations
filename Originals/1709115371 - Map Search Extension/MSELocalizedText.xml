@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MSELocalizedText_en_US -->
+<!-- Author: Zur13 -->
+<!-- DateCreated: 4/8/2019 1:14:30 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_MSE_WINDOW_TITLE" Language="en_US">
+			<Text>Extended Map Search</Text>
+		</Row>
+		
+		<!-- Main Window -->
+		<Row Tag="LOC_MSE_BTN_REMOVE_LAST_WORD" Language="en_US">
+			<Text>R</Text>
+		</Row>
+		<Row Tag="LOC_MSE_BTN_REMOVE_LAST_WORD_TT" Language="en_US">
+			<Text>Remove last word from the input field.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_APPEND" Language="en_US">
+			<Text>Append search terms</Text>
+		</Row>
+		<Row Tag="LOC_MSE_APPEND_TT" Language="en_US">
+			<Text>Append search terms selected by buttons from MSE term selection panels</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_SEARCH_AREA" Language="en_US">
+			<Text>Search On Tiles That</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_AREA_TT" Language="en_US">
+			<Text>Only tiles that match any of the criteria selected with checkboxes bellow will be searched for the search term.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_SEARCH_AREA_ME" Language="en_US">
+			<Text>Owned by me</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_AREA_ME_TT" Language="en_US">
+			<Text>Search on tiles that are owned by current player's civilization.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_SEARCH_AREA_OTHER" Language="en_US">
+			<Text>Owned by others</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_AREA_OTHER_TT" Language="en_US">
+			<Text>Search on tiles that are owned by any civilization except the current player's civilization.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_SEARCH_AREA_NONE" Language="en_US">
+			<Text>Not owned</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_AREA_NONE_TT" Language="en_US">
+			<Text>Searched on tiles that are not owned by any civilization.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_SEARCH_AREA_PURCHASED_BY_ME" Language="en_US">
+			<Text>Near my cities</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_AREA_PURCHASED_BY_ME_TT" Language="en_US">
+			<Text>Search on tiles that are within 3 tiles radius from my cities.</Text>
+		</Row>
+		
+		<!--MSE Search Options-->
+		
+		<Row Tag="LOC_MSE_SEARCH_OPTIONS_BTN" Language="en_US">
+			<Text>O</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_OPTIONS_BTN_TT" Language="en_US">
+			<Text>Configure MSE options.</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_SEARCH_OPTIONS_WND_TITLE" Language="en_US">
+			<Text>Extended Search Options</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_TITLE" Language="en_US">
+			<Text>Map Highlight Colors</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_FILL" Language="en_US">
+			<Text>Result tiles fill highlight color</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_BORDER1" Language="en_US">
+			<Text>Result tiles border highlight color</Text>
+		</Row>
+		<Row Tag="LOC_MSE_SEARCH_OPTIONS_COLOR_BORDER2" Language="en_US">
+			<Text>Result tiles border highlight color internal shadow</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_COLOR_BLACK" Language="en_US">
+			<Text>Black</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_BLACK_TRANS" Language="en_US">
+			<Text>Clear Black</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_WHITE" Language="en_US">
+			<Text>White</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_WHITE_TRANS" Language="en_US">
+			<Text>Clear White</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_GREY" Language="en_US">
+			<Text>Grey</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_GREY_TRANS" Language="en_US">
+			<Text>Clear Grey</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_GREEN" Language="en_US">
+			<Text>Green</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_GREEN_TRANS" Language="en_US">
+			<Text>Clear Green</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_GREEN_DEFAULT" Language="en_US">
+			<Text>Default Green</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_BLUE" Language="en_US">
+			<Text>Blue</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_BLUE_TRANS" Language="en_US">
+			<Text>Clear Blue</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_RED" Language="en_US">
+			<Text>Red</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_RED_TRANS" Language="en_US">
+			<Text>Clear Red</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_YELLOW" Language="en_US">
+			<Text>Yellow</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_YELLOW_TRANS" Language="en_US">
+			<Text>Clear Yellow</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_CYAN" Language="en_US">
+			<Text>Cyan</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_CYAN_TRANS" Language="en_US">
+			<Text>Clear Cyan</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_MAGENTA" Language="en_US">
+			<Text>Magenta</Text>
+		</Row>
+		<Row Tag="LOC_MSE_COLOR_MAGENTA_TRANS" Language="en_US">
+			<Text>Clear Magenta</Text>
+		</Row>
+		
+		<!--Quick Search Window selector-->
+		<Row Tag="LOC_MSE_EXT_SEL_DEST_SEARCH_TT" Language="en_US">
+			<Text>Selected term goes to search field. Click to change destination.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_EXT_SEL_DEST_FILTER_TT" Language="en_US">
+			<Text>Selected term goes to filter field. Click to change destination.</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_EXT_SEL_RESOURCE_TT" Language="en_US">
+			<Text>Show Extended Search Resource Selector.</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_EXT_SEL_CITY_TT" Language="en_US">
+			<Text>Show Extended Search City Selector.</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_EXT_SEL_CIVILIZATION_TT" Language="en_US">
+			<Text>Show Extended Search Civilization Selector.</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_EXT_SEL_IMPROVEMENT_TT" Language="en_US">
+			<Text>Show Extended Search Improvement Selector.</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_EXT_SEL_UNIT_TT" Language="en_US">
+			<Text>Show Extended Search Unit Selector.</Text>
+		</Row>
+
+		<Row Tag="LOC_MSE_EXT_SEL_WONDER_TT" Language="en_US">
+			<Text>Show Extended Search Wonder Selector.</Text>
+		</Row>
+		
+		<!-- Quick Search Windows -->
+		<Row Tag="LOC_MSE_EXT_WINDOW_TITLE" Language="en_US">
+			<Text>SELECT SEARCH TERM</Text>
+		</Row>
+		
+		<Row Tag="LOC_MSE_EXT_WINDOW_TITLE_FILTER" Language="en_US">
+			<Text>SELECT FILTER TERM</Text>
+		</Row>
+
+		<!-- Additional search terms -->
+
+		<!-- Search term tooltip free form -->
+		<Row Tag="LOC_MSE_EXT_SEARCH_TERMS_IMPROVEMENT_DOES_NOT_MATCH_RESOURCE_DESC" Language="en_US">
+			<Text>Search for the map tiles where improvement does not match underlying resource and therefore resource is not gained by the player.</Text>
+		</Row>
+		
+		<!-- For translators this terms should not match words which are exist in the game and could be searched when the mod is disabled or the search will find both the original search term and this new term -->
+		<!-- and remember whitespaces are not allowed here because it will make 2 terms instead of one, you should test your result in game -->
+		
+		<Row Tag="LOC_MSE_EXT_SEARCH_TERMS_IMPROVEMENT_DOES_NOT_MATCH_RESOURCE" Language="en_US">
+			<Text>ImprovementMismatch</Text>
+		</Row>
+		
+		
+	</LocalizedText>
+</GameData>
