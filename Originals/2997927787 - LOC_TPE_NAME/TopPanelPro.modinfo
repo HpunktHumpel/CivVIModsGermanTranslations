@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9E881F4F-017F-29F5-D849-04537424BE3F" version="20230702">
+	<Properties>
+		<Name>LOC_TPE_NAME</Name>
+		<Description>LOC_TPE_DESCRIPTION</Description>
+		<Teaser>LOC_TPE_TEASER</Teaser>
+		<Authors>[COLOR:ResGoldLabelCS]号码菌[ENDCOLOR]</Authors>
+		<SpecialThanks></SpecialThanks>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+
+	<LocalizedText>
+		<Text id="LOC_TPE_NAME">
+			<en_US>Team PVP [COLOR:ResGoldLabelCS]TopPanel Extension Pro[ENDCOLOR]</en_US>
+			<zh_Hans_CN>Team PVP [COLOR:ResGoldLabelCS]顶部面板拓展[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_TPE_DESCRIPTION">
+			<en_US>[icon_You]TopPanel Extension: Food, Production, Population, Luxury, showing teammates' extra resources</en_US>
+			<zh_Hans_CN>[icon_You]新增顶部额外面板：粮食、生产力、人口、奢侈品，显示队友额外资源</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_TPE_TEASER">
+			<en_US>TopPanel Extension Pro</en_US>
+			<zh_Hans_CN>顶部面板扩展</zh_Hans_CN>
+		</Text>			
+	</LocalizedText>
+
+	<InGameActions>
+		<!--顶部面板扩展(TPE)-->
+		<UpdateText id="UpdateText" criteria="Disable_TopPanel">
+			<File>TopPanel_Text.xml</File>
+		</UpdateText>
+		<ReplaceUIScript id="TopPanel" criteria="Disable_TopPanel">
+            <Properties>
+                <LoadOrder>1000000</LoadOrder>
+                <LuaContext>TopPanel</LuaContext>
+                <LuaReplace>UI/TopPanelExtension.lua</LuaReplace>
+            </Properties>
+		</ReplaceUIScript>	
+		<ImportFiles id="ImportFiles" criteria="Disable_TopPanel">
+		    <Properties>
+                <LoadOrder>1000010</LoadOrder>
+            </Properties>
+			<File>UI/TopPanelExtension.lua</File>
+		</ImportFiles>
+	</InGameActions>
+    <Files>
+		<File>TopPanel_Text.xml</File>
+		<File>UI/TopPanelExtension.lua</File>
+	</Files>
+</Mod>

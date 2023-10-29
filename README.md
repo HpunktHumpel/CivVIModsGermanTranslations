@@ -227,6 +227,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Thrones and Palaces (Technoluddite | Junky)
 1. Tide Mill Building (Sailor Cat | H.Humpel)
 1. Top Panel Extension (HktkNban | H.Humpel)
+1. Top Panel Extension Pro (号码菌 | ASM590319)
 1. Tournaments (Game Mode) (Teddyk | H.Humpel)
 1. Tower Bridge (World Wonder) (Deliverator23 | H.Humpel)
 1. Trading Post Improvement (joshmanisdabomb | H.Humpel)

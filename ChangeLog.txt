@@ -4,6 +4,7 @@
 - [NEW] Map Search Extension (vom 7. Mai 2021 um 13:06, Übersetzung von ASM590319)
 - [NEW] Radial Measuring Tool Unleashed (vom 19. März 2020 um 19:33, Übersetzung von ASM590319)
 - [NEW] TCS Pedialite (vom 1. Juli 2020 um 1:31, Übersetzung von ASM590319)
+- [NEW] Top Panel Extension Pro (vom 29. Okt. 2023 um 6:42, Übersetzung von ASM590319)
 - [NEW] Unit Hotkeys (vom 15. Apr. 2023 um 9:27, Übersetzung von ASM590319)
 
 

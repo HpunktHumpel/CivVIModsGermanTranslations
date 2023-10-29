@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- TOP PANEL EXTENSION -->
+		<Replace Tag="LOC_TPT_TOP_PANEL_FOOD_SURPLUS_YIELD" Language="zh_Hans_CN">
+			<Text>每 [ICON_Turn] 回合余粮累积</Text>
+		</Replace>
+		<Replace Tag="LOC_TPT_TOP_PANEL_FOOD_SURPLUS_YIELD" Language="en_US">
+			<Text>Food Surplus per [ICON_Turn] Turn</Text>
+		</Replace>
+		<Replace Tag="LOC_TPT_TOP_PANEL_PRODUCTION_YIELD" Language="zh_Hans_CN">
+			<Text>每 [ICON_Turn] 回合生产力</Text>
+		</Replace>
+		<Replace Tag="LOC_TPT_TOP_PANEL_PRODUCTION_YIELD" Language="en_US">
+			<Text>Production per [ICON_Turn] Turn</Text>
+		</Replace>		
+		<Replace Tag="LOC_TPT_TOP_PANEL_LUXURY_RESOURCES" Language="zh_Hans_CN">
+			<Text>[ICON_RESOURCE_TOYS] 拥有的奢侈品:({1_Type} 种类)</Text>
+		</Replace>
+		<Replace Tag="LOC_TPT_TOP_PANEL_LUXURY_RESOURCES" Language="en_US">
+			<Text>[ICON_RESOURCE_TOYS] Number of Luxury resources owned:({1_Type} type)</Text>
+		</Replace>
+		<Replace Tag="LOC_TPT_TOP_PANEL_TOTAL_POPULATION" Language="zh_Hans_CN">
+			<Text>[ICON_Citizen] 人口总量</Text>
+		</Replace>
+		<Replace Tag="LOC_TPT_TOP_PANEL_TOTAL_POPULATION" Language="en_US">
+			<Text>[ICON_Citizen] Total population</Text>
+		</Replace>
+		<Replace Tag="LOC_FOODSURPLUS_NAME" Language="zh_Hans_CN">
+			<Text>余粮</Text>
+		</Replace>
+		<Replace Tag="LOC_FOODSURPLUS_NAME" Language="en_US">
+			<Text>Food surplus</Text>
+		</Replace>
+		<Replace Tag="LOC_TOP_PANEL_MORE_LUXURY_NAME" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]自己额外的奢侈品[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_TOP_PANEL_MORE_LUXURY_NAME" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Own extra luxury[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_TOP_PANEL_TEAM_MORE_LUXURY_NAME" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]队友额外的奢侈品</Text>
+		</Replace>
+		<Replace Tag="LOC_TOP_PANEL_TEAM_MORE_LUXURY_NAME" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Team extra luxury</Text>
+		</Replace>
+		<Replace Tag="LOC_TOP_PANEL_TEAM_MORE_STRATEGIC_NAME" Language="zh_Hans_CN">
+			<Text>[NEWLINE]队友可用的战略[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_TOP_PANEL_TEAM_MORE_STRATEGIC_NAME" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Team extra Strategic resources</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
