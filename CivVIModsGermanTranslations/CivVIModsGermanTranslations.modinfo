@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="27">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]245[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]246[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1698576250</Created>
+    <Created>1698576985</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, peter.spjuth, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -56,6 +56,9 @@
     </Criteria>
     <Criteria id="BoomsCaesarTweak_FrontEnd">
       <ModIsEnabled>280e5186-cd59-4687-a2b9-d79b77f0b947</ModIsEnabled>
+    </Criteria>
+    <Criteria id="CameraHotkeys_FrontEnd">
+      <ModIsEnabled>90CDDA92-9F27-42A8-BECE-019545BD43E8</ModIsEnabled>
     </Criteria>
     <Criteria id="CheatMenuPanel_FrontEnd">
       <ModIsEnabled>f1e02dd3-6a94-47c4-a2d7-1d5219d8a40e</ModIsEnabled>
@@ -402,6 +405,9 @@
     </Criteria>
     <Criteria id="BurjKhalifa">
       <ModInUse>6366039a-6cd8-48d5-99ce-d7832a617629</ModInUse>
+    </Criteria>
+    <Criteria id="CameraHotkeys">
+      <ModInUse>90CDDA92-9F27-42A8-BECE-019545BD43E8</ModInUse>
     </Criteria>
     <Criteria id="CannabisAndHemp">
       <ModInUse>5a76eed0-18c0-4496-9944-f6f0f0e2553d</ModInUse>
@@ -1437,6 +1443,10 @@
       </Properties>
       <File>2894237415/BOOM_CAESAR_TEXT_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="CameraHotkeys_CameraHotkeysSettingsText_FrontEnd_de_DE">
+      <Criteria>CameraHotkeys_FrontEnd</Criteria>
+      <File>2825162991/CameraHotkeys_Text_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="CheatMenuPanel_FrontEnd_de_DE">
       <Criteria>CheatMenuPanel_FrontEnd</Criteria>
       <File>1528155583/Base/UI/Text/Options_Text_de_DE.xml</File>
@@ -2171,6 +2181,10 @@
     <UpdateText id="BurjKhalifa_de_DE">
       <Criteria>BurjKhalifa</Criteria>
       <File>1770703400/Text/Burj_Khalifa_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="CameraHotkeys_CameraHotkeysText_de_DE">
+      <Criteria>CameraHotkeys</Criteria>
+      <File>2825162991/CameraHotkeys_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="CannabisAndHemp_de_DE">
       <Criteria>CannabisAndHemp</Criteria>
@@ -4504,6 +4518,7 @@
     <File>2810602977/queueText_de_DE.sql</File>
     <File>2818358455/BOOM_ASSYRIA_TEXT_de_DE.sql</File>
     <File>2822229024/Coastline_Text_de_DE.xml</File>
+    <File>2825162991/CameraHotkeys_Text_de_DE.xml</File>
     <File>2825163448/UnitHotkeys_Text_de_DE.xml</File>
     <File>2828396335/Core/SpatialX_Civilian_Helicopter_Text_de_DE.xml</File>
     <File>2830394969/Core/Suk_Embarkation_Localisation_de_DE.sql</File>

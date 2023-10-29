@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 01:02:29 -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_LOCATIONS_CATEGORY_NAME" Language="de_DE">
+            <Text>Kamera-Hotkeys</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_1_NAME" Language="de_DE">
+            <Text>Gehe zu Ort 1</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_1_DESCRIPTION" Language="de_DE">
+            <Text>Kamera scrollen zu Ort 1</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_2_NAME" Language="de_DE">
+            <Text>Gehe zu Ort 2</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_2_DESCRIPTION" Language="de_DE">
+            <Text>Kamera scrollen zu Ort 2</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_3_NAME" Language="de_DE">
+            <Text>Gehe zu Ort 3</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_3_DESCRIPTION" Language="de_DE">
+            <Text>Kamera scrollen zu Ort 3</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_4_NAME" Language="de_DE">
+            <Text>Gehe zu Ort 4</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_4_DESCRIPTION" Language="de_DE">
+            <Text>Kamera scrollen zu Ort 4</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_5_NAME" Language="de_DE">
+            <Text>Gehe zu Ort 5</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_5_DESCRIPTION" Language="de_DE">
+            <Text>Kamera scrollen zu Ort 5</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_6_NAME" Language="de_DE">
+            <Text>Gehe zu Ort 6</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_GOTO_6_DESCRIPTION" Language="de_DE">
+            <Text>Kamera scrollen zu Ort 6</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_1_NAME" Language="de_DE">
+            <Text>Setze Ort 1</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_1_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuellen Kameraposition als Ort 1</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_2_NAME" Language="de_DE">
+            <Text>Setze Ort 2</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_2_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuellen Kameraposition als Ort 2</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_3_NAME" Language="de_DE">
+            <Text>Setze Ort 3</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_3_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuellen Kameraposition als Ort 3</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_4_NAME" Language="de_DE">
+            <Text>Setze Ort 4</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_4_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuellen Kameraposition als Ort 4</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_5_NAME" Language="de_DE">
+            <Text>Setze Ort 5</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_5_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuellen Kameraposition als Ort 5</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_6_NAME" Language="de_DE">
+            <Text>Setze Ort 6</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_SET_6_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuellen Kameraposition als Ort 6</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_CENTER_NAME" Language="de_DE">
+            <Text>Zentriere Auswahl</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_CENTER_DESCRIPTION" Language="de_DE">
+            <Text>Auf die derzeit ausgewählte Einheit oder Stadt zentrieren</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_PREV_NAME" Language="de_DE">
+            <Text>Zurück gehen</Text>
+        </Replace>
+        <Replace Tag="LOC_CAMERA_HOTKEYS_PREV_DESCRIPTION" Language="de_DE">
+            <Text>Zur vorherigen Kameraposition zurückgehen</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

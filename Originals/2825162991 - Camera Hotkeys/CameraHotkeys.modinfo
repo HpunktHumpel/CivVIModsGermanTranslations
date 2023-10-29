@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="90CDDA92-9F27-42A8-BECE-019545BD43E8" version="1">
+    <Properties>
+        <Name>Camera Hotkeys</Name>
+        <Teaser>LOC_CAMERA_HOTKEYS_MOD_TEASER</Teaser>
+        <Description>LOC_CAMERA_HOTKEYS_MOD_DESCRIPTION</Description>
+        <Authors>Rdner</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <References>
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+    </References>
+    <InGameActions>
+        <AddUserInterfaces id="CameraHotkeysGameUI">
+            <Properties>
+                <Context>InGame</Context>
+            </Properties>
+            <File>CameraHotkeys.xml</File>
+        </AddUserInterfaces>
+        <AddGameplayScripts id="CameraHotkeysScripts">
+            <File>CameraHotkeys_Scripts.lua</File>
+        </AddGameplayScripts>
+        <ImportFiles id="CameraHotkeysFiles">
+            <File>CameraHotkeys.xml</File>
+            <File>CameraHotkeys.lua</File>
+            <File>CameraHotkeys_Config.lua</File>
+        </ImportFiles>
+        <UpdateText id="CameraHotkeysText">
+            <File>CameraHotkeys_Text.xml</File>
+        </UpdateText>
+    </InGameActions>
+    <FrontEndActions>
+        <UpdateText id="CameraHotkeysSettingsText">
+            <File>CameraHotkeys_Text.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="CameraHotkeysSettings">
+            <File>CameraHotkeys_Settings.xml</File>
+        </UpdateDatabase>
+    </FrontEndActions>
+    <LocalizedText>
+        <Text id="LOC_CAMERA_HOTKEYS_MOD_TEASER">
+            <en_US>Quickly scroll up to 6 locations on the map using hotkeys.</en_US>
+        </Text>
+        <Text id="LOC_CAMERA_HOTKEYS_MOD_DESCRIPTION">
+            <en_US>Quickly scroll up to 6 locations on the map using hotkeys.</en_US>
+        </Text>
+    </LocalizedText>
+    <Files>
+        <File>CameraHotkeys.lua</File>
+        <File>CameraHotkeys.xml</File>
+        <File>CameraHotkeys_Text.xml</File>
+        <File>CameraHotkeys_Settings.xml</File>
+        <File>CameraHotkeys_Scripts.lua</File>
+        <File>CameraHotkeys_Config.lua</File>
+    </Files>
+</Mod>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+        <Row Tag="LOC_CAMERA_HOTKEYS_LOCATIONS_CATEGORY_NAME">
+            <Text>Locations:</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_1_NAME">
+            <Text>Go to Location 1</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_1_DESCRIPTION">
+            <Text>Scroll the game camera to Location 1.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_2_NAME">
+            <Text>Go to Location 2</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_2_DESCRIPTION">
+            <Text>Scroll the game camera to Location 2.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_3_NAME">
+            <Text>Go to Location 3</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_3_DESCRIPTION">
+            <Text>Scroll the game camera to Location 3.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_4_NAME">
+            <Text>Go to Location 4</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_4_DESCRIPTION">
+            <Text>Scroll the game camera to Location 4.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_5_NAME">
+            <Text>Go to Location 5</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_5_DESCRIPTION">
+            <Text>Scroll the game camera to Location 5.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_6_NAME">
+            <Text>Go to Location 6</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_GOTO_6_DESCRIPTION">
+            <Text>Scroll the game camera to Location 6.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_1_NAME">
+            <Text>Set Location 1</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_1_DESCRIPTION">
+            <Text>Set the current camera location as Location 1.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_2_NAME">
+            <Text>Set Location 2</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_2_DESCRIPTION">
+            <Text>Set the current camera location as Location 2.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_3_NAME">
+            <Text>Set Location 3</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_3_DESCRIPTION">
+            <Text>Set the current camera location as Location 3.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_4_NAME">
+            <Text>Set Location 4</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_4_DESCRIPTION">
+            <Text>Set the current camera location as Location 4.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_5_NAME">
+            <Text>Set Location 5</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_5_DESCRIPTION">
+            <Text>Set the current camera location as Location 5.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_6_NAME">
+            <Text>Set Location 6</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_SET_6_DESCRIPTION">
+            <Text>Set the current camera location as Location 6.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_CENTER_NAME">
+            <Text>Center Selection</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_CENTER_DESCRIPTION">
+            <Text>Center the currently selected unit or city.</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_PREV_NAME">
+            <Text>Go to Previous</Text>
+        </Row>
+        <Row Tag="LOC_CAMERA_HOTKEYS_PREV_DESCRIPTION">
+            <Text>Go back to previous camera location.</Text>
+        </Row>
+    </EnglishText>
+</GameData>
