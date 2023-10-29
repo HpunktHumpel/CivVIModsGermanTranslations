@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RMT_Text -->
+<!-- Author: Zur13 -->
+<!-- DateCreated: 1/26/2019 12:18:20 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- Main window -->
+		<Row Tag="LOC_RMT_BTN"  Language="en_US">
+			<Text>RMT</Text>
+		</Row>
+		<Row Tag="LOC_RMT_BTN_TT"  Language="en_US">
+			<Text>Radial Measuring Tool Unleashed[NEWLINE]Alt+4 to open/close the mod window[NEWLINE]Escape to close the mod window if opened</Text>
+		</Row>
+		<Row Tag="LOC_RMT_WND_TITLE"  Language="en_US">
+			<Text>Radial Measuring Tool Unleashed</Text>
+		</Row>
+		<Row Tag="LOC_RMT_LBL1"  Language="en_US">
+			<Text>Click on the map to visually estimate tiles in radius</Text>
+		</Row>
+		<Row Tag="LOC_RMT_RAD_LBL"  Language="en_US">
+			<Text>Radius:</Text>
+		</Row>
+		<Row Tag="LOC_RMT_RAD_CB_TT"  Language="en_US">
+			<Text>Radius of highlight area</Text>
+		</Row>
+		<Row Tag="LOC_RMT_ALT_RAD_CB_TT"  Language="en_US">
+			<Text>Alternate radius count. With this checkbox selected the radius in the dropdown list will match civilopedia descriptions: 'within X tiles'</Text>
+		</Row>
+		<Row Tag="LOC_RMT_ALT_RAD_PREFIX"  Language="en_US">
+			<Text>within </Text>
+		</Row>
+		<Row Tag="LOC_RMT_ALT_RAD_SUFIX"  Language="en_US">
+			<Text> tiles</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_SUGGESTIONS"  Language="en_US">
+			<Text>Mark notable spots on the map (experimental)</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_SUGGESTIONS_TT"  Language="en_US">
+			<Text>Radial Measuring Tool will try to find the best settlement locations in the radius. This suggestions might differ from that ones the game gives and might not be optimal.</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_MULTI"  Language="en_US">
+			<Text>Multi radius highlight</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_MULTI_TT"  Language="en_US">
+			<Text>Color tiles in up to 8 radiuses</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_INTERSECT"  Language="en_US">
+			<Text>Disable color intersect</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_INTERSECT_TT"  Language="en_US">
+			<Text>Disable intersects of multiple radiuses highligh colors</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_DIMMING"  Language="en_US">
+			<Text>Disable map dimming</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_DIMMING_TT"  Language="en_US">
+			<Text>Disable dimming of tiles outside the radius</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_CITY_ONLY"  Language="en_US">
+			<Text>Color city center tiles only</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_CITY_ONLY_TT"  Language="en_US">
+			<Text>Color only city center tiles</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_IGNORE_VIS"  Language="en_US">
+			<Text>Ignore map visibility</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_IGNORE_VIS_TT"  Language="en_US">
+			<Text>Color and calculate tiles in radius even if they are not discovered yet</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_BONUS_RES"  Language="en_US">
+			<Text>Ignore bonus resources</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_BONUS_RES_TT"  Language="en_US">
+			<Text>Color on luxury or strategic resource tiles and ignore bonus and other resource tiles</Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEYS_TT"  Language="en_US">
+			<Text>Tiles count in active radius compared to previous radius (radius center #2)</Text>
+		</Row>
+		<Row Tag="LOC_RMT_LBL_TERR_YIELS_DEF"  Language="en_US">
+			<Text>Terrain yields</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_TRANSP"  Language="en_US">
+			<Text>Transparent window background</Text>
+		</Row>
+		<Row Tag="LOC_RMT_CB_WND_POS"  Language="en_US">
+			<Text>Window Position: </Text>
+		</Row>
+		<Row Tag="LOC_RMT_UNLEASHED_OPTION"  Language="en_US">
+			<Text>Moved to Unleashed version</Text>
+		</Row>
+		<Row Tag="LOC_RMT_UNLEASHED_OPTION_TT"  Language="en_US">
+			<Text>This option maybe inappropriate for Network games and was moved to Unleashed version of the mod.</Text>
+		</Row>
+
+		<!-- Main window from code -->
+		<Row Tag="LOC_RMT_MAX_CITY_RAD"  Language="en_US">
+			<Text> - Max City Radius </Text>
+		</Row>
+		<Row Tag="LOC_RMT_GAME_BUG_WARN"  Language="en_US">
+			<Text> (Game bug, Dimming turned off)</Text>
+		</Row>
+		<Row Tag="LOC_RMT_RES_OVERFLOW"  Language="en_US">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="LOC_RMT_RES_OVERFLOW_TT"  Language="en_US">
+			<Text>Some resources does not fit in this line and therefore was not shown.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_RMT_KEY_CITY_CEN"  Language="en_US">
+			<Text>City center  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_RES"  Language="en_US">
+			<Text>Resource  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_RES_WATER"  Language="en_US">
+			<Text>Resource on fresh water/coastal  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_RES_RANGE"  Language="en_US">
+			<Text>Resource in range of another city  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_RES_OWNED"  Language="en_US">
+			<Text>Resource belongs to another city  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_TILE_RANGE"  Language="en_US">
+			<Text>Tile in range of another city  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_TILE_OWNED"  Language="en_US">
+			<Text>Tile belongs to another city  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_TILE_NOT_PASS"  Language="en_US">
+			<Text>Non passable terrain  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_TILE_WATER"  Language="en_US">
+			<Text>Fresh water/coastal tile  </Text>
+		</Row>
+		<Row Tag="LOC_RMT_KEY_TILE_NOTHING"  Language="en_US">
+			<Text>Nothing special</Text>
+		</Row>
+
+		<Row Tag="LOC_RMT_YIELDS_TT"  Language="en_US">
+			<Text>Terrain yields in active radius compared to previous radius (radius center #2).[NEWLINE]Only yields on tiles that are not owned by other cities are counted.</Text>
+		</Row>
+
+		<Row Tag="LOC_RMT_RES_TT"  Language="en_US">
+			<Text>Active radius resource availability compared to previous radius (radius center #2).[NEWLINE]Only resources on tiles that are not owned by other cities are counted.[NEWLINE]Duplicate resources are ignored.[NEWLINE]Prefixes:[NEWLINE]' ' - resource available in both radiuses;[NEWLINE]'[COLOR_GREEN]+[ENDCOLOR]' - resource is available only in active radius;[NEWLINE]'[COLOR_RED]-[ENDCOLOR]' - resource is available only in previous radius. [NEWLINE][NEWLINE]{1_res}</Text>
+		</Row>
+
+		<!-- World view map pins -->
+		<Row Tag="LOC_RMT_RAD_PIN_TXT"  Language="en_US">
+			<Text>RMT</Text>
+		</Row>
+		<Row Tag="LOC_RMT_RAD_PIN_TT"  Language="en_US">
+			<Text>Previous radius center location #{1_radIdx}[NEWLINE]{2_YieldsTT}[NEWLINE][NEWLINE]{3_ResTT}[NEWLINE][NEWLINE]Left mouse button click to activate this radius. [NEWLINE]Right mouse button click to remove this radius</Text>
+		</Row>
+		<Row Tag="LOC_RMT_RAD_PIN_YIELDS_TT"  Language="en_US">
+			<Text>[NEWLINE]Compare pin radius and active radius: </Text>
+		</Row>
+		<Row Tag="LOC_RMT_REC_PIN_TT"  Language="en_US">
+			<Text>Mod Radial Measuring Tool estimated this location as one of the notable locations in the radius... [NEWLINE]Estimated location value: </Text>
+		</Row>
+		<!--<Row Tag="LOC_RMT_"  Language="en_US">
+			<Text>TEXT</Text>
+		</Row>-->
+
+	</LocalizedText>
+</GameData>
