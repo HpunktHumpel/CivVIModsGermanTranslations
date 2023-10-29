@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="27">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]248[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]249[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1698577977</Created>
+    <Created>1698579304</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, peter.spjuth, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques and Zur13 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -879,6 +879,9 @@
     </Criteria>
     <Criteria id="TakeOverProductionQueue">
       <ModInUse>6F7F80B8-E6A1-3B74-7C5E-A65604E6F838</ModInUse>
+    </Criteria>
+    <Criteria id="TCSPedialite">
+      <ModInUse>fd0d5e1a-0fbb-4d05-8f3e-f63fec8ff7c6</ModInUse>
     </Criteria>
     <Criteria id="TerraMirabilis">
       <ModInUse>74c5c3d9-5408-4315-9e0a-b0c369f82bcd</ModInUse>
@@ -3363,6 +3366,14 @@
       </Properties>
       <File>2810602977/queueText_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="TCSPedialite_TCS_Pedia_Text_InGame_de_DE">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>TCSPedialite</Criteria>
+      <File>2126042977/Text/de_DE/Text_Config_de_DE.xml</File>
+      <File>2126042977/Text/de_DE/Text_Civilopedia_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="TerraMirabilis_TM_Localisation_de_DE">
       <Properties>
         <LoadOrder>10</LoadOrder>
@@ -4381,6 +4392,8 @@
     <File>2112359835/Text/UC_CMP_Text_CS_GS_de_DE.sql</File>
     <File>2112359835/Text/UC_CMP_Text_de_DE.sql</File>
     <File>2120647226/Text/GovernorInspector_de_DE.xml</File>
+    <File>2126042977/Text/de_DE/Text_Civilopedia_de_DE.xml</File>
+    <File>2126042977/Text/de_DE/Text_Config_de_DE.xml</File>
     <File>2134633861/Improved Goody Huts Setup Text_de_DE.sql</File>
     <File>2134633861/Improved Goody Huts Text_de_DE.sql</File>
     <File>2135724456/Text/Wetlands_Text_de_DE.sql</File>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text_InGame -->
+<!-- Author: thecrazyscotsman -->
+<GameData>
+	<EnglishText>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_NAME" >
+			<Text>TCS [ICON_Charges] [COLOR_FLOAT_GOLD]Pedialite[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_DESCRIPTION" >
+			<Text>Adds a mod section to the in-game Civilopedia which lists currently installed mods and DLC, sorted by active/inactive. This allows you to review details like workshop folder, compatibility, and other information from within your game. Mods and DLC are searchable by title.[NEWLINE][NEWLINE]Adds a Surveyor page with detailed game setup information as well as map profile (terrain, features, resources, etc).</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_TEASER" >
+			<Text>Adds mod and game/map configuration sections to the in-game Civilopedia.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_AUTHORS" >
+			<Text>thecrazyscotsman</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_SPECIALTHANKS" >
+			<Text>Infixo, for compatibility fixes</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_YNAMP_TITLE" >
+			<Text>Yet (not) Another Maps Pack</Text>
+		</Replace>
+	</EnglishText>
+</GameData>

@@ -46,7 +46,9 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1595724214 | Reindeer | AOM | Junky | #12
 1628605090 | Radial Measuring Tool | Zur13 | Junky | #13
 1641530160 | Don't Mine Dirt! - More Interesting Production | Desucrate | Junky | #14
+1640065372 | Radial Measuring Tool Unleashed | Zur13 | ASM590319 | **NEW**
 1651487987 | Cheat Map Editor | Zur13 | Junky | #13
+1652106496 | Great Works Viewer | peter.spjuth | ASM590319 | **NEW**
 1657288046 | Ski Resort Complexity | JNR | H.Humpel | #8
 1660382665 | Decommission Power Plants | JNR | Junky | #12
 1660410526 | Coal Liquefaction Building | naed21 | H.Humpel | #19
@@ -65,6 +67,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1684556488 | District Expansion: Goverment (Tier 4) | JNR | Junky | #12
 1699707052 | Environmentalistic Policy | weraptor | H.Humpel | #9
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
+1709115371 | Map Search Extension | _Zur13_ | ASM590319 | **NEW**
 1710103474 | Three Gorges Dam | WindFly | H.Humpel | #7
 1714267495 | Notre-Dame de Paris | WindFly | H.Humpel | #6
 1717330418 | Very Nice Magazine | Mgwska | H.Humpel | #15
@@ -112,6 +115,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17
 2112359835 | District Expansion: Campus | JNR | Gorowynn | #2
 2120647226 | Real Governor Inspector | Infixo | ASM590319 | **NEW**
+2126042977 | TCS Pedialite | thecrazyscotsman | ASM590319 | **NEW**
 2134633861 | ARS - Improved Goody Huts v1.3 | Arstahd | H.Humpel | #24
 2135724456 | Wetlands | JNR | Junky | #7
 2139486665 | Better World Rankings (UI) | infixo | Junky | #12
@@ -124,6 +128,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2182724480 | Automated Builders + Archaeologists Reloaded (New Frontier Pass) | Adriaman | H.Humpel | #16
 2187202390 | Motherland Calls | WindFly | H.Humpel | #7
 2191979138 | EpsTweak for Adjacency Multipliers | Eps | Junky | #18
+2197566393 | Bermuda Triangle++ | p0kiehl | ASM590319 | **NEW**
 2215414456 | Select Natural Wonders++ | sukritact | Junky | #19
 2218997774 | A Mountain Is Fine Too  | _Zur13_ | ASM590319 | #26
 2292979207 | Hammurabi Tweak for Urban Complexity | JNR | Junky | #12
@@ -195,6 +200,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2810602977 | Take Over Production Queue | Jewbery | H.Humpel | #19
 2818358455 | Boom's Assyria | Boom | Junky | #23
 2822229024 | Coastline | Rdner | ASM590319 | #26
+2825162991 | Camera Hotkeys | Rdner | ASM590319 | **NEW**
 2825163448 | Unit Hotkeys | Rdner | ASM590319 | **NEW**
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18

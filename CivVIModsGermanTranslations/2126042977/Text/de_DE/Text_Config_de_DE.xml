@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 02:04:43 -->
+<!-- Text_InGame -->
+<!-- Author: thecrazyscotsman -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_NAME" Language="de_DE">
+			<Text>TCS [ICON_Charges] [COLOR_FLOAT_GOLD]Pedialite[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_DESCRIPTION" Language="de_DE">
+			<Text>Fügt der Im-Spiel-Zivilopädie einen Mod-Abschnitt hinzu, in dem alle derzeit installierten Mods und DLCs, sortiert nach aktiven/inaktiven, aufgelistet werden. Auf diese Weise können Sie Details wie Workshop-Ordner, Kompatibilität und andere Informationen Ihres Spiels überprüfen. Mods und DLCs können nach Titeln durchsucht werden.[NEWLINE][NEWLINE]Fügt weiters eine Konfigurationsseite mit detaillierten Informationen zur Spieleinrichtung sowie zum Kartenprofil (Terrain, Merkmale, Ressourcen usw.) hinzu.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_TEASER" Language="de_DE">
+			<Text>Fügt der Im-Spiel-Zivilopädie Abschnitte für Mod- und Spiel-/Karten-Konfiguration hinzu.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_AUTHORS" Language="de_DE">
+			<Text>thecrazyscotsman</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CIVILOPEDIA_SPECIALTHANKS" Language="de_DE">
+			<Text>Infixo, für Kompatibilitätsbehebungen</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_YNAMP_TITLE" Language="de_DE">
+			<Text>Yet (not) Another Maps Pack</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

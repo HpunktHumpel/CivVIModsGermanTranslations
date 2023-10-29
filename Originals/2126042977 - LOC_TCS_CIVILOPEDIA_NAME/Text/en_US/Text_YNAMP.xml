@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text_YNAMP -->
+<!-- Author: thecrazyscotsman -->
+<GameData>
+	<EnglishText>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_YNAMP_TITLE" >
+			<Text>YNAMP Parameters</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_MAP_TSL_LEADERS_NAME" >
+			<Text>Only Civilizations/CityStates with TSL</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BAN_LEADERS_NAME" >
+			<Text>Leaders Ban List for Random Slots</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_DIMENSION_NAME" >
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALL_STRATEGICS_NAME" >
+			<Text>Add Missing Strategics</Text>
+		</Replace>
+		<Replace Tag="LOC_CULTURALLY_LINKED_START_NAME" >
+			<Text>Start position Link</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LEADER_TSL_NAME" >
+			<Text>Use Leaders TSL when available</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALTERNATE_TSL_NAME" >
+			<Text>Use Alternate TSL if required and available</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALTERNATE_PLACEMENT_NAME" >
+			<Text>Allow random placement for civs without TSL</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NO_ICE_ADJACENT_TO_LAND_NAME" >
+			<Text>No ice near land</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ONLY_GENERIC_CITY_NAMES_NAME" >
+			<Text>Use only generic city names</Text>
+		</Replace>
+		<Replace Tag="LOC_TURNS_BEFORE_BARBARIANS_NAME" >
+			<Text>Barbarians Scout Turn</Text>
+		</Replace>
+		<Replace Tag="LOC_CITYSTATES_OPTIONS_NAME" >
+			<Text>City States Selection</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_NAME" >
+			<Text>Cities Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NUMBER_OF_CITY_NAME" >
+			<Text>Max. Num. of Cities (Major)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NUMBER_OF_MINOR_CITY_NAME" >
+			<Text>Max. Num. of Cities (Minor)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CAPITAL_SIZE_NAME" >
+			<Text>Capital city size</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_OTHER_CITY_SIZE_NAME" >
+			<Text>Other cities size</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_DECREASE_OTHER_CITY_SIZE" >
+			<Text>Decrease other city sizes</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_SIZE_DECREMENT" >
+			<Text>Size Decrement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NUM_CITY_PER_DECREMENT" >
+			<Text>Cities per Decrement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MAX_CAPITAL_DISTANCE" >
+			<Text>Max. Distance from Capital</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MIN_CITY_SEPARATION" >
+			<Text>Min. Cities Separation</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SAME_LANDMASS" >
+			<Text>Only on the same landmass</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BORDER_PLACEMENT_NAME" >
+			<Text>Borders Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BORDER_DISTANCE_NAME" >
+			<Text>Borders max. distance</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_INFRASTRUCTURE_NAME" >
+			<Text>Infrastructure Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ROAD_PLACEMENT_NAME" >
+			<Text>Roads Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_INTERNATIONAL_ROADS_NAME" >
+			<Text>International Roads</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_UNLIMITED_ROAD_DISTANCE_NAME" >
+			<Text>Unlimited Road Distance</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ROAD_DISTANCE_NAME" >
+			<Text>Max. distance for roads</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MAX_ROAD_PER_CITY_NAME" >
+			<Text>Max. roads per City</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_NAME" >
+			<Text>Map Section</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_STARTX_NAME" >
+			<Text>WEST Border</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_STARTY_NAME" >
+			<Text>SOUTH Border</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ENDX_NAME" >
+			<Text>EAST Border</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ENDY_NAME" >
+			<Text>NORTH Border</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RIVERS_PLACEMENT_NAME" >
+			<Text>Rivers Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENT_PLACEMENT_NAME" >
+			<Text>Continents Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENT_MODEL_NAME" >
+			<Text>Continents model</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_NAME" >
+			<Text>Natural Wonders Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FEATURES_PLACEMENT_NAME" >
+			<Text>Features Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_NAME" >
+			<Text>Resource Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_EXCLUDE_NAME" >
+			<Text>Resources Exclusion Zones</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_RWDEPOSIT_NAME" >
+			<Text>Real World Deposits</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CIVILIZATION_PLACEMENT_NAME" >
+			<Text>Civilization Placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FORCE_TSL_NAME" >
+			<Text>Enforce TSL</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RESOURCES_REQUESTED_NAME" >
+			<Text>Civilization Resources</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CLOSED_BOSPHORUS_NAME" >
+			<Text>Close the Bosphorus Strait</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MONT_SAINT_MICHEL_MARSH_NAME" >
+			<Text>Place marsh for Mont Saint Michel</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_STONEHENGE_STONE_NAME" >
+			<Text>Place stone for Stonehenge</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ARTEMIS_TEMPLE_DEER_NAME" >
+			<Text>Place deer for Temple of Artemis</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GREAT_ZIMBABWE_CATTLE_NAME" >
+			<Text>Place cattle for Great Zimbabwe</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_JEBEL_BARKAL_HILLS_NAME" >
+			<Text>Replace floodplains with hills for Jebel Barkal</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PANAMA_CANAL_NAME" >
+			<Text>Replace hills with flatland for a canal in Panama</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_AUTO_CITY_NAMING_NAME" >
+			<Text>Real City Naming</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALL_LUXURIES_NAME" >
+			<Text>Place All Luxuries</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_NAME" >
+			<Text>TSL Replacement Range</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALLOW_NW_CS_NAME" >
+			<Text>Allow City States on the New World</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_OLD_WORLD_SHAPE_NAME" >
+			<Text>Old World Shape</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_LAND_BLEND_NAME" >
+			<Text>Real Land Blending</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_SEA_BLEND_NAME" >
+			<Text>Real Sea Blending</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NEW_WORLD_SHAPE_NAME" >
+			<Text>New World Shape</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_TYPE_NAME" >
+			<Text>Layer Type</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADD_LAKES_NAME" >
+			<Text>Additional large lakes</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADD_ISLANDS_NAME" >
+			<Text>Allows islands</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADDITIONAL_SEAS_NAME" >
+			<Text>Additional seas</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LIMIT_TUNDRA_NAME" >
+			<Text>imit Tundra and Snow</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LAND_ON_POLES_NAME" >
+			<Text>Allows Land tiles on Poles</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_TERRAIN_NAME" >
+			<Text>Use real terrain when possible</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_FEATURES_NAME" >
+			<Text>Use real features when possible</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LAND_AROUND_TSL_NAME" >
+			<Text>More Land around TSL</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FLOODPLAINS_PLACEMENT_NAME" >
+			<Text>Rivers Flooding</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_NAME" >
+			<Text>Coastal Lowland</Text>
+		</Replace>		
+		
+		
+		<Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_DEFAULT_NAME" >
+			<Text>Map Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_IMPORT_NAME" >
+			<Text>Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_EMPTY_NAME" >
+			<Text>Empty</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_DEACTIVATED_NAME" >
+			<Text>Deactivated</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_ACTIVATED_NAME" >
+			<Text>Activated</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FEATURES_PLACEMENT_DEFAULT_NAME" >
+			<Text>Map Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FEATURES_PLACEMENT_IMPORT_NAME" >
+			<Text>Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_DEFAULT_NAME" >
+			<Text>Map Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_TSL_NAME" >
+			<Text>True Starting Locations</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_RANDOM_NAME" >
+			<Text>Random</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LINKED_PLACEMENT_ETHNIC_NAME" >
+			<Text>Cultural</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENTS_PLACEMENT_DEFAULT_NAME" >
+			<Text>Map Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENTS_PLACEMENT_IMPORT_NAME" >
+			<Text>Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENTS_MODEL_SEVEN_CONTINENT_NAME" >
+			<Text>Seven Continents</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CONTINENTS_MODEL_SUBCONTINENT_NAME" >
+			<Text>Subcontinents and Regions</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RIVERS_PLACEMENT_DEFAULT_NAME" >
+			<Text>Map Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RIVERS_PLACEMENT_IMPORT_NAME" >
+			<Text>Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_DEFAULT_NAME" >
+			<Text>Map Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_IMPORT_NAME" >
+			<Text>Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FORCE_TSL_OFF" >
+			<Text>Off</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FORCE_TSL_CS" >
+			<Text>City-States</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FORCE_TSL_AI" >
+			<Text>A.I.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FORCE_TSL_ALL" >
+			<Text>Everyone</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_SELECTION_NAME" >
+			<Text>Selection and Random</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_UNCAPPED_SELECTION_NAME" >
+			<Text>Uncapped Selection</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_ONLY_SELECTION_NAME" >
+			<Text>Only Selection</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_EXCLUSION_NAME" >
+			<Text>Exclusion List</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_GENERATED_PRESET_NAME" >
+			<Text>YnAMP generated placement</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_TERRAIN_NAME" >
+			<Text>Default: Terrain</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_CITY_MAP_NAME" >
+			<Text>Default: City Map</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_IMPORT_NAME" >
+			<Text>Default: Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_MIXED_NAME" >
+			<Text>Default: Mixed</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_TERRAIN_ONLY_NAME" >
+			<Text>Restricted: Terrain</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_CITY_MAP_ONLY_NAME" >
+			<Text>Restricted: City Map</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_IMPORT_ONLY_NAME" >
+			<Text>Restricted: Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GENERATED_NAME" >
+			<Text>Generated</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_CENTRALIZED_NAME" >
+			<Text>Centralized</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_PER_CITY_NAME" >
+			<Text>City to City</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_EXPAND_NAME" >
+			<Text>Expansion</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_FULL_NAME" >
+			<Text>Full Map</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_CUSTOM_NAME" >
+			<Text>Custom</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_EUROPE_NAME" >
+			<Text>Europe</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_MEDITERRANEA_NAME" >
+			<Text>Medterranea</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_MIDDLE_EAST_NAME" >
+			<Text>Middle East</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_AMERICAS_NAME" >
+			<Text>Americas</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_COLONIZATION_NAME" >
+			<Text>Colonization</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_OLD_WORLD_NAME" >
+			<Text>Old World</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_AFRICA_NAME" >
+			<Text>Africa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_LARGE_ASIA_NAME" >
+			<Text>Large Asia</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_SOUTH_EAST_ASIA_NAME" >
+			<Text>South East Asia</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_PACIFIC_NAME" >
+			<Text>Pacific</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WEST_EUROPE_NAME" >
+			<Text>West Europe</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALPS_NAME" >
+			<Text>Alps (West Italy)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MID_MEDITERRANEA_NAME" >
+			<Text>Mid Mediterranea</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_MEDITERRANEA_NAME" >
+			<Text>East Mediterranea</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_EUROPE_AFRICA_NAME" >
+			<Text>East Europe</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_THE_URALS_WEST_INDIA_NAME" >
+			<Text>The Urals, West India</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CENTRAL_ASIA_NAME" >
+			<Text>Central Asia</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_ASIA_WEST_AUSTRALIA_NAME" >
+			<Text>East Asia, West Australia</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BERING_STRAIT_NAME" >
+			<Text>Bering Strait</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WEST_COAST_NAME" >
+			<Text>West Coast</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GULF_OF_MEXICO_NAME" >
+			<Text>Gulf of Mexico</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_AMERICA_NAME" >
+			<Text>East America</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_POLE_NAME" >
+			<Text>South Pole</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_AFRICA_AMERICA_NAME" >
+			<Text>South Africa/America</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MADAGASCAR_NAME" >
+			<Text>Madagascar</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EQUATOR_NAME" >
+			<Text>Equator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_AFRICA_SOUTH_ASIA_CARIBBEAN_NAME" >
+			<Text>North Africa, South Asia, Caribbean</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GIBRALTAR_SOUTH_JAPAN_CENTRAL_AMERICA_NAME" >
+			<Text>Gibraltar, South Japan, Central America</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_MEDITERRANEA_ASIA_NAME" >
+			<Text>North Mediterranea/Asia</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_AMERICA_EUROPE_NAME" >
+			<Text>North America/Europe</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_POLE_NAME" >
+			<Text>North Pole</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GIANT_DB_NAME">
+		  <Text>GiantEarth Database</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LARGESTEARTH_DB_NAME">
+		  <Text>LargestEarth Database</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_EARTH_ONLY_NAME" >
+			<Text>Earth-shaped continents</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_2CONTINENTS_NAME" >
+			<Text>Two Scripts</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_MULTIPLE_CONTINENT_NAME" >
+			<Text>Multiple Scripts</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_PANGEA_NAME" >
+			<Text>Pangea</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_CONTINENT_NAME" >
+			<Text>Continent</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SMALL_CONTINENT_NAME" >
+			<Text>Small Continent</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_RANDOM_NAME" >
+			<Text>Random script</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SLIM_CONTINENT_NAME" >
+			<Text>Tall Continent</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_LARGE_ISLANDS_NAME" >
+			<Text>Large Islands</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_ISLANDS_NAME" >
+			<Text>Islands</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SMALL_ISLANDS_NAME" >
+			<Text>Small Islands</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_RANDOM_VALUES_NAME" >
+			<Text>Random custom values</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_CUSTOM_NAME" >
+			<Text>Custom</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_DEFAULT_LANDMASS_NAME" >
+			<Text>Default Landmasses</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SELECT_LANDMASS_NAME" >
+			<Text>Select Landmasses</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_PANGEA_REGION_NAME" >
+			<Text>Pangea (Region)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SLIM_CONTINENT_R_NAME" >
+			<Text>Tall Continent (Region)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_MINI_CONTINENT_NAME" >
+			<Text>Continent (Region)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_COMPACT_CONTINENT_NAME" >
+			<Text>Compact Continent (Region)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_COMPACT_PANGEA_NAME" >
+			<Text>Compact Pangea</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SMALL_CONTINENT_R_NAME" >
+			<Text>Small Continent (Region)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SEA_NAME" >
+			<Text>Sea</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_OCEAN_NAME" >
+			<Text>Ocean</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_LARGE_LAKES_NAME" >
+			<Text>Large Lakes</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_LAND_NAME" >
+			<Text>Land</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_WATER_NAME" >
+			<Text>Water</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_OLD_WORLD_NAME" >
+			<Text>Map Generator (Old World)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_SHORT_NAME" >
+			<Text>Short Range</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_MEDIUM_NAME" >
+			<Text>Medium Range</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_HIGH_NAME" >
+			<Text>High Range</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_DEFAULT_NAME" >
+			<Text>Map Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_IMPORT_NAME" >
+			<Text>Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_DEEP_NAME" >
+			<Text>Matching flatland</Text>
+		</Replace>
+	</EnglishText>
+</GameData>

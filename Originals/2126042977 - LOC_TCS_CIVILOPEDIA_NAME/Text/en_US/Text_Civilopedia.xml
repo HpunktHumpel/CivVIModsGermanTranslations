@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text_Civilopedia -->
+<!-- Author: thecrazyscotsman -->
+<GameData>
+	<EnglishText>
+		<!-- Civilopedia Navigation and Page Titles-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_TITLE" >
+			<Text>Mods & Info</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_OVERVIEW_TITLE" >
+			<Text>Overview</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_SURVEYOR_TITLE" >
+			<Text>Surveyor</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_INSTALLATION_TITLE" >
+			<Text>Mod Installation</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGEGROUP_DLC" >
+			<Text>Active DLC</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGEGROUP_MODS" >
+			<Text>Active Mods</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGEGROUP_DLC_DISABLED" >
+			<Text>Disabled DLC</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGEGROUP_MODS_DISABLED" >
+			<Text>Disabled Mods</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGEGROUP_PATCHES" >
+			<Text>Patches</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGEGROUP_REFERENCE" >
+			<Text>Reference</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_FONTICON_REFERENCE_NAME" >
+			<Text>Font Icons</Text>
+		</Replace>
+		
+		<!-- CivilopediaPage_ModsIntro-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_OVERVIEW_DESCRIPTION_1" >
+			<Text>Welcome to the Civilopedia Mods & Info section! This section provides additional information about your current game from within the Civilopedia. Some of this information may have been accessible previously in a more limited form, and some was not accessible from within the game at all. This additional information includes:</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_OVERVIEW_DESCRIPTION_2" >
+			<Text>[ICON_BULLET] A list of installed DLC and mods, organized by whether they are active or inactive[NEWLINE][ICON_BULLET] A page for each DLC and mod with detailed information pulled from the .modinfo file as well as additional details which may be of interest[NEWLINE][ICON_BULLET] Mods and DLC are searchable by name within the Civilopedia[NEWLINE][ICON_BULLET] A Surveyor page which exposes all Setup parameters used to create the game, as well as detailed map information[NEWLINE][ICON_BULLET] Map/Game configuration and Seed values reported to Lua.log</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_OVERVIEW_DESCRIPTION_3" >
+			<Text>I hope you find this information useful in managing your game and mod experience. Thanks for downloading!</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_OVERVIEW_SIGNATURE" >
+			<Text>-thecrazyscotsman</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SUMMARY_TITLE" >
+			<Text>Configuration Summary</Text>
+		</Replace>
+		
+		<!-- Dashboard right column headers-->	
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAME_TITLE" >
+			<Text>Game Setup Parameters</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_OPTIONS" >
+			<Text>Options</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_ADVANCED_OPTIONS" >
+			<Text>Advanced Options</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAME_MODES" >
+			<Text>Game Modes</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GENERAL_TITLE" >
+			<Text>Game & Map Information</Text>
+		</Replace>
+		
+		<!-- Standard Settings text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAMEINFO_HEADER" >
+			<Text>Game Info</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAMEDIFFICULTY" >
+			<Text>Difficulty: {1_difficulty}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAMESPEED" >
+			<Text>Speed: {1_speed}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RULESET" >
+			<Text>Ruleset: {1_ruleset}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAMEMODE_LIST" >
+			<Text>{1_gamemodes}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_DISASTERS" >
+			<Text>Disaster Intensity: {1_intensity}</Text>
+		</Replace>
+		
+		<!-- Player Settings text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAJORCIV_START_COUNT" >
+			<Text>Starting Civilizations: {1_count}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MINORCIV_START_COUNT" >
+			<Text>Starting City-States: {1_count}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAJORCIV_ALIVE_COUNT" >
+			<Text>Civilizations:[NEWLINE][ICON_BULLET] Alive: {1_alive}[NEWLINE][ICON_BULLET] Starting: {2_everalive}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MINORCIV_ALIVE_COUNT" >
+			<Text>City-States:[NEWLINE][ICON_BULLET] Alive: {1_alive}[NEWLINE][ICON_BULLET] Starting: {2_everalive}</Text>
+		</Replace>
+		
+		<!-- Map Settings text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAPINFO_HEADER" >
+			<Text>Map Info</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAPSCRIPT" >
+			<Text>Script: {1_script}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAPSIZE" >
+			<Text>Size: {1_size} ({2_width}w x {3_height}h)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAPDIMENSIONS" >
+			<Text>Width: {1_width}, Height: {2_height}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RESOURCES" >
+			<Text>Resources: {1_parameter}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_AGE" >
+			<Text>World Age: {1_parameter}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_START" >
+			<Text>Start Position: {1_parameter}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TEMPERATURE" >
+			<Text>Temperature: {1_parameter}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RAINFALL" >
+			<Text>Rainfall: {1_parameter}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SEALEVEL" >
+			<Text>Sea Level: {1_parameter}</Text>
+		</Replace>
+		
+		<!-- Advanced Settings text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_NO_DUPLICATE_CIVS" >
+			<Text>No Duplicate Civilizations: {1_boolean}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_NO_DUPLICATE_LEADERS" >
+			<Text>No Duplicate Leaders: {1_boolean}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_NO_GOODY_HUTS" >
+			<Text>No Goody Huts: {1_boolean}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_NO_BARBARIANS" >
+			<Text>No Barbarians: {1_boolean}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_NO_TEAMS" >
+			<Text>No Teams: {1_boolean}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TEAM_VISIBILITY" >
+			<Text>Team Visibility: {1_boolean}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAX_TURNS" >
+			<Text>Max Turns: {1_turns}</Text>
+		</Replace>
+		
+		<!-- Seed Info text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SEEDINFO_HEADER" >
+			<Text>Seed Info</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAMESEED" >
+			<Text>Game Seed: {1_game}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_MAPSEED" >
+			<Text>Map Seed: {1_map}</Text>
+		</Replace>
+		
+		<!-- Game Version text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAMEVERSIONINFO_HEADER" >
+			<Text>Game Version</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GAMEVERSION" >
+			<Text>{1_version}</Text>
+		</Replace>
+		
+		<!-- Terrain text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRAIN_HEADER" >
+			<Text>[ICON_GreatWork_Landscape_Theming] Terrain</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRAIN_BODY" >
+			<Text>There are {1_plotcount} known tiles present in the map, of which {2_waterpercent} are water. The tile counts by terrain type are:</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_PLOTCOUNT" >
+			<Text>{1_count}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_WATERPERCENT" >
+			<Text>{1_water}%</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRAIN_LIST" >
+			<Text>{1_list}</Text>
+		</Replace>
+		
+		<!-- Features text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_FEATURES_HEADER" >
+			<Text>[ICON_GreatWork_Religious_Theming] Features</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_FEATURES_BODY_1" >
+			<Text>Features are placed on top of terrain, and may be removable (like Forests) or permanent (like Reefs). Natural Wonders are a special kind of feature, with the number of Natural Wonders dependent upon the size of the map.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_FEATURES_BODY_2" >
+			<Text>A survey of the known Feature types is below:</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_FEATURES_LIST" >
+			<Text>{1_list}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_NATURALWONDERS_COUNT" >
+			<Text>There {1_count : plural 1?is {1_count}; other?are {1_count};} known Natural {1_count : plural 1?Wonder; other?Wonders;} on this map:</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_NATURALWONDERS_LIST" >
+			<Text>{1_list}</Text>
+		</Replace>
+		
+		<!-- Resources text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RESOURCE_HEADER" >
+			<Text>[ICON_GreatWork_Relic_Theming] Resources</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RESOURCE_BODY" >
+			<Text>Resources are placed after terrain and features, and may share tiles with features. There are four different types of resources: strategic, luxury, bonus, and artifact.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_BONUSRESOURCE_BODY" >
+			<Text>Bonus resources are the most common type of resource, with placement unrestricted by continent or latitude.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_BONUSRESOURCE_LIST" >
+			<Text>{1_list}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_LUXURYRESOURCE_BODY" >
+			<Text>The number of unique luxury resources is determined by the map size. Luxury types are unique to a continent to prevent a luxury from being available to everyone without trading, conquest, or colonization. Water luxuries are treated differently in that they are not tied to a particular continent, but distributed based on latitude.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_LUXURYRESOURCE_LIST" >
+			<Text>{1_list}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_STRATEGICRESOURCE_BODY" >
+			<Text>The resource generator attempts to provide a relatively balanced number of strategic resources, so often you will see the similar counts for all of the land-based strategic resources (with the notable exception of [ICON_RESOURCE_URANIUM] Uranium). There is almost always more [ICON_RESOURCE_OIL] Oil resources as it spawns on both land and water. Strategic resources are not, however, always evenly spread throughout the map and may clump by continent.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_STRATEGICRESOURCE_LIST" >
+			<Text>{1_list}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_ARTIFACTRESOURCE_BODY" >
+			<Text>Artifact resources (Antiquity Sites and Shipwrecks) do not spawn at the beginning of the game, and the number that spawns is variable based on many factors, including availability of valid tiles (i.e. tiles which do not have an Improvement, District, or City present).</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_ARTIFACTRESOURCE_LIST" >
+			<Text>{1_list}</Text>
+		</Replace>
+		
+		<!-- Continents text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_CONTINENTS_HEADER" >
+			<Text>[ICON_GreatWork_Artifact_Ind_Theming] Topography</Text>
+		</Replace>		
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_CONTINENTS_COUNT" >
+			<Text>The number of continents depends on the map size. There {1_count : plural 1?is; other?are;} {1_count} {1_count : plural 1?continent; other?continents;} in this map.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_CONTINENTS_NAMES" >
+			<Text>{1_names}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_CONTINENTS_PERCENT_LANDMASS" >
+			<Text>{1_percent}% of known world landmass</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_CONTINENTS_PERCENT_WARNING" >
+			<Text>[ICON_Exclamation] Percent total may not be 100% due to rounding</Text>
+		</Replace>
+		
+		<!-- Territory text-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRITORY_SIZE" >
+			<Text>{1_name} : {2_size} tiles</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRITORY_RANKED_DESERTS" >
+			<Text>Largest deserts:[NEWLINE]{1_list}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRITORY_RANKED_LAKES" >
+			<Text>Largest lakes:[NEWLINE]{1_list}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRITORY_RANKED_MOUNTAINS" >
+			<Text>Largest mountain ranges:[NEWLINE]{1_list}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TERRITORY_RANKED_SEAS" >
+			<Text>Largest seas:[NEWLINE]{1_list}</Text>
+		</Replace>
+				
+		<!--Setting Name Strings-->
+		<!--Common-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_STANDARD" >
+			<Text>Standard</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_CUSTOM" >
+			<Text>Custom</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RANDOM" >
+			<Text>Random</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_UNKNOWN" >
+			<Text>Unknown</Text>
+		</Replace>
+		<!--Rulesets-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_VANILLA" >
+			<Text>Standard (Vanilla)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RISE_FALL" >
+			<Text>Rise & Fall (Expansion)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_GATHERING_STORM" >
+			<Text>Gathering Storm (Expansion)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TUTORIAL" >
+			<Text>Tutorial</Text>
+		</Replace>
+		<!--Size-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SIZE_DUEL" >
+			<Text>Duel</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SIZE_TINY" >
+			<Text>Tiny</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SIZE_SMALL" >
+			<Text>Small</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SIZE_LARGE" >
+			<Text>Large</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SIZE_HUGE" >
+			<Text>Huge</Text>
+		</Replace>
+		<!--Temperature-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TEMP_HOT" >
+			<Text>Hot</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_TEMP_COLD" >
+			<Text>Cold</Text>
+		</Replace>
+		<!--Resources-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RESOURCES_SPARSE" >
+			<Text>Sparse</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RESOURCES_ABUNDANT" >
+			<Text>Abundant</Text>
+		</Replace>
+		<!--Start-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_START_BALANCED" >
+			<Text>Balanced</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_START_LEGENDARY" >
+			<Text>Legendary</Text>
+		</Replace>
+		<!--Age-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_AGE_NEW" >
+			<Text>New</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_AGE_OLD" >
+			<Text>Old</Text>
+		</Replace>
+		<!--Rainfall-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RAINFALL_ARID" >
+			<Text>Arid</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_RAINFALL_WET" >
+			<Text>Wet</Text>
+		</Replace>
+		<!--Sealevel-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SEALEVEL_LOW" >
+			<Text>Low</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_CONFIGURATION_SEALEVEL_HIGH" >
+			<Text>High</Text>
+		</Replace>
+				
+		<!-- CivilopediaPage_ModsInstall-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_INSTALLATION_INTRO" >
+			<Text>There are two methods to install mods for Civilization VI: automatic (via the Steam Workshop) and manual. The below sections will explain each method in more detail.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_WORKSHOPINSTALLATION_HEADER" >
+			<Text>Steam Workshop</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_WORKSHOPINSTALLATION_BODY_1" >
+			<Text>If you purchased Civilization VI on Steam, the Steam Workshop is the simplest way to obtain mods. In order to download one, simply click the green "Subscribe" button on the mod's Workshop page. The mod will automatically download immediately or the next time you start the game. The mod will be enabled by default once you subscribe, but you can manage which mods are active by navigating to the Additional Content option on the main menu. If you want to download a mod from the Steam Workshop, click "Subscribe" on the mod page and it will be downloaded to a folder here: </Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_WORKSHOPINSTALLATION_BODY_2" >
+			<Text>Every game on Steam with Workshop support has a unique folder id (289070 for Civilization VI), so if want to examine the files downloaded from the Workshop you will need to navigate to this folder:[NEWLINE]..\Steam\steamapps\workshop\content\289070</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_WORKSHOPINSTALLATION_BODY_3" >
+			<Text>Every mod on the Workshop also has a unique id, and the files are downloaded to a folder matching that id - the folders are not labelled by the mod name. You can navigate to the mod Civilopedia page created by this mod to find the mod Workshop id.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_HEADER" >
+			<Text>Manual Installation</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_BODY_1" >
+			<Text>If you cannot install mods via the Steam Workshop because you purchased the game on a different platform or a different store front, you can also manually download and install mods. There are also mod creators who do not use the Steam Workshop for a variety of reasons, and manual installation is the only way to access those mods.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_BODY_2" >
+			<Text>Mods can be found at several different hosting sites, but the best and most prominent one is CivFanatics.com, with a wide variety of mods posted on the Civilization VI Creation & Customization sub-forum.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_BODY_3" >
+			<Text>The process to manually install is fairly straightforward. Once you've downloaded a mod from your mod host of choice, navigate to your mods folder (refer to the proper section below to find the matching folder path) and unzip or unpack the compressed mod package into that folder. You may need to download 7-Zip to unpack the file.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_BODY_4" >
+			<Text>After it has been unpacked into the mods folder, it should be available in-game in the same way it would be if downloaded from the Steam Workshop.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_WINDOWS_HEADER" >
+			<Text>Windows</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_WINDOWS_BODY_1" >
+			<Text>On Windows the most likely manual installation folder is here:[NEWLINE] \Users\[username]\Documents\My Games\Sid Meier's Civilization VI\Mods</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_WINDOWS_BODY_2" >
+			<Text>If you have the Epic Games version of Civilization VI, the folder path is slightly different:[NEWLINE]\Users\[username]\Documents\My Games\Sid Meier's Civilization 6 (Epic)\Mods</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_MAC_HEADER" >
+			<Text>Mac</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_MAC_BODY_1" >
+			<Text>On Mac the most likely manual installation folder is here:[NEWLINE] /Users/[username]/Library/Application Support/Sid Meier's Civilization VI/Mods</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_IOS_HEADER" >
+			<Text>iOS</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_IOS_BODY_1" >
+			<Text>On iOS the most likely manual installation folder is here:[NEWLINE] /Users/[username]/Library/Containers/com.aspyr.civ6.appstore/Data/Library/Application Support/Sid Meier's Civilization VI/Mods</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_LINUX_HEADER" >
+			<Text>Linux</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_LINUX_BODY_1" >
+			<Text>On Linux a possible manual installation folder is here:[NEWLINE]~/.local/share/aspyr-media/Sid Meier's Civilization VI/Mods</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_SWITCH_HEADER" >
+			<Text>Nintendo Switch</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_SWITCH_BODY_1" >
+			<Text>Installing mods on the Nintendo Switch is not possible unless you have jailbroken your console.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_OTHER_HEADER" >
+			<Text>Other Platforms</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_OTHER_BODY_1" >
+			<Text>Civilization VI is currently also available on the Playstation 4 and the Xbox One, but it is not currently possible to install mods on those platforms.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALINSTALLATION_OTHER_BODY_2" >
+			<Text>Civilization VI is not currently available on Android.</Text>
+		</Replace>
+		
+		<!-- CivilopediaPage_Mods Left Column-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_SUMMARY_HEADER" >
+			<Text>[ICON_Citizen] Summary</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_DESCRIPTION_HEADER" >
+			<Text>[ICON_Policy] Description</Text>
+		</Replace>		
+		<Replace Tag="LOC_TCS_PEDIA_MODS_INFO_HEADER" >
+			<Text>[ICON_Movement] Mod Info</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MODID" >
+			<Text>MOD ID: {1_id}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_HOMEPAGE" >
+			<Text>HOMEPAGE: {1_url}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_WORKSHOP" >
+			<Text>WORKSHOP FOLDER: {1_folder}</Text>
+		</Replace>	
+		<Replace Tag="LOC_TCS_PEDIA_MODS_DEPENDENCIES_HEADER" >
+			<Text>[ICON_Formation] Dependencies</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_DEPENDENCIES_DESCRIPTION" >
+			<Text>These are DLC, Expansions, or Mods which are required before this Mod can load.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_REFERENCES_HEADER" >
+			<Text>[ICON_Position] References</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_REFERENCES_DESCRIPTION" >
+			<Text>These are DLC, Expansions, or Mods which are not required, but will load before this Mod.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_BLOCKS_HEADER" >
+			<Text>[ICON_Ability] Blocks</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_BLOCKS_DESCRIPTION" >
+			<Text>These are DLC, Expansions, or Mods which cannot be activated at the same time as this Mod.</Text>
+		</Replace>
+		
+		<!-- CivilopediaPage_Mods Right Column-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_CREDITS_HEADER" >
+			<Text>Credits</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_AUTHORS_HEADER" >
+			<Text>Author(s)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_SPECIALTHANKS_HEADER" >
+			<Text>Special Thanks</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_HEADER" >
+			<Text>Compatibility</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_VERSION_2_0" >
+			<Text>Expansion: Rise and Fall - Spring Update</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_VERSION_1_2" >
+			<Text>Expansion: Gathering Storm</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_VERSIONS" >
+			<Text>Compatible Versions: {1_status}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_SAVEDGAMES" >
+			<Text>Affects Saved Games: {1_status}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_SINGLEPLAYER" >
+			<Text>Supports Single Player: {1_status}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_MULTIPLAYER" >
+			<Text>Supports Multi Player: {1_status}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_COMPATIBILITY_HOTSEAT" >
+			<Text>Supports Hot Seat: {1_status}</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TCS_PEDIA_MODS_STATUS_HEADER" >
+			<Text>Status</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PURCHASED" >
+			<Text>Installation: [ICON_Government] Official</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_STEAMMOD" >
+			<Text>Installation: [ICON_TradingPost] Workshop</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_MANUALMOD" >
+			<Text>Installation: [ICON_Charges] Manual</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_SUBSCRIPTION_UPTODATE" >
+			<Text>Latest Version: {1_status}</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_CREATED" >
+			<Text>Created: {1_created : date long}</Text>
+		</Replace>	
+		<Replace Tag="LOC_TCS_PEDIA_MODS_LASTUPDATED" >
+			<Text>Last Updated: {1_updated : date long}</Text>
+		</Replace>	
+		
+		<Replace Tag="LOC_TCS_PEDIA_MODS_NOTPOPULATED_WARNING" >
+			<Text>[ICON_Exclamation] - this parameter is not populated</Text>
+		</Replace>
+	</EnglishText>
+</GameData>

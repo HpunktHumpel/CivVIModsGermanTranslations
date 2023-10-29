@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text_PatchNotes -->
+<!-- Author: thecrazyscotsman -->
+<GameData>
+	<EnglishText>
+	
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_PATCH" >
+			<Text>Patch</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_HOTFIX" >
+			<Text>Hotfix</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_IOS_VERSION" >
+			<Text>iOS Version</Text>
+		</Replace>
+	
+		<!-- Game Versions-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0026" >
+			<Text>1.0.0.26 (Oct 2016)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0038" >
+			<Text>1.0.0.38 (Nov 2016)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0056" >
+			<Text>1.0.0.56 (Dec 2016)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0110" >
+			<Text>1.0.0.110 (Feb 2017)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0129" >
+			<Text>1.0.0.129 (Mar 2017)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0167" >
+			<Text>1.0.0.167 (Jul 2017)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0194" >
+			<Text>1.0.0.194 (Oct 2017)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0216" >
+			<Text>1.0.0.216 (Feb 2018)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0220" >
+			<Text>1.0.0.220 (Feb 2018)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0229" >
+			<Text>1.0.0.229 (Mar 2018)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0257" >
+			<Text>1.0.0.257 (May 2018)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0262" >
+			<Text>1.0.0.262 (Jul 2018)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0290" >
+			<Text>1.0.0.290 (Feb 2019)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0314" >
+			<Text>1.0.0.314 (Apr 2019)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0317" >
+			<Text>1.0.0.317 (Apr 2019)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0328" >
+			<Text>1.0.0.328 (Jun 2019)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0341" >
+			<Text>1.0.0.341 (Sep 2019)</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_1501" >
+			<Text>1.0.1.501 (May 2020)</Text>
+		</Replace>
+		
+		<!--Version Dates-->
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0026_DATE" >
+			<Text>October 21, 2016</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0038_DATE" >
+			<Text>November 18, 2016</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0056_DATE" >
+			<Text>December 20, 2016</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0110_DATE" >
+			<Text>February 23, 2017</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0129_DATE" >
+			<Text>March 27, 2017</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0167_DATE" >
+			<Text>July 27, 2017</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0194_DATE" >
+			<Text>October 19, 2017</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0216_DATE" >
+			<Text>February 8, 2018</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0220_DATE" >
+			<Text>February 13, 2018</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0229_DATE" >
+			<Text>March 8, 2018</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0257_DATE" >
+			<Text>May 10, 2018</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0262_DATE" >
+			<Text>July 19, 2018</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0290_DATE" >
+			<Text>February 14, 2019</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0314_DATE" >
+			<Text>April 2, 2019</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0317_DATE" >
+			<Text>April 11, 2019</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0328_DATE" >
+			<Text>June 18, 2019</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_0341_DATE" >
+			<Text>September 10, 2019</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_PEDIA_MODS_PAGE_VERSION_1501_DATE" >
+			<Text>May 21, 2020</Text>
+		</Replace>
+	</EnglishText>
+</GameData>
