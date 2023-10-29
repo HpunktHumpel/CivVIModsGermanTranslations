@@ -1,3 +1,8 @@
+29.10.2023
+
+- [NEW] Unit Hotkeys (vom 15. Apr. 2023 um 9:27, Übersetzung von ASM590319)
+
+
 28.10.2023
 
 - [NEW] Bermuda Triangle++ (vom 19. Aug. 2020 um 22:45, Übersetzung von ASM590319)

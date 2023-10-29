@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECTIONS_CATEGORY_NAME">
+            <Text>Selections:</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_1_NAME">
+            <Text>Select Unit 1</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_1_DESCRIPTION">
+            <Text>Select the unit or city assigned in Unit 1.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_2_NAME">
+            <Text>Select Unit 2</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_2_DESCRIPTION">
+            <Text>Select the unit or city assigned in Unit 2.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_3_NAME">
+            <Text>Select Unit 3</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_3_DESCRIPTION">
+            <Text>Select the unit or city assigned in Unit 3.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_4_NAME">
+            <Text>Select Unit 4</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_4_DESCRIPTION">
+            <Text>Select the unit or city assigned in Unit 4.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_5_NAME">
+            <Text>Select Unit 5</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_5_DESCRIPTION">
+            <Text>Select the unit or city assigned in Unit 5.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_6_NAME">
+            <Text>Select Unit 6</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SELECT_6_DESCRIPTION">
+            <Text>Select the unit or city assigned in Unit 6.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_1_NAME">
+            <Text>Set Unit 1</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_1_DESCRIPTION">
+            <Text>Set the currently selected unit or city as Unit 1.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_2_NAME">
+            <Text>Set Unit 2</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_2_DESCRIPTION">
+            <Text>Set the currently selected unit or city as Unit 2.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_3_NAME">
+            <Text>Set Unit 3</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_3_DESCRIPTION">
+            <Text>Set the currently selected unit or city as Unit 3.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_4_NAME">
+            <Text>Set Unit 4</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_4_DESCRIPTION">
+            <Text>Set the currently selected unit or city as Unit 4.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_5_NAME">
+            <Text>Set Unit 5</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_5_DESCRIPTION">
+            <Text>Set the currently selected unit or city as Unit 5.</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_6_NAME">
+            <Text>Set Unit 6</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HOTKEYS_SET_6_DESCRIPTION">
+            <Text>Set the currently selected unit or city as Unit 6.</Text>
+        </Row>
+    </EnglishText>
+</GameData>

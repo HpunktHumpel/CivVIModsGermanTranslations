@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 00:57:39 -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECTIONS_CATEGORY_NAME" Language="de_DE">
+            <Text>Einheiten-Hotkeys</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_1_NAME" Language="de_DE">
+            <Text>Wähle Einheit 1</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_1_DESCRIPTION" Language="de_DE">
+            <Text>Auswählen der Einheit oder Stadt, die gesetzt ist als Einheit 1</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_2_NAME" Language="de_DE">
+            <Text>Wähle Einheit 2</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_2_DESCRIPTION" Language="de_DE">
+            <Text>Auswählen der Einheit oder Stadt, die gesetzt ist als Einheit 2</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_3_NAME" Language="de_DE">
+            <Text>Wähle Einheit 3</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_3_DESCRIPTION" Language="de_DE">
+            <Text>Auswählen der Einheit oder Stadt, die gesetzt ist als Einheit 3</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_4_NAME" Language="de_DE">
+            <Text>Wähle Einheit 4</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_4_DESCRIPTION" Language="de_DE">
+            <Text>Auswählen der Einheit oder Stadt, die gesetzt ist als Einheit 4</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_5_NAME" Language="de_DE">
+            <Text>Wähle Einheit 5</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_5_DESCRIPTION" Language="de_DE">
+            <Text>Auswählen der Einheit oder Stadt, die gesetzt ist als Einheit 5</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_6_NAME" Language="de_DE">
+            <Text>Wähle Einheit 6</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SELECT_6_DESCRIPTION" Language="de_DE">
+            <Text>Auswählen der Einheit oder Stadt, die gesetzt ist als Einheit 6</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_1_NAME" Language="de_DE">
+            <Text>Setze Einheit 1</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_1_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuell ausgewählten Einheit oder Stadt als Einheit 1</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_2_NAME" Language="de_DE">
+            <Text>Setze Einheit 2</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_2_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuell ausgewählten Einheit oder Stadt als Einheit 2</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_3_NAME" Language="de_DE">
+            <Text>Setze Einheit 3</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_3_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuell ausgewählten Einheit oder Stadt als Einheit 3</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_4_NAME" Language="de_DE">
+            <Text>Setze Einheit 4</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_4_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuell ausgewählten Einheit oder Stadt als Einheit 4</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_5_NAME" Language="de_DE">
+            <Text>Setze Einheit 5</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_5_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuell ausgewählten Einheit oder Stadt als Einheit 5</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_6_NAME" Language="de_DE">
+            <Text>Setze Einheit 6</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_HOTKEYS_SET_6_DESCRIPTION" Language="de_DE">
+            <Text>Bestimmen der aktuell ausgewählten Einheit oder Stadt als Einheit 6</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

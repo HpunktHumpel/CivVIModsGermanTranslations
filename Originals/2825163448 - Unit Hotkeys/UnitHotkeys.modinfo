@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6ABEAC73-9977-42B6-BA3C-1CFB4A548F3A" version="1">
+    <Properties>
+        <Name>Unit Hotkeys</Name>
+        <Teaser>LOC_UNIT_HOTKEYS_MOD_TEASER</Teaser>
+        <Description>LOC_UNIT_HOTKEYS_MOD_DESCRIPTION</Description>
+        <Authors>Rdner</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <References>
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+        <Mod id="90CDDA92-9F27-42A8-BECE-019545BD43E8" title="Camera Hotkeys"/>
+    </References>
+    <InGameActions>
+        <AddUserInterfaces id="UnitHotkeysGameUI">
+            <Properties>
+                <Context>InGame</Context>
+            </Properties>
+            <File>UnitHotkeys.xml</File>
+        </AddUserInterfaces>
+        <AddGameplayScripts id="UnitHotkeysScripts">
+            <File>UnitHotkeys_Scripts.lua</File>
+        </AddGameplayScripts>
+        <ImportFiles id="UnitHotkeysFiles">
+            <File>UnitHotkeys.lua</File>
+            <File>UnitHotkeys.xml</File>
+            <File>UnitHotkeys_Config.lua</File>
+        </ImportFiles>
+        <UpdateText id="UnitHotkeysText">
+            <File>UnitHotkeys_Text.xml</File>
+        </UpdateText>
+    </InGameActions>
+    <FrontEndActions>
+        <UpdateText id="UnitHotkeysSettingsText">
+            <File>UnitHotkeys_Text.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="UnitHotkeysSettings">
+            <File>UnitHotkeys_Settings.xml</File>
+        </UpdateDatabase>
+    </FrontEndActions>
+    <LocalizedText>
+        <Text id="LOC_UNIT_HOTKEYS_MOD_TEASER">
+            <en_US>Quickly select up to 6 units or cities using hotkeys.</en_US>
+        </Text>
+        <Text id="LOC_UNIT_HOTKEYS_MOD_DESCRIPTION">
+            <en_US>Quickly select up to 6 units or cities using hotkeys.</en_US>
+        </Text>
+    </LocalizedText>
+    <Files>
+        <File>UnitHotkeys.lua</File>
+        <File>UnitHotkeys.xml</File>
+        <File>UnitHotkeys_Text.xml</File>
+        <File>UnitHotkeys_Settings.xml</File>
+        <File>UnitHotkeys_Scripts.lua</File>
+        <File>UnitHotkeys_Config.lua</File>
+    </Files>
+</Mod>
+
