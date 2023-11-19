@@ -1,3 +1,8 @@
+19.11.2023
+
+- [NEW] Better Tech Tree (UI) (vom 29. Nov. 2020 um 20:50, Übersetzung von ASM590319)
+
+
 ===== Version 27 =====
 
 29.10.2023

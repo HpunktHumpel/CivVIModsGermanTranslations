@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Better Tech Tree --->
+<!-- Author: Infixo, ASM Montag, 21. August 2023, 12:23:47 --->
+<!-- 2019-04-11: Created --->
+<GameData>
+
+<LocalizedText>
+
+	<Replace Tag = "LOC_BTT_URBAN_DEFENSES" Language="de_DE"> <!-- LOC_TECH_STEEL_DESCRIPTION -->
+	<Text>Schaltet die Stadtverteidigung frei und verleiht allen Städten eine automatische {1_Num} -Verstärkungsstärke und die Fähigkeit, einen Fernkampfangriff auszuführen. Alle vorherigen Verbesserungen der Stadtmauern sind veraltet und Belagerungsunterstützungseinheiten sind nicht mehr wirksam.</ Text>
+	</Replace>
+	<Replace Tag = "LOC_BTT_DIPLO_VISIBILITY" Language="de_DE"> <!-- LOC_TECH_PRINTING_DESCRIPTION -->
+	<Text>+1 diplomatische Sichtbarkeitsstufe</ Text>
+	</Replace>
+	<Replace Tag = "LOC_BTT_EMBARKED_MOVEMENT" Language="de_DE"> <!-- LOC_TECH_COMBUSTION_DESCRIPTION LOC_TECH_STEAM_POWER_DESCRIPTION LOC_TECH_SQUARE_RIGGING_DESCRIPTION -->
+	<Text>+{1_Num} [ICON_Movement] Bewegung für eingeschiffte Einheiten.</ Text>
+	</Replace>
+	<Replace Tag = "LOC_BTT_ALL_NAVAL_UNITS_MOVEMENT" Language="de_DE"> <!-- LOC_TECH_MATHEMATICS_DESCRIPTION -->
+	<Text>+{1_Num} [ICON_Movement] Bewegung für alle Marineeinheiten.</ Text>
+	</Replace>
+	<Replace Tag = "LOC_BTT_VALID_OCEAN" Language="de_DE"> <!-- LOC_TECH_CARTOGRAPHY_DESCRIPTION -->
+	<Text>Alle Marine- und eingeschifften Einheiten können durch Ozeanfelder navigieren.</ Text>
+	</Replace>
+	<Replace Tag = "LOC_BTT_TOGGLE_MARK" Language="de_DE"> <!-- LOC_TECH_CARTOGRAPHY_DESCRIPTION -->
+	<Text>Klickt hier, um die Markierung [ICON_New] umzuschalten.</ Text>
+	</Replace>
+
+</LocalizedText>
+
+</GameData>

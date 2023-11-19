@@ -34,6 +34,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Better Coastal Cities and Water Tiles (p0kiehl | Junky)
 1. Better Plantations-Policy Card (Burkart | H.Humpel)
 1. Better Religion Window (UI) (infixo | Junky)
+1. Better Tech Tree (UI) (Infixo | ASM590319)
 1. Better World Rankings (UI) (infixo | Junky)
 1. Biofuel Production Building (naed21 | H.Humpel)
 1. Bonus Resource Improvements (JNR | Junky)

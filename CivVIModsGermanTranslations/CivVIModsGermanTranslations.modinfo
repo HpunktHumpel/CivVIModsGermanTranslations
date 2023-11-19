@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="27">
+<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="28">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]250[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]251[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1698580889</Created>
+    <Created>1700419141</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Oni, p0kiehl, peter.spjuth, Phantagonist, Plati, Rdner, Sailor Cat, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -372,6 +372,9 @@
     </Criteria>
     <Criteria id="BetterReligionWindow">
       <ModInUse>67B4DBCB-82AD-3F90-1595-43C677C1301E</ModInUse>
+    </Criteria>
+    <Criteria id="BetterTechTreeUI">
+      <ModInUse>23acd19c-377a-4da8-b8cb-87d3c7fc71af</ModInUse>
     </Criteria>
     <Criteria id="BetterWorldRankings">
       <ModInUse>74D4FDCC-14FE-5F52-7676-03B229E7845D</ModInUse>
@@ -2138,6 +2141,10 @@
     <UpdateText id="BetterReligionWindow_de_DE">
       <Criteria>BetterReligionWindow</Criteria>
       <File>2145663327/Text/BetterReligionScreen_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="BetterTechTreeUI_BTT_Text_de_DE">
+      <Criteria>BetterTechTreeUI</Criteria>
+      <File>1337632610/Text/BTT_Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="BetterWorldRankings_de_DE">
       <Criteria>BetterWorldRankings</Criteria>
@@ -4270,6 +4277,7 @@
     <File>1331757859/Core/CSE_Localisation_XP2_de_DE.sql</File>
     <File>1331757859/Core/CSE_Localisation_XP2_Ethiopia_de_DE.sql</File>
     <File>1335763888/NewBuilding_Text_de_DE.xml</File>
+    <File>1337632610/Text/BTT_Text_de_DE.xml</File>
     <File>1341630847/Base/Civilopedia_BCP_Base_Text_de_DE.xml</File>
     <File>1341630847/XP2/Civilopedia_BCP_XP2_Text_de_DE.xml</File>
     <File>1348603370/Core/SatrapsCourt_Text_de_DE.xml</File>

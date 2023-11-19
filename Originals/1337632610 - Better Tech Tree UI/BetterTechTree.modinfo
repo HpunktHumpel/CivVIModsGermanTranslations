@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="23acd19c-377a-4da8-b8cb-87d3c7fc71af" version="1">
+	<Properties>
+		<Name>Better Tech Tree (UI)</Name>
+		<Teaser>Shows more info in Tech and Civics Trees.</Teaser>
+		<Description>Shows more info in Tech and Civics Trees.[NEWLINE][NEWLINE]Works with [COLOR_Green]vanilla[ENDCOLOR], [COLOR_Green]Rise &amp; Fall[ENDCOLOR] and [COLOR_Green]Gathering Storm[ENDCOLOR].[NEWLINE]Works with [COLOR_Green]Real Eurekas[ENDCOLOR] mod.[NEWLINE][NEWLINE]Version 3.2.</Description>
+		<Authors>Infixo</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+		<SubscriptionID>1337632610</SubscriptionID>
+	</Properties>
+	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+	</ActionCriteria>
+	<InGameActions>
+		<UpdateDatabase id="BTT_UpdateDatabase">
+			<File>BetterTechTree_Database.sql</File>
+		</UpdateDatabase>
+		<!-- Vanilla actions - simply import lua and xml -->
+        <ImportFiles id="BTT_ImportFiles">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+			</Properties>
+            <Items>
+				<File>Icons/BTTUnlockFrames.dds</File>
+				<File>Base/RealEurekasCanShow.lua</File>
+				<File>Base/BoostUnlockedPopup_BTT.lua</File>
+				<!-- core files, will be included in wrappers -->
+				<File>Base/TechAndCivicSupport_BTT.lua</File>
+				<!-- wrappers -->
+				<File>Base/TechTree_BTT_Base.lua</File>
+				<File>Base/CivicsTree_BTT_Base.lua</File>
+                <!-- updated nodes -->
+                <File>Base/TechTreeNode.xml</File>
+                <File>Base/CivicsTree.xml</File>
+            </Items>
+        </ImportFiles>
+		<UpdateIcons id="BTT_Icons">
+			<File>Icons/BTT_Icons.xml</File>
+		</UpdateIcons>
+		<UpdateText id="BTT_Text">
+			<File>Text/BTT_Text.xml</File>
+		</UpdateText>
+		<!-- Vanilla actions -->
+		<ReplaceUIScript id="BTT_ReplaceUI_TechTree_Base">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+				<LuaContext>TechTree</LuaContext>
+				<LuaReplace>Base/TechTree_BTT_Base.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<ReplaceUIScript id="BTT_ReplaceUI_CivicsTree_Base">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+				<LuaContext>CivicsTree</LuaContext>
+				<LuaReplace>Base/CivicsTree_BTT_Base.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<ReplaceUIScript id="BTT_ReplaceUI_BoostUnlockedPopup_Base">
+			<Properties>
+				<LoadOrder>1000</LoadOrder>
+				<LuaContext>BoostUnlockedPopup</LuaContext>
+				<LuaReplace>Base/BoostUnlockedPopup_BTT.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<!-- Rise&Fall actions - replace lua only for TechTree, Civics tree was not updated in R&F! -->
+        <ImportFiles id="BTT_ImportFiles_XP1" criteria="Expansion1">
+			<Properties>
+                <LoadOrder>1010</LoadOrder>
+            </Properties>
+            <Items>
+				<File>XP1/TechTree_BTT_XP1.lua</File>
+                <File>XP1/TechTreeNode.xml</File>
+            </Items>
+        </ImportFiles>
+		<ReplaceUIScript id="BTT_ReplaceUI_TechTree_XP1" criteria="Expansion1">
+			<Properties>
+                <LoadOrder>1010</LoadOrder>
+				<LuaContext>TechTree</LuaContext>
+				<LuaReplace>XP1/TechTree_BTT_XP1.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<!-- Gathering Storm actions - replace lua for both trees -->
+        <ImportFiles id="BTT_ImportFiles_XP2" criteria="Expansion2">
+			<Properties>
+                <LoadOrder>1020</LoadOrder>
+            </Properties>
+            <Items>
+				<File>XP2/TechTree_BTT_XP2.lua</File>
+				<File>XP2/CivicsTree_BTT_XP2.lua</File>
+                <File>XP2/TechTreeNode.xml</File>
+            </Items>
+        </ImportFiles>
+		<ReplaceUIScript id="BTT_ReplaceUI_TechTree_XP2" criteria="Expansion2">
+			<Properties>
+                <LoadOrder>1020</LoadOrder>
+				<LuaContext>TechTree</LuaContext>
+				<LuaReplace>XP2/TechTree_BTT_XP2.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<ReplaceUIScript id="BTT_ReplaceUI_CivicsTree_XP2" criteria="Expansion2">
+			<Properties>
+                <LoadOrder>1020</LoadOrder>
+				<LuaContext>CivicsTree</LuaContext>
+				<LuaReplace>XP2/CivicsTree_BTT_XP2.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+    </InGameActions>
+    <Files>
+		<!-- Shared files -->
+		<File>BetterTechTree_Database.sql</File>
+		<File>Icons/BTT_Icons.xml</File>
+		<File>Icons/BTTUnlockFrames.dds</File>
+		<File>Text/BTT_Text.xml</File>
+		<!-- base game files -->
+		<File>Base/RealEurekasCanShow.lua</File> <!-- file from Real Eurekas mod -->
+		<File>Base/TechAndCivicSupport_BTT.lua</File>
+		<File>Base/TechTree_BTT_Base.lua</File>
+		<File>Base/CivicsTree_BTT_Base.lua</File>
+		<File>Base/BoostUnlockedPopup_BTT.lua</File>
+		<File>Base/TechTreeNode.xml</File>
+		<File>Base/CivicsTree.xml</File>
+		<!-- Rise & Fall files -->
+		<File>XP1/TechTree_BTT_XP1.lua</File>
+		<File>XP1/TechTreeNode.xml</File>
+		<!-- Gahtering Storm files -->
+		<File>XP2/TechTree_BTT_XP2.lua</File>
+		<File>XP2/CivicsTree_BTT_XP2.lua</File>
+		<File>XP2/TechTreeNode.xml</File>
+    </Files>
+</Mod>
