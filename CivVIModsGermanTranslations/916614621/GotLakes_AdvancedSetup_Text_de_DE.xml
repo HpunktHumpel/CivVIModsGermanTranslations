@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- Deutsche Übersetzung - ASM Sonntag, 20. August 2023, 22:15:14 -->
+<GameData>
+	<!-- Text keys for options on the Advanced Setup menu. -->
+	<LocalizedText>
+		<!-- Map Script -->
+		<Replace Tag="LOC_GL_NAME" Language="de_DE">
+			<Text>[COLOR_GREEN]Got Lakes?[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_DESC" Language="de_DE">
+			<Text>Stillt Euren Erkundungsdrang mit den unendlichen Möglichkeiten dieses Kartengenerators!</Text>
+		</Replace>
+	
+		<!-- Reusable -->
+		<Replace Tag="LOC_GL_VLOW_NAME" Language="de_DE">
+			<Text>Sehr niedrig</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VLOW_BASE_NAME" Language="de_DE">
+			<Text>Sehr niedrig (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LOW_BASE_NAME" Language="de_DE">
+			<Text>Niedrig (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_STD_BASE_NAME" Language="de_DE">
+			<Text>Standard (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VHIGH_NAME" Language="de_DE">
+			<Text>Sehr hoch</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ALL_NAME" Language="de_DE">
+			<Text>Alle</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EVERYTHING_NAME" Language="de_DE">
+			<Text>Alles</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EVERYWHERE_NAME" Language="de_DE">
+			<Text>Überall</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDBASED_NAME" Language="de_DE">
+			<Text>Landmassenbasiert</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NONE_NAME" Language="de_DE">
+			<Text>Keine</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NONE_BASE_NAME" Language="de_DE">
+			<Text>Keine (Basisspiel)</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_RANDMOD_NAME" Language="de_DE">
+			<Text>Zufällig</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RANDOM_DESC" Language="de_DE">
+			<Text>Wählt einen Wert für diese Option nach dem Zufallsprinzip.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RANDOMLH_NAME" Language="de_DE">
+			<Text>Zufällig von 'Niedrig' bis 'Hoch'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RANDOMLH_DESC" Language="de_DE">
+			<Text>Wählt zwischen 'Niedrig', 'Standard' und 'Hoch' nach dem Zufallsprinzip.</Text>
+		</Replace>
+	
+    
+        <!-- Landmass Shuffle -->
+        <!-- Landmass Families -->
+		<Replace Tag="LOC_GL_CONTINENTS_NAME" Language="de_DE">
+			<Text>[Color:ResGoldLabelCS]Kontinente-Landmassen[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CONTINENTS_DESCRIPTION" Language="de_DE">
+			<Text>Landmassenoption Kontinente: Die Landmassen dieser Option haben typischerweise einige große Landflächen, die durch weite Ozeane von einander getrennt sind.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ISLANDS_NAME" Language="de_DE">
+			<Text>[Color:ResGoldLabelCS]Inseln-Landmassen[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ISLANDS_DESCRIPTION" Language="de_DE">
+			<Text>Landmassenoption Inseln: Die Landmassen dieser Option verteilen die Landfläche typischerweise auf viele Inseln in den Weltmeeren.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKES_NAME" Language="de_DE">
+			<Text>[Color:ResGoldLabelCS]Seen-Landmassen[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKES_DESCRIPTION" Language="de_DE">
+			<Text>Landmassenoption Seen: Die Landmassen dieser Option bestehen aus einer weltumspannenden Landfläche und Wasser, das auf Seen unterschiedlicher Größe verteilt ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_PANGEA_NAME" Language="de_DE">
+			<Text>[Color:ResGoldLabelCS]Pangäa-Landmassen[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_PANGEA_DESCRIPTION" Language="de_DE">
+			<Text>Landmassenoption Pangäa: Die Landmassen dieser Option bestehen normalerweise aus einer einzigen Landfläche.</Text>
+		</Replace>
+        
+        <!-- Landmasses -->
+		<Replace Tag="LOC_GL_LAND_ALL_DESC" Language="de_DE">
+			<Text>Fügt dem Landmassenmischer ALLE Landmassen dieser Landmassenoption hinzu.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr alle Landmassen dieser Landmassenoption mögt, Euch aber nicht entscheiden könnt, welche Ihr wählen sollt oder wenn Ihr einfach gerne das Unbekannte erforscht![NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich eine der Landmassen dieser Landmassenoption ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_NONE_DESC" Language="de_DE">
+			<Text>Fügt dem Landmassenmischer KEINE Landmassen dieser Landmassenoption hinzu.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr sämtliche Landmassen dieser Landmassenoption vermeiden möchtet.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_ARCHIPELAGO_NAME" Language="de_DE">
+			<Text>Archipel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_ARCHIPELAGO_DESC" Language="de_DE">
+			<Text>Kleine Inseln, die über einen weiten Ozean verstreut sind.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr einfache Inselkarten mögt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_BAGELS_NAME" Language="de_DE">
+			<Text>Bagel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_BAGELS_DESC" Language="de_DE">
+			<Text>Ein kontinentales Frühstück in einer Welt, in der die Landflächen rund, dick, in Scheiben geschnitten und vielleicht leicht getoastet sind. Enthält mindestens drei zufällig platzierte Bagelscheiben in Kontinentgröße.[NEWLINE][NEWLINE]Die relative Größe und Anzahl der Bagels hängt vom Seitenverhältnis Eurer Karte ab. Ihr könnt das Seitenverhältnis anpassen, indem Ihr eine Weltkarte mittels Weltumbruch und Eisiger Pole beschneidet oder eine benutzerdefinierte Kartengröße aus einem anderen Mod wie YnAMP auswählt.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr köstlich runde Kontinente mögt oder mit einer ungewöhnlichen Kartengröße wie YnAMP 2:1 spielt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_CLUSTERS_DESC" Language="de_DE">
+			<Text>Dicht gepackte Ansammlungen von Inseln.[NEWLINE][NEWLINE]Alle zusätzlichen Inseln, die Ihr dieser Welt hinzufügt, werden ebenfalls zu Inselansammlungen.[NEWLINE][NEWLINE]Empfohlen, wenn Euch die Idee von Inseln gefällt, die von anderen Inseln in der Nähe umgeben sind.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_CONTINENTS_NAME" Language="de_DE">
+			<Text>Kontinente</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_CONTINENTS_DESC" Language="de_DE">
+			<Text>Einige große Kontinente und vielleicht ein paar kleinere dazu.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine einfache Kontinentalkarte wollt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_DONUT_NAME" Language="de_DE">
+			<Text>Donut</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_DONUT_DESC" Language="de_DE">
+			<Text>Ein köstliches rundes Gebäck aus einer Welt, deren Füllung von den gewählten Optionen abhängt.[NEWLINE][NEWLINE]Tipp: 'Anzahl der Berge' kann Berge ergeben; 'Menge des Wassers' kann Land, einen normalen Ozean oder einen leeren Ozean ergeben; 'Konzentriertes Hochland' kann Hügel ergeben; 'Sandsturm'-Klima kann Wüste ergeben. Das sind nur einige der möglichen Füllungen...[NEWLINE][NEWLINE]Empfohlen, wenn Ihr Spaß an Überraschungen und dem Herumspielen mit Kartenoptionen auf der Suche nach versteckten Möglichkeiten habt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_FRACTAL_NAME" Language="de_DE">
+			<Text>Fraktale</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_FRACTAL_DESC" Language="de_DE">
+			<Text>Einige große Kontinente, die manchmal miteinander verschmelzen und manchmal dünnere, schlangenartige Formen annehmen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr einfach nur eine gute, altmodische, fraktale Karte wollt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_LAND_HEX_NAME" Language="de_DE">
+			<Text>Hex</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_HEX_DESC" Language="de_DE">
+			<Text>Ein Pangäa aus Sechsecken, die wiederum aus Sechsecken bestehen.[NEWLINE][NEWLINE]Wenn Ihr die Berge auf 'Verstreute Felsen' oder 'Konzentriertes Hochland' setzt, entsprechen die Berge und Hügel den Sechsecken.[NEWLINE][NEWLINE]Wenn Ihr den Klimaumbruch auf 'Region' und das Sonnenlicht auf 'Standard' einstellt, entspricht das Gelände den Sechsecken. Andernfalls werden immer noch Fraktale für das Gelände verwendet, aber alle Felder jedes Sechsecks haben den selben Breitengrad, sodass sich das Klima plötzlich ändern kann, wenn Ihr Euch von einem Sechseck zum anderen bewegt.[NEWLINE][NEWLINE]Die Klimakörnigkeit passt nicht nur die Klimafraktale an, sondern auch die Größe jedes Sechsecks, sodass im Allgemeinen 'Fein' kleinere und 'Grob' größere Sechsecke bedeutet.[NEWLINE][NEWLINE]Hinweise:[NEWLINE]- Extrainseln sind immer noch reguläre Inseln und keine Sechsecke.[NEWLINE]- 'Duell'- und 'Winzig'-Karten haben kleinere Sechsecke als die übrigen Kartengrößen; die Körnigkeit 'Sehr fein' reduziert in diesem Fall Sechsecke zu normalen Feldern.[NEWLINE]- 'Duell'-Karten begrenzen die Sechseckgröße, sodass 'Sehr grob' die gleiche Größe wie 'Grob' ergibt, aber 'Sehr grob' immer noch bei den zugrunde liegenden Klima-Fraktalen und bei Extrainseln funktioniert.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_INLANDSEA_NAME" Language="de_DE">
+			<Text>Binnenmeer</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_INLANDSEA_DESC" Language="de_DE">
+			<Text>Ein Großteil des auf der Welt vorhandenen Wassers befindet sich in einem einzigen, großen Binnenmeer. Manchmal gibt es noch ein zweites, kleineres davon. Bei Karten mit der Weltumbruchsoption 'Region' fließen die meisten Flüsse ins Binnenmeer.[NEWLINE][NEWLINE]Empfehlenswert, wenn Euch die Idee einer landlastigen Karte gefällt, Ihr aber trotzdem einen schönen, großen Ozean zum Erkunden haben möchtet.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_LAND_INVDONUT_NAME" Language="de_DE">
+			<Text>Umgekehrter Donut</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_INVDONUT_DESC" Language="de_DE">			
+			<Text>Eine landlastige Welt mit einem donutförmigen Meer und den zusätzlichen Seen, die Ihr ausgewählt habt. Die Füllung des Meeres hängt von den von Euch gewählten Optionen ab.[NEWLINE][NEWLINE]Tipp: 'Anzahl der Berge' kann Berge ergeben; 'Menge des Wassers' kann Land, einen normalen Ozean oder einen leeren Ozean ergeben; 'Konzentriertes Hochland' kann Hügel ergeben; 'Sandsturm'-Klima kann Wüste ergeben. Das sind nur einige der möglichen Füllungen...[NEWLINE][NEWLINE]Zusätzliche Seen:[NEWLINE]- 'Keine' = keine zusätzlichen Seen[NEWLINE]- 'Ketten' = lange Ketten schmaler Seen[NEWLINE]- 'Haufen' = dichte Ansammlungen kleiner Seen[NEWLINE]- 'Mini-Donuts' = kleine, donutförmige Seen[NEWLINE]- 'Spritzer' = winzige fraktale Seen[NEWLINE]- 'Tektonik' = Wasser in den niedrigsten Höhenlagen[NEWLINE]- 'Tektonik und Ketten' = Tektonik mit Seenketten[NEWLINE]- 'Alles' = alle Arten von zusätzlichen Seen[NEWLINE][NEWLINE]Empfohlen, wenn Ihr Spaß an Überraschungen und dem Herumspielen mit Kartenoptionen auf der Suche nach versteckten Möglichkeiten habt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_INVEXTRAS_NAME" Language="de_DE">
+			<Text>Umgekehrte Extras</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_INVEXTRAS_DESC" Language="de_DE">			
+			<Text>Eine landlastige Welt, die mit den von Euch ausgewählten zusätzlichen Seen gefüllt ist.[NEWLINE][NEWLINE]Zusätzliche Seen:[NEWLINE]- 'Keine' = keine zusätzlichen Seen[NEWLINE]- 'Ketten' = lange Ketten schmaler Seen[NEWLINE]- 'Haufen' = dichte Ansammlungen kleiner Seen[NEWLINE]- 'Mini-Donuts' = kleine, donutförmige Seen[NEWLINE]- 'Spritzer' = winzige fraktale Seen[NEWLINE]- 'Tektonik' = Wasser in den niedrigsten Höhenlagen[NEWLINE]- 'Tektonik und Ketten' = Tektonik mit Seenketten[NEWLINE]- 'Alles' = alle Arten von zusätzlichen Seen[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Abwechslung von den üblichen fraktalen Ozeanen und Seen sucht oder einfach eine extrem trockene Karte wollt. [NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_ISLEPLATES_NAME" Language="de_DE">
+			<Text>Inselplatten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_ISLEPLATES_DESC" Language="de_DE">
+			<Text>Eine Mischung aus großen und kleinen Inseln. Anders als bei der 'Inselplatten'-Karte des Basisspiels werden hier zufällig Buchten hinzugefügt, BEVOR die kleinen Inseln hinzugefügt werden, um zu vermeiden, dass die kleinen Inseln in winzige Teile zersplittert werden.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr zwar Inseln bevorzugt, aber nichts gegen einen gelegentlichen Kontinent einzuwenden habt, der zur Auflockerung hinzugefügt wird.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_LAKES_NAME" Language="de_DE">
+			<Text>Seen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_LAKES_DESC" Language="de_DE">
+			<Text>Eine landlastige Welt mit vielen kleinen Salzwasserseen und vielleicht ein paar Süßwasserseen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr es leid seid, dass lästige Ozeane Euren Spähern und der notwendigen Expansion Eures Reiches im Wege stehen.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_LARGEISLES_NAME" Language="de_DE">
+			<Text>Große Inseln</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_LARGEISLES_DESC" Language="de_DE">
+			<Text>Zahlreiche große Inseln mit Flächen ähnlicher Größe, aber unterschiedlichem Gelände. Der Meeresspiegel steuert die Anzahl und nicht die Größe der Inseln. Aufgrund der zufälligen Anordnung auf der Karte kann die Anzahl der Inseln zusätzlich variieren.[NEWLINE][NEWLINE]Wenn 'Isolierte Küsten' aktiviert ist, werden alle großen Inseln durch Tiefseegräben von einander getrennt.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr der Idee folgt, dass jeder Spieler auf seiner eigenen Insel starten soll.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_LARGELAKES_NAME" Language="de_DE">
+			<Text>Große Seen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_LARGELAKES_DESC" Language="de_DE">
+			<Text>Eine landlastige Welt mit einigen großen Salzwasserseen. Es kann auch hier und da ein paar Süßwasserseen geben.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr generell gerne landlastige Karten spielt; auch wenn Ihr nicht vorher wissen möchtet, ob Ihr eine Ozean- oder Seenkarte bekommen werdet (für Letztere müsstet Ihr auch eine Ozeankarte zur Mischung hinzufügen).[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_MAZE_NAME" Language="de_DE">
+			<Text>Labyrinth</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_MAZE_DESC" Language="de_DE">
+			<Text>Ein sich ausbreitendes Pangäa von Inseln, die durch gewundene Landbrücken miteinander verbunden sind.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Welt wollt, die unvorhersehbar und schwer zu erkunden ist oder wenn Ihr ganz allgemein Landbrücken und Kanäle bevorzugt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_LAND_MCLUSTER_NAME" Language="de_DE">
+			<Text>Megahaufen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_MCLUSTER_DESC" Language="de_DE">
+			<Text>Ein einziger Haufen dicht gepackter Inseln.[NEWLINE][NEWLINE]Alle zusätzlichen Inseln, die Ihr dieser Welt hinzufügt, werden ebenfalls zu Haufen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr die Idee eines Pangäas mögt, das in Inseln unterteilt und durch schmale Kanäle getrennt ist. [NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_MINIDONUTS_DESC" Language="de_DE">
+			<Text>Eine Welt voll mit kleinen, donutförmigen Inseln.[NEWLINE][NEWLINE]Die relative Größe und Anzahl der Donuts hängt vom Seitenverhältnis Eurer Karte ab. Ihr könnt das Seitenverhältnis anpassen, indem Ihr eine Weltkarte mittels Weltumbruch und Eisiger Pole beschneidet oder eine benutzerdefinierte Kartengröße aus einem anderen Mod wie YnAMP auswählt.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr zwar zufällig generierte Inseln mögt, aber genug von den immer gleichen, fraktalen Karten habt oder wenn Ihr mit einer ungewöhnlichen Kartengröße wie YnAMP 2:1 spielt. [NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_NOODLES_NAME" Language="de_DE">
+			<Text>Nudeln</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_NOODLES_DESC" Language="de_DE">
+			<Text>Einige große, ringförmige, fraktale Kontinente und möglicherweise noch ein paar Schlenker hier und da.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr Kontinente mit Spaßfaktor liebt, besonders Landbrücken und Kanäle.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_LAND_NUMCONTS_NAME" Language="de_DE">
+			<Text>Viele Kontinente</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_NUMCONTS_DESC" Language="de_DE">
+			<Text>Eine vorhersehbare Anzahl von rechteckigen Kontinenten.[NEWLINE][NEWLINE]Erzeugt drei bis sieben Kontinente, abhängig vom Meeresspiegel:[NEWLINE]- 'Sehr niedrig' = 7 Kontinente[NEWLINE]- 'Niedrig' = 6 Kontinente[NEWLINE]- 'Standard' = 5 Kontinente[NEWLINE]- 'Hoch' = 4 Kontinente[NEWLINE]- 'Sehr hoch' = 3 Kontinente[NEWLINE][NEWLINE]Extrem kleine Karten, wie z. B. 'Duell'-Karten mit abgeschnittenen Polen, haben möglicherweise nicht genug Platz, um alle Kontinente unterzubringen; in diesem Fall erhaltet Ihr die maximale Anzahl von Kontinenten, die auf die Karte passt.[NEWLINE][NEWLINE]Der Meeresspiegel steuert auch die Stärke der Kontinente, so dass bei einem sehr niedrigen Wert eher solide Rechtecke entstehen, während bei einem sehr hohen Wert manchmal Ringe und Mini-Labyrinthe entstehen können.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Anzahl der Kontinente auf Eurer Karte steuern möchtet.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_OVAL_NAME" Language="de_DE">
+			<Text>Oval</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_OVAL_DESC" Language="de_DE">
+			<Text>Ein großes, ovales Pangäa mit einigen an den Rändern eingeschnittenen Buchten. Bestimmte Kombinationen von Optionen können das Oval zusammen mit den polaren Eismassen beschneiden.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine runde, aber ausgewogene Alternative zum normalen 'Pangäa' wollt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_PANGEA_NAME" Language="de_DE">
+			<Text>Pangäa</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_PANGEA_DESC" Language="de_DE">
+			<Text>Ein einziges Stück Land, das sich alle Zivilisationen teilen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr nur eine einfache Pangäa-Karte wollt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_SEVENSEAS_NAME" Language="de_DE">
+			<Text>Sieben Weltmeere</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_SEVENSEAS_DESC" Language="de_DE">
+			<Text>Eine landlastige Welt, ähnlich wie 'Große Seen', aber mit größeren Meeren, gemischt mit Inseln.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr landlastige Karten, aber auch die Erkundung mit Schiffen mögt.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_SMALLCONTS_NAME" Language="de_DE">
+			<Text>Kleine Kontinente</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_SMALLCONTS_DESC" Language="de_DE">
+			<Text>Mittelgroße Landflächen, größer als die meisten Inseln, aber kleiner als normale Kontinente.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr kleinere, aber ansonsten normale Kontinente möchtet.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_SNAKE_NAME" Language="de_DE">
+			<Text>Schlange</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAND_SNAKE_DESC" Language="de_DE">
+			<Text>Ein großes, schlangenartiges Pangäa, das sich über die ganze Welt erstreckt und manchmal um sich selbst windet.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine originelle Alternative zum normalen 'Pangäa' sucht.[NEWLINE][NEWLINE]Der Landmassenmischer wählt eine Landmasse für Eure Karte aus, basierend auf der Kombination Eurer Auswahl aus allen vier Landmassenoptionen.[NEWLINE][NEWLINE][Color:Civ6Blue]TIPP:[ENDCOLOR] Damit ausschließlich diese Landmasse ausgewählt wird, wählt bei allen anderen Landmassenoptionen 'Keine' aus.</Text>
+		</Replace>
+    
+    
+        <!-- Customizations -->
+        <!-- Mountains -->
+		<Replace Tag="LOC_GL_MOUNTAINS_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Berge[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Bergketten Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_TECTONIC_NAME" Language="de_DE">
+			<Text>Tektonische Platten (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_TECTONIC_DESC" Language="de_DE">
+			<Text>Normale, tektonisch geprägte Gebirgszüge.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_FRACTAL_NAME" Language="de_DE">
+			<Text>Fraktale Ketten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_FRACTAL_DESC" Language="de_DE">
+			<Text>Sich schlängelnde, fraktale Gebirgszüge.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr Gebirgszüge bevorzugt, die als natürliche Grenzen fungieren.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_SCATTERED_NAME" Language="de_DE">
+			<Text>Verstreute Felsen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_SCATTERED_DESC" Language="de_DE">
+			<Text>Kleine Berge und Hügel, die über die ganze Welt verstreut sind.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr kleine Gebirgszüge bevorzugt, die leicht zu umgehen sind.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_CLUSTERED_NAME" Language="de_DE">
+			<Text>Konzentriertes Hochland</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_CLUSTERED_DESC" Language="de_DE">
+			<Text>Einige große Gruppen von Bergen und Hügeln.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Mischung aus Hochland und Tiefland bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_UNCANNY_NAME" Language="de_DE">
+			<Text>Unheimliche Täler</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_UNCANNY_DESC" Language="de_DE">
+			<Text>Durch fraktale Gebirgszüge gebildete Täler, die fast realistisch sind - aber nicht ganz...[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr sich schlängelnde Gebirgszüge mit einer gewissen Unberechenbarkeit, ihre natürlichen Grenzen betreffend, bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_WINDING_NAME" Language="de_DE">
+			<Text>Gewundene Schluchten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_WINDING_DESC" Language="de_DE">
+			<Text>Eine extrem felsige Welt, in der sich Schluchten über ganze Kontinente erstrecken können! Bietet mehr Berge als das Basisspiel. [NEWLINE][NEWLINE]Empfohlen, wenn Ihr ein Gelände bevorzugt, das schwierig zu erkunden ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_EVERYTHING_DESC" Language="de_DE">
+			<Text>Eine extrem felsige Welt, die alle Arten von Bergen enthält! Fügt mehr Berge als das Basisspiel hinzu.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Vielzahl von Bergen bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MOUNTAINS_RANDMOD_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip zwischen den moderaten Arten von Bergen: 'Tektonische Platten', 'Fraktale Ketten', 'Verstreute Felsen', 'Konzentriertes Hochland' und 'Unheimliche Täler'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr zufällige und eine angemessenen Anzahl von Bergen wollt.</Text>
+		</Replace>
+
+		<!-- Mountain Clumps -->
+		<Replace Tag="LOC_GL_MTNCLUMPS_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Bergmassive[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_DESC" Language="de_DE">
+			<Text>Passt die Bergmassive Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_FULL_NAME" Language="de_DE">
+			<Text>Voll (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_FULL_DESC" Language="de_DE">
+			<Text>Bergmassive bestehen komplett aus einzelnen Bergen, genau wie im Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_MAZE_NAME" Language="de_DE">
+			<Text>Labyrinth</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_MAZE_DESC" Language="de_DE">
+			<Text>Schneidet labyrinthische Täler in große Bergmassive, sodass ein größerer Teil der Karte bespielbar ist. Fügt alleinstehende Berge hinzu, um die aus den Gebirgen entfernten Berge zu kompensieren.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Karte mit mehr zu erforschenden Gebieten bevorzugt, aber - wenn überhaupt - nur wenige abgelegene Gebiete in Stadtgröße und nur ein paar zusätzliche einsame Berge wünscht.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_HOLLOW_NAME" Language="de_DE">
+			<Text>Talkessel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_HOLLOW_DESC" Language="de_DE">
+			<Text>Höhlt große Bergmassive komplett aus, sodass ein größerer Teil der Karte bespielbar ist. Fügt alleinstehende Berge hinzu, um die aus den Gebirgen entfernten Berge zu kompensieren.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Karte mit abgelegenen Gebieten bevorzugt, die groß genug für Städte sein können und es Euch nicht stört, einige zusätzliche alleinstehende Berge zu haben, um die Aushöhlung der Bergmassive zu kompensieren.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_MTNCLUMPS_RANDMH_NAME" Language="de_DE">
+			<Text>Zufällig 'Labyrinth'/'Talkessel'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNCLUMPS_RANDMH_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip entweder 'Labyrinth' oder 'Talkessel'[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine zufällige Karte mit mehr Gebieten zum Erkunden bevorzugt.</Text>
+		</Replace>
+
+		<!-- Rivers -->
+		<Replace Tag="LOC_GL_RIVERS_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Flüsse[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Flüsse Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_SIMPLE_NAME" Language="de_DE">
+			<Text>Einfach (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_SIMPLE_DESC" Language="de_DE">
+			<Text>Flüsse, die einfachen Verläufen folgen, ähnlich wie im Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_DETAILED_NAME" Language="de_DE">
+			<Text>Detailliert</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_DETAILED_DESC" Language="de_DE">
+			<Text>Flüsse, die sich verzweigen und zu komplexen Systemen verschmelzen können.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr Flüsse bevorzugt, die detaillierter sind als im Basisspiel, aber nicht allzu sehr verzweigt oder gewunden.</Text>
+		</Replace>		
+		<Replace Tag="LOC_GL_RIVERS_BRANCHY_NAME" Language="de_DE">
+			<Text>Verzweigt</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_BRANCHY_DESC" Language="de_DE">
+			<Text>Flüsse, die stark zur Verzweigung neigen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr kurze, verzweigte Flüsse bevorzugt.</Text>
+		</Replace>		
+		<Replace Tag="LOC_GL_RIVERS_SNAKY_NAME" Language="de_DE">
+			<Text>Gewunden</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_SNAKY_DESC" Language="de_DE">
+			<Text>Flüsse, die dazu neigen, lange, gewundene Verläufe zu bilden.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr lange, gewundene Flüsse bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERS_EVERYTHING_DESC" Language="de_DE">
+			<Text>Alle Arten von Flüssen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Vielzahl unterschiedlicher Flüsse bevorzugt.</Text>
+		</Replace>
+
+		<!-- Extras -->
+		<Replace Tag="LOC_GL_EXTRAS_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Extras[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_DESCRIPTION" Language="de_DE">
+			<Text>Zusätzliche Inseln und Seen für Eure Landmasse.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_NONE_DESC" Language="de_DE">
+			<Text>Keine zusätzlichen Inseln oder Seen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr riesige Ozeane oder eine völlig trockene Landfläche (Option 'Umgekehrte Extras') bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_CHAINS_NAME" Language="de_DE">
+			<Text>Ketten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_CHAINS_DESC" Language="de_DE">
+			<Text>Fügt Extras in langen, dünnen Ketten hinzu.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr Extras bevorzugt, die die Erkundung schwieriger machen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_CLUSTERS_NAME" Language="de_DE">
+			<Text>Haufen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_CLUSTERS_DESC" Language="de_DE">
+			<Text>Fügt dicht beieinander liegende Inseln (bzw. Seen) hinzu.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Mischung aus weiten Ozeanen (bzw. Landflächen) und engen Wasserstraßen (bzw. Landbrücken) bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_DONUTS_NAME" Language="de_DE">
+			<Text>Mini-Donuts</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_DONUTS_DESC" Language="de_DE">
+			<Text>Fügt donutförmige Extras hinzu.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr detailreiche Küstenlinien und eine höhere Wahrscheinlichkeit für Kanäle bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_SPRINKLES_NAME" Language="de_DE">
+			<Text>Spritzer</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_SPRINKLES_DESC" Language="de_DE">
+			<Text>Bedeckt die Welt mit winzigen Fraktalen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr lieber viele winzige statt wenige kleine Extras mögt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_TECTONIC_NAME" Language="de_DE">
+			<Text>Tektonik</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_TECTONIC_DESC" Language="de_DE">
+			<Text>Fügt Inseln hinzu, die Gebirgsketten folgen oder Seen in den niedrigsten Höhenlagen der Welt.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr natürlich aussehende Extras, die den Gebirgsketten Eurer Welt folgen, bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_TCHAINS_NAME" Language="de_DE">
+			<Text>Tektonik und Ketten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_TCHAINS_DESC" Language="de_DE">
+			<Text>Fügt sowohl tektonische Extras als auch Ketten hinzu.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Mischung aus natürlich aussehenden Extras und solchen, die eine Herausforderung darstellen, bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_EVERYTHING_DESC" Language="de_DE">
+			<Text>Fügt alle Arten von Extras hinzu.[NEWLINE][NEWLINE]Obwohl ein kleinerer Anteil jeder Art von zusätzlichen Inseln (bzw. Seen) hinzugefügt wird, werden insgesamt mehr Extras hinzugefügt, was eine Inselkarte durchaus in eine grenzwertige 'Sieben Weltmeere'-Karte verwandeln kann, wenn der Meeresspiegel niedrig ist.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Vielzahl von Extras und eine chaotische Mischung aus Land und Wasser bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_EXTRAS_RANDMOD_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip zwischen allen Werten für diese Option AUßER 'Keine' und 'Alles'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine zufällige Karte bevorzugt, der es nicht an Extras mangelt, die aber auch nicht komplett damit gefüllt ist.</Text>
+		</Replace>
+		
+		<!-- World Wrap -->
+		<Replace Tag="LOC_GL_WORLD_WRAP_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Weltumbruch[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WORLD_WRAP_DESC" Language="de_DE">
+			<Text>Bestimmt, ob die Welt rund oder flach ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WORLD_WRAP_GLOBE_NAME" Language="de_DE">
+			<Text>Globus (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WORLD_WRAP_GLOBE_DESC" Language="de_DE">
+			<Text>Eine zylindrische Welt, die sich von Osten nach Westen erstreckt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WORLD_WRAP_REGION_NAME" Language="de_DE">
+			<Text>Region</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WORLD_WRAP_REGION_DESC" Language="de_DE">
+			<Text>Eine flache Welt, die sich in keine Richtung ausdehnt.</Text>
+		</Replace>
+		
+		<!-- Climate Wrap -->
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Klimaumbruch[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_DESC" Language="de_DE">
+			<Text>Bestimmt, wie das Klima verteilt ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_AZIMUTHAL_NAME" Language="de_DE">
+			<Text>Azimutal</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_AZIMUTHAL_DESC" Language="de_DE">
+			<Text>Ein alternatives globales Klima, bei dem sich ein Pol in der Mitte der Karte und der andere Pol an den Rändern befindet.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Abwechslung zu den Nord-/Süd-Breitengraden der meisten Basisspielkarten sucht.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_GLOBE_DESC" Language="de_DE">
+			<Text>Ein normales globales Klima, bei dem sich der Nordpol am oberen Rand und der Südpol am unteren Rand der Karte befindet, genau wie im Basisspiel für die meisten Kartentypen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_REGION_DESC" Language="de_DE">
+			<Text>Ein regionales Klima, dessen Breitengrade von der Option 'Sonnenlicht' abhängen:[NEWLINE]- 'Standard': keine Breitengrade.[NEWLINE]- 'Gekippte Achse': zufällige Ausrichtung und Krümmung der Breitengrade.[NEWLINE]- 'Zwei Sonnen': zufällige Ausrichtung der Breitengrade.[NEWLINE][NEWLINE]Wenn Ihr den Weltumbruch auf 'Globus' setzt, verlaufen die Breitengrade kontinuierlich von Osten nach Westen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Karte mit nicht vorhandenen, unüblichen oder zufälligen Breitengraden bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_WORLD_NAME" Language="de_DE">
+			<Text>Wie Weltumbruch</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_WORLD_DESC" Language="de_DE">
+			<Text>Lasst die Einstellung des Weltumbruchs entscheiden, ob das Klima global oder regional ist.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr Breitengrade bevorzugt, die mit dem Weltumbruch übereinstimmen oder wenn Ihr Weltumbruch und Klimaumbruch mit einer Option gemeinsam steuern möchtet.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_CLIMATE_WRAP_RANDAG_NAME" Language="de_DE">
+			<Text>Zufällig 'Azimutal'/'Globus'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_RANDAG_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip entweder 'Azimutal' oder 'Globus' aus.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_CLIMATE_WRAP_RANDAR_NAME" Language="de_DE">
+			<Text>Zufällig 'Azimutal'/'Region'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_RANDAR_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip entweder 'Azimutal' oder 'Region' aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_RANDGR_NAME" Language="de_DE">
+			<Text>Zufällig 'Globus'/'Region'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_WRAP_RANDGR_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip entweder 'Globus' oder 'Region' aus.</Text>
+		</Replace>
+		
+		<!-- Climate -->
+		<Replace Tag="LOC_GL_CLIMATE_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Klima[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_DESCRIPTION" Language="de_DE">
+			<Text>Bestimmt die Temperatur der Welt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_VCOLD_NAME" Language="de_DE">
+			<Text>Schneeball</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_VCOLD_DESC" Language="de_DE">
+			<Text>Eine extrem kalte Welt mit viel Eis und Schnee und wenig bis gar keinem gemäßigten Gelände. Alle strategischen Ressourcen sind auf Tundra und Schnee vorhanden, um den Mangel an fruchtbarem Boden zu kompensieren.[NEWLINE][NEWLINE]Die Standard-Biodiversität für dieses Klima erlaubt sowohl Wälder als auch Oasen auf Schnee, damit die Welt bewohnbarer ist.[NEWLINE][NEWLINE]Klima und Temperatur überlagern sich, aber das Klima hat einen viel größeren Einfluss auf die Welt als die Temperatur. Z. B. ist ein heißer 'Schneeball' wärmer als ein normaler 'Schneeball', aber immer noch kälter als eine kalte 'Eiszeit'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr herausforderndes Gelände und/oder eine Abwechslung zum Standardklima bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_COLD_NAME" Language="de_DE">
+			<Text>Eiszeit</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_COLD_DESC" Language="de_DE">
+			<Text>Senkt die Temperatur der Welt drastisch, enthält viel Tundra und eine erhebliche Menge Eis und Schnee.[NEWLINE][NEWLINE]Die Standard-Biodiversität für dieses Klima erlaubt Wälder auf Schnee, damit die Welt bewohnbarer ist.[NEWLINE][NEWLINE]Klima und Temperatur überlagern sich, aber das Klima hat einen viel größeren Einfluss auf die Welt als die Temperatur. Z. B. ist ein heißer 'Schneeball' wärmer als ein normaler 'Schneeball', aber immer noch kälter als eine kalte 'Eiszeit'.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Abwechslung zum Standardklima wünscht.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_STANDARD_DESC" Language="de_DE">
+			<Text>Standardklima.[NEWLINE][NEWLINE]Klima und Temperatur überlagern sich, aber das Klima hat einen viel größeren Einfluss auf die Welt als die Temperatur. Z. B. ist ein heißer 'Schneeball' wärmer als ein normaler 'Schneeball', aber immer noch kälter als eine kalte 'Eiszeit'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_HOT_NAME" Language="de_DE">
+			<Text>Treibhaus</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_HOT_DESC" Language="de_DE">
+			<Text>Erhöht die Temperatur der Welt drastisch, enthält viel Dschungel und eine erhebliche Menge an Wüste.[NEWLINE][NEWLINE]Die Standard-Biodiversität für dieses Klima erlaubt Dschungel auf Wüste, damit die Welt bewohnbarer ist.[NEWLINE][NEWLINE]Klima und Temperatur überlagern sich, aber das Klima hat einen viel größeren Einfluss auf die Welt als die Temperatur. Z. B. ist ein heißer 'Schneeball' wärmer als ein normaler 'Schneeball', aber immer noch kälter als eine kalte 'Eiszeit'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Abwechslung zum Standardklima bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_VHOT_NAME" Language="de_DE">
+			<Text>Sandsturm</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_VHOT_DESC" Language="de_DE">
+			<Text>Eine extrem heiße Welt mit viel Wüste und - wenn überhaupt - wenig gemäßigtem Gelände.[NEWLINE][NEWLINE]Die Standard-Biodiversität für dieses Klima erlaubt sowohl Dschungel als auch Wälder auf Wüste, damit die Welt bewohnbarer ist.[NEWLINE][NEWLINE]Klima und Temperatur überlagern sich, aber das Klima hat einen viel größeren Einfluss auf die Welt als die Temperatur. Z. B. ist ein heißer 'Schneeball' wärmer als ein normaler 'Schneeball', aber immer noch kälter als eine kalte 'Eiszeit'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr herausforderndes Gelände und/oder eine Abwechslung zum Standardklima bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_RANDOMLH_NAME" Language="de_DE">
+			<Text>Zufällig von 'Eiszeit' bis 'Treibhaus'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMATE_RANDOMLH_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip entweder 'Eiszeit'-, 'Standard'- oder 'Treibhaus'-Klima.[NEWLINE][NEWLINE]Klima und Temperatur sind miteinander kombinierbar, aber das Klima hat einen viel größeren Einfluss auf die Welt als die Temperatur. Z. B. ist ein heißer 'Schneeball' wärmer als ein normaler 'Schneeball', aber immer noch kälter als eine kalte 'Eiszeit'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr ein in Maßen zufälliges Klima bevorzugt.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_CLIMATE_RANDOM_DESC" Language="de_DE">
+			<Text>Wählt einen zufälligen Wert für das Klima.[NEWLINE][NEWLINE]Klima und Temperatur überlagern sich gegenseitig, aber das Klima hat einen viel größeren Einfluss auf die Welt als die Temperatur. Z. B. ist ein heißer 'Schneeball' wärmer als ein normaler 'Schneeball', aber immer noch kälter als eine kalte 'Eiszeit'.</Text>
+		</Replace>
+		
+		<!-- Biome -->
+		<Replace Tag="LOC_GL_BIOME_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Biom[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_DESCRIPTION" Language="de_DE">
+			<Text>Bestimmt Merkmale wie Wälder, Dschungel und Sümpfe.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_ARBOREA_NAME" Language="de_DE">
+			<Text>Arboreal</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_ARBOREA_DESC" Language="de_DE">
+			<Text>Eine stark bewaldete Welt.[NEWLINE][NEWLINE]Biome und Niederschläge sind miteinander kombinierbar, aber Biome haben einen viel größeren Einfluss auf die Welt als Niederschläge. Ein trockenes 'Arboreal' ist z. B. trockener als ein normales 'Arboreal', hat aber immer noch mehr Wälder als jedes andere Biom, bei dem der Niederschlag auf 'Hoch' gesetzt ist.[NEWLINE][NEWLINE]Wirkt sich auch auf Sümpfe aus, wenn Ihr Folgendes aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmonie in der Vielfalt'.[NEWLINE][NEWLINE]HINWEIS: Das Hervorbringen vieler Geländearten kann die Häufigkeit von Naturwundern verringern.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Abwechslung zum Standard-Gleichgewicht von Bäumen, Sumpf und offenem Gelände bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_PRAIRIE_NAME" Language="de_DE">
+			<Text>Prärie</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_PRAIRIE_DESC" Language="de_DE">
+			<Text>Eine trockene Welt, die von offenem Gelände dominiert wird.[NEWLINE][NEWLINE]Biome und Niederschläge sind miteinander kombinierbar, aber Biome haben einen viel größeren Einfluss auf die Welt als Niederschläge. Ein trockenes 'Arboreal' ist z. B. trockener als ein normales 'Arboreal', hat aber immer noch mehr Wälder als jedes andere Biom, bei dem der Niederschlag auf 'Hoch' gesetzt ist.[NEWLINE][NEWLINE]Wirkt sich auch auf Sümpfe aus, wenn Ihr Folgendes aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmonie in der Vielfalt'.[NEWLINE][NEWLINE]HINWEIS: Das Hervorbringen vieler Geländearten kann die Häufigkeit von Naturwundern verringern.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Abwechslung zum Standard-Gleichgewicht von Bäumen, Sumpf und offenem Gelände bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_STANDARD_DESC" Language="de_DE">
+			<Text>Das Standard-Gleichgewicht von Bäumen, Sümpfen und offenem Gelände.[NEWLINE][NEWLINE]Biome und Niederschläge sind miteinander kombinierbar, aber Biome haben einen viel größeren Einfluss auf die Welt als Niederschläge. Ein trockenes 'Arboreal' ist z. B. trockener als ein normales 'Arboreal', hat aber immer noch mehr Wälder als jedes andere Biom, bei dem der Niederschlag auf 'Hoch' gesetzt ist.[NEWLINE][NEWLINE]Wirkt sich auch auf Sümpfe aus, wenn Ihr Folgendes aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmonie in der Vielfalt'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_WETLAND_NAME" Language="de_DE">
+			<Text>Feuchtgebiet</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIOME_WETLAND_DESC" Language="de_DE">
+			<Text>Eine sumpfige Welt, die normalerweise mehr Grasland als Steppe enthält.[NEWLINE][NEWLINE]Biome und Niederschläge sind miteinander kombinierbar, aber Biome haben einen viel größeren Einfluss auf die Welt als Niederschläge. Ein trockenes 'Arboreal' ist z. B. trockener als ein normales 'Arboreal', hat aber immer noch mehr Wälder als jedes andere Biom, bei dem der Niederschlag auf 'Hoch' gesetzt ist.[NEWLINE][NEWLINE]Wirkt sich auch auf Sümpfe aus, wenn Ihr Folgendes aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmonie in der Vielfalt'.[NEWLINE][NEWLINE]HINWEIS: Das Hervorbringen vieler Geländearten kann die Häufigkeit von Naturwundern verringern.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Abwechslung zum Standard-Gleichgewicht von Bäumen, Sumpf und offenem Gelände bevorzugt.</Text>
+		</Replace>
+		
+		<!-- Sunlight -->
+		<Replace Tag="LOC_GL_SUNLIGHT_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Sonnenlicht[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SUNLIGHT_DESCRIPTION" Language="de_DE">
+			<Text>Bestimmt, wie das Sonnenlicht die Welt erreicht.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SUNLIGHT_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Welt, die eine einzelne Sonne umkreist und sich um eine erdähnliche Achse dreht, sodass der Äquator heiß ist und die Pole kalt sind, genau wie im Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SUNLIGHT_TILTED_NAME" Language="de_DE">
+			<Text>Gekippte Achse</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SUNLIGHT_TILTED_DESC" Language="de_DE">
+			<Text>Eine auf die Seite gekippte Welt, sodass nur eine Hemisphäre der Sonne zugewandt ist. Mit anderen Worten: Ein Pol ist kalt und der andere heiß.[NEWLINE][NEWLINE]Wie das funktioniert, hängt vom Klimaumbruch ab:[NEWLINE]- Azimutal: Der Südpol ist der Sonne zugewandt; ob er in der Mitte der Karte oder an den Rändern liegt, bestimmt der Zufall.[NEWLINE]- Globus: Der Südpol ist immer heiß und der Nordpol ist immer kalt.[NEWLINE]- Region: Ein zufällig platzierter, sonnenbeschienener Pol teilt die Karte typischerweise in heiß auf der einen und kalt auf der anderen Seite.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Alternative zur üblichen Anordnung (heißer Äquator und gefrorene Pole) wollt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SUNLIGHT_TWOSUNS_NAME" Language="de_DE">
+			<Text>Zwei Sonnen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SUNLIGHT_TWOSUNS_DESC" Language="de_DE">
+			<Text>Eine Welt, die zwischen zwei Sonnen in einem Doppelsternsystem liegt, sodass beide Pole heiß sind und der Äquator kalt ist.[NEWLINE][NEWLINE]Für 'Region' sind die Sonnen zufällig auf gegenüberliegenden Seiten der Karte angeordnet.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine Alternative zur üblichen Anordnung (heißer Äquator und gefrorene Pole) wollt.</Text>
+		</Replace>
+		
+		<!-- Icy Poles -->
+		<Replace Tag="LOC_GL_ICYPOLES_NAME" Language="de_DE">
+			<Text>[Color:TopBarLabelCS]Eisige Pole[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ICYPOLES_DESCRIPTION" Language="de_DE">
+			<Text>Bestimmt, ob die Polarregionen der Welt abgeschnitten oder einbezogen werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ICYPOLES_CROPPED_NAME" Language="de_DE">
+			<Text>Abgeschnitten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ICYPOLES_CROPPED_DESC" Language="de_DE">
+			<Text>Entfernt eisige Pole/Regionen von der Karte.[NEWLINE][NEWLINE]Wie dies funktioniert, hängt vom Klimaumbruch ab:[NEWLINE]- 'Globus': Schneidet die Pole buchstäblich aus und reduziert die Kartenhöhe.[NEWLINE]- 'Azimutal'/'Region': Passt den Bereich der Breitengrade und die entsprechenden Temperaturen an, um den Großteil von Eis und Schnee auszuschließen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr barbarische, gefrorene Einöden aus Eurer Karte entfernen möchtet, wenn Ihr Globuskarten mit Seitenverhältnissen abweichend vom Standard bevorzugt oder wenn Ihr nach einer anderen Möglichkeit sucht, die Temperatur der Welt zu erhöhen, als durch die 'Klima' und 'Temperatur' Optionen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ICYPOLES_STANDARD_DESC" Language="de_DE">
+			<Text>Belässt die eisigen Pole/Regionen so wie sie sind, genau wie im Basisspiel.</Text>
+		</Replace>    
+    
+    
+        <!-- Adjustments -->
+		<!-- Land Starts -->
+		<Replace Tag="LOC_GL_LANDSTARTS_NAME" Language="de_DE">
+			<Text>Startpunkte an Land</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_DESC" Language="de_DE">
+			<Text>Passt die Abstände zwischen den großen Zivilisationen an, die das Spiel an Land beginnen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_LARGEST_NAME" Language="de_DE">
+			<Text>Größtes Gebiet</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_LARGEST_DESC" Language="de_DE">
+			<Text>Versucht, alle großen Zivilisationen auf der größten Landfläche zu starten. Wenn diese zu klein ist, wird auf die Standard-Startpositionen zurückgegriffen.[NEWLINE][NEWLINE]Empfohlen, wenn alle großen Zivilisationen auf demselben Kontinent starten sollen, wie beim 'Terra'-Kartentyp des Basisspiels.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_STD_DESC" Language="de_DE">
+			<Text>Weist den großen Zivilisationen Landflächen zu, ohne Rücksicht darauf, wie viele Landflächen in Frage kommen oder wie viele Zivilisationen sich eine Landfläche teilen können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_SEPARATE_NAME" Language="de_DE">
+			<Text>Getrennte Gebiete</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_SEPARATE_DESC" Language="de_DE">
+			<Text>Versucht, jede große Zivilisation auf einer eigenen Landfläche zu starten. Wenn es nicht genügend Landflächen gibt oder die Landflächen nicht einigermaßen ausgeglichen sind, dann wird auf die Standard-Startpositionen zurückgegriffen.[NEWLINE][NEWLINE][COLOR_RED]WARNUNG:[ENDCOLOR] Das bedeutet nicht, dass die Zivilisationen einfach willkürlich 'verteilt' werden, sondern dass Standorte gewählt werden, die durch Gewässer und/oder Berge getrennt sind. Eure Karte muss mindestens so viele startfähige Inseln/Kontinente haben wie Spieler, sonst könnte es passieren, dass sich jemand auf einer winzigen Insel oder einer Halbinsel wiederfindet, die von Bergen umzingelt ist.[NEWLINE][NEWLINE]Es wird nicht verhindert, dass große Zivilisationen sich Landflächen mit Stadtstaaten teilen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr es vorzieht, jede große Zivilisation auf ihrer eigenen Landfläche/Insel zu starten, anstatt auf gemeinsamen Kontinenten oder einem Pangäa.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_LANDMASS_DESC" Language="de_DE">
+			<Text>Weist die großen Zivilisationen den Landflächen auf der Grundlage der gewählten Landmasse zu:[NEWLINE]- 'Größtes Gebiet' für die Landmasse 'Pangäa'[NEWLINE]- 'Getrennte Gebiete' für 'Ansammlungen' und 'Große Inseln'[NEWLINE]- 'Standard' für alle anderen Landmassen[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Methode bevorzugt, die für Eure Karte am sinnvollsten ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_RANDLH_NAME" Language="de_DE">
+			<Text>Zufällig von 'Größtes' bis 'Getrennte'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LANDSTARTS_RANDLH_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip entweder 'Größtes Gebiet', 'Standard' oder 'Getrennte Gebiete'.</Text>
+		</Replace>
+		
+		<!-- Water Starts -->
+		<Replace Tag="LOC_GL_WATERSTARTS_NAME" Language="de_DE">
+			<Text>Startpunkte im Wasser</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WATERSTARTS_DESC" Language="de_DE">
+			<Text>Passt die Abstände zwischen den großen Zivilisationen an, die das Spiel auf dem Wasser beginnen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WATERSTARTS_LARGEST_DESC" Language="de_DE">
+			<Text>Versucht, alle großen Zivilisationen im größten Gewässer zu starten. Wenn dieses zu klein ist, dann wird auf die Standard-Startpositionen zurückgegriffen.[NEWLINE][NEWLINE]Beachtet, dass die meisten Gewässer auf ozeanlastigen Karten als ein einziges Gewässer zählen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr mit mehreren Wasser-Zivilisationen auf einer landlastigen Karte spielt und es vorzieht, sie alle im selben Binnenmeer zu platzieren.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WATERSTARTS_STD_DESC" Language="de_DE">
+			<Text>Weist den großen Zivilisationen Gewässer zu, ohne Rücksicht darauf, wie viele Gewässer in Frage kommen oder wie viele Zivilisationen sich ein Gewässer teilen können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WATERSTARTS_SEPARATE_DESC" Language="de_DE">
+			<Text>Versucht, jede große Zivilisation auf einer eigenen Wasserfläche zu starten. Wenn es nicht genügend Gewässer gibt oder die Gewässer nicht einigermaßen ausgeglichen sind, dann wird auf die Standard-Startpositionen zurückgegriffen.[NEWLINE][NEWLINE]Beachtet, dass die meisten Gewässer auf ozeanlastigen Karten als ein einziges Gewässer zählen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr mehrere Wasser-Zivilisationen auf einer landlastigen Karte spielt und es vorzieht, jede von ihnen in einem eigenen See oder Binnenmeer zu platzieren.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WATERSTARTS_LANDMASS_DESC" Language="de_DE">
+			<Text>Weist die großen Zivilisationen den Gewässern auf der Grundlage der gewählten Landmasse zu:[NEWLINE]- 'Größtes Gebiet' für die Landmasse 'Binnenmeer'[NEWLINE]- 'Getrennte Gebiete' für die Landmasse 'Seen'[NEWLINE]- 'Standard' für alle anderen Landmassen[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Methode bevorzugt, die für Eure Karte am sinnvollsten ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WATERSTARTS_ONLAND_NAME" Language="de_DE">
+			<Text>Alles an Land!</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_WATERSTARTS_ONLAND_DESC" Language="de_DE">
+			<Text>Zwingt alle großen Zivilisationen, an Land zu starten.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr befürchtet, dass die Gewässer Eurer Karte für Wasser-Zivilisationen zu schwierig zu erforschen sind, z. B. aufgrund eines sehr hohen Meeresspiegels, zu hoher Berge oder Eislabyrinthe.</Text>
+		</Replace>
+	
+		<!-- Minor Starts -->
+		<Replace Tag="LOC_GL_MINORSTARTS_NAME" Language="de_DE">
+			<Text>Startpunkte für Stadtstaaten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_DESC" Language="de_DE">
+			<Text>Passt die Abstände zwischen den Stadtstaaten an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_LARGEST_DESC" Language="de_DE">
+			<Text>Versucht, die Stadtstaaten gleichmäßig auf der größten Landfläche zu verteilen. Wenn diese zu klein ist, wird auf die Standard-Startpositionen zurückgegriffen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr es vorzieht, alle Stadtstaaten auf einem bestimmten Gebiet der Welt anzuordnen, sodass anderswo mehr Platz für große Zivilisationen vorhanden ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_STD_DESC" Language="de_DE">
+			<Text>Standard-Startpositionen für Stadtstaaten. Es werden die besten verfügbaren Standorte auf der Karte ausgewählt. Anders als große Zivilisationen brauchen Stadtstaaten keinen Platz, um sich auszudehnen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_SEPARATE_DESC" Language="de_DE">
+			<Text>Versucht, jeden Stadtstaat auf einer eigenen Landfläche zu starten.[NEWLINE][NEWLINE]Es wird nicht verhindert, dass Stadtstaaten sich Landflächen mit großen Zivilisationen teilen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr es vorzieht, die Stadtstaaten auf kleinen Inseln zu platzieren, damit mehr Platz für die großen Zivilisationen auf den Kontinenten bleibt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_MAJOR_NAME" Language="de_DE">
+			<Text>Wie die großen Zivilisationen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_MAJOR_DESC" Language="de_DE">
+			<Text>Weist den Stadtstaaten die Landflächen so zu, als ob sie große Zivilisationen wären. Jeder Stadtstaat erhält den gleichen Anteil an Land, bevorzugt die größten und besten Gebiete.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr es vorzieht, Stadtstaaten auf Kontinenten zu platzieren, sodass große Zivilisationen mehr Inseln und abgelegene Gebiete besiedeln müssen, um sich auszudehnen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_LAND_NAME" Language="de_DE">
+			<Text>Wie 'Startpunkte an Land'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MINORSTARTS_LAND_DESC" Language="de_DE">
+			<Text>Verwendet dieselbe Methode für die Positionierung von Stadtstaaten, die für die großen Zivilisationen eingestellt ist.</Text>
+		</Replace>
+	
+		<!-- Mountain Level -->
+		<Replace Tag="LOC_GL_MTNLEVEL_NAME" Language="de_DE">
+			<Text>Anzahl der Berge</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNLEVEL_DESC" Language="de_DE">
+			<Text>Passt die Anzahl der Berge in Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNLEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Bergen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNLEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Bergen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNLEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit der normalen Anzahl an Bergen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNLEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Bergen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_MTNLEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Bergen.</Text>
+		</Replace>
+		
+		<!-- Hill Level -->
+		<Replace Tag="LOC_GL_HILLLEVEL_NAME" Language="de_DE">
+			<Text>Anzahl der Hügel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_DESC" Language="de_DE">
+			<Text>Passt die Anzahl der Hügel in Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Hügeln.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Hügeln.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit der normalen Anzahl an Hügeln.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Hügeln.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Hügeln.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_MTS_NAME" Language="de_DE">
+			<Text>Wie 'Anzahl der Berge'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_HILLLEVEL_MTS_DESC" Language="de_DE">
+			<Text>Mit 'Anzahl der Berge' könnt Ihr auch die Anzahl der Hügel einstellen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr sowohl Berge als auch Hügel mit einer einzigen Option steuern möchtet.</Text>
+		</Replace>
+		
+		<!-- Volcano Level -->
+		<Replace Tag="LOC_GL_VOLCLEVEL_NAME" Language="de_DE">
+			<Text>Anzahl der Vulkane</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_DESC" Language="de_DE">
+			<Text>Passt die Anzahl der Vulkane in Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Vulkanen. Entspricht dem 'Alten' Weltalter des Basisspiels.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Vulkanen, aber geringfügig mehr als im Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit der normalen Anzahl an Vulkanen für 'Got Lakes', etwa doppelt so viele Vulkane wie im Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Vulkanen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Vulkanen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_MTS_DESC" Language="de_DE">
+			<Text>Verwendet 'Anzahl der Berge', um die Anzahl der Vulkane einzustellen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr sowohl Berge als auch Vulkane mit einer einzigen Option steuern möchtet.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_HILLS_NAME" Language="de_DE">
+			<Text>Wie 'Anzahl der Hügel'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_VOLCLEVEL_HILLS_DESC" Language="de_DE">
+			<Text>Verwendet 'Anzahl der Hügel', um die Anzahl der Vulkane einzustellen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr sowohl Hügel als auch Vulkane mit einer einzigen Option steuern möchtet.</Text>
+		</Replace>
+	
+		<!-- Sea Level -->
+		<Replace Tag="LOC_GL_SEALEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Wasser.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SEALEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Wasser.</Text>
+		</Replace>
+	
+		<!-- Lake Level -->
+		<Replace Tag="LOC_GL_LAKELEVEL_NAME" Language="de_DE">
+			<Text>Anzahl der Seen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKELEVEL_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Anzahl der Seen in Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKELEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Seen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKELEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Seen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKELEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit der normalen Anzahl an Seen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKELEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Seen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_LAKELEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Seen.</Text>
+		</Replace>
+		
+		<!-- River Level -->
+		<Replace Tag="LOC_GL_RIVERLEVEL_NAME" Language="de_DE">
+			<Text>Anzahl der Flüsse</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERLEVEL_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Anzahl der Flüsse in Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERLEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Flüssen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERLEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Flüssen, entspricht in etwa dem Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERLEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit der normalen Anzahl an Flüssen in 'Got Lakes', deutlich mehr Flüsse als im Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERLEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Flüssen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RIVERLEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Flüssen.</Text>
+		</Replace>
+		
+		<!-- Circumnavigation -->
+		<Replace Tag="LOC_GL_CIRCUMNAV_NAME" Language="de_DE">
+			<Text>Weltumsegelung</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_DESCRIPTION" Language="de_DE">
+			<Text>Passt an, ob und wie Wasserkanäle für das Segeln durch oder um die Welt durchgesetzt werden sollen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_NONE_DESC" Language="de_DE">
+			<Text>Keine zusätzlichen Kanäle für die Weltumsegelung, genau wie im Basisspiel.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr Karten mit Küsteneis, potenziell blockierten Engstellen und vorhersehbarem Meeresspiegel gegenüber Karten bevorzugt, die mit Schiffen leicht zu befahren sind.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_EDGES_NAME" Language="de_DE">
+			<Text>Ränder</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_EDGES_DESC" Language="de_DE">
+			<Text>Ermöglicht die Weltumsegelung mit Schiffen auf ansonsten landumschlossenen Karten, indem Kanäle an den nicht umschließenden Rändern der Karte hinzugefügt werden.[NEWLINE][NEWLINE]Fügt keine Kanäle zu Karten hinzu, die bereits von Schiffen umfahren werden können.[NEWLINE][NEWLINE]Deaktiviert das Küsteneis, um Land-/Eisblockaden zu vermeiden und schneidet Ost-West-Pfade durch alle Eisschollen, die sich bis zum Nord- bzw. Südrand der Karte erstrecken.[NEWLINE][NEWLINE]Verhindert, dass unpassierbare Wasserwunder wie der 'Giant's Causeway' und die 'Galapagos-Inseln' Engstellen für Schiffe blockieren.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Weltumsegelung um Eure Landmasse herum anstatt durch sie hindurch bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_PATHS_NAME" Language="de_DE">
+			<Text>Seewege</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_PATHS_DESC" Language="de_DE">
+			<Text>Ermöglicht die Weltumsegelung mit Schiffen auf ansonsten landumschlossenen Karten, indem Kanäle als zufällige Ost-West-Seewege hinzugefügt werden. Nicht nur auf zufälligen Breitengraden, sondern darüberhinaus sich zufällig in Nord-/Süd-Richtung schlängelnd, ziehen sich diese Wege in Ost-/West-Richtung über die Karte. Wenn der Weltumbruch auf 'Globus' steht, wird sichergestellt, dass mindestens ein Seeweg eine Schleife um den Globus vollzieht.[NEWLINE][NEWLINE]Fügt keine Kanäle zu Karten hinzu, die bereits von Schiffen umfahren werden können.[NEWLINE][NEWLINE]Deaktiviert das Küsteneis, um Land-/Eisblockaden zu vermeiden und schneidet Ost-West-Pfade durch alle Eisschollen, die sich bis zum Nord- bzw. Südrand der Karte erstrecken.[NEWLINE][NEWLINE]Verhindert, dass unpassierbare Wasserwunder wie der 'Giant's Causeway' und die 'Galapagos-Inseln' Engstellen für Schiffe blockieren.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr einen unvorhersehbaren Weg der Weltumsegelung bevorzugt, der Eure Landmasse durchschneiden kann.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_BOTH_NAME" Language="de_DE">
+			<Text>Ränder und Seewege</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_BOTH_DESC" Language="de_DE">
+			<Text>Ermöglicht die Weltumsegelung mit Schiffen auf ansonsten landumschlossenen Karten, indem Kanäle an den nicht umschließenden Rändern der Karte UND Kanäle als zufällige Ost-West-Seewege hinzugefügt werden. Wenn der Weltumbruch auf 'Globus' steht, wird sichergestellt, dass mindestens ein Seeweg eine Schleife um den Globus vollzieht.[NEWLINE][NEWLINE]Fügt keine Kanäle zu Karten hinzu, die bereits von Schiffen umfahren werden können.[NEWLINE][NEWLINE]Deaktiviert das Küsteneis, um Land-/Eisblockaden zu vermeiden und schneidet Ost-West-Pfade durch alle Eisschollen, die sich bis zum Nord- bzw. Südrand der Karte erstrecken.[NEWLINE][NEWLINE]Verhindert, dass unpassierbare Wasserwunder wie der 'Giant's Causeway' und die 'Galapagos-Inseln' Engstellen für Schiffe blockieren.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine Welt bevorzugt, die leicht zu umschiffen ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_LANDMASS_DESC" Language="de_DE">
+			<Text>Weltumsegelung nach Landmassen:[NEWLINE]- 'Binnenmeer' und 'Oval': 'Seewege'[NEWLINE]- 'Umgekehrte Extras', 'Seen', 'Große Seen' und 'Labyrinth': 'Keine'[NEWLINE]- 'Sieben Weltmeere': 'Ränder und Seewege'[NEWLINE]- Alle anderen Landmassen: 'Ränder'[NEWLINE][NEWLINE]Fügt keine Kanäle zu Karten hinzu, die bereits von Schiffen umfahren werden können.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Form der Weltumsegelung bevorzugt, die für Eure Landmasse am sinnvollsten ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_RAND_EPB_NAME" Language="de_DE">
+			<Text>Zufällig 'Ränder' und/oder 'Seewege'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CIRCUMNAV_RAND_EPB_DESC" Language="de_DE">
+			<Text>Wählt zufällig zwischen 'Ränder', 'Seewege' und 'Ränder und Seewege'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Weltumsegelung per Zufall erzwingen wollt.</Text>
+		</Replace>
+		
+		<!-- Coastal Expansion -->
+		<Replace Tag="LOC_GL_COASTEXP_NAME" Language="de_DE">
+			<Text>Küstenerweiterung</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_DESCRIPTION" Language="de_DE">
+			<Text>Passt den Anteil des Flachwassers gegenüber der Tiefsee an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_NONE_DESC" Language="de_DE">
+			<Text>Eine Karte ohne Küstenerweiterung, d. h. kein Flachwasser, außer auf Feldern, die direkt an Land grenzen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Erkundung durch die Seefahrt einschränken wollt, bis Schiffe Ozeane überqueren können. Siehe auch die Option 'Isolierte Küsten'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Flachwasser und noch mehr Tiefsee.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr im späten Spiel die Erkundung auf See bevorzugt, wobei die Möglichkeit, abgelegene Landflächen über Flachwasser zu erreichen, geringer ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Flachwasser und mehr Tiefsee.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_STD_DESC" Language="de_DE">
+			<Text>Eine Karte mit dem üblichen Gleichgewicht zwischen Flachwasser und Tiefsee, genau wie im Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Flachwasser und weniger Tiefsee.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Flachwasser und noch weniger Tiefsee.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Erkundung von Seegebieten im frühen Spiel bevorzugt und die Chance erhöhen wollt, abgelegene Landflächen über Flachwasser zu erreichen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTEXP_MAX_DESC" Language="de_DE">
+			<Text>Eine Karte mit maximaler Küstenerweiterung, d. h. Flachwasser überall auf der Karte! Wenn die Option 'Isolierte Küsten' aktiviert ist, trennen sich schlängelnde Tiefseegräben riesige Flachwassergebiete von einander.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr die frühe Erkundung durch die Seefahrt bevorzugt und Euch die Herausforderung, abgelegene Landflächen (mittels 'Isolierte Küsten') schwieriger erreichen zu können, entgegenkommt.</Text>
+		</Replace>
+	
+        <!-- Coastal Lowlands -->
+		<Replace Tag="LOC_GL_COASTLOWS_NAME" Language="de_DE">
+			<Text>Küstentiefland</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_COASTLOWS_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Platzierung von Küstentiefland an.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_NONE_DESC" Language="de_DE">
+			<Text>Kein Küstentiefland, d. h. keine Überflutung oder Überschwemmung von Land bei steigendem Meeresspiegel.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_STD_DESC" Language="de_DE">
+			<Text>Die Standardplatzierung von Küstentiefland.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_INLAND_NAME" Language="de_DE">
+			<Text>Binnenland</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_INLAND_DESC" Language="de_DE">
+			<Text>Zusätzliches Küstentiefland auf Sumpf- und Flussfeldern im Binnenland, ähnlich wie bei 'Nere's Inland Flooding and Climate Change'.[NEWLINE][NEWLINE]Ordnet 'GlobalParameters.CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS' den Bereich [33,100] zu. Z. B. wird ein Wert von 45% zu 63%. Beachtet, dass Nere's Mod 100% Tiefland für die Karten des Basisspiels verwendet, sodass Ihr mit dieser Einstellung möglicherweise weniger Tiefland erhaltet, als wenn Ihr Nere's Mod auf das Basisspiel anwenden würdet.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_DELUGE_NAME" Language="de_DE">
+			<Text>Sintflut</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_DELUGE_DESC" Language="de_DE">
+			<Text>Küstentiefland auf allen ebenen Feldern. Fügt zufällige Niederungen hinzu - durch Hügel, wenn nötig - um ansonsten isolierte Niederungen mit Gewässern zu verbinden.[NEWLINE][NEWLINE]Ordnet 'GlobalParameters.CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS' den Bereich [50,100] zu. Z. B. wird ein Wert von 45% zu 72,5%.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_CATA_NAME" Language="de_DE">
+			<Text>Katastrophe</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_CATA_DESC" Language="de_DE">
+			<Text>Küstentiefland auf allen Feldern, auch auf Hügeln! Fügt zufällige Niederungen hinzu, um ansonsten isolierte Niederungen mit Gewässern zu verbinden.[NEWLINE][NEWLINE]Ordnet 'GlobalParameters.CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS' den Bereich [50,100] zu. Z. B. wird ein Wert von 45% zu 72,5%.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_HFTH_NAME" Language="de_DE">
+			<Text>Ab in die Berge!</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_HFTH_DESC" Language="de_DE">
+			<Text>Wer sich vor den Überschwemmungen an der Küste schützen will, muss in die Berge flüchten! Küstentiefland bei 1-2 Metern für alle ebenen Felder, plus zufällige Niederungen für Hügelfelder. Fügt zufällige Niederungen hinzu, um ansonsten isolierte Niederungen mit Gewässern zu verbinden.[NEWLINE][NEWLINE]'GlobalParameters.CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS' steuert nun die Anzahl der verbleibenden Kacheln auf 3 Metern Höhe.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_MAX_DESC" Language="de_DE">
+			<Text>Küstentiefland überall! Küstentiefland bei 1 Meter für alle ebenen Felder. Fügt zufällige Niederungen hinzu, um ansonsten isolierte Niederungen mit Gewässern zu verbinden.[NEWLINE][NEWLINE]'GlobalParameters.CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS' bestimmt nun die Anzahl der verbleibenden Felder auf 2 Meter Höhe; alles andere außer Bergen und Naturwundern wird zu 3 Metern Höhe.</Text>
+		</Replace>
+        <Replace Tag="LOC_GL_COASTLOWS_RANDMOD_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip zwischen 'Standard', 'Binnenland' und 'Sintflut'.</Text>
+		</Replace>
+    
+		<!-- Temperature offset -->
+		<Replace Tag="LOC_GL_TEMPERATURE_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Temperatur des Klimas Eurer Welt an, indem Ihr alle Breitengrade zum Äquator hin oder vom Äquator weg verschiebt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TEMPERATURE_VCOLD_NAME" Language="de_DE">
+			<Text>Sehr kalt</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TEMPERATURE_VCOLD_DESC" Language="de_DE">
+			<Text>Eine viel kältere Version des ausgewählten Klimas, wahrscheinlich mit mehr Eis und Schnee und weniger Wüste.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TEMPERATURE_COOLER_DESC" Language="de_DE">
+			<Text>Eine etwas kältere Version des ausgewählten Klimas, vielleicht mit mehr Eis und Schnee und weniger Wüste.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TEMPERATURE_NORMAL_DESC" Language="de_DE">
+			<Text>Normale Temperatur für das ausgewählte Klima.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TEMPERATURE_WARMER_DESC" Language="de_DE">
+			<Text>Eine etwas heißere Version des ausgewählten Klimas, vielleicht mit mehr Wüste und weniger Eis und Schnee.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TEMPERATURE_VHOT_NAME" Language="de_DE">
+			<Text>Sehr heiß</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TEMPERATURE_VHOT_DESC" Language="de_DE">
+			<Text>Eine viel heißere Version des ausgewählten Klimas, wahrscheinlich mit mehr Wüste und weniger Eis und Schnee.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RANDOMCOLDHOT_NAME" Language="de_DE">
+			<Text>Zufällig von 'Kalt' bis 'Heiß'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RANDOMCOLDHOT_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip zwischen 'Kalt', 'Standard' und 'Heiß'.</Text>
+		</Replace>
+		
+        <!-- Desert Level -->
+		<Replace Tag="LOC_GL_DESERTLEVEL_NAME" Language="de_DE">
+			<Text>Wüstengürtel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_DESERTLEVEL_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Stärke des Wüstengürtels Eurer Welt an. Diese Option ist stapelbar mit 'Temperatur' und 'Tundragürtel'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_DESERTLEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Wüsten und noch mehr Grasland und Steppen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_DESERTLEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Wüsten und mehr Grasland und Steppen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_DESERTLEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit dem üblichen Gleichgewicht zwischen Wüste und fruchtbarem Gelände (Grasland und Steppen).</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_DESERTLEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Wüsten und weniger Grasland und Steppen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_DESERTLEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Wüsten und noch weniger Grasland und Steppen.</Text>
+		</Replace>
+        
+		<!-- Tundra Level -->
+		<Replace Tag="LOC_GL_TUNDRALEVEL_NAME" Language="de_DE">
+			<Text>Tundragürtel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TUNDRALEVEL_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Stärke des Tundragürtels Eurer Welt an. Diese Option ist stapelbar mit 'Temperatur' und 'Wüstengürtel'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TUNDRALEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Tundra und noch mehr Wüste und/oder Schnee.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TUNDRALEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Tundra und mehr Wüste und/oder Schnee.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TUNDRALEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit dem üblichen Gleichgewicht zwischen Tundra und extremem Gelände (Wüste und/oder Schnee).</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TUNDRALEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Tundra und weniger Wüste und/oder Schnee.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_TUNDRALEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Tundra und noch weniger Wüste und/oder Schnee.</Text>
+		</Replace>
+		
+		<!-- Rainfall offset -->
+		<Replace Tag="LOC_GL_RAINFALL_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Wälder, den Dschungel und die Sümpfe des Klimas Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_VARID_NAME" Language="de_DE">
+			<Text>Sehr trocken</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_VARID_DESC" Language="de_DE">
+			<Text>Eine viel weniger regenreiche Version des ausgewählten Bioms. Das bedeutet: Noch weniger Wälder, Dschungel und Sümpfe.[NEWLINE][NEWLINE]Passt auch Sümpfe an, wenn Ihr die folgenden Funktionen aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmony in Diversity'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_DRIER_DESC" Language="de_DE">
+			<Text>Eine weniger regenreiche Version des ausgewählten Bioms. Das bedeutet: Weniger Wälder, Dschungel und Sümpfe.[NEWLINE][NEWLINE]Passt auch Sümpfe an, wenn Ihr die folgenden Funktionen aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmony in Diversity'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_NORMAL_DESC" Language="de_DE">
+			<Text>Die normale Niederschlagsmenge für das ausgewählte Biom (Basisspiel).</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_WETTER_DESC" Language="de_DE">
+			<Text>Eine regenreichere Version des ausgewählten Bioms. Das bedeutet: Mehr Wälder, Dschungel und Sümpfe.[NEWLINE][NEWLINE]Passt auch Sümpfe an, wenn Ihr die folgenden Funktionen aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmony in Diversity'.[NEWLINE][NEWLINE]HINWEIS: Das Hervorbringen vieler Geländearten kann die Häufigkeit von Naturwundern verringern.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_VWET_NAME" Language="de_DE">
+			<Text>Sehr feucht</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_VWET_DESC" Language="de_DE">
+			<Text>Eine viel regenreichere Version des ausgewählten Bioms. Das bedeutet: Noch mehr Wälder, Dschungel und Sümpfe.[NEWLINE][NEWLINE]Passt auch Sümpfe an, wenn Ihr die folgenden Funktionen aktiviert habt: 'Gathering Storm', 'JNR's CB Wetlands' und 'Civ6 Plus: Harmony in Diversity'.[NEWLINE][NEWLINE]HINWEIS: Das Hervorbringen vieler Geländearten kann die Häufigkeit von Naturwundern verringern.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_RANDOMAW_NAME" Language="de_DE">
+			<Text>Zufällig von 'Trocken' bis 'Feucht'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_RAINFALL_RANDOMAW_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip zwischen 'Trocken', 'Standard' und 'Feucht'.</Text>
+		</Replace>
+		
+		<!-- Level of Kelp Forests from Suk's Oceans -->
+		<Replace Tag="LOC_GL_KELPLEVEL_NAME" Language="de_DE">
+			<Text>Menge an Seetang</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_DESC" Language="de_DE">
+			<Text>Passt die Menge des Seetangs in Eurer Welt an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch weniger Seetang.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit weniger Seetang.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit der Standardmenge an Seetang, basierend auf der Menge, die Ihr normalerweise mit 'Sukritacts Oceans' erhalten würdet.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Seetang.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit noch mehr Seetang.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_RAIN_NAME" Language="de_DE">
+			<Text>Wie 'Niederschlag'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPLEVEL_RAIN_DESC" Language="de_DE">
+			<Text>Verwendet 'Niederschlag', um die Menge an Seetang einzustellen, genau wie bei 'Sukritact's Oceans'.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr es vorzieht, sowohl 'Niederschlag' als auch 'Menge an Seetang' mit einer einzigen Option zu steuern.</Text>
+		</Replace>
+		
+		<!-- Kelp Forests from Suk's Oceans -->
+		<Replace Tag="LOC_GL_KELPFORESTS_NAME" Language="de_DE">
+			<Text>Seetangwälder</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_DESC" Language="de_DE">
+			<Text>Passt die Seetangwälder von 'Sukritact's Oceans' an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_NONE_DESC" Language="de_DE">
+			<Text>Es werden keine Seetangwälder hervorgebracht.[NEWLINE][NEWLINE]Wirkt sich nur aus, wenn der Spielmodus 'Sukritact's Oceans' aktiviert ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_STD_NAME" Language="de_DE">
+			<Text>Standard ('Sukritact's Oceans')</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_STD_DESC" Language="de_DE">
+			<Text>Die Standard-Seetangwälder, die Ihr mit 'Sukritact's Oceans' hervorbringt. Alle Seetangwälder grenzen an Land.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_CREEP_NAME" Language="de_DE">
+			<Text>Seetangblüte</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_CREEP_DESC" Language="de_DE">
+			<Text>Ermöglicht das Hervorbringen von Seetangwäldern auch in seichtem Wasser, das nicht an Land angrenzt.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine zusätzliche Herausforderung für die Erkundung durch Seefahrt bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_RANDSC_NAME" Language="de_DE">
+			<Text>Zufällig 'Standard'/'Seetangblüte'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_KELPFORESTS_RANDSC_DESC" Language="de_DE">
+			<Text>Wählt zufällig zwischen 'Standard' und 'Seetangblüte'.[NEWLINE][NEWLINE]Ihr müsst den Spielmodus 'Sukritact's Oceans' aktivieren, um Seetangwälder hervorbringen zu können.</Text>
+		</Replace>
+		
+		<!-- Climate Granularity -->
+		<Replace Tag="LOC_GL_CLIMGRAN_NAME" Language="de_DE">
+			<Text>Klimakörnigkeit</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_DESCRIPTION" Language="de_DE">
+			<Text>Passt die Körnigkeit der Fraktale an, die die Gelände bzw. Geländearten steuern.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_VCOARSE_NAME" Language="de_DE">
+			<Text>Sehr grob</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_VCOARSE_DESC" Language="de_DE">
+			<Text>Einige sehr große Gelände-/Geländearten-Bereiche, um die Welt in verschiedene Subklimazonen zu unterteilen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr große Flächen mit passendem Gelände (das wahrscheinlich nett aussieht) einer ausgewogenen Karte vorzieht.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_COARSE_NAME" Language="de_DE">
+			<Text>Grob</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_COARSE_DESC" Language="de_DE">
+			<Text>Weniger, aber größere Gelände-/Geländearten-Bereiche, um die Welt in verschiedene Subklimata zu unterteilen.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_STANDARD_DESC" Language="de_DE">
+			<Text>Mittelgroße Gelände-/Geländearten-Bereiche, vergleichbar mit dem Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_FINE_NAME" Language="de_DE">
+			<Text>Fein</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_FINE_DESC" Language="de_DE">
+			<Text>Viele kleine Gelände-/Geländearten-Bereiche zur Schaffung eines ausgewogenen globalen Klimas.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_VFINE_NAME" Language="de_DE">
+			<Text>Sehr fein</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_VFINE_DESC" Language="de_DE">
+			<Text>Viele winzige Gelände-/Geländearten-Bereiche, um ein homogenes globales Klima zu schaffen.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr eine ausgewogene Karte den hübscheren Geländemustern vorzieht.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_MIXEDCF_NAME" Language="de_DE">
+			<Text>Gemischt von 'Grob' bis 'Fein'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_MIXEDCF_DESC" Language="de_DE">
+			<Text>Wählt per Zufall eine Körnigkeit zwischen 'Grob', 'Standard' und 'Fein' für jede Schicht Gelände bzw. Geländeart (Wüsten, Steppen/Grasland, Schnee/Tundra, Pole mit gekippter Achse, Dschungel, Wälder, Sumpf und Eis). Ein höchst unvorhersehbares Klimamuster![NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr das Klima auf Eurer Karte etwas chaotischer gestalten wollt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_MIXED_NAME" Language="de_DE">
+			<Text>Gemischt</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_MIXED_DESC" Language="de_DE">
+			<Text>Wählt eine zufällige Körnigkeit für jedes Gelände und jede Geländeart (Wüsten, Steppen/Grasland, Schnee/Tundra, Pole mit gekippter Achse, Dschungel, Wälder, Sumpf und Eis). Ein wirklich unvorhersehbares Klimamuster![NEWLINE][NEWLINE]Empfohlen, wenn Ihr extrem zufällige Klimata bevorzugt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_RANDOMCF_NAME" Language="de_DE">
+			<Text>Zufällig von 'Grob' bis 'Fein'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CLIMGRAN_RANDOMCF_DESC" Language="de_DE">
+			<Text>Wählt nach dem Zufallsprinzip zwischen 'Grob', 'Standard' und 'Fein'.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine mäßig zufällige Körnigkeit bevorzugt.</Text>
+		</Replace>
+		
+		<!-- Grass/Plains mix -->
+		<Replace Tag="LOC_GL_GRASSPLAINS_NAME" Language="de_DE">
+			<Text>Gras/Steppe-Mischung</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_DESCRIPTION" Language="de_DE">
+			<Text>Passt das Gleichgewicht zwischen Gras und Steppe an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_VLOW_NAME" Language="de_DE">
+			<Text>Viel mehr Gras</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit viel mehr Gras und viel weniger Steppe.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_LOW_NAME" Language="de_DE">
+			<Text>Mehr Gras</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Gras und weniger Steppe.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit dem üblichen Gleichgewicht zwischen Gras und Steppe.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_HIGH_NAME" Language="de_DE">
+			<Text>Mehr Steppe</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Steppe und weniger Gras.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_VHIGH_NAME" Language="de_DE">
+			<Text>Viel mehr Steppe</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit viel mehr Steppe und viel weniger Gras.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_RANDLH_NAME" Language="de_DE">
+			<Text>Zufällig 'Mehr Gras' bis 'Mehr Steppe'.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_GRASSPLAINS_RANDLH_DESC" Language="de_DE">
+			<Text>Wählt zufällig zwischen 'Mehr Gras', 'Standard' und 'Mehr Steppe'.</Text>
+		</Replace>
+		
+		<!-- Forest/Jungle mix -->
+		<Replace Tag="LOC_GL_FORESTJUNGLE_NAME" Language="de_DE">
+			<Text>Wald/Dschungel-Mischung</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_DESCRIPTION" Language="de_DE">
+			<Text>Passt das Gleichgewicht zwischen Wald und Dschungel an.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_VLOW_NAME" Language="de_DE">
+			<Text>Viel mehr Wald</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_VLOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit viel mehr Wald und viel weniger Dschungel.[NEWLINE][NEWLINE]Wenn die Karte keinen Dschungel mehr hat, dann wird einfach mehr Wald hinzugefügt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_LOW_NAME" Language="de_DE">
+			<Text>Mehr Wald</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_LOW_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Wald und weniger Dschungel.[NEWLINE][NEWLINE]Wenn die Karte keinen Dschungel mehr hat, dann wird einfach mehr Wald hinzugefügt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_STANDARD_DESC" Language="de_DE">
+			<Text>Eine Karte mit dem üblichen Gleichgewicht zwischen Wald und Dschungel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_HIGH_NAME" Language="de_DE">
+			<Text>Mehr Dschungel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_HIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit mehr Dschungel und weniger Wald.[NEWLINE][NEWLINE]Wenn die Karte keinen Wald mehr hat, dann wird einfach mehr Dschungel hinzugefügt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_VHIGH_NAME" Language="de_DE">
+			<Text>Viel mehr Dschungel</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_VHIGH_DESC" Language="de_DE">
+			<Text>Eine Karte mit viel mehr Dschungel und viel weniger Wald.[NEWLINE][NEWLINE]Wenn die Karte keinen Wald mehr hat, dann wird einfach mehr Dschungel hinzugefügt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_RANDLH_NAME" Language="de_DE">
+			<Text>Zufällig von 'Mehr Wald' bis 'Mehr Dschungel'</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FORESTJUNGLE_RANDLH_DESC" Language="de_DE">
+			<Text>Wählt zufällig zwischen 'Mehr Wald', 'Standard' und 'Mehr Dschungel'.</Text>
+		</Replace>
+		
+		<!-- Biodiversity -->
+		<Replace Tag="LOC_GL_BIODIV_NAME" Language="de_DE">
+			<Text>Biodiversität</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_DESCRIPTION" Language="de_DE">
+			<Text>Kontrolliert die Vielfalt der Kombinationen aus Gelände und Geländearten.[NEWLINE][NEWLINE][Color:Civ6Blue]Anmerkung: Die Schreibweise der Kombinationen ist 'Gelände-Geländeart', z. B. bedeutet 'Gras-Dschungel' Grasland (Gelände) UNTER Dschungel (Geländeart) oder anders ausgedrückt: Dschungel (Geländeart) AUF Grasland (Gelände).[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_VLOW_DESC" Language="de_DE">
+			<Text>Keine dieser Gelände-Geländeart-Kombinationen: Gras-Dschungel, Steppen-Sümpfe, Tundra-Wälder, Wüsten-Oasen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr Euch mit einer ungewöhnlich kargen Karte herausfordern wollt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_LOW_DESC" Language="de_DE">
+			<Text>Keine dieser Gelände-Geländeart-Kombinationen: Gras-Dschungel, Steppen-Sümpfe (genau wie im Basisspiel).</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_STANDARD_DESC" Language="de_DE">
+			<Text>Die Standard-Biodiversität von 'Got Lakes'. Erlaubt die Gelände-Geländeart-Kombinationen Gras-Dschungel und Steppen-Sümpfe, abweichend vom Basisspiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_HIGH_DESC" Language="de_DE">
+			<Text>Die Standard-Biodiversität von 'Got Lakes' plus die Gelände-Geländeart-Kombinationen Wüsten-Dschungel und Schnee-Wälder.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_VHIGH_DESC" Language="de_DE">
+			<Text>Die Standard-Biodiversität von 'Got Lakes' plus die Gelände-Geländeart-Kombinationen Wüsten-Dschungel, Schnee-Wälder, Wüsten-Wälder und Schnee-Oasen.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr Gelände deaktiviert habt (siehe 'Keine Wüste', 'Kein Gras' etc.) oder wenn Ihr sicherstellen wollt, dass alle Gebiete Eurer Karte bewohnbar sind.</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_CLIMATE_NAME" Language="de_DE">
+			<Text>Klimabasiert</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_BIODIV_CLIMATE_DESC" Language="de_DE">
+			<Text>Biodiversität basierend auf dem Klima Eurer Welt. Erhöht die Biodiversität für extremere Klimate, um extremes Gelände zu kompensieren:[NEWLINE]- 'Standardklima' -> 'Standard'[NEWLINE]- 'Eiszeit' und 'Treibhaus' -> 'Hoch'[NEWLINE]- 'Schneeball' und 'Sandsturm' -> 'Sehr hoch'[NEWLINE][NEWLINE]Empfohlen, wenn Ihr die Biodiversität bevorzugt, die für das Klima Eurer Karte am sinnvollsten ist.</Text>
+		</Replace>
+
+		
+		<!-- Misc options -->
+        <Replace Tag="LOC_GL_CONNECTED_LANDS_NAME" Language="de_DE">
+			<Text>Verbundene Landflächen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CONNECTED_LANDS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, werden alle Landflächen zu einem ausgedehnten Pangäa verbunden. Bei 'Seen'- und 'Pangäa'-Landmassen werden dadurch auch zusätzliche Inseln mit der Landmasse verbunden.[NEWLINE][NEWLINE]Empfehlenswert, wenn Ihr die Idee mögt, eine beliebige Landmasse in ein Pangäa zu verwandeln oder wenn Ihr aufwändige Land/Wasser-Labyrinthe mögt![NEWLINE][NEWLINE]Hinweise:[NEWLINE]- Wenn 'Verbundene Wasserflächen' ebenfalls aktiviert ist, werden die verbundenen Landflächen durch zufällige Kanäle getrennt.[NEWLINE]- Wenn 'Isolierte Küsten' ebenfalls aktiviert ist, können die verbundenen Landflächen durch Tiefseegräben getrennt werden, abhängig von der Landmasse.[NEWLINE]- Bei der Landmasse 'Umgekehrte Extras' werden dadurch Inseln, die durch zusätzliche Seen entstanden sind, mit der Landmasse verbunden.[NEWLINE]- Der Meeresspiegel hat keinen Einfluss auf die Anzahl der Wasserfelder, die entfernt werden, um Landflächen zu verbinden.</Text>
+		</Replace>
+        
+		<Replace Tag="LOC_GL_CONNECTED_SEAS_NAME" Language="de_DE">
+			<Text>Verbundene Wasserflächen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_CONNECTED_SEAS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, werden alle Salzwasserfelder (und sogar einige Seen, abhängig von der Landmasse) mit Hilfe von zufällig platzierten Kanälen zu einem einzigen Gewässernetzwerk verbunden.[NEWLINE][NEWLINE]Empfohlen als Gleichgewichtskorrektur für Multiplayer-Spiele mit Zivilisationen, die Meeresküsten bevorzugen.[NEWLINE][NEWLINE]Hinweise:[NEWLINE]- Entfernt Küsteneis, um die Blockade von Verbindungskanälen zu verhindern.[NEWLINE]- Der Meeresspiegel hat keinen Einfluss auf die Anzahl der Wasserfelder, die zur Verbindung von Gewässern hinzugefügt werden.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_ISOLATED_COASTS_NAME" Language="de_DE">
+			<Text>Isolierte Küsten</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_ISOLATED_COASTS_DESC" Language="de_DE">
+			<Text>Wenn diese Option aktiviert ist, verhindert sie, dass die Küstenerweiterung Landflächen verbindet, die durch Ozean getrennt sind. Sie verhindert auch, dass zusätzliche Inseln die Küste der Landmasse von wasserreichen Karten erweitern.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr gerne tiefe Ozeane überquert.[NEWLINE][NEWLINE]Hinweise:[NEWLINE]- Landflächen, die durch weniger als drei Wasserfelder getrennt sind, teilen sich immer noch dieselbe Küste.[NEWLINE]- Hat keine Auswirkungen auf Seen.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_COASTAL_ICE_NAME" Language="de_DE">
+			<Text>Kein Küsteneis</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_COASTAL_ICE_DESCRIPTION" Language="de_DE">
+			<Text>Wenn diese Option aktiviert ist, wird das gesamte Eis aus Küstengewässer entfernt, das an Land grenzt.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine einfachere Erkundung durch die Seefahrt bevorzugt oder wenn Ihr die Möglichkeit einer Weltumsegelung erhöhen wollt, ohne diese tatsächlich zu erzwingen.</Text>
+		</Replace>
+        
+		<Replace Tag="LOC_GL_NO_COASTAL_MOUNTAINS_NAME" Language="de_DE">
+			<Text>Kein Küstengebirge (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_COASTAL_MOUNTAINS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, werden alle Küstengebirge durch Hügel ersetzt, genau wie im Basisspiel.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr eine einfachere Erkundung zu Lande und zu Wasser bevorzugt. Auch empfehlenswert, wenn Ihr versucht, Spieler auf einer Inselkarte zu isolieren, indem Ihr die Startpositionen der großen Zivilisationen auf 'Getrennte Gebiete' setzt, was verhindert, dass auf einer Insel mehrere Zivilisationen siedeln. Schließlich, wenn Ihr die Möglichkeit der Weltumsegelung erhöhen wollt, ohne diese tatsächlich zu erzwingen.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_DESERT_NAME" Language="de_DE">
+			<Text>Keine Wüste</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_DESERT_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird verhindert, dass WÜSTE auf der Karte erscheint, indem stattdessen ein anderes, aktiviertes Gelände verwendet wird. Wenn jedoch 'Keine Wüste', 'Kein Gras', 'Keine Steppe', 'Kein Schnee' und 'Keine Tundra' aktiviert sind, entfernt 'Got Lakes' zufällig 1-3 Gelände von der Karte.[NEWLINE][NEWLINE]Wenn 3 oder mehr Gelände deaktiviert sind, kompensiert 'Got Lakes' die fehlende Geländevielfalt, indem es strategische Ressourcen wie Pferde auf allen Geländen erscheinen lässt, die keine Küstentiefländer sind.[NEWLINE][NEWLINE][COLOR_RED]WARNUNG:[ENDCOLOR] Wenn diese Option aktiviert ist, kann dies zu schwierigen und/oder unausgewogenen Karten führen. Ihr solltet vielleicht zuerst die Optionen 'Klima', 'Temperatur' und 'Tundragürtel' ausprobieren, bevor Ihr Euch mit dieser Option beschäftigt.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_DESERT_FORESTS_NAME" Language="de_DE">
+			<Text>Keine Wüsten-Wälder (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_DESERT_FORESTS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt, um Wälder auf Wüste zu verhindern (genau wie im Basisspiel).</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_DESERT_JUNGLES_NAME" Language="de_DE">
+			<Text>Keine Wüsten-Dschungel (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_DESERT_JUNGLES_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt, um Dschungel auf Wüste zu verhindern (genau wie im Basisspiel).</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_DESERT_OASES_NAME" Language="de_DE">
+			<Text>Keine Wüsten-Oasen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_DESERT_OASES_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt, um Oasen auf Wüste zu verhindern.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_GRASS_NAME" Language="de_DE">
+			<Text>Kein Gras</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_GRASS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird verhindert, dass GRAS (Grasland) auf der Karte erscheint, indem stattdessen ein anderes, aktiviertes Gelände verwendet wird. Wenn jedoch 'Keine Wüste', 'Kein Gras', 'Keine Steppe', 'Kein Schnee' und 'Keine Tundra' aktiviert sind, entfernt 'Got Lakes' zufällig 1-3 Gelände von der Karte.[NEWLINE][NEWLINE]Wenn 3 oder mehr Gelände deaktiviert sind, kompensiert 'Got Lakes' die fehlende Geländevielfalt, indem es strategische Ressourcen wie Pferde auf allen Geländen erscheinen lässt, die keine Küstentiefländer sind.[NEWLINE][NEWLINE][COLOR_RED]WARNUNG:[ENDCOLOR] Wenn diese Option aktiviert ist, kann dies zu schwierigen und/oder unausgewogenen Karten führen. Ihr solltet vielleicht zuerst die Optionen 'Klima', 'Temperatur' und 'Tundragürtel' ausprobieren, bevor Ihr Euch mit dieser Option beschäftigt.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_GRASS_JUNGLES_NAME" Language="de_DE">
+			<Text>Keine Gras-Dschungel (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_GRASS_JUNGLES_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt und das gesamte Grasland unter Dschungel durch Steppe ersetzt, genau wie im Basisspiel.</Text>
+		</Replace>
+        
+		<Replace Tag="LOC_GL_NO_ICE_NAME" Language="de_DE">
+			<Text>Kein Eis</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_ICE_DESCRIPTION" Language="de_DE">
+			<Text>Wenn diese Option aktiviert ist, wird das gesamte Eis von der Karte entfernt.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_PLAINS_NAME" Language="de_DE">
+			<Text>Keine Steppe</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_PLAINS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird verhindert, dass STEPPE auf der Karte erscheint, indem stattdessen ein anderes, aktiviertes Gelände verwendet wird. Wenn jedoch 'Keine Wüste', 'Kein Gras', 'Keine Steppe', 'Kein Schnee' und 'Keine Tundra' aktiviert sind, entfernt 'Got Lakes' zufällig 1-3 Gelände von der Karte.[NEWLINE][NEWLINE]Wenn 3 oder mehr Gelände deaktiviert sind, kompensiert 'Got Lakes' die fehlende Geländevielfalt, indem es strategische Ressourcen wie Pferde auf allen Geländen erscheinen lässt, die keine Küstentiefländer sind.[NEWLINE][NEWLINE][COLOR_RED]WARNUNG:[ENDCOLOR] Wenn diese Option aktiviert ist, kann dies zu schwierigen und/oder unausgewogenen Karten führen. Ihr solltet vielleicht zuerst die Optionen 'Klima', 'Temperatur' und 'Tundragürtel' ausprobieren, bevor Ihr Euch mit dieser Option beschäftigt.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_PLAINS_MARSH_NAME" Language="de_DE">
+			<Text>Keine Steppen-Sümpfe (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_PLAINS_MARSH_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt und die gesamte Steppe unter Sumpf durch Grasland ersetzt, genau wie im Basisspiel.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_REEFS_NAME" Language="de_DE">
+			<Text>Keine Riffe</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_REEFS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, werden alle Riffe (außer Naturwunder) entfernt, was die Stabilität des Spiels zu verbessern scheint. Hat keine Auswirkung auf 'Vanilla'-Karten.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_SNOW_NAME" Language="de_DE">
+			<Text>Kein Schnee</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_SNOW_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird verhindert, dass SCHNEE auf der Karte erscheint, indem stattdessen ein anderes, aktiviertes Gelände verwendet wird. Wenn jedoch 'Keine Wüste', 'Kein Gras', 'Keine Steppe', 'Kein Schnee' und 'Keine Tundra' aktiviert sind, entfernt 'Got Lakes' zufällig 1-3 Gelände von der Karte.[NEWLINE][NEWLINE]Wenn 3 oder mehr Gelände deaktiviert sind, kompensiert 'Got Lakes' die fehlende Geländevielfalt, indem es strategische Ressourcen wie Pferde auf allen Geländen erscheinen lässt, die keine Küstentiefländer sind.[NEWLINE][NEWLINE][COLOR_RED]WARNUNG:[ENDCOLOR] Wenn diese Option aktiviert ist, kann dies zu schwierigen und/oder unausgewogenen Karten führen. Ihr solltet vielleicht zuerst die Optionen 'Klima', 'Temperatur' und 'Tundragürtel' ausprobieren, bevor Ihr Euch mit dieser Option beschäftigt.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_SNOW_FORESTS_NAME" Language="de_DE">
+			<Text>Keine Schnee-Wälder (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_SNOW_FORESTS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt, um Wälder auf Schnee zu verhindern.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_SNOW_OASES_NAME" Language="de_DE">
+			<Text>Keine Schnee-Oasen (Basisspiel)</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_SNOW_OASES_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt, um Oasen auf Schnee zu verhindern.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_TUNDRA_NAME" Language="de_DE">
+			<Text>Keine Tundra</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_TUNDRA_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird verhindert, dass TUNDRA auf der Karte erscheint, indem stattdessen ein anderes, aktiviertes Gelände verwendet wird. Wenn jedoch 'Keine Wüste', 'Kein Gras', 'Keine Steppe', 'Kein Schnee' und 'Keine Tundra' aktiviert sind, entfernt 'Got Lakes' zufällig 1-3 Gelände von der Karte.[NEWLINE][NEWLINE]Wenn 3 oder mehr Gelände deaktiviert sind, kompensiert 'Got Lakes' die fehlende Geländevielfalt, indem es strategische Ressourcen wie Pferde auf allen Geländen erscheinen lässt, die keine Küstentiefländer sind.[NEWLINE][NEWLINE][COLOR_RED]WARNUNG:[ENDCOLOR] Wenn diese Option aktiviert ist, kann dies zu schwierigen und/oder unausgewogenen Karten führen. Ihr solltet vielleicht zuerst die Optionen 'Klima', 'Temperatur' und 'Tundragürtel' ausprobieren, bevor Ihr Euch mit dieser Option beschäftigt.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GL_NO_TUNDRA_FORESTS_NAME" Language="de_DE">
+			<Text>Keine Tundra-Wälder</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_NO_TUNDRA_FORESTS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Biodiversität außer Kraft gesetzt, um Wälder auf Tundra zu verhindern.</Text>
+		</Replace>
+        
+        <Replace Tag="LOC_GL_SCRAMBLED_LUX_NAME" Language="de_DE">
+			<Text>Luxusressourcen-Durchmischung</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_SCRAMBLED_LUX_DESCRIPTION" Language="de_DE">
+			<Text>Wenn diese Option aktiviert ist, werden Gelände- und Geländeart-Informationen in XML-Dateien zur Verteilung von Luxusressourcen auf Landflächen ignoriert. Stattdessen wird das folgende, einfache Regelwerk angewandt:[NEWLINE][NEWLINE]'Erlaube jedes passierbare Nicht-Küstentiefland-Gelände außer Schnee* und darauf jede Geländeart außer Oase, Geothermischer Riss und Naturwunder.'[NEWLINE][NEWLINE]Das stellt sicher, dass alle Klimazonen eine angemessene Verteilung von Luxusressourcen haben.[NEWLINE][NEWLINE](*)Es sei denn, die überwiegende Mehrheit des Geländes auf Eurer Karte ist Schnee - in diesem Fall werden Luxusressourcen auf Schnee ausnahmsweise erlaubt.[NEWLINE][NEWLINE]Empfohlen, wenn keine ins Ressourcenmanagement eingreifenden Mods aktiviert sind oder wenn Ihr einfach eine fantasievollere Karte erzeugen wollt.</Text>
+		</Replace>
+		
+        <Replace Tag="LOC_GL_THIN_MTNCLUMP_EDGES_NAME" Language="de_DE">
+			<Text>Schmalere Bergumrandungen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_THIN_MTNCLUMP_EDGES_DESC" Language="de_DE">
+			<Text>Wenn diese Option aktiviert ist, werden schmalere Bergumrandungen für Labyrinthe und Talkessel erstellt. Die Ränder sind dann nur 1-2 Felder breit, anstatt der normalen Breite von 2-4 Feldern. Das hat keine Auswirkung auf volle Bergmassive.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr gerne Tunnel baut und/oder aufwändige Gebirgslabyrinthe erforscht.</Text>
+		</Replace>
+        
+        <Replace Tag="LOC_GL_FRESH_LAKES_NAME" Language="de_DE">
+			<Text>Verwandle Meere in Seen</Text>
+		</Replace>
+		<Replace Tag="LOC_GL_FRESH_LAKES_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, werden die meisten - wenn nicht alle - Salzgewässer der Welt durch Ansammlungen von Süßwasserseen ersetzt.[NEWLINE][NEWLINE]Empfohlen, wenn Ihr komplizierte Netzwerke von Landbrücken über Ozeane bevorzugt oder wenn Ihr es leid seid, Euch mit all dem langweiligen Salzwasser auf Euren Karten zu beschäftigen oder wenn Ihr einfach wollt, dass der Name dieses Mods einen Sinn ergibt :-)[NEWLINE][NEWLINE]Hinweise:[NEWLINE]- Wenn 'Verbundene Wasserflächen' aktiviert ist, werden die einzelnen Süßwasserseen wieder zu einem ausgeklügelten Salzwasserlabyrinth verbunden! Außerdem werden sich schlängelnde Flachwasserbarrieren zwischen den Landmassen bzw. Extras und dem Salzwasserlabyrinth hinzugefügt.[NEWLINE]- Wenn 'Isolierte Küsten' aktiviert ist, trennen sich schlängelnde Tiefseegräben die Landmassen bzw. Extras von den Ansammlungen von Süßwasserseen.[NEWLINE]- Alle Ränder oder zufälligen Seewege, die durch die Option 'Weltumsegelung' hinzugefügt wurden, bleiben intakt, wenn diese Option aktiviert wird.[NEWLINE]- Der Meeresspiegel hat keinen Einfluss auf diese Option.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

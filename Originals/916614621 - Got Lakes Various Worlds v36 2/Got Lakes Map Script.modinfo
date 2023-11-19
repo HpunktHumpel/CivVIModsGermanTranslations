@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cf175214-1aa7-4f5d-afd6-5fa226a14b5e" version="36.2">
+	<Properties>
+	    <Name>[COLOR_GREEN]Got Lakes (Various Worlds) v36.2[ENDCOLOR]</Name>
+		<Description>[COLOR_GREEN]Tired of playing the same old maps?[ENDCOLOR] Choose from 24 landmasses and dozens of other options, or go completely random and surprise yourself with millions of possible combinations! For details, please visit this mod's page on the Steam Workshop.</Description>
+		<Teaser>Quench your thirst for exploration with the endless possibilities of this map script!</Teaser>
+		<Authors>Scrum Lord</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+        <SubscriptionID>916614621</SubscriptionID>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<EnabledAtStartup>0</EnabledAtStartup>
+		<EnabledByDefault>1</EnabledByDefault>
+        <SupportsHotSeat>1</SupportsHotSeat>
+        <SupportsMultiplayer>1</SupportsMultiplayer>
+        <SupportsSinglePlayer>1</SupportsSinglePlayer>
+	</Properties>
+    <FrontEndActions>
+        <UpdateDatabase id="GotLakes_Config">
+          <Properties>
+            <LoadOrder>9000001</LoadOrder>
+          </Properties>
+          <File>GotLakes_MapScripts.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="GotLakes_Config_Text">
+          <Properties>
+            <LoadOrder>9000001</LoadOrder>
+          </Properties>
+          <File>GotLakes_AdvancedSetup_Text.xml</File>
+        </UpdateText>
+    </FrontEndActions>
+    <Components>
+        <ImportFiles id="GotLakes_FileImport">
+            <Items>
+				<File>GotLakes.lua</File>
+				<File>GotLakes_ASP.lua</File>
+				<File>GotLakes_Circumnavigation.lua</File>
+                <File>GotLakes_CoastalLowlands.lua</File>
+				<File>GotLakes_Coasts.lua</File>
+				<File>GotLakes_Extras.lua</File>
+				<File>GotLakes_FeatureGen.lua</File>
+                <File>GotLakes_MountainsHills.lua</File>
+				<File>GotLakes_Options.lua</File>
+				<File>GotLakes_PassMaker.lua</File>
+				<File>GotLakes_RiversLakes.lua</File>
+				<File>GotLakes_StartBiasAnalyzer.lua</File>
+				<File>GotLakes_StartBiasSolver.lua</File>
+				<File>GotLakes_TerrainGen.lua</File>
+				<File>GotLakes_Utils.lua</File>
+            </Items>
+        </ImportFiles>
+    </Components>
+	<Files>
+		<File>GotLakes.lua</File>
+		<File>GotLakes_AdvancedSetup_Text.xml</File>
+		<File>GotLakes_ASP.lua</File>
+		<File>GotLakes_Circumnavigation.lua</File>
+        <File>GotLakes_CoastalLowlands.lua</File>
+		<File>GotLakes_Coasts.lua</File>
+		<File>GotLakes_Extras.lua</File>
+		<File>GotLakes_FeatureGen.lua</File>
+		<File>GotLakes_MapScripts.xml</File>
+        <File>GotLakes_MountainsHills.lua</File>
+		<File>GotLakes_Options.lua</File>
+		<File>GotLakes_PassMaker.lua</File>
+		<File>GotLakes_RiversLakes.lua</File>
+		<File>GotLakes_StartBiasAnalyzer.lua</File>
+		<File>GotLakes_StartBiasSolver.lua</File>
+		<File>GotLakes_TerrainGen.lua</File>
+		<File>GotLakes_Utils.lua</File>
+    </Files>
+</Mod>

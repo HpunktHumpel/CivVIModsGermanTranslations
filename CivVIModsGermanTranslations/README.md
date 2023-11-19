@@ -9,6 +9,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 899159291  | Sukritact's Fuji | sukritact | Junky | #19
 902785246  | Sukritact's Tonlé Sap | sukritact | Junky | #19
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
+916614621 | Got Lakes (Various Worlds) | Scrum Lord | ASM590319 | **NEW**
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
 939149009  | Sukritact's Simple UI Adjustments | sukritact | Junky | #12
