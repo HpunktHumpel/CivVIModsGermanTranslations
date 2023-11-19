@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="650acf46-13f9-4f07-910e-03c036918d75" version="1">
+  <Properties>
+    <Name>Sukritact's Te Otukapuarangi</Name>
+    <Description>Adds Te Otukapuarangi to the game as a new Natural Wonder.</Description>
+    <Created>1695538399</Created>
+    <Teaser>Adds Te Otukapuarangi to the game as a new Natural Wonder.</Teaser>
+    <Authors>Sukritact, Lime,</Authors>
+    <SpecialThanks>Pouakai</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="SelectNaturalWonders++">
+      <ModInUse>14393f83-3f48-4b36-9821-dfc21d3eb229</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <File>Core/Suk_TeOtukapuarangi_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <File>Core/Suk_TeOtukapuarangi_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <File>Core/Suk_TeOtukapuarangi_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Te_Otukapuarangi.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_TeOtukapuarangi_Features.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_TeOtukapuarangi_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Core/Suk_TeOtukapuarangi_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact_s_Te_Otukapuarangi.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <File>Lua/Suk_TeOtukapuarangi_CoreFunctions.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="UpdateCustomPlacement">
+      <Properties>
+        <LoadOrder>11</LoadOrder>
+      </Properties>
+      <Criteria>SelectNaturalWonders++</Criteria>
+      <File>Core/Suk_TeOtukapuarangi_CustomPlacement.sql</File>
+    </UpdateDatabase>
+    <ImportFiles id="ImportFiles">
+      <File>Lua/NaturalWonderGenerator_Suk_TeOtukapuarangi.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Features.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/TerrainStyle.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/Suk_TeOtukapuarangi_Config.sql</File>
+    <File>Core/Suk_TeOtukapuarangi_CustomPlacement.sql</File>
+    <File>Core/Suk_TeOtukapuarangi_Features.sql</File>
+    <File>Core/Suk_TeOtukapuarangi_Icons.sql</File>
+    <File>Core/Suk_TeOtukapuarangi_Localisation.sql</File>
+    <File>Lua/NaturalWonderGenerator_Suk_TeOtukapuarangi.lua</File>
+    <File>Lua/Suk_TeOtukapuarangi_CoreFunctions.lua</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Suk_PinkWhiteTerraces_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Suk_PinkWhiteTerraces_DecalAtlas_basecolor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Mountain_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_AO</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_DecalAtlas_basecolor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_DecalAtlas_height</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Grass_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterPamukkale_Density_DarkMap_0xff3c7819</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterPamukkale_Density_ScatterMap_0xff3c7819</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Suk_PinkWhiteTerraces_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Suk_PinkWhiteTerraces_DecalAtlas_basecolor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TER_Mountain_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_AO</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_DecalAtlas_basecolor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_DecalAtlas_height</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_PinkWhiteTerraces_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Grass_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Mountain_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterPamukkale_Density_DarkMap_0xff3c7819</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterPamukkale_Density_ScatterMap_0xff3c7819</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_features.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact_s_Te_Otukapuarangi.dep</File>
+  </Files>
+</Mod>

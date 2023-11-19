@@ -254,3 +254,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2973448849 | Great Sovereigns | Plati | Junky | #25
 2984762028 | Sukritact's Angel Falls (Kerepakupai Merú) | Sukritact | ASM590319 | #26
 2997927787 | Top Panel Extension Pro | 号码菌 | ASM590319 | #27
+3040385614 | Sukritact's Te Otukapuarangi | Sukritact, Lime, | ASM590319 | **NEW**

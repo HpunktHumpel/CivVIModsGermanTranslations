@@ -2,6 +2,7 @@
 
 - [NEW] Better Tech Tree (UI) (vom 29. Nov. 2020 um 20:50, Übersetzung von ASM590319)
 - [NEW] Got Lakes (Various Worlds) v36.1 (vom 15. Mai 2023 um 12:44, Übersetzung von ASM590319)
+- [NEW] Sukritact's Te Otukapuarangi (vom 24. Sep. 2023 um 8:55, Übersetzung von ASM590319)
 
 
 ===== Version 27 =====

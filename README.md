@@ -218,6 +218,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Sukritact's Resources (Deliverator23 & sukritact | Junky)
 1. Sukritact's Robespierre (France) (sukritact | Junky)
 1. Sukritact's Simple UI Adjustments (sukritact | Junky)
+1. Sukritact's Te Otukapuarangi (Sukritact, Lime, | ASM590319)
 1. Sukritact's Tonlé Sap (sukritact | Junky)
 1. Sukritact's Tourism Overview Screen (Sukritact | Junky)
 1. Sukritact's Wat Arun (sukritact | H.Humpel)
