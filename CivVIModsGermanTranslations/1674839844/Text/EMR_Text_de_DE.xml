@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>	<!-- ASM Montag, 21. August 2023, 10:15:42 -->
+<GameData>
+    <LocalizedText>
+        <!-- General -->
+        <Replace Tag="LOC_EMR_TITLE" Language="de_DE">
+            <Text>Zusätzliche Berichte</text>
+        </Replace>
+        <Replace Tag="LOC_REPORTS_LIST_EMR" Language="de_DE">
+            <Text>Zusätzliche Berichte:</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_REPORTS_TITLE" Language="de_DE">
+            <Text>Zusätzliche Berichte</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_PARAM_HIDE_UNMET_CIVS" Language="de_DE">
+            <Text>Unbekannte Ziv. ausblenden:</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_UNKNOWN" Language="de_DE">
+            <Text>Unbekannt</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_DEMOGRAPHICS" Language="de_DE">
+            <Text>Demografie</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_GRAPHS" Language="de_DE">
+            <Text>Diagramm</text>
+        </Replace>
+        <!-- Diplomacy Page -->
+        <Replace Tag="LOC_EMR_CIV" Language="de_DE">
+            <Text>Zivilisation</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_GOVERNMENT" Language="de_DE">
+            <Text>Regierung</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_WONDERS" Language="de_DE">
+            <Text>Wunder</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_DIPLOMACY" Language="de_DE">
+            <Text>Diplomatie</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_CIVIC_ERA" Language="de_DE">
+            <Text>Ausrichtungszeitalter:</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_TECH_ERA" Language="de_DE">
+            <Text>Technologiezeitalter:</text>
+        </Replace>
+        
+        <Replace Tag="LOC_EMR_TURNS" Language="de_DE">
+            <Text>verbleibende Runden</text>
+        </Replace>        
+        <Replace Tag="LOC_EMR_AT_WAR" Language="de_DE">
+            <Text>Im Krieg mit</text>
+        </Replace>       
+        <Replace Tag="LOC_EMR_FRIENDS" Language="de_DE">
+            <Text>Befreundet mit</text>
+        </Replace>       
+        <Replace Tag="LOC_EMR_ALLIED" Language="de_DE">
+            <Text>Verbündet mit</text>
+        </Replace>        
+        <Replace Tag="LOC_EMR_DENOUNCED" Language="de_DE">
+            <Text>Denunziert</Text>
+        </Replace>       
+        <Replace Tag="LOC_EMR_DENOUNCED_BY" Language="de_DE">
+            <Text>Denunziert von</Text>
+        </Replace>           
+        <Replace Tag="LOC_EMR_SUEZERAIN" Language="de_DE">
+            <Text>Suzerän von</Text>
+        </Replace> 
+        
+        <!-- Hotkeys -->
+        <Replace Tag="LOC_EMR_CONFIG_CATEGORY" Language="de_DE">
+            <Text>Zusätzliche Berichte</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_SCREEN_HOTKEY" Language="de_DE">
+            <Text>Zusätzliche Berichte</text>
+        </Replace>
+        <Replace Tag="LOC_EMR_SCREEN_HOTKEY_DESC" Language="de_DE">
+            <Text>Bildschirm mit zusätzlichen Berichten anzeigen.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

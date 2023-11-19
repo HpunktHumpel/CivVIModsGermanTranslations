@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="61fc740b-3a39-4d04-b578-8b41068c2fa2">
+  <Properties>
+    <Name>Even More Reports</Name>
+    <Description>Adds Demographics, Diplomacy and Graphs reports.</Description>
+    <Teaser>Adds Demographics, Diplomacy and Graphs reports.</Teaser>
+    <Authors>Faronizer</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateText id="EMR_UpdateText">
+        <File>Text/EMR_Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="EMR_UpdateDatabase">
+      <File>EMR_Hotkeys.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <ImportFiles id="EMR_ImportFiles">
+      <Properties>
+        <LoadOrder>1001</LoadOrder>
+      </Properties>
+      <File>EMR_Options.xml</File>
+    </ImportFiles>
+    <UpdateDatabase id="EMR_UpdateDatabase">
+        <File>EMR_Version.sql</File>
+    </UpdateDatabase>
+    <!--
+    <ReplaceUIScript id="EMR_ReplaceReportScreen">
+        <Properties>
+            <LoadOrder>1000</LoadOrder>
+            <LuaContext>ReportScreen</LuaContext>
+            <LuaReplace>ReportScreen_EMR.lua</LuaReplace>
+        </Properties>
+    </ReplaceUIScript>
+    -->
+    <AddUserInterfaces id="EMR_AddUserInterfaces">
+        <Properties>
+            <Context>InGame</Context>
+            <LoadOrder>1000</LoadOrder>
+        </Properties>
+        <File>EMR_Options.xml</File>
+        <File>EMR_Screen.xml</File>
+        <File>EMR_ReportsList.xml</File>
+        <File>EMR_Demographics.xml</File>
+        <File>EMR_Diplomacy.xml</File>
+        <File>EMR_Graphs.xml</File>
+    </AddUserInterfaces>
+    <ReplaceUIScript id="EMR_ReplaceReportsList">
+        <Properties>
+            <LoadOrder>1000000</LoadOrder>
+            <LuaContext>ReportsList</LuaContext>
+            <LuaReplace>ReportsList_EMR.lua</LuaReplace>
+        </Properties>
+    </ReplaceUIScript>
+    <UpdateText id="EMR_UpdateText">
+        <File>Text/EMR_Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>EMR_Version.sql</File>
+    <File>EMR_Hotkeys.xml</File>
+    <File>EMR_Screen.lua</File>
+    <File>EMR_Screen.xml</File>
+    <File>EMR_ReportsList.lua</File>
+    <File>EMR_ReportsList.xml</File>
+    <File>EMR_Options.lua</File>
+    <File>EMR_Options.xml</File>
+    <File>EMR_Demographics.lua</File>
+    <File>EMR_Demographics.xml</File>
+    <File>EMR_Diplomacy.lua</File>
+    <File>EMR_Diplomacy.xml</File>
+    <File>EMR_Graphs.lua</File>
+    <File>EMR_Graphs.xml</File>
+    <File>ReportsList_EMR.lua</File>
+    <File>ReportScreen_EMR.lua</File>
+    <File>Text/EMR_Text.xml</File>
+  </Files>
+</Mod>

@@ -62,6 +62,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
 1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | #13
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
+1674839844 | Even More Reports | Faronizer | ASM590319 | **NEW**
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1677687338 | District-Themed Recruiting | JNR | Junky | #12
 1681965868 | AOK_Units | anders | H.Humpel | #9
