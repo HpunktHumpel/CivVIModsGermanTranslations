@@ -5,6 +5,7 @@
 - [NEW] Got Lakes (Various Worlds) v36.1 (vom 15. Mai 2023 um 12:44, Übersetzung von ASM590319)
 - [NEW] Real Era Tracker (vom 16. Apr. 2023 um 20:06, Übersetzung von ASM590319)
 - [NEW] Sukritact's Te Otukapuarangi (vom 24. Sep. 2023 um 8:55, Übersetzung von ASM590319)
+- [NEW] Tech Civic Progress Plus (vom 17. Okt. 2021 um 14:05, Übersetzung von ASM590319)
 
 
 ===== Version 27 =====

@@ -173,6 +173,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2569473644 | Greatest Cities Rewards | Technoluddite | Junky | #23
 2581704421 | What Did I Promise? | Technoluddite | Junky | #7
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
+2604740398 | Tech Civic Progress Plus | Firstborn, DeepLogic | ASM590319 | **NEW**
 2608223282 | Thrones and Palaces | Technoluddite | Junky | #7
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel | #1
 2642534170 | Area 51 - World Wonder + Alien Units | JNR | H.Humpel | #10

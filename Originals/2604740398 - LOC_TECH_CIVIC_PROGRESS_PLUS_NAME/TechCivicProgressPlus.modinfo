@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8446e6e9-7703-434d-ba10-0bd70a291d28" version="1.2.3">
+  <Properties>
+  <Name>LOC_TECH_CIVIC_PROGRESS_PLUS_NAME</Name>
+  <Teaser>Shows techs and civics progress.</Teaser>
+  <Description>Shows techs and civics progress.</Description>
+  <Authors>Firstborn, DeepLogic</Authors>
+  <AffectsSavedGames>0</AffectsSavedGames>
+  <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_TECH_CIVIC_PROGRESS_PLUS_NAME">
+      <en_US>Tech Civic Progress Plus</en_US>
+      <zh_Hans_CN>显示科文进度（加强版）</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <InGameActions>
+    <UpdateText id="UpdateText">
+      <Properties><LoadOrder>5</LoadOrder></Properties>
+      <File>localization.sql</File>
+    </UpdateText>
+    <AddGameplayScripts id="CheckOverflow">
+      <Properties><LoadOrder>5</LoadOrder></Properties>
+      <File>CheckOverflow.lua</File>
+    </AddGameplayScripts>
+    <ImportFiles id="UpdateToolTip">
+      <Properties><LoadOrder>5</LoadOrder></Properties>
+      <File>UI/ToolTipLoader_TCP.lua</File>
+      <File>UI/ToolTipHelper_PlayerYields.lua</File>
+    </ImportFiles>
+  </InGameActions>
+
+  <Files>
+    <File>localization.sql</File>
+    <File>CheckOverflow.lua</File>
+    <File>UI/ToolTipLoader_TCP.lua</File>
+    <File>UI/ToolTipHelper_PlayerYields.lua</File>
+  </Files>
+</Mod>

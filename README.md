@@ -225,6 +225,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Sukritact's Tourism Overview Screen (Sukritact | Junky)
 1. Sukritact's Wat Arun (sukritact | H.Humpel)
 1. Take Over Production Queue (Jewbery | H.Humpel)
+1. Tech Civic Progress Plus (Firstborn, DeepLogic | ASM590319)
 1. Terra Mirabilis (Deliverator, ChimpanG | ASM590319)
 1. TCS Pedialite (thecrazyscotsman | ASM590319)
 1. The Draft (blkbutterfly | H.Humpel)
