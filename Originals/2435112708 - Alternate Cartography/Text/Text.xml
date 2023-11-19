@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: nundge -->
+<!-- DateCreated: 21/3/2018 9:29:55 AM -->
+<GameData>
+
+	<LocalizedText>
+		<Row Tag="LOC_MAP_FOLIAGE_NAME" Language="en_US">
+			<Text>Foliage</Text>
+		</Row>
+		<Row Tag="LOC_MAP_FOLIAGE_DESCRIPTION" Language="en_US">
+			<Text>Density of forests and jungles.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_GEOACTIVE_NAME" Language="en_US">
+			<Text>Geothermal Activity</Text>
+		</Row>
+		<Row Tag="LOC_MAP_GEOACTIVE_DESCRIPTION" Language="en_US">
+			<Text>Frequency at which volcanoes spawn.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_IMPACT_QUANTITY_NAME" Language="en_US">
+			<Text>Impact Sites</Text>
+		</Row>
+		<Row Tag="LOC_MAP_IMPACT_QUANTITY_DESCRIPTION" Language="en_US">
+			<Text>Number of ancient impact sites on the map.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_FALLOUT_QUANTITY_NAME" Language="en_US">
+			<Text>Fallout Range</Text>
+		</Row>
+		<Row Tag="LOC_MAP_FALLOUT_QUANTITY_DESCRIPTION" Language="en_US">
+			<Text>How far deadly radiative fallout has spread from the impact sites.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_FALLOUT_DURATION_NAME" Language="en_US">
+			<Text>Fallout Duration</Text>
+		</Row>
+		<Row Tag="LOC_MAP_FALLOUT_DURATION_DESCRIPTION" Language="en_US">
+			<Text>How long the radioactive fallout will take to dissipate.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_SURVIVING_INFRASTRUCTURE_NAME" Language="en_US">
+			<Text>Surviving Infrastructure</Text>
+		</Row>
+		<Row Tag="LOC_MAP_SURVIVING_INFRASTRUCTURE_DESCRIPTION" Language="en_US">
+			<Text>How well have the roads networks of the bygone civilizations fared across the eons.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_TERRAIN_RAND_NAME" Language="en_US">
+			<Text>Terrain Noise</Text>
+		</Row>
+		<Row Tag="LOC_MAP_TERRAIN_RAND_DESCRIPTION" Language="en_US">
+			<Text>Randomisation factor applied to the type of terrain seen as you move away from a volcano.</Text>
+		</Row>
+	</LocalizedText>
+	
+	<LocalizedText>
+		<Row Tag="LOC_MAP_HAS_POLES_NAME" Language="en_US">
+			<Text>Has Polar Ice Caps</Text>
+		</Row>
+		<Row Tag="LOC_MAP_HAS_POLES_DESCRIPTION" Language="en_US">
+			<Text>Toggle snow and tundra at the poles on and off.</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_MAP_WALL_THICKNESS_NAME" Language="en_US">
+			<Text>Ridge Prominence</Text>
+		</Row>
+		<Row Tag="LOC_MAP_WALL_THICKNESS_DESCRIPTION" Language="en_US">
+			<Text>Density of the mountain ranges which surround the land masses.</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_MAP_INT_SEA_LEVEL_NAME" Language="en_US">
+			<Text>Sea Level (Internal)</Text>
+		</Row>
+		<Row Tag="LOC_MAP_INT_SEA_LEVEL_DESCRIPTION" Language="en_US">
+			<Text>Area on the inside of land masses covered by water</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_EXT_SEA_LEVEL_NAME" Language="en_US">
+			<Text>Sea Level (External)</Text>
+		</Row>
+		<Row Tag="LOC_MAP_EXT_SEA_LEVEL_DESCRIPTION" Language="en_US">
+			<Text>Regular sea level on the outside of land masses</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_RIVERS_NAME" Language="en_US">
+			<Text>Rivers</Text>
+		</Row>
+		<Row Tag="LOC_MAP_RIVERS_DESCRIPTION" Language="en_US">
+			<Text>Modify the number of rivers that spawn.</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_MAP_TRIBAL_VILLAGE_NAME" Language="en_US">
+			<Text>Tribal Villages</Text>
+		</Row>
+		<Row Tag="LOC_MAP_TRIBAL_VILLAGE_DESCRIPTION" Language="en_US">
+			<Text>Modify the number of tribal villages that spawn.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_BONUS_RESOURCES_NAME" Language="en_US">
+			<Text>Bonus Resources</Text>
+		</Row>
+		<Row Tag="LOC_MAP_BONUS_RESOURCES_DESCRIPTION" Language="en_US">
+			<Text>Modify the quantity of bonus resources.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_LUXURY_RESOURCES_NAME" Language="en_US">
+			<Text>Luxury Resources</Text>
+		</Row>
+		<Row Tag="LOC_MAP_LUXURY_RESOURCES_DESCRIPTION" Language="en_US">
+			<Text>Modify the quantity of luxury resources.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_STRATEGIC_RESOURCES_NAME" Language="en_US">
+			<Text>Strategic Resources</Text>
+		</Row>
+		<Row Tag="LOC_MAP_STRATEGIC_RESOURCES_DESCRIPTION" Language="en_US">
+			<Text>Modify the quantity of strategic resources.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_WATER_RESOURCES_NAME" Language="en_US">
+			<Text>Water Resources</Text>
+		</Row>
+		<Row Tag="LOC_MAP_WATER_RESOURCES_DESCRIPTION" Language="en_US">
+			<Text>Modify the quantity of water resources.</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_MAP_WONDER_COUNT_NAME" Language="en_US">
+			<Text>Natural Wonders</Text>
+		</Row>
+		<Row Tag="LOC_MAP_WONDER_COUNT_DESCRIPTION" Language="en_US">
+			<Text>Modify the quantity of natural wonders which are allowed to spawn.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

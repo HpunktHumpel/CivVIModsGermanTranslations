@@ -148,6 +148,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2402394695 | District Expansion: Industry | JNR | Junky | #14
 2405084371 | Better Plantations-Policy Card | Burkart | H.Humpel | #23
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
+2435112708 | Alternate Cartography | Nundge | ASM590319 | **NEW**
 2435878977 | Zombie Worker & Zombie Power Plant | Flactine | H.Humpel | #19
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2444029678 | Upgrades Keep Unique Abilities | Sailor Cat | Junky | #18

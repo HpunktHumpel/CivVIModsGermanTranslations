@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text -->
+<!-- Author: nundge - ASM Montag, 21. August 2023, 01:33:06 -->
+<!-- DateCreated: 21/3/2018 9:29:55 AM -->
+<GameData>
+
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_FOLIAGE_NAME" Language="de_DE">
+			<Text>Vegetation:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FOLIAGE_DESCRIPTION" Language="de_DE">
+			<Text>Dichte von Wäldern und Dschungel.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_GEOACTIVE_NAME" Language="de_DE">
+			<Text>Geothermische Aktivität:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GEOACTIVE_DESCRIPTION" Language="de_DE">
+			<Text>Häufigkeit, mit der Vulkane entstehen.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_IMPACT_QUANTITY_NAME" Language="de_DE">
+			<Text>Einschlagstellen:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_IMPACT_QUANTITY_DESCRIPTION" Language="de_DE">
+			<Text>Anzahl der prähistorischen Einschlagstellen auf der Karte.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_FALLOUT_QUANTITY_NAME" Language="de_DE">
+			<Text>Fallout-Bereich:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FALLOUT_QUANTITY_DESCRIPTION" Language="de_DE">
+			<Text>Wie weit sich tödlicher, radioaktiver Fallout von den Einschlagstellen ausgebreitet hat.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_FALLOUT_DURATION_NAME" Language="de_DE">
+			<Text>Fallout-Dauer:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_FALLOUT_DURATION_DESCRIPTION" Language="de_DE">
+			<Text>Wie lange es dauert, bis der radioaktive Fallout zerfallen ist.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_SURVIVING_INFRASTRUCTURE_NAME" Language="de_DE">
+			<Text>Resistente Infrastruktur:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SURVIVING_INFRASTRUCTURE_DESCRIPTION" Language="de_DE">
+			<Text>Wie gut die Straßennetzwerke der vergangenen Zivilisationen die Zeitalter überstanden haben.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_TERRAIN_RAND_NAME" Language="de_DE">
+			<Text>Geländerauschen:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_TERRAIN_RAND_DESCRIPTION" Language="de_DE">
+			<Text>Zufallsfaktor für die visuelle Darstellung der Geländeart, die von einem Vulkan ausgeht.</Text>
+		</Replace>
+	</LocalizedText>
+	
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_HAS_POLES_NAME" Language="de_DE">
+			<Text>Polare Eiskappen:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_HAS_POLES_DESCRIPTION" Language="de_DE">
+			<Text>Schnee und Tundra an den Polen.</Text>
+		</Replace>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_WALL_THICKNESS_NAME" Language="de_DE">
+			<Text>Gebirgedichte:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WALL_THICKNESS_DESCRIPTION" Language="de_DE">
+			<Text>Dichte der Gebirgszüge, die die Landmassen umgeben.</Text>
+		</Replace>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_INT_SEA_LEVEL_NAME" Language="de_DE">
+			<Text>Meeresspiegel innerhalb:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_INT_SEA_LEVEL_DESCRIPTION" Language="de_DE">
+			<Text>Bereich innerhalb der Landmassen, der von Wasser bedeckt ist.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_EXT_SEA_LEVEL_NAME" Language="de_DE">
+			<Text>Meeresspiegel außerhalb:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EXT_SEA_LEVEL_DESCRIPTION" Language="de_DE">
+			<Text>Regulärer Meeresspiegel außerhalb der Landmassen.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_RIVERS_NAME" Language="de_DE">
+			<Text>Flüsse:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RIVERS_DESCRIPTION" Language="de_DE">
+			<Text>Anzahl der Flüsse, die entspringen.</Text>
+		</Replace>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_TRIBAL_VILLAGE_NAME" Language="de_DE">
+			<Text>Stammesdörfer:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_TRIBAL_VILLAGE_DESCRIPTION" Language="de_DE">
+			<Text>Anzahl der Stammesdörfer (Alte Ruinen), die entstehen.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_BONUS_RESOURCES_NAME" Language="de_DE">
+			<Text>Bonus-Ressourcen:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BONUS_RESOURCES_DESCRIPTION" Language="de_DE">
+			<Text>Menge der vorhandenen Bonus-Ressourcen.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_LUXURY_RESOURCES_NAME" Language="de_DE">
+			<Text>Luxus-Ressourcen:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LUXURY_RESOURCES_DESCRIPTION" Language="de_DE">
+			<Text>Menge der vorhandenen Luxus-Ressourcen.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_STRATEGIC_RESOURCES_NAME" Language="de_DE">
+			<Text>Strategische Ressourcen:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_STRATEGIC_RESOURCES_DESCRIPTION" Language="de_DE">
+			<Text>Menge der vorhandenen Strategischen Ressourcen.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_WATER_RESOURCES_NAME" Language="de_DE">
+			<Text>Wasser-Ressourcen:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WATER_RESOURCES_DESCRIPTION" Language="de_DE">
+			<Text>Menge der vorhandenen Ressourcen im Wasser.</Text>
+		</Replace>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_MAP_WONDER_COUNT_NAME" Language="de_DE">
+			<Text>Naturwunder:</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WONDER_COUNT_DESCRIPTION" Language="de_DE">
+			<Text>Anzahl der natürlichen Wunder auf der Karte.</Text>
+		</Replace>
+	</LocalizedText>
+
+</GameData>
