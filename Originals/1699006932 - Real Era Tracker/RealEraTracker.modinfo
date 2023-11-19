@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="11B9FBBE-25BD-7E24-3909-67A060B2456C" version="1">
+	<Properties>
+		<Name>Real Era Tracker</Name>
+		<Teaser>Shows a list of historic moments not yet earned.</Teaser>
+		<Description>Shows a list of historic moments not yet earned. Available in the Global Reports.[NEWLINE][NEWLINE]Requires [COLOR_Green]Rise &amp; Fall[ENDCOLOR] or [COLOR_Green]Gathering Storm[ENDCOLOR]. Version 1.4.</Description>
+		<Authors>Infixo</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+		<SubscriptionID>1699006932</SubscriptionID>
+	</Properties>
+	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+	</ActionCriteria>
+	<InGameActions>
+		<ImportFiles id="RET_Imports">
+			<File>Serialize.lua</File>
+		</ImportFiles>
+		<UpdateDatabase id="RET_UpdateDatabase_XP1" criteria="Expansion1">
+			<Properties><LoadOrder>1</LoadOrder></Properties>
+			<File>RealEraTracker_Database.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="RET_UpdateDatabase_XP2" criteria="Expansion2">
+			<Properties><LoadOrder>1</LoadOrder></Properties>
+			<File>RealEraTracker_Database.sql</File>
+		</UpdateDatabase>
+		<AddUserInterfaces id="RET_Main">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<File>RealEraTracker.xml</File>
+		</AddUserInterfaces>
+		<UpdateText id="RET_UpdateText">
+			<File>Text/RealEraTracker_Text.xml</File>
+		    <File>Text/RealEraTracker_Text_zh.xml</File>
+		</UpdateText>
+		<!-- reports list loader -->
+		<UpdateDatabase id="RLL_Database">
+			<File>RLL/ReportsListLoader.sql</File>
+		</UpdateDatabase>
+		<ImportFiles id="RLL_Imports">
+			<File>RLL/ReportsListLoader.lua</File>
+		</ImportFiles>
+		<ReplaceUIScript id="RLL_ReplaceUI_ReportsList">
+			<Properties>
+                <LoadOrder>99999</LoadOrder>
+				<LuaContext>ReportsList</LuaContext>
+				<LuaReplace>RLL/ReportsListLoader.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+    </InGameActions>
+    <Files>
+		<File>RealEraTracker_Database.sql</File>
+        <File>RealEraTracker.lua</File>
+        <File>RealEraTracker.xml</File>
+		<File>Serialize.lua</File>
+		<File>Text/RealEraTracker_Text.xml</File>
+		<File>Text/RealEraTracker_Text_zh.xml</File>
+		<!-- reports list loader -->
+		<File>RLL/ReportsListLoader.sql</File>
+		<File>RLL/ReportsListLoader.lua</File>
+    </Files>
+</Mod>

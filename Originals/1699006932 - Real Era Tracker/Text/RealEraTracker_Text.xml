@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Real Era Tracker     -->
+<!-- Author: Infixo       -->
+<!-- 2019-03-28: Created  -->
+
+<GameData>
+
+<BaseGameText>
+
+	<Row Tag="LOC_RET_WINDOW_TITLE">
+		<Text>Real Era Tracker</Text>
+	</Row>
+	<Row Tag="LOC_RET_BUTTON_LABEL">
+		<Text>Era Tracker</Text>
+	</Row>
+	<Row Tag="LOC_RET_WORLD">
+		<Text>World</Text>
+	</Row>
+	<Row Tag="LOC_RET_REPEATABLE">
+		<Text>Repeatable</Text>
+	</Row>
+	<Row Tag="LOC_RET_FAVORED">
+		<Text>Favored</Text>
+	</Row>
+	<Row Tag="LOC_RET_COUNT">
+		<Text>Count</Text>
+	</Row>
+	<Row Tag="LOC_RET_CHECKBOX_HIDE_NOT_ACTIVE">
+		<Text>Hide not active</Text>
+	</Row>
+	<Row Tag="LOC_RET_CHECKBOX_SHOW_ONLY_EARNED">
+		<Text>Show only earned</Text>
+	</Row>
+	<Row Tag="LOC_RET_CHECKBOX_HIDE_NOT_AVAILABLE">
+		<Text>Hide from different eras and currently not available</Text>
+	</Row>
+
+</BaseGameText>
+
+</GameData>

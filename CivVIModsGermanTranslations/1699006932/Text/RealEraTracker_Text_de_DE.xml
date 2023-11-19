@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Real Era Tracker     -->
+<!-- Author: Infixo - ASM Montag, 21. August 2023, 11:33:44 -->
+<!-- 2019-03-28: Created  -->
+
+<GameData>
+
+<LocalizedText>
+
+	<Replace Tag="LOC_RET_WINDOW_TITLE" Language="de_DE">
+		<Text>ZEITALTERPUNKTE</Text>
+	</Replace>
+	<Replace Tag="LOC_RET_BUTTON_LABEL" Language="de_DE">
+		<Text>Zeitalterpunkte</Text>
+	</Replace>
+
+	<Replace Tag="LOC_RET_FAVORED" Language="de_DE">
+		<Text>Bevorzugt</Text>
+	</Replace>
+	<Replace Tag="LOC_RET_WORLD" Language="de_DE">
+		<Text>Weltweit</Text>
+	</Replace>
+	<Replace Tag="LOC_RET_LOCAL" Language="de_DE">
+		<Text>Lokal</Text>
+	</Replace>
+	<Replace Tag="LOC_RET_REPEATABLE" Language="de_DE">
+		<Text>Wiederholbar</Text>
+	</Replace>
+
+	<Replace Tag="LOC_RET_CHECKBOX_HIDE_NOT_ACTIVE" Language="de_DE">
+		<Text>Nur Bevorstehende zeigen</Text>
+	</Replace>
+	<Replace Tag="LOC_RET_CHECKBOX_SHOW_ONLY_EARNED" Language="de_DE">
+		<Text>Nur Abgeschlossene zeigen</Text>
+	</Replace>
+	<Replace Tag="LOC_RET_CHECKBOX_HIDE_NOT_AVAILABLE" Language="de_DE">
+		<Text>Wiederholbare: Nicht mehr Verfügbare ausblenden</Text>
+	</Replace>
+
+	<Replace Tag="LOC_RET_COUNT" Language="de_DE">
+		<Text>Anzahl</Text>
+	</Replace>
+	<Replace Tag="LOC_POINT" Language="de_DE">
+		<Text>Punkt</Text>
+	</Replace>
+	<Replace Tag="LOC_POINTS" Language="de_DE">
+		<Text>Punkte</Text>
+	</Replace>
+
+</LocalizedText>
+
+</GameData>

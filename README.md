@@ -177,6 +177,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Radiant Better Unit Promotions (Shirohô | Junky)
 1. Raubak Natural Gas (Searching... | Junky)
 1. Real Era Stop (infixo | Junky)
+1. Real Era Tracker (Infixo | ASM590319)
 1. Real Governor Inspector (Infixo | ASM590319)
 1. Real Preserve (C1sen | ASM590319)
 1. Reindeer (AOM | Junky)

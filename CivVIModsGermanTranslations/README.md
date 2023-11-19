@@ -67,6 +67,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1681965868 | AOK_Units | anders | H.Humpel | #9
 1684182421 | Strategy Resources to Production | Windfly | ASM590319 | #26
 1684556488 | District Expansion: Goverment (Tier 4) | JNR | Junky | #12
+1699006932 | Real Era Tracker | Infixo | ASM590319 | **NEW**
 1699707052 | Environmentalistic Policy | weraptor | H.Humpel | #9
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
 1709115371 | Map Search Extension | _Zur13_ | ASM590319 | #27
