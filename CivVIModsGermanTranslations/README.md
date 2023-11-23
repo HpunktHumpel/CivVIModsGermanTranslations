@@ -104,6 +104,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
 1911190056 | Mechanized Builders | Masked Man | Junky | #15
+1923120175 | Compact Production Panel | Masked Man | ASM590319 | **NEW**
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
 1945460659 | Expanded Alliances | JNR | Junky | #12

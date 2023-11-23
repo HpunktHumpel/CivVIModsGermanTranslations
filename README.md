@@ -72,6 +72,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Coal Liquefaction Building (naed21 | H.Humpel)
 1. Coal Liquefaction Project (naed21 | H.Humpel)
 1. Coastline (Rdner | ASM590319)
+1. Compact Production Panel (Masked Man | ASM590319)
 1. Covfefe (DesertMoonGW | H.Humpel)
 1. Cree's Casino - Minor Buffs (Trexatron | H.Humpel)
 1. Decommission Power Plants (JNR | Junky)

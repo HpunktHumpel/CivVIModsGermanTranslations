@@ -1,0 +1,56 @@
+
+<GameData>
+	<BaseGameText>
+		
+		<Replace Tag="LOC_HUD_UNIT_PANEL_CORPS_SUFFIX">
+			<Text>[ICON_Corps]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_ARMY_SUFFIX">
+			<Text>[ICON_Army]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_FLEET_SUFFIX">
+			<Text>[ICON_Corps]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_ARMADA_SUFFIX">
+			<Text>[ICON_Army]</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_ENCAMPMENT_NAME">
+			<Text>Military Exercise</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_ENCAMPMENT_SHORT_NAME">
+			<Text>Military Exercise</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_NAME">
+			<Text>Industrial Logistics</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_SHORT_NAME">
+			<Text>Industrial Logistics</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB_NAME">
+			<Text>Commercial Investment</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB_SHORT_NAME">
+			<Text>Commercial Investment</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_NAME">
+			<Text>Holy Prayers</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_SHORT_NAME">
+			<Text>Holy Prayers</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_CAMPUS_NAME">
+			<Text>Research Grants</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_CAMPUS_SHORT_NAME">
+			<Text>Research Grants</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_THEATER_NAME">
+			<Text>Festival</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_THEATER_SHORT_NAME">
+			<Text>Festival</Text>
+		</Replace>
+		
+	</BaseGameText>
+</GameData>

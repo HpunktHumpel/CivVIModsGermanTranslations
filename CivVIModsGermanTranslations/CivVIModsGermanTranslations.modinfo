@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="28">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]258[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]259[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1700763565</Created>
+    <Created>1700764080</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Nundge, Oni, p0kiehl, peter.spjuth, Phantagonist, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -468,6 +468,9 @@
     </Criteria>
     <Criteria id="Coastline">
       <ModInUse>CA22B60D-94B9-40E1-BE22-F3DA8F31B60C</ModInUse>
+    </Criteria>
+    <Criteria id="CompactProductionPanel">
+      <ModInUse>f4ddbe8c-92ac-48fd-a9f1-1c152163cc9b</ModInUse>
     </Criteria>
     <Criteria id="Covfefe">
       <ModInUse>bdd02087-9d92-48f6-903c-bd85aea0bafd</ModInUse>
@@ -2412,6 +2415,10 @@
     <UpdateText id="Coastline_CoastlineText_de_DE">
       <Criteria>Coastline</Criteria>
       <File>2822229024/Coastline_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="CompactProductionPanel_id_update_textfiles_de_DE">
+      <Criteria>CompactProductionPanel</Criteria>
+      <File>1923120175/ReplacingText_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Covfefe_de_DE">
       <Criteria>Covfefe</Criteria>
@@ -4457,6 +4464,7 @@
     <File>1894176600/Text/Brandenburg_Gate_Text_de_DE.xml</File>
     <File>1901462404/Text/UC_SAT_Text_de_DE.sql</File>
     <File>1911190056/GameText1_de_DE.xml</File>
+    <File>1923120175/ReplacingText_de_DE.xml</File>
     <File>1935024345/Core/ModernInfantry_Text_de_DE.sql</File>
     <File>1935036456/Core/BarbarianRevenge_Text_de_DE.sql</File>
     <File>1945460659/Text/ALLY_Text_de_DE.sql</File>

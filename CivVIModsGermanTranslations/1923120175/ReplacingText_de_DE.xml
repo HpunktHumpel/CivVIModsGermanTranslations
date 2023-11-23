@@ -1,0 +1,56 @@
+
+<GameData>	<!-- ASM Montag, 21. August 2023, 01:10:18 -->
+	<LocalizedText>
+		
+		<Replace Tag="LOC_HUD_UNIT_PANEL_CORPS_SUFFIX" Language="de_DE">
+			<Text>[ICON_Corps]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_ARMY_SUFFIX" Language="de_DE">
+			<Text>[ICON_Army]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_FLEET_SUFFIX" Language="de_DE">
+			<Text>[ICON_Corps]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_UNIT_PANEL_ARMADA_SUFFIX" Language="de_DE">
+			<Text>[ICON_Army]</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_ENCAMPMENT_NAME" Language="de_DE">
+			<Text>Lagertraining</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_ENCAMPMENT_SHORT_NAME" Language="de_DE">
+			<Text>Lagertraining</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_NAME" Language="de_DE">
+			<Text>Industriegebiet-Logistik</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE_SHORT_NAME" Language="de_DE">
+			<Text>Industriegebiet-Logistik</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB_NAME" Language="de_DE">
+			<Text>Handelszentrum - Investition</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB_SHORT_NAME" Language="de_DE">
+			<Text>Handelszentrum - Investition</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_NAME" Language="de_DE">
+			<Text>Heilige-Stätten-Gebet</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_SHORT_NAME" Language="de_DE">
+			<Text>Heilige-Stätten-Gebet</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_CAMPUS_NAME" Language="de_DE">
+			<Text>Campus - Forschungsstipendien</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_CAMPUS_SHORT_NAME" Language="de_DE">
+			<Text>Campus - Forschungsstipendien</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_THEATER_NAME" Language="de_DE">
+			<Text>Theaterplatz-Festival</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_THEATER_SHORT_NAME" Language="de_DE">
+			<Text>Theaterplatz-Festival</Text>
+		</Replace>
+		
+	</LocalizedText>
+</GameData>

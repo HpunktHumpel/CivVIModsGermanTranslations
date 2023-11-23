@@ -1,0 +1,34 @@
+
+<Mod id="f4ddbe8c-92ac-48fd-a9f1-1c152163cc9b" version="1">
+
+	<Properties>
+		<Name>Compact Production Panel</Name>
+		<Description>Reduces the size of objects in the city build panel in order to make the panel more compact.</Description>
+		<Teaser>Reduces the size of objects in the city build panel in order to make the panel more compact.</Teaser>
+		<Authors>Zebrah</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	</Properties>
+  
+	<InGameActions>
+	
+		<ImportFiles id="id_import_modfiles">
+			<Items>
+				<File>Assets/UI/Panels/ProductionPanel.lua</File>
+				<File>Assets/UI/ProductionPanel.xml</File>
+			</Items>
+		</ImportFiles>
+		
+		<UpdateText id="id_update_textfiles">
+			<File>ReplacingText.xml</File>
+		</UpdateText>
+		
+	</InGameActions>
+  
+	<Files>
+		<File>Assets/UI/Panels/ProductionPanel.lua</File>
+		<File>Assets/UI/ProductionPanel.xml</File>
+		<File>ReplacingText.xml</File>
+	</Files>
+  
+</Mod>
