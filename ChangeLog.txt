@@ -1,3 +1,5 @@
+===== Version 28 =====
+
 23.11.2023
 
 - [NEW] Climate Balance - Complete Pack (vom 30. März 2021 um 12:05, Übersetzung von ASM590319)
