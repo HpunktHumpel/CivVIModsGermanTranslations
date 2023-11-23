@@ -1,12 +1,12 @@
 -- UC_PRD_Text
--- Author: JNR | Translation by Junky
+-- Author: JNR | Translation by Junky 22.05.2023
 --------------------------------------------------------------
 
 -- Deutsch
 --------------------------------------------------------------
 INSERT OR REPLACE INTO LocalizedText
 (	Language,	Tag,															Text, 																											Gender, 	Plurality	) VALUES
-(	'de_DE',	'LOC_BUILDING_JNR_IRRIGATION_WHEEL_NAME',						'Bewässerungsrad|Bewässerungsrad|Bewässerungsrad|Bewässerungsrad|Bewässerungsrad',								'neuter',	1			),
+(	'de_DE',	'LOC_BUILDING_JNR_IRRIGATION_WHEEL_NAME',						'Bewässerungsrad|Bewässerungsrad|Bewässerungsrad|Bewässerungsrads|Bewässerungsrad',								'neuter',	1			),
 (	'de_DE',	'LOC_BUILDING_JNR_MILL_RACE_NAME',								'Mühlkanal|Mühlkanal|Mühlkanal|Mühlkanals|Mühlkanal',															'masculine',1			),
 (	'de_DE',	'LOC_BUILDING_JNR_WIND_MILL_NAME',								'Windmühle|Windmühle|Windmühle|Windmühle|Windmühle',															'feminine',	1			),
 (	'de_DE',	'LOC_BUILDING_JNR_MANUFACTURY_NAME',							'Manufaktur|Manufaktur|Manufaktur|Manufaktur|Manufaktur',														'feminine',	1			),
@@ -74,7 +74,7 @@ VALUES	('de_DE',	'LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'Ein ausschließl
 		('de_DE',	'LOC_JNR_GREATPERSON_DAM_UNLOCK_MATHEMATICS',					'Dämme werden bereits mit Mathematik freigeschaltet. Dämme erhalten einen Standard-Nachbarschaftsbonus auf [ICON_PRODUCTION] Produktion durch Bezirke.'),
 		('de_DE',	'LOC_JNR_GREATPERSON_GREAT_WORK_WRITING_PRODUCTION',			'+4 [ICON_Production] Produktion durch jedes [ICON_GreatWork_WRITING] Große Schrifstück in dieser Stadt.'),
 		('de_DE',	'LOC_JNR_GREATPERSON_REVEAL_COAL',								'Erschließt [ICON_RESOURCE_COAL] Kohle ohne die üblichen Technologie- Voraussetzungen. +2 [ICON_Gold] Gold für Minen auf Gelände mit Frischwasser-Zugang.'),
-		('de_DE',	'LOC_GREATPERSON_IMHOTEP_ACTIVE_JNR_UC',						'Gewährt 125 [ICON_Production] Produktion für den Bau von Wundern. Wird verdoppelt, wenn das Wunder aus der Antike oder Klassik kommt.'),
+		('de_DE',	'LOC_GREATPERSON_IMHOTEP_ACTIVE_JNR_UC',						'Gewährt 125 [ICON_Production] Produktion für den Bau von Wundern. Wird verdoppelt, wenn es ein Wunder der Antike oder Klassik ist.'),
 		('de_DE',	'LOC_GREATPERSON_LEONARDO_DA_VINCI_ACTIVE_JNR_UC',				'Werkstätten gewähren +3 [ICON_Culture] Kultur und +1 [ICON_Production] Produktion. Löst den [ICON_TechBoosted] Heureka-Moment für eine zufällige Technologie der Moderne aus.'),
 		('de_DE',	'LOC_GREATPERSON_JAMES_WATT_ACTIVE_JNR_UC',						'+1 [ICON_Production] Produktion für Felder im Stadtgebiet mit Frischwasser-Zugang oder angrenzend an Aquädukt, Damm oder Kanal-Bezirke.'),
 		
@@ -88,4 +88,9 @@ UPDATE LocalizedText SET Text = REPLACE(Text, 'Industriegebiete, Werkstätten un
 
 UPDATE LocalizedText SET Text = REPLACE(Text, 'Industriegebieten und ihren Gebäuden', 'Industriegebieten und ihren Stufe 1, 2 und 3 Gebäuden')		WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
 UPDATE LocalizedText SET Text = REPLACE(Text, 'Industriegebieten und ihren Gebäuden', 'Industriegebieten und ihren Stufe 1, 2 und 3 Gebäuden')		WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'pro Industriegebiet-Gebäude',				'für die ersten drei Industriegebiet-Gebäude')						WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION';
+-- UPDATE LocalizedText SET Text = REPLACE(Text, '10',											'5')																WHERE Language='de_DE' AND Tag='LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, '175', '125')																										WHERE Language='de_DE' AND Tag='LOC_GREAT_PERSON_INDIVIDUAL_IMHOTEP_PRODUCTION_ANCIENT_CLASSICAL';
 --------------------------------------------------------------

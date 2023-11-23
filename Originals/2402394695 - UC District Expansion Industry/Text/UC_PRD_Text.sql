@@ -23,7 +23,7 @@ VALUES	('LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'A district unique to Germ
 		('LOC_BUILDING_WORKSHOP_DESCRIPTION_UC_JNR',					'+1 [ICON_Production] Production per [ICON_GOVERNOR] Promotion of a Governor established in this city.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_JNR_MANUFACTURY_NAME',							'Manufactory'),
 		('LOC_BUILDING_JNR_MANUFACTURY_DESCRIPTION',					'Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
-		('LOC_BUILDING_JNR_DRAGON_KILN_DESCRIPTION_UC',					'A building unique to China. Replaces the Workshop and the Manufactory.[NEWLINE]If a governor is established in this city, grants a copy of [ICON_RESOURCE_PORCELAIN] Porcelain, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
+		('LOC_BUILDING_JNR_DRAGON_KILN_DESCRIPTION_UC',					'A building unique to China. Replaces the Workshop and the Manufactory.[NEWLINE]While a governor is established in this city, grants a copy of [ICON_RESOURCE_PORCELAIN] Porcelain, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_FACTORY_DESCRIPTION_UC_JNR',						'+0.3 [ICON_Production] Production per turn for each [ICON_Citizen] Citizen in the city.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
 		('LOC_BUILDING_JNR_CHEMICAL_NAME',								'Chemical Plant'),
 		('LOC_BUILDING_JNR_CHEMICAL_DESCRIPTION',						'+5% [ICON_Production] Production in this city for every unique strategic resource improved in its territory.[NEWLINE][NEWLINE]Domestic [ICON_TradeRoute] Trade Routes to this city gain +1 [ICON_Production] Production.'),
@@ -63,17 +63,21 @@ VALUES	('LOC_DISTRICT_HANSA_DESCRIPTION_UC_JNR',						'A district unique to Germ
 		('LOC_JNR_GREATPERSON_DAM_UNLOCK_MATHEMATICS',					'Dams are already unlocked with the Mathematics technology. Dams receive a [ICON_PRODUCTION] Production standard adjacency from districts.'),
 		('LOC_JNR_GREATPERSON_GREAT_WORK_WRITING_PRODUCTION',			'+4 [ICON_Production] Production from each [ICON_GreatWork_WRITING] Great Work of Writing in this city.'),
 		('LOC_JNR_GREATPERSON_REVEAL_COAL',								'Reveals [ICON_RESOURCE_COAL] Coal without the normal technology requirement. +2 [ICON_Gold] Gold to Mines on a tile with Fresh Water.'),
-		('LOC_GREATPERSON_IMHOTEP_ACTIVE_JNR_UC',						'Grants 125 [ICON_Production] Production towards wonder construction, doubled if the wonder is from the Ancient or Classical Era.'),
 		('LOC_GREATPERSON_LEONARDO_DA_VINCI_ACTIVE_JNR_UC',				'Workshops provide +3 [ICON_Culture] Culture and +1 [ICON_Production] Production. Triggers the [ICON_TechBoosted] Eureka moment for 1 random technology from the Modern era.'),
 		('LOC_GREATPERSON_JAMES_WATT_ACTIVE_JNR_UC',					'+1 [ICON_Production] Production to all tiles in this city with fresh water or adjacent to Aqueduct, Dam, or Canal districts.'),
 		('LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION_JNR_UC',		'Sweden gains 50 [ICON_Favor] Diplomatic Favor when earning a Great Person (on Standard Speed). Sweden receives +1 [ICON_GreatEngineer] Great Engineer point from Level 2 Industrial Zone buildings and +1 [ICON_GreatScientist] Great Scientist point from Level 2 Campus buildings. Having Sweden in the game adds three unique World Congress competitions starting in the Industrial Era.');
 
-UPDATE LocalizedText SET Text = REPLACE(Text, 'a Water Mill', 'an Irrigation Wheel')	WHERE Tag='LOC_BOOST_TRIGGER_CONSTRUCTION';
-UPDATE LocalizedText SET Text = REPLACE(Text, 'Water Mill', 'Irrigation Wheel')			WHERE Tag='LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'a Water Mill',								'an Irrigation Wheel')												WHERE Tag='LOC_BOOST_TRIGGER_CONSTRUCTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Water Mill',									'Irrigation Wheel')													WHERE Tag='LOC_BOOST_TRIGGER_LONGDESC_CONSTRUCTION';
 
 UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones, Workshops, and Factories', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')	WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
 UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones, Workshops, and Factories', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')	WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
 
-UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones and their buildings', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')		WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
-UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones and their buildings', 'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')		WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones and their buildings',		'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')	WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_DESCRIPTION';
+UPDATE LocalizedText SET Text = REPLACE(Text, 'Industrial Zones and their buildings',		'Industrial Zones and their tier 1, tier 2, and tier 3 buildings')	WHERE Tag='LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, 'every Industrial Zone building',				'the first three Industrial Zone buildings')						WHERE Tag='LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION';
+-- UPDATE LocalizedText SET Text = REPLACE(Text, '10',											'5')																WHERE Tag='LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION';
+
+UPDATE LocalizedText SET Text = REPLACE(Text, '175', '125')																										WHERE Tag='LOC_GREAT_PERSON_INDIVIDUAL_IMHOTEP_PRODUCTION_ANCIENT_CLASSICAL';
 --------------------------------------------------------------
