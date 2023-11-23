@@ -1,0 +1,228 @@
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_GREAT_PERSON_CLASS_AVIATOR_NAME" Language="de_DE">
+			<Text>Großer Pilot</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_GREAT_AVIATOR_NAME" Language="de_DE">
+			<Text>Großer Pilot</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_GREAT_AVIATOR_DESCRIPTION" Language="de_DE">
+			<Text>Great Aviator unit description</Text>
+		</Replace>
+
+		<Replace Tag="LOC_POLICY_GREAT_AVIATOR_SMALL_NAME" Language="de_DE">
+			<Text>Flugvorführungen</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GREAT_AVIATOR_SMALL_DESCRIPTION" Language="de_DE">
+			<Text>+10 [Icon_GreatAviator] Großer-Pilot-Punkte pro Runde</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GREAT_AVIATOR_BIG_NAME" Language="de_DE">
+			<Text>Weltraumlager</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GREAT_AVIATOR_BIG_DESCRIPTION" Language="de_DE">
+			<Text>+7 [Icon_GreatAviator] Großer-Pilot-Punkte pro Runde und +12 [Icon_GreatAviator] Großer-Pilot-Punkte pro Runde für jeden Flughafen.</Text>
+		</Replace>
+
+		
+
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY" Language="de_DE">
+			<Text>Sir George Cayley</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY_ACTION" Language="de_DE">
+			<Text>Löst den [Icon_TechBoosted] Heureka für Luftfahrt, Fortgeschrittene Luftfahrt, Lasertechnologie und Tarn-Technologie aus.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT" Language="de_DE">
+			<Text>Oliver Wright</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT_ACTION" Language="de_DE">
+			<Text>Gewährt einen Doppeldecker und +1 [ICON_RESOURCE_OIL] Öl pro Runde.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT" Language="de_DE">
+			<Text>Wilbur Wright</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT_ACTION" Language="de_DE">
+			<Text>Baut sofort einen Hangar im diesem Bezirk. Hangar gewähren +2 [ICON_PRODUCTION] Produktion.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE" Language="de_DE">
+			<Text>Thaddeus S. C. Lowe</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE_ACTION" Language="de_DE">
+			<Text>Gewährt einen Aufklärungs-Ballon. Aufklärungs-Ballons und Drohnen erhalten +1 Sichtweite.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_THADDEUS_S_C_LOWE_VISION_NAME" Language="de_DE">
+			<Text>Thaddeus S. C. Lowes Erbe</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_THADDEUS_S_C_LOWE_VISION_DESC" Language="de_DE">
+			<Text>+1 Sichtweite (Thaddeus S. C. Lowe) </Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_RENE_LORIN" Language="de_DE">
+			<Text>René Lorin</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_RENE_LORIN_ACTION" Language="de_DE">
+			<Text>Luftjägereinheiten erhalten +1 [ICON_Range] Angriffsreichweite und Luftbombereinheiten erhalten +2 [ICON_Range] Angriffsreichweite.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_BOMBER_NAME" Language="de_DE">
+			<Text>Rene's Reichweite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_BOMBER_DESC" Language="de_DE">
+			<Text>+2 [ICON_Range] Angriffsreichweite (René Lorin)</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_FIGHTER_NAME" Language="de_DE">
+			<Text>Rene's Reichweite</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_FIGHTER_DESC" Language="de_DE">
+			<Text>+1 [ICON_Range] Angriffsreichweite (René Lorin)</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN" Language="de_DE">
+			<Text>Manfred Albrecht Freiherr von Richthofen</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN_ACTION" Language="de_DE">
+			<Text>Luftjägereinheiten erhalten +10 [ICON_STRENGTH] Kampfstärke gegen andere Luftkampfeinheiten.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RED_BARON_COMBAT_BONUS_NAME" Language="de_DE">
+			<Text>Blutdurst des Barons</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RED_BARON_COMBAT_BONUS_DESC" Language="de_DE">
+			<Text>+10 [ICON_STRENGTH] Kampfstärke (Red Baron)</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER" Language="de_DE">
+			<Text>Percival E. Fansler</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER_ACTION" Language="de_DE">
+			<Text>Hangar und Flughäfen kosten keinen Unterhalt und gewähren stattdessen +6 [ICON_GOLD] Gold bzw. +10 [ICON_GOLD] Gold.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_AMELIA_EARHART" Language="de_DE">
+			<Text>Amelia Earhart</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_AMELIA_EARHART_ACTION" Language="de_DE">
+			<Text>Gewährt 1500 [ICON_CULTURE] Kultur auf Standardgeschwindigkeit. Muss auf oder in der Nähe eines Riffs aktiviert werden.</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG" Language="de_DE">
+			<Text>Carl Richard Nyberg</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG_ACTION" Language="de_DE">
+			<Text>Baut sofort einen Hangar und Flughafen in diesem Bezirk. Flughäfen gewähren +4 [ICON_PRODUCTION] Produktion.</Text>
+		</Replace>
+
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC" Language="de_DE">
+			<Text>Radoje Ljutovac</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_ACTION" Language="de_DE">
+			<Text>Luftabwehr-Unterstützungseinheiten erhalten +10 [ICON_AntiAir_Large] Luftabwehrstärke.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RADOJE_LJUTOVAC_ANTI_AIRCRAFT_STRENGTH_NAME" Language="de_DE">
+			<Text>Der Wille Radoje Ljutovacs</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_RADOJE_LJUTOVAC_ANTI_AIRCRAFT_STRENGTH_DESC" Language="de_DE">
+			<Text>+10 [ICON_AntiAir_Large] Luftabwehrstärke (Radoje Ljutovac)</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN" Language="de_DE">
+			<Text>Floyd Fogleman</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN_ACTION" Language="de_DE">
+			<Text>+20% [ICON_PRODUCTION] Produktion für Lufteinheiten.</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_CLEMENT_ADER" Language="de_DE">
+			<Text>Clément Ader</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_CLEMENT_ADER_ACTION" Language="de_DE">
+			<Text>Flugzeugträger erhalten +10 [ICON_STRENGTH] Kampfstärke. +30% [ICON_PRODUCTION] Produktion für Flugzeugträger.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_CLEMENT_ADER_COMBAT_BONUS_NAME" Language="de_DE">
+			<Text>Zeit des Clement</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_CLEMENT_ADER_COMBAT_BONUS_DESC" Language="de_DE">
+			<Text>+10 [ICON_STRENGTH] Kampfstärke (Clément Ader)</Text>
+		</Replace>
+		
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT" Language="de_DE">
+			<Text>Hermann Ganswindt</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT_ACTION" Language="de_DE">
+			<Text>Gewährt einen Helikopter mit einer Beförderungsstufe und +1 [ICON_RESOURCE_ALUMINUM] Aluminum pro Runde.</Text>
+		</Replace>
+
+		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS" Language="de_DE">
+			<Text>Hermann Ganswindt</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS_ACTION" Language="de_DE">
+			<Text>Seekampfeinheiten mit [ICON_AntiAir_Large] Luftabwehrstärke erhalten zusätzlich +10 [ICON_AntiAir_Large] Luftabwehrstärke.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_GUSTAV_RASMUS_ANTI_AIRCRAFT_BOATS_NAME" Language="de_DE">
+			<Text>Geist des Gustav Rasmus</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ABILITY_GUSTAV_RASMUS_ANTI_AIRCRAFT_BOATS_DESC" Language="de_DE">
+			<Text>+10 [ICON_AntiAir_Large] Luftabwehrstärke (Gustav Rasmus)</Text>
+		</Replace>
+		
+		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON" Language="de_DE">
+			<Text>Douglas Douglas-Hamilton</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON_ACTION" Language="de_DE">
+			<Text>Gewährt 150 [ICON_CULTURE] Kultur für jede angrenzende Grasland-, Ebenen- oder Wüstenbergen, sowie 300 [ICON_CULTURE] Kultur für jede angrenzende Tundra- oder Schneeberge.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD" Language="de_DE">
+			<Text>Robert Hutchings Goddard</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_ACTION" Language="de_DE">
+			<Text>Gewährt +50% [ICON_PRODUCTION] Produktion für Weltraumrennen-Projekte.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_1_NAME" Language="de_DE">
+			<Text>Industriezeitalter</Text>
+		</Replace>
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_1_DESC" Language="de_DE">
+			<Text>Ein ganz normales Industriezeitalter - hier gibt es nichts zu sehen.</Text>
+		</Replace>
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_2_NAME" Language="de_DE">
+			<Text>Moderne</Text>
+		</Replace>
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_2_DESC" Language="de_DE">
+			<Text>Ein ganz normales modernes Zeitalter - hier gibt es nichts zu sehen.</Text>
+		</Replace>
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_3_NAME" Language="de_DE">
+			<Text>Atomzeitalter</Text>
+		</Replace>
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_3_DESC" Language="de_DE">
+			<Text>Ein ganz normales altes Atomzeitalter - hier gibt es nichts zu sehen.</Text>
+		</Replace>
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_4_NAME" Language="de_DE">
+			<Text>Informationszeitalter</Text>
+		</Replace>
+		<Replace Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_4_DESC" Language="de_DE">
+			<Text>Ein ganz normales Informationszeitalter - hier gibt es nichts zu sehen.</Text>
+		</Replace>
+
+		
+
+		
+
+		<!--LOC_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_COMBAT_BONUS_PREVIEW-->
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="de026085-7edf-4c1b-8db7-958c12eade24" version="1">
+  <Properties>
+    <Name>Great Aviators</Name>
+    <Description>Adds a new great person type, great aviators!</Description>
+    <Created>1690250501</Created>
+    <Teaser>Adds a new great person type, great aviators!</Teaser>
+    <Authors>HoneyTheBear</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateIcons id="NewAction">
+      <File>Core/Great_Aviators_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>Great_Aviators.Art.xml</File>
+      <File>Great_Aviators.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>Core/Great_Aviators_Great_People.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Core/Great_Aviators_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>Core/Great_Aviators_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="NewAction">
+      <File>Great_Aviators.dep</File>
+      <File>Great_Aviators.Art.xml</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/Units_Great_People.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Core/Great_Aviators_Great_People.sql</File>
+    <File>Core/Great_Aviators_Icons.xml</File>
+    <File>Core/Great_Aviators_Text.xml</File>
+    <File>Great_Aviators.dep</File>
+    <File>Platforms/MacOS/BLPs/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/Icons.blp</File>
+    <File>Textures/FontIcons_Aviator.dds</File>
+    <File>Textures/FontIcons_Aviator.tex</File>
+    <File>Textures/GreatAviatorUnitIcon22.dds</File>
+    <File>Textures/GreatAviatorUnitIcon22.tex</File>
+    <File>Textures/GreatAviatorUnitIcon256.dds</File>
+    <File>Textures/GreatAviatorUnitIcon256.tex</File>
+    <File>Textures/GreatAviatorUnitIcon32.dds</File>
+    <File>Textures/GreatAviatorUnitIcon32.tex</File>
+    <File>Textures/GreatAviatorUnitIcon38.dds</File>
+    <File>Textures/GreatAviatorUnitIcon38.tex</File>
+    <File>Textures/GreatAviatorUnitIcon50.dds</File>
+    <File>Textures/GreatAviatorUnitIcon50.tex</File>
+    <File>Textures/GreatAviatorUnitIcon80.dds</File>
+    <File>Textures/GreatAviatorUnitIcon80.tex</File>
+    <File>Textures/GreatPeople105_Aviator.dds</File>
+    <File>Textures/GreatPeople105_Aviator.tex</File>
+    <File>Textures/GreatPeople216_Aviator.dds</File>
+    <File>Textures/GreatPeople216_Aviator.tex</File>
+    <File>Textures/GreatPeopleClass90_Aviator.dds</File>
+    <File>Textures/GreatPeopleClass90_Aviator.tex</File>
+    <File>Textures/UnitActionsAviator256.dds</File>
+    <File>Textures/UnitActionsAviator256.tex</File>
+    <File>Textures/UnitActionsAviator38.dds</File>
+    <File>Textures/UnitActionsAviator38.tex</File>
+    <File>Textures/UnitActionsAviator50.dds</File>
+    <File>Textures/UnitActionsAviator50.tex</File>
+    <File>Textures/UnitActionsAviator80.dds</File>
+    <File>Textures/UnitActionsAviator80.tex</File>
+    <File>XLPs/Icons.xlp</File>
+  </Files>
+</Mod>

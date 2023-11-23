@@ -1,0 +1,397 @@
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_GREAT_PERSON_CLASS_AVIATOR_NAME" Language="en_US">
+			<Text>Great Aviator</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_GREAT_AVIATOR_NAME" Language="en_US">
+			<Text>Great Aviator</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_GREAT_AVIATOR_DESCRIPTION" Language="en_US">
+			<Text>Great Aviator unit description</Text>
+		</Row>
+
+		<Row Tag="LOC_POLICY_GREAT_AVIATOR_SMALL_NAME" Language="en_US">
+			<Text>Air Shows</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GREAT_AVIATOR_SMALL_DESCRIPTION" Language="en_US">
+			<Text>+10 [Icon_GreatAviator] Great Aviator points per turn</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GREAT_AVIATOR_BIG_NAME" Language="en_US">
+			<Text>Space Camp</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GREAT_AVIATOR_BIG_DESCRIPTION" Language="en_US">
+			<Text>+7 [Icon_GreatAviator] Great Aviator points per turn, and +12 [Icon_GreatAviator] Great Aviator points per turn for every airport.</Text>
+		</Row>
+
+		
+
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY" Language="en_US">
+			<Text>Sir George Cayley</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY_ACTION" Language="en_US">
+			<Text>Triggers the [Icon_TechBoosted] Eureka moments for Flight, Advanced Flight, Lasers, and Stealth Technology.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT" Language="en_US">
+			<Text>Orville Wright</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT_ACTION" Language="en_US">
+			<Text>Grants a biplane unit and +1 [ICON_RESOURCE_OIL] Oil per turn.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT" Language="en_US">
+			<Text>Wilbur Wright</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT_ACTION" Language="en_US">
+			<Text>Instantly builds a hangar in this district. Hangars grant +2 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE" Language="en_US">
+			<Text>Thaddeus S. C. Lowe</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE_ACTION" Language="en_US">
+			<Text>Grants an observation balloon unit. Observation balloons and drones gain +1 vision.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_THADDEUS_S_C_LOWE_VISION_NAME" Language="en_US">
+			<Text>Thaddeus S. C. Lowe's Legacy</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_THADDEUS_S_C_LOWE_VISION_DESC" Language="en_US">
+			<Text>+1 vision (Thaddeus S. C. Lowe) </Text>
+		</Row>
+
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_RENE_LORIN" Language="en_US">
+			<Text>René Lorin</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_RENE_LORIN_ACTION" Language="en_US">
+			<Text>Air bomber units gain +2 [ICON_Range] attack range.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_BOMBER_NAME" Language="en_US">
+			<Text>Rene's Range</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_BOMBER_DESC" Language="en_US">
+			<Text>+2 [ICON_Range] attack range (René Lorin)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_FIGHTER_NAME" Language="en_US">
+			<Text>Chuck's Chuckle</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_FIGHTER_DESC" Language="en_US">
+			<Text>+1 [ICON_Range] attack range (Chuck Yeager)</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN" Language="en_US">
+			<Text>Manfred Albrecht Freiherr von Richthofen</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN_ACTION" Language="en_US">
+			<Text>Air fighter class units gain +10 [ICON_STRENGTH] combat strength against other aircraft.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RED_BARON_COMBAT_BONUS_NAME" Language="en_US">
+			<Text>Bloodlust of the Baron</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RED_BARON_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+10 [ICON_STRENGTH] combat strength (Red Baron)</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER" Language="en_US">
+			<Text>Percival E. Fansler</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER_ACTION" Language="en_US">
+			<Text>Hangars and Airports cost nothing to maintain and instead provide +6 [ICON_GOLD] Gold and +10 [ICON_GOLD] Gold respectfully.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT" Language="en_US">
+			<Text>Alberto Santos-Dumont</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT_ACTION" Language="en_US">
+			<Text>Gain +5% [ICON_SCIENCE] Science and +5% [ICON_CULTURE] Culture while not at war.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_AMELIA_EARHART" Language="en_US">
+			<Text>Amelia Earhart</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_AMELIA_EARHART_ACTION" Language="en_US">
+			<Text>Grants 1500 [ICON_CULTURE] Culture on standard speed. Must be activated on or adjacent to a reef.</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG" Language="en_US">
+			<Text>Carl Richard Nyberg</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG_ACTION" Language="en_US">
+			<Text>Instantly builds a hangar and airport in this district. Airports grant +4 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC" Language="en_US">
+			<Text>Radoje Ljutovac</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_ACTION" Language="en_US">
+			<Text>Land based anti aircraft support units gain +10 anti aircraft strength.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RADOJE_LJUTOVAC_ANTI_AIRCRAFT_STRENGTH_NAME" Language="en_US">
+			<Text>Will of Radoje Ljutovac</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_RADOJE_LJUTOVAC_ANTI_AIRCRAFT_STRENGTH_DESC" Language="en_US">
+			<Text>+10 anti aircraft strength (Radoje Ljutovac)</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN" Language="en_US">
+			<Text>Floyd Fogleman</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN_ACTION" Language="en_US">
+			<Text>+20% [ICON_PRODUCTION] Production towards aircraft.</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_CLEMENT_ADER" Language="en_US">
+			<Text>Clément Ader</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_CLEMENT_ADER_ACTION" Language="en_US">
+			<Text>Aircraft carriers gain +10 [ICON_STRENGTH] combat strength. +30% [ICON_PRODUCTION] Production towards aircraft carriers.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_CLEMENT_ADER_COMBAT_BONUS_NAME" Language="en_US">
+			<Text>Clement-time</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_CLEMENT_ADER_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+10 [ICON_STRENGTH] combat strength (Clément Ader)</Text>
+		</Row>
+		
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT" Language="en_US">
+			<Text>Hermann Ganswindt</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT_ACTION" Language="en_US">
+			<Text>Grants a helicopter unit with one promotion level and +1 [ICON_RESOURCE_ALUMINUM] Aluminum per turn.</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS" Language="en_US">
+			<Text>Hermann Ganswindt</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS_ACTION" Language="en_US">
+			<Text>Naval units with an anti aircraft stat gain +10 anti aircraft strength.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_GUSTAV_RASMUS_ANTI_AIRCRAFT_BOATS_NAME" Language="en_US">
+			<Text>Ghost of Gustav Rasmus</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABILITY_GUSTAV_RASMUS_ANTI_AIRCRAFT_BOATS_DESC" Language="en_US">
+			<Text>+10 anti aircraft strength (Gustav Rasmus)</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_CHUCK_YEAGER" Language="en_US">
+			<Text>Chuck Yeager</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_CHUCK_YEAGER_ACTION" Language="en_US">
+			<Text>Air fighter units gain +1 [ICON_Range] attack range.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON" Language="en_US">
+			<Text>Douglas Douglas-Hamilton</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON_ACTION" Language="en_US">
+			<Text>Grants 150 [ICON_CULTURE] Culture for each adjacent grass, plains, or desert mountain, and 300 [ICON_CULTURE] Culture or each adjacent tundra or snow mountain.</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD" Language="en_US">
+			<Text>Robert Hutchings Goddard</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_ACTION" Language="en_US">
+			<Text>Grants +50% [ICON_PRODUCTION] Production towards space race projects.</Text>
+		</Row>
+
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_1_NAME" Language="en_US">
+			<Text>Industrial Era</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_1_DESC" Language="en_US">
+			<Text>Just a regular ol' Industrial Era nothing to see here</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_2_NAME" Language="en_US">
+			<Text>Modern Era</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_2_DESC" Language="en_US">
+			<Text>Just a regular ol' Modern Era nothing to see here</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_3_NAME" Language="en_US">
+			<Text>Atomic Era</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_3_DESC" Language="en_US">
+			<Text>Just a regular ol' Atomic Era nothing to see here</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_4_NAME" Language="en_US">
+			<Text>Information Era</Text>
+		</Row>
+		<Row Tag="LOC_DUMMY_ERA_GREAT_AVIATORS_4_DESC" Language="en_US">
+			<Text>Just a regular ol' Information Era nothing to see here</Text>
+		</Row>
+
+
+		
+		
+
+		<!--LOC_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_COMBAT_BONUS_PREVIEW-->
+	</LocalizedText>
+	<BaseGameText>
+		<!--Civlopedia-->
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CHUCK_YEAGER_CHAPTER_HISTORY_PARA_1" >
+			<Text>An American Air force pilot with an extensive service history, Chuck Yeager earned his spot in history as the first human being confirmed to have broken the sound barrier, during a test flight on October 14th of 1947.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CHUCK_YEAGER_CHAPTER_HISTORY_PARA_2" >
+			<Text>Quite frankly everything else he’s done isn’t nearly as sick and rad as that, no matter how important they may have been historically.</Text>
+		</Row>
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_AMELIA_EARHART_CHAPTER_HISTORY_PARA_1" >
+			<Text>A pioneer for both aviation and suffrage, Amelia Earhart is perhaps most well known for time she did not fly successfully. The first woman to fly solo across the Atlantic ocean, and an accomplished writer, Earhart is also credited with helping form the ninety nines, an organization of female pilots.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_AMELIA_EARHART_CHAPTER_HISTORY_PARA_2" >
+			<Text>Earhart was a major proponent of commercial flight, and her writing on the subject was instrumental in normalizing the practice. As a child, I assumed that her last name was spelled “Airheart” and quite frankly I think the world would be a better place if it was.</Text>
+		</Row>
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT_CHAPTER_HISTORY_PARA_1" >
+			<Text>The mustached variant of the famous wright brothers, Orville Wright is largely considered one of the most prominent figures in the invention of human flight, particularly among the residents of kitty hawk.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Though historians are unable to agree on whether or not the idea for fixed wing lift was inspired by his facial hair, he has nonetheless secured his place in history as one of the first fathers of flight.</Text>
+		</Row>
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT_CHAPTER_HISTORY_PARA_1" >
+			<Text>The smooth faced variant of the famous wright brothers, Wilbur Wright is largely considered one of the most prominent figures in the invention of human flight, particularly among the residents of kitty hawk.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Though historians are unable to agree on whether or not his lack of hair contributed to a greater understanding of air pressure like the newly awakened airbenders in the era of avatar Korra, he has nonetheless secured his place in history as one of the first fathers of flight.</Text>
+		</Row>
+		
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY_CHAPTER_HISTORY_PARA_1" >
+			<Text>Often accredited as the earliest true scientific aerial investigator, Sir George Cayley would perish long before the dream of flight was accomplished by humans. His contributions were years ahead of his time, even going so far as to propose a realistic system for vertical flight.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY_CHAPTER_HISTORY_PARA_2" >
+			<Text>Having identified the four forces that act on heavier than air vehicles, Cayley is often considered one of the most important individuals in the history of aeronautics.</Text>
+		</Row>
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE_CHAPTER_HISTORY_PARA_1" >
+			<Text>An American civil war aeronaut, Thaddeus S. C. Lowe contributed to a Union victory through the contribution of aerial reconnaissance. Aside from contributing advanced theories in meteorological sciences, he was revered in his time for expert balloon building.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE_CHAPTER_HISTORY_PARA_2" >
+			<Text>Lowe also earned millions through his patent of an ice making machine, just an all around cool and fun guy.</Text>
+		</Row>
+	
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN_CHAPTER_HISTORY_PARA_1" >
+			<Text>Largely considered the greatest combat pilot of his time, Manfred Albrecht Freiherr von Richthofen earned the notorious title of “red baron” for his time in the German air force during world war I.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN_CHAPTER_HISTORY_PARA_2" >
+			<Text>Vicious rival of Snoopy the dog, Manfred earned his title through bloody combat in what was largely considered the golden age of aerial dogfighting.</Text>
+		</Row>
+
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RENE_LORIN_CHAPTER_HISTORY_PARA_1" >
+			<Text>A scientist well ahead of his time, Lorin patented FR390256 in 1908, the first subsonic ramjet design. His invention could not be tested for many years, as there was no way for an aircraft to reach the speed necessary for ramjet operation at the time.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RENE_LORIN_CHAPTER_HISTORY_PARA_2" >
+			<Text>Rene Lorin would never live to see his innovation in action, as the first successful operation of a ramjet was not until 1945, well after his death in 1933.</Text>
+		</Row>
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER_CHAPTER_HISTORY_PARA_1" >
+			<Text>Percival E. Fansler’s claim to fame was the operation of the first commercial airline between St. Petersburg and Tampa in 1914. He was joined by the first federally licensed pilot, Anthony H Jannus.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER_CHAPTER_HISTORY_PARA_2" >
+			<Text>The historic first flight of the airline featured only a single passenger, but was witnessed by over 3000 civilians on January 1st 1914.</Text>
+		</Row>
+
+
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT_CHAPTER_HISTORY_PARA_1" >
+			<Text>One of the few aviators to rival the wright brothers in the early days of heavier-than-air flight, Alberto Santos-Dumont was a Brazilian born heir to a fortune, that spent most of his life advancing flight in France.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Though Dumont achieved much of his heavier-than-air success later than the wright brothers, the secrecy in which the brothers conducted their flight, the patent process, and the slow communications of the time meant that for a brief period, France believed they had achieved it first. Dumont’s achievments also include winning a cash prize for flying around the eiffel tower that he promptly donated to charity, and sporting a moustache that surpassed even Orville Wright.</Text>
+		</Row>
+
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG_CHAPTER_HISTORY_PARA_1" >
+			<Text>Carl Richard Nyberg was a Swedish inventor and industrialist best known for his invention of the blow torch (which in itself greatly helped the field of aviation).</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG_CHAPTER_HISTORY_PARA_2" >
+			<Text>His specific aviation contributions include the creation of the steam engine aircraft, earning him the moniker “Carl Nyberg the Aviator Science Guyberg”.</Text>
+		</Row>
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_CHAPTER_HISTORY_PARA_1" >
+			<Text>Radoje Ljutovac was a Serbian soldier from the village of Poljna, Serbia. Private Radoje Ljutovac fought in the First World War in the Serbian Army, and is officially credited with the first shooting down of a military aircraft with Ground-to-Air artillery fire.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_CHAPTER_HISTORY_PARA_2" >
+			<Text>However, the artillery in question was not the dedicated anti-aircraft guns we know today, but rather a common field cannon mounted on the back of a cart, pulled by a horse. The downing of the aircraft was nothing short of a truly remarkable, and quite frankly hilarious, show of skill.</Text>
+		</Row>
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN_CHAPTER_HISTORY_PARA_1" >
+			<Text>Floyd Fogleman was an aviation designer credited with helping design stepped airfoils along with Richard Kline in the 1960s.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN_CHAPTER_HISTORY_PARA_2" >
+			<Text>Though it sees use in full sized aircraft in the modern day, its original conception was for use in high quality competitive paper planes.</Text>
+		</Row>
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CLEMENT_ADER_CHAPTER_HISTORY_PARA_1" >
+			<Text>Clément Ader was a French inventor and engineer remembered primarily for his pioneering work in aviation and supporting the sport of cycling in France.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CLEMENT_ADER_CHAPTER_HISTORY_PARA_2" >
+			<Text>Many of his air prototypes were developed before the turn of the 20th century and were largely unsuccessful, but was forward thinking enough to publish a practical design for aircraft carriers long before heavier than air flight was widely adopted.</Text>
+		</Row>
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT_CHAPTER_HISTORY_PARA_1" >
+			<Text>Hermann Ganswindt was a German inventor and spaceflight scientist, whose inventions such as the dirigible, the helicopter, and the internal combustion engine are thought to have been ahead of his time, having been born in only 1856.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Perhaps his silliest intellectual ideation was the concept of a two stage spacecraft propelled by a series of dynamite detonations. Though not practical, many critics of the design could not refute that it would have been sick and rad.</Text>
+		</Row>
+
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON_CHAPTER_HISTORY_PARA_1" >
+			<Text>Air Commodore Douglas Douglas-Hamilton, 14th Duke of Hamilton and 11th Duke of Brandon, KT, GCVO, AFC, PC, DL, FRCSE, FRGS was a Scottish nobleman and aviator who was the first man to fly over Mount Everest.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON_CHAPTER_HISTORY_PARA_2" >
+			<Text>Records of his historic flight lack video records, but it is widely believed he held an enormous smirk as he flew over, shouting “nice job climbing you dummies! You’ll never get as high as me!” out the window, causing massive humiliation to a climber about to plant a flag at the peak.</Text>
+		</Row>
+
+
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS_CHAPTER_HISTORY_PARA_1" >
+			<Text>The first to propose the concept of a surface to air missile (SAM), Gustav Rasmus originally proposed homing in on the sound of an aircraft’s engine.</Text>
+		</Row>
+		<Row tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS_CHAPTER_HISTORY_PARA_2" >
+			<Text>Though laser guided models would eventually dominate the field of surface to air missiles, this was the only inventor I could reasonably justify having this ability as a great aviator.</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_CHAPTER_HISTORY_PARA_1">
+			<Text>By the time of his death in August 1945 AD, Robert Goddard held some 214 patents, had dreamed large (envisioning a rocket reaching the Moon), had touched space (well, 2.6 kilometers in altitude), and is said to be the “father of rocketry.” His 1919 monograph “A Method for Reaching Extreme Altitudes” is considered the classic text of early rocket science. Not a bad legacy.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_CHAPTER_HISTORY_PARA_2">
+			<Text>Goddard enrolled in the Worcester (Massachusetts) Polytechnic Institute in his hometown in 1907, where he became infamous for trying to set off a black-powder rocket from the laboratory basement. He received his Bachelor of Science degree in 1908, and subsequently took his masters and doctorate degrees in physics from Clark University. In 1912 he accepted a position at the Palmer Labs at Princeton, but soon returned to teach part-time at Clark University where he was free to pursue his “peculiar” interest in rocketry. In 1915, Goddard launched his first successful rocket, this time outside the building at Clark.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_CHAPTER_HISTORY_PARA_3">
+			<Text>But by 1916 his research had become too costly for his modest salary to bear; having gained some interest through his writings, he convinced the Smithsonian Institute the next year to give him a five-year grant totaling 5000 dollars. Clark University also agreed to give him some funding. With this largess, which continued from various contributors, Goddard perfected his earlier ideas, among these two basic advances that made space travel possible: multi-stage rockets, and liquid rocket fuel.</Text>
+		</Row>
+
+	</BaseGameText>
+</GameData>
