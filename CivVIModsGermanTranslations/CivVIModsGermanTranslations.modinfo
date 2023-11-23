@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="28">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]257[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]258[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1700423518</Created>
+    <Created>1700763565</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Nundge, Oni, p0kiehl, peter.spjuth, Phantagonist, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -429,6 +429,9 @@
     </Criteria>
     <Criteria id="CastlesBetterForts">
       <ModInUse>cbfe265b-c9d9-47b8-ae93-5645303dc3e5</ModInUse>
+    </Criteria>
+    <Criteria id="CBClimateBalanceCompletePack">
+      <ModInUse>50c021d6-8d28-44ca-bba4-ad68d3f8936e</ModInUse>
     </Criteria>
     <Criteria id="CheatMapEditor">
       <ModInUse>b8fb5dd4-d2da-4a71-96c0-858913f9c610</ModInUse>
@@ -2256,6 +2259,16 @@
     <UpdateText id="CastlesBetterForts_de_DE">
       <Criteria>CastlesBetterForts</Criteria>
       <File>1768673720/MC_Castles_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CBClimateBalanceCompletePack_Text_de_DE">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <Criteria>CBClimateBalanceCompletePack</Criteria>
+      <File>1667883116/Text/CB_Carbon_Recapture_Text_de_DE.sql</File>
+      <File>1667883116/Text/CB_Decommission_Text_de_DE.sql</File>
+      <File>1667883116/Text/CB_Deforestation_Text_de_DE.sql</File>
+      <File>1667883116/Text/CB_Severe_Weather_Text_de_DE.sql</File>
     </UpdateText>
     <UpdateText id="CheatMapEditor_de_DE">
       <Criteria>CheatMapEditor</Criteria>
@@ -4382,6 +4395,10 @@
     <File>1661944193/Text/BiofuelProduction_Buildings_Text_de_DE.xml</File>
     <File>1661944193/Text/BiofuelProduction_Districts_Text_de_DE.xml</File>
     <File>1665310405/ZsSRO_Locs_de_DE.xml</File>
+    <File>1667883116/Text/CB_Carbon_Recapture_Text_de_DE.sql</File>
+    <File>1667883116/Text/CB_Decommission_Text_de_DE.sql</File>
+    <File>1667883116/Text/CB_Deforestation_Text_de_DE.sql</File>
+    <File>1667883116/Text/CB_Severe_Weather_Text_de_DE.sql</File>
     <File>1673627346/UC_DHA_Text_de_DE.sql</File>
     <File>1673810086/Data_Localization_de_DE.xml</File>
     <File>1674839844/Text/EMR_Text_de_DE.xml</File>

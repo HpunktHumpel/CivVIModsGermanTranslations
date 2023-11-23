@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="50c021d6-8d28-44ca-bba4-ad68d3f8936e" version="9">
+  <Properties>
+    <Name>[COLOR:ResScienceLabelCS]CB - Climate Balance[ENDCOLOR] Complete Pack</Name>
+    <Description>A collection of various tweaks around climate change.[NEWLINE][NEWLINE]- Decommissioning power plants always possible once unlocked with Environmentalism civic. Climate Accords now reward having clean power plants and no dirty power plants, no longer the decommissioning project itself.[NEWLINE]- Global temperature rises 50% slower.[NEWLINE]- 65% of coastal flat land get flooded from Climate Change (compatible with all map types).[NEWLINE]- Nuclear Power produces 75% less CO2.[NEWLINE]- Rebalanced damage and yield patterns of climate disasters.[NEWLINE]- Flood Barrier cost no longer scales with number of floodable tiles, but has higher base cost.[NEWLINE]- Carbon Recapture is now unlocked in the tech tree, but receives an upgrade from the civics tree.[NEWLINE]- Deforestation occurs in more detailed steps and its effects can get more severe overall.</Description>
+    <Created>1593746353</Created>
+    <Teaser>A collection of various tweaks around climate change.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>1300</LoadOrder>
+      </Properties>
+      <File>Data/CB_Carbon_Recapture_Gameplay.sql</File>
+      <File>Data/CB_Clean_Nuclear_75.sql</File>
+      <File>Data/CB_CO2perDegree_050.sql</File>
+      <File>Data/CB_Decommission_Gameplay.sql</File>
+      <File>Data/CB_Deforestation_Gameplay.sql</File>
+      <File>Data/CB_Flood_Barriers_Cost.sql</File>
+      <File>Data/CB_Severe_Weather_GS.sql</File>
+      <File>Data/CB_Severe_Weather_NFP.sql</File>
+      <File>Data/CB_Submerge_065.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Text/CB_Carbon_Recapture_Text.sql</File>
+      <File>Text/CB_Decommission_Text.sql</File>
+      <File>Text/CB_Deforestation_Text.sql</File>
+      <File>Text/CB_Severe_Weather_Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Data/CB_Carbon_Recapture_Gameplay.sql</File>
+    <File>Data/CB_Clean_Nuclear_75.sql</File>
+    <File>Data/CB_CO2perDegree_050.sql</File>
+    <File>Data/CB_Decommission_Gameplay.sql</File>
+    <File>Data/CB_Deforestation_Gameplay.sql</File>
+    <File>Data/CB_Flood_Barriers_Cost.sql</File>
+    <File>Data/CB_Severe_Weather_GS.sql</File>
+    <File>Data/CB_Severe_Weather_NFP.sql</File>
+    <File>Data/CB_Submerge_065.sql</File>
+    <File>Text/CB_Carbon_Recapture_Text.sql</File>
+    <File>Text/CB_Decommission_Text.sql</File>
+    <File>Text/CB_Deforestation_Text.sql</File>
+    <File>Text/CB_Severe_Weather_Text.sql</File>
+  </Files>
+</Mod>

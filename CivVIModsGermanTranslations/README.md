@@ -60,6 +60,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1661939653 | Coal Liquefaction Project | naed21 | H.Humpel | #19
 1661944193 | Biofuel Production Building | naed21 | H.Humpel | #19
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
+1667883116 | CB - Climate Balance Complete Pack | JNR | ASM590319 | **NEW**
 1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | #13
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
 1674839844 | Even More Reports | Faronizer | ASM590319 | **NEW**
