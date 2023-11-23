@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>	
+	<Replace Tag="LOC_GAME_LOYAL_CAPITALS_NAME" Language="en_US">
+      <Text>Loyal Capitals</Text>
+    </Replace>
+	<Replace Tag="LOC_GAME_LOYAL_CAPITALS_DESC" Language="en_US">
+      <Text>Capital cities are unaffected by changes in Loyalty and will always remain at the maximum loyalty level</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eff5bce4-8bb4-465e-ba3d-71eb4a4ce152" version="2.1">
+  <Properties>
+    <Name>Loyal Capitals</Name>
+    <Description>Loyalty in the capital never changes. Affects all players. Activate in a new game with the advanced setup menu option.[NEWLINE][NEWLINE]Requires Rise and Fall or Gathering Storm</Description>
+    <Teaser>Capital cities are always loyal. Activate in a new game with the advanced setup menu option.</Teaser>
+    <Authors>totalslacker</Authors>
+	<AffectsSavedGames>1</AffectsSavedGames>
+	<SupportsMultiplayer>1</SupportsMultiplayer>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+	<ActionCriteria>
+		<Criteria id="LoyalCapitals_Active_XP1">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>LoyalCapitals</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<GameCoreInUse>Expansion1</GameCoreInUse> 
+		</Criteria>
+		<Criteria id="LoyalCapitals_Active_XP2">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>LoyalCapitals</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>	
+	</ActionCriteria> 	
+  <InGameActions>
+    <UpdateDatabase id="XP1" criteria="LoyalCapitals_Active_XP1">
+		<Properties><LoadOrder>500</LoadOrder></Properties>
+		<File>LoyaltyChanges.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="XP2" criteria="LoyalCapitals_Active_XP2">
+		<Properties><LoadOrder>500</LoadOrder></Properties>
+		<File>LoyaltyChanges.sql</File>
+    </UpdateDatabase>	
+  </InGameActions>
+ 	<FrontEndActions>
+		<UpdateDatabase id="AdvancedSetup">
+			<File>Config.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="AdvancedSetupText">
+			<File>ConfigText.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+  <Files>
+    <File>LoyaltyChanges.sql</File>
+	<File>Config.xml</File>
+	<File>ConfigText.xml</File>
+  </Files>
+</Mod>

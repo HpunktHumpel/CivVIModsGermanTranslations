@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>	
+	<Replace Tag="LOC_GAME_LOYAL_CAPITALS_NAME" Language="de_DE">
+      <Text>Loyale Hauptstädte</Text>
+    </Replace>
+	<Replace Tag="LOC_GAME_LOYAL_CAPITALS_DESC" Language="de_DE">
+      <Text>Hauptstädte bleiben von Änderungen der Loyalität unberührt und bleiben immer auf der maximalen Loyalitätsstufe.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

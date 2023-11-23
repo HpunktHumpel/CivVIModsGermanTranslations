@@ -24,6 +24,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
 1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | #14
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
+1306525530 | Loyal Capitals | totalslacker | Junky | **NEW**
 1307248778 | Alternate Policy Screen | FinalFreak16, Infixo | ASM590319 | #26
 1331757859 | CIVITAS City-States Expanded | thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky | #16
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
