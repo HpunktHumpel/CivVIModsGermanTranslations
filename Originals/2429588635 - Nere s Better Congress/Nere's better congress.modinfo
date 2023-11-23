@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fdf9c98a-f531-49d7-f153-f548f8d2db60" version="1">
+<!--Future expansions: Adding New Nobel Prize competitions,as disucssed here: "Real Nobel Prize (GS only)"-->
+  <Properties>
+    <Name>Nere's Better Congress</Name>
+    <Description>Improves the World Congress by reworking most Resolutions. Generally, if you pick the right side (A vs B) you will get some part of the effect, while the actually winner will get an even more powerful effect. Upping the stakes should also help to make WC feel more interesting and impactful.</Description>
+    <LoadOrder>99999</LoadOrder>
+    <Teaser>Improves the World Congress by reworking most Resolutions. Generally, if you pick the right side (A vs B) you will get some part of the effect, while the actually winner will get an even more powerful effect. Upping the stakes should also help to make WC feel more interesting and impactful.</Teaser>
+    <Authors>Nerevatar</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames><!--set to 1 before steam release-->
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+	<ImportFiles id="Nere_UI">
+		<Properties>
+			<LoadOrder>99999</LoadOrder>
+		</Properties>
+		<File>WorldCongress.lua</File>
+	</ImportFiles>
+	<UpdateText id="Text">
+      <Properties>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>
+      <File>congress_text.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="Gameplay">
+	  <Properties>
+        <LoadOrder>99998</LoadOrder>
+      </Properties>	  
+      <File>Only_adjustments.sql</File> 
+      <File>Rework_Border_Control.xml</File>
+      <File>Rework_Deforestation_Treaty.xml</File>   
+      <File>Rework_Espionage_Pact.xml</File>
+      <File>Rework_Global_Energy_Treaty.xml</File>
+  	  <File>Rework_Heritage_Organization.xml</File>
+	  <File>Rework_Migration_Treaty.xml</File>
+	  <File>Rework_Patronage.xml</File>
+	  <File>Rework_Public_Relations.xml</File>
+	  <File>Rework_Public_Works_Program.xml</File>
+	  <File>Rework_Sovereignty.xml</File>
+	  <File>Rework_Trade_Treaty.xml</File>
+	  <File>Rework_Urban_Development_Treaty.xml</File>
+	  <File>Rework_World_Ideology.xml</File>
+      <File>Era_adjustments.sql</File> 
+      <File>Congress_and_favor_tweaks.sql</File> 
+    </UpdateDatabase>
+    <UpdateDatabase id="Removals">
+	  <Properties>
+        <LoadOrder>99999</LoadOrder>
+      </Properties>	  
+      <File>Remove_Data.sql</File> 
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>	
+    <File>Only_adjustments.sql</File>  
+    <File>Rework_Border_Control.xml</File>  
+    <File>Rework_Deforestation_Treaty.xml</File> 
+    <File>Rework_Espionage_Pact.xml</File>
+    <File>Rework_Global_Energy_Treaty.xml</File>
+    <File>Rework_Heritage_Organization.xml</File>
+    <File>Rework_Migration_Treaty.xml</File>
+    <File>Rework_Patronage.xml</File>
+    <File>Rework_Public_Relations.xml</File>
+    <File>Rework_Public_Works_Program.xml</File>
+    <File>Rework_Sovereignty.xml</File>
+    <File>Rework_Trade_Treaty.xml</File>
+    <File>Rework_Urban_Development_Treaty.xml</File>
+    <File>Rework_World_Ideology.xml</File>
+    <File>Era_adjustments.sql</File> 
+    <File>congress_text.sql</File>
+    <File>Remove_Data.sql</File>  
+    <File>Congress_and_favor_tweaks.sql</File> 
+    <File>WorldCongress.lua</File>  
+  </Files>
+</Mod>
