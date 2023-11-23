@@ -102,6 +102,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. EpsTweak for Adaptation (Eps | Junky)
 1. EpsTweak for Adjacency Multipliers (Eps | Junky)
 1. EpsTweak for Catch-Up (Eps | Junky)
+1. EpsTweak for Science Adjacency (Eps | Junky)
 1. Ethereal Invasion (Area 51 Expansion Pack) (Alterd-Rushnano | H.Humpel)
 1. Eurekas And Inspirations (J_Kovic | Junky)
 1. Even More Reports (Faronizer | ASM590319)

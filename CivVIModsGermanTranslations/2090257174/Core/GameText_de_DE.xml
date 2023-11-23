@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_EPSTWEAK_WOOD_SCIENCE" Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft durch angrenzende{1_Num : plural 1?n Wald; other? Wälder;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_EPSTWEAK_CENTER_SCIENCE" Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft durch angrenzendes Stadtzentrum.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_EPSTWEAK_SPACEPORT_SCIENCE" Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft durch angrenzende{1_Num : plural 1?n Raumhafen; other? Raumhäfen;}.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

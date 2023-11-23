@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ffff4a3b-074a-43fc-b2e0-b3e4f3783d08" version="3">
+  <Properties>
+    <Name>EpsTweak for Science Adjacency</Name>
+    <Description>Removes [COLOR_FLOAT_GOLD]Mountain[ENDCOLOR] adjacency bonuses from Campuses.[NEWLINE][NEWLINE]Campuses gain:[NEWLINE]+ 1 [ICON_Science] Science from each [COLOR_FLOAT_GOLD]Reef[ENDCOLOR]. (Down from 2 Science)[NEWLINE]+ 1 [ICON_Science] Science from each [COLOR_FLOAT_GOLD]Geothermal Fissure[ENDCOLOR]  (Down from 2 Science).[NEWLINE]+ 1 [ICON_Science] Science from every 2 [COLOR_FLOAT_GOLD]Forests[ENDCOLOR]. (Newly added)[NEWLINE]+ 1 [ICON_Science] Science from the[COLOR_FLOAT_GOLD]City Center[ENDCOLOR]. (Newly added)[NEWLINE]+ 2 [ICON_Science] Science from [COLOR_FLOAT_GOLD]Spaceports[ENDCOLOR]. (Newly added)[NEWLINE]</Description>
+    <Created>1631291880</Created>
+    <Teaser>Removes Mountain adjacency from Campuses, halves Reef and Fissure adjacency, and adds two new adjacency bonuses.</Teaser>
+    <Authors>Eps</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase">
+      <File>Core/GameDefines.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="InGameText">
+      <File>Core/GameText.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Core/GameDefines.xml</File>
+    <File>Core/GameText.xml</File>
+  </Files>
+</Mod>

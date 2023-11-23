@@ -116,6 +116,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2077371059 | Alchemist Unit | SailorCat | H.Humpel | #24
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | #19
+2090257174 | EpsTweak for Science Adjacency | Eps | Junky | **NEW**
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17

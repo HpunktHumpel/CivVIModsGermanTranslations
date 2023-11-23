@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="28">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]260[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]261[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1700764881</Created>
+    <Created>1700765669</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Oni, p0kiehl, peter.spjuth, Phantagonist, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -89,6 +89,9 @@
     </Criteria>
     <Criteria id="EpsTweakForCatchUp_FrontEnd">
       <ModIsEnabled>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModIsEnabled>
+    </Criteria>
+    <Criteria id="EpsTweakforScienceAdjacency_FrontEnd">
+      <ModIsEnabled>ffff4a3b-074a-43fc-b2e0-b3e4f3783d08</ModIsEnabled>
     </Criteria>
     <Criteria id="EnvoyQuestList_FrontEnd">
       <ModIsEnabled>389034b7-460b-40c1-be0c-a3240ebeff7b</ModIsEnabled>
@@ -525,6 +528,9 @@
     </Criteria>
     <Criteria id="EpsTweakForCatchUp">
       <ModInUse>e9a17da7-ca6c-48c9-b41f-04bd03ef44f6</ModInUse>
+    </Criteria>
+    <Criteria id="EpsTweakforScienceAdjacency">
+      <ModInUse>ffff4a3b-074a-43fc-b2e0-b3e4f3783d08</ModInUse>
     </Criteria>
     <Criteria id="EtherealInvasionArea51ExpansionPack">
       <ModInUse>e6dc448b-563b-4c58-a124-55d80c7482dc</ModInUse>
@@ -1542,6 +1548,10 @@
       <Criteria>EpsTweakForCatchUp_FrontEnd</Criteria>
       <File>2449611115/Core/GameText_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="EpsTweakforScienceAdjacency_Text_FrontEnd_de_DE">
+      <Criteria>EpsTweakforScienceAdjacency_FrontEnd</Criteria>
+      <File>2090257174/Core/GameText_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="EvenMoreReports_EMR_UpdateText_FrontEnd_de_DE">
       <Criteria>EvenMoreReports_FrontEnd</Criteria>
       <File>1674839844/Text/EMR_Text_de_DE.xml</File>
@@ -2525,6 +2535,10 @@
     <UpdateText id="EpsTweakForCatchUp_de_DE">
       <Criteria>EpsTweakForCatchUp</Criteria>
       <File>2449611115/Core/GameText_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="EpsTweakforScienceAdjacency_InGameText_de_DE">
+      <Criteria>EpsTweakforScienceAdjacency</Criteria>
+      <File>2090257174/Core/GameText_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="EtherealInvasionArea51ExpansionPack_Text_de_DE">
       <Criteria>EtherealInvasionArea51ExpansionPack</Criteria>
@@ -4497,6 +4511,7 @@
     <File>2084153500/Text/ModSupport/UC_Light_Text_RwF_de_DE.sql</File>
     <File>2084153500/Text/UC_Light_Text_de_DE.sql</File>
     <File>2086623426/Core/Suk_KhmerRework_Localisation_de_DE.sql</File>
+    <File>2090257174/Core/GameText_de_DE.xml</File>
     <File>2091335195/Core/Castrum_Text_de_DE.sql</File>
     <File>2095575379/Text_de_DE.sql</File>
     <File>2097550217/Core/Indon Rework - Game Text_de_DE.sql</File>

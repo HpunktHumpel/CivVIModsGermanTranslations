@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_DISTRICT_EPSTWEAK_WOOD_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Forest tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_EPSTWEAK_CENTER_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent City Center.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_EPSTWEAK_SPACEPORT_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from adjacent Spaceports.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
