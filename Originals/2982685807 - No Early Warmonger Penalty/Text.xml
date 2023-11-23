@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_GRVMOD_ERAS_NAME" Language="en_US">
+			<Text>Warmonger penalty era requirement</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_CLASSICAL_NAME" Language="en_US">
+			<Text>Classical</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_MEDIEVAL_NAME" Language="en_US">
+			<Text>Medieval</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_RENAISSANCE_NAME" Language="en_US">
+			<Text>Renaissance</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_INDUSTRIAL_NAME" Language="en_US">
+			<Text>Industrial</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_MODERN_NAME" Language="en_US">
+			<Text>Modern</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_ATOMIC_NAME" Language="en_US">
+			<Text>Atomic</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_INFORMATION_NAME" Language="en_US">
+			<Text>Information</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_FUTURE_NAME" Language="en_US">
+			<Text>Future</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_NO_FINAL_CITY_NAME" Language="en_US">
+			<Text>No grievances for conquering final city</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_NO_FINAL_CITY_DESCRIPTION" Language="en_US">
+			<Text>No grievances with all opponents for taking the final city of a civilization when enabled.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

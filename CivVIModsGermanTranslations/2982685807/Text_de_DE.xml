@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_GRVMOD_ERAS_NAME" Language="de_DE">
+			<Text>Zeitalter Bedingung des Kriegstreiber-Malus</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_CLASSICAL_NAME" Language="de_DE">
+			<Text>Klassik</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_MEDIEVAL_NAME" Language="de_DE">
+			<Text>Mittelalter</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_RENAISSANCE_NAME" Language="de_DE">
+			<Text>Renaissance</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_INDUSTRIAL_NAME" Language="de_DE">
+			<Text>Industriezeitalter</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_MODERN_NAME" Language="de_DE">
+			<Text>Moderne</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_ATOMIC_NAME" Language="de_DE">
+			<Text>Atomzeitalter</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_INFORMATION_NAME" Language="de_DE">
+			<Text>Informationszeitalter</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_FUTURE_NAME" Language="de_DE">
+			<Text>Zukunft</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_NO_FINAL_CITY_NAME" Language="de_DE">
+			<Text>Kein Groll bei Eroberung der letzten Stadt</Text>
+		</Replace>
+		<Replace Tag="LOC_GRVMOD_NO_FINAL_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, gibt es keinen zusätzlichen Groll bei allen Gegnern bei Eroberung der letzten Stadt einer Zivilisation.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -160,6 +160,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Naval Mine (Shuricas | H.Humpel)
 1. Necropolis: Unique District for Egypt (p0kiehl & Sukritact | Junky)
 1. Nere's Better Congress (Nerevatar | ASM590319)
+1. No Early Warmonger Penalty (Phyrax | Junky)
 1. Notre-Dame de Paris (WindFly | H.Humpel)
 1. Obsolete Policy Notifier (aioli | ASM590319)
 1. Olympic Pantheons (DB | duestere Legende)
