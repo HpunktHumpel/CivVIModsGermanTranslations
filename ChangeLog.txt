@@ -1,5 +1,6 @@
 26.11.2023
 
+- [FIXED] 6T - Grand Eras
 - [FIXED] CIVITAS City-States Expanded
 
 
