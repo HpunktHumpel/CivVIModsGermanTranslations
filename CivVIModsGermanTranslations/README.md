@@ -9,7 +9,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 899159291  | Sukritact's Fuji | sukritact | Junky | #19
 902785246  | Sukritact's Tonlé Sap | sukritact | Junky | #19
 902897696  | Angryr's Ancient Policies | Angryr | Junky | #2
-916614621  | Got Lakes (Various Worlds) | Scrum Lord | ASM590319 | **NEW**
+916614621  | Got Lakes (Various Worlds) | Scrum Lord | ASM590319 | #28
 933787677  | Sukritact's Wat Arun | sukritact | H.Humpel | #6
 937154507  | Covfefe | DesertMoonGW | H.Humpel | #9
 939149009  | Sukritact's Simple UI Adjustments | sukritact | Junky | #12
@@ -24,11 +24,11 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1282516512 | Seeds of Growth Policy | Ian G | H.Humpel | #10
 1293801965 | CIVITAS Resources | Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie | #14
 1302739491 | Cannabis and Hemp | AOM | H.Humpel | #2
-1306525530 | Loyal Capitals | totalslacker | Junky | **NEW**
+1306525530 | Loyal Capitals | totalslacker | Junky | #28
 1307248778 | Alternate Policy Screen | FinalFreak16, Infixo | ASM590319 | #26
 1331757859 | CIVITAS City-States Expanded | thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky | #16
 1335763888 | Ayakashi Saigyou | KCucumber | H.Humpel | #8
-1337632610 | Better Tech Tree (UI) | Infixo | ASM590319 | **NEW**
+1337632610 | Better Tech Tree (UI) | Infixo | ASM590319 | #28
 1341630847 | Better Civilopedia (UI) | Infixo | Junky | #25
 1348603370 | p0kiehl's Satrap's Court | chimp & p0kiehl | H.Humpel | #10
 1356081737 | p0kiehl's Precinct of Amun-Ra | chimp & p0kiehl | Stevie | #11
@@ -61,16 +61,16 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1661939653 | Coal Liquefaction Project | naed21 | H.Humpel | #19
 1661944193 | Biofuel Production Building | naed21 | H.Humpel | #19
 1665310405 | Zee's Strategic Resource Overhaul | _Zee | Junky | #7
-1667883116 | CB - Climate Balance Complete Pack | JNR | ASM590319 | **NEW**
+1667883116 | CB - Climate Balance Complete Pack | JNR | ASM590319 | #28
 1673627346 | Happy Districts - Appeal Rebalanced | JNR | Junky | #13
 1673810086 | Immigration - Move your population | WindFly | H.Humpel | #9
-1674839844 | Even More Reports | Faronizer | ASM590319 | **NEW**
+1674839844 | Even More Reports | Faronizer | ASM590319 | #28
 1676363302 | Zee's Properly Timed Eras | _Zee | Junky | #8
 1677687338 | District-Themed Recruiting | JNR | Junky | #12
 1681965868 | AOK_Units | anders | H.Humpel | #9
 1684182421 | Strategy Resources to Production | Windfly | ASM590319 | #26
 1684556488 | District Expansion: Goverment (Tier 4) | JNR | Junky | #12
-1699006932 | Real Era Tracker | Infixo | ASM590319 | **NEW**
+1699006932 | Real Era Tracker | Infixo | ASM590319 | #28
 1699707052 | Environmentalistic Policy | weraptor | H.Humpel | #9
 1701198033 | Iron-eating Beast (aka Panda) | WindFly | H.Humpel | #9
 1709115371 | Map Search Extension | _Zur13_ | ASM590319 | #27
@@ -105,7 +105,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1894176600 | Brandenburg Gate (World Wonder) | Deliverator23 | H.Humpel | #4
 1901462404 | National Projects: Satellites | JNR | H.Humpel | #3
 1911190056 | Mechanized Builders | Masked Man | Junky | #15
-1923120175 | Compact Production Panel | Masked Man | ASM590319 | **NEW**
+1923120175 | Compact Production Panel | Masked Man | ASM590319 | #28
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
 1945460659 | Expanded Alliances | JNR | Junky | #12
@@ -117,7 +117,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2077371059 | Alchemist Unit | SailorCat | H.Humpel | #24
 2084153500 | Building Expansion (Light Edition) | JNR | Junky | #14
 2086623426 | Sukritact's Khmer Rework (Baray) | sukritact | Junky | #19
-2090257174 | EpsTweak for Science Adjacency | Eps | Junky | **NEW**
+2090257174 | EpsTweak for Science Adjacency | Eps | Junky | #28
 2091335195 | Unique Improvement: Castrum (Rome) | JNR | Junky | #11
 2095575379 | Unique Building: Dojo (Japan) | JNR | Junky | #11
 2097550217 | [GS] Indonesia Rework - Port Lime | Captain Lime, Leugi & p0kiehl | H.Humpel | #17
@@ -154,8 +154,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2402394695 | District Expansion: Industry | JNR | Junky | #14
 2405084371 | Better Plantations-Policy Card | Burkart | H.Humpel | #23
 2423310185 | Sukritact's Egypt Rework | sukritact | Junky | #8
-2429588635 | Nere's Better Congress | Nerevatar | ASM590319 | **NEW**
-2435112708 | Alternate Cartography | Nundge | ASM590319 | **NEW**
+2429588635 | Nere's Better Congress | Nerevatar | ASM590319 | #28
+2435112708 | Alternate Cartography | Nundge | ASM590319 | #28
 2435878977 | Zombie Worker & Zombie Power Plant | Flactine | H.Humpel | #19
 2442822973 | CIVILIZATION VI: CN Tower | Albro | H.Humpel | #1
 2444029678 | Upgrades Keep Unique Abilities | Sailor Cat | Junky | #18
@@ -179,7 +179,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2569473644 | Greatest Cities Rewards | Technoluddite | Junky | #23
 2581704421 | What Did I Promise? | Technoluddite | Junky | #7
 2601169154 | More Maritime: Seaside Sectors | Albro | H.Humpel | #1
-2604740398 | Tech Civic Progress Plus | Firstborn, DeepLogic | ASM590319 | **NEW**
+2604740398 | Tech Civic Progress Plus | Firstborn, DeepLogic | ASM590319 | #28
 2608223282 | Thrones and Palaces | Technoluddite | Junky | #7
 2612473657 | CIVILIZATION VI: NATIONAL WONDERS PACK 1 | Albro | H.Humpel | #1
 2642534170 | Area 51 - World Wonder + Alien Units | JNR | H.Humpel | #10
@@ -261,8 +261,8 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2953909938 | Sukritact's Tourism Overview Screen | Sukritact | Junky | #25
 2961998117 | Armagh Monastery Rework | Skunk | Junky | #25
 2973448849 | Great Sovereigns | Plati | Junky | #25
-2982543361 | Great Aviators | HoneyTheBear | Junky | **NEW**
-2982685807 | No Early Warmonger Penalty | Phyrax | Junky | **NEW**
+2982543361 | Great Aviators | HoneyTheBear | Junky | #28
+2982685807 | No Early Warmonger Penalty | Phyrax | Junky | #28
 2984762028 | Sukritact's Angel Falls (Kerepakupai Merú) | Sukritact | ASM590319 | #26
 2997927787 | Top Panel Extension Pro | 号码菌 | ASM590319 | #27
-3040385614 | Sukritact's Te Otukapuarangi | Sukritact, Lime, | ASM590319 | **NEW**
+3040385614 | Sukritact's Te Otukapuarangi | Sukritact, Lime, | ASM590319 | #28

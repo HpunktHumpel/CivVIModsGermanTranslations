@@ -1,3 +1,8 @@
+26.11.2023
+
+- [FIXED] CIVITAS City-States Expanded
+
+
 ===== Version 28 =====
 
 23.11.2023

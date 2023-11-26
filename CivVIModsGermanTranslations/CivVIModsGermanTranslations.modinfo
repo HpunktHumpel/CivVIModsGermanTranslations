@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="28">
+<Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="29">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
     <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]264[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1700771866</Created>
+    <Created>1701017125</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, HoneyTheBear, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Oni, p0kiehl, peter.spjuth, Phantagonist, Phyrax, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, totalslacker, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky and Stevie for their translations.</SpecialThanks>
@@ -15,6 +15,7 @@
   <References>
     <Mod id="5a76eed0-18c0-4496-9944-f6f0f0e2553d" title="Cannabis and Hemp" />
     <Mod id="95b955fc-2dd1-41c5-989e-0265d98a28bd" title="CIVILIZATION VI: [COLOR:ResGoldLabelCS]CITY LIGHTS[ENDCOLOR]" />
+    <Mod id="7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6" title="CIVITAS City-States Expanded" />
     <Mod id="632a4fa1-e907-4426-815b-8424aeb81bb0" title="Diversity City Center Buildings" />
     <Mod id="88437b31-15d2-48da-b71f-2f13b34e6b42" title="Modern Infantry" />
     <Mod id="ff09ee51-3616-4e8b-af56-1cc5b511bb1a" title="Radiant Better Unit Promotions" />
