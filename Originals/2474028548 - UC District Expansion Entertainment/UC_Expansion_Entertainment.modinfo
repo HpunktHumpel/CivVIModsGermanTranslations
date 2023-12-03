@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="93e0f97a-a9cc-494d-8560-b3b6b9aabdf2" version="6">
+<Mod id="93e0f97a-a9cc-494d-8560-b3b6b9aabdf2" version="7">
   <Properties>
     <Name>[COLOR:ResProductionLabelCS]UC[ENDCOLOR] - District Expansion: [ICON_DISTRICT_ENTERTAINMENT] Entertainment</Name>
     <Description>New Amenity and Tourism-focused building choices as well as Tourism adjacency bonuses for the Entertainment districts, which are renamed to "Fairground" and "Pleasure Pier", respectively.</Description>
