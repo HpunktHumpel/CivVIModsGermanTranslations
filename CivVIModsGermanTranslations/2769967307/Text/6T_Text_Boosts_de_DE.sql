@@ -40,9 +40,9 @@ VALUES			 ('de_DE',   'LOC_BOOST_TRIGGER_6T_CITIZENSHIP',				'Baut 2 Theaterplä
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_TERRITORY',					'Wenn sich die Völker ausbreiten und neue Regionen besiedeln, herrscht Ihr nicht mehr nur über eine lokale Gemeinschaft, sondern über ein ganzes Reich mit riesigen Ländereien, die Ihr für Euch beanspruchen könnt.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_THEOLOGY_JNR_6T',				'Baut 2 Heilige Stätten.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_THEOLOGY_JNR_6T',				'Debatten zwischen den Priestern Eurer zahlreichen heiligen Stätten verschärfen sich, was die Notwendigkeit einer systematischen Untersuchung zeigt.'),
-				 ('de_DE',	' LOC_BOOST_TRIGGER_6T_TOLERANCE',					'Erforscht die Druck-Technologie.'),
+				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_TOLERANCE',					'Erforscht die Druck-Technologie.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_TOLERANCE',					'Die Ausbreitung der Literatur schärft das Bewusstsein für andere Sichtweisen und ermöglicht es unserem Volk, Taten von Heiden und Heidentum in bestimmter Weise zu billigen.'),
-		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_VENTURE_POLITICS_JNR_6T',		'Private-sector partnerships surrounding the development of our drones have led to a new relationship between business and government.'),
+		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_VENTURE_POLITICS_JNR_6T',		'Partnerschaften mit dem Privatsektor bei der Entwicklung unserer Drohnen haben zu einer neuen Beziehung zwischen Wirtschaft und Regierung geführt.'),
 				 ('de_DE',	 'LOC_BOOST_TRIGGER_6T_WARFARE',					'Besiegt 2 Barbaren.'),
 		('de_DE',	'LOC_BOOST_TRIGGER_LONGDESC_6T_WARFARE',					'Wenn wir auf die Leichen unserer Gefallenen blicken, erkennen wir, dass es im Krieg keine Gewinner gibt, sondern nur jene, die übrig bleiben.'),
 
