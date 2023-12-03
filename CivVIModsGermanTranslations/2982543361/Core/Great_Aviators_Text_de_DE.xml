@@ -38,7 +38,7 @@
 
 
 		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT" Language="de_DE">
-			<Text>Oliver Wright</Text>
+			<Text>Orville Wright</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT_ACTION" Language="de_DE">
 			<Text>Gewährt einen Doppeldecker und +1 [ICON_RESOURCE_OIL] Öl pro Runde.</Text>
@@ -69,7 +69,7 @@
 			<Text>René Lorin</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_RENE_LORIN_ACTION" Language="de_DE">
-			<Text>Luftjägereinheiten erhalten +1 [ICON_Range] Angriffsreichweite und Luftbombereinheiten erhalten +2 [ICON_Range] Angriffsreichweite.</Text>
+			<Text>Luftbombereinheiten erhalten +2 [ICON_Range] Angriffsreichweite.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_BOMBER_NAME" Language="de_DE">
 			<Text>Rene's Reichweite</Text>
@@ -78,10 +78,10 @@
 			<Text>+2 [ICON_Range] Angriffsreichweite (René Lorin)</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_FIGHTER_NAME" Language="de_DE">
-			<Text>Rene's Reichweite</Text>
+			<Text>Chuck's Chuckle</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ABILITY_RENE_LORIN_RANGE_FIGHTER_DESC" Language="de_DE">
-			<Text>+1 [ICON_Range] Angriffsreichweite (René Lorin)</Text>
+			<Text>+1 [ICON_Range] Angriffsreichweite (Chuck Yeager)</Text>
 		</Replace>
 
 
@@ -105,6 +105,15 @@
 		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER_ACTION" Language="de_DE">
 			<Text>Hangar und Flughäfen kosten keinen Unterhalt und gewähren stattdessen +6 [ICON_GOLD] Gold bzw. +10 [ICON_GOLD] Gold.</Text>
 		</Replace>
+		
+		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT" Language="de_DE">
+			<Text>Alberto Santos-Dumont</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT_ACTION" Language="de_DE">
+			<Text>Erhaltet +5% [ICON_SCIENCE] Wissenschaft und +5% [ICON_CULTURE] Kultur whährend Friedenszeiten.</Text>
+		</Replace>
+		
 
 		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_AMELIA_EARHART" Language="de_DE">
 			<Text>Amelia Earhart</Text>
@@ -180,6 +189,14 @@
 		</Replace>
 		
 		
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_CHUCK_YEAGER" Language="de_DE">
+			<Text>Chuck Yeager</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_CHUCK_YEAGER_ACTION" Language="de_DE">
+			<Text>Luftjägereinheiten erhalten +1 [ICON_Range] Angriffsreichweite.</Text>
+		</Replace>
+		
+		
 		<Replace Tag="LOC_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON" Language="de_DE">
 			<Text>Douglas Douglas-Hamilton</Text>
 		</Replace>
@@ -224,5 +241,156 @@
 		
 
 		<!--LOC_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_COMBAT_BONUS_PREVIEW-->
+		
+		<!--Civlopedia-->
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CHUCK_YEAGER_CHAPTER_HISTORY_PARA_1" >
+			<Text>Chuck Yeager, ein amerikanischer Air-Force-Pilot mit einer langen Dienstgeschichte, ging als erster Mensch in die Geschichte ein, der bei einem Testflug am 14. Oktober 1947 nachweislich die Schallmauer durchbrochen hat.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CHUCK_YEAGER_CHAPTER_HISTORY_PARA_2" >
+			<Text>Ehrlich gesagt ist alles andere, was er getan hat, nicht annähernd so krank und krass wie das, egal wie wichtig es in der Vergangenheit gewesen sein mag.</Text>
+		</Replace>
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_AMELIA_EARHART_CHAPTER_HISTORY_PARA_1" >
+			<Text>Amelia Earhart, eine Pionierin der Luftfahrt und des Frauenwahlrechts, ist vielleicht am bekanntesten für die Zeit, in der sie nicht erfolgreich geflogen ist. Als erste Frau, die den Atlantik im Alleinflug überquerte, und als erfolgreiche Schriftstellerin ist Earhart auch für die Gründung der "Neunundneunzig" bekannt, einer Organisation von Pilotinnen.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_AMELIA_EARHART_CHAPTER_HISTORY_PARA_2" >
+			<Text>Earhart war eine große Befürworterin der kommerziellen Luftfahrt, und ihre Schriften zu diesem Thema trugen maßgeblich dazu bei, diese Praxis zu normalisieren. Als Kind nahm ich an, dass ihr Nachname "Airheart" buchstabiert wurde, und ehrlich gesagt glaube ich, dass die Welt ein besserer Ort wäre, wenn es so wäre.</Text>
+		</Replace>
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT_CHAPTER_HISTORY_PARA_1" >
+			<Text>Orville Wright, die schnauzbärtige Variante der berühmten Gebrüder Wright, gilt vor allem unter den Bewohnern von Kitty Hawk als eine der bedeutendsten Figuren bei der Erfindung des menschlichen Flugs.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_OLIVER_WRIGHT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Obwohl sich die Historiker nicht einig sind, ob die Idee für den Starrflügleraufzug durch seine Gesichtsbehaarung inspiriert wurde oder nicht, hat er sich dennoch seinen Platz in der Geschichte als einer der ersten Väter des Fliegens gesichert.</Text>
+		</Replace>
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT_CHAPTER_HISTORY_PARA_1" >
+			<Text>Wilbur Wright, die glatte Variante der berühmten Gebrüder Wright, gilt vor allem unter den Bewohnern von Kitty Hawk als eine der bedeutendsten Figuren bei der Erfindung des menschlichen Flugs.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_WILBUR_WRIGHT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Obwohl sich die Historiker nicht einig sind, ob seine fehlenden Haare zu einem besseren Verständnis des Luftdrucks beigetragen haben, wie die neu erwachten Luftbändiger in der Ära von Avatar Korra, hat er sich dennoch seinen Platz in der Geschichte als einer der ersten Väter des Fliegens gesichert.</Text>
+		</Replace>
+		
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY_CHAPTER_HISTORY_PARA_1" >
+			<Text>Sir George Cayley, der oft als der erste wirkliche wissenschaftliche Erforscher der Luftfahrt bezeichnet wird, sollte sterben, lange bevor der Traum vom Fliegen für den Menschen Wirklichkeit wurde. Seine Beiträge waren seiner Zeit um Jahre voraus und gingen sogar so weit, dass er ein realistisches System für den Vertikalflug vorschlug.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_SIR_GEORGE_CAYLEY_CHAPTER_HISTORY_PARA_2" >
+			<Text>Da er die vier Kräfte identifizierte, die auf Fahrzeuge wirken, die schwerer als Luft sind, wird Cayley oft als eine der wichtigsten Persönlichkeiten in der Geschichte der Luftfahrt angesehen.</Text>
+		</Replace>
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE_CHAPTER_HISTORY_PARA_1" >
+			<Text>Thaddeus S. C. Lowe war ein amerikanischer Luftfahrer aus dem Bürgerkrieg, der durch seine Luftaufklärung zum Sieg der Union beitrug. Er trug nicht nur zu fortschrittlichen Theorien in den meteorologischen Wissenschaften bei, sondern wurde zu seiner Zeit auch als Experte für den Bau von Ballons verehrt.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_THADDEUS_S_C_LOWE_CHAPTER_HISTORY_PARA_2" >
+			<Text>Lowe verdiente auch Millionen mit seinem Patent für eine Eismaschine und war einfach ein rundum cooler und lustiger Typ.</Text>
+		</Replace>
+	
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN_CHAPTER_HISTORY_PARA_1" >
+			<Text>Manfred Albrecht Freiherr von Richthofen gilt als der größte Kampfpilot seiner Zeit und erhielt für seine Zeit in der deutschen Luftwaffe während des Ersten Weltkriegs den berüchtigten Titel "Roter Baron".</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_MANFRED_ALBRECHT_FREIHERR_VON_RICHTHOFEN_CHAPTER_HISTORY_PARA_2" >
+			<Text>Als bösartiger Rivale des Hundes Snoopy verdiente sich Manfred seinen Titel durch blutige Kämpfe in einer Zeit, die als das goldene Zeitalter des Hundekampfes in der Luft gilt.</Text>
+		</Replace>
+
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RENE_LORIN_CHAPTER_HISTORY_PARA_1" >
+			<Text>Als Wissenschaftler, der seiner Zeit weit voraus war, patentierte Lorin 1908 FR390256, das erste Unterschall-Staustrahltriebwerk. Seine Erfindung konnte viele Jahre lang nicht getestet werden, da es zu dieser Zeit keine Möglichkeit gab, die für den Staustrahlbetrieb erforderliche Geschwindigkeit zu erreichen.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RENE_LORIN_CHAPTER_HISTORY_PARA_2" >
+			<Text>Rene Lorin sollte seine Innovation nicht mehr erleben, denn der erste erfolgreiche Einsatz eines Staustrahltriebwerks fand erst 1945 statt, lange nach seinem Tod im Jahr 1933.</Text>
+		</Replace>
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER_CHAPTER_HISTORY_PARA_1" >
+			<Text>Percival E. Fansler erlangte Berühmtheit durch den Betrieb der ersten kommerziellen Fluglinie zwischen St. Petersburg und Tampa im Jahr 1914. Ihm zur Seite stand der erste staatlich lizenzierte Pilot, Anthony H. Jannus.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_PERCIVAL_E_FANSLER_CHAPTER_HISTORY_PARA_2" >
+			<Text>Der historische Erstflug der Fluggesellschaft fand am 1. Januar 1914 mit nur einem einzigen Passagier statt, wurde aber von über 3000 Zivilisten verfolgt.</Text>
+		</Replace>
+
+
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT_CHAPTER_HISTORY_PARA_1" >
+			<Text>Alberto Santos-Dumont, einer der wenigen Flieger, die es in den Anfängen der Schwereluftfahrt mit den Gebrüdern Wright aufnehmen konnten, war ein in Brasilien geborener Vermögenserbe, der die meiste Zeit seines Lebens damit verbrachte, die Luftfahrt in Frankreich voranzutreiben.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ALBERTO_SANTOS_DUMONT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Obwohl Dumont einen Großteil seiner Erfolge in der Schwerelosigkeit später als die Gebrüder Wright erzielte, führten die Geheimhaltung, mit der die Brüder ihren Flug durchführten, das Patentverfahren und die langsame Kommunikation der damaligen Zeit dazu, dass Frankreich für eine kurze Zeit glaubte, sie hätten es zuerst geschafft. Zu Dumonts Errungenschaften gehören auch der Gewinn eines Geldpreises für die Umrundung des Eiffelturms, den er umgehend für wohltätige Zwecke spendete, und ein Schnurrbart, der sogar Orville Wright übertraf.</Text>
+		</Replace>
+
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG_CHAPTER_HISTORY_PARA_1" >
+			<Text>Carl Richard Nyberg war ein schwedischer Erfinder und Industrieller, der vor allem durch die Erfindung des Schneidbrenners bekannt wurde (der an sich schon eine große Hilfe für die Luftfahrt war).</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CARL_RICHARD_NYBERG_CHAPTER_HISTORY_PARA_2" >
+			<Text>Zu seinen besonderen Verdiensten um die Luftfahrt zählt die Entwicklung des Dampfmaschinenflugzeugs, was ihm den Beinamen "Carl Nyberg der Luftfahrtwissenschaftler Guyberg" einbrachte.</Text>
+		</Replace>
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_CHAPTER_HISTORY_PARA_1" >
+			<Text>Radoje Ljutovac war ein serbischer Soldat aus dem Dorf Poljna in Serbien. Der Gefreite Radoje Ljutovac kämpfte im Ersten Weltkrieg in der serbischen Armee und wird offiziell für den ersten Abschuss eines Militärflugzeugs durch Boden-Luft-Artilleriebeschuss verantwortlich gemacht.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_RADOJE_LJUTOVAC_CHAPTER_HISTORY_PARA_2" >
+			<Text>Allerdings handelte es sich dabei nicht um spezielle Flugabwehrkanonen, wie wir sie heute kennen, sondern um eine gewöhnliche Feldkanone, die auf einem von einem Pferd gezogenen Wagen montiert war. Der Abschuss des Flugzeugs war eine wirklich bemerkenswerte und, offen gesagt, lustige Meisterleistung.</Text>
+		</Replace>
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN_CHAPTER_HISTORY_PARA_1" >
+			<Text>Floyd Fogleman war ein Luftfahrtkonstrukteur, der zusammen mit Richard Kline in den 1960er Jahren an der Entwicklung abgestufter Tragflächen beteiligt war.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_FLOYD_FOGLEMAN_CHAPTER_HISTORY_PARA_2" >
+			<Text>Obwohl es heute in großen Flugzeugen verwendet wird, war es ursprünglich für den Einsatz in hochwertigen Papierflugzeugen gedacht.</Text>
+		</Replace>
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CLEMENT_ADER_CHAPTER_HISTORY_PARA_1" >
+			<Text>Clément Ader war ein französischer Erfinder und Ingenieur, der vor allem für seine Pionierarbeit in der Luftfahrt und die Förderung des Radsports in Frankreich bekannt ist.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_CLEMENT_ADER_CHAPTER_HISTORY_PARA_2" >
+			<Text>Viele seiner Flugzeugprototypen wurden vor der Wende zum 20. Jahrhundert entwickelt und waren weitgehend erfolglos, aber er war vorausschauend genug, um einen praktischen Entwurf für Flugzeugträger zu veröffentlichen, lange bevor die Schwerelosigkeit in der Luft allgemein angenommen wurde.</Text>
+		</Replace>
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT_CHAPTER_HISTORY_PARA_1" >
+			<Text>Hermann Ganswindt war ein deutscher Erfinder und Raumfahrtwissenschaftler, dessen Erfindungen wie das Luftschiff, der Hubschrauber und der Verbrennungsmotor als seiner Zeit voraus gelten, da er bereits 1856 geboren wurde.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_HERMANN_GANSWINDT_CHAPTER_HISTORY_PARA_2" >
+			<Text>Seine vielleicht dümmste intellektuelle Idee war das Konzept eines zweistufigen Raumschiffs, das durch eine Reihe von Dynamitexplosionen angetrieben werden sollte. Obwohl es nicht praktikabel war, konnten viele Kritiker des Entwurfs nicht widerlegen, dass es krank und verrückt gewesen wäre.</Text>
+		</Replace>
+
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON_CHAPTER_HISTORY_PARA_1" >
+			<Text>Air Commodore Douglas Douglas-Hamilton, 14th Duke of Hamilton und 11th Duke of Brandon, KT, GCVO, AFC, PC, DL, FRCSE, FRGS war ein schottischer Adliger und Flieger, der als erster Mensch den Mount Everest überflog.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_DOUGLAS_DOUGLAS_HAMILTON_CHAPTER_HISTORY_PARA_2" >
+			<Text>Von seinem historischen Flug gibt es keine Videoaufzeichnungen, aber es wird allgemein angenommen, dass er beim Überflug ein breites Grinsen aufsetzte und aus dem Fenster rief: "Gute Arbeit beim Klettern, ihr Dummköpfe! Ihr kommt nie so hoch wie ich!" aus dem Fenster und beschämte damit einen Bergsteiger, der gerade seine Fahne auf dem Gipfel aufstellen wollte.</Text>
+		</Replace>
+
+
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS_CHAPTER_HISTORY_PARA_1" >
+			<Text>Gustav Rasmus war der erste, der das Konzept einer Boden-Luft-Rakete (SAM) vorschlug. Er schlug ursprünglich vor, sich am Geräusch eines Flugzeugmotors zu orientieren.</Text>
+		</Replace>
+		<Replace Language= "de_DE" tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_GUSTAV_RASMUS_CHAPTER_HISTORY_PARA_2" >
+			<Text>Obwohl die lasergesteuerten Modelle schließlich den Bereich der Boden-Luft-Raketen dominieren sollten, war dies der einzige Erfinder, den ich als großen Flieger mit dieser Fähigkeit rechtfertigen konnte.</Text>
+		</Replace>
+
+
+
+		<Replace Language= "de_DE" Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_CHAPTER_HISTORY_PARA_1">
+			<Text>Zum Zeitpunkt seines Todes im August 1945 besaß Robert Goddard 214 Patente, hatte große Träume (er wollte mit einer Rakete den Mond erreichen), hatte den Weltraum berührt (in 2,6 Kilometern Höhe) und gilt als "Vater der Raketentechnik". Seine 1919 erschienene Monographie "A Method for Reaching Extreme Altitudes" gilt als Klassiker der frühen Raketenwissenschaft. Kein schlechtes Vermächtnis.</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_CHAPTER_HISTORY_PARA_2">
+			<Text>Goddard schrieb sich 1907 am Worcester (Massachusetts) Polytechnic Institute in seiner Heimatstadt ein, wo er berühmt-berüchtigt wurde, weil er versuchte, im Keller des Labors eine Schwarzpulverrakete zu zünden. Er erwarb 1908 den Bachelor of Science und machte anschließend seinen Master und seinen Doktortitel in Physik an der Clark University. 1912 nahm er eine Stelle an den Palmer Labs in Princeton an, kehrte aber bald zurück, um in Teilzeit an der Clark University zu unterrichten, wo er seinem "eigentümlichen" Interesse an der Raketentechnik nachgehen konnte. Im Jahr 1915 startete Goddard seine erste erfolgreiche Rakete, diesmal außerhalb des Gebäudes der Clark-Universität.</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_AVIATOR_ROBERT_HUTCHINGS_GODDARD_CHAPTER_HISTORY_PARA_3">
+			<Text>Doch 1916 waren seine Forschungen für sein bescheidenes Gehalt zu kostspielig geworden. Nachdem er durch seine Schriften ein gewisses Interesse geweckt hatte, überzeugte er im folgenden Jahr das Smithsonian Institute, ihm einen Fünfjahreszuschuss in Höhe von 5000 Dollar zu gewähren. Auch die Clark University erklärte sich bereit, ihn finanziell zu unterstützen. Mit diesen Geldern, die weiterhin von verschiedenen Geldgebern kamen, perfektionierte Goddard seine früheren Ideen, darunter zwei grundlegende Fortschritte, die die Raumfahrt ermöglichten: mehrstufige Raketen und flüssiger Raketentreibstoff.</Text>
+		</Replace>
+		
 	</LocalizedText>
 </GameData>

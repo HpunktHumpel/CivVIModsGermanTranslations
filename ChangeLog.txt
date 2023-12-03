@@ -1,14 +1,15 @@
 03.12.2023
 
 - [NEW] Annex City-State (vom 5. Nov. 2023 um 11:14, Übersetzung von Junky)
-- [UPDATE] 6T - Grand Eras (vom 17. Nov. 2023 um 4:33, Übersetzung von Junky)
-- [UPDATE] UC - District Expansion:  Campus (vom 6. Nov. 2022 um 2:46, Übersetzung von Junky)
 - [UPDATE] UC - District Expansion:  Entertainment (vom 17. März um 1:20, Übersetzung von Junky)
+- [IMPROVED] 6T - Grand Eras
+- [IMPROVED] Great Aviators
+- [IMPROVED] UC - District Expansion:  Campus
 
 
 26.11.2023
 
-- [FIXED] 6T - Grand Eras
+- [IMPROVED] 6T - Grand Eras
 - [FIXED] CIVITAS City-States Expanded
 
 
