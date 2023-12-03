@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="dac5ce35-dc0c-4c9d-9c1c-b2489ec6cf1d" version="1">
+  <Properties>
+    <Name>[COLOR:ResGoldLabelCS]Unique Building[ENDCOLOR]: Kūrag (Scythia)</Name>
+    <Description>Adds the Kūrag, a new unique building for Scythia, replacing the Granary and more expensive to build. +1 Housing and +2 Production. +1 Gold from Mines over resources in this city.</Description>
+    <Created>1700387299</Created>
+    <Teaser>New unique building for Scythia.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Kurag_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Kurag_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Kurag_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Scythia_Kurag.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Kurag_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Kurag_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Kurag_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Scythia_Kurag.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Core/RECIV_Kurag_Config.sql</File>
+    <File>Core/RECIV_Kurag_Gameplay.sql</File>
+    <File>Core/RECIV_Kurag_Icons.sql</File>
+    <File>Core/RECIV_Kurag_Text.sql</File>
+    <File>Scythia_Kurag.dep</File>
+  </Files>
+</Mod>
