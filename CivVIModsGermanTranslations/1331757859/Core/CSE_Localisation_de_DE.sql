@@ -1136,8 +1136,8 @@ VALUES
 -- City-State | Samarqand
 -----------------------------------------------
 	
-	("de_DE",	"LOC_CIVILIZATION_CSE_SAMARQAND_NAME",				"Samarqand"	),
-	("de_DE",	"LOC_CIVILIZATION_CSE_SAMARQAND_ADJECTIVE",			"Samarqand"	),
+	("de_DE",	"LOC_CIVILIZATION_CSE_SAMARQAND_NAME",				"Samarkand"	),
+	("de_DE",	"LOC_CIVILIZATION_CSE_SAMARQAND_ADJECTIVE",			"Samarkand"	),
 	("de_DE",	"LOC_CIVILIZATION_CSE_SAMARQAND_DESCRIPTION",		"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}-Stadtstaat"		),
 	("de_DE",	"LOC_CSE_SAMARQAND_TRAIT_NAME",						"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}-Suzerän-Bonus"	),
 	("de_DE",	"LOC_CSE_SAMARQAND_TRAIT_DESCRIPTION",				"Eure Zivilisation erhält +2% [ICON_SCIENCE] Wissenschaft für jede [ICON_GREATPERSON] Große Person die je rekrutiert wurde, bis zu einem Maximum von +30%."	),
