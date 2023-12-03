@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Daniel -->
+<!-- DateCreated: 4/19/2017 1:12:27 PM -->
+<GameData>
+<!--District Changes-->
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_AQUEDUCT"/>
+			<Set RequiresPopulation="true"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_BATH"/>
+			<Set RequiresPopulation="true"/>
+		</Update>
+	<!--Text Changes-->
+		<Update>
+			<Where DistrictType="DISTRICT_AQUEDUCT"/>
+			<Set Description="A district that provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center."/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_BATH"/>
+			<Set Description="A district unique to Rome for city growth. Replaces the Aqueduct district.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center. In either case, the Bath provides an additional bonus of +2 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Must be built adjacent to the City Center."/>
+		</Update>
+	</Districts>
+<!--Building Additions-->
+	<Types>
+		<Row Type="BUILDING_PUBLIC_BATHS" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_WATER_FILTRATION_PLANT" Kind="KIND_BUILDING" />
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_PUBLIC_BATHS" Name="LOC_BUILDING_PUBLIC_BATHS_NAME" PrereqTech="TECH_ENGINEERING" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Housing="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" Name="LOC_BUILDING_WATER_FILTRATION_PLANT_NAME" PrereqTech="TECH_CHEMISTRY" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="500" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Housing="3" CitizenSlots="1"/>
+	<!--Sewer Changes-->
+		<Update>
+			<Where BuildingType="BUILDING_SEWER"/>
+			<Set PrereqTech="TECH_PRINTING" PrereqDistrict="DISTRICT_AQUEDUCT" Cost="355" Housing="2" CitizenSlots="1"/>
+		</Update>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_SEWER" PrereqBuilding="BUILDING_PUBLIC_BATHS"/>
+		<Row Building="BUILDING_WATER_FILTRATION_PLANT" PrereqBuilding="BUILDING_SEWER"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_PUBLIC_BATHS" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SEWER" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" YieldType="YIELD_FOOD" YieldChange="3"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_PUBLIC_BATHS" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SEWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	
+	<Building_CitizenYieldChanges>
+		<Row BuildingType="BUILDING_PUBLIC_BATHS" YieldType="YIELD_FOOD" YieldChange="0"/>
+		<Row BuildingType="BUILDING_SEWER" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Building_CitizenYieldChanges>
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" RequiredPower="3"/>
+	</Buildings_XP2>
+	<Building_YieldChangesBonusWithPower>
+		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" YieldType="YIELD_FOOD" YieldChange="5"/>
+	</Building_YieldChangesBonusWithPower>
+</GameData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="41D7AABB-87EF-6E53-1247-90C517D0262D " version="1">
+  <Properties>
+    <Name>Improved Aqueduct District GS</Name>
+    <Description>original mod : Improved Aqueduct District for Daniel. Aqueduct districts now provide food adjacency yield.
+Adds two new buildings to be built in Aqueduct district, and moves Sewer</Description>
+    <Teaser>original mod : Improved Aqueduct District for Daniel. Aqueduct districts now provide food adjacency yield.
+Adds two new buildings to be built in Aqueduct district, and moves Sewer</Teaser>
+    <Authors>Nut9931</Authors>
+	<SpecialThanks>Daniel</SpecialThanks>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>ImprovedAqueduct_Gameplay.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>ImprovedAqueduct_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>ImprovedAqueduct_Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ImprovedAqueduct_Gameplay.xml</File>
+    <File>ImprovedAqueduct_Icons.xml</File>
+    <File>ImprovedAqueduct_Text.xml</File>
+  </Files>
+</Mod>

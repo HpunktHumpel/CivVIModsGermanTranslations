@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ImprovedAqueduct_Text -->
+<!-- Author: Daniel -->
+<!-- DateCreated: 4/19/2017 1:54:37 PM -->
+<GameData>
+	<LocalizedText>
+	<!--Buildings-->
+		<Replace Tag="LOC_BUILDING_PUBLIC_BATHS_NAME" Language="de_DE">
+			<Text>Öffentliche Badeanstalt|Öffentlichen Badeanstalt|Öffentlichen Badeanstalt|Öffentlichen Badeanstalt|Öffentliche Badeanstalt</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WATER_FILTRATION_PLANT_NAME" Language="de_DE">
+			<Text>Wasseraufbereitungsanlage|Wasseraufbereitungsanlage|Wasseraufbereitungsanlage|Wasseraufbereitungsanlage|Wasseraufbereitungsanlage</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_BATHS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Öffentliche Bäder entstanden aus einem gemeinschaftlichen Bedürfnis nach Sauberkeit zu einer Zeit, als die meisten Menschen keinen Zugang zu privaten Bademöglichkeiten hatten.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_WATER_FILTRATION_PLANT_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Bei der Wasseraufbereitung werden unerwünschte Chemikalien, biologische Verunreinigungen, Schwebstoffe und Gase aus kontaminiertem Wasser entfernt. Das Ziel ist die Herstellung von Wasser, das für einen bestimmten Zweck geeignet ist. Das meiste Wasser wird für den menschlichen Verzehr (Trinkwasser) desinfiziert, aber die Wasseraufbereitung kann auch für eine Vielzahl anderer Zwecke eingesetzt werden, z. B. zur Erfüllung der Anforderungen medizinischer, pharmakologischer, chemischer und industrieller Anwendungen.</Text>
+		</Replace>
+	<!--Districts-->
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION_ADJACENCY" Language="de_DE">
+			<Text>Nachbarschaft: Großer [ICON_Food] Nahrungsbonus durch angrenzenden Fluss. Standard [ICON_Food] Nahrungsbonus durch angrenzende Berge. Kleiner [ICON_Food] Nahrungsbonus für angrenzende Bezirke.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BATH_DESCRIPTION_ADJACENCY" Language="de_DE">
+			<Text>Nachbarschaft: Großer [ICON_Food] Nahrungsbonus durch angrenzenden Fluss. Standard [ICON_Food] Nahrungsbonus durch angrenzende Berge. Kleiner [ICON_Food] Nahrungsbonus für angrenzende Bezirke.</Text>
+		</Replace>
+	<!--Adjacency Yield Changes-->
+		<Replace Tag="LOC_DISTRICT_MOUNTAINS_FOOD1" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzende{1_Num : plural 1?n Berg; other? Berge;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MOUNTAINS_FOOD2" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzende{1_Num : plural 1?n Berg; other? Berge;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MOUNTAINS_FOOD3" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzende{1_Num : plural 1?n Berg; other? Berge;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MOUNTAINS_FOOD4" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzende{1_Num : plural 1?n Berg; other? Berge;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MOUNTAINS_FOOD5" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzende{1_Num : plural 1?n Berg; other? Berge;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_DISTRICT_FOOD" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzende{1_Num : plural 1?n Bezirk; other? Bezirke;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_RIVER_FOOD" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzenden Fluss.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_OASIS_FOOD" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung durch angrenzende Oase.</Text>
+		</Replace>
+	<!--Policies
+		<Replace Tag="LOC_POLICY_IMPROVED_INFRASTRUCTURE_NAME" Language="de_DE">
+			<Text>Improved Infrastructure</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_IMPROVED_INFRASTRUCTURE_DESCRIPTION" Language="de_DE">
+			<Text>+100% Aqueduct district adjacency bonuses.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SEPTIC_SYSTEM_NAME" Language="de_DE">
+			<Text>Septic System</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SEPTIC_SYSTEM_DESCRIPTION" Language="de_DE">
+			<Text>Buildings in the Aqueduct district provide +1 Housing. Cities with an Aqueduct district gain a 10% City growth rate bonus.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CITY_BEAUTIFICATION_NAME" Language="de_DE">
+			<Text>City Beautification</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CITY_BEAUTIFICATION_DESCRIPTION" Language="de_DE">
+			<Text>Buildings in the Aqueduct district provide +2 Housing. Cities with an Aqueduct district gain a 10% City growth rate bonus and +2 Amenities.</Text>
+		</Replace>-->
+	<!--City Projects - Coming Soon
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_AQUEDUCT_NAME" Language="de_DE">
+			<Text>Aqueduct Water Filtration Project</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_AQUEDUCT_SHORT_NAME" Language="de_DE">
+			<Text>Water Filtration Project</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_AQUEDUCT_DESCRIPTION" Language="de_DE">
+			<Text>District-based project which provides [ICON_Food] Food every turn and a small amount of [ICON_GreatScientist] Great Scientist and [ICON_GreatEngineer] Great Engineer points once finished.</Text>
+		</Replace>-->
+
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION" Language="de_DE">
+			<Text>Ein Bezirk, der Eure Stadt mit Süßwasser von einem angrenzenden Fluss, See, Berg oder einer Oase versorgt. Städte, die noch keine Süßwasserquelle haben, erhalten bis zu 6 [ICON_Housing] Wohnraum. Städte, die bereits über eine Süßwasserquelle verfügen, erhalten stattdessen +2 [ICON_Housing] Wohnraum. +1 [ICON_Amenities] Annehmlichkeit beim Bau neben einem geothermischen Riss. Verhindert [ICON_Food] Nahrungsverlust während der Flut. Muss angrenzend ans Stadtzentrum gebaut werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BATH_DESCRIPTION" Language="de_DE">
+			<Text>Ein Bezirk, der das Wachstum der Stadt fördert. Steht nur Rom zur Verfügung. Ersetzt das Aquädukt und ist günstiger im Bau.[NEWLINE][NEWLINE]Versorgt Eure Stadt mit Süßwasser von einem angrenzenden Fluss, See, Berg oder einer angrenzenden Oase. Städte ohne Süßwasserquelle erhalten bis zu 6 [ICON_Housing] Wohnraum. Städte, die bereits eine Süßwasserquelle haben, erhalten stattdessen +2 [ICON_Housing] Wohnraum.+1 [ICON_Amenities] Annehmlichkeit beim Bau neben einem geothermischen Riss. In jedem Fall bietet ein Bad einen zusätzlichen Bonus von +2 [ICON_Housing] Wohnraum und +1 [ICON_Amenities] Annehmlichkeit. Verhindert den Verlust von [ICON_Food] Nahrung bei Dürre. Muss angrenzend ans Stadtzentrum gebaut werden. Militärpioniere können eine Ladung benutzen, um 20 % der Produktion eines Bads fertigzustellen.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

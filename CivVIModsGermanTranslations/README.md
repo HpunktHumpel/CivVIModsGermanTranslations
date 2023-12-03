@@ -108,6 +108,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1923120175 | Compact Production Panel | Masked Man | ASM590319 | #28
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
+1939153858 | Improved Aqueduct District GS | Nut9931 | Junky | **NEW**
 1945460659 | Expanded Alliances | JNR | Junky | #12
 1987147435 | Appeal, Loyalty and Prestige (Diplo VP) Font Icons | Leugi | Junky | #21
 2012127235 | Sukritact's Robespierre (France) | sukritact | Junky | #19

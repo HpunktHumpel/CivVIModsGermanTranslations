@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ImprovedAqueduct_Text -->
+<!-- Author: Daniel -->
+<!-- DateCreated: 4/19/2017 1:54:37 PM -->
+<GameData>
+	<LocalizedText>
+	<!--Buildings-->
+		<Row Tag="LOC_BUILDING_PUBLIC_BATHS_NAME" Language="en_US">
+			<Text>Public Baths</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATER_FILTRATION_PLANT_NAME" Language="en_US">
+			<Text>Water Filtration Plant</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_PUBLIC_BATHS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Public baths originated from a communal need for cleanliness at a time when most people did not have access to private bathing facilities.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_WATER_FILTRATION_PLANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Water purification is the process of removing undesirable chemicals, biological contaminants, suspended solids and gases from contaminated water. The goal is to produce water fit for a specific purpose. Most water is disinfected for human consumption (drinking water), but water purification may also be designed for a variety of other purposes, including fulfilling the requirements of medical, pharmacological, chemical and industrial applications.</Text>
+		</Row>
+	<!--Districts-->
+		<Row Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION_ADJACENCY">
+			<Text>Adjacency: Major [ICON_Food] Food bonus for tile edge containing a River. Standard [ICON_Food] Gold bonus for adjacent mountain tiles. Minor [ICON_Food] Food bonus for adjacent district tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_BATH_DESCRIPTION_ADJACENCY">
+			<Text>Adjacency: Major [ICON_Food] Food bonus for tile edge containing a River. Standard [ICON_Food] Gold bonus for adjacent mountain tiles. Minor [ICON_Food] Food bonus for adjacent district tiles.</Text>
+		</Row>
+	<!--Adjacency Yield Changes-->
+		<Row Tag="LOC_DISTRICT_MOUNTAINS_FOOD1">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MOUNTAINS_FOOD2">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MOUNTAINS_FOOD3">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MOUNTAINS_FOOD4">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MOUNTAINS_FOOD5">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DISTRICT_FOOD">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent {1_Num : plural 1?district; other?districts;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_RIVER_FOOD">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent River.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_OASIS_FOOD">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Oasis.</Text>
+		</Row>
+	<!--Policies
+		<Row Tag="LOC_POLICY_IMPROVED_INFRASTRUCTURE_NAME" Language="en_US">
+			<Text>Improved Infrastructure</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_IMPROVED_INFRASTRUCTURE_DESCRIPTION" Language="en_US">
+			<Text>+100% Aqueduct district adjacency bonuses.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SEPTIC_SYSTEM_NAME" Language="en_US">
+			<Text>Septic System</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SEPTIC_SYSTEM_DESCRIPTION" Language="en_US">
+			<Text>Buildings in the Aqueduct district provide +1 Housing. Cities with an Aqueduct district gain a 10% City growth rate bonus.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_CITY_BEAUTIFICATION_NAME" Language="en_US">
+			<Text>City Beautification</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_CITY_BEAUTIFICATION_DESCRIPTION" Language="en_US">
+			<Text>Buildings in the Aqueduct district provide +2 Housing. Cities with an Aqueduct district gain a 10% City growth rate bonus and +2 Amenities.</Text>
+		</Row>-->
+	<!--City Projects - Coming Soon
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_AQUEDUCT_NAME" Language="en_US">
+			<Text>Aqueduct Water Filtration Project</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_AQUEDUCT_SHORT_NAME" Language="en_US">
+			<Text>Water Filtration Project</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_AQUEDUCT_DESCRIPTION" Language="en_US">
+			<Text>District-based project which provides [ICON_Food] Food every turn and a small amount of [ICON_GreatScientist] Great Scientist and [ICON_GreatEngineer] Great Engineer points once finished.</Text>
+		</Row>-->
+	</LocalizedText>
+</GameData>
