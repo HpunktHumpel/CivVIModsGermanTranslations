@@ -21,6 +21,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Alternate Policy Screen (FinalFreak16, Infixo | ASM590319)
 1. Ancient Egyptian Pantheons (p0kiehl | H.Humpel)
 1. Angryr's Ancient Policies (Angryr | Junky)
+1. Annex City-State (Ophidy | Junky)
 1. AOK_Units (anders | H.Humpel)
 1. Appeal, Loyalty and Prestige (Diplo VP) Font Icons (Leugi | Junky)
 1. Area 51 - World Wonder + Alien Units (JNR | H.Humpel)
@@ -294,7 +295,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Nundge, Oni, p0kiehl, Phantagonist, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques & Zur13
+- A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Nundge, Oni, Ophidy, p0kiehl, Phantagonist, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques & Zur13
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

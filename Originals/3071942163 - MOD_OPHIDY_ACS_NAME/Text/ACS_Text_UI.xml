@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sturgia_Text_UI -->
+<!-- Author: Lazire -->
+<!-- DateCreated: 11/2/2023 11:29:47 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_ANNEXED_STATES_TITLE" Language="zh_Hans_CN">
+			<Text>兼并城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_AS_ENTRY_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+			<Text>兼并城邦[NEWLINE][NEWLINE]兼并你下辖的城邦，从中获取永久增益。</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_TO_ANNEX_LABEL" Language="zh_Hans_CN">
+			<Text>可兼并城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_ANNEXED_LABEL" Language="zh_Hans_CN">
+			<Text>已兼并城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_ANNEX_INSTANCE_ANNEX_BUTTON" Language="zh_Hans_CN">
+			<Text>兼并城邦</Text>
+		</Replace>
+		<Replace Tag="LOC_TOKEN_NEED_TIP" Language="zh_Hans_CN">
+			<Text>当前兼并城邦使者数阈值为：{1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ANNEXED_SUZERAIN_BONUS" Language="zh_Hans_CN">
+			<Text>城邦特色加成</Text>
+		</Replace>
+	</LocalizedText>
+	<BaseGameText>
+		<Replace Tag="LOC_ANNEXED_STATES_TITLE">
+			<Text>Annex City-State</Text>
+		</Replace>
+		<Replace Tag="LOC_AS_ENTRY_BUTTON_TOOLTIP">
+			<Text>Annex City-State[NEWLINE][NEWLINE]Annex City-State, and gain permanent benefits from it.</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_TO_ANNEX_LABEL">
+			<Text>To Annex</Text>
+		</Replace>
+		<Replace Tag="LOC_CS_ANNEXED_LABEL">
+			<Text>Annexed</Text>
+		</Replace>
+		<Replace Tag="LOC_ANNEX_INSTANCE_ANNEX_BUTTON">
+			<Text>Annex</Text>
+		</Replace>
+		<Replace Tag="LOC_TOKEN_NEED_TIP">
+			<Text>Annexation envoy threshold: {1_Amount}</Text>
+		</Replace>
+		<Replace Tag="LOC_ANNEXED_SUZERAIN_BONUS">
+			<Text>Suzerain Bonus</Text>
+		</Replace>
+	</BaseGameText>
+</GameData>

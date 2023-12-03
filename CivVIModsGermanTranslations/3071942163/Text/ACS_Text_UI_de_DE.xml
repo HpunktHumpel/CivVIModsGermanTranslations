@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sturgia_Text_UI -->
+<!-- Author: Lazire --> <!-- Translator: Junky -->
+<!-- DateCreated: 11/2/2023 11:29:47 PM -->
+<GameData>	
+	<LocalizedText>
+		<Replace Language= "de_DE" Tag="LOC_ANNEXED_STATES_TITLE">
+			<Text>Stadtstaat annektieren</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_AS_ENTRY_BUTTON_TOOLTIP">
+			<Text>Stadtstaat annektieren[NEWLINE][NEWLINE]Integriert Stadtstaaten in Euer Reich und erhaltet deren Vorteile.</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_CS_TO_ANNEX_LABEL">
+			<Text>Zur Annektion</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_CS_ANNEXED_LABEL">
+			<Text>Annektiert</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_ANNEX_INSTANCE_ANNEX_BUTTON">
+			<Text>Annektiere</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_TOKEN_NEED_TIP">
+			<Text>Gesandten-Schwelle zur Annektion: {1_Amount}</Text>
+		</Replace>
+		<Replace Language= "de_DE" Tag="LOC_ANNEXED_SUZERAIN_BONUS">
+			<Text>Suzerän-Bonus</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
