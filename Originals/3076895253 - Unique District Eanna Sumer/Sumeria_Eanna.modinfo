@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b22f6a03-cf80-4576-940a-6904f5cb7dc6" version="1">
+  <Properties>
+    <Name>[COLOR:ResGoldLabelCS]Unique District[ENDCOLOR]: Eanna (Sumer)</Name>
+    <Description>Adds the Eanna, a new unique district for Sumer, replacing the Holy Site. The Eanna has its own adjacency bonuses focused on urban cores around rivers as well as Ziggurats, to which it provides further yields throughout the game. Ziggurats can no longer be placed adjacent to one another.</Description>
+    <Created>1699105821</Created>
+    <Teaser>New Unique Holy Site for Sumer.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Eanna_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Eanna_Text.sql</File>
+    </UpdateText>
+    <UpdateArt id="ConfigArt">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Sumeria_Eanna.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ConfigIcons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Eanna_Icons.sql</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Eanna_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Eanna_Text.sql</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Sumeria_Eanna.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>13</LoadOrder>
+      </Properties>
+      <File>Core/RECIV_Eanna_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Core/RECIV_Eanna_Config.sql</File>
+    <File>Core/RECIV_Eanna_Gameplay.sql</File>
+    <File>Core/RECIV_Eanna_Icons.sql</File>
+    <File>Core/RECIV_Eanna_Text.sql</File>
+    <File>Sumeria_Eanna.dep</File>
+  </Files>
+</Mod>

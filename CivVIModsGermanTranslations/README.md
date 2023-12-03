@@ -267,4 +267,5 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2997927787 | Top Panel Extension Pro | 号码菌 | ASM590319 | #27
 3040385614 | Sukritact's Te Otukapuarangi | Sukritact, Lime, | ASM590319 | #28
 3071942163 | Annex City-State | Ophidy | Junky | **NEW**
+3076895253 | Unique District: Eanna (Sumer) | JNR | Junky | **NEW**
 3090525411 | Unique Building: Kūrag (Scythia) | JNR | Junky | **NEW**
