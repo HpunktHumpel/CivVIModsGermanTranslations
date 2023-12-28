@@ -66,6 +66,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro | H.Humpel)
 1. CIVILIZATION VI: ST PETERS BASILICA (Albro | H.Humpel)
 1. CIVILIZATION VI: WALLS OF BABYLON (Albro | H.Humpel)
+1. Civilizations Expanded Lite (p0kiehl | Phyrax)
 1. CIVITAS City-States Expanded (thecrazyscotsman, Sailor Cat, SeelingCat, chimp, Digihuman, Chrisy15, & p0kiehl | Junky)
 1. CIVITAS City-States (Mekong Ruleset) (chimp | Junky)
 1. CIVITAS Resources (Sailor Cat, thecrazyscotsman, SeelingCat, chimp & p0kiehl | Stevie)
@@ -302,7 +303,7 @@ Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
-- ASM590319, duestere Legende, Gorowynn, Junky & Stevie
+- ASM590319, duestere Legende, Gorowynn, Junky, Phyrax & Stevie
 
 
 Und zu guter Letzt natürlich auch Dank an alle, die diesem Mod einen Preis verliehen haben.

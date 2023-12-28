@@ -214,6 +214,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2822229024 | Coastline | Rdner | ASM590319 | #26
 2825162991 | Camera Hotkeys | Rdner | ASM590319 | #27
 2825163448 | Unit Hotkeys | Rdner | ASM590319 | #27
+2826437783 | Civilizations Expanded Lite | p0kiehl | Phyrax | **NEW**
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
 2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21

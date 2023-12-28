@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+<Replace Tag="LOC_POLICY_P0K_HARVEST_CALENDAR_NAME" Language="de_DE">
+			<Text>Erntekalender</Text>
+		</Replace>
+<Replace Tag="LOC_POLICY_P0K_HARVEST_CALENDAR_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Food] Nahrung in allen Städten.</Text>
+		</Replace>
+<Replace Tag="LOC_TECH_BOOST_GOODYHUT" Language="de_DE">
+			<Text>Bisher unbekanntes technologisches Wissen wurde Eurem Volk offenbart.</Text>
+		</Replace>
+<Replace Tag="LOC_CIVIC_BOOST_GOODYHUT" Language="de_DE">
+			<Text>Bisher unbekannte Weisheit wurden Eurem Volk offenbart, die neue Ideen inspirierte.</Text>
+		</Replace>
+--=============================================================================================================
+-- AMERICA 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Alle Diplomatie-Politikplätze in der aktuellen Regierung werden in [ICON_Government] Jokerplätze umgewandelt. +1 [ICON_FAVOR] Diplomatische Gunst pro Runde für jeden Jokerplatz in Ihrer Regierung.[NEWLINE]Das Freischalten einer neuen Regierung gewährt eine zufällige [ICON_CivicBoosted] Inspiration.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartiges Gebäude von Amerika, das das Sendezentrum ersetzt.[NEWLINE]+100% [ICON_Tourism] Tourismus-Druck dieser Stadt auf andere Zivilisationen, wenn das Spiel in der Moderne ankommt.[NEWLINE]Gewährt [ICON_Production] Produktion, die dem Nachbarschaftsbonus des Theaterplatzes entspricht.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_AMERICAN_P51_DESCRIPTION" Language="de_DE">
+			<Text>Amerikas einzigartige Lufteinheit des Atomzeitalters, die den Kampfflieger ersetzt.[NEWLINE]Erhält +5 [ICON_Strength] Kampfstärke gegen Luftjägereinheiten, besitzt +2 [ICON_Range] Flugreichweite und erhält +50% Erfahrung.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_ROUGH_RIDER_DESCRIPTION" Language="de_DE">
+			<Text>Während ein ausgehender Handelsweg zu einem Stadtstaat aktiv ist, wird jeder neue geschickte [ICON_Envoy] Gesandte zu diesem Stadtstaat verdoppelt. Erhaltet +4 [ICON_Gold] Gold, +2 [ICON_Science] Wissenschaft, und +2 [ICON_Culture] Kultur für jeden Stadtstaat, dessen Suzerän Ihr seid.[NEWLINE]Militäreinheiten erhalten +5 [ICON_Strength] Kampfstärke auf dem Heimatkontinent Amerikas.[NEWLINE]Erlangt die Spezialeinheit Rough Rider durch die Technologie Ballistik.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_ANTIQUES_AND_PARKS_DESCRIPTION" Language="de_DE">
+			<Text>Alle Felder in Städten mit einem Nationalpark erhalten +1 Anziehungskraft. Atemberaubende Geländefelder, die an ein Naturwunder, Berg oder ein Riff angrenzen, erhalten +1 [ICON_Science] Wissenschaft und +1 [ICON_Gold] Gold. Atemberaubende Geländefelder, die an ein Wunder, Wald oder einen Sumpf angrenzen, erhalten +1 [ICON_Culture] Kultur und +1 [ICON_Gold] Gold.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_DESCRIPTION" Language="de_DE">
+			<Text>Alle Geländefelder in Städten mit einem Nationalpark erhalten +1 Anziehungskraft. Spezialbezirke auf einem Feld mit atemberaubender Anziehungskraft gewähren +1 [ICON_GreatPerson] Große-Persönlichkeits-Punkt (von der jeweiligen Standard-Großen Persönlichkeit des Spezialbezirkes).[NEWLINE]Militäreinheiten erhalten +5 [ICON_Strength] Kampfstärke auf dem Heimatkontinent Amerikas.[NEWLINE]Erlangt die Spezialeinheit Rough Rider durch die Technologie Ballistik.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_AMERICAN_ROUGH_RIDER_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Teddy Roosevelts (Rough Rider) einzigartige Einzeit des Industriezeitalters, die den Kürassier ersetzt.[NEWLINE]Niedrigerer [ICON_Gold] Unterhalt.[NEWLINE]Gewährt einen [ICON_Culture] Kulturschub bei Kampfsiegen auf Eurem Hauptstadt-Kontinent.[NEWLINE]+10 [ICON_Strength] Kampfstärke beim Kampf auf Hügeln.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_ROUGH_RIDER_DESCRIPTION" Language="de_DE">
+			<Text>Verdient [ICON_Culture] Kultur aus Eliminierungen auf Eurem Hauptstadt-Kontinent in Höhe von 50% der Kampfstärke des besiegten Gegners.[NEWLINE]+10 [ICON_Strength] Kampfstärke bei Kampf auf Hügeln.</Text>
+		</Replace>
+--=============================================================================================================
+-- ARABIA 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_NAME" Language="de_DE">
+			<Text>Siegel der Propheten</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="de_DE">
+			<Text>Erhält automatisch den letzten [ICON_GreatProphet] Großen Propheten, wenn der vorletzte beansprucht wurde. Jedes Mal, wenn eine andere Zivilisation einen Großen Propheten verdient, erhält Arabien ein zufälliges [ICON_TechBoosted] Heureka.[NEWLINE]Erhält +1 [ICON_Science] Wissenschaft und +1 [ICON_Gold] Gold für jede Stadt mit Arabiens Religion. Arabiens Handelswege üben +100% [ICON_Religion] religiösen Druck aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH_DESCRIPTION" Language="de_DE">
+			<Text>Kann [ICON_Science] Campusgebäude mit [ICON_Faith] Glauben kaufen.[NEWLINE]Das Kultgebäude der arabischen Religion kann von jedem Spieler für ein Zehntel der üblichen [ICON_Faith] Glaubenskosten erworben werden. Es steigert in arabischen Städten den Ertrag von [ICON_Science] Wissenschaft, [ICON_Culture] Kultur und [ICON_Faith] Glauben um 10%.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_ARABIAN_MAMLUK_DESCRIPTION" Language="de_DE">
+      			<Text>Arabiens einzigartige Einheit des Mittelalters, die den Ritter ersetzt.[NEWLINE]Heilt sich am Ende jeder Runde, selbst, nachdem er sich bewegt hat oder angegriffen wurde.</Text>
+   		</Replace>
+<Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="de_DE">
+			<Text>Arabiens einzigartiges Gebäude, das die Universität ersetzt und mit der Ausrichtung Theologie freigeschaltet wird.[NEWLINE]Bonus auf [ICON_Faith] Glauben, der dem Nachbarschaftsbonus des Campus-Bezirkes entspricht.[NEWLINE]Zusätzlich +1 [ICON_Amenities] Annehmlichkeit und +1 [ICON_Housing] Wohnraum.</Text>
+		</Replace>
+--=============================================================================================================
+-- BRAZIL 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_AMAZON_NAME" Language="de_DE">
+			<Text>Amazonas</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_AMAZON_DESCRIPTION" Language="de_DE">
+			<Text>Spezialbezirke erhalten einen Standard-Nachbarschaftsbonus für Regenwälder. Regenwälder gewähren angrenzenden Geländefeldern +1 Anziehungskraft statt der üblichen -1.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_DISTRICT_JUNGLE_2_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion von angrenzenden Regenwäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="de_DE">
+			<Text>Nachdem eine Große Persönlichkeit verdient wurde, werden 20% der [ICON_GreatPerson] Große-Persönlichkeits-Punkte zurückerstattet. Erhält +2% [ICON_Science] Wissenschaft für jede Große Persönlichkeit, die er verdient hat (bis zu einem Maximum von 30%).</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Brasiliens einzigartiger Spezialbezirk, der den Unterhaltungskomplex ersetzt.[NEWLINE]Zusätzlich +1 [ICON_Amenities] Annehmlichkeit.[NEWLINE]Kann das einzigartige Projekt Karnival durchführen, das während der Durchführung +1 [ICON_Amenities] Annehmlichkeit gewährt und verschiedene [ICON_GreatPerson] Große-Persönlichkeits-Punkte bei Abschluss gewährt.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Brasiliens einzigartiger Spezialbezirk, der den Wasserpark ersetzt.[NEWLINE]Zusätzlich +1 [ICON_Amenities] Annehmlichkeit.[NEWLINE]Kann das einzigartige Projekt Karnival durchführen, das während der Durchführung +1 [ICON_Amenities] Annehmlichkeit gewährt und verschiedene [ICON_GreatPerson] Große-Persönlichkeits-Punkte bei Abschluss gewährt.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION" Language="de_DE">
+      			<Text>Brasiliens einzigartige Marineeinheit des Industriezeitalters, die das Kriegsschiff ersetzt und mit der Ausrichtung Nationalismus freigeschaltet wird.[NEWLINE][ICON_Strength] Stärker.</Text>
+    		</Replace>
+--=============================================================================================================
+-- CHINA 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Der Palast gewährt doppelte [ICON_Amenities] Annehmlichkeiten, [ICON_Housing] Wohnraum, [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Production] Produktion und [ICON_Gold] Gold.[NEWLINE][ICON_TechBoosted] Heurekas und [ICON_CivicBoosted] Inspirationen gewähren zusätzliche 10% der jeweiligen Wissenschaft oder Kultur.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Beim Bau von Wundern der Antike und Klassik könnt Ihr Handwerker-Ladungen verwenden, um 15% der urspünglichen [ICON_Production] Baukosten abzuschließen. Handwerker erhalten 1 [ICON_Charges] zusätzliche Ladung.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Chinas einzigartige Modernisierung, freigeschaltet mit der Steinmetzkunst.[NEWLINE]+1 [ICON_Production] Produktion und +1 [ICON_GOLD] Gold.[NEWLINE]+2 [ICON_Gold] Gold für jedes angrenzende Große-Mauer-Segment.[NEWLINE]Gewährt angrenzenden Modernisierungen +1 [ICON_Gold] Gold.[NEWLINE]Steigert die [ICON_Strength] Verteidigung von Einheiten.[NEWLINE]Zusätzlich +1 [ICON_Science] Wissenschaft von angrenzenden Große-Mauer-Segmenten nach der Erforschung des Maschinenbaus, +1 [ICON_Culture] Kultur von angrenzenden Große-Mauer-Segmenten nach der Erforschung von Burgen und [ICON_Tourism] Tourismus entsprechend der Kulturerzeugung nach Erforschung der Luftfahrt.[NEWLINE]Muss in einer Linie entlang der Grenzen Eures Reichs gebaut werden. Kann nur von Naturkatastrophen geplündert (niemals zerstört) werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="de_DE">
+			<Text>Chinas einzigartige Einheit des Mittelalters, die den Armbrustschützen ersetzt.[NEWLINE]Hohe [ICON_Strength] Kampfstärke mit verringerter Reichweite.[NEWLINE]Kampfsiege gewähren einen [ICON_Science] Wissenschaftsschub in Höhe von 50% der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_CROUCHING_TIGER_NAME" Language="de_DE">
+			<Text>Kauernder Tiger</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_CROUCHING_TIGER_DESCRIPTION" Language="de_DE">
+			<Text>Kampfsiege gewähren einen [ICON_Science] Wissenschaftsschub in Höhe von 50% der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+--=============================================================================================================
+-- EGYPT 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ITERU_NAME" Language="de_DE">
+			<Text>Achet</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ITERU_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>+20% [ICON_Production] Produktion für Bezirke und Wunder, die an einem Fluss gebaut werden. Geländefelder sind immun gegen Flutschäden.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Ausgehende Handelswege zu anderen Zivilisationen gewähren Ägypten +4 [ICON_Gold] Gold und +2 [ICON_Production] Produktion. Eingehende Handelswege von anderen Zivilisationen gewähren ihnen +2 [ICON_Food] Nahrung und +2 [ICON_Gold] Gold für Ägypten.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Ägyptens einzigartige Modernisierung, freigeschaltet durch die Handwerkskunst.[NEWLINE]+1 [ICON_Culture] Kultur und +1 [ICON_Faith] Glauben.[NEWLINE]+1 [ICON_CULTURE] Kultur, wenn auf Wüste oder Schwemmland erbaut.[NEWLINE]+2 [ICON_Faith] Glauben für jedes angrenzende Wunder oder Naturwunder.[NEWLINE]+1 [ICON_Gold] Gold für jede angrenzende Luxusressource.[NEWLINE]Gewährt angrenzenden Geländefeldern +2 Anziehungskraft.[NEWLINE]Zusätzlich +1 [ICON_CULTURE] Kultur mit der Ausrichtung Naturgeschichte und [ICON_TOURISM] Tourismus entsprechend der Kulturerzeugung nach Erforschung der Luftfahrt.[NEWLINE]Kann nicht neben einer anderen Sphinx oder auf Schnee gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_EGYPTIAN_CHARIOT_ARCHER_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Ägyptens einzigartige Fernkampfeinheit der Antike, die mit der Erforschung des Rads freigeschaltet wird.[NEWLINE]+2 [ICON_Movement] Bewegung bei Zugbeginn auf offenem Geländen.</Text>
+		</Replace>
+--=============================================================================================================
+-- ENGLAND 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="de_DE">
+			<Text>[ICON_Resource_Iron] Eisen- und [ICON_Resource_Coal] Kohleminen generieren +2 Ressourcen pro Zug.[NEWLINE]+100% [ICON_Production] Produktion und 2 [ICON_Charges] zusätzliche Aufladungen für Militärpioniere.[NEWLINE]+25% [ICON_Production] Produktion für Industriegebiete und deren Gebäude.[NEWLINE][ICON_Power] Energieversorgte Gebäude gewähren +4 ihrer jeweiligen energieverstärkten Erträge.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Die erste Stadtgründung auf jedem fremden Kontinent gewährt +1 [ICON_TradeRoute] Handelswegkapazität und eine kostenlose Nahkampfeinheit.[NEWLINE]+1 [ICON_Movement] Bewegung für gewasserte Einheiten und Marineeinheiten.[NEWLINE]Die Fertigstellung eines Industriegebietes löst einen Kulturschock aus.[NEWLINE]Erhaltet Zugriff auf die einzigartige Einheit Rotrock.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PAX_BRITANNICA_NAME" Language="de_DE">
+			<Text>Pax Britannica</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PAX_BRITANNICA_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Movement] Bewegung für gewasserte Einheiten und Marineeinheiten.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION" Language="de_DE">
+			<Text>Victorias einzigartige Einheit des Industriezeitalters, die die Linieninfanterie ersetzt.[NEWLINE]+10 [ICON_Strength] Kampfstärke bei Kampf auf einem fremden Kontinent.[NEWLINE]Keine [ICON_Movement] Bewegungskosten für das Wassern.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Englands einzigartiger Spezialbezirk, der den Hafen ersetzt.[NEWLINE]Keine [ICON_Movement] Bewegungskosten für das Wassern und an Land gehen von und zu diesem Geländefeld.[NEWLINE]Alle verwundeten Marineeinheiten innerhalb der Stadtgrenzen heilen sich in jedem Zug vollständig.[NEWLINE]Gewährt +2 [ICON_Production] Nachbarschaftsbonus für Industriegebiete.[NEWLINE]+2 [ICON_Gold] Gold und +4 Loyalität pro Zug, wenn auf einem fremden Kontinent gebaut.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_DISTRICT_RND_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion von der angrenzenden Royal-Navy-Werft.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION" Language="de_DE">
+			<Text>Englands einzigartige Marineeinheit der Renaissance, die den Freibeuter ersetzt.[NEWLINE]Hat eine Chance, besiegte Marineeinheiten gefangen zu nehmen.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="de_DE">
+			<Text>+20% [ICON_Production] Produktion für Wunder des Mittelalters, der Rennaissance und des Industriezeitalters.[NEWLINE]Städte mit einem Wunder erhalten +2 [ICON_Science] Wissenschaft, +2 [ICON_Culture] Kultur, +2 [ICON_Gold] Gold, und +2 [ICON_Faith] Glauben.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_TRAIT_LEADER_BLACK_QUEEN_NAME" Language="de_DE">
+			<Text>Schwarze Königin</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_TRAIT_LEADER_BLACK_QUEEN_DESCRIPTION" Language="de_DE">
+			<Text>+100% [ICON_Production] Produktion für das Diplomatieviertel und dessen Gebäude.[NEWLINE]+1 [ICON_VisLimited] Diplomatische Sichtbarkeit mit allen Zivilisationen.[NEWLINE]Erhaltet +2 Spionkapazitäten und 2 Spione, wenn Burgen erforscht wurden. Jeder Spion startet als Agent mit einer kostenlosen [ICON_Promotion] Beförderung.[NEWLINE]Erfolgreiche offensive Spionagemissionen gewähren 25% der [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Faith] Glauben, und [ICON_Gold] Gold der anvisierten Stadt, die sie in diesem Zug generiert hat.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_BLACK_QUEEN_NAME" Language="de_DE">
+			<Text>Haus der Medici</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MAGNIFICENCES_NAME" Language="de_DE">
+			<Text>Erhabenheit und Patronage</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MAGNIFICENCES_DESCRIPTION" Language="de_DE">
+			<Text>+25% [ICON_Production] Produktion für Theaterplätze und deren Gebäude.[NEWLINE]Modernisierte Luxusressourcen, die an einen Theaterplatz oder ein Château angrenzen, erhalten +2 [ICON_CULTURE] Kultur.[NEWLINE]Erhaltet Zugriff auf das einzigartige Projekt Hoffest, das in Städten mit Theaterplatz gestartet werden kann.</Text>
+		</Replace>
+<Replace Tag="LOC_PROJECT_ECOURT_FESTIVAL_DESCRIPTION" Language="de_DE">
+			<Text>Katarina von Medicis (Erhabenheit) einzigartiges Projekt.[NEWLINE]Gewährt +1 [ICON_Amenities] Annehmlichkeit während der Durchführung und bei Vollendung einen Schub von [ICON_Culture] Kultur und [ICON_Tourism] Tourismus, dessen Ertrag auf der Anzahl überflüssiger Luxusressourcen in Frankreichs Besitz basiert.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_NAME" Language="de_DE">
+			<Text>Erhabenheit und Patronage</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION" Language="de_DE">
+			<Text>+25% [ICON_Production] Produktion für Theaterplätze und deren Gebäude.[NEWLINE]+1 [ICON_VisLimited] Diplomatische Sichtbarkeit mit allen Zivilisationen.[NEWLINE]Erhaltet +2 Spionkapazitäten und 2 Spione, wenn Burgen erforscht wurden. Jeder Spion startet als Agent mit einer kostenlosen [ICON_Promotion] Beförderung.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Frankreichs einzigartige Modernisierung, die mit der Ausrichtung Feudalismus freigeschaltet wird.[NEWLINE]+2 [ICON_Gold] Gold, +1 [ICON_Culture] Kultur, +1 [ICON_Food] Nahrung, und +0.5 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_Gold] Gold, wenn an einem Fluss gebaut.[NEWLINE]+1 [ICON_Culture] Kultur für jedes angrenzende Wunder oder Naturwunder.[NEWLINE]Gewährt angrenzenden Feldern +1 Anziehungskraft.[NEWLINE]Zusätzlich +1 [ICON_Culture] Kultur für jedes angrenzende Wunder oder Naturwunder und [ICON_Tourism] Tourismus entsprechend der Kulturerzeugung nach der Erforschung der Luftfahrt.[NEWLINE] Muss neben einer Bonus- oder Luxusressource gebaut werden. Kann nicht neben einem anderen Château gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION" Language="de_DE">
+			<Text>Frankreichs einzigartige Einheit des Industriezeitalters, die die Linieninfanterie ersetzt.[NEWLINE]+10 [ICON_Strength] Kampfstärke bei Kampf auf Frankreichs Heimatkontinent.[NEWLINE]Kampfsiege gewähren einen Schub von [ICON_GreatGeneral] Großer-General-Punkten in Höhe von 25% der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_GARDE_DESCRIPTION" Language="de_DE">
+			<Text>+10 [ICON_Strength] Kampfstärke bei Kampf auf dem selben Kontinent wie die [ICON_Capital] Hauptstadt.[NEWLINE][ICON_Bullet]Kampfsiege gewähren einen Schub von [ICON_GreatGeneral] Großer-General-Punkten in Höhe von 25% der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION" Language="de_DE">
+			<Text>Jede Stadt kann einen Spezialbezirk über dem Bevölkerungslimit haben.[NEWLINE]Städte mit mindestens drei Spezialbezirken erhalten +4 [ICON_Housing] Wohnraum und +2 [ICON_Amenities] Annehmlichkeiten.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" Language="de_DE">
+			<Text>Zusätzlicher [ICON_Government] Militär-Politikplatz.[NEWLINE]Militärische Einheiten erhalten +7 [ICON_Strength] Kampfstärke gegen Stadtstaaten und freie Städte.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_BARBAROSSA_COMBAT_BONUS_VS_CITY_STATES_DESCRIPTION" Language="de_DE">
+			<Text>Barbarossas +7 [ICON_Strength] Kampfstärke gegen Stadtstaaten und freie Städte.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Deutschlands einzigartiger Spezialbezirk, der das Industriegebiet ersetzt.[NEWLINE]Zusätzlich +2 [ICON_Production] Nachbarschaftsbonus für Handelszentren und +1 [ICON_Production] Nachbarschaftsbonus für Ressourcen.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_GERMAN_UBOAT_DESCRIPTION" Language="de_DE">
+			<Text>Deutschlands einzigartige Marineeinheit der Moderne, die das Unterseeboot ersetzt.[NEWLINE]Günstiger zu [ICON_Production] produzieren und +1 Sicht.[NEWLINE]+10 [ICON_Strength] Kampfstärke bei Kampf auf Ozeanfeldern.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_NAME" Language="de_DE">
+			<Text>Vermächtnis des Pythagoras</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_PLATOS_REPUBLIC_DESCRIPTION" Language="de_DE">
+			<Text>Zusätzlicher [ICON_Government] Joker-Politikplatz.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_THERMOPYLAE_NAME" Language="de_DE">
+			<Text>Agoge</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_THERMOPYLAE_DESCRIPTION" Language="de_DE">
+			<Text>Militäreinheiten erhalten +1 [ICON_Strength] Kampfstärke für jede aktive Militärpolitik.[NEWLINE]Kampfsiege gewähren einen Schub von [ICON_Culture] Kultur, die 50% der Kampfstärke der besiegten Einheit entspricht.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS_NAME" Language="de_DE">
+			<Text>Thermopylae</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SPARTA_ABILITY_THERMOPYLAE_DESCRIPTION" Language="de_DE">
+			<Text>Gorgos +1 [ICON_Strength] Kampfstärke für jede aktive Militärpolitik.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GORGO_ABILITY_CULTURE_FROM_KILLS_DESCRIPTION" Language="de_DE">
+			<Text>Gorgos Kampfsiege gewähren einen Schub von [ICON_Culture] Kultur, die 50% der Kampfstärke der besiegten Einheit entspricht.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_NAME" Language="de_DE">
+			<Text>Attischer Seebund</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_DESCRIPTION" Language="de_DE">
+			<Text>+5% [ICON_Culture] Kultur und +5% [ICON_Gold] Gold pro Stadtstaat, in dem Ihr Suzerän seid.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_DELIAN_LEAGUE_NAME" Language="de_DE">
+			<Text>Umgeben von Ruhm</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Griechenlands einzigartiger Spezialbezirk, der den Theaterplatz ersetzt.[NEWLINE]Gewährt 1 [ICON_Envoy] Gesandten bei Fertigstellung.[NEWLINE]+2 [ICON_Culture] Nachbarschaftsbonus für Stadtzentren und +1 [ICON_Culture] Nachbarschaftsbonus für alle anderen Bezirke.[NEWLINE]Kann nur auf Hügeln gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_GREEK_HOPLITE_DESCRIPTION" Language="de_DE">
+			<Text>Griechenlands einzigartige Einheit der Antike, die den Speerkämpfer ersetzt.[NEWLINE]Kein [ICON_Strength] Nachteil gegen Nahkampfeinheiten.[NEWLINE]+10 [ICON_Strength] Kampfstärke, falls ein anderer Hoplit angrenzt.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_HOPLITE_NAME" Language="de_DE">
+			<Text>Hymnus an Ares</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_HOPLITE_DESCRIPTION" Language="de_DE">
+			<Text>+10 [ICON_Strength] Kampfstärke gegen Nahkampfeinheiten.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_HOPLITE_MELEE_COMBAT_BONUS_DESCRIPTION" Language="de_DE">
+			<Text>+{1_Amount} [ICON_Strength] Kampfstärke gegen Nahkampfeinheiten.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_HOPLITE_DESCRIPTION" Language="de_DE">
+			<Text>+10 [ICON_Strength] Kampfstärke, wenn an einen anderen Hopliten angrenzend.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_DHARMA_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Jede Stadt erhält +1 [ICON_Amenities] Annehmlichkeit für jede in ihr präsente Religion, zusammen mit all deren Anhänger-Glaubenssätzen.[NEWLINE]Städte mit Kultgebäuden erhalten [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, und [ICON_Gold] Gold in Höhe von 15% ihrer [ICON_Faith] Glaubenserzeugung.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="de_DE">
+			<Text>Kann das erste Gebäude in Spezialbezirken für [ICON_Faith] Glauben erwerben.[NEWLINE]Ein Militär-Politikplatz in jeder Regierung wird in einen [ICON_Government] Wirtschafts-Politikplatz umgewandelt.[NEWLINE]+5 [ICON_Faith] Glauben für jede getroffene Zivilisation die eine Religion gegründet hat und sich aktuell im Frieden befindet.[NEWLINE]Gegnerische Zivilisationen erhalten doppelte Kriegsmüdigkeit.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Indiens einzigartige Modernisierung, die mit Bewässerung freigeschaltet wird.[NEWLINE]+1 [ICON_Food] Nahrung und +1 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_Faith] Glauben für jede angrenzende Heilige Stätte.[NEWLINE]+1 [ICON_Food] Nahrung für jeden angrenzenden Bauernhof.[NEWLINE]Zusätzlich +1 [ICON_Food] Nahrung und +1 [ICON_Faith] Glauben mit der Ausrichtung Feudalismus, +1 [ICON_Food] Nahrung und +1 [ICON_Housing] Wohnraum mit der Erforschung der Sanitätsversorgung und [ICON_Tourism] Tourismus entsprechend des Nahrungsgewinns mit der Erforschung der Luftfahrt.[NEWLINE]Verhindert [ICON_Food] Nahrungsverlust durch Dürren.[NEWLINE]Kann nicht auf Hügeln oder neben anderen Stufenbrunnen gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="de_DE">
+			<Text>Indiens einzigartige Einheit der Antike, die den Schweren Streitwagen ersetzt und mit der Ausrichtung Militärtradition freigeschaltet wird.[NEWLINE]Angrenzende gegnerische Einheiten erhalten -5 [ICON_STRENGTH] Kampfstärke.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME" Language="de_DE">
+			<Text>Aufgehende Sonne</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" Language="de_DE">
+			<Text>Alle Bezirke erhalten +1 Nachbarschaftsbonus für das Angrenzen an einen anderen Bezirk.[NEWLINE]Fischerboote gewähren +1 [ICON_Culture] Kultur.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>+100% [ICON_Production] Produktion für Theaterplätze, Heilige Stätten und Lager. Kann Gebäude für diese Bezirke mit [ICON_Faith] Glauben kaufen.[NEWLINE]Militärische Landeinheiten erhalten +5 [ICON_Strength] Kampfstärke bei Kampf auf Küstenfeldern. Marineeinheiten erhalten +5 [ICON_Strength] Kampfstärke bei Kampf auf flachen Wasserfeldern.[NEWLINE]Eure Einheiten sind immun gegen Hurrikanschäden. Einheiten gegnerischer Zivilisationen erhalten +100% Schaden durch Hurrikans auf japanischem Gebiet.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Japans einzigartiges Gebäude, das die Fabrik ersetzt.[NEWLINE]Zusätzlich +4 [ICON_Culture] Kultur nach Erforschung der Elektrizität.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION" Language="de_DE">
+			<Text>Japans einzigartige Einheit des Mittelalters, die den Landsknecht ersetzt und mit der Ausrichtung Feudalismus freigeschaltet wird.[NEWLINE]Verliert keine [ICON_Strength] Kampfstärke, wenn verwundet.[NEWLINE]Kann nicht mit Gold, aber mit [ICON_Faith] Glauben gekauft werden.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Food] Nahrung, +2 [ICON_Production] Produktion, +1 [ICON_Faith] Glauben, und +4 [ICON_Gold] Gold für jedes Relikt, religiöse Kunstwerk und jede Skulptur.[NEWLINE]+50% [ICON_GreatArtist] Große-Künstler-, [ICON_GreatMusician] Große-Musiker-, und [ICON_GreatMerchant] Große-Händler-Punkte.[NEWLINE]Der Palast hat 5 [ICON_GreatPerson] Plätze für Große Werke.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_NAME" Language="de_DE">
+			<Text>Getaufter König</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_NKISI_HEROES_DESCRIPTION" Language="de_DE">
+			<Text>+2 [ICON_Food] Nahrung, +2 [ICON_Production] Produktion, +1 [ICON_Faith] Glauben, und +4 [ICON_Gold] Gold für jedes Relikt, Helden-Relikt, religiöse Kunstwerk und jede Skulptur.[NEWLINE]+50% [ICON_GreatArtist] Große-Künstler-, [ICON_GreatMusician] Große-Musiker-, und [ICON_GreatMerchant] Große-Händler-Punkte.[NEWLINE]Der Palast hat 5 [ICON_GreatPerson] Plätze für Große Werke.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="de_DE">
+			<Text>Kann keine Heiligen Stätten bauen, einen Großen Propheten rekrutieren oder eine Religion gründen. Erhaltet alle [ICON_Religion] Glaubenssätze der Religion, die in der Mehrheit der kongolesichen Städte vorherrscht.[NEWLINE]Theaterplätze und M'banza gewähren +1 [ICON_Amenities] Annehmlichkeit und ein kostenloses Apostel.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_NAME" Language="de_DE">
+			<Text>Briefe an den König</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_MBANZA_DESCRIPTION" Language="de_DE">
+			<Text>Kongos einzigartiger Bezirk, der das Wohnviertel ersetzt und mit der Ausrichtung Gilden freigeschaltet wird.[NEWLINE]Gewährt +5 [ICON_Housing] Wohnraum, +4 [ICON_Gold] Gold, +2 [ICON_Food] Nahrung und +1 [ICON_Culture] Kultur, unabhängig der Anziehungskraft.[NEWLINE]Die Fertigstellung eines M'banza löst einen Kulturschock aus.[NEWLINE]Kann nur auf Wald und Regenwald gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_KONGO_SHIELD_BEARER_NAME" Language="de_DE">
+			<Text>Mbeba Ngao</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_KONGO_SHIELD_BEARER_NAME" Language="de_DE">
+			<Text>Kongolesische einzigartige Einheit: Mbeba Ngao</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_KONGO_SHIELD_BEARER_DESCRIPTION" Language="de_DE">
+			<Text>Kongos einzigartige Einheit der Klassik, die den Schwertkämpfer ersetzt.[NEWLINE]+10 [ICON_Strength] Kampfstärke bei Verteidigung gegen Fernkampfangriffe.[NEWLINE]Ignoriert [ICON_Movement] Bewegungs- und Sichteinschränkungen von Wäldern und Regenwäldern.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_NAME" Language="de_DE">
+			<Text>Vinland-Sagas</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION" Language="de_DE">
+			<Text>Alle Einheiten können Ozean-Geländefelder bereits nach der Erforschung des Schiffbaus betreten und ignorieren die [ICON_Movement] Bewegungskosten des Wasserns und an Land Gehens.[NEWLINE]Marineeinheiten können sich auch auf neutralem Territorium heilen.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_THUNDERBOLT_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>+50% [ICON_Production] Produktion für Marine-Nahkampfeinheiten und gewährt ihnen Küstenraub.[NEWLINE]Das Plündern von Minen gewährt [ICON_Science] Wissenschaft. Das Plündern von Jagdlagern, Steinbrüchen, Weiden und Plantagen gewährt [ICON_Culture] Kultur.[NEWLINE]Erhaltet Zugriff auf das Wikinger-Langschiff.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_NORWEGIAN_LONGSHIP_DESCRIPTION" Language="de_DE">
+			<Text>Harald Hardrådes einzigartige Marineeinheit der Antike, die die Galeere ersetzt.[NEWLINE]Kann Zivilisten gefangen nehmen.[NEWLINE]+1 [ICON_Movement] Bewegung bei Zugbeginn auf einem Küstenfeld.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Language="de_DE">
+			<Text>Norwegens einzigartiges Gebäude, das den Tempel ersetzt.[NEWLINE]Gewährt der Heiligen Stätte +1 [ICON_Faith] Nachbarschaftsbonus für Wälder.[NEWLINE]+1 [ICON_PRODUCTION] Produktion auf Meeresressourcen in dieser Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION" Language="de_DE">
+			<Text>Norwegens einzigartige Einheit des Mittelalters, die den Landsknecht ersetzt und mit der Erforschung der Militärtaktik freigeschaltet wird.[NEWLINE]+10 [ICON_Strength] Kampfstärke beim Angreifen und -5 Kampfstärke beim Verteidigen.[NEWLINE]+2 [ICON_Movement] Bewegung bei Zugbeginn auf feindlichem Gebiet.[NEWLINE]Kann nicht mit Gold, aber mit [ICON_Faith] Glauben gekauft werden.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_DESCRIPTION" Language="de_DE">
+			<Text>Jede Stadt startet mit einem [ICON_TradingPost] Handelsposten und einer Straße zur Hauptstadt, falls sie sich in Handelsweg-Reichweite befindet.[NEWLINE]Handelswege gewähren +1 [ICON_Gold] Gold für das Passieren durch Handelsposten römischer Städte.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_DESCRIPTION" Language="de_DE">
+			<Text>Jede Stadt startet mit einem kostenlosen [ICON_Culture] Monument.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_BATH_EXPANSION2_ALT_DESCRIPTION" Language="de_DE">
+			<Text>Roms einzigartiger Bezirk, der das Aquädukt ersetzt.[NEWLINE]Zusätzlich +2 [ICON_Housing] Wohnraum und +1 [ICON_Amenities] Annehmlichkeit.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_DISTRICT_BATH_SCIENCE" Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft durch angrenzendes Bad.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_DISTRICT_BATH_CULTURE" Language="de_DE">
+			<Text>+{1_num} [ICON_Culture] Kultur durch angrenzendes Bad.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_DISTRICT_BATH_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben durch angrenzendes Bad.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_DISTRICT_BATH_GOLD" Language="de_DE">
+			<Text>+{1_num} [ICON_Gold] Gold durch angrenzendes Bad.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_ROMAN_LEGION_DESCRIPTION" Language="de_DE">
+			<Text>Roms einzigartige Einheit der Klassik, die den Schwertkämpfer ersetzt.[NEWLINE][ICON_Strength] Stärker als der Schwertkämpfer.[NEWLINE]Kann ein römisches Militärlager errichten.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Gegründete Städte starten mit zusätzlichem Territorium.[NEWLINE]+1 [ICON_Faith] Glauben, +1 [ICON_Production] Produktion und +100% Erzeugung von strategischen Ressourcen auf Tundra- und Schnee-Geländefeldern.[NEWLINE]Einheiten erhalten keinen Schaden durch Schneestürme. Einheiten von Zivilisationen, die sich im Krieg mit Russland befinden, erhalten +100% Schaden durch Schneestürme auf Russlands Territorium.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_DESCRIPTION" Language="de_DE">
+			<Text>Handelswege zu fortgeschritteneren Zivilisationen gewähren Bonus-Erträge: +1 [ICON_Science] Wissenschaft pro Technologie und +1 [ICON_Culture] Kultur pro Ausrichtung, die Ihr zurückliegt.[NEWLINE]Die Fertigstellung eines Gebäudes gewährt [ICON_Faith] Glauben, der 15% der Produktionskosten entpricht.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_LAVRA_DESCRIPTION" Language="de_DE">
+			<Text>Russlands einzigartiger Spezialdistrikt, der die Heilige Stätte ersetzt.[NEWLINE]Zusätzlich +1 [ICON_GreatProphet] Großer-Prophet-Punkt pro Runde.[NEWLINE]Gewährt +1 [ICON_GreatWriter] Großer-Schriftsteller-Punkt pro Runde mit einem Schrein, +1 [ICON_GreatArtist] Großer-Künstler-Punkt pro Runde mit einem Tempel und +1 [ICON_GreatMusician] Großer-Musiker-Punkt pro Runde mit einem Kultgebäude.[NEWLINE]Die Aktivierung einer Großen Persönlichkeit in dieser Stadt erweitert die Grenzen dieser um ein Geländefeld.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION" Language="de_DE">
+			<Text>Russlands einzigartige Einheit des Industriezeitalters, die die Kavallerie ersetzt.[NEWLINE][ICON_Strength] Stärker als die Kavallerie und erhält +5 [ICON_Strength] Kampfstärke bei Kampf auf oder direkt neben russischen Territorium.[NEWLINE] Kann sich auch nach dem Angreifen noch [ICON_Movement] bewegen.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt das Spiel mit bereits erforschter Tierzucht.[NEWLINE]Das Produzieren einer leichten Kavallerieeinheit oder eines berittenen Bogenschützen gewährt eine kostenlose Kopie der produzierten Einheit.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_NAME" Language="de_DE">
+			<Text>Königin der Massageten</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION" Language="de_DE">
+			<Text>Erträge aus Plünderungen (einschließlich der Plünderung von Händlern) sind verdoppelt. Plündern kostet nur eine 1 [ICON_Movement] Bewegung.[NEWLINE]Militäreinheiten erhalten +5 [ICON_Strength] Kampfstärke gegen verwundete Einheiten.[NEWLINE]Kampfsiege stellen 30 Lebenspunkte der siegreichen Einheit wieder her.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SCYTHIA_ABILITY_QUEEN_MASSAGATAE_NAME" Language="de_DE">
+			<Text>Königin der Massageten</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SCYTHIA_ABILITY_QUEEN_MASSAGATAE_DESCRIPTION" Language="de_DE">
+			<Text>Erträge aus Plünderungen (einschließlich der Plünderung von Händlern) sind verdoppelt. Plündern kostet nur eine 1 [ICON_Movement] Bewegung.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_KURGAN_NAME" Language="de_DE">
+			<Text>Grabhügel</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KURGAN_NAME" Language="de_DE">
+			<Text>Skythiens einzigartige Moderinisierung: Der Grabhügel</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="de_DE">
+			<Text>Skythiens einzigartige Modernisierung, die mit der Tierzucht freigeschaltet wird.[NEWLINE]+2 [ICON_Gold] Gold und +1 [ICON_Faith] Glauben.[NEWLINE]+1 [ICON_Faith] Glauben für jedes angrenzende Jagdlager oder Weide.[NEWLINE]Zusätzlich + [ICON_Gold] Gold mit den Ausrichtungen Gilden und Merkantilismus, +1 [ICON_Faith] Glauben jedes angrenzende Jagdlager oder Weide nach der Erforschung des Steigbügels und [ICON_Tourism] Tourismus entsprechend der Glaubenserzeugung nach Erforschung der Luftfahrt.[NEWLINE]Kann nicht auf Hügeln gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_NAME" Language="de_DE">
+			<Text>Berittener Bogenschütze</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCYTHIAN_HORSE_ARCHER_NAME" Language="de_DE">
+			<Text>Skythiens einzigartige Einheit: Der berittene Bogenschütze</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION" Language="de_DE">
+			<Text>Skythiens einzigartige Einheit der Klassik, die mit der Reiterei freigeschaltet wird.[NEWLINE]Fernkampfeinheit mit 4 [ICON_Movement] Bewegung und 1 [ICON_Range] Reichweite.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet +1 [ICON_TradeRoute] Handelswegkapazität und einen kostenlosen Händler nach Freischaltung der Ausrichtung Erkundung.[NEWLINE]+5 [ICON_Gold] Gold, +2 [ICON_Production] Produktion und +2 [ICON_Food] Nahrung für kontinentübergreifende Handelswege.[NEWLINE]Kann Händler und Marineeinheiten mit [ICON_Faith] Glauben erwerben.[NEWLINE]Flotten und Armadas können bereits mit der Ausrichtung Merkantilismus gebildet werden.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Religiöse Einheiten und Militäreinheiten erhalten +5 [ICON_Strength] Kampfstärke gegen Zivilisationen und Einheiten, die einer anderen Religion folgen.[NEWLINE]Inquisitoren erhalten 1 zusätzliche Verbreitungsladung und entfernen [Icon_Religion] 100% der Anwesenheit anderer Religionen.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION_NAME" Language="de_DE">
+			<Text>El Escorial</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION" Language="de_DE">
+			<Text>Philipps +5 [ICON_Strength] Kampfstärke gegen Zivilisationen und Einheiten, die einer anderen Religion folgen.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Spaniens einzigartige Modernisierung, die mit dem Bildungswesen freigeschaltet wird.[NEWLINE]+1 [ICON_Science] Wissenschaft, +1 [ICON_Faith] Glauben und +0.5 [ICON_Housing] Wohnraum.[NEWLINE]+2 [ICON_Faith] Glauben, +1 [ICON_PRODUCTION] Produktion und +1 [ICON_Food] Nahrung, falls auf einem fremden Kontinent errichtet.[NEWLINE]+1 [ICON_Gold] Gold für jeden angrenzenden Bauernhof und +1 [ICON_Science] Wissenschaft für jede angrenzende Plantage.[NEWLINE]Zusätzlich +2 [ICON_Food] Nahrung nach Erforschung der Sanitätsversorgung, +2 [ICON_Science] Wissenschaft mit der Ausrichtung Kulturerbe und [ICON_Tourism] Tourismus entsprechend der Glaubenserzeugung nach Erforschung der Luftfahrt.[NEWLINE]Muss angrenzend an eine Luxus- oder Bonusressource gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION" Language="de_DE">
+			<Text>Spaniens einzigartige Einheit der Renaissance, die das Musketier ersetzt.[NEWLINE]+10 [ICON_Strength] Kampfstärke, wenn es sich ein Geländefeld mit einer religiösen Einheit teilt.[NEWLINE]Wenn diese Einheit eine Stadt erobert oder sich bei Eroberung einer Stadt auf einem angrenzenden Geländefeld befindet, nimmt die eroberte Stadt automatisch Spaniens [ICON_Religion] Religion an.</Text>
+		</Replace>
+--=============================================================================================================
+-- SUMER
+--=============================================================================================================
+<Replace Tag="LOC_CIVILIZATION_SUMERIA_NAME" Language="de_DE">
+			<Text>Sumer</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_NAME" Language="de_DE">
+			<Text>Keilschrift</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_DESCRIPTION" Language="de_DE">
+			<Text>Städte starten mit +1 [ICON_Citizen] Bevölkerung.[NEWLINE]Bauernhöfe, die an einen Fluss angrenzen, gewähren +1 [ICON_Science] Wissenschaft, wenn sie an ein Stadtzentrum angrenzen und +1 [ICON_Faith] Glauben, wenn sie an eine Zikkurat angrenzen.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_FIRST_CIVILIZATION_CLANS_MODE_DESCRIPTION" Language="de_DE">
+			<Text>Städte starten mit +1 [ICON_Citizen] Bevölkerung.[NEWLINE]Bauernhöfe, die an einen Fluss angrenzen, gewähren +1 [ICON_Science] Wissenschaft, wenn sie an ein Stadtzentrum angrenzen und +1 [ICON_Faith] Glauben, wenn sie an eine Zikkurat angrenzen.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_NAME" Language="de_DE">
+			<Text>Gilgamesch-Epos</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_DESCRIPTION" Language="de_DE">
+			<Text>Helden erhalten +20% [ICON_Lifespan] Lebensdauer.[NEWLINE]Militäreinheiten erhalten +5 [ICON_Strength] Kampfstärke gegen Barbaren. Erhaltet zusätzlich eine Stammesdorf-Belohnung, wenn ein Barbarenlager eingenomen wird.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_NAME" Language="de_DE">
+			<Text>Gilgamesch-Epos</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Militäreinheiten erhalten +5 [ICON_Strength] Kampfstärke gegen Barbaren. Erhaltet zusätzlich eine Stammesdorf-Belohnung, wenn ein Barbarenlager eingenomen wird.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_NAME" Language="de_DE">
+			<Text>Zikkurat</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="de_DE">
+			<Text>Sumers einzigartige Modernisierung, die sofort verfügbar ist.[NEWLINE]+1 [ICON_Science] Wissenschaft.[NEWLINE]+1 [ICON_Science] Wissenschaft für jeden zweiten angrenzenden Bauernhof.[NEWLINE]+1 [ICON_Faith] Glauben für jeden angrenzenden Bezirk.[NEWLINE]Die erste Zikkurat jeder Stadt gewährt +1 [ICON_Amenities] Annehmlichkeit.[NEWLINE]Zusätzlich +1 [ICON_Science] Wissenschaft mit der Ausrichtung Kulturerbe und [ICON_Tourism] Tourismus entsprechend der Wissenschaftserzeugung nach Erforschung der Luftfahrt.[NEWLINE]Kann nicht auf Hügeln oder an eine andere Zikkurat angrenzend errichtet werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION" Language="de_DE">
+			<Text>Sumers einzigartige Einheit der Antike, die den Schweren Streitwagen ersetzt und sofort verfügbar ist.[NEWLINE]Billiger zu [ICON_Production] produzieren.[NEWLINE]+2 [ICON_Movement] Bewegung bei Zugbeginn auf offenem Gelände.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_NAME" Language="de_DE">
+			<Text>Boundless Plains to Share</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION" Language="de_DE">
+			<Text>Küstenstädte erhalten +3 [ICON_Housing] Wohnraum.[NEWLINE]Spezialbezirke erhalten +1 Nachbarschaftsbonus auf Geländefeldern mit bezaubernder Anziehungskraft und +3 auf Geländefeldern mit atemberaubender Anziehungskraft.[NEWLINE]Die Fertigstellung einer Weide löst einen Kulturschock aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_NAME" Language="de_DE">
+			<Text>A Man of Peace in a Time of War</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_DESCRIPTION" Language="de_DE">
+			<Text>+15% [ICON_Production] Produktion für Gebäude und zivile Einheiten, wenn im Frieden.[NEWLINE]+15% [ICON_Production] Produktion für Militäreinheiten, wenn im Krieg.[NEWLINE]Handelswege mit Verbündeten gewähren +2 [ICON_Food] Nahrung, +2 [ICON_Production] Produktion und +2 [ICON_Gold] Gold für beide Städte, und doppelt so viel, wenn sich Australien in einem Dunklen Zeitalter befindet.[NEWLINE]Allianzen generieren zusätzliche Allianzpunkte während eines Krieges gegen einen gemeinsamen Feind.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>+15% [ICON_Production] Produktion für Gebäude und zivile Einheiten, wenn im Frieden.[NEWLINE]+15% [ICON_Production] Produktion für Militäreinheiten, wenn im Krieg.[NEWLINE]Handelswege mit Verbündeten gewähren +2 [ICON_Food] Nahrung, +2 [ICON_Production] Produktion und +2 [ICON_Gold] Gold für beide Städte, und doppelt so viel, wenn sich Australien in einem Dunklen Zeitalter befindet.[NEWLINE]Allianzen generieren zusätzliche Allianzpunkte während eines Krieges gegen einen gemeinsamen Feind.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION" Language="de_DE">
+			<Text>Australiens einzigartige Modernisierung, die mit der Ausrichtung Gilden freigeschaltet wird.[NEWLINE]+1 [ICON_FOOD] Nahrung und +1 [ICON_PRODUCTION] Produktion.[NEWLINE]+1 [ICON_Food] Nahrung für jede angrenzende Weide.[NEWLINE]Zusätzlich +1 [ICON_FOOD] Nahrung und +1 [ICON_PRODUCTION] Produktion von angrenzenden Outback-Stationen und Weiden nach der Erforschung der Dampfmaschine.[NEWLINE]Kann nicht auf Schnee gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_DIGGER_DESCRIPTION" Language="de_DE">
+			<Text>Australiens einzigartige Einheit der Moderne, die die Infanterie ersetzt.[NEWLINE]+10 [ICON_Strength] Kampfstärke bei Kampf auf Küstenfeldern.[NEWLINE]+5 [ICON_Strength] Kampfstärke bei Kampf auf neutralem oder fremden Territorium.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" Language="de_DE">
+			<Text>Handwerker erhalten 1 [ICON_Charges] zusätzliche Aufladung.[NEWLINE]Beim Bau von Bezirken können Handwerker Aufladungen verbrauchen, um [ICON_Production] 20% der ursprünglichen Produktionskosten an Produktion zu gewähren.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" Language="de_DE">
+			<Text>Luxusressourcen gewähren [ICON_Amenities] Annehmlichkeiten für 2 zusätzliche Städte.[NEWLINE]Militäreinheiten erhalten +1 [ICON_Strength] Kampfstärke für jede unterschiedliche Luxusressource, die im Aztekenland modernisiert wurde.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_TLACHTLI_XP1_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartiges Gebäude der Azteken, das die Arena ersetzt.[NEWLINE]Zusätzlich +2 [ICON_Faith] Glauben, +1 [ICON_Culture] Kultur, +1 [ICON_Production] Produktion und +1 [ICON_GreatGeneral] Großer-General-Punkt pro Runde.[NEWLINE]+1 [ICON_Tourism] Tourismus nach der Freischaltung der Ausrichtung Naturschutz.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_AZTEC_EAGLE_WARRIOR_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Einheit der Azteken der Klassik, die den Landsknecht ersetzt und mit der Ausrichtung Militärausbildung freigeschaltet wird.[NEWLINE]Hat eine Chance, besiegte Militäreinheiten als Handwerker gefangen zu nehmen.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_NAME" Language="de_DE">
+			<Text>Gewürzinsel-Archipel</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_DESCRIPTION" Language="de_DE">
+			<Text>Campus, Theaterplätze, Heilige Stätten und Industriegebiete erhalten +1 Nachbarschaftsbonus für Wasserfelder.[NEWLINE]+1 [ICON_GreatMerchant] Großer-Händer-Punkt pro Runde für jeden Vasallen-Stadtstaat, der einen Hafen besitzt.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_EXALTED_GODDESS_DESCRIPTION" Language="de_DE">
+			<Text>Stadtzentren erhalten +2 [ICON_Faith] Glauben, falls sie an ein Wasserfeld angrenzen.[NEWLINE]+1 [ICON_InfluencePerTurn] Einflusspunkt pro Runde für jede modernisierte Meeresressource.[NEWLINE]Alle Einheiten ignorieren die [ICON_Movement] Bewegungskosten fürs Wassern und an Land Gehen.[NEWLINE]Kann Hafen- und Wasserpark-Gebäude mit [ICON_Faith] Glauben kaufen.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="de_DE">
+			<Text>Indonesiens einzigartige Modernisierung, die mit dem Schiffsbau freigeschaltet wird.[NEWLINE]+1 [ICON_PRODUCTION] Produktion und +1 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_FOOD] Nahrung für jedes angrenzende Fischerboot.[NEWLINE]+1 [ICON_Gold] Gold für jedes angrenzende Landfeld.[NEWLINE]Zusätzlich +1 [ICON_Housing] Wohnraum nach der Erforschung der Massenproduktion, +1 [ICON_PRODUCTION] Produktion mit der Ausrichtung Bauwesen, und [ICON_TOURISM] Tourismus entsprechend der Nahrungserzeugung nach der Erforschung der Luftfahrt.[NEWLINE]Muss auf einem Wasserfeld angrenzend an eine Meeresressource gebaut werden. Kann auf Riffen gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_INDONESIAN_JONG_DESCRIPTION" Language="de_DE">
+			<Text>Indonesiens einzigartige Marineeinheit des Mittelalters, die die Fregatte ersetzt und mit der Ausrichtung Söldner freigeschaltet wird.[NEWLINE]+5 [ICON_Strength] Kampfstärke, wenn eine Einheit eskortiert wird. Eskortierte Einheiten erben die [ICON_Movement] Bewegung des Jong.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_NAME" Language="de_DE">
+			<Text>Tempelberge</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>+15% [ICON_Production] Produktion für Wunder in Städten mit mindestens 10 Bevölkerung, erhöhrt auf +30% in Städten mit mindestens 20 Bevölkerung.[NEWLINE]Inländische Handelswege erhalten +1 [ICON_Science] Wissenschaft, +1 [ICON_Culture] Kultur, +1 [ICON_Gold] Gold und +1 [ICON_Faith] Glauben für jedes Wunder, jeden Baray, den Palast und jede Heilige Stätte in der Zielstadt.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_NAME" Language="de_DE">
+			<Text>Stadt der Dharma</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Städte mit einem Wunder üben +100% [ICON_Religion] religiösen Druck aus und erhalten +15% [ICON_Production] Produktion für Bezirke und Gebäude.[NEWLINE]Die Fertigstellung einer Heiligen Stätte löst einen Kulturschock aus und Heilige Stätten erhalten einen +2 [ICON_Faith] Nachbarschaftsbonus für Flüsse.[NEWLINE]Erhaltet Zugriff auf das Prasat.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_KHMER_DISTRICT_RIVER_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben vom angrenzenden Fluss.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_PRASAT_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Jayavarmans einzigartiges Gebäude, das den Tempel ersetzt.[NEWLINE]Gewährt [ICON_Production] Produktion entsprechend dem Nachbarschaftsbonus der Heiligen Stätte.[NEWLINE]Zusätzlich +1 [ICON_Housing] Wohnraum und +2 [ICON_Culture] Kultur.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_PRASAT_HEROES_XP2_DESCRIPTION" Language="de_DE">
+			<Text>Jayavarmans einzigartiges Gebäude, das den Tempel ersetzt.[NEWLINE]Gewährt [ICON_Production] Produktion entsprechend dem Nachbarschaftsbonus der Heiligen Stätte.[NEWLINE]Zusätzlich +1 [ICON_Housing] Wohnraum und +2 [ICON_Culture] Kultur.[NEWLINE]Das Zurückrufen von Helden kostet in dieser Stadt 15% weniger [ICON_Faith] Glauben.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_SUK_BARAY_NAME" Language="de_DE">
+			<Text>Baray</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_SUK_BARAY_DESCRIPTION" Language="de_DE">
+			<Text>Khmers einzigartiger Bezirk, der das Aquädukt ersetzt.[NEWLINE]Zusätzlich +1 [ICON_Amenities] Annehmlichkeit und +1 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_Housing] Wohnraum für jeden angrenzenden Bauernhof und jedes Wunder.[NEWLINE]Angrenzende Bauernhöfe erhalten +2 [ICON_Food] Nahrung und +1 [ICON_Faith] Glauben.[NEWLINE]Kann nicht auf Hügeln gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_KHMER_DOMREY_NAME" Language="de_DE">
+			<Text>Dâmri Châmbăng</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_KHMER_DOMREY_DESCRIPTION" Language="de_DE">
+			<Text>Khmers einzigartige Einheit des Mittelalters, die das Tribok ersetzt.[NEWLINE]Kann sich im selben Zug bewegen und angreifen.[NEWLINE]Übt Kontrollzone aus.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_NAME" Language="de_DE">
+			<Text>Vermächtnis der Argeaden</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_DESCRIPTION" Language="de_DE">
+			<Text>Militäreinheiten aufzuwerten kostet [ICON_Gold] 25% weniger Gold und Ressourcen.[NEWLINE]Erhaltet bei Eroberung einer Stadt: 1 [ICON_TechBoosted] Heureka für jeden Campus und jedes Lager in der eroberten Stadt und 1 [ICON_CivicBoosted] Inspiration für jede Heilige Stätte und jeden Theaterplatz in der eroberten Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_EXPANSION1_DESCRIPTION" Language="de_DE">
+			<Text>Militäreinheiten aufzuwerten kostet [ICON_Gold] 25% weniger Gold und Ressourcen.[NEWLINE]Erhaltet bei Eroberung einer Stadt: 1 [ICON_TechBoosted] Heureka für jeden Campus und jedes Lager in der eroberten Stadt und 1 [ICON_CivicBoosted] Inspiration für jede Heilige Stätte und jeden Theaterplatz in der eroberten Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_TO_WORLDS_END_NAME" Language="de_DE">
+			<Text>Bis ans Ende der Welt</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_TO_WORLDS_END_DESCRIPTION" Language="de_DE">
+			<Text>Verwundete Militäreinheiten erhalten nur [ICON_Strength] 50% der normalen Kampfstärkeverringerung.[NEWLINE]Die Eroberung einer Stadt mit einem Wunder heilt alle Militäreinheiten vollständig.[NEWLINE]Städte erhalten keine Kriegsmüdigkeit.[NEWLINE]Erhaltet Zugriff auf den Hetairos.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_MACEDON_ABILITY_TO_WORLDS_END_NAME" Language="de_DE">
+			<Text>Bis ans Ende der Welt</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_MACEDON_ABILITY_TO_WORLDS_END_DESCRIPTION" Language="de_DE">
+			<Text>Verwundete Militäreinheiten erhalten nur [ICON_Strength] 50% der normalen Kampfstärkeverringerung.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_NAME" Language="de_DE">
+			<Text>Hetairos</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_DESCRIPTION" Language="de_DE">
+			<Text>Alexanders einzigartige Einheit der Klassik, die den Reiter ersetzt.[NEWLINE]+5 [ICON_Strength] Kampfstärke, wenn angrenzend an einen Großen General.[NEWLINE]Kampfsiege gewähren einen Schub von [ICON_GreatGeneral] Großer-General-Punkten in Höhe von 25% der Kampfstärke der besiegten Einheit.[NEWLINE]Startet mit einer kostenlosen [ICON_Promotion] Beförderung.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_HETAIROI_DESCRIPTION" Language="de_DE">
+			<Text>+5 [ICON_Strength] Kampfstärke, wenn angrenzend an einen Großen General.[NEWLINE]Kampfsiege gewähren einen Schub von [ICON_GreatGeneral] Großer-General-Punkten in Höhe von 25% der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_BASILIKOI_PAIDES_NAME" Language="de_DE">
+			<Text>Königliche Pagenschule</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_BASILIKOI_PAIDES_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Mazedoniens einzigartiges Gebäude, das die Kaserne ersetzt.[NEWLINE]Das Ausbilden von Militäreinheiten in dieser Stadt gewährt einen Schub von [ICON_Science] Wissenschaft in Höhe von 25% der Produktionskosten.[NEWLINE]+25% Kampferfahrung für Hetairoi, die in dieser Stadt ausgebildet werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MACEDONIAN_HYPASPIST_DESCRIPTION" Language="de_DE">
+			<Text>Mazedoniens einzigartige Einheit der Klassik, die den Schwertkämpfer ersetzt.[NEWLINE]+5 [ICON_Strength] Kampfstärke bei der Besetzung von Bezirken.[NEWLINE][ICON_Strength] Unterstüzungsbonus um 50% erhöht.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_TA_SETI_NAME" Language="de_DE">
+			<Text>Kult von Apedemak</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_TA_SETI_DESCRIPTION" Language="de_DE">
+			<Text>+50% [ICON_Production] Produktion und Kampferfahrung für Fernkampfeinheiten.[NEWLINE]+2 [ICON_Gold] Gold von Luxus- und Bonusressourcen, die mit Minen modernisiert wurden.[NEWLINE]+1 [ICON_Production] Produktion von strategischen Ressourcen, die mit Minen modernisiert wurden.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_NAME" Language="de_DE">
+			<Text>Restauration von Meroë</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION" Language="de_DE">
+			<Text>+100% [ICON_Production] Produktion für den ersten Spezialbezirk jeder Stadt, und +50% [ICON_Production] Produktion für den Zweiten.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_PYRAMID_NAME" Language="de_DE">
+			<Text>Grabpyramide</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="de_DE">
+			<Text>Nubiens einzigartige Modernisierung, die mit der Steinmetzkunst freigeschaltet wird.[NEWLINE]+2 [ICON_Food] Nahrung und +2 [ICON_Faith] Glauben.[NEWLINE]+1 [ICON_Food] Nahrung für jedes angrenzende Aquädukt.[NEWLINE]+1 passenden Ertrag für jeden angrenzenden Spezialbezirk.[NEWLINE]Gewährt [ICON_Tourism] Tourismus nach Erforschung der Luftfahrt.[NEWLINE]Kann nicht auf Schnee erbaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_NUBIAN_PITATI_NAME" Language="de_DE">
+			<Text>Apedemak-Bogenschütze</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_NUBIAN_PITATI_DESCRIPTION" Language="de_DE">
+			<Text>Nubiens einzigartige Einheit der Antike, die den Bogenschützen ersetzt.[NEWLINE][ICON_Strength] Stärker und höhere [ICON_Movement] Bewegung als der Bogenschütze.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_NAME" Language="de_DE">
+			<Text>Persische Königsstraße</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet +1 [ICON_TradeRoute] Handelswegkapazität und einen kostenlosen Händer mit Freischaltung der Ausrichtung Politische Philosophie.[NEWLINE]Handelswege zur Hauptstadt oder zu einem Stadtstaat erhalten +1 [ICON_Science] Wissenschaft, +1 [ICON_Culture] Kultur, +1 [ICON_Faith] Glauben, +1 [ICON_Food] Nahrung, +1 [ICON_Production] Produktion und +1 [ICON_Gold] Gold.[NEWLINE]Straßen auf persischem Gebiet sind ein Level fortgeschrittener als gewöhnlich.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_PERSIA_ABILITY_ROYAL_ROAD_MOVEMENT_NAME" Language="de_DE">
+			<Text>Persische Königsstraße</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_PERSIA_ABILITY_ROYAL_ROAD_MOVEMENT_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Movement] Bewegung bei Zugbeginn auf persischem Gebiet.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_NAME" Language="de_DE">
+			<Text>Reich aller Nationen</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Der erste Gesandte, der zu einem Stadtstaat geschickt wird, zählt als 2 [ICON_Envoy] Gesandte.[NEWLINE]Erhaltet +15% des Typenbonus eines Stadtstaates, wenn Ihr dessen Suzerän seid. Erhöht sich auf +30%, wenn Ihr Suzerän von mindestens 3 Stadtstaaten dieses Typs seid.[NEWLINE]Militäreinheiten erhalten +25% Kampferfahrung außerhalb persischen Territoriums.[NEWLINE]Besetzte Städte erhalten keine verringerten Erträge.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_PERSIA_ABILITY_FALL_BABYLON_NAME" Language="de_DE">
+			<Text>Reich aller Nationen</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_PERSIA_ABILITY_FALL_BABYLON_DESCRIPTION" Language="de_DE">
+			<Text>Erhält +25% Kampferfahrung außerhalb persischen Territoriums.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="de_DE">
+			<Text>Persiens einzigartige Modernisierung, die mit der Ausrichtung Frühes Reich freigeschaltet wird.[NEWLINE]+2 [ICON_Gold] Gold, +1 [ICON_CULTURE] Kultur, und +1 [ICON_Food] Nahrung.[NEWLINE]+1 [ICON_CULTURE] Kultur für jede angrenzende Heilige Stätte und jeden Theaterplatz.[NEWLINE]+1 [ICON_GOLD] Gold für jedes angrenzende Handelszentrum, Stadtzentrum und Wunder.[NEWLINE]+2 Anziehungskraft für angrenzende Geländefelder.[NEWLINE]Zusätzlich +1 [ICON_Culture] Kultur mit der Ausrichtung Diplomatischer Dienst und [ICON_Tourism] Tourismus entsprechend der Kulturerzeugung nach der Erforschung der Luftfahrt.[NEWLINE]Kann nicht auf Schnee, Tundra oder angrenzend an eine andere Pairidaeza gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" Language="de_DE">
+			<Text>Persiens einzigartige Einheit der Klassik, die den Schwertkämpfer ersetzt.[NEWLINE]Nahkampfeinheit mit einem Fernkampfangriff mit 2 [ICON_Range] Reichweite und hoher [ICON_Strength] Verteidigung.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_PERSIAN_IMMORTAL_NAME" Language="de_DE">
+			<Text>Unsterblicher</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION" Language="de_DE">
+			<Text>Alle Militär-Politikplätze werden in [ICON_Government] Joker-Politikplätze umgewandelt.[NEWLINE]Die Fertigstellung eines Lagers löst einen Kulturschock aus.[NEWLINE]Lagergebäude gewähren [ICON_Culture] Kultur, die ihrem Produktionsertrag entspricht.[NEWLINE]Erhaltet ein [ICON_GreatWork_Relic] Relikt bei Eintritt in ein Goldenes Zeitalter.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="de_DE">
+			<Text>Heilige Stätten erhalten +1 [ICON_Faith] Nachbarschaftsbonus für Bezirke außer Lager.[NEWLINE]Kulturschocks [ICON_Religion] bekehren die betroffene Stadt automatisch zu Polens Religion.[NEWLINE]Die Bekehrung einer Stadt zu Polens Religion gewährt +1 Zeitalterpunkt.[NEWLINE]+4 [ICON_Gold] Gold, +2 [ICON_Culture] Kultur und +2 [ICON_Faith] Glauben von Relikten.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_HEROES_DESCRIPTION" Language="de_DE">
+			<Text>Heilige Stätten erhalten +1 [ICON_Faith] Nachbarschaftsbonus für Bezirke außer Lager.[NEWLINE]Kulturschocks [ICON_Religion] bekehren die betroffene Stadt automatisch zu Polens Religion.[NEWLINE]Die Bekehrung einer Stadt zu Polens Religion gewährt +1 Zeitalterpunkt.[NEWLINE]+4 [ICON_Gold] Gold, +2 [ICON_Culture] Kultur und +2 [ICON_Faith] Glauben von Relikten und Helden-Relikten.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ENCAMPMENT_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben von angrenzenden Bezirken.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="de_DE">
+			<Text>Polens einzigartiges Gebäude, das den Markt ersetzt.[NEWLINE]Inländische [ICON_TradeRoute] Handelswege aus dieser Stadt gewähren +4 [ICON_Gold] Gold.[NEWLINE]Internationale [ICON_TradeRoute] Handelswege aus dieser Stadt gewähren +2 [ICON_Production] Produktion.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_POLISH_HUSSAR_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Polens einzigartige Einheit der Renaissance, die den Kürassier ersetzt und mit der Ausrichtung Merkantilismus freigeschaltet wird.[NEWLINE]Stößt verteidigende Einheiten zurück in Kämpfen, in denen er mehr Schaden verursacht als sie. Zusätzlicher Schaden, falls die verteidigende Einheit nicht zurückgestoßen werden kann.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_POLISH_HUSSAR_DESCRIPTION" Language="de_DE">
+			<Text>Polens einzigartige Einheit der Renaissance, die den Kürassier ersetzt und mit der Ausrichtung Merkantilismus freigeschaltet wird.[NEWLINE]Stößt verteidigende Einheiten zurück in Kämpfen, in denen er mehr Schaden verursacht als sie. Zusätzlicher Schaden, falls die verteidigende Einheit nicht zurückgestoßen werden kann.</Text>
+		</Replace>
+--=============================================================================================================
+-- ABRAHAM LINCOLN
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_LINCOLN_NAME" Language="de_DE">
+			<Text>Gettysburg Address</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION" Language="de_DE">
+			<Text>+25% [ICON_Production] Produktion für Industriegebiete und deren Gebäude.[NEWLINE]Sobald Ihr das Industriezeitalter erreicht, erhalten Städte mit einem Industriegebiet +2 [ICON_Amenities] Annehmlichkeiten und Städte ohne ein Industriegebiet -5 Loyalität.[NEWLINE]Erhaltet eine kostenlose Nahkampfeinheit bei Fertigstellung eines Industriegebietes oder eines ihrer Gebäude. Die erhaltene Einheit erhält +5 [ICON_Strength] Kampfstärke und ignoriert Anforderungen strategischer Ressourcen.[NEWLINE]Kampfsiege innerhalb von 9 Geländefeldern der Hauptstadt gewähren +50% Erfahrung.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LINCOLN_ABILITY_EXPERIENCE_BOOST_CAPITAL_NAME" Language="de_DE">
+			<Text>Gettysburg Address</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LINCOLN_ABILITY_EXPERIENCE_BOOST_CAPITAL_DESCRIPTION" Language="de_DE">
+			<Text>Abraham Lincolns Militäreinheiten verdienen +50% Erfahrung durch Kampfsiege innerhalb von 9 Geländefeldern der Hauptstadt.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_LINCOLN_MELEE_UNITS_DESCRIPTION" Language="de_DE">
+			<Text>+5 [ICON_Strength] Kampfstärke und ignoriert Anforderungen strategischer Ressourcen.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_PRESERVER_OF_THE_UNION_NAME" Language="de_DE">
+			<Text>Mag Zivilisationen mit der gleichen Regierungsform. Mag keine Zivilisationen mit anderen Regierungsformen und mag es noch weniger, wenn diese sich im gleichen Zeitalter wie er befinden.</Text>
+		</Replace>
+--=============================================================================================================
+-- MUHTESEM SULEIMAN
+--=============================================================================================================	
+<Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_ALT_DESCRIPTION" Language="de_DE">
+			<Text>+15% [ICON_Science] Wissenschaft und [ICON_Culture] Kultur während eines Goldenen Zeitalters.[NEWLINE]Erhaltet einen [ICON_Government] Joker-Politikplatz während eines Dunklen Zeitalters.[NEWLINE]Militäreinheiten erhalten +4 [ICON_Strength] Kampfstärke, wenn Ihr Euch in einem Normalen oder Dunklen Zeitalter befindet und gegen eine Zivilisation kämpft, die das ebenfalls tut.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_ALT_NAME" Language="de_DE">
+			<Text>Ehl-i Hiref</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_GOLDEN_AGE_NAME" Language="de_DE">
+			<Text>Dichtender Kaiser</Text>
+		</Replace>
+--=============================================================================================================
+-- NADER SHAH
+--=============================================================================================================	
+<Replace Tag="LOC_TRAIT_LEADER_NADER_SHAH_DESCRIPTION" Language="de_DE">
+			<Text>Militäreinheiten erhalten +5 [ICON_Strength] Kampfstärke beim Angriff auf Gegner, die volles Leben besitzen.[NEWLINE]Internationale Handelswege, die von Städten ausgehen, die nicht von Euch gegründet wurden, erhalten +3 [ICON_Gold] Gold und +2 [Icon_Faith] Glauben.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_PREFER_LANDPOWER_NAME" Language="de_DE">
+			<Text>Jahangusha-i Naderi</Text>
+		</Replace>
+--=============================================================================================================
+-- NZINGA MBENDE
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_NZINGA_MBANDE_DESCRIPTION" Language="de_DE">
+			<Text>Städte innerhalb von 9 Geländefeldern einer Hauptstadt erhalten +1 [ICON_Amenities] Annehmlichkeit und generieren +1 [ICON_InfluencePerTurn] Einflusspunkt pro Runde.[NEWLINE]Regionale [ICON_Production] Produktions- und [ICON_Amenities] Annehmlichkeitsbonusse von Industriegebieten, Unterhaltungskomplexen und Wasserparks reichen 3 Felder weiter.[NEWLINE][ICON_TradeRoute] Handelswege zu Verbündeten und Stadtstaaten, deren Suzerän Ihr seid, geben +2 [ICON_Gold] Gold, +1 [ICON_Culture] Kultur und +1 [ICON_Production] Produktion für beide Städte.[NEWLINE]Militäreinheiten erhalten +1 [ICON_Strength] Kampfstärke für jede aktive Allianz.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_NZINGA_ABILITY_ALLIANCE_COMBAT_NAME" Language="de_DE">
+			<Text>Strategin von Matamba</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_NZINGA_ABILITY_ALLIANCE_COMBAT_DESCRIPTION" Language="de_DE">
+			<Text>+{1_Amount} [ICON_Strength] Kampfstärke für jede Allianz.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_DECOLONIZATION_NAME" Language="de_DE">
+			<Text>Mutter von Angola</Text>
+		</Replace>
+--=============================================================================================================
+-- SULTAN SALADIN
+--=============================================================================================================		
+<Replace Tag="LOC_TRAIT_LEADER_SALADIN_ALT_NAME" Language="de_DE">
+			<Text>Ayyubidische Dynastie</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_SALADIN_ALT_DESCRIPTION" Language="de_DE">
+			<Text>Kann Lagergebäude mit [ICON_Faith] Glauben kaufen.[NEWLINE]Die Eroberung einer Stadt [ICON_Religion] bekehrt die eroberte Stadt zu Eurer Religion.[NEWLINE]Militärische und religiöse Einheiten erhalten +100% [ICON_Strength] Flankierungs- und Nachbarschaftsbonusse.[NEWLINE]Kampfsiege gewähren einen [ICON_Faith] Glaubensschub, der 50% der Kampfstärke der besiegten Einheit entspricht.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SALADIN_ABILITY_FAITH_FROM_KILLS_DESCRIPTION" Language="de_DE">
+			<Text>Saladins (Sultan) Kampfsiege gewähren einen [ICON_Faith] Glaubensschub, der 50% der Kampfstärke der besiegten Einheit entspricht.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SALADIN_CONQUEST_CONVERT_CITY_ABILITY_DESCRIPTION" Language="de_DE">
+			<Text>Saladins (Sultan) Einheiten bekehren eroberte Städte zu seiner Religion.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_SALADIN_FLANKING_UNITS_DESCRIPTION" Language="de_DE">
+			<Text>+100% Flankierungs- und Nachbarschaftsbonusse.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_SULTAN_NAME" Language="de_DE">
+			<Text>Vertrag von Jaffa</Text>
+		</Replace>
+--=============================================================================================================
+-- TOKUGAWA
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_TOKUGAWA_XP_DESCRIPTION" Language="de_DE">
+			<Text>Inländische Handelswege erhalten +2 [ICON_Gold] Gold, +1 [ICON_Culture] Kultur und +1 [ICON_Science] Wissenschaft für jeden Spezialbezirk in der Zielstadt, allerdings erhalten internationale Handelswege -25% auf alle Erträge und Tourismus.[NEWLINE]Die Hauptstadt und alle Städte innerhalb von 9 Feldern erhalten +2 [ICON_Amenities] Annehmlichkeiten und +2 [ICON_Housing] Wohnraum. Nach Erforschung der Luftfahrt generieren alle Bezirke in diesen Städten +1 [ICON_Tourism] Tourismus.</Text>
+		</Replace>
+<Replace Tag="LOC_LEADER_TOKUGAWA_NAME" Language="de_DE">
+			<Text>Tokugawa Ieyasu</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_SAKOKU_NAME" Language="de_DE">
+			<Text>Daihachi-Vorfall</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="de_DE">
+			<Text>Heurekas gewähren die gesamte [ICON_Science] Wissenschaft, die für die jeweilige Technologie notwendig ist.[NEWLINE]Städte generieren -50% [ICON_Science] Wissenschaft.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_HAMMURABI_XP1_DESCRIPTION" Language="de_DE">
+			<Text>Jeder erste Spezialbezirk eines Typs erhält bei Fertigstellung dessen günstigstes Gebäude kostenlos.[NEWLINE]Jeder erste andere Bezirk eines Typs gewährt bei Fertigstellung +1 [ICON_Envoy] Gesandten.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_PALGUM_DESCRIPTION" Language="de_DE">
+			<Text>Babylons einzigartiges Gebäude, das die Wassermühle ersetzt und mit der Bewässerung freigeschaltet wird.[NEWLINE]+2 [ICON_PRODUCTION] Produktion und +1 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_Food] Nahrung auf allen Geländefeldern dieser Stadt, die an Süßwasser angrenzen.[NEWLINE]Gewährt keinen der Bonusse, die die Wassermühle gibt, das Stadtzentrum muss aber weiterhin an einen Fluss angrenzen.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_BABYLONIAN_SABUM_KIBITTUM_DESCRIPTION" Language="de_DE">
+			<Text>Babylons einzigartige Einheit der Antike, die den Krieger ersetzt.[NEWLINE]Schwächer als der Krieger, aber besitzt zusätzliche [ICON_Movement] Bewegung und Sicht.[NEWLINE]+17 [ICON_Strength] Kampfstärke gegen Kavallerieeinheiten.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltene [ICON_GreatProphet] Große-Prophet-Punkte werden verdoppelt.[NEWLINE]Das Besiegen ein gegnerischen Einheit [ICON_Religion] verbreitet Eure Religion in nahegelegene Städten.[NEWLINE]Einheiten erhalten +3 [ICON_Strength] Kampfstärke und +3 [ICON_Strength] religiöse Stärke für jede Heilige Stadt, die Eurer Religion folgt.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_BASIL_DESCRIPTION" Language="de_DE">
+			<Text>Schwere und leichte Kavallerieeinheiten verursachen immer vollen Schaden an Städten, die Eurer Religion folgen.[NEWLINE]Erhaltet Zugriff auf die einzigartige Einheit Tagma nach Freischaltung der Ausrichtung Göttliches Recht.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_ENABLE_WALL_ATTACK_SAME_RELIGION_DESCRIPTION" Language="de_DE">
+			<Text>Basilius' Kavallerieeinheiten ignorieren Mauern beim Angriff auf Städte, die seiner Religion folgen.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_BYZANTINE_TAGMA_DESCRIPTION" Language="de_DE">
+			<Text>Basilius' einzigartige Einheit des Mittelalters, die den Ritter ersetzt und mit der Ausrichtung Göttliches Recht freigeschaltet wird.[NEWLINE]Angrenzende Einheiten erhalten +4 [ICON_Strength] Kampfstärke und +4 [ICON_Strength] religiöse Stärke.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Byzanz' einzigartiger Bezirk, der den Unterhaltungskomplex ersetzt.[NEWLINE]Zählt nicht als Spezialbezirk und ignoriert daher Bevölkerungsanforderungen.[NEWLINE]Zusätzlich +2 [ICON_Amenities] Annehmlichkeiten und +1 [ICON_GreatGeneral] Großer-General-Punkt pro Runde.[NEWLINE]Gewährt bei Fertigstellung und bei Fertigstellung von dessen Gebäuden eine kostenlose schwere Kavallerieeinheit in dieser Stadt. Die gewährte Einheit ignoriert Anforderungen strategischer Ressourcen.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_BYZANTINE_DROMON_DESCRIPTION" Language="de_DE">
+			<Text>Byzanz' einzigartige Marineeinheit der Klassik, die die Quadrireme ersetzt.[NEWLINE]Besitzt eine höhere [ICON_Range] Reichweite und erhält +10 [ICON_Strength] Kampfstärke gegen Einheiten.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_NAME" Language="de_DE">
+			<Text>Salomonische Dynastie</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_DESCRIPTION" Language="de_DE">
+			<Text>Modernisierte Ressourcen gewähren +1 [ICON_Faith] Glauben für jede Kopie der Ressource in dieser Stadt.[NEWLINE]Internationale Handelswege, die durch Eure Städte verlaufen, gewähren +1 [ICON_Gold] Gold und +1 [ICON_Faith] Glauben.[NEWLINE]Erlaubt den Erwerb von Regierungsplatz-, Diplomatenviertel- und Theaterplatzgebäuden mit [ICON_Faith] Glauben.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MENELIK_DESCRIPTION" Language="de_DE">
+			<Text>Städte, die auf Hügeln gegründet wurden, generieren [ICON_SCIENCE] Wissenschaft und [ICON_CULTURE] Kultur in Höhe von 15% der Glaubensgeneration der Stadt.[NEWLINE]Militäreinheiten erhalten +4 [ICON_STRENGTH] Kampfstärke bei Kampf auf Hügeln.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Äthiopiens einzigartige Modernisierung, die mit der Ausrichtung Mystik freigeschaltet wird.[NEWLINE]+1 [ICON_Faith] Glauben und +1 [ICON_Production] Produktion.[NEWLINE]+1 [ICON_Faith] Glauben für jedes angrenzende Hügel- oder Bergfeld.[NEWLINE]+1 [ICON_Food] Nahrung für jede angrenzende Bonusressource.[NEWLINE]+1 [ICON_Production] Produktion für jede angrenzende strategische Ressource.[NEWLINE]+1 [ICON_Gold] für jede angrenzende Luxusressource.[NEWLINE]Gewährt angrenzenden Geländefeldern +1 Anziehungskraft.[NEWLINE]Gewährt [ICON_Tourism] Tourismus entsprechend der Glaubenserzeugung nach Erforschung der Luftfahrt.[NEWLINE]Kann nur von Naturkatastrophen geplündert (niemals zerstört) werden.[NEWLINE] Muss auf Hügeln oder Vulkanerde gebaut werden. Kann nicht angrenzend an eine andere Felskirche gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_ETHIOPIAN_OROMO_CAVALRY_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Äthiopiens einzigartige Einheit des Mittelalters, die den Renner ersetzt.[NEWLINE][ICON_Strength] Stärker und weitere Sicht als der Renner.[NEWLINE]Keine [ICON_Movement] Bewegungseinschränkung durch Hügel.</Text>
+		</Replace>
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GAUL_NAME" Language="de_DE">
+			<Text>Meister der Metallurgie</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GAUL_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt das Spiel mit bereits erforschtem Berbau.[NEWLINE]+1 [ICON_Culture] Kultur von Ressourcen, die mit einer Mine modernisiert wurden.[NEWLINE]Spezialbezirke erhalten +1 Nachbarschaftsbonus von Minen.[NEWLINE]Die Fertigstellung einer Mine löst einen Kulturschock aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_AMBIORIX_NAME" Language="de_DE">
+			<Text>Gallischer Krieg</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION" Language="de_DE">
+			<Text>Jede produzierte Militäreinheit gewährt bei Fertigstellung einen [ICON_Culture] Kulturschub in Höhe von 15% der Produktionskosten.[NEWLINE]Nahkampf-, Anti-Kavallerie- und Fernkampfeinheiten erhalten +2 [ICON_Strength] Kampfstärke für jede angrenzende Militäreinheit.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_GALLIC_WARS_EXTRA_MOVEMENT_NAME" Language="de_DE">
+			<Text>Ausmanövrieren</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_GALLIC_WARS_EXTRA_MOVEMENT_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Movement] Bewegung auf Gallischem Territorium.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_NAME" Language="de_DE">
+			<Text>Schlachtenwut</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS_DESCRIPTION" Language="de_DE">
+			<Text>Erhält +2 [ICON_Strength] Kampfstärke für jede angrenzende Militäreinheit.</Text>
+		</Replace>
+<Replace Tag="LOC_COMBAT_PREVIEW_NEIGHBOR_COMBAT_BONUS_DESC" Language="de_DE">
+			<Text>+{1_Amount} Kampfstärke durch Ambiorix' Schlachtenwut.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION" Language="de_DE">
+			<Text>Galliens einzigartiger Spezialdistrikt, der das Industriegebiet ersetzt und mit der Eisenverarbeitung freigeschaltet wird.[NEWLINE]+2 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_Production] Produktion für jede angrenzende Ressource.[NEWLINE]+1 [ICON_Food] Nahrung für jeden angrenzenden Bauernhof, Weide oder Jagdlager.[NEWLINE]Kann sich mit einem [ICON_Range] Fernkampfangriff verteidigen.[NEWLINE]Die erste Fertigstellung eines Oppidum gewährt die Technologie Ausbildung.[NEWLINE]Kann nicht angrenzend an ein Stadtzentrum gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION_ADJACENCY" Language="de_DE">
+			<Text>+1 [ICON_Food] Nahrung für jeden angrenzenden Bauernhof, Weide oder Jagdlager. +1 [ICON_Production] Produktion für jede angrenzende Ressource.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_OPPIDUM_FARM_FOOD" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung von angrenzenden Bauernhöfen.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_OPPIDUM_PASTURE_FOOD" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung von angrenzenden Weiden.</Text>
+		</Replace>
+<Replace Tag="P0K_LOC_OPPIDUM_CAMP_FOOD" Language="de_DE">
+			<Text>+{1_num} [ICON_Food] Nahrung von angrenzenden Jagdlagern.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_GAUL_GAESATAE_DESCRIPTION" Language="de_DE">
+			<Text>Galliens einzigartige Einheit der Antike, die den Krieger ersetzt.[NEWLINE]Erhält +10 [ICON_Strength] Kampfstärke gegen Einheiten mit einer höheren Grund-Kampfstärke und +5 [ICON_Strength] Kampfstärke beim Angriff auf Bezirke.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_GAESATAE_DESCRIPTION" Language="de_DE">
+			<Text>Erhält +10 [ICON_Strength] Kampfstärke gegen Einheiten mit einer höheren Grund-Kampfstärke und +5 [ICON_Strength] Kampfstärke beim Angriff auf Bezirke.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_GAESATAE_COMBAT_DISTRICTS_DESCRIPTION" Language="de_DE">
+			<Text>+{1_Amount} Kampfstärke beim Angriff auf Bezirke.</Text>
+		</Replace>
+
+-- Gran Colombia
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_NAME" Language="de_DE">
+			<Text>Kongress von Cúcuta</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="de_DE">
+			<Text>+20% [ICON_Production] Produktion für Bezirke und Gebäude während eines Goldenen Zeitalters.[NEWLINE]Der Loyalitätsdruck Eurer Bevölkerung ist immer so hoch wie in einem Goldenen Zeitalter, unabhängig vom erreichten Zeitalter.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_NAME" Language="de_DE">
+			<Text>Ejército Patriota</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_CAMPANA_ADMIRABLE_DESCRIPTION_XP1" Language="de_DE">
+			<Text>Das [ICON_Promotion] Befördern einer Einheit beendet nicht dessen Zug.[NEWLINE]Das Betreten jedes neuen Zeitalters gewährt eine einzigartige Große Persönlichkeit, den [ICON_GreatGeneral] Libertador.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_COMANDANTE_GENERAL_NAME" Language="de_DE">
+			<Text>Libertador</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_COMANDANTE_GENERAL_DESCRIPTION" Language="de_DE">
+			<Text>Simón Bolívars einzigartige [ICON_GreatGeneral] Große Persönlichkeit. Libertadores besitzen ähnlich wie Große Generäle spezielle Fähigkeiten, dazu gehören ein passiver Effekt und ein aktiver Effekt, der Acto Patriótico.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_1_NAME" Language="de_DE">
+			<Text>Martín Miguel de Güemes</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_2_NAME" Language="de_DE">
+			<Text>José Gervasio Artigas</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_3_NAME" Language="de_DE">
+			<Text>José de Fábrega</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_4_NAME" Language="de_DE">
+			<Text>Manuel Belgrano</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_5_NAME" Language="de_DE">
+			<Text>Benoît Chassériau</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_6_NAME" Language="de_DE">
+			<Text>Bernardo O'Higgins</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_7_NAME" Language="de_DE">
+			<Text>Juan Gregorio de las Heras</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_8_NAME" Language="de_DE">
+			<Text>Ramón Castilla</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_GREAT_PERSON_INDIVIDUAL_LIBERTADOR_9_NAME" Language="de_DE">
+			<Text>José de San Martin</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_MOVEMENT_NAME" Language="de_DE">
+			<Text>Libertador-Logistik</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_MOVEMENT_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Movement] Bewegung vom Libertador.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_STRENGTH_NAME" Language="de_DE">
+			<Text>Libertador-Führung</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_COMANDANTE_AOE_STRENGTH_DESCRIPTION" Language="de_DE">
+			<Text>+5 [ICON_Strength] Kampfstärke vom Libertador.</Text>
+		</Replace>
+<Replace Tag="LOC_GREAT_PERSON_COMMANDANTE_GOVERNOR_TITLE" Language="de_DE">
+			<Text>Gewährt einen [ICON_Governor] Gouverneurtitel.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_ACTION_NAME" Language="de_DE">
+			<Text>Acto Patriótico</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_RANDOM_TECH" Language="de_DE">
+			<Text>Gewährt eine zufällige [ICON_Science] Technologie.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_RANDOM_CIVIC" Language="de_DE">
+			<Text>Gewährt eine zufällige [ICON_Culture] Ausrichtung.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_FREE_ENVOYS" Language="de_DE">
+			<Text>Gewährt 3 [ICON_Envoy] Gesandte.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_WILDCARD_SLOT" Language="de_DE">
+			<Text>Gewährt einen [ICON_Government] Joker-Politikplatz.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_SPY_CAPACITY" Language="de_DE">
+			<Text>Gewährt +1 Spionkapazität und einen Spion in der nächstgelegenen Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_FREE_BUILDERS" Language="de_DE">
+			<Text>Gewährt zwei Handwerker in der nächstgelegenen Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_LIBERTADOR_FREE_SETTLER" Language="de_DE">
+			<Text>Gewährt einen Siedler in der nächstgelegenen Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_HACIENDA_NAME" Language="de_DE">
+			<Text>Finca</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="de_DE">
+			<Text>Großkolumbiens einzigartige Modernisierung, die mit der Ausrichtung Gilden freigeschaltet wird.[NEWLINE]+2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Produktion und +1 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_Food] Nahrung für jede zweite angrenzende Plantage.[NEWLINE]Plantagen und Fincas erhalten +1 [ICON_Production] Produktion für jedes zweite angrenzende Finca. Stattdessen +1 [ICON_FOOD] für jede angrenzende Plantage nach der Erforschung der Dampfmaschine und +1 [ICON_Production] Produktion für jedes angrenzende Finca für Plantagen und Fincas mit der Ausrichtung Öffentlicher Dienst.[NEWLINE]Kann nur auf Ebenen und Grasland gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION" Language="de_DE">
+			<Text>Großkulumbiens einzigartige Einheit des Industriezeitalters, die die Kavallerie ersetzt.[NEWLINE]Niedriger [ICON_Gold] Unterhalt.[NEWLINE]Erhält +2 [ICON_Strength] Kampfstärke für jeden angrenzenden Llanero.[NEWLINE]Wird durch den Acto Patriótico eines Libertador vollständig geheilt, falls er sich in der Reichweite befindet.</Text>
+		</Replace>
+
+-- KANADA
+
+<Replace Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_NAME" Language="de_DE">
+			<Text>Letzter bester Westen</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_DESCRIPTION" Language="de_DE">
+			<Text>Der Erwerb von Geländefeldern kostet 50% weniger [ICON_Gold] Gold.[NEWLINE]Tundra- und Schneefelder gewähren +1 [ICON_Food] Nahrung, +1 [ICON_Production] Produktion, und +1 [ICON_Gold] Gold.[NEWLINE]+25% [ICON_Production] Produktion für Industriegebiete und deren Gebäude.[NEWLINE]Die Fertigstellung eines Industriegebietes löst einen Kulturschock aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_NAME" Language="de_DE">
+			<Text>Vier Gesichter des Friedens</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION" Language="de_DE">
+			<Text>Ihr könnt nicht das Ziel eines Überraschungskrieges werden, welche erklären oder Stadtstaaten den Krieg erklären.[NEWLINE]Erhaltet einen zusätzlichen [ICON_Government] Diplomatie-Politikplatz nach Freischalten der Ausrichtung Politische Philosophie.[NEWLINE]+1 [ICON_FAVOR] Diplomatische Gunst pro Runde für jeden Diplomatie-Politikplatz in der Regierung.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION" Language="de_DE">
+			<Text>Kanadas einzigartige Modernisierung, die mit der Ausrichtung Kolonialismus freigeschaltet wird.[NEWLINE]+1 [ICON_AMENITIES] Annehmlichkeit, +1 [ICON_Housing] Wohnraum, +1 [ICON_Food] Nahrung, +1 [ICON_Production] Produktion und +1 [ICON_Gold] Gold.[NEWLINE]+1 [ICON_CULTURE] Kultur für jedes angrenzende Tundra- oder Schneefeld.[NEWLINE]+4 [ICON_CULTURE] Kultur, wenn angrenzend an ein Stadion.[NEWLINE]Gewährt angrenzenden Geländefeldern +2 Anziehungskraft.[NEWLINE]Zusätzlich +2 [ICON_Food] Nahrung, +2 [ICON_Production] Produktion und +2 [ICON_Gold] Gold mit der Ausrichtung Profisport und [ICON_TOURISM] Tourismus entsprechend der Kulturerzeugung nach Erforschung der Luftfahrt.[NEWLINE]Kann nur auf Tundra- und Schneefeldern gebaut werden. Es kann nur eine Eissporthalle pro Stadt gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_CANADA_MOUNTIE_DESCRIPTION" Language="de_DE">
+			<Text>Kanadas einzigartige Einheit des Industriezeitalters, die die Kavallerie ersetzt und mit der Ausrichtung Nationalismus freigeschaltet wird.[NEWLINE]Besitzt 2 [ICON_Charges] Aufladungen für Nationalparks.[NEWLINE]Erhält +5 [ICON_Strength] Kampfstärke bei Kampf auf bis zu 2 Geländefeldern Entfernung zu einem Nationalpark. Zusätzlich +5 [ICON_Strength] Kampfstärke, wenn der Nationalpark Kanada gehört.</Text>
+		</Replace>
+--=============================================================================================================
+-- KUBLAI KHAN (DONE!!!)
+--=============================================================================================================
+--<Replace Tag="LOC_LEADER_KUBLAI_KHAN_C_NAME" Language="de_DE">
+--			<Text>Kublai Khan</Text>
+--		</Replace>
+--<Replace Tag="LOC_LEADER_KUBLAI_KHAN_NAME" Language="de_DE">
+--			<Text>Kublai Khan</Text>
+--		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KUBLAI_NAME" Language="de_DE">
+			<Text>Karawanen der Seidenstraße</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KUBLAI_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet einen zusätzlichen [ICON_Government] Wirtschafts-Politikplatz.[NEWLINE]Die Etablierung des ersten Handelspostens in jeder anderen Zivilisation gewährt ein zufälliges [ICON_TechBoosted] Heureka und eine zufällige [ICON_CivicBoosted] Inspiration.</Text>
+		</Replace>
+--=============================================================================================================
+-- MAYA (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_NAME" Language="de_DE">
+			<Text>Segen von Itzamna</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt das Spiel mit bereits erforschter Keramik.[NEWLINE]Kein zusätzlicher Wohnraum für das Siedeln an Süßwasser oder Küste. Erhaltet stattdessen zusätzlich +1 [ICON_Housing] Wohnraum und +1 [ICON_Gold] Gold von Bauernhöfen, und +1 [ICON_Housing] Wohnraum und +1 [ICON_Production] Produktion von Plantagen.[NEWLINE]+1 [ICON_Amenities] Annehmlichkeit von jeder modernisierten Bonusressource.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="de_DE">
+			<Text>Die Hauptstadt und alle Städte innerhalb von 9 Geländerfeldern um diese generieren +10% [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Faith] Glauben, [ICON_Food] Nahrung, [ICON_Production] Produktion und [ICON_Gold] Gold. Alle Städte außerhalb dieser Reichweite generieren -15% dieser Erträge. Militäreinheiten innerhalb dieser Reichweite erhalten +5 [ICON_Strength] Kampfstärke.[NEWLINE]Neu gegründete Städte beginnen mit einem kostenlosen Handwerker.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_OBSERVATORY_DESCRIPTION" Language="de_DE">
+			<Text>Mayareichs einzigartiger Spezialbezirk, der den Campus ersetzt.[NEWLINE]Gebäude in diesem Bezirk können mit [ICON_Faith] Glauben erworben werden.[NEWLINE]+1 [ICON_GreatProphet] Großer-Prophet-Punkt pro Runde.[NEWLINE]+2 [ICON_Science] Nachbarschaftsbonus für jede angrenzende Plantage.[NEWLINE]+1 [ICON_Science] Nachbarschaftsbonus für jeden zweiten Bauernhof oder Bezirk.[NEWLINE]Besitzt die Fähigkeit, das einzigartige Projekt Venusobservationen durchzuführen, das nur einmal durchgeführt werden kann.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_PROJECT_VENUS_OBSERVATIONS_NAME" Language="de_DE">
+			<Text>Venusobservationen</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_PROJECT_VENUS_OBSERVATIONS_SHORT_NAME" Language="de_DE">
+			<Text>Venusobservationen</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_PROJECT_VENUS_OBSERVATIONS_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartiges Projekt der Maya, das nur einmal durchgeführt werden kann.[NEWLINE]Gewährt [ICON_Science] Wissenschaft und [ICON_Faith] Glauben während der Durchführung.[NEWLINE]Gewährt bei Fertigstellung einen [ICON_GreatProphet] Schub von Großer-Prophet-Punkten und 3 zufällige [ICON_TechBoosted] Heurekas.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MAYAN_HULCHE_DESCRIPTION" Language="de_DE">
+			<Text>Mayareichs einzigartige Einheit der Antike, die den Bogenschützen ersetzt.[NEWLINE][ICON_Strength] Stärkerer Fernkampfangriff.[NEWLINE]+5 [ICON_Strength] Kampfstärke gegen verwundete Gegner.</Text>
+		</Replace>
+--=============================================================================================================
+-- PORTUGAL (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_PORTUGAL_NAME" Language="de_DE">
+			<Text>Ultramar Português</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_PORTUGAL_DESCRIPTION" Language="de_DE">
+			<Text>Internationale H	andelswege können nur Küstenstädte und Städte mit Häfen erreichen, erhalten aber +50% [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Gold] Gold, [ICON_Food] Nahrung, [ICON_Production] Produktion und [ICON_Faith] Glauben.[NEWLINE]Händler erhalten +50% Reichweite im Wasser und können ohne Technologievoraussetzungen wassern und Ozeanfelder betreten.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_JOAO_III_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_TradeRoute] Handelswegkapazität beim ersten Treffen mit jeder fremden Zivilisation.[NEWLINE]Gewasserte Einheiten und Marineeinheiten erhalten +1 [ICON_Movement] Bewegung und +1 Sicht.[NEWLINE]Das Freischalten einer neuen Marineeinheitgewährt +1 [ICON_Envoy] Gesandten.[NEWLINE]Erhaltet permanent offene Grenzen mit allen Stadtstaaten.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PORTA_DO_CERCO_EMBARKED_NAME" Language="de_DE">
+			<Text>Porta do Cerco</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PORTA_DO_CERCO_EMBARKED_DESCRIPTION" Language="de_DE">
+			<Text>Johanns gewasserte Einheiten erhalten +1 [ICON_Movement] Bewegung und +1 Sicht.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PORTA_DO_CERCO_NAVAL_NAME" Language="de_DE">
+			<Text>Porta do Cerco</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PORTA_DO_CERCO_NAVAL_DESCRIPTION" Language="de_DE">
+			<Text>Johanns Marineeinheiten erhalten +1 [ICON_Movement] Bewegung und +1 Sicht.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION" Language="de_DE">
+			<Text>Portugals einzigartiges Gebäude, das die Universität ersetzt.[NEWLINE]Zusätzlich +1 [ICON_Science] Wissenschaft für jedes zweite Küsten-, Ozean- und Seegeländefeld in dieser Stadt.[NEWLINE]+25% [ICON_Production] Produktion für Marineeinheiten in dieser Stadt.[NEWLINE]+1 [ICON_GreatAdmiral] Großer-Admiral-Punkt pro Runde.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION" Language="de_DE">
+			<Text>Portugals einzigartige Modernisierung, die mit der Kartografie freigeschaltet wird und nur von Naos gebaut werden kann.[NEWLINE]+4 [ICON_Gold] Gold, +1 [ICON_Production] Produktion, +1 [ICON_Food] Nahrung und +0.5 [ICON_Housing] Wohnraum.[NEWLINE]Portugiesische Handelswege in diese Stadt erhalten +4 [ICON_GOLD] Gold und +1 [ICON_PRODUCTION] Produktion.[NEWLINE]Kann nur angrenzend an Luxus- oder Bonusressourcen auf fremdem Territorium gebaut werden. Muss auf Küsten- oder Seefeldern gebaut werden, die an Land angrenzen. Kann nicht angrenzend an ein anderes Feitoria gebaut werden und kann nicht entfernt werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION" Language="de_DE">
+			<Text>Portugals einzigartige Marineeinheit der Renaissance, die die Karavelle ersetzt.[NEWLINE]Startet mit einer kostenlosen [ICON_Promotion] Beförderung und braucht weniger [ICON_Gold] Unterhalt.[NEWLINE]Besitzt +2 [ICON_Charges] Aufladungen, um Feitorias zu bauen.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_NAU_DESCRIPTION" Language="de_DE">
+			<Text>Startet mit einer kostenlosen [ICON_Promotion] Beförderung.</Text>
+		</Replace>
+--=============================================================================================================
+-- VIETNAM (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_VIETNAM_DESCRIPTION" Language="de_DE">
+			<Text>Land-Spezialbezirke können nur auf Wäldern, Regenwäldern oder Sümpfen gebaut werden. Das Bauen dieser entfernt die Geländearten nicht, und diese Geländearten gewähren +0,5 Nachbarschaftsbonus für alle Spezialbezirke. Gebäude auf diesen Geländearten erhalten: +1 [ICON_CULTURE] Kultur von Wäldern, +1 [ICON_SCIENCE] Wissenschaft von Regenwäldern und +1 [ICON_PRODUCTION] Produktion von Sümpfen.[NEWLINE]Wälder können bereits nach Freischaltung der Ausrichtung Mittelaltermärkte gepflanzt werden.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_FOREST_SCIENCE" Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft von angrenzenden Wäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_MARSH_SCIENCE" Language="de_DE">
+			<Text>+{1_num} [ICON_Science] Wissenschaft von angrenzenden Sümpfen.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_FOREST_CULTURE" Language="de_DE">
+			<Text>+{1_num} [ICON_Culture] Kultur von angrenzenden Wäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_RAINFOREST_CULTURE" Language="de_DE">
+			<Text>+{1_num} [ICON_Culture] Kultur von angrenzenden Regenwäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_MARSH_CULTURE" Language="de_DE">
+			<Text>+{1_num} [ICON_Culture] Kultur von angrenzenden Sümpfen.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_RAINFOREST_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben von angrenzenden Regenwäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_MARSH_FAITH" Language="de_DE">
+			<Text>+{1_num} [ICON_Faith] Glauben von angrenzenden Sümpfen.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_FOREST_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion von angrenzenden Wäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_RAINFOREST_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion von angrenzenden Regenwäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_MARSH_PRODUCTION" Language="de_DE">
+			<Text>+{1_num} [ICON_Production] Produktion von angrenzenden Sümpfen.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_FOREST_GOLD" Language="de_DE">
+			<Text>+{1_num} [ICON_Gold] Gold von angrenzenden Wäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_RAINFOREST_GOLD" Language="de_DE">
+			<Text>+{1_num} [ICON_Gold] Gold von angrenzenden Regenwäldern.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_VIETNAM_MARSH_GOLD" Language="de_DE">
+			<Text>+{1_num} [ICON_Gold] Gold von angrenzenden Sümpfen.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_TRIEU_NAME" Language="de_DE">
+			<Text>Aufstand gegen die Wu-Dynastie</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_TRIEU_DESCRIPTION" Language="de_DE">
+			<Text>+5 [ICON_Strength] Kampfstärke für Militäreinheiten bei Kampf auf Wald, Regenwald oder Sümpfen. +1 [ICON_Movement] Bewegung für Militäreinheiten bei Zugbeginn auf diesen Geländearten. Diese Bonusse werden auf vietnamesischen Territorium verdoppelt.[NEWLINE]Der Unterhalt für Militäreinheiten ist um 1 [ICON_Gold] Gold reduziert.[NEWLINE]Die Rekrutierung eines Großen Generals gewährt eine zufällige [ICON_CivicBoosted] Inspiration.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_THANH_DESCRIPTION" Language="de_DE">
+			<Text>Vietnams einzigartiger Bezirk, der das Lager ersetzt.[NEWLINE]Zählt nicht als Spezialbezirk und ignoriert daher Bevölkerungsanforderungen.[NEWLINE]Löst bei Fertigstellung einen Kulturschock aus.[NEWLINE]+1 [ICON_Culture] Kulture und +1 [ICON_Production] Produktion für jeden angrenzenden Bezirk.[NEWLINE]Erzeugt [ICON_Tourism] Tourismus, der der [ICON_Culture] Kulturerzeugung entspricht, nachdem die Luftfahrt erforscht wurde.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_VIETNAMESE_VOI_CHIEN_DESCRIPTION" Language="de_DE">
+			<Text>Vietnams einzigartige Einheit des Mittelalters, die den Armbrustschützen ersetzt.[NEWLINE]Teurer, aber kann sich nach Angriff bewegen, besitzt zusätzliche [ICON_Movement] Bewegung und Sicht und besitzt eine höhere [ICON_Strength] Verteidigung.</Text>
+		</Replace>
+--=============================================================================================================
+-- CREE (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_CREE_TRADE_GAIN_TILES_DESCRIPTION" Language="de_DE">
+			<Text>Die Gründung der Hauptstadt gewährt eine kostenlose Aufklärungseinheit.[NEWLINE]Erhaltet +1 [ICON_TradeRoute] Handelswegkapazität und einen kostenlosen Händler bei Erforschung der Keramik.[NEWLINE]Händler beanspruchen bisher unbeanspruchtes Gebiet innerhalb von 3 Geländefeldern um Eure Städte.</Text>
+		</Replace>
+<Replace Tag="LOC_LEADER_POUNDMAKER_ABILITY_DESCRIPTION" Language="de_DE">
+			<Text>Handelswege erhalten +1 [ICON_Food] Nahrung und +1 [ICON_Production] Produktion für jede Weide und jedes Jagdlager in der Zielstadt.[NEWLINE]Eure Städte erhalten +1 [ICON_Gold] Gold von eingehenden Handelswegen für jede Weide und jedes Jagdlager innerhalb ihrer Grenzen.[NEWLINE]Das Handeln mit Verbündeten generiert doppelt so viele Allianzpunkte.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Modernisierung der Cree, die mit der Keramik freigeschaltet wird.[NEWLINE]+1 [ICON_Food] Nahrung, +1 [ICON_PRODUCTION] Produktion und +1 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_Food] Nahrung für jede zweite angrenzende Bonusressource.[NEWLINE]+1 [ICON_GOLD] für jede angrenzende Luxusressource.[NEWLINE]Stattdessen +1 [ICON_Food] für für jede angrenzende Bonusressource mit der Ausrichtung Naturschutz, zusätzlich +2 [ICON_GOLD] für jede angrenzende Luxusressource nach Erforschung der Kartografie, +1 [ICON_PRODUCTION] Produktion mit der Ausrichtung Öffentlicher Dienst und Tourismus [ICON_TOURISM] entsprechender der Nahrungserzeugung nach Erforschung der Luftfahrt.[NEWLINE]Muss angrenzend an eine Bonus- oder Luxusressource gebaut werden. Kann nicht angrenzend an ein anderes Mekewap gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_CREE_OKIHTCITAW_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Einheit der Cree der Antike, die den Späher ersetzt.[NEWLINE][ICON_Strength] Stärker und beginnt mit einer kostenlosen [ICON_Promotion] Beförderung.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_CREE_OKIHTCITAW_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt mit einer kostenlosen [ICON_Promotion] Beförderung.</Text>
+		</Replace>
+--=============================================================================================================
+-- GEORGIA (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet einen zusätzlichen [ICON_Government] Joker-Politikplatz, wenn Ihr euch in einem Goldenen Zeitalter befindet.[NEWLINE]Kann Dunkle-Zeitalter-Politiken jederzeit einsetzen.[NEWLINE]+50% [ICON_Production] Produktion für Mauern und Lager.[NEWLINE]Kann Lagergebäude mit [ICON_Faith] Glauben erwerben.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet einen zusätzlichen [ICON_Government] Joker-Politikplatz, wenn Ihr euch in einem Goldenen Zeitalter befindet.[NEWLINE]Kann Dunkle-Zeitalter-Politiken jederzeit einsetzen.[NEWLINE]+50% [ICON_Production] Produktion für Mauern und Lager.[NEWLINE]Kann Lagergebäude mit [ICON_Faith] Glauben erwerben.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_DRAMATIC_AGE_QUESTS_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet einen zusätzlichen [ICON_Government] Joker-Politikplatz, wenn Ihr euch in einem Goldenen Zeitalter befindet.[NEWLINE]Kann Dunkle-Zeitalter-Politiken jederzeit einsetzen.[NEWLINE]+50% [ICON_Production] Produktion für Mauern und Lager.[NEWLINE]Kann Lagergebäude mit [ICON_Faith] Glauben erwerben.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_NAME" Language="de_DE">
+			<Text>Epoche des Ruhms</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_DESCRIPTION" Language="de_DE">
+			<Text>Jeder Gesandte, den Ihr in einen Stadtstaat schickt, in dem Eure Religion vorherrscht, zählt als zwei [ICON_Envoy] Gesandte.[NEWLINE]Erhaltet [ICON_GreatPerson] Große-Persönlichkeit-Punkte von Spezialbezirken, die Euren Vasallen-Stadtstaaten gehören.[NEWLINE]Die Produktion von Militäreinheiten gewährt bei Fertigstellung einen [ICON_Faith] Glaubensschub in Höhe von 15% der Produktionskosten der Einheit.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_TSIKHE_DESCRIPTION" Language="de_DE">
+			<Text>Georgiens einzigartiges Gebäude, das die Renaissance-Mauern ersetzt und mit der Ausrichtung Göttliches Recht freigeschaltet wird.[NEWLINE]Niedrigere [ICON_Production] Produktionskosten, höhere [ICON_Strength] Verteidigung und besitzt einen Platz für ein Großes Werk.[NEWLINE]+4 [ICON_Faith] Glauben.[NEWLINE]+3 [ICON_TOURISM] Tourismus nach Freischaltung der Ausrichtung Naturschutz.[NEWLINE][ICON_Tourism] Tourismus und [ICON_Faith] Glauben dieses Gebäudes werden in einem Goldenen Zeitalter verdoppelt.[NEWLINE]Kann mit [ICON_Faith] Glauben erworben werden.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_TSIKHE_DESCRIPTION_XP2" Language="de_DE">
+			<Text>Georgiens einzigartiges Gebäude, das die Renaissance-Mauern ersetzt und mit der Ausrichtung Göttliches Recht freigeschaltet wird.[NEWLINE]Niedrigere [ICON_Production] Produktionskosten, höhere [ICON_Strength] Verteidigung und besitzt einen Platz für ein Großes Werk.[NEWLINE]+4 [ICON_Faith] Glauben.[NEWLINE]+3 [ICON_TOURISM] Tourismus nach Freischaltung der Ausrichtung Naturschutz.[NEWLINE][ICON_Tourism] Tourismus und [ICON_Faith] Glauben dieses Gebäudes werden in einem Goldenen Zeitalter verdoppelt.[NEWLINE]Kann mit [ICON_Faith] Glauben erworben werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_GEORGIAN_KHEVSURETI_DESCRIPTION" Language="de_DE">
+			<Text>Georgiens einzigartige Einheit des Mittelalters, die den Landsknecht ersetzt und mit der Militärtaktik freigeschaltet wird.[NEWLINE]+7 [ICON_Strength] Kampfstärke bei Kampf auf Hügeln.[NEWLINE]Keine [ICON_Movement] Bewegungseinschränkung durch Hügel.[NEWLINE]Kann mit [ICON_Faith] Glauben erworben werden.</Text>
+		</Replace>
+--=============================================================================================================
+-- INDIA (CHANDRAGUPTA) (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_ARTHASHASTRA_DESCRIPTION" Language="de_DE">
+			<Text>Die Produktion von Gebäuden gewährt bei Fertigstellung einen [ICON_Culture] Kulturschub, der 15% der Produktionskosten entspricht.[NEWLINE]Militäreinheiten heilen sich am Ende jedes Zuges außerhalb Eures Territoriums, selbst nach Angriff oder Bewegung.[NEWLINE]Erhaltet Zugriff auf den Casus Belli Expansionskrieg, nachdem die Ausrichtung Militärausbildung freigeschaltet wurde.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_INDIA_ABILITY_ARTHASHASTRA_NAME" Language="de_DE">
+			<Text>Arthashastra</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_INDIA_ABILITY_ARTHASHASTRA_DESCRIPTION" Language="de_DE">
+			<Text>Chandraguptas Militäreinheiten heilen sich am Ende jedes Zuges außerhalb Eures Territoriums, selbst nach Angriff oder Bewegung.</Text>
+		</Replace>
+--=============================================================================================================
+-- KOREA (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION" Language="de_DE">
+			<Text>Minen erhalten +1 [ICON_Science] Wissenschaft für jede angrenzende Seowon und Bauernhöfe erhalten +1 [ICON_Food] Nahrung für jede angrenzende Seowon.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_HWARANG_NAME" Language="de_DE">
+			<Text>Turm des Mondes und der Sterne</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="de_DE">
+			<Text>Governeure gewähren +3% [ICON_Science] Wissenschaft und +3% [ICON_Culture] Kultur für ihre Städte für jeden ihrer Titel.</Text>
+		</Replace>
+<Replace Tag="LOC_AGENDA_CHEOMSEONGDAE_NAME" Language="de_DE">
+			<Text>Schmetterlinge und Bienen</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="de_DE">
+			<Text>Koreas einzigartiger Spezialdistrikt, der den Campus ersetzt.[NEWLINE]+4 [ICON_SCIENCE] Wissenschaft.[NEWLINE]-1 [ICON_Science] Wissenschaft für jeden angrenzenden Bezirk.[NEWLINE]Muss auf Hügeln gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_KOREAN_HWACHA_DESCRIPTION" Language="de_DE">
+			<Text>Koreas einzigartige Einheit der Renaissance, die die Feldkanone ersetzt und mit dem Schießpulver freigeschaltet wird.[NEWLINE][ICON_Ranged] Starker Fernkampfangriff und beginnt mit einer kostenlosen [ICON_Promotion] Beförderung.[NEWLINE]Kann sich nicht im gleichen Zug bewegen und angreifen.</Text>
+		</Replace>
+<Replace Tag="P0K_ABILITY_KOREAN_HWACHA_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt mit einer kostenlosen [ICON_Promotion] Beförderung.</Text>
+		</Replace>
+--=============================================================================================================
+-- MAPUCHE (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MAPUCHE_TOQUI_DESCRIPTION" Language="de_DE">
+			<Text>Städte mit einem Gouverneur erhalten +5% [ICON_CULTURE] Kultur, +5% [ICON_Production] Produktion und +10% Erfahrung für Militäreinheiten, die in dieser Stadt produziert wurden.[NEWLINE]Diese Bonusse werden in eroberten Städten verdoppelt.[NEWLINE]Gouverneure üben 4 Loyalitätsdruck auf alle Städte innerhalb von 9 Geländefeldern aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_LAUTARO_ABILITY_DESCRIPTION_ALT" Language="de_DE">
+			<Text>Militäreinheiten erhalten +10 [ICON_Strength] Kampfstärke gegen freie Städte und gegen Zivilisationen in einem Goldenen Zeitalter.[NEWLINE]Kampfsiege innerhalb einer gegnerischen Stadt lässt die Loyalität der Stadt um 20 sinken. Doppelt so viel Loyalitätsverlust, wenn sich die Zivilisation der Stadt in einem Goldenen Zeitalter befindet.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_CHEMAMULL_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Modernisierung der Mapuche, die mit der Ausrichtung Handwerkskunst freigeschaltet wird.[NEWLINE]+1 [ICON_Faith] Glauben und +1 [ICON_Production] Produktion.[NEWLINE]Erhält[ICON_CULTURE] Kultur, die 75% der Anziehungskraft des Geländefelds entspricht.[NEWLINE]Zusätzlich +1 [ICON_Faith] Glauben mit der Ausrichtung Humanismus und [ICON_TOURISM] Tourismus entsprechend der Kulturerzeugung nach Erforschung der Luftfahrt.[NEWLINE]Kann nur auf Geländefeldern mit atemberaubender Anziehungskraft gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MAPUCHE_MALON_RAIDER_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige leichte Kavallerieeinheit der Mapuche der Renaissance, die mit dem Schießpulver freigeschaltet wird.[NEWLINE]+5 [ICON_Strength] Kampfstärke, wenn innerhalb von 4 Geländefeldern freundlichen Territoriums.[NEWLINE]Plündern kostet nur 1 [ICON_Movement] Bewegung.</Text>
+		</Replace>
+--=============================================================================================================
+-- MONGOLIA (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_NAME" Language="de_DE">
+			<Text>Örtege</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet +1 [ICON_TradeRoute] Handelswegkapazität und einen kostenlosen Händler bei Freischaltung der Ausrichtung Militärausbildung.[NEWLINE]Das Aussenden eines Händlers errichtet sofort einen [ICON_TradingPost] Handelsposten in der Zielstadt.[NEWLINE]Ihr erhaltet +1 [ICON_VisLimited] Diplomatische Sichtbarkeit in Zivilisationen mit einem mongolischen Handelsposten in einer ihrer Städte.[NEWLINE]Eure Militäreinheiten erhalten den doppelten [ICON_Strength] Kampfstärke-Bonus für den Diplomatische-Sicht-Vorteil.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_NAME" Language="de_DE">
+			<Text>Mongolensturm</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt das Spiel mit bereits sichtbaren [ICON_RESOURCE_HORSES] Pferden und [ICON_RESOURCE_IRON] Eisenvorkommen.[NEWLINE]Alle Kavallerieeinheiten erhalten +3 [ICON_Strength] Kampfstärke und haben eine Chance, besiegte Kavallerieeinheiten gefangen zu nehmen.[NEWLINE]Belagerungs- und Unterstützungseinheiten erhalten +2 [ICON_Movement] Bewegung bei Zugbeginn neben einer leichten Kavallerieeinheit oder einer Keshik.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_MONGOLIA_ABILITY_TO_MONGOL_TERROR_NAME" Language="de_DE">
+			<Text>Mongolensturm</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_MONGOLIA_ABILITY_TO_MONGOL_TERROR_DESCRIPTION" Language="de_DE">
+			<Text>Belagerungs- und Unterstützungseinheiten erhalten +2 [ICON_Movement] Bewegung bei Zugbeginn neben einer leichten Kavallerieeinheit oder einer Keshik.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartiges Gebäude der Mongolei, das die Stallungen ersetzt.[NEWLINE]Zusätzlich +1 [ICON_Amenities] Annehmlichkeit und +1 [ICON_Culture] Kultur.[NEWLINE]Keinen [ICON_Gold] Unterhalt.[NEWLINE]Alle Kavallerieeinheiten, die in dieser Stadt ausgebildet wurden, erhalten +1 [ICON_MOVEMENT] Bewegung.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MONGOLIAN_KESHIG_NAME" Language="de_DE">
+			<Text>Keshik</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MONGOLIAN_KESHIG_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Einheit der Mongolei des Mittelalters, die den Armbrustschützen ersetzt und mit dem Steigbügel freigeschaltet wird.[NEWLINE]Fernkampf-Kavallerieeinheit mit 4 [ICON_Movement] Bewegung.[NEWLINE]Zivile Einheiten und Unterstützungseinheiten in Formation mit Keshiks erben deren [ICON_Movement] Bewegung.</Text>
+		</Replace>
+--=============================================================================================================
+-- NETHERLANDS (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_NAME" Language="de_DE">
+			<Text>Niederländische Ostindien-Kompanie</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_GreatMerchant] Großer-Händler-Punkt pro Runde in Städten mit sowohl einem Handelszentrum als auch einem Hafen.[NEWLINE]Die Rekrutierung eines Großen Händlers gewährt eine zufällige [ICON_CivicBoosted] Inspiration.[NEWLINE]Die Fertigstellung eines Hafens löst einen Kulturschock aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_EXPANSION2_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_GreatMerchant] Großer-Händler-Punkt pro Runde in Städten mit sowohl einem Handelszentrum als auch einem Hafen.[NEWLINE]Die Rekrutierung eines Großen Händlers gewährt eine zufällige [ICON_CivicBoosted] Inspiration.[NEWLINE]Die Fertigstellung eines Hafens löst einen Kulturschock aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="de_DE">
+			<Text>Falls der Regierungsplatz nicht in der Hauptstadt gebaut wird, gewährt er dieselben Erträge wie der Palast: +2 [ICON_Amenities] Annehmlichkeiten, +1 [ICON_Housing] Wohnraum, +2 [ICON_Science] Wissenschaft, +1 [ICON_Culture] Kulture, +2 [ICON_Production] Produktion und +5 [ICON_Gold] Gold.[NEWLINE]Handelswege zu Euren Städten gewähren der Ursprungsstadt +2 Loyalität pro Runde.[NEWLINE]+2 [ICON_Gold] Gold und +1 [ICON_Culture] Kultur von Handelswegen zu oder von anderen Zivilisationen.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Modernisierung der Niederlande, die mit der Ausrichtung Gilden freigeschaltet wird.[NEWLINE]+1 [ICON_FOOD] Nahrung, +1 [ICON_Production] Produktion und +0.5 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_FOOD] Nahrung für jedes angrenzende Koog.[NEWLINE]+1 [ICON_Gold] Gold für jede angrenzende Luxusressource.[NEWLINE]Zusätzlich +1 [ICON_Food] Nahrung und +1 [ICON_PRODUCTION] Produktion für jedes angrenzende Koog nach Erforschung der Massenproduktion und +4 [ICON_GOLD] Gold mit der Ausrichtung Bauwesen.[NEWLINE]Muss auf einem Küsten- oder Seefeld angrenzend an mindestens 2 passierbare Landfelder gebaut werden.[NEWLINE]Erhöht die Bewegungskosten des Geländefeldes auf 3.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Marineeinheit der Niederlande der Renaissance, die die Fregatte ersetzt.[NEWLINE]+7 [ICON_Strength] Kampfstärke beim Angriff auf Bezirke.</Text>
+		</Replace>
+--=============================================================================================================
+-- SCOTLAND (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_SCOTTISH_ENLIGHTENMENT_DESCRIPTION" Language="de_DE">
+			<Text>Glückliche Städte erhalten +5% [ICON_SCIENCE] Wissenschaft, +5% [ICON_PRODUCTION] Produktion, +1 [ICON_GreatScientist] Großer-Wissenschaftler-Punkt pro Runde von Campussen und +1 [ICON_GreatEngineer] Großer-Ingenieur-Punkt pro Runde von Industriegebieten.[NEWLINE]Diese Bonusse werden in begeisterten Städten verdoppelt.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_NAME" Language="de_DE">
+			<Text>Last of the Free</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION" Language="de_DE">
+			<Text>Die Produktion einer Militäreinheit gewährt bei Fertigstellung einen [ICON_Science] Wissenschaftsschub in Höhe von 15% der Produktionskosten.[NEWLINE]Militäreinheiten erhalten bei Kampf auf oder angrenzend an schottischem Territorium +25% Kampferfahrung.[NEWLINE]Erhaltet nach Freischaltung der Ausrichtung Verteidigungstaktiken Zugriff auf den Casus Belli Befreiungskrieg.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SCOTLAND_ABILITY_LAST_OF_FREE_NAME" Language="de_DE">
+			<Text>Last of the Free</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SCOTLAND_ABILITY_LAST_OF_FREE_DESCRIPTION" Language="de_DE">
+			<Text>Roberts Militäreinheiten erhalten bei Kampf auf oder angrenzend an schottischem Territorium +25% Kampferfahrung.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION" Language="de_DE">
+			<Text>Schottlands einzigartige Modernisierung, die mit der Ausrichtung Gilden freigeschaltet wird.[NEWLINE]+2 [ICON_AMENITIES] Annehmlichkeiten, +1 [ICON_Housing] Wohnraum, +1 [ICON_Culture] Kultur, +1 [ICON_Production] Produktion und +1 [ICON_GOLD] Gold.[NEWLINE]+1 [ICON_CULTURE] Kultur für jeden angrenzenden Unterhaltungskomplex, Wasserpark, Skiort, oder Seebad.[NEWLINE]Angrenzende Geländefelder erhalten +1 Anziehungskraft.[NEWLINE]Zusätzlich +1 [ICON_Production] Produktion und +1 [ICON_Gold] Gold mit der Ausrichtung Profisport, +1 [ICON_HOUSING] Wohnraum mit der Ausrichtung Globalisierung und [ICON_Tourism] Tourismus entsprechend der Kulturerzeugung nach Erforschung der Luftfahrt.[NEWLINE]Kann nicht auf Wüste gebaut werden und ist begrenzt auf einen pro Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_SCOTTISH_HIGHLANDER_DESCRIPTION" Language="de_DE">
+			<Text>Schottlands einzigartige Einheit des Industriezeitalters, die den Ranger ersetzt.[NEWLINE][ICON_Strength] Stärker.[NEWLINE]+5 [ICON_Strength] Kampfstärke bei Kampf in Wäldern und auf Hügeln.</Text>
+		</Replace>
+--=============================================================================================================
+-- ZULU (DONE!!!)
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_DESCRIPTION" Language="de_DE">
+			<Text>Städte mit einer stationierten Einheit erhalten +3 Loyalität und +1 [ICON_Amenities] Annehmlichkeit. Diese Bonusse werden verdoopelt, falls die Einheit ein Korps oder eine Armee ist.[NEWLINE]Eine Einheit, die eine Stadt erobert, wird automatisch zu einem [ICON_Corps] Korps oder einer [ICON_Army] Armee aufgewertet, wenn die benötigte Ausrichtung freigeschaltet ist.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_AMABUTHO_DESCRIPTION" Language="de_DE">
+			<Text>Kann [ICON_Corps] Korps bereits mit der Ausrichtung Söldner und [ICON_Army] Armeen bereits mit der Ausrichtung Nationalismus bilden.[NEWLINE]Korps und Armeen erhalten +5 [ICON_STRENGTH] Kampfstärke.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_IKANDA_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartiger Spezialbezirk der Zulu, der das Lager ersetzt.[NEWLINE]+1 [ICON_Housing] Wohnraum.[NEWLINE]Gebäude in diesem Bezirk gewähren +2 [ICON_Gold] Gold und +1 [ICON_Science] Wissenschaft.[NEWLINE]Ermöglicht die Produktion von [ICON_Corps] Korps und [ICON_Army] Armeen direkt nach Freischaltung der erforderlichen Ausrichtungen.[NEWLINE]+25% [ICON_Production] Produktion für Korps und Armeen.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_ZULU_IMPI_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Einheit der Zulu des Mittelalters, die den Pikenier ersetzt.[NEWLINE][ICON_Gold]Günstiger, [ICON_Gold] niedrigerer Unterhalt, [ICON_Strength] stärkerer Flankierungsbonus und schnellere Kampferfahrungs-Erzeugung.</Text>
+		</Replace>
+--=============================================================================================================
+-- ELEANOR OF AQUITAINE
+--============================================================================================================= 
+<Replace Tag="LOC_LEADER_ELEANOR_NAME" Language="de_DE">
+			<Text>Eleonore von Aquitanien</Text>
+		</Replace>
+<Replace Tag="LOC_LEADER_ELEANOR_FRANCE_NAME" Language="de_DE">
+			<Text>Eleonore von Aquitanien</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="de_DE">
+			<Text>Eure Großen Werke erzeugen -1 Loyalität in fremden Städten innerhalb von 9 Geländefeldern.[NEWLINE]Fremde Städte, die durch mangelnde Loyalität rebellieren und durch Euch den meisten Loyalitätsdruck erhalten, treten sofort Eurer Zivilisation bei, ohne zu freien Städten zu werden.</Text>
+		</Replace>
+--=============================================================================================================
+-- HUNGARY
+--============================================================================================================= 
+<Replace Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION" Language="de_DE">
+			<Text>+50% [ICON_Production] Produktion für Bezirke und Gebäude, die vom Stadtzentrum aus über einen Fluss gebaut werden.[NEWLINE]Campusse, Theaterplätze, Heilige Stätten und Industriegebiete erhalten +1 Nachbarschaftsbonus von Flüssen.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet +1 der Typenbonusse Eurer Vasallen-Stadtstaaten, die sie für bestimmte Bezirke und Gebäude verleihen.[NEWLINE]Das Ausheben des Militärs eines Stadtstaats gewährt +2 [ICON_Envoy] Gesandte in diesem.[NEWLINE]Ausgehobene Einheiten erhalten +2 [ICON_Movement] Bewegung und +5 [ICON_Strength] Kampfstärke.[NEWLINE][ICON_Gold] Gold- und Ressourcenkosten von Aufwertungen ausgehobener Einheiten sind um 75% reduziert.[NEWLINE]Erhaltet Zugriff auf die einzigartige Einheit Schwarze Armee nach der Erforschung von Burgen.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Science] Science in the [ICON_Capital] Capital and in every Library building (Raven King).</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Science] Wissenschaft in der Hauptstadt und jeder Bibliothek durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Science] Wissenschaft in jeder Universtät und im Konsulat durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Science] Wissenschaft in jedem Forschungslabor und in der Botschaftskanzlei durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Culture] Kultur in der Hauptstadt und jedem Amphitheater durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Culture] Kultur in jedem Kunstmuseum, Archäologischem Museum und im Konsulat durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Culture] Kultur in jedem Sendezentrum und in der Botschaftskanzlei durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Faith] Glauben in der Hauptstadt und jedem Schrein durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Faith] Glauben in jedem Tempel und im Konsulat durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Faith] Glauben in jedem Kultgebäude und in der Botschaftskanzlei durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Production] Einheitenproduktion in der Hauptstadt, jedem Stall und jeder Kaserne durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Production] Einheitenproduktion in jeder Stadt mit einer Waffenkammer oder einem Konsulat durch Matthias Corvinus. Stattdessen +4 [ICON_Production] Einheitenproduktion, wenn beide Gebäude vorhanden sind.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Production] Einheitenproduktion in jeder Stadt mit einer Militärakademie oder einer Botschaftskanzlei durch Matthias Corvinus. Stattdessen +6 [ICON_Production] Einheitenproduktion, wenn beide Gebäude vorhanden sind.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Production] Produktion für Wunder, Bezirke und Gebäude in der Hauptstadt und jeder Stadt mit einer Werkstatt durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Production] Produktion für Wunder, Bezirke und Gebäude in jeder Stadt mit einer Fabrik oder einem Konsulat durch Matthias Corvinus. Stattdessen +4 [ICON_Production] Produktion, wenn beide Gebäude vorhanden sind.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Production] Produktion für Wunder, Bezirke und Gebäude in jeder Stadt mit einem Kraftwerk oder einer Botschaftskanzlei durch Matthias Corvinus. Stattdessen +6 [ICON_Production] Produktion, wenn beide Gebäude vorhanden sind.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Gold] Gold in der Hauptstadt, jedem Markt und jedem Leuchtturm durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Gold] Gold in jeder Bank, jeder Werft und im Konsulat durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_HUNGARY_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS" Language="de_DE">
+			<Text>+1 [ICON_Gold] Gold in jeder Börse, jedem Seehafen und in der Botschaftskanzlei durch Matthias Corvinus.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_HUNGARY_BLACK_ARMY_DESCRIPTION" Language="de_DE">
+			<Text>Matthias Corvinus' einzigartige Einheit des Mittelalters, die den Renner ersetzt.[NEWLINE]+3 [ICON_Strength] Kampfstärke für jede angrenzende ausgehobene Einheit.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" Language="de_DE">
+			<Text>Ungarns einzigartiges Gebäude, das den Zoo ersetzt und mit der Ausrichtung Gilden freigeschaltet wird.[NEWLINE][ICON_Production]Günstiger in der Produktion.[NEWLINE]Zusätzlich +1 [ICON_Culture] Kultur, +1 [ICON_Science] Wissenschaft und +1 [ICON_Housing] Wohnraum.[NEWLINE]Gewährt +3 [ICON_TOURISM] Tourismus und +2 [ICON_AMENITIES] Annehmlichkeiten, wenn ein geothermischer Riss innerhalb der Stadtgrenzen vorhanden ist.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_HUNGARY_HUSZAR_DESCRIPTION" Language="de_DE">
+			<Text>Ungarns einzigartige Einheit des Industriezeitalters, die die Kavallerie ersetzt.[NEWLINE]+3 [ICON_Strength] Kampfstärke für jede aktive Allianz.</Text>
+		</Replace>
+--=============================================================================================================
+-- INCA 
+--============================================================================================================= 
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_DESCRIPTION" Language="de_DE">
+			<Text>Bergfelder können bewirtschaftet werden und besitzen +2 [ICON_Production] Produktion, erhöht auf +3 [ICON_Production] Produktion nach Eintritt des Spiels in das Industriezeitalter. +1 [ICON_Food] Nahrung auf Bergfeldern für jedes angrenzende Terrassenfeld.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_NAME" Language="de_DE">
+			<Text>Weltenveränderer</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet +1 [ICON_TradeRoute] Handelswegkapazität und einen kostenlosen Händler nach der Erforschung des Maschinenbaus.[NEWLINE]Inländische Handelswege erhalten +1 [ICON_Food] Nahrung und +1 [ICON_Production] Produktion für jedes Bergfeld in der Ursprungsstadt.[NEWLINE]Erhaltet Zugriff auf die einzigartige Modernisierung Qhapaq Ñan nach Freischaltung der Ausrichtung Außenhandel.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION" Language="de_DE">
+			<Text>Pachacútecs einzigartige Modernisierung, die mit der Ausrichtung Außenhandel freigschaltet wird.[NEWLINE]+1 [ICON_Gold] Gold.[NEWLINE]Funktioniert als Portal durch einen Berg oder eine Bergkette, das es Einheiten erlaubt, für 2 Bewegung auf der anderen Seite bei einem anderen Qhapaq Ñan zu erscheinen.[NEWLINE]Handelswege, die durch ein Qhapaq Ñan verlaufen, multiplizieren ihr [ICON_Gold] Gold, das sie von Bezirken am Zielort erhalten.[NEWLINE]Kann nur auf einem angrenzenden Bergfeld gebaut werden.[NEWLINE]Kann niemals geplündert oder entfernt werden.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Modernisierung der Inka, die sofort verfügbar ist.[NEWLINE]+1 [ICON_FOOD] Nahrung und +1 [ICON_Housing] Wohnraum.[NEWLINE]+1 [ICON_FOOD] Nahrung für jedes angrenzende Bergfeld.[NEWLINE]+2 [ICON_PRODUCTION] Produktion für jedes angrenzende Aquädukt.[NEWLINE]+1 [ICON_PRODUCTION] Produktion, wenn angrenzend an Süßwasser, aber an kein Aquädukt.[NEWLINE]Zusätzlich +1 [ICON_FOOD] Nahrung für jedes 2. angrenzende Terrassenfeld und +1 [ICON_Production] Produktion mit der Ausrichtung Feudalismus und +1 [ICON_FOOD] Nahrung für jedes angrenzende Terrassenfeld mit der Erforschung der Ersatzteile.[NEWLINE]Kann nur auf Grasland-, Ebenen-, Wüsten-, und Tundrahügeln gebaut werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_INCA_WARAKAQ_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Einheit der Inka, die den Plänkler ersetzt.[NEWLINE][ICON_Strength] Stärker und kann im gleichen Zug zwei Mal angreifen, wenn genug Bewegung verfügbar ist.</Text>
+		</Replace>
+--=============================================================================================================
+-- MALI 
+--============================================================================================================= 
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION" Language="de_DE">
+			<Text>Stadtzentren erhalten +1 [ICON_Faith] Glauben und +1 [ICON_FOOD] Nahrung für jedes angrenzende Wüsten- und Wüstenhügelfeld.[NEWLINE]Minen gewähren -1 [ICON_PRODUCTION] Produktion und +4 [ICON_GOLD] Gold.[NEWLINE]-30% [ICON_PRODUCTION] Produktion für Gebäude und Einheiten.[NEWLINE]Kann Gebäude des Handelszentrums mit [ICON_Faith] Glauben erwerben.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION" Language="de_DE">
+			<Text>Internationale Handelswege gewähren +1 [ICON_GOLD] Gold für jedes Wüsten- und Wüstenhügelfeld in der Ursprungsstadt.[NEWLINE]Das Betreten eines Goldenen Zeitalters gewährt +1 [ICON_TradeRoute] Handelswegkapazität.</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION" Language="de_DE">
+			<Text>Malis einzigartiger Spezialbezirk, der das Handelszentrum ersetzt.[NEWLINE]Einheiten, Gebäude und Bezirke sind 20% [ICON_GOLD] Gold oder [ICON_FAITH] Glauben billiger in dieser Stadt.[NEWLINE]+2 [ICON_Gold] Nachbarschaftsbonus für jede angrenzende Heilige Stätte.[NEWLINE]Kein Nachbarschaftsbonus für Häfen.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MALI_MANDEKALU_CAVALRY_DESCRIPTION" Language="de_DE">
+			<Text>Malis einzigartige Einheit des Mittelalters, die den Ritter ersetzt.[NEWLINE]Günstiger zu [ICON_Production] produzieren und niedrigerer [ICON_Gold] Unterhalt.[NEWLINE]Händler an Land im Umkreis von 4 Geländefeldern sind immun gegen Plünderungen.[NEWLINE]Gewährt [ICON_Gold] Gold beim Kampfsieg in Höhe von 50% der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_MANDEKALU_DESCRIPTION" Language="de_DE">
+			<Text>Beschützt Händler an Land innerhalb von 4 Geländefeldern vor Plünderungen.[NEWLINE]Gewährt [ICON_Gold] Gold beim Kampfsieg in Höhe von 50% der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+--=============================================================================================================
+-- MAORI 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MAORI_MANA_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt das Spiel mit bereits erforschtem Segeln und Schiffsbau. Einheiten können sofort Ozeanfelder betreten. Gewasserte Einheiten erhalten +2 [ICON_Movement] Bewegung.[NEWLINE]Wälder, Regenwälder und Riffe gewähren +1 [ICON_PRODUCTION] Produktion, die erhöht wird, sobald die Ausrichtungen Merkantilismus und Naturschutz freigeschaltet werden.[NEWLINE]Fischerboote gewähren +1 [ICON_FOOD] Nahrung und lösen bei Fertigstellung einen Kulturschock aus.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KUPES_VOYAGE_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt das Spiel auf dem Ozean.[NEWLINE]Erhaltet +2 [ICON_SCIENCE] Wissenschaft, +2 [ICON_CULTURE] Kultur, +2 [ICON_Gold] Gold und +2 [ICON_Faith] Glauben pro Zug, bevor die Hauptstadt gegründet wird.[NEWLINE]Erhaltet +1 [ICON_Citizen] Bevölkerung und einen kostenlosen Handwerker bei Gründung der Hauptstadt. Der Palast gewährt +3 [ICON_HOUSING] Wohnraum und +1 [ICON_AMENITIES] Annehmlichkeit.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_MARAE_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartiges Gebäude der Māori, das das Amphitheater ersetzt.[NEWLINE]+1 [ICON_CULTURE] Kultur und +1 [ICON_FAITH] Glauben auf allen Geländefeldern in dieser Stadt mit einem Naturwunder oder einer passierbaren Geländeart. Gewährt diesen Geländefeldern außerdem +1 [ICON_TOURISM] Tourismus nach Erforschung der Luftfahrt.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_MAORI_TOA_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Einheit der Māori der Klassik, die den Schwertkämpfer ersetzt und mit dem Bauwesen freigeschaltet wird.[NEWLINE]Angrenzende feindliche Einheiten erhalten -5 [ICON_STRENGTH] Kampfstärke.[NEWLINE]Kann die einzigartige Modernisierung Pā bauen.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_MAORI_PA_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Modernisierung der Māori, die nur von Toa gebaut werden kann.[NEWLINE]Gewährt +4 [ICON_Strength] Kampfstärke für die besetzende Einheit und sie erhält automatisch zwei Runden lang Befestigung.[NEWLINE]Einheiten der Māori, die ein Pā besetzen, heilen auch nach Bewegung oder Angriff.[NEWLINE]Muss auf Hügeln gebaut werden.</Text>
+		</Replace>
+--=============================================================================================================
+-- OTTOMANS 
+--=============================================================================================================	
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME" Language="de_DE">
+			<Text>Gottes Schatten</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_DESCRIPTION" Language="de_DE">
+			<Text>+50% [ICON_Production] Produktion für Belagerungseinheiten. Belagerungseinheiten erhalten +5 [ICON_Strength] Kampfstärke beim Angriff auf Bezirke.[NEWLINE]Eroberte Städte verlieren keine [ICON_Citizen] Bevölkerung.[NEWLINE]Städte, die nicht von Euch gegründet wurden, erhalten +4 Loyalität und +1 [ICON_AMENITIES] Annehmlichkeit.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION" Language="de_DE">
+			<Text>Beginnt das Spiel mit einem [ICON_Governor] Gouverneurtitel und erhaltet einen weiteren [ICON_Governor] Gouverneurtitel bei Erforschung des Schießpulvers.[NEWLINE]Erhaltet Zugriff auf den einzigartigen Gouverneur Ibrahim und auf die einzigartige Marineeinheit Berber-Korsar.</Text>
+		</Replace>
+<Replace Tag="LOC_GOVERNOR_IBRAHIM_DESCRIPTION" Language="de_DE">
+			<Text>Süleymans (Kanuni) Wesir {LOC_GOVERNOR_IBRAHIM_NAME} ist ein militär- und diplomatiefokussierter Gouverneur. Er kann der Hauptstadt einer anderen Zivilisation zugewiesen werden, wenn Ihr Euch nicht mit ihr im Krieg befindet.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_DESCRIPTION" Language="de_DE">
+			<Text>Süleymans (Kanuni) einzigartige Marineeinheit des Mittelalters, die den Freibeuter ersetzt und mit der Ausrichtung Mittelaltermärkte freigeschaltet wird.[NEWLINE]Keine [ICON_Movement] Bewegungskosten für Küstenraub.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartiges Gebäude der Osmanen, das die Bank ersetzt.[NEWLINE]+1 [ICON_AMENITIES] Annehmlichkeit für jede modernisierte Luxusressource dieser Stadt.[NEWLINE]+1 Erzeugung strategischer Ressourcen für jede modernisierte strategische Ressource dieser Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_SULEIMAN_JANISSARY_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige Einheit der Renaissance der Osmanen, die das Musketier ersetzt.[NEWLINE][ICON_Strength] Stärker und [ICON_Production] deutlich günstiger.[NEWLINE]Startet mit einer kostenlosen [ICON_Promotion] Beförderung.[NEWLINE]Städte benötigen mindestens 2 Bevölkerung, um einen Janitschar zu produzieren.[NEWLINE]Städte, die von Euch gegründet wurden, verlieren 1 Bevölkerung bei der Ausbildung des Janitschars.</Text>
+		</Replace>
+--=============================================================================================================
+-- PHOENICIA
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_NAME" Language="de_DE">
+			<Text>Phönizische Schrift</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet +1 [ICON_TradeRoute] Handelswegkapazität und einen kostenlosen Händler bei Erforschung der Schrift.[NEWLINE]Handelswege gewähren +1 [ICON_Science] Wissenschaft und +1 [ICON_Gold] Gold für jede 5 Geländefelder, die der Händler zurücklegt.[NEWLINE]Händler generieren +1 [ICON_GreatMerchant] Großer-Händler-Punkt pro Zug, wenn sie sich auf Wasser bewegen, das nicht Eurem Territorium angehört.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PHOENICIAN_ALPHABET_NAME" Language="de_DE">
+			<Text>Phönizische Schrift</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_ABILITY_PHOENICIAN_ALPHABET_DESCRIPTION" Language="de_DE">
+			<Text>Gewährt +1 [ICON_GreatMerchant] Großer-Händler-Punkt pro Zug bei Bewegung auf Wasser, das nicht Eurem Territorium angehört.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet Zugriff auf ein einzigartiges Projekt, das es Euch erlaubt, die [ICON_Capital] Hauptstadt zu verlegen.[NEWLINE]+50% [ICON_Production] Produktion für Gebäude in der Hauptstadt.[NEWLINE]Von Euch gegründete Küstenstädte sind immer 100% loyal, wenn sie sich auf dem gleichen Kontinent wie Eure Hauptstadt befinden.[NEWLINE]Siedler und Handwerker ignorieren [ICON_Movement] Bewegungskosten für das Wassern und an Land Gehen und erhalten +2 [ICON_Movement] Bewegung und +2 Sicht, während sie gewassert sind.</Text>
+		</Replace>
+<Replace Tag="LOC_PROJECT_COTHON_CAPITAL_MOVE_NAME" Language="de_DE">
+			<Text>Verlegt die [ICON_Capital] Hauptstadt</Text>
+		</Replace>
+<Replace Tag="LOC_DISTRICT_COTHON_DESCRIPTION" Language="de_DE">
+			<Text>Phöniziens einzigartiger Spezialbezirk, der den Hafen ersetzt.[NEWLINE]Keine [ICON_Movement] Bewegungskosten für das Wassern und an Land Gehen von und zu diesem Geländefeld.[NEWLINE]Gewährt bei Fertigstellung eine kostenlose Marineeinheit.[NEWLINE]+50% [ICON_PRODUCTION] Produktion für Siedler, Händler und Marineeinheiten in dieser Stadt.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_PHOENICIA_BIREME_DESCRIPTION" Language="de_DE">
+			<Text>Phöniziens einzigartige Marineeinheit der Antike, die die Galeere ersetzt.[NEWLINE][ICON_Strength] Stärker und mehr [ICON_Movement] Bewegung.[NEWLINE]Gewasserte Händler innerhalb von 4 Geländefeldern sind immun gegen Plünderungen.</Text>
+		</Replace>
+<Replace Tag="LOC_ABILITY_BIREME_PROTECT_TRADER_DESCRIPTION" Language="de_DE">
+			<Text>Beschützt Händler innerhalb von 4 Geländefeldern vor Plünderungen.</Text>
+		</Replace>
+--=============================================================================================================
+-- SWEDEN 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_GreatScientist] Großer-Wissenschaftler-Punkt von Universitäten und +1 [ICON_GreatEngineer] Großer-Ingenieur-Punkt von Fabriken.[NEWLINE]Erhaltet ein zufälliges [ICON_TechBoosted] Heureka für das Verdienen einer Großen Persönlichkeit.</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION" Language="de_DE">
+			<Text>Gebäude mit mindestens 3 Plätzen für Große Werke und Wunder mit mindestens 2 Plätzen haben automatisch ein Thema, wenn all ihre Plätze gefüllt sind.[NEWLINE]Erhaltet Zugriff auf das einzigartige Gebäude Bibliothek der Königin.</Text>
+		</Replace>
+<Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION" Language="de_DE">
+			<Text>Kristinas einzigartiges Gebäude, das im Regierungsplatz gebaut werden kann.[NEWLINE]+2 [ICON_Amenities] Annehmlichkeiten.[NEWLINE]Gewährt einen [ICON_Government] Joker-Politikplatz.[NEWLINE]Besitzt 2 Plätze für [ICON_GreatWork_WRITING] Literatur, [ICON_GreatWork_MUSIC] Musik und beliebige [ICON_GreatWork_Landscape] Kunstformen.[NEWLINE]Gewährt +1 [Icon_Governor] Gouverneurtitel.</Text>
+		</Replace>
+<Replace Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" Language="de_DE">
+			<Text>Schwedens einzigartige Modernisierung, die mit der Ausrichtung Nationalismus freigeschaltet wird.[NEWLINE]+2 Loyalität pro Zug.[NEWLINE]+2 [ICON_Culture] Kultur, +1 [ICON_Gold] Gold und +2 [ICON_Tourism] Tourismus für jede Art von Terrain (Schnee, Tundra, Wüste, Ebene, Grassland), auf der mindestens eine Eurer Städte gegründet wurden.[NEWLINE]Begrenzt auf eins pro Stadt. Geländefelder mit einem Freilichtmuseum können nicht getauscht werden.</Text>
+		</Replace>
+<Replace Tag="LOC_UNIT_SWEDEN_CAROLEAN_DESCRIPTION" Language="de_DE">
+			<Text>Schwedens einzigartige Einheit der Renaissance, die den Musketenpikenier ersetzt.[NEWLINE]Mehr [ICON_Movement] Bewegung.[NEWLINE]+3 [ICON_Strength] Kampfstärke für jeden unbenutzten Bewegungspunkt.</Text>
+		</Replace>
+--=============================================================================================================
+-- JULIUS CAESAR
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_CAESAR_NAME" Language="de_DE">
+			<Text>Alexandrinischer Krieg</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="de_DE">
+			<Text>Das Besiegen feindlicher Einheiten gewährt [ICON_Gold] Gold basierend auf der Kampfstärke der besiegten Einheit. Falls der Gegner einer gegnerischen Zivilisation angehört hat, wird auch eine Schub an [ICON_GreatGeneral] Großer-General-Punkten gewährt.[NEWLINE]Große Generäle erhalten eine zusätzliche [ICON_GreatGeneral] Aufladung.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_CAESAR_ABILITY_BONUSES_FROM_KILLS_NAME" Language="de_DE">
+			<Text>Alexandrinischer Krieg</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_CAESAR_ABILITY_BONUSES_FROM_KILLS_DESCRIPTION" Language="de_DE">
+			<Text>Das Besiegen einer feindlichen Einheiten gewährt [ICON_Gold] Gold basierend auf der Kampfstärke der besiegten Einheit. Falls der Gegner einer gegnerischen Zivilisation angehört hat, wird auch eine Schub an [ICON_GreatGeneral] Großer-General-Punkten gewährt.</Text>
+		</Replace>
+--=============================================================================================================
+-- UNIFIER QIN
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" Language="de_DE">
+			<Text>Nahkampfeinheiten können Barbaren bekehren.[NEWLINE]Das Ausheben von Stadtstaaten kostet 50% weniger [ICON_Gold] Gold.</Text>
+		</Replace>
+--=============================================================================================================
+-- WU ZETIAN
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_WU_ZETIAN_DESCRIPTION" Language="de_DE">
+			<Text>+100% [ICON_Production] Produktion für den Regierungsplatz und dessen Gebäude.[NEWLINE]Gouverneure gewähren +1 Loyalität für ihre Städte für jedes ihrer Geländefelder.[NEWLINE]Erhaltet +2 Spion-Kapazität und zwei Spione durch Freischaltung der Ausrichtung Öffentlicher Dienst.[NEWLINE]Jeder Spion startet als Agent mit einer kostenlosen [ICON_Promotion] Beförderung.[NEWLINE]Erfolgreiche offensive Spionagemissionen gewähren 50% der [ICON_Science] Wissenschaft, [ICON_Culture] Kultur, [ICON_Faith] Glauben und [ICON_Gold] Gold, die in der Zielstadt in diesem Zug erzeugt wurden.</Text>
+		</Replace>
+--=============================================================================================================
+-- YONGLE
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_YONGLE_XP_DESCRIPTION" Language="de_DE">
+			<Text>Erhaltet Zugriff auf die Lijia-Projekte, die die Produktion der Stadt in [ICON_Food] Nahrung, [ICON_Faith] Glauben oder [ICON_Gold] Gold umwandeln.[NEWLINE]Städte mit mindestens 10 Bevölkerung erhalten +2 [ICON_Gold] Gold, +1 [ICON_Science] Wissenschaft und +1 [ICON_Culture] Kultur für jede Bevölkerung.</Text>
+		</Replace>
+--=============================================================================================================
+-- RAMSES II
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_RAMSES_NAME" Language="de_DE">
+			<Text>Kult des Re-Harachte</Text>
+		</Replace>
+<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="de_DE">
+			<Text>Das Fertigstellen von Gebäuden und Wundern gewährt einen [ICON_Culture] Kulturschub in Höhe von 15% (30% für Wunder) der Produktionskosten.[NEWLINE]Handwerker erhalten +1 [ICON_Charges] Aufladung.</Text>
+		</Replace>
+--=============================================================================================================
+-- PTOLEMAIC CLEOPATRA
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" Language="de_DE">
+			<Text>Ressourcen auf Schwemmland erhalten +2 [ICON_Gold] Gold und +1 [ICON_Culture] Kultur.[NEWLINE]Schwemmland gewährt anliegenden Feldern +1 Anziehungskraft anstelle der üblichen -1.[NEWLINE]Einheiten ignorieren die [ICON_Movement] Bewegungskosten für das Überqueren von Flüssen.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_CLEOPATRA_ABILITY_ARRIVAL_OF_HAPI_NAME" Language="de_DE">
+			<Text>Ankunft des Hapi</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_CLEOPATRA_ABILITY_ARRIVAL_OF_HAPI_DESCRIPTION" Language="de_DE">
+			<Text>Kleopatras (Ptolemäisch) Einheiten ignorieren die [ICON_Movement] Bewegungskosten für das Überqueren von Flüssen.</Text>
+		</Replace>
+--=============================================================================================================
+-- SUNDIATA KEITA
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_SUNDIATA_KEITA_DESCRIPTION" Language="de_DE">
+			<Text>Das Rekrutieren [ICON_GreatPerson] Großer Persönlichkeiten kostet [ICON_GOLD] 20% weniger Gold.[NEWLINE]Das Besiegen feindlicher Einheiten gewährt [ICON_GreatWriter] Großer-Schriftsteller-Punkte basierend auf der Kampfstärke der besiegten Einheit.[NEWLINE]Märkte erhalten +2 Plätze für [ICON_GreatWork_WRITING] Literatur.[NEWLINE]+4 [ICON_GOLD] Gold und +2 [ICON_PRODUCTION] Produktion für [ICON_GreatWork_WRITING] Literatur.</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SUNDIATA_ABILITY_BONUSES_FROM_KILLS_NAME" Language="de_DE">
+			<Text>Sogolon</Text>
+		</Replace>
+<Replace Tag="LOC_P0K_SUNDIATA_ABILITY_BONUSES_FROM_KILLS_DESCRIPTION" Language="de_DE">
+			<Text>(Sundiata Keïta) Das Besiegen feindlicher Einheiten gewährt [ICON_GreatWriter] Großer-Schriftsteller-Punkte basierend auf der Kampfstärke der besiegten Einheit.</Text>
+		</Replace>
+--=============================================================================================================
+-- THEODORA
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_THEODORA_DESCRIPTION" Language="de_DE">
+			<Text>Heilige Stätten gewähren [ICON_CULTURE] Kultur entsprechend ihrem Nachbarschaftsbonus.[NEWLINE]Bauernhöfe und Plantagen gewähren +1 [ICON_FAITH] Glauben-Nachbarschaftsbonus für Heilige Stätten und Hippodrome.</Text>
+		</Replace>
+--=============================================================================================================
+-- LUDWIG II 
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_LUDWIG_DESCRIPTION" Language="de_DE">
+			<Text>Wunder, auch nicht vollendete, gewähren +2 [ICON_CULTURE] Kultur für jeden angrenzenden Bezirk.[NEWLINE]Alle Kultur-Nachbarschaftsbonusse gewähren [ICON_TOURISM] Tourismus nach der Erforschung von Burgen.</Text>
+		</Replace>
+--=============================================================================================================
+-- SEJONG
+--=============================================================================================================
+<Replace Tag="LOC_TRAIT_LEADER_SEJONG_DESCRIPTION" Language="de_DE">
+			<Text>Nach Fertigstellung Eurer ersten Technologie eines neuen Zeitalters erhaltet Ihr die doppelte Menge Eurer Wissenschaft pro Runde als [ICON_CULTURE] Kulturschub.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
