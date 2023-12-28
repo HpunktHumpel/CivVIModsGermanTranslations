@@ -7,11 +7,11 @@
 --------------------------------------------------------------
 UPDATE LocalizedText
 SET Text = REPLACE(Text, 'Unterhaltungskomplexe', 'Jahrmärkte')
-WHERE Tag = Tag;
+WHERE Tag = Tag AND Language = 'de_DE';
 
 UPDATE LocalizedText
 SET Text = REPLACE(Text, 'Unterhaltungskomplex', 'Jahrmarkt')
-WHERE Tag = Tag;
+WHERE Tag = Tag AND Language = 'de_DE';
 
 CREATE TRIGGER JNR_UC_ENT_LocalizedText_Districts_Land_en
 AFTER INSERT ON LocalizedText
@@ -28,11 +28,11 @@ END;
 
 UPDATE LocalizedText
 SET Text = REPLACE(Text, 'Wasserparks', 'Vergnügungspiers')
-WHERE Tag = Tag;
+WHERE Tag = Tag AND Language = 'de_DE';
 
 UPDATE LocalizedText
 SET Text = REPLACE(Text, 'Wasserpark', 'Vergnügungspier')
-WHERE Tag = Tag;
+WHERE Tag = Tag AND Language = 'de_DE';
 
 CREATE TRIGGER JNR_UC_ENT_LocalizedText_Districts_Water_en
 AFTER INSERT ON LocalizedText
