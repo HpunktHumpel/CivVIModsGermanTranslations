@@ -1,6 +1,7 @@
 28.12.2023
 
 - [NEW] Civilizations Expanded Lite (Übersetzung von Phyrax)
+- [IMPROVED] Enlightenment Governments (Project 6T)
 - [IMPROVED] UC - District Expansion:  Entertainment
 - [IMPROVED] Unique District: Eanna (Sumer)
 
