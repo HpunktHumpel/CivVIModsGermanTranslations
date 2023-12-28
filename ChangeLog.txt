@@ -2,6 +2,7 @@
 
 - [NEW] Civilizations Expanded Lite (Übersetzung von Phyrax)
 - [IMPROVED] UC - District Expansion:  Entertainment
+- [IMPROVED] Unique District: Eanna (Sumer)
 
 
 03.12.2023
