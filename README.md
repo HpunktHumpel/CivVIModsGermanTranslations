@@ -179,6 +179,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Policy Change Reminder (FinalFreak16 | Junky)
 1. Policy Pack: Corporations (JNR | H.Humpel)
 1. Policy Pack: Environment (JNR | Junky)
+1. Policy Pack: Maritime (JNR | SprachZauberer)
 1. Porcelain Tower (World Wonder) (Deliverator23 | H.Humpel)
 1. Port Lime - Bridge Districts (Captain Lime, Leugi & sukritact | H.Humpel)
 1. Progressive Power Consumption (JNR | Junky)
@@ -303,7 +304,7 @@ Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
-- ASM590319, duestere Legende, Gorowynn, Junky, Phyrax & Stevie
+- ASM590319, duestere Legende, Gorowynn, Junky, Phyrax, SprachZauberer & Stevie
 
 
 Und zu guter Letzt natürlich auch Dank an alle, die diesem Mod einen Preis verliehen haben.

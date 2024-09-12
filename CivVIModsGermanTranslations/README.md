@@ -108,7 +108,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 1923120175 | Compact Production Panel | Masked Man | ASM590319 | #28
 1935024345 | Modern Infantry | Shadow | Junky | #15
 1935036456 | Revenge of the Barbarians | Shadow | Junky | #18
-1939153858 | Improved Aqueduct District GS | Nut9931 | Junky | **NEW**
+1939153858 | Improved Aqueduct District GS | Nut9931 | Junky | #29
 1945460659 | Expanded Alliances | JNR | Junky | #12
 1987147435 | Appeal, Loyalty and Prestige (Diplo VP) Font Icons | Leugi | Junky | #21
 2012127235 | Sukritact's Robespierre (France) | sukritact | Junky | #19
@@ -214,7 +214,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2822229024 | Coastline | Rdner | ASM590319 | #26
 2825162991 | Camera Hotkeys | Rdner | ASM590319 | #27
 2825163448 | Unit Hotkeys | Rdner | ASM590319 | #27
-2826437783 | Civilizations Expanded Lite | p0kiehl | Phyrax | **NEW**
+2826437783 | Civilizations Expanded Lite | p0kiehl | Phyrax | #29
 2828396335 | SpatialX Civilian Helicopter | SpatialX & Shuricas | H.Humpel | #21
 2830394969 | Sukritact's Embarkation++ | sukritact | H.Humpel | #18
 2837365371 | SpatialX Space Race | SpatialX | H.Humpel | #21
@@ -268,6 +268,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2984762028 | Sukritact's Angel Falls (Kerepakupai Merú) | Sukritact | ASM590319 | #26
 2997927787 | Top Panel Extension Pro | 号码菌 | ASM590319 | #27
 3040385614 | Sukritact's Te Otukapuarangi | Sukritact, Lime, | ASM590319 | #28
-3071942163 | Annex City-State | Ophidy | Junky | **NEW**
-3076895253 | Unique District: Eanna (Sumer) | JNR | Junky | **NEW**
-3090525411 | Unique Building: Kūrag (Scythia) | JNR | Junky | **NEW**
+3071942163 | Annex City-State | Ophidy | Junky | #29
+3076895253 | Unique District: Eanna (Sumer) | JNR | Junky | #29
+3090525411 | Unique Building: Kūrag (Scythia) | JNR | Junky | #29
+3130103214 | Policy Pack: Maritime | JNR | SprachZauberer | **NEW**

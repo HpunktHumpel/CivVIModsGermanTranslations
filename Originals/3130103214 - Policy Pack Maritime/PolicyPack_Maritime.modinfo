@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f3d34bbb-b123-4177-8bf0-f5f48171cd62" version="6">
+  <Properties>
+    <Name>[COLOR:ResCultureLabelCS]Policy Pack:[ENDCOLOR] Maritime</Name>
+    <Description>Adds 8 new Maritime policies, including three Economic and two Diplomatic policies. Also adds three Wildcard policies, one for each future government type.</Description>
+    <Teaser>Adds 8 new maritime policies.</Teaser>
+    <Authors>JNR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+	<Criteria id="MOD_MMSS">
+	  <ModInUse>58ecce8a-d3df-430a-b135-280908153662</ModInUse>	<!-- More Maritime: Seaside Sectors -->
+	</Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>1373</LoadOrder>
+      </Properties>
+      <File>Core/PP_Maritime_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_MMSS" criteria="MOD_MMSS">
+      <Properties>
+        <LoadOrder>1374</LoadOrder>
+      </Properties>
+      <File>Core/PP_Maritime_Gameplay_MMSS.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>1373</LoadOrder>
+      </Properties>
+      <File>Core/PP_Maritime_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Properties>
+        <LoadOrder>1373</LoadOrder>
+      </Properties>
+      <File>Core/PP_Maritime_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Core/PP_Maritime_Gameplay.sql</File>
+    <File>Core/PP_Maritime_Gameplay_MMSS.sql</File>
+    <File>Core/PP_Maritime_Icons.sql</File>
+    <File>Core/PP_Maritime_Text.sql</File>
+  </Files>
+</Mod>
