@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- German Translation -->
+				<Replace Tag="LOC_JGP_AI_FREE_UNITS_NAME" Language="de_DE">
+					<Text>Menge kostenloser KI-Einheiten</Text>
+				</Replace>
+				<Replace Tag="LOC_JGP_AI_FREE_BOOSTS_NAME" Language="de_DE">
+					<Text>Kostenlose KI-Technologien/-Ausrichtungen</Text>
+				</Replace>
+				<Replace Tag="LOC_JGP_AI_FREE_BOOSTS_DESCRIPTION" Language="de_DE">
+					<Text>Wiedereinführung des kostenlosen Erhalts von Technologien und Ausrichtungen der KI in jedem Zeitalter. Wurde in den Erweiterungen "Rise and Fall" and "Gathering Storm" entfernt.</Text>
+				</Replace>
+				<Replace Tag="LOC_DIFFICULTY_DEITY_PLUS_NAME" Language="de_DE">
+					<Text>Mythisch</Text>
+				</Replace>
+				<Replace Tag="LOC_DIFFICULTY_DEITY_PLUSPLUS_NAME" Language="de_DE">
+					<Text>Übersinnlich</Text>
+				</Replace>
+				<Replace Tag="LOC_DIFFICULTY_LEVEL_11_NAME" Language="de_DE">
+					<Text>Höllisch</Text>
+				</Replace>
+				<Replace Tag="LOC_DIFFICULTY_LEVEL_12_NAME" Language="de_DE">
+					<Text>Ursprünglich</Text>
+				</Replace>
+				<Replace Tag="LOC_DIFFICULTY_LEVEL_13_NAME" Language="de_DE">
+					<Text>Sid Meier</Text>
+				</Replace>
+				<Replace Tag="RULESET_DEITYPLUSPLUS_STANDARD_NAME" Language="de_DE">
+					<Text>Normale KI-Einheiten, normale Boni</Text>
+				</Replace>
+				<Replace Tag="RULESET_DEITYPLUSPLUS_FEWER_FREE_AI_UNITS_NAME" Language="de_DE">
+					<Text>Weniger KI-Einheiten, größere Boni</Text>
+				</Replace>
+				<Replace Tag="RULESET_DEITYPLUSPLUS_FEWER_FREE_AI_UNITS_DESCRIPTION" Language="de_DE">
+					<Text>Reduziert die Anzahl der zusätzlichen kostenlosen KI-Starteinheiten auf etwa die Hälfte und kompensiert dies, indem die KI erhebliche Boni auf die Erzeugung von Wissenschaft, Kultur, Produktion usw. pro Runde erhält. Das Ziel ist, der KI eine gleichmäßige Progression der Boni zu geben, anstatt einen enormen Startvorteil zu haben, der den Spieler zwingt, im Laufe des Spiels aufzuholen.</Text>
+				</Replace>
+				<Replace Tag="RULESET_DEITYPLUSPLUS_NO_FREE_AI_UNITS_NAME" Language="de_DE">
+					<Text>Keine KI-Einheiten, noch größere Boni</Text>
+				</Replace>
+				<Replace Tag="RULESET_DEITYPLUSPLUS_NO_FREE_AI_UNITS_DESCRIPTION" Language="de_DE">
+					<Text>Entfernt alle zusätzlichen kostenlosen KI-Starteinheiten und kompensiert dies, indem die KI noch größere Boni für die Erzeugung von Wissenschaft, Kultur, Produktion usw. pro Runde erhält. Das Ziel ist, der KI eine gleichmäßige Progression der Boni zu geben, anstatt einen enormen Startvorteil, der den Spieler zwingt, im Laufe des Spiels aufzuholen.</Text>
+				</Replace>
+	</LocalizedText>
+</GameData>

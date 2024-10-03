@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_JGP_AI_FREE_UNITS_NAME" Language="en_US">
+			<Text>AI Free Units</Text>
+		</Replace>
+		<Replace Tag="LOC_JGP_AI_FREE_BOOSTS_NAME" Language="en_US">
+			<Text>AI Free Tech/Civic Boosts</Text>
+		</Replace>
+		<Replace Tag="LOC_JGP_AI_FREE_BOOSTS_DESCRIPTION" Language="en_US">
+			<Text>Reinstate the free tech and civic boosts for AI players earned per era, removed in both Rise and Fall and Gathering Storm expansions.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_DEITY_PLUS_NAME" Language="en_US">
+			<Text>Mythic</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_DEITY_PLUSPLUS_NAME" Language="en_US">
+			<Text>Transcendent</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_LEVEL_11_NAME" Language="en_US">
+			<Text>Infernal</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_LEVEL_12_NAME" Language="en_US">
+			<Text>Primordial</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_LEVEL_13_NAME" Language="en_US">
+			<Text>Sid Meier</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_STANDARD_NAME" Language="en_US">
+			<Text>Normal free AI units, normal bonuses</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_FEWER_FREE_AI_UNITS_NAME" Language="en_US">
+			<Text>Fewer free AI units, larger bonuses</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_FEWER_FREE_AI_UNITS_DESCRIPTION" Language="en_US">
+			<Text>Reduces the number of free AI starting units to roughly half, and compensates by giving the AI significant bonuses to per-turn generation of science, culture, production, etc. The purpose is to give the AI an even progression of bonuses instead of an enormous starting advantage that forces you to play catchup throughout the game.</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_NO_FREE_AI_UNITS_NAME" Language="en_US">
+			<Text>No free AI units, even larger bonuses</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_NO_FREE_AI_UNITS_DESCRIPTION" Language="en_US">
+			<Text>Remove all free AI starting units, and compensates by giving the AI even larger bonuses to per-turn generation of science, culture, production, etc. The purpose is to give the AI an even progression of bonuses instead of an enormous starting advantage that forces you to play catchup throughout the game.</Text>
+		</Replace>
+		<!-- Japanese Translation -->
+		<Replace Tag="LOC_DIFFICULTY_DEITY_PLUS_NAME" Language="ja_JP">
+			<Text>伝説</Text>
+		</Replace>
+		<Replace Tag="LOC_JGP_AI_FREE_UNITS_NAME" Language="ja_JP">
+			<Text>AIの初期ユニット</Text>
+		</Replace>
+		<Replace Tag="LOC_JGP_AI_FREE_BOOSTS_NAME" Language="ja_JP">
+			<Text>AIの技術/社会制度ブースト</Text>
+		</Replace>
+		<Replace Tag="LOC_JGP_AI_FREE_BOOSTS_DESCRIPTION" Language="ja_JP">
+			<Text>「文明の興亡」と「嵐の訪れ」で廃止された、AIに与えられる時代ごとのブーストを再導入します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_DEITY_PLUSPLUS_NAME" Language="ja_JP">
+			<Text>超越</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_STANDARD_NAME" Language="ja_JP">
+			<Text>AI初期ユニット通常、AIボーナス通常</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_FEWER_FREE_AI_UNITS_NAME" Language="ja_JP">
+			<Text>初期ユニット少なめ、AIボーナス大きめ</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_FEWER_FREE_AI_UNITS_DESCRIPTION" Language="ja_JP">
+			<Text>AIの初期ユニットをおおよそ半分に減らし、科学力、文化力、生産力などのボーナスを大きくすることで補います。</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_NO_FREE_AI_UNITS_NAME" Language="ja_JP">
+			<Text>AI初期ユニット無し、AIボーナス最大</Text>
+		</Replace>
+		<Replace Tag="RULESET_DEITYPLUSPLUS_NO_FREE_AI_UNITS_DESCRIPTION" Language="ja_JP">
+			<Text>AIの初期ユニットを全て無くし、科学力、文化力、生産力などのボーナスを最大にすることで補います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_LEVEL_11_NAME" Language="ja_JP">
+			<Text>修羅</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_LEVEL_12_NAME" Language="ja_JP">
+			<Text>始源</Text>
+		</Replace>
+		<Replace Tag="LOC_DIFFICULTY_LEVEL_13_NAME" Language="ja_JP">
+			<Text>シド・マイヤー</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

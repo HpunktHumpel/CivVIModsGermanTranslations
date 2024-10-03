@@ -81,6 +81,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Deforestation: More Gradual and Severe (JNR | Junky)
 1. Detailed Wonder Reminder (Konomi | Junky)
 1. Detailed Wonder Reminder Enhanced (Konomi | Junky)
+1. Deity ++ (MyopicCat, Fuzzle | onyxum)
 1. District Expansion: Aqueduct (JNR | Gorowynn)
 1. District Expansion: Campus (JNR | Gorowynn)
 1. District Expansion: Commerce (JNR | Junky)
