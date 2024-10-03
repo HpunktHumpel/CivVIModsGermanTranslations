@@ -148,6 +148,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2314657561 | District Expansion: Theater | JNR | Junky | #14
 2333458984 | District Expansion: Spirituality | JNR | Junky | #15
 2337885119 | District Expansion: Worship | JNR | Junky | #15
+2357532056 |Multiplayer Helper (MPH) | Cisco, FlashyFeeds, D. / Jack The Narrator | onyxum | **NEW**
 2362219368 | District Expansion: Aqueduct | JNR | Gorowynn | #2
 2376859473 | Persuade Defectors Project | Sailor Cat | Junky | #15
 2384183359 | CIVILIZATION VI: EMPIRE STATE BUILDING | Albro & A CityMaker | H.Humpel | #1

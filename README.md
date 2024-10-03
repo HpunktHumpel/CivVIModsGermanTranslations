@@ -160,6 +160,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Mount Erebus (AOM | ASM590319)
 1. Movable Cities (yiboy | Junky)
 1. Movable Districts (wltk | Junky)
+1. Multiplayer Helper (MPH) (Cisco, FlashyFeeds, D. / Jack The Narrator | onyxum)
 1. National Projects: Satellites (JNR | H.Humpel)
 1. Naval Mine (Shuricas | H.Humpel)
 1. Necropolis: Unique District for Egypt (p0kiehl & Sukritact | Junky)

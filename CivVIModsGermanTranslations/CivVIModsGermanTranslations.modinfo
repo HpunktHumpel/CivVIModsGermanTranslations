@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="30">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]272[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]273[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1727951871</Created>
+    <Created>1727953578</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzle, Fuzzletop, HktkNban, HoneyTheBear, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, MyopicCat, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, peter.spjuth, Phantagonist, Phyrax, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, totalslacker, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky,  onyxum, Phyrax, SprachZauberer and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, Cisco, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, FlashyFeeds, Friend, Fuzzle, Fuzzletop, HktkNban, HoneyTheBear, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, MyopicCat, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, peter.spjuth, Phantagonist, Phyrax, Plati, Rdner, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, totalslacker, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky,  onyxum, Phyrax, SprachZauberer and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -151,6 +151,9 @@
     </Criteria>
     <Criteria id="MonopolyPlusResourceRequirementSetup_FrontEnd">
       <ModIsEnabled>574fca1b-39ae-4f9d-810e-67554a750182</ModIsEnabled>
+    </Criteria>
+    <Criteria id="MultiplayerHelper_FrontEnd">
+      <ModIsEnabled>619ac86e-d99d-4bf3-b8f0-8c5b8c402176</ModIsEnabled>
     </Criteria>
     <Criteria id="NavalMine_FrontEnd">
       <ModIsEnabled>673b271d-b9ce-4265-b6b1-fc89436906f2</ModIsEnabled>
@@ -708,6 +711,9 @@
     <Criteria id="MovableDistricts">
       <ModInUse>63c4a8ac-9ada-4b2d-927a-2a99527980e2</ModInUse>
     </Criteria>
+    <Criteria id="MultiplayerHelper">
+      <ModInUse>619ac86e-d99d-4bf3-b8f0-8c5b8c402176</ModInUse>
+    </Criteria>
     <Criteria id="NationalWonders">
       <ModInUse>8719d97f-0db4-4c18-9863-82eb9b0c6175</ModInUse>
     </Criteria>
@@ -1264,6 +1270,14 @@
         <Value>0</Value>
       </ConfigurationValueMatches>
     </Criteria>
+    <!-- Multiplayer Helper MPH -->
+    <Criteria id="Anonymous_Mode_Expansion2">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_ANONYMOUS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
     <!-- Religion Expanded -->
     <Criteria id="XP1 or XP2" any="1">
       <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
@@ -1691,6 +1705,10 @@
     <UpdateText id="MonopolyPlusResourceRequirementSetup_FrontEnd_de_DE">
       <Criteria>MonopolyPlusResourceRequirementSetup_FrontEnd</Criteria>
       <File>2399439885/Core/MonopolySettingTexts_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="MultiplayerHelper_MPH_TEXTS_FrontEnd_de_DE">
+      <Criteria>MultiplayerHelper_FrontEnd</Criteria>
+      <File>2357532056/lang/Text_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="NavalMine_FrontEnd_de_DE">
       <Criteria>NavalMine_FrontEnd</Criteria>
@@ -3043,6 +3061,17 @@
     <UpdateText id="MovableDistricts_de_DE">
       <Criteria>MovableDistricts</Criteria>
       <File>2683624437/text/md_text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="MultiplayerHelper_MPH_INGAME_TEXTS_de_DE">
+      <Criteria>MultiplayerHelper</Criteria>
+      <File>2357532056/lang/Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="MultiplayerHelper_AnonText_de_DE" criteria="Anonymous_Mode_Expansion2">
+      <Properties>
+        <LoadOrder>9999</LoadOrder>
+      </Properties>
+      <Criteria>MultiplayerHelper</Criteria>
+      <File>2357532056/mode/anonymous/text_anon_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="Nat_Wonders_UpdateText_de_DE">
       <Criteria>NationalWonders</Criteria>
@@ -4704,6 +4733,8 @@
     <File>2337885119/Text/ModSupport/UC_REL_Worship_Text_AmunRa_de_DE.sql</File>
     <File>2337885119/Text/ModSupport/UC_REL_Worship_Text_CX_de_DE.sql</File>
     <File>2337885119/Text/UC_REL_Worship_Text_de_DE.sql</File>
+    <File>2357532056/lang/Text_de_DE.xml</File>
+    <File>2357532056/mode/anonymous/text_anon_de_DE.xml</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_Baray_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Default_de_DE.sql</File>
     <File>2362219368/Text/ModSupport/UC_AQD_Text_CS_CSE_Ethiopia_de_DE.sql</File>
