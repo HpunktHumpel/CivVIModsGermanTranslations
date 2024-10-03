@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <BaseGameText>
+	<!-- Multiplayer-Benachrichtigungen -->
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_CONNECTING">
+			<Text>Anon tritt bei</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_CONNECTING_TT">
+			<Text>Anon tritt dem Spiel bei. Dieser Vorgang kann einige Minuten dauern.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_CONNECTED">
+			<Text>Anon ist beigetreten</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_CONNECTED_TT">
+			<Text>Anon hat den Beitritt zum Spiel abgeschlossen.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT">
+			<Text>Anon hat die Verbindung getrennt</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_DISCONNECT_TT">
+			<Text>Anon hat die Verbindung zum Spiel getrennt.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_KICKED">
+			<Text>Anon wurde gekickt</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_KICKED_TT">
+			<Text>Anon wurde aus dem Spiel entfernt.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS">
+			<Text>Anon lädt Mods herunter</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_MOD_STATUS_TT">
+			<Text>Anon lädt die erforderlichen Mods herunter, um in diesem Spiel zu spielen. ({2 : number} von {3 : number} insgesamt)</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_HOST_MIGRATION">
+			<Text>Host-Migration</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_HOST_MIGRATION_TT">
+			<Text>Das Spiel wird auf einen neuen Host übertragen. Das Spiel wird in Kürze fortgesetzt.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_HOST_CHANGED">
+			<Text>Host gewechselt</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_HOST_CHANGED_TT">
+			<Text>Anon ist der neue Spielhost.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN">
+			<Text>Play By Cloud: Dein Zug</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYBYCLOUD_YOURTURN_TT">
+			<Text>Es ist dein Zug in einem Play By Cloud-Spiel. ({1_cloudGameName})</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY">
+			<Text>Play By Cloud: Spiel bereit</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYBYCLOUD_GAMEREADY_TT">
+			<Text>Eines deiner Play By Cloud-Spiele ist bereit zum Start. ({1_cloudGameName})</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE">
+			<Text>Play By Cloud: Spiel abgeschlossen</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYBYCLOUD_UNSEENCOMPLETE_TT">
+			<Text>Eines deiner Play By Cloud-Spiele wurde kürzlich abgeschlossen. ({1_cloudGameName})</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_WRONG_PHASE_TT">
+			<Text>[color:Civ6Red]Falsche Phase[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS">
+			<Text>Gleichzeitige Züge</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_SIMULTANEOUS_TURNS_TT">
+			<Text>Ihr Krieg mit einem menschlichen Spieler ist vorbei. Ihre Züge werden gleichzeitig mit allen nicht kriegsführenden Zivilisationen ausgeführt.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS">
+			<Text>Sequentielle Züge</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_SEQUENTIAL_TURNS_TT">
+			<Text>Sie befinden sich im Krieg mit einem menschlichen Spieler. Ihre Züge werden sequentiell mit allen kriegsführenden Zivilisationen ausgeführt, bis der Konflikt beendet ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_DESYNCED">
+			<Text>Anon ist desynchronisiert</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_DESYNCED_TT">
+			<Text>Anons Spiel weicht vom Host ab. Es wird neu geladen, um das Problem zu beheben.</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE">
+			<Text>Anon Synchronisation abgeschlossen</Text>
+		</Replace>
+		<Replace Tag="LOC_NOTIFICATION_PLAYER_RESYNC_COMPLETE_TT">
+			<Text>Anon hat das Laden abgeschlossen.</Text>
+		</Replace>
+  </BaseGameText>
+</GameData>
