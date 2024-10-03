@@ -270,6 +270,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2982685807 | No Early Warmonger Penalty | Phyrax | Junky | #28
 2984762028 | Sukritact's Angel Falls (Kerepakupai Merú) | Sukritact | ASM590319 | #26
 2997927787 | Top Panel Extension Pro | 号码菌 | ASM590319 | #27
+3019772473 | RomanHoliday's AI Behaviour Rework v3.283 | RomanHoliday | onyxum | **NEW**
 3040385614 | Sukritact's Te Otukapuarangi | Sukritact, Lime, | ASM590319 | #28
 3071942163 | Annex City-State | Ophidy | Junky | #29
 3076895253 | Unique District: Eanna (Sumer) | JNR | Junky | #29

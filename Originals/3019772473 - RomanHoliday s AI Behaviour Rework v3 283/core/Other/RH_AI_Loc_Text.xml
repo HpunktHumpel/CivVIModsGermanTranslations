@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- RH Loc Text -->
+
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_STARTING_DIPLO_OFFSET" Language="en_US">
+			<Text>Diplomacy Offset</Text>
+		</Replace>
+
+		<!--Replace Tag="" Language="en_US">
+			<Text>Roman Holiday's AI Settings</Text>
+		</Replace-->
+	
+		<Replace Tag="RULESET_RH_AI_STANDARD_OFFSET_NAME" Language="en_US">
+			<Text>Higher Offset</Text>
+		</Replace>
+	
+		<Replace Tag="RULESET_RH_AI_STANDARD_OFFSET_DESCRIPTION" Language="en_US">
+			<Text>50% higher starting diplomacy offset (approximately 3x higher than vanilla). This will be an especially difficult game.</Text>
+		</Replace>
+		
+		<Replace Tag="RULESET_RH_AI_LOWER_OFFSET_NAME" Language="en_US">
+			<Text>Standard Offset</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_LOWER_OFFSET_DESCRIPTION" Language="en_US">
+			<Text>Standard starting diplomacy offset (Increases slightly per difficulty level above Prince, decays over time and is random per leader).</Text>
+		</Replace>
+				
+		<Replace Tag="RULESET_RH_AI_LOWEST_OFFSET_NAME" Language="en_US">
+			<Text>Lowest Offset</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_LOWEST_OFFSET_DESCRIPTION" Language="en_US">
+			<Text>50% lower starting offset and the AI is slightly more peaceful in general. Closer to vanilla. Recommended for a more peaceful game (Gandhi will be your best friend).</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RH_AI_VERSION" Language="en_US">
+			<Text>RHAI V3</Text>
+		</Replace>
+
+
+		<!-- Reduced Starting Units -->
+
+		<Replace Tag="RULESET_RH_AI_REDUCED_STARTING_UNITS_NAME" Language="en_US">
+			<Text>Reduced Starting Warriors</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_REDUCED_STARTING_UNITS_DESCRIPTION" Language="en_US">
+			<Text>Reduces the AI's starting warriors by ~40% and provides up to 4 delayed builders (depending on difficulty) split between the Classical and Medieval Eras as compensation. All Deity++ Starting Unit Options Compatible.</Text>
+		</Replace>
+
+		<!-- Reduced Early Agg -->
+
+		<Replace Tag="RULESET_RH_AI_REDUCED_EARLY_AGGRESSIVENESS_NAME" Language="en_US">
+			<Text>Reduced Starting Aggression</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_REDUCED_EARLY_AGGRESSIVENESS_DESCRIPTION" Language="en_US">
+			<Text>Increases the AI's hesistancy to attack cities in the Ancient and Classical eras</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>

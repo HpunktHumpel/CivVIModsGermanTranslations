@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- RH Loc Text -->
+
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_STARTING_DIPLO_OFFSET" Language="de_DE">
+			<Text>Diplomatie Regelabweichung</Text>
+		</Replace>
+
+		<!--Replace Tag="" Language="de_DE">
+			<Text>Roman Holiday's AI Settings</Text>
+		</Replace-->
+	
+		<Replace Tag="RULESET_RH_AI_STANDARD_OFFSET_NAME" Language="de_DE">
+			<Text>Höhere Regelabweichung</Text>
+		</Replace>
+	
+		<Replace Tag="RULESET_RH_AI_STANDARD_OFFSET_DESCRIPTION" Language="de_DE">
+			<Text>50% höherer Startdiplomatie-Regelabweichung (etwa 3x höher als die Grundspieleinstellung). Dies wird ein besonders schwieriges Spiel sein.</Text>
+		</Replace>
+		
+		<Replace Tag="RULESET_RH_AI_LOWER_OFFSET_NAME" Language="de_DE">
+			<Text>Standard Regelabweichung</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_LOWER_OFFSET_DESCRIPTION" Language="de_DE">
+			<Text>Standard Startdiplomatie-Regelabweichung (erhöht sich geringfügig pro Schwierigkeitsgrad über "Prinz", nimmt mit der Zeit ab und ist pro Anführer zufällig).</Text>
+		</Replace>
+				
+		<Replace Tag="RULESET_RH_AI_LOWEST_OFFSET_NAME" Language="de_DE">
+			<Text>Niedrigste Regelabweichung</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_LOWEST_OFFSET_DESCRIPTION" Language="de_DE">
+			<Text>50% niedrigerer Start-Regelabweichung und die KI ist im Allgemeinen etwas friedlicher. Näher an der Grundspieleinstellung. Empfohlen für ein friedlicheres Spiel (Gandhi wird Ihr bester Freund sein).</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RH_AI_VERSION" Language="de_DE">
+			<Text>RHAI V3</Text>
+		</Replace>
+
+
+		<!-- Reduced Starting Units -->
+
+		<Replace Tag="RULESET_RH_AI_REDUCED_STARTING_UNITS_NAME" Language="de_DE">
+			<Text>Reduzierte Start-Krieger</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_REDUCED_STARTING_UNITS_DESCRIPTION" Language="de_DE">
+			<Text>Reduziert die Anzahl an Kriegern, mit der die KI startet um ~40% und bietet als Ausgleich den Erhalt von bis zu 4 Handwerkern (je nach Schwierigkeitsgrad), welche zwischen den Zeitaltern Klassik und Mittelalter aufgeteilt werden. Alle "Deity++"-Mod-Optionen für Start-Einheiten sind kompatibel.</Text>
+		</Replace>
+
+		<!-- Reduced Early Agg -->
+
+		<Replace Tag="RULESET_RH_AI_REDUCED_EARLY_AGGRESSIVENESS_NAME" Language="de_DE">
+			<Text>Reduzierte Start-Aggression</Text>
+		</Replace>
+		<Replace Tag="RULESET_RH_AI_REDUCED_EARLY_AGGRESSIVENESS_DESCRIPTION" Language="de_DE">
+			<Text>Die KI wird in den Zeitaltern Antike und Klassik weniger aggressiv sein, weshalb sie eher zögerlich bei der Abwägung der Entscheidung sein wird Städte anzugreifen</Text>
+		</Replace>
+
+
+	</LocalizedText>
+</GameData>

@@ -3,6 +3,7 @@
 - [NEW] Better Balanced Maps (vom 15. Aug. 2024 um 11:000, Übersetzung von onyxum)
 - [NEW] Deity ++ (vom 22. Aug. 2024 um 2:43, Übersetzung von onyxum)
 - [NEW] Multiplayer Helper (MPH) (vom 22. Aug. 2024 um 10:06, Übersetzung von onyxum)
+- [NEW] RomanHoliday's AI Behaviour Rework v3.283 (vom 12. März 2024 um 14:42, Übersetzung von onyxum)
 - [NEW] Take your Time Ultimate - Slower Research Trees (vom 24. Aug. 2020 um 0:27, Übersetzung von onyxum)
 
 
