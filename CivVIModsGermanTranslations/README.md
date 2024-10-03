@@ -275,3 +275,4 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 3076895253 | Unique District: Eanna (Sumer) | JNR | Junky | #29
 3090525411 | Unique Building: Kūrag (Scythia) | JNR | Junky | #29
 3130103214 | Policy Pack: Maritime | JNR | SprachZauberer | **NEW**
+3179425402 | Better Balanced Maps | BaNiPouZ, Talasta | onyxum | **NEW**
