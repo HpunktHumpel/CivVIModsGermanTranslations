@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--Built by Take your Time Generator at 23:19 23/08/2020-->
+<GameData>
+    <LocalizedText>
+    		<!-- == German == -->
+        <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_NAME">
+                    <Text>Basis-Technologie-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_25_NAME">
+                    <Text>x0.25 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_25_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 25 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_50_NAME">
+                    <Text>x0.5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_50_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 50 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_75_NAME">
+                    <Text>x0.75 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_75_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 75 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_100_NAME">
+                    <Text>x1 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_100_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre regulären [ICON_SCIENCE] Wissenschaftskosten.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_125_NAME">
+                    <Text>x1.25 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_125_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 125 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_150_NAME">
+                    <Text>x1.5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_150_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 150 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_175_NAME">
+                    <Text>x1.75 Basis-Kosten</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_175_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 175 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_200_NAME">
+                    <Text>x2 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_200_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 200 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_225_NAME">
+                    <Text>x2.25 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_225_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 225 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_250_NAME">
+                    <Text>x2.5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_250_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 250 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_275_NAME">
+                    <Text>x2.75 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_275_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 275 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_300_NAME">
+                    <Text>x3 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_300_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 300 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_350_NAME">
+                    <Text>x3.5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_350_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 350 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_400_NAME">
+                    <Text>x4 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_400_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 400 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_450_NAME">
+                    <Text>x4.5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_450_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 450 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_500_NAME">
+                    <Text>x5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_500_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_600_NAME">
+                    <Text>x6 Basis-Kosten</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_600_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 600 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_700_NAME">
+                    <Text>x7 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_700_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 700 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_800_NAME">
+                    <Text>x8 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_800_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 800 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_900_NAME">
+                    <Text>x9 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_900_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 900 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_1000_NAME">
+                    <Text>x10 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_1000_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 1000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_1250_NAME">
+                    <Text>x12.5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_1250_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 1250 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_1500_NAME">
+                    <Text>x15 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_1500_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 1500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_1750_NAME">
+                    <Text>x17.5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_1750_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 1750 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_2000_NAME">
+                    <Text>x20 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_2000_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 2000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_2500_NAME">
+                    <Text>x25 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_2500_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 2500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_3000_NAME">
+                    <Text>x30 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_3000_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 3000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_4000_NAME">
+                    <Text>x40 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_4000_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 4000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_5000_NAME">
+                    <Text>x50 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_TECH_5000_DESCRIPTION">
+                    <Text>Alle Technologien im Spiel haben ihre [ICON_SCIENCE] Wissenschaftskosten auf 5000 % erhöht.</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_NAME">
+                    <Text>Basis-Kosten für Kultur</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_25_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 25 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_50_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 50 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_75_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 75 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_100_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre regulären [ICON_CULTURE] Kulturkosten.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_125_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 125 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_150_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 150 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_175_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 175 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_200_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 200 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_225_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 225 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_250_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 250 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_275_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 275 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_300_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 300 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_350_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 350 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_400_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 400 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_450_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 450 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_500_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_600_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 600 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_700_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 700 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_800_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 800 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_900_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 900 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_1000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 1000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_1250_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 1250 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_1500_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 1500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_1750_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 1750 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_2000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 2000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_2500_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 2500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_3000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 3000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_4000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 4000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_5000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 5000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_NAME">
+                    <Text>Technologie-Kosten-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_NONE_NAME">
+                    <Text>Keine Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_NONE_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nicht skaliert und nur durch die oben festgelegten Basis-Technologiekosten beeinflusst.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_LOW_NAME">
+                    <Text>Niedrige Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_LOW_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten leicht nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 115 %[NEWLINE]Renaissance: 120 %[NEWLINE]Industriezeitalter: 125 %[NEWLINE]Moderne Zeitalter: 130 %[NEWLINE]Atomzeitalter: 138 %[NEWLINE]Informationszeitalter: 145 %[NEWLINE]Zukunftszeitalter: 150 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_MODERATE_NAME">
+                    <Text>Moderat hohe Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_MODERATE_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten mäßig nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 120 %[NEWLINE]Renaissance: 135 %[NEWLINE]Industriezeitalter: 145 %[NEWLINE]Moderne Zeitalter: 158 %[NEWLINE]Atomzeitalter: 170 %[NEWLINE]Informationszeitalter: 180 %[NEWLINE]Zukunftszeitalter: 190 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_HIGH_NAME">
+                    <Text>Hohe Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_HIGH_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten stark nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 120 %[NEWLINE]Mittelalter: 140 %[NEWLINE]Renaissance: 160 %[NEWLINE]Industriezeitalter: 180 %[NEWLINE]Moderne Zeitalter: 200 %[NEWLINE]Atomzeitalter: 230 %[NEWLINE]Informationszeitalter: 260 %[NEWLINE]Zukunftszeitalter: 290 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_EXTREME_NAME">
+                    <Text>Extreme Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_EXTREME_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten extrem nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 130 %[NEWLINE]Mittelalter: 170 %[NEWLINE]Renaissance: 220 %[NEWLINE]Industriezeitalter: 260 %[NEWLINE]Moderne Zeitalter: 320 %[NEWLINE]Atomzeitalter: 400 %[NEWLINE]Informationszeitalter: 460 %[NEWLINE]Zukunftszeitalter: 550 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_NAME">
+                    <Text>Kulturkosten-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_NONE_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nicht skaliert und nur durch die oben festgelegten Basis-Kulturkosten beeinflusst.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_LOW_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten leicht nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 115 %[NEWLINE]Renaissance: 120 %[NEWLINE]Industriezeitalter: 125 %[NEWLINE]Moderne Zeitalter: 130 %[NEWLINE]Atomzeitalter: 138 %[NEWLINE]Informationszeitalter: 145 %[NEWLINE]Zukunftszeitalter: 150 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_MODERATE_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten mäßig nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 120 %[NEWLINE]Renaissance: 135 %[NEWLINE]Industriezeitalter: 145 %[NEWLINE]Moderne Zeitalter: 158 %[NEWLINE]Atomzeitalter: 170 %[NEWLINE]Informationszeitalter: 180 %[NEWLINE]Zukunftszeitalter: 190 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_HIGH_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten stark nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 120 %[NEWLINE]Mittelalter: 140 %[NEWLINE]Renaissance: 160 %[NEWLINE]Industriezeitalter: 180 %[NEWLINE]Moderne Zeitalter: 200 %[NEWLINE]Atomzeitalter: 230 %[NEWLINE]Informationszeitalter: 260 %[NEWLINE]Zukunftszeitalter: 290 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_EXTREME_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten extrem nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 130 %[NEWLINE]Mittelalter: 170 %[NEWLINE]Renaissance: 220 %[NEWLINE]Industriezeitalter: 260 %[NEWLINE]Moderne Zeitalter: 320 %[NEWLINE]Atomzeitalter: 400 %[NEWLINE]Informationszeitalter: 460 %[NEWLINE]Zukunftszeitalter: 550 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_NAME">
+                    <Text>Eureka-Betrag</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_5_NAME">
+                    <Text>5 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_5_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 5 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 15 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_10_NAME">
+                    <Text>10 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_10_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 10 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 20 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_15_NAME">
+                    <Text>15 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_1750_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 1750 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_2000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 2000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_2500_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 2500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_3000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 3000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_4000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 4000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_5000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 5000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_NAME">
+                    <Text>Technologie-Kosten-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_NONE_NAME">
+                    <Text>Keine Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_NONE_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nicht skaliert und nur durch die oben festgelegten Basis-Technologiekosten beeinflusst.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_LOW_NAME">
+                    <Text>Niedrige Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_LOW_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten leicht nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 115 %[NEWLINE]Renaissance: 120 %[NEWLINE]Industriezeitalter: 125 %[NEWLINE]Moderne Zeitalter: 130 %[NEWLINE]Atomzeitalter: 138 %[NEWLINE]Informationszeitalter: 145 %[NEWLINE]Zukunftszeitalter: 150 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_MODERATE_NAME">
+                    <Text>Moderat hohe Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_MODERATE_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten mäßig nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 120 %[NEWLINE]Renaissance: 135 %[NEWLINE]Industriezeitalter: 145 %[NEWLINE]Moderne Zeitalter: 158 %[NEWLINE]Atomzeitalter: 170 %[NEWLINE]Informationszeitalter: 180 %[NEWLINE]Zukunftszeitalter: 190 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_HIGH_NAME">
+                    <Text>Hohe Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_HIGH_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten stark nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 120 %[NEWLINE]Mittelalter: 140 %[NEWLINE]Renaissance: 160 %[NEWLINE]Industriezeitalter: 180 %[NEWLINE]Moderne Zeitalter: 200 %[NEWLINE]Atomzeitalter: 230 %[NEWLINE]Informationszeitalter: 260 %[NEWLINE]Zukunftszeitalter: 290 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_EXTREME_NAME">
+                    <Text>Extreme Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_EXTREME_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten extrem nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 130 %[NEWLINE]Mittelalter: 170 %[NEWLINE]Renaissance: 220 %[NEWLINE]Industriezeitalter: 260 %[NEWLINE]Moderne Zeitalter: 320 %[NEWLINE]Atomzeitalter: 400 %[NEWLINE]Informationszeitalter: 460 %[NEWLINE]Zukunftszeitalter: 550 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_NAME">
+                    <Text>Kulturkosten-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_NONE_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nicht skaliert und nur durch die oben festgelegten Basis-Kulturkosten beeinflusst.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_LOW_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten leicht nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 115 %[NEWLINE]Renaissance: 120 %[NEWLINE]Industriezeitalter: 125 %[NEWLINE]Moderne Zeitalter: 130 %[NEWLINE]Atomzeitalter: 138 %[NEWLINE]Informationszeitalter: 145 %[NEWLINE]Zukunftszeitalter: 150 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_MODERATE_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten mäßig nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 120 %[NEWLINE]Renaissance: 135 %[NEWLINE]Industriezeitalter: 145 %[NEWLINE]Moderne Zeitalter: 158 %[NEWLINE]Atomzeitalter: 170 %[NEWLINE]Informationszeitalter: 180 %[NEWLINE]Zukunftszeitalter: 190 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_HIGH_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten stark nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 120 %[NEWLINE]Mittelalter: 140 %[NEWLINE]Renaissance: 160 %[NEWLINE]Industriezeitalter: 180 %[NEWLINE]Moderne Zeitalter: 200 %[NEWLINE]Atomzeitalter: 230 %[NEWLINE]Informationszeitalter: 260 %[NEWLINE]Zukunftszeitalter: 290 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_EXTREME_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten extrem nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 130 %[NEWLINE]Mittelalter: 170 %[NEWLINE]Renaissance: 220 %[NEWLINE]Industriezeitalter: 260 %[NEWLINE]Moderne Zeitalter: 320 %[NEWLINE]Atomzeitalter: 400 %[NEWLINE]Informationszeitalter: 460 %[NEWLINE]Zukunftszeitalter: 550 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_NAME">
+                    <Text>Eureka-Betrag</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_5_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 5 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 15 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_10_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 10 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 20 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_15_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 15 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 25 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_20_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 20 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 30 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_25_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 25 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 35 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_33_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 33 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 43 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_40_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 40 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 50 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_50_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 50 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 60 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_67_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 67 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 77 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_75_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 75 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 85 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_85_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 85 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 95 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_100_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 100 % der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Technologie-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält ebenfalls 100 % der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_NAME">
+                    <Text>Inspiration-Betrag</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_5_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 5 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 15 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_10_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 10 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 20 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_15_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 15 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 25 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_20_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 20 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 30 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_1750_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 1750 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_2000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 2000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_2500_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 2500 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_3000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 3000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_4000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 4000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_BASE_CIVIC_5000_DESCRIPTION">
+                    <Text>Alle Kulturen im Spiel haben ihre [ICON_CULTURE] Kulturkosten auf 5000 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_NAME">
+                    <Text>Technologie-Kosten-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_NONE_NAME">
+                    <Text>Keine Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_NONE_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nicht skaliert und nur durch die oben festgelegten Basis-Technologiekosten beeinflusst.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_LOW_NAME">
+                    <Text>Niedrige Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_LOW_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten leicht nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 115 %[NEWLINE]Renaissance: 120 %[NEWLINE]Industriezeitalter: 125 %[NEWLINE]Moderne Zeitalter: 130 %[NEWLINE]Atomzeitalter: 138 %[NEWLINE]Informationszeitalter: 145 %[NEWLINE]Zukunftszeitalter: 150 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_MODERATE_NAME">
+                    <Text>Moderat hohe Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_MODERATE_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten mäßig nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 120 %[NEWLINE]Renaissance: 135 %[NEWLINE]Industriezeitalter: 145 %[NEWLINE]Moderne Zeitalter: 158 %[NEWLINE]Atomzeitalter: 170 %[NEWLINE]Informationszeitalter: 180 %[NEWLINE]Zukunftszeitalter: 190 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_HIGH_NAME">
+                    <Text>Hohe Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_HIGH_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten stark nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 120 %[NEWLINE]Mittelalter: 140 %[NEWLINE]Renaissance: 160 %[NEWLINE]Industriezeitalter: 180 %[NEWLINE]Moderne Zeitalter: 200 %[NEWLINE]Atomzeitalter: 230 %[NEWLINE]Informationszeitalter: 260 %[NEWLINE]Zukunftszeitalter: 290 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_ERA_EXTREME_NAME">
+                    <Text>Extreme Zeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_TECH_ERA_EXTREME_DESCRIPTION">
+                    <Text>Die [ICON_SCIENCE] Wissenschaftskosten für Technologien werden nach Anwendung der Basis-Technologiekosten extrem nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 130 %[NEWLINE]Mittelalter: 170 %[NEWLINE]Renaissance: 220 %[NEWLINE]Industriezeitalter: 260 %[NEWLINE]Moderne Zeitalter: 320 %[NEWLINE]Atomzeitalter: 400 %[NEWLINE]Informationszeitalter: 460 %[NEWLINE]Zukunftszeitalter: 550 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_NAME">
+                    <Text>Kulturkosten-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_NONE_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nicht skaliert und nur durch die oben festgelegten Basis-Kulturkosten beeinflusst.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_LOW_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten leicht nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 115 %[NEWLINE]Renaissance: 120 %[NEWLINE]Industriezeitalter: 125 %[NEWLINE]Moderne Zeitalter: 130 %[NEWLINE]Atomzeitalter: 138 %[NEWLINE]Informationszeitalter: 145 %[NEWLINE]Zukunftszeitalter: 150 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_MODERATE_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten mäßig nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 110 %[NEWLINE]Mittelalter: 120 %[NEWLINE]Renaissance: 135 %[NEWLINE]Industriezeitalter: 145 %[NEWLINE]Moderne Zeitalter: 158 %[NEWLINE]Atomzeitalter: 170 %[NEWLINE]Informationszeitalter: 180 %[NEWLINE]Zukunftszeitalter: 190 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_HIGH_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten stark nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 120 %[NEWLINE]Mittelalter: 140 %[NEWLINE]Renaissance: 160 %[NEWLINE]Industriezeitalter: 180 %[NEWLINE]Moderne Zeitalter: 200 %[NEWLINE]Atomzeitalter: 230 %[NEWLINE]Informationszeitalter: 260 %[NEWLINE]Zukunftszeitalter: 290 %</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_COST_SCALING_CIVIC_ERA_EXTREME_DESCRIPTION">
+                    <Text>Die [ICON_CULTURE] Kulturkosten für Kulturen werden nach Anwendung der Basis-Kulturkosten extrem nach Zeitalter skaliert.[NEWLINE]Klassische Zeitalter: 130 %[NEWLINE]Mittelalter: 170 %[NEWLINE]Renaissance: 220 %[NEWLINE]Industriezeitalter: 260 %[NEWLINE]Moderne Zeitalter: 320 %[NEWLINE]Atomzeitalter: 400 %[NEWLINE]Informationszeitalter: 460 %[NEWLINE]Zukunftszeitalter: 550 %</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_BOOST_TECH_NAME">
+                    <Text>Eureka-Menge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_5_NAME">
+                    <Text>5%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_5_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 5% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 15% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_10_NAME">
+                    <Text>10%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_10_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 10% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 20% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_15_NAME">
+                    <Text>15%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_15_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 15% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 25% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_20_NAME">
+                    <Text>20%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_20_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 20% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 30% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_25_NAME">
+                    <Text>25%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_25_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 25% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 35% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_33_NAME">
+                    <Text>33%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_33_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 33% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 43% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_40_NAME">
+                    <Text>40%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_40_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 40% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 50% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_50_NAME">
+                    <Text>50%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_50_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 50% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 60% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_67_NAME">
+                    <Text>67%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_67_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 67% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 77% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_75_NAME">
+                    <Text>75%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_75_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 75% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 85% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_85_NAME">
+                    <Text>85%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_85_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 85% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält 95% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_100_NAME">
+                    <Text>100%</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_100_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 100% der Technologiekosten nach Anwendung der Basis-Technologiekosten und der Skalierung der Technologiekosten wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China erhält ebenfalls 100% der Technologie.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_ORIGINAL_50_NAME">
+                    <Text>50% der ursprünglichen Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_ORIGINAL_50_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 50% der ursprünglichen Technologiekosten wert, bevor die Basis-Technologiekosten und die Skalierung der Technologiekosten angewendet wurden.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]Chinas Eureka-Bonus wird basierend auf den oben ausgewählten Basis-Technologiekosten skaliert.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_ORIGINAL_100_NAME">
+                    <Text>100% der ursprünglichen Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_TECH_ORIGINAL_100_DESCRIPTION">
+                    <Text>[ICON_TECHBOOSTED] Eurekas sind 100% der ursprünglichen Technologiekosten wert, bevor die Basis-Technologiekosten und die Skalierung der Technologiekosten angewendet wurden.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]Chinas Eureka-Bonus wird basierend auf den oben ausgewählten Basis-Technologiekosten skaliert.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_NAME">
+                    <Text>Inspiration-Betrag</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_5_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 5 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 15 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_10_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 10 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 20 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_15_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 15 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 25 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_20_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 20 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 30 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_25_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 25 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 35 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_33_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 33 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 43 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_40_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 40 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 50 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_50_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 50 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 60 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_67_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 67 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 77 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_75_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 75 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 85 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_85_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 85 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält 95 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_100_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 100 % der Kulturkosten nach Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China erhält ebenfalls 100 % der Kultur.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_ORIGINAL_50_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 50 % der ursprünglichen Kulturkosten vor Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]Chinas Inspirationsbonus wird basierend auf den oben ausgewählten Basis-Kulturkosten skaliert.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_BOOST_CIVIC_ORIGINAL_100_DESCRIPTION">
+                    <Text>[ICON_CIVICBOOSTED] Inspirationen sind 100 % der ursprünglichen Kulturkosten vor Anwendung der Basis-Kulturkosten und der Kultur-Kosten-Skalierung wert.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]Chinas Inspirationsbonus wird basierend auf den oben ausgewählten Basis-Kulturkosten skaliert.[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_NAME">
+                    <Text>Weltzeitalter-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_CALCULATED_NAME">
+                    <Text>Berechnet</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_CALCULATED_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlängen unter Verwendung der oben festgelegten Basis- und Skalierungskosten berechnet.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_25_NAME">
+                    <Text>x0.25 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_25_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlänge auf 25 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_50_NAME">
+                    <Text>x0.5 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_50_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlänge auf 50 % reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_100_NAME">
+                    <Text>x1 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_100_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre reguläre Rundenlänge.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_150_NAME">
+                    <Text>x1.5 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_150_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlänge auf 150 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_200_NAME">
+                    <Text>x2 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_200_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlänge auf 200 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_250_NAME">
+                    <Text>x2.5 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_250_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlänge auf 250 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_300_NAME">
+                    <Text>x3 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_300_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlänge auf 300 % erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_350_NAME">
+                    <Text>x3.5 Rundenlänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_350_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltzeitalter, die in Rise &amp; Fall eingeführt wurden, haben ihre Rundenlänge auf 350 % erhöht.</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_WORLD_ERA_350_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 350% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_400_NAME">
+                    <Text>x4 Zuglänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_400_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 400% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_500_NAME">
+                    <Text>x5 Zuglänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_500_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 500% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_600_NAME">
+                    <Text>x6 Zuglänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_600_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 600% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_700_NAME">
+                    <Text>x7 Zuglänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_700_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 700% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_800_NAME">
+                    <Text>x8 Zuglänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_800_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 800% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_900_NAME">
+                    <Text>x9 Zuglänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_900_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 900% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_1000_NAME">
+                    <Text>x10 Zuglänge</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_WORLD_ERA_1000_DESCRIPTION">
+                    <Text>[ICON_GLORY_GOLDEN_AGE] Weltenzeitalter, die in „Aufstieg und Fall“ eingeführt wurden, haben ihre Zuglänge auf 1000% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_NAME">
+                    <Text>Zeitalter-Punkteskalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_CALCULATED_NAME">
+                    <Text>Berechnet</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_CALCULATED_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die erforderlich ist, um normale und goldene Zeitalter zu erreichen, wird anhand der oben ausgewählten Basis- und Skalierungskosten berechnet.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_25_NAME">
+                    <Text>x0.25 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_25_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die erforderlich ist, um normale und goldene Zeitalter zu erreichen, wird auf 25% reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_50_NAME">
+                    <Text>x0.5 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_50_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die erforderlich ist, um normale und goldene Zeitalter zu erreichen, wird auf 50% reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_100_NAME">
+                    <Text>x1 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_100_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die erforderlich ist, um normale und goldene Zeitalter zu erreichen, bleibt unverändert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_120_NAME">
+                    <Text>x1.2 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_120_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die erforderlich ist, um normale und goldene Zeitalter zu erreichen, wird auf 120% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_140_NAME">
+                    <Text>x1.4 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_140_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die erforderlich ist, um normale und goldene Zeitalter zu erreichen, wird auf 140% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_150_NAME">
+                    <Text>x1.5 Punktanforderung</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_150_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 150% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_175_NAME">
+                    <Text>x1,75 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_175_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 175% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_200_NAME">
+                    <Text>x2 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_200_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 200% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_300_NAME">
+                    <Text>x3 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_300_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 300% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_400_NAME">
+                    <Text>x4 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_400_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 400% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_500_NAME">
+                    <Text>x5 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_500_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 500% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_600_NAME">
+                    <Text>x6 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_600_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 600% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_700_NAME">
+                    <Text>x7 Punktanforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_ERA_SCORE_SCALING_700_DESCRIPTION">
+                    <Text>Die Menge an [ICON_GLORY_NORMAL_AGE] Zeitalter-Punkten, die benötigt wird, um normale und goldene Zeitalter zu erreichen, wird auf 700% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_NAME">
+                    <Text>CO2-Skalierung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_CALCULATED_NAME">
+                    <Text>Berechnet</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_CALCULATED_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird unter Verwendung der oben ausgewählten Basis- und Skalierungskosten berechnet.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_25_NAME">
+                    <Text>x0,25 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_25_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 25% reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_50_NAME">
+                    <Text>x0,5 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_50_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 50% reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_100_NAME">
+                    <Text>x1 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_100_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, bleibt unverändert.</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_120_NAME">
+                    <Text>x1,2 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_120_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 120% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_140_NAME">
+                    <Text>x1,4 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_140_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 140% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_150_NAME">
+                    <Text>x1,5 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_150_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 150% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_175_NAME">
+                    <Text>x1,75 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_175_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 175% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_200_NAME">
+                    <Text>x2 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_200_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 200% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_300_NAME">
+                    <Text>x3 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_300_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 300% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_400_NAME">
+                    <Text>x4 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_400_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 400% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_500_NAME">
+                    <Text>x5 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_500_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 500% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_600_NAME">
+                    <Text>x6 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_600_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 600% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_700_NAME">
+                    <Text>x7 CO2-Anforderung</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_CLIMATE_CHANGE_SCALING_700_DESCRIPTION">
+                    <Text>Die Menge an Emissionen, die benötigt wird, um eine Änderung der Temperatur zu verursachen, wird auf 700% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_NAME">
+                    <Text>Kosten für große Persönlichkeiten</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_CALCULATED_NAME">
+                    <Text>Berechnet</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_CALCULATED_DESCRIPTION">
+                    <Text>Die Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden unter Verwendung der oben ausgewählten Basis- und Skalierungskosten berechnet.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_25_NAME">
+                    <Text>x0,25 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_25_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 25% reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_50_NAME">
+                    <Text>x0,5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_50_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 50% reduziert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_100_NAME">
+                    <Text>x1 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_100_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit bleiben unverändert.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_150_NAME">
+                    <Text>x1,5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_150_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 150% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_200_NAME">
+                    <Text>x2 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_200_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 200% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_250_NAME">
+                    <Text>x2,5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_250_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 250% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_300_NAME">
+                    <Text>x3 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_300_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 300% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_350_NAME">
+                    <Text>x3,5 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_350_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 350% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_400_NAME">
+                    <Text>x4 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_400_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 400% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_500_NAME">
+                    <Text>x5 Basis-Kosten</Text>
+                </Replace>
+        		<Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_500_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 500% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_600_NAME">
+                    <Text>x6 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_600_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 600% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_700_NAME">
+                    <Text>x7 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_700_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 700% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_800_NAME">
+                    <Text>x8 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_800_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 800% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_900_NAME">
+                    <Text>x9 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_900_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 900% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_1000_NAME">
+                    <Text>x10 Basis-Kosten</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_GREAT_PERSON_COST_1000_DESCRIPTION">
+                    <Text>Die Basis-Kosten für die Rekrutierung einer [ICON_GREATPERSON] Großen Persönlichkeit werden auf 1000% erhöht.</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_TYT_HEADER_NAME">
+                    <Text>[COLOR_Culture]Take your Time Ultimate Settings[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_TYT_HEADER_DESCRIPTION">
+                    <Text>Take your Time Ultimate Version 5 von joshmanisdabomb</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_TYT_FOOTER_1_NAME">
+                    <Text>[COLOR_Culture]Take your Time Ultimate Ende[ENDCOLOR]</Text>
+                </Replace>
+                <Replace Language="de_DE" Tag="LOC_TYT_FOOTER_1_DESCRIPTION">
+                    <Text>Diese gefälschte Option dient als Auffüllung für die obigen Dropdown-Menüs, um fast alle ihre Werte anzuzeigen![NEWLINE]Es ist Qualität wie [COLOR_RED]dies[ENDCOLOR], die nur Take your Time Ultimate bieten kann.</Text>
+                </Replace>
+    </LocalizedText>
+</GameData>

@@ -1,0 +1,2709 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--Built by Take your Time Generator at 23:19 23/08/2020-->
+<Mod id="05eb2603-db5a-4cf5-ae5f-50c40cf2ff0f" version="5">
+    <Properties>
+        <Name>Take your Time Ultimate - Slower Research Trees</Name>
+        <Description>This is the definitive edition of Take your Time. At the start of the game, under Advanced Options, you can change the base cost multiplier of each research tree and choose how the cost scales up each era.[NEWLINE][NEWLINE]You can also customise boost percentages, select the cost modifier of Great People and change the length of eras from Rise &amp; Fall.</Description>
+        <Created>1595627848</Created>
+        <Teaser>Slower research trees by base cost and era, boost percentages, great people scaling and more.</Teaser>
+        <Author>joshmanisdabomb</Author>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <ActionCriteria>
+        <Criteria id="TYTTechBase25">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase50">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase75">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>75</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase125">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>125</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase150">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase175">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>175</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase200">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase225">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>225</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase250">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>250</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase275">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>275</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase300">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase350">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>350</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase400">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase450">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>450</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase500">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase600">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase700">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase800">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>800</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase900">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>900</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase1000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase1250">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1250</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase1500">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase1750">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1750</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase2000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>2000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase2500">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>2500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase3000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>3000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase4000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>4000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBase5000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>5000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase25">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase50">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase75">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>75</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase125">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>125</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase150">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase175">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>175</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase200">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase225">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>225</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase250">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>250</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase275">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>275</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase300">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase350">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>350</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase400">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase450">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>450</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase500">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase600">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase700">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase800">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>800</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase900">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>900</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase1000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase1250">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1250</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase1500">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase1750">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1750</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase2000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>2000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase2500">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>2500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase3000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>3000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase4000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>4000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBase5000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_BASE_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>5000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechScalingEraLow">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>101</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechScalingEraModerate">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>102</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechScalingEraHigh">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>103</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechScalingEraExtreme">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>104</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicScalingEraLow">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>101</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicScalingEraModerate">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>102</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicScalingEraHigh">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>103</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicScalingEraExtreme">
+            <ConfigurationValueMatches>
+                <ConfigurationId>COST_SCALING_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>104</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost5">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>5</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost10">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>10</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost15">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>15</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost20">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>20</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost25">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost33">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>33</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost40">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>40</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost50">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost67">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>67</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost75">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>75</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost85">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>85</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoost100">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>100</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoostOriginal50">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>ORIGINAL_50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTTechBoostOriginal100">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_TECH</ConfigurationId>
+                <Group>Game</Group>
+                <Value>ORIGINAL_100</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost5">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>5</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost10">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>10</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost15">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>15</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost20">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>20</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost25">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost33">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>33</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost40">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>40</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost50">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost67">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>67</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost75">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>75</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost85">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>85</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoost100">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>100</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoostOriginal50">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>ORIGINAL_50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTCivicBoostOriginal100">
+            <ConfigurationValueMatches>
+                <ConfigurationId>BOOST_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>ORIGINAL_100</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScalingCalculated_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>CALCULATED</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScalingCalculated_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>CALCULATED</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling25_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling25_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling50_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling50_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling150_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling150_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling200_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling200_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling250_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>250</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling250_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>250</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling300_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling300_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling350_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>350</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling350_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>350</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling400_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling400_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling500_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling500_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling600_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling600_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling700_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling700_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling800_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>800</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling800_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>800</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling900_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>900</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling900_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>900</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling1000_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTWorldEraScaling1000_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>WORLD_ERA</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScalingCalculated_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>CALCULATED</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScalingCalculated_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>CALCULATED</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling25_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling25_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling50_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling50_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling120_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>120</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling120_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>120</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling140_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>140</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling140_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>140</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling150_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling150_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling175_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>175</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling175_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>175</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling200_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling200_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling300_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling300_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling400_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling400_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling500_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling500_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling600_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling600_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling700_ex1">
+            <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTEraScoreScaling700_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>ERA_SCORE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScalingCalculated_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>CALCULATED</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling25_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling50_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling120_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>120</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling140_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>140</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling150_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling175_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>175</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling200_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling300_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling400_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling500_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling600_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTClimateChangeScaling700_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>CLIMATE_CHANGE_SCALING</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScalingCalculated">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>CALCULATED</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling25">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling50">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling150">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>150</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling200">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>200</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling250">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>250</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling300">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>300</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling350">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>350</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling400">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>400</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling500">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>500</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling600">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>600</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling700">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>700</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling800">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>800</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling900">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>900</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="TYTGreatPersonScaling1000">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GREAT_PERSON_COST</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1000</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+    </ActionCriteria>
+    <FrontEndActions>
+        <UpdateText id="TYTText">
+            <File>Text.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="TYTSetup">
+            <File>Setup.xml</File>
+        </UpdateDatabase>
+    </FrontEndActions>
+    <InGameActions>
+        <UpdateDatabase id="TYTTechBase25">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase25</Criteria>
+            <File>SQL/Tech/Base/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase50">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase50</Criteria>
+            <File>SQL/Tech/Base/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase75">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase75</Criteria>
+            <File>SQL/Tech/Base/75.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase125">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase125</Criteria>
+            <File>SQL/Tech/Base/125.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase150">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase150</Criteria>
+            <File>SQL/Tech/Base/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase175">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase175</Criteria>
+            <File>SQL/Tech/Base/175.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase200">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase200</Criteria>
+            <File>SQL/Tech/Base/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase225">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase225</Criteria>
+            <File>SQL/Tech/Base/225.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase250">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase250</Criteria>
+            <File>SQL/Tech/Base/250.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase275">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase275</Criteria>
+            <File>SQL/Tech/Base/275.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase300">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase300</Criteria>
+            <File>SQL/Tech/Base/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase350">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase350</Criteria>
+            <File>SQL/Tech/Base/350.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase400">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase400</Criteria>
+            <File>SQL/Tech/Base/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase450">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase450</Criteria>
+            <File>SQL/Tech/Base/450.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase500">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase500</Criteria>
+            <File>SQL/Tech/Base/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase600">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase600</Criteria>
+            <File>SQL/Tech/Base/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase700">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase700</Criteria>
+            <File>SQL/Tech/Base/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase800">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase800</Criteria>
+            <File>SQL/Tech/Base/800.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase900">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase900</Criteria>
+            <File>SQL/Tech/Base/900.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase1000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase1000</Criteria>
+            <File>SQL/Tech/Base/1000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase1250">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase1250</Criteria>
+            <File>SQL/Tech/Base/1250.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase1500">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase1500</Criteria>
+            <File>SQL/Tech/Base/1500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase1750">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase1750</Criteria>
+            <File>SQL/Tech/Base/1750.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase2000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase2000</Criteria>
+            <File>SQL/Tech/Base/2000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase2500">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase2500</Criteria>
+            <File>SQL/Tech/Base/2500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase3000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase3000</Criteria>
+            <File>SQL/Tech/Base/3000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase4000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase4000</Criteria>
+            <File>SQL/Tech/Base/4000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBase5000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBase5000</Criteria>
+            <File>SQL/Tech/Base/5000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase25">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase25</Criteria>
+            <File>SQL/Civic/Base/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase50">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase50</Criteria>
+            <File>SQL/Civic/Base/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase75">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase75</Criteria>
+            <File>SQL/Civic/Base/75.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase125">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase125</Criteria>
+            <File>SQL/Civic/Base/125.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase150">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase150</Criteria>
+            <File>SQL/Civic/Base/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase175">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase175</Criteria>
+            <File>SQL/Civic/Base/175.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase200">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase200</Criteria>
+            <File>SQL/Civic/Base/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase225">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase225</Criteria>
+            <File>SQL/Civic/Base/225.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase250">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase250</Criteria>
+            <File>SQL/Civic/Base/250.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase275">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase275</Criteria>
+            <File>SQL/Civic/Base/275.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase300">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase300</Criteria>
+            <File>SQL/Civic/Base/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase350">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase350</Criteria>
+            <File>SQL/Civic/Base/350.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase400">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase400</Criteria>
+            <File>SQL/Civic/Base/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase450">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase450</Criteria>
+            <File>SQL/Civic/Base/450.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase500">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase500</Criteria>
+            <File>SQL/Civic/Base/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase600">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase600</Criteria>
+            <File>SQL/Civic/Base/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase700">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase700</Criteria>
+            <File>SQL/Civic/Base/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase800">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase800</Criteria>
+            <File>SQL/Civic/Base/800.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase900">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase900</Criteria>
+            <File>SQL/Civic/Base/900.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase1000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase1000</Criteria>
+            <File>SQL/Civic/Base/1000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase1250">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase1250</Criteria>
+            <File>SQL/Civic/Base/1250.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase1500">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase1500</Criteria>
+            <File>SQL/Civic/Base/1500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase1750">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase1750</Criteria>
+            <File>SQL/Civic/Base/1750.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase2000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase2000</Criteria>
+            <File>SQL/Civic/Base/2000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase2500">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase2500</Criteria>
+            <File>SQL/Civic/Base/2500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase3000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase3000</Criteria>
+            <File>SQL/Civic/Base/3000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase4000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase4000</Criteria>
+            <File>SQL/Civic/Base/4000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBase5000">
+            <Properties>
+                <LoadOrder>20000</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBase5000</Criteria>
+            <File>SQL/Civic/Base/5000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechScalingEraLow">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechScalingEraLow</Criteria>
+            <File>SQL/Tech/Scaling/Era/Low.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechScalingEraModerate">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechScalingEraModerate</Criteria>
+            <File>SQL/Tech/Scaling/Era/Moderate.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechScalingEraHigh">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechScalingEraHigh</Criteria>
+            <File>SQL/Tech/Scaling/Era/High.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechScalingEraExtreme">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechScalingEraExtreme</Criteria>
+            <File>SQL/Tech/Scaling/Era/Extreme.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicScalingEraLow">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicScalingEraLow</Criteria>
+            <File>SQL/Civic/Scaling/Era/Low.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicScalingEraModerate">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicScalingEraModerate</Criteria>
+            <File>SQL/Civic/Scaling/Era/Moderate.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicScalingEraHigh">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicScalingEraHigh</Criteria>
+            <File>SQL/Civic/Scaling/Era/High.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicScalingEraExtreme">
+            <Properties>
+                <LoadOrder>20001</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicScalingEraExtreme</Criteria>
+            <File>SQL/Civic/Scaling/Era/Extreme.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost5">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost5</Criteria>
+            <File>SQL/Tech/Boost/5.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost10">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost10</Criteria>
+            <File>SQL/Tech/Boost/10.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost15">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost15</Criteria>
+            <File>SQL/Tech/Boost/15.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost20">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost20</Criteria>
+            <File>SQL/Tech/Boost/20.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost25">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost25</Criteria>
+            <File>SQL/Tech/Boost/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost33">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost33</Criteria>
+            <File>SQL/Tech/Boost/33.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost40">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost40</Criteria>
+            <File>SQL/Tech/Boost/40.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost50">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost50</Criteria>
+            <File>SQL/Tech/Boost/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost67">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost67</Criteria>
+            <File>SQL/Tech/Boost/67.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost75">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost75</Criteria>
+            <File>SQL/Tech/Boost/75.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost85">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost85</Criteria>
+            <File>SQL/Tech/Boost/85.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoost100">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoost100</Criteria>
+            <File>SQL/Tech/Boost/100.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoostOriginal50">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoostOriginal50</Criteria>
+            <File>SQL/Tech/Boost/Original50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTTechBoostOriginal100">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTTechBoostOriginal100</Criteria>
+            <File>SQL/Tech/Boost/Original100.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost5">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost5</Criteria>
+            <File>SQL/Civic/Boost/5.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost10">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost10</Criteria>
+            <File>SQL/Civic/Boost/10.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost15">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost15</Criteria>
+            <File>SQL/Civic/Boost/15.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost20">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost20</Criteria>
+            <File>SQL/Civic/Boost/20.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost25">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost25</Criteria>
+            <File>SQL/Civic/Boost/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost33">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost33</Criteria>
+            <File>SQL/Civic/Boost/33.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost40">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost40</Criteria>
+            <File>SQL/Civic/Boost/40.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost50">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost50</Criteria>
+            <File>SQL/Civic/Boost/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost67">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost67</Criteria>
+            <File>SQL/Civic/Boost/67.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost75">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost75</Criteria>
+            <File>SQL/Civic/Boost/75.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost85">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost85</Criteria>
+            <File>SQL/Civic/Boost/85.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoost100">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoost100</Criteria>
+            <File>SQL/Civic/Boost/100.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoostOriginal50">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoostOriginal50</Criteria>
+            <File>SQL/Civic/Boost/Original50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTCivicBoostOriginal100">
+            <Properties>
+                <LoadOrder>20002</LoadOrder>
+            </Properties>
+            <Criteria>TYTCivicBoostOriginal100</Criteria>
+            <File>SQL/Civic/Boost/Original100.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScalingCalculated_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScalingCalculated_ex1</Criteria>
+            <File>SQL/WorldEra/Calculated.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScalingCalculated_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScalingCalculated_ex2</Criteria>
+            <File>SQL/WorldEra/Calculated.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling25_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling25_ex1</Criteria>
+            <File>SQL/WorldEra/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling25_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling25_ex2</Criteria>
+            <File>SQL/WorldEra/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling50_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling50_ex1</Criteria>
+            <File>SQL/WorldEra/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling50_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling50_ex2</Criteria>
+            <File>SQL/WorldEra/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling150_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling150_ex1</Criteria>
+            <File>SQL/WorldEra/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling150_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling150_ex2</Criteria>
+            <File>SQL/WorldEra/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling200_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling200_ex1</Criteria>
+            <File>SQL/WorldEra/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling200_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling200_ex2</Criteria>
+            <File>SQL/WorldEra/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling250_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling250_ex1</Criteria>
+            <File>SQL/WorldEra/250.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling250_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling250_ex2</Criteria>
+            <File>SQL/WorldEra/250.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling300_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling300_ex1</Criteria>
+            <File>SQL/WorldEra/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling300_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling300_ex2</Criteria>
+            <File>SQL/WorldEra/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling350_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling350_ex1</Criteria>
+            <File>SQL/WorldEra/350.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling350_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling350_ex2</Criteria>
+            <File>SQL/WorldEra/350.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling400_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling400_ex1</Criteria>
+            <File>SQL/WorldEra/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling400_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling400_ex2</Criteria>
+            <File>SQL/WorldEra/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling500_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling500_ex1</Criteria>
+            <File>SQL/WorldEra/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling500_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling500_ex2</Criteria>
+            <File>SQL/WorldEra/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling600_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling600_ex1</Criteria>
+            <File>SQL/WorldEra/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling600_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling600_ex2</Criteria>
+            <File>SQL/WorldEra/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling700_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling700_ex1</Criteria>
+            <File>SQL/WorldEra/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling700_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling700_ex2</Criteria>
+            <File>SQL/WorldEra/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling800_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling800_ex1</Criteria>
+            <File>SQL/WorldEra/800.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling800_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling800_ex2</Criteria>
+            <File>SQL/WorldEra/800.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling900_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling900_ex1</Criteria>
+            <File>SQL/WorldEra/900.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling900_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling900_ex2</Criteria>
+            <File>SQL/WorldEra/900.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling1000_ex1">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling1000_ex1</Criteria>
+            <File>SQL/WorldEra/1000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTWorldEraScaling1000_ex2">
+            <Properties>
+                <LoadOrder>20003</LoadOrder>
+            </Properties>
+            <Criteria>TYTWorldEraScaling1000_ex2</Criteria>
+            <File>SQL/WorldEra/1000.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScalingCalculated_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScalingCalculated_ex1</Criteria>
+            <File>SQL/EraScore/Calculated.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScalingCalculated_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScalingCalculated_ex2</Criteria>
+            <File>SQL/EraScore/Calculated.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling25_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling25_ex1</Criteria>
+            <File>SQL/EraScore/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling25_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling25_ex2</Criteria>
+            <File>SQL/EraScore/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling50_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling50_ex1</Criteria>
+            <File>SQL/EraScore/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling50_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling50_ex2</Criteria>
+            <File>SQL/EraScore/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling120_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling120_ex1</Criteria>
+            <File>SQL/EraScore/120.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling120_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling120_ex2</Criteria>
+            <File>SQL/EraScore/120.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling140_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling140_ex1</Criteria>
+            <File>SQL/EraScore/140.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling140_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling140_ex2</Criteria>
+            <File>SQL/EraScore/140.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling150_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling150_ex1</Criteria>
+            <File>SQL/EraScore/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling150_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling150_ex2</Criteria>
+            <File>SQL/EraScore/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling175_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling175_ex1</Criteria>
+            <File>SQL/EraScore/175.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling175_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling175_ex2</Criteria>
+            <File>SQL/EraScore/175.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling200_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling200_ex1</Criteria>
+            <File>SQL/EraScore/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling200_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling200_ex2</Criteria>
+            <File>SQL/EraScore/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling300_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling300_ex1</Criteria>
+            <File>SQL/EraScore/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling300_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling300_ex2</Criteria>
+            <File>SQL/EraScore/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling400_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling400_ex1</Criteria>
+            <File>SQL/EraScore/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling400_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling400_ex2</Criteria>
+            <File>SQL/EraScore/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling500_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling500_ex1</Criteria>
+            <File>SQL/EraScore/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling500_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling500_ex2</Criteria>
+            <File>SQL/EraScore/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling600_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling600_ex1</Criteria>
+            <File>SQL/EraScore/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling600_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling600_ex2</Criteria>
+            <File>SQL/EraScore/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling700_ex1">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling700_ex1</Criteria>
+            <File>SQL/EraScore/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTEraScoreScaling700_ex2">
+            <Properties>
+                <LoadOrder>20005</LoadOrder>
+            </Properties>
+            <Criteria>TYTEraScoreScaling700_ex2</Criteria>
+            <File>SQL/EraScore/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScalingCalculated_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScalingCalculated_ex2</Criteria>
+            <File>SQL/Climate/Calculated.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling25_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling25_ex2</Criteria>
+            <File>SQL/Climate/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling50_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling50_ex2</Criteria>
+            <File>SQL/Climate/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling120_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling120_ex2</Criteria>
+            <File>SQL/Climate/120.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling140_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling140_ex2</Criteria>
+            <File>SQL/Climate/140.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling150_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling150_ex2</Criteria>
+            <File>SQL/Climate/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling175_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling175_ex2</Criteria>
+            <File>SQL/Climate/175.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling200_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling200_ex2</Criteria>
+            <File>SQL/Climate/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling300_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling300_ex2</Criteria>
+            <File>SQL/Climate/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling400_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling400_ex2</Criteria>
+            <File>SQL/Climate/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling500_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling500_ex2</Criteria>
+            <File>SQL/Climate/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling600_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling600_ex2</Criteria>
+            <File>SQL/Climate/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTClimateChangeScaling700_ex2">
+            <Properties>
+                <LoadOrder>20006</LoadOrder>
+            </Properties>
+            <Criteria>TYTClimateChangeScaling700_ex2</Criteria>
+            <File>SQL/Climate/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScalingCalculated">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScalingCalculated</Criteria>
+            <File>SQL/GreatPeople/Calculated.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling25">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling25</Criteria>
+            <File>SQL/GreatPeople/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling50">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling50</Criteria>
+            <File>SQL/GreatPeople/50.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling150">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling150</Criteria>
+            <File>SQL/GreatPeople/150.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling200">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling200</Criteria>
+            <File>SQL/GreatPeople/200.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling250">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling250</Criteria>
+            <File>SQL/GreatPeople/250.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling300">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling300</Criteria>
+            <File>SQL/GreatPeople/300.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling350">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling350</Criteria>
+            <File>SQL/GreatPeople/350.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling400">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling400</Criteria>
+            <File>SQL/GreatPeople/400.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling500">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling500</Criteria>
+            <File>SQL/GreatPeople/500.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling600">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling600</Criteria>
+            <File>SQL/GreatPeople/600.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling700">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling700</Criteria>
+            <File>SQL/GreatPeople/700.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling800">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling800</Criteria>
+            <File>SQL/GreatPeople/800.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling900">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling900</Criteria>
+            <File>SQL/GreatPeople/900.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="TYTGreatPersonScaling1000">
+            <Properties>
+                <LoadOrder>20004</LoadOrder>
+            </Properties>
+            <Criteria>TYTGreatPersonScaling1000</Criteria>
+            <File>SQL/GreatPeople/1000.sql</File>
+        </UpdateDatabase>
+    </InGameActions>
+    <Files>
+        <File>Setup.xml</File>
+        <File>Text.xml</File>
+        <File>SQL/Tech/Base/25.sql</File>
+        <File>SQL/Tech/Base/50.sql</File>
+        <File>SQL/Tech/Base/75.sql</File>
+        <File>SQL/Tech/Base/125.sql</File>
+        <File>SQL/Tech/Base/150.sql</File>
+        <File>SQL/Tech/Base/175.sql</File>
+        <File>SQL/Tech/Base/200.sql</File>
+        <File>SQL/Tech/Base/225.sql</File>
+        <File>SQL/Tech/Base/250.sql</File>
+        <File>SQL/Tech/Base/275.sql</File>
+        <File>SQL/Tech/Base/300.sql</File>
+        <File>SQL/Tech/Base/350.sql</File>
+        <File>SQL/Tech/Base/400.sql</File>
+        <File>SQL/Tech/Base/450.sql</File>
+        <File>SQL/Tech/Base/500.sql</File>
+        <File>SQL/Tech/Base/600.sql</File>
+        <File>SQL/Tech/Base/700.sql</File>
+        <File>SQL/Tech/Base/800.sql</File>
+        <File>SQL/Tech/Base/900.sql</File>
+        <File>SQL/Tech/Base/1000.sql</File>
+        <File>SQL/Tech/Base/1250.sql</File>
+        <File>SQL/Tech/Base/1500.sql</File>
+        <File>SQL/Tech/Base/1750.sql</File>
+        <File>SQL/Tech/Base/2000.sql</File>
+        <File>SQL/Tech/Base/2500.sql</File>
+        <File>SQL/Tech/Base/3000.sql</File>
+        <File>SQL/Tech/Base/4000.sql</File>
+        <File>SQL/Tech/Base/5000.sql</File>
+        <File>SQL/Civic/Base/25.sql</File>
+        <File>SQL/Civic/Base/50.sql</File>
+        <File>SQL/Civic/Base/75.sql</File>
+        <File>SQL/Civic/Base/125.sql</File>
+        <File>SQL/Civic/Base/150.sql</File>
+        <File>SQL/Civic/Base/175.sql</File>
+        <File>SQL/Civic/Base/200.sql</File>
+        <File>SQL/Civic/Base/225.sql</File>
+        <File>SQL/Civic/Base/250.sql</File>
+        <File>SQL/Civic/Base/275.sql</File>
+        <File>SQL/Civic/Base/300.sql</File>
+        <File>SQL/Civic/Base/350.sql</File>
+        <File>SQL/Civic/Base/400.sql</File>
+        <File>SQL/Civic/Base/450.sql</File>
+        <File>SQL/Civic/Base/500.sql</File>
+        <File>SQL/Civic/Base/600.sql</File>
+        <File>SQL/Civic/Base/700.sql</File>
+        <File>SQL/Civic/Base/800.sql</File>
+        <File>SQL/Civic/Base/900.sql</File>
+        <File>SQL/Civic/Base/1000.sql</File>
+        <File>SQL/Civic/Base/1250.sql</File>
+        <File>SQL/Civic/Base/1500.sql</File>
+        <File>SQL/Civic/Base/1750.sql</File>
+        <File>SQL/Civic/Base/2000.sql</File>
+        <File>SQL/Civic/Base/2500.sql</File>
+        <File>SQL/Civic/Base/3000.sql</File>
+        <File>SQL/Civic/Base/4000.sql</File>
+        <File>SQL/Civic/Base/5000.sql</File>
+        <File>SQL/Tech/Scaling/Era/Low.sql</File>
+        <File>SQL/Tech/Scaling/Era/Moderate.sql</File>
+        <File>SQL/Tech/Scaling/Era/High.sql</File>
+        <File>SQL/Tech/Scaling/Era/Extreme.sql</File>
+        <File>SQL/Civic/Scaling/Era/Low.sql</File>
+        <File>SQL/Civic/Scaling/Era/Moderate.sql</File>
+        <File>SQL/Civic/Scaling/Era/High.sql</File>
+        <File>SQL/Civic/Scaling/Era/Extreme.sql</File>
+        <File>SQL/Tech/Boost/5.sql</File>
+        <File>SQL/Tech/Boost/10.sql</File>
+        <File>SQL/Tech/Boost/15.sql</File>
+        <File>SQL/Tech/Boost/20.sql</File>
+        <File>SQL/Tech/Boost/25.sql</File>
+        <File>SQL/Tech/Boost/33.sql</File>
+        <File>SQL/Tech/Boost/40.sql</File>
+        <File>SQL/Tech/Boost/50.sql</File>
+        <File>SQL/Tech/Boost/67.sql</File>
+        <File>SQL/Tech/Boost/75.sql</File>
+        <File>SQL/Tech/Boost/85.sql</File>
+        <File>SQL/Tech/Boost/100.sql</File>
+        <File>SQL/Tech/Boost/Original50.sql</File>
+        <File>SQL/Tech/Boost/Original100.sql</File>
+        <File>SQL/Civic/Boost/5.sql</File>
+        <File>SQL/Civic/Boost/10.sql</File>
+        <File>SQL/Civic/Boost/15.sql</File>
+        <File>SQL/Civic/Boost/20.sql</File>
+        <File>SQL/Civic/Boost/25.sql</File>
+        <File>SQL/Civic/Boost/33.sql</File>
+        <File>SQL/Civic/Boost/40.sql</File>
+        <File>SQL/Civic/Boost/50.sql</File>
+        <File>SQL/Civic/Boost/67.sql</File>
+        <File>SQL/Civic/Boost/75.sql</File>
+        <File>SQL/Civic/Boost/85.sql</File>
+        <File>SQL/Civic/Boost/100.sql</File>
+        <File>SQL/Civic/Boost/Original50.sql</File>
+        <File>SQL/Civic/Boost/Original100.sql</File>
+        <File>SQL/WorldEra/Calculated.sql</File>
+        <File>SQL/WorldEra/25.sql</File>
+        <File>SQL/WorldEra/50.sql</File>
+        <File>SQL/WorldEra/150.sql</File>
+        <File>SQL/WorldEra/200.sql</File>
+        <File>SQL/WorldEra/250.sql</File>
+        <File>SQL/WorldEra/300.sql</File>
+        <File>SQL/WorldEra/350.sql</File>
+        <File>SQL/WorldEra/400.sql</File>
+        <File>SQL/WorldEra/500.sql</File>
+        <File>SQL/WorldEra/600.sql</File>
+        <File>SQL/WorldEra/700.sql</File>
+        <File>SQL/WorldEra/800.sql</File>
+        <File>SQL/WorldEra/900.sql</File>
+        <File>SQL/WorldEra/1000.sql</File>
+        <File>SQL/EraScore/Calculated.sql</File>
+        <File>SQL/EraScore/25.sql</File>
+        <File>SQL/EraScore/50.sql</File>
+        <File>SQL/EraScore/120.sql</File>
+        <File>SQL/EraScore/140.sql</File>
+        <File>SQL/EraScore/150.sql</File>
+        <File>SQL/EraScore/175.sql</File>
+        <File>SQL/EraScore/200.sql</File>
+        <File>SQL/EraScore/300.sql</File>
+        <File>SQL/EraScore/400.sql</File>
+        <File>SQL/EraScore/500.sql</File>
+        <File>SQL/EraScore/600.sql</File>
+        <File>SQL/EraScore/700.sql</File>
+        <File>SQL/Climate/Calculated.sql</File>
+        <File>SQL/Climate/25.sql</File>
+        <File>SQL/Climate/50.sql</File>
+        <File>SQL/Climate/120.sql</File>
+        <File>SQL/Climate/140.sql</File>
+        <File>SQL/Climate/150.sql</File>
+        <File>SQL/Climate/175.sql</File>
+        <File>SQL/Climate/200.sql</File>
+        <File>SQL/Climate/300.sql</File>
+        <File>SQL/Climate/400.sql</File>
+        <File>SQL/Climate/500.sql</File>
+        <File>SQL/Climate/600.sql</File>
+        <File>SQL/Climate/700.sql</File>
+        <File>SQL/GreatPeople/Calculated.sql</File>
+        <File>SQL/GreatPeople/25.sql</File>
+        <File>SQL/GreatPeople/50.sql</File>
+        <File>SQL/GreatPeople/150.sql</File>
+        <File>SQL/GreatPeople/200.sql</File>
+        <File>SQL/GreatPeople/250.sql</File>
+        <File>SQL/GreatPeople/300.sql</File>
+        <File>SQL/GreatPeople/350.sql</File>
+        <File>SQL/GreatPeople/400.sql</File>
+        <File>SQL/GreatPeople/500.sql</File>
+        <File>SQL/GreatPeople/600.sql</File>
+        <File>SQL/GreatPeople/700.sql</File>
+        <File>SQL/GreatPeople/800.sql</File>
+        <File>SQL/GreatPeople/900.sql</File>
+        <File>SQL/GreatPeople/1000.sql</File>
+    </Files>
+</Mod>

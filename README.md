@@ -237,6 +237,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Sukritact's Tourism Overview Screen (Sukritact | Junky)
 1. Sukritact's Wat Arun (sukritact | H.Humpel)
 1. Take Over Production Queue (Jewbery | H.Humpel)
+1. Take your Time Ultimate - Slower Research Trees (joshmanisdabomb | onyxum)
 1. Tech Civic Progress Plus (Firstborn, DeepLogic | ASM590319)
 1. Terra Mirabilis (Deliverator, ChimpanG | ASM590319)
 1. TCS Pedialite (thecrazyscotsman | ASM590319)
@@ -304,7 +305,7 @@ Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 
-- ASM590319, duestere Legende, Gorowynn, Junky, Phyrax, SprachZauberer & Stevie
+- ASM590319, duestere Legende, Gorowynn, Junky, onyxum, Phyrax, SprachZauberer & Stevie
 
 
 Und zu guter Letzt natürlich auch Dank an alle, die diesem Mod einen Preis verliehen haben.

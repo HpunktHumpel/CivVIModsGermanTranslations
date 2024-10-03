@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--Built by Take your Time Generator at 23:19 23/08/2020-->
+<GameData>
+    <LocalizedText>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_NAME">
+            <Text>Base Tech Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_25_NAME">
+            <Text>x0.25 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_25_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost reduced to 25%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_50_NAME">
+            <Text>x0.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_50_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost reduced to 50%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_75_NAME">
+            <Text>x0.75 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_75_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost reduced to 75%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_100_NAME">
+            <Text>x1 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_100_DESCRIPTION">
+            <Text>All technologies in the game have their regular [ICON_SCIENCE] Science cost.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_125_NAME">
+            <Text>x1.25 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_125_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 125%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_150_NAME">
+            <Text>x1.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_150_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 150%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_175_NAME">
+            <Text>x1.75 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_175_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 175%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_200_NAME">
+            <Text>x2 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_200_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 200%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_225_NAME">
+            <Text>x2.25 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_225_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 225%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_250_NAME">
+            <Text>x2.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_250_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 250%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_275_NAME">
+            <Text>x2.75 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_275_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 275%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_300_NAME">
+            <Text>x3 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_300_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 300%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_350_NAME">
+            <Text>x3.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_350_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 350%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_400_NAME">
+            <Text>x4 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_400_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 400%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_450_NAME">
+            <Text>x4.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_450_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 450%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_500_NAME">
+            <Text>x5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_500_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_600_NAME">
+            <Text>x6 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_600_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 600%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_700_NAME">
+            <Text>x7 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_700_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 700%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_800_NAME">
+            <Text>x8 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_800_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 800%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_900_NAME">
+            <Text>x9 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_900_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 900%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_1000_NAME">
+            <Text>x10 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_1000_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 1000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_1250_NAME">
+            <Text>x12.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_1250_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 1250%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_1500_NAME">
+            <Text>x15 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_1500_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 1500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_1750_NAME">
+            <Text>x17.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_1750_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 1750%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_2000_NAME">
+            <Text>x20 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_2000_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 2000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_2500_NAME">
+            <Text>x25 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_2500_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 2500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_3000_NAME">
+            <Text>x30 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_3000_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 3000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_4000_NAME">
+            <Text>x40 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_4000_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 4000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_5000_NAME">
+            <Text>x50 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_TECH_5000_DESCRIPTION">
+            <Text>All technologies in the game have their [ICON_SCIENCE] Science cost increased to 5000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_NAME">
+            <Text>Base Civic Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_25_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost reduced to 25%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_50_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost reduced to 50%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_75_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost reduced to 75%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_100_DESCRIPTION">
+            <Text>All civics in the game have their regular [ICON_CULTURE] Culture cost.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_125_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 125%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_150_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 150%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_175_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 175%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_200_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 200%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_225_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 225%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_250_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 250%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_275_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 275%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_300_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 300%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_350_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 350%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_400_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 400%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_450_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 450%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_500_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_600_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 600%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_700_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 700%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_800_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 800%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_900_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 900%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_1000_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 1000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_1250_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 1250%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_1500_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 1500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_1750_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 1750%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_2000_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 2000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_2500_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 2500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_3000_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 3000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_4000_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 4000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_BASE_CIVIC_5000_DESCRIPTION">
+            <Text>All civics in the game have their [ICON_CULTURE] Culture cost increased to 5000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_TECH_NAME">
+            <Text>Tech Cost Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_NONE_NAME">
+            <Text>No Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_TECH_NONE_DESCRIPTION">
+            <Text>The [ICON_SCIENCE] Science cost of technologies will not be scaled, and will only be affected by the Base Tech Cost set above.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_ERA_LOW_NAME">
+            <Text>Low Era Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_TECH_ERA_LOW_DESCRIPTION">
+            <Text>The [ICON_SCIENCE] Science cost of technologies will be slightly scaled by era, after being multiplied by the Base Tech Cost set above.[NEWLINE]Classical Era: 110%[NEWLINE]Medieval Era: 115%[NEWLINE]Renaissance Era: 120%[NEWLINE]Industrial Era: 125%[NEWLINE]Modern Era: 130%[NEWLINE]Atomic Era: 138%[NEWLINE]Information Era: 145%[NEWLINE]Future Era: 150%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_ERA_MODERATE_NAME">
+            <Text>Moderate Era Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_TECH_ERA_MODERATE_DESCRIPTION">
+            <Text>The [ICON_SCIENCE] Science cost of technologies will be moderately scaled by era, after being multiplied by the Base Tech Cost set above.[NEWLINE]Classical Era: 110%[NEWLINE]Medieval Era: 120%[NEWLINE]Renaissance Era: 135%[NEWLINE]Industrial Era: 145%[NEWLINE]Modern Era: 158%[NEWLINE]Atomic Era: 170%[NEWLINE]Information Era: 180%[NEWLINE]Future Era: 190%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_ERA_HIGH_NAME">
+            <Text>High Era Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_TECH_ERA_HIGH_DESCRIPTION">
+            <Text>The [ICON_SCIENCE] Science cost of technologies will be greatly scaled by era, after being multiplied by the Base Tech Cost set above.[NEWLINE]Classical Era: 120%[NEWLINE]Medieval Era: 140%[NEWLINE]Renaissance Era: 160%[NEWLINE]Industrial Era: 180%[NEWLINE]Modern Era: 200%[NEWLINE]Atomic Era: 230%[NEWLINE]Information Era: 260%[NEWLINE]Future Era: 290%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_ERA_EXTREME_NAME">
+            <Text>Extreme Era Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_TECH_ERA_EXTREME_DESCRIPTION">
+            <Text>The [ICON_SCIENCE] Science cost of technologies will be extremely scaled by era, after being multiplied by the Base Tech Cost set above.[NEWLINE]Classical Era: 130%[NEWLINE]Medieval Era: 170%[NEWLINE]Renaissance Era: 220%[NEWLINE]Industrial Era: 260%[NEWLINE]Modern Era: 320%[NEWLINE]Atomic Era: 400%[NEWLINE]Information Era: 460%[NEWLINE]Future Era: 550%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_CIVIC_NAME">
+            <Text>Civic Cost Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_CIVIC_NONE_DESCRIPTION">
+            <Text>The [ICON_CULTURE] Culture cost of civics will not be scaled, and will only be affected by the Base Civic Cost set above.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_CIVIC_ERA_LOW_DESCRIPTION">
+            <Text>The [ICON_CULTURE] Culture cost of civics will be slightly scaled by era, after being multiplied by the Base Civic Cost set above.[NEWLINE]Classical Era: 110%[NEWLINE]Medieval Era: 115%[NEWLINE]Renaissance Era: 120%[NEWLINE]Industrial Era: 125%[NEWLINE]Modern Era: 130%[NEWLINE]Atomic Era: 138%[NEWLINE]Information Era: 145%[NEWLINE]Future Era: 150%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_CIVIC_ERA_MODERATE_DESCRIPTION">
+            <Text>The [ICON_CULTURE] Culture cost of civics will be moderately scaled by era, after being multiplied by the Base Civic Cost set above.[NEWLINE]Classical Era: 110%[NEWLINE]Medieval Era: 120%[NEWLINE]Renaissance Era: 135%[NEWLINE]Industrial Era: 145%[NEWLINE]Modern Era: 158%[NEWLINE]Atomic Era: 170%[NEWLINE]Information Era: 180%[NEWLINE]Future Era: 190%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_CIVIC_ERA_HIGH_DESCRIPTION">
+            <Text>The [ICON_CULTURE] Culture cost of civics will be greatly scaled by era, after being multiplied by the Base Civic Cost set above.[NEWLINE]Classical Era: 120%[NEWLINE]Medieval Era: 140%[NEWLINE]Renaissance Era: 160%[NEWLINE]Industrial Era: 180%[NEWLINE]Modern Era: 200%[NEWLINE]Atomic Era: 230%[NEWLINE]Information Era: 260%[NEWLINE]Future Era: 290%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_COST_SCALING_CIVIC_ERA_EXTREME_DESCRIPTION">
+            <Text>The [ICON_CULTURE] Culture cost of civics will be extremely scaled by era, after being multiplied by the Base Civic Cost set above.[NEWLINE]Classical Era: 130%[NEWLINE]Medieval Era: 170%[NEWLINE]Renaissance Era: 220%[NEWLINE]Industrial Era: 260%[NEWLINE]Modern Era: 320%[NEWLINE]Atomic Era: 400%[NEWLINE]Information Era: 460%[NEWLINE]Future Era: 550%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_NAME">
+            <Text>Eureka Amount</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_5_NAME">
+            <Text>5%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_5_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 5% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 15% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_10_NAME">
+            <Text>10%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_10_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 10% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 20% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_15_NAME">
+            <Text>15%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_15_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 15% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 25% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_20_NAME">
+            <Text>20%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_20_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 20% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 30% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_25_NAME">
+            <Text>25%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_25_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 25% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 35% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_33_NAME">
+            <Text>33%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_33_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 33% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 43% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_40_NAME">
+            <Text>40%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_40_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 40% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 50% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_50_NAME">
+            <Text>50%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_50_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 50% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 60% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_67_NAME">
+            <Text>67%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_67_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 67% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 77% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_75_NAME">
+            <Text>75%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_75_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 75% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 85% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_85_NAME">
+            <Text>85%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_85_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 85% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China will receive 95% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_100_NAME">
+            <Text>100%</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_100_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 100% of the technology cost after Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China also will receive 100% of the technology.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_ORIGINAL_50_NAME">
+            <Text>50% of Original Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_ORIGINAL_50_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 50% of the original technology cost before Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China's eureka bonus will scale based on the Base Tech Cost selected above.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_ORIGINAL_100_NAME">
+            <Text>100% of Original Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_TECH_ORIGINAL_100_DESCRIPTION">
+            <Text>[ICON_TECHBOOSTED] Eurekas are worth 100% of the original technology cost before Base Tech Cost and Tech Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_SCIENCE]China's eureka bonus will scale based on the Base Tech Cost selected above.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_NAME">
+            <Text>Inpsiration Amount</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_5_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 5% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 15% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_10_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 10% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 20% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_15_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 15% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 25% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_20_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 20% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 30% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_25_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 25% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 35% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_33_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 33% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 43% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_40_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 40% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 50% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_50_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 50% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 60% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_67_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 67% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 77% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_75_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 75% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 85% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_85_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 85% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China will receive 95% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_100_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 100% of the civic cost after Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China also will receive 100% of the civic.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_ORIGINAL_50_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 50% of the original civic cost before Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China's inspiration bonus will scale based on the Base Civic Cost selected above.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_BOOST_CIVIC_ORIGINAL_100_DESCRIPTION">
+            <Text>[ICON_CIVICBOOSTED] Inspirations are worth 100% of the original civic cost before Base Civic Cost and Civic Cost Scaling has been applied.[NEWLINE][ICON_RESOURCE_JADE] [COLOR_FLOAT_CULTURE]China's inspiration bonus will scale based on the Base Civic Cost selected above.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_NAME">
+            <Text>World Era Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_CALCULATED_NAME">
+            <Text>Calculated</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_CALCULATED_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn lengths calculated using the base and scaling costs selected above.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_25_NAME">
+            <Text>x0.25 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_25_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length reduced to 25%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_50_NAME">
+            <Text>x0.5 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_50_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length reduced to 50%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_100_NAME">
+            <Text>x1 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_100_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their regular turn length.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_150_NAME">
+            <Text>x1.5 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_150_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 150%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_200_NAME">
+            <Text>x2 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_200_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 200%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_250_NAME">
+            <Text>x2.5 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_250_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 250%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_300_NAME">
+            <Text>x3 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_300_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 300%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_350_NAME">
+            <Text>x3.5 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_350_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 350%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_400_NAME">
+            <Text>x4 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_400_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 400%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_500_NAME">
+            <Text>x5 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_500_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_600_NAME">
+            <Text>x6 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_600_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 600%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_700_NAME">
+            <Text>x7 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_700_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 700%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_800_NAME">
+            <Text>x8 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_800_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 800%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_900_NAME">
+            <Text>x9 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_900_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 900%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_1000_NAME">
+            <Text>x10 Turn Length</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_WORLD_ERA_1000_DESCRIPTION">
+            <Text>[ICON_GLORY_GOLDEN_AGE] World Eras introduced in Rise &amp; Fall have their turn length increased to 1000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_NAME">
+            <Text>Era Score Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_CALCULATED_NAME">
+            <Text>Calculated</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_CALCULATED_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages are calculated using the base and scaling costs selected above.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_25_NAME">
+            <Text>x0.25 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_25_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is reduced to 25%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_50_NAME">
+            <Text>x0.5 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_50_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is reduced to 50%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_100_NAME">
+            <Text>x1 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_100_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is unchanged.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_120_NAME">
+            <Text>x1.2 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_120_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 120%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_140_NAME">
+            <Text>x1.4 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_140_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 140%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_150_NAME">
+            <Text>x1.5 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_150_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 150%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_175_NAME">
+            <Text>x1.75 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_175_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 175%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_200_NAME">
+            <Text>x2 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_200_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 200%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_300_NAME">
+            <Text>x3 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_300_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 300%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_400_NAME">
+            <Text>x4 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_400_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 400%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_500_NAME">
+            <Text>x5 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_500_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_600_NAME">
+            <Text>x6 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_600_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 600%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_700_NAME">
+            <Text>x7 Score Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_ERA_SCORE_SCALING_700_DESCRIPTION">
+            <Text>The amount of [ICON_GLORY_NORMAL_AGE] Era Score needed to reach normal and golden ages is increased to 700%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_NAME">
+            <Text>CO2 Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_CALCULATED_NAME">
+            <Text>Calculated</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_CALCULATED_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is calculated using the base and scaling costs selected above.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_25_NAME">
+            <Text>x0.25 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_25_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is reduced to 25%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_50_NAME">
+            <Text>x0.5 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_50_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is reduced to 50%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_100_NAME">
+            <Text>x1 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_100_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is unchanged.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_120_NAME">
+            <Text>x1.2 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_120_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 120%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_140_NAME">
+            <Text>x1.4 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_140_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 140%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_150_NAME">
+            <Text>x1.5 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_150_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 150%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_175_NAME">
+            <Text>x1.75 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_175_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 175%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_200_NAME">
+            <Text>x2 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_200_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 200%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_300_NAME">
+            <Text>x3 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_300_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 300%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_400_NAME">
+            <Text>x4 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_400_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 400%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_500_NAME">
+            <Text>x5 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_500_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_600_NAME">
+            <Text>x6 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_600_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 600%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_700_NAME">
+            <Text>x7 CO2 Requirement</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CLIMATE_CHANGE_SCALING_700_DESCRIPTION">
+            <Text>The amount of emissions needed to cause a change in temperature is increased to 700%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_NAME">
+            <Text>Great Person Scaling</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_CALCULATED_NAME">
+            <Text>Calculated</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_CALCULATED_DESCRIPTION">
+            <Text>The cost to recruit a [ICON_GREATPERSON] Great Person is calculated using the base and scaling costs selected above.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_25_NAME">
+            <Text>x0.25 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_25_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is reduced to 25%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_50_NAME">
+            <Text>x0.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_50_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is reduced to 50%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_100_NAME">
+            <Text>x1 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_100_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is unchanged.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_150_NAME">
+            <Text>x1.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_150_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 150%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_200_NAME">
+            <Text>x2 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_200_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 200%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_250_NAME">
+            <Text>x2.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_250_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 250%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_300_NAME">
+            <Text>x3 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_300_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 300%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_350_NAME">
+            <Text>x3.5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_350_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 350%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_400_NAME">
+            <Text>x4 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_400_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 400%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_500_NAME">
+            <Text>x5 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_500_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 500%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_600_NAME">
+            <Text>x6 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_600_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 600%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_700_NAME">
+            <Text>x7 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_700_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 700%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_800_NAME">
+            <Text>x8 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_800_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 800%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_900_NAME">
+            <Text>x9 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_900_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 900%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_1000_NAME">
+            <Text>x10 Base Cost</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GREAT_PERSON_COST_1000_DESCRIPTION">
+            <Text>The base cost to recruit a [ICON_GREATPERSON] Great Person is increased to 1000%.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_TYT_HEADER_NAME">
+            <Text>[COLOR_Culture]Take your Time Ultimate Settings[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_TYT_HEADER_DESCRIPTION">
+            <Text>Take your Time Ultimate version 5 by joshmanisdabomb</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_TYT_FOOTER_1_NAME">
+            <Text>[COLOR_Culture]Take your Time Ultimate End[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_TYT_FOOTER_1_DESCRIPTION">
+            <Text>This fake option acts as padding for the above dropdowns to just about show all their values![NEWLINE]It's quality like [COLOR_RED]this[ENDCOLOR] that only Take your Time Ultimate can offer.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>
