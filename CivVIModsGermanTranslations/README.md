@@ -192,6 +192,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2669325299 | District Expansion: Suburbs | JNR | Junky | #11
 2683624437 | Movable Districts | wltk | Junky | #10
 2708795273 | Four Seasons | sharpNd | Junky | #17
+2749991372 | Better Balanced Starts (BBS) | 57F@n, D. / Jack The Narrator | onyxum | **NEW**
 2785913621 | Icebreaker | Shuricas | H.Humpel | #19
 2769967307 | Grand Eras (Project 6T Core) | JNR & Zegangani | Junky | #16
 2770023017 | Enlightenment Governments (Project 6T) | JNR | Junky | #16

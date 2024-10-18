@@ -1,5 +1,6 @@
 18.10.2024
 
+- [NEW] Better Balanced Starts (BBS) 2.2.8 (vom 28. Feb. 2024 um 17:21, Übersetzung von onyxum)
 - [NEW] Yet (not) Another Maps Pack (vom 27. März 2021 um 22:09, Übersetzung von onyxum)
 
 

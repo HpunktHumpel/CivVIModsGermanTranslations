@@ -33,6 +33,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Bear's Mods - Governor Overhaul (MarshmallowBear | Junky)
 1. Bermuda Triangle++ (p0kiehl | ASM590319)
 1. Better Balanced Maps (BaNiPouZ, Talasta | onyxum)
+1. Better Balanced Starts (BBS) (57F@n, D. / Jack The Narrator | onyxum)
 1. Better Civilopedia (UI) (Infixo | Junky)
 1. Better Coastal Cities and Water Tiles (p0kiehl | Junky)
 1. Better Plantations-Policy Card (Burkart | H.Humpel)
@@ -306,7 +307,7 @@ Natürlich sollen auch noch weitere Civ-VI-Mods ins Deutsche übersetzt und hier
 
 Besonderer Dank geht an alle Civ-VI-Modder, besonders an die, deren Mods hier im Laufe der Zeit übersetzt worden sind:
 
-- A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, Gedemon, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, Phantagonist, Plati, Rdner, RomanHoliday, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques & Zur13
+- 57F@n, A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, Friend, Fuzzletop, Gedemon, HktkNban, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, naed21, nea_baraja, Neicureuil, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, Phantagonist, Plati, Rdner, RomanHoliday, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shuricas, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, TC, Technoluddite, Teddyk, thecrazyscotsman, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques & Zur13
 
 Und natürlich an alle User, die sich mit Übersetzungen an diesem Projekt beteiligt haben:
 

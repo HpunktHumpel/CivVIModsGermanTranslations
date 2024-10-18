@@ -2,12 +2,12 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="30">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]276[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]277[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1729272529</Created>
+    <Created>1729273776</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
-    <SpecialThanks>A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, BaNiPouZ, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, Cisco, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, FlashyFeeds, Friend, Fuzzle, Fuzzletop, Gedemon, HktkNban, HoneyTheBear, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, MyopicCat, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, peter.spjuth, Phantagonist, Phyrax, Plati, Rdner, RomanHoliday, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, Talasta, TC, Technoluddite, Teddyk, thecrazyscotsman, totalslacker, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky,  onyxum, Phyrax, SprachZauberer and Stevie for their translations.</SpecialThanks>
+    <SpecialThanks>57F@n, A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, BaNiPouZ, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, Cisco, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, FlashyFeeds, Friend, Fuzzle, Fuzzletop, Gedemon, HktkNban, HoneyTheBear, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, MyopicCat, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, peter.spjuth, Phantagonist, Phyrax, Plati, Rdner, RomanHoliday, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, Talasta, TC, Technoluddite, Teddyk, thecrazyscotsman, totalslacker, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky,  onyxum, Phyrax, SprachZauberer and Stevie for their translations.</SpecialThanks>
     <Homepage>https://github.com/HpunktHumpel/CivVIModsGermanTranslations</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -49,6 +49,9 @@
     </Criteria>
     <Criteria id="ARSImprovedGoodyHutsv13_FrontEnd">
       <ModIsEnabled>72E2DEAE-22CD-8C04-4451-69E955D4959C</ModIsEnabled>
+    </Criteria>
+    <Criteria id="BBS_FrontEnd">
+      <ModIsEnabled>c88cba8b-8311-4d35-90c3-51a4a5d66550</ModIsEnabled>
     </Criteria>
     <Criteria id="BetterBalancedMaps_FrontEnd">
       <ModIsEnabled>c88cba8b-8311-4d35-90c3-51a4a5d66542</ModIsEnabled>
@@ -407,6 +410,9 @@
     </Criteria>
     <Criteria id="BasicBuildings">
       <ModInUse>a20866f2-bcdd-4931-8513-441a2fda2825</ModInUse>
+    </Criteria>
+    <Criteria id="BBS">
+      <ModInUse>c88cba8b-8311-4d35-90c3-51a4a5d66550</ModInUse>
     </Criteria>
     <Criteria id="BearsModsGovernorOverhaul">
       <ModInUse>c3ae4eb5-5416-4f70-820b-ac8ee33187e4</ModInUse>
@@ -1558,6 +1564,10 @@
       </Properties>
       <File>2134633861/Improved Goody Huts Setup Text_de_DE.sql</File>
     </UpdateText>
+    <UpdateText id="BBS_SETTINGS_TEXTS_FrontEnd_de_DE">
+      <Criteria>BBS_FrontEnd</Criteria>
+      <File>2749991372/Lang/german_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="BetterBalancedMaps_BBS_SETTINGS_TEXTS_FrontEnd_de_DE">
       <Criteria>BetterBalancedMaps_FrontEnd</Criteria>
       <File>3179425402/Lang/german.xml</File>
@@ -2308,6 +2318,10 @@
     <UpdateText id="BasicBuildings_de_DE">
       <Criteria>BasicBuildings</Criteria>
       <File>1827447798/Basic_Buildings_Text_de_DE.xml</File>
+    </UpdateText>
+    <UpdateText id="BBS_Gameplay_test_de_DE">
+      <Criteria>BBS</Criteria>
+      <File>2749991372/Lang/german_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="BearsModsGovernorOverhaul_BearGovernor_UpdateText_de_DE">
       <Criteria>BearsModsGovernorOverhaul</Criteria>
@@ -4866,6 +4880,7 @@
     <File>2708795273/Text/Four_Seasons_Civilopedia_Text_de_DE.xml</File>
     <File>2708795273/Text/Four_Seasons_Config_Text_de_DE.xml</File>
     <File>2708795273/Text/Four_Seasons_UI_Text_de_DE.xml</File>
+    <File>2749991372/Lang/german_de_DE.xml</File>
     <File>2769967307/Text/6T_Text_Boosts_de_DE.sql</File>
     <File>2769967307/Text/6T_Text_Config_de_DE.sql</File>
     <File>2769967307/Text/6T_Text_Misc_de_DE.sql</File>

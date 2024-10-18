@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- === MAP SIZES === -->
+		<Replace Tag="LOC_MAPSIZE_ENORMOUS_NAME" Language="zh_Hans_CN">
+			<Text>极大</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPSIZE_ENORMOUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>供16名玩家使用的极大型地图。</Text>
+		</Replace>
+
+
+
+		<!-- === SETUP === -->
+		<!-- == Map features == -->
+		<Replace Tag="LOC_GAME_SPAWN_RECALCULATION" Language="zh_Hans_CN">
+			<Text>重新计算初始位置</Text>
+		</Replace>
+		<Replace Tag="LOC_GAME_SPAWN_RECALCULATION_DESC" Language="zh_Hans_CN">
+			<Text>试图优化文明初始位置。</Text>
+		</Replace>
+		<!-- = Ridges definition = -->
+		<Replace Tag="LOC_GAME_BBS_RIDGE_NAME" Language="zh_Hans_CN">
+			<Text>山脊定义</Text>
+		</Replace>
+		<Replace Tag="LOC_GAME_BBS_RIDGE_DESC" Language="zh_Hans_CN">
+			<Text>控制地图中山脉的形成模式。</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_NORMAL_NAME" Language="zh_Hans_CN">
+			<Text>标准</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_NORMAL_DESC" Language="zh_Hans_CN">
+			<Text>原版设定。</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_LESS_NAME" Language="zh_Hans_CN">
+			<Text>狭窄隘口</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_LESS_DESC" Language="zh_Hans_CN">
+			<Text>在山脉中额外增加狭窄的山口。</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_VLESS_NAME" Language="zh_Hans_CN">
+			<Text>宽广隘口</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_VLESS_DESC" Language="zh_Hans_CN">
+			<Text>在山脉中额外增加开阔的山口，方便部队从不同方向进攻。</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_NONE_NAME" Language="zh_Hans_CN">
+			<Text>地平论者</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_NONE_DESC" Language="zh_Hans_CN">
+			<Text>山脉被严重侵蚀，形成一个有很多丘陵的更平坦地图。</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_MORE_NAME" Language="zh_Hans_CN">
+			<Text>无法穿过</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_MORE_DESC" Language="zh_Hans_CN">
+			<Text>使山脊更加广阔，通行路线更少。</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_RF_NAME" Language="zh_Hans_CN">
+			<Text>经典</Text>
+		</Replace>
+		<Replace Tag="BBS_RIDGE_RF_DESC" Language="zh_Hans_CN">
+			<Text>“风云变幻”之前的模式，山脉形成与大陆分布无关。</Text>
+		</Replace>
+		<!-- = Strategic resources = -->
+		<Replace Tag="LOC_GAME_BBS_SRESOURCES_NAME" Language="zh_Hans_CN">
+			<Text>战略资源</Text>
+		</Replace>
+		<Replace Tag="LOC_GAME_BBS_SRESOURCES_DESC" Language="zh_Hans_CN">
+			<Text>在选择“平衡”初始位置时调节战略资源的数量。</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_NORMAL_NAME" Language="zh_Hans_CN">
+			<Text>标准</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_NORMAL_DESC" Language="zh_Hans_CN">
+			<Text>原版的标准资源生成模式。</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_MORE_NAME" Language="zh_Hans_CN">
+			<Text>丰富</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_MORE_DESC" Language="zh_Hans_CN">
+			<Text>20%额外战略资源数量。</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_MUCHMORE_NAME" Language="zh_Hans_CN">
+			<Text>传奇</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_MUCHMORE_DESC" Language="zh_Hans_CN">
+			<Text>50%额外战略资源数量。</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_GARANTEED_NAME" Language="zh_Hans_CN">
+			<Text>初始位置保障</Text>
+		</Replace>
+		<Replace Tag="BBS_SRESOURCES_GARANTEED_DESC" Language="zh_Hans_CN">
+			<Text>基本保证出生点5个单元格内拥有所有种类战略资源。</Text>
+		</Replace>
+		<!-- = Natural Wonders Density = -->
+		<Replace Tag="LOC_GAME_BBS_NATURAL_NAME" Language="zh_Hans_CN">
+			<Text>自然奇观密度</Text>
+		</Replace>
+		<Replace Tag="LOC_GAME_BBS_NATURAL_DESC" Language="zh_Hans_CN">
+			<Text>控制地图上自然奇观的最大数量。</Text>
+		</Replace>
+		<Replace Tag="BBS_NATURAL_NORMAL_NAME" Language="zh_Hans_CN">
+			<Text>标准</Text>
+		</Replace>
+		<Replace Tag="BBS_NATURAL_NORMAL_DESC" Language="zh_Hans_CN">
+			<Text>决斗：2[NEWLINE]极小：3[NEWLINE]小：4[NEWLINE]标准：5[NEWLINE]大：6[NEWLINE]巨大：7[NEWLINE]极大：8</Text>
+		</Replace>
+		<Replace Tag="BBS_NATURAL_LESS_NAME" Language="zh_Hans_CN">
+			<Text>稀少</Text>
+		</Replace>
+		<Replace Tag="BBS_NATURAL_LESS_DESC" Language="zh_Hans_CN">
+			<Text>决斗：1[NEWLINE]极小：1[NEWLINE]小：3[NEWLINE]标准：3[NEWLINE]大：4[NEWLINE]巨大：4[NEWLINE]极大：5</Text>
+		</Replace>
+		<Replace Tag="BBS_NATURAL_MORE_NAME" Language="zh_Hans_CN">
+			<Text>丰富</Text>
+		</Replace>
+		<Replace Tag="BBS_NATURAL_MORE_DESC" Language="zh_Hans_CN">
+			<Text>决斗：3[NEWLINE]极小：4[NEWLINE]小：6[NEWLINE]标准：8[NEWLINE]大：10[NEWLINE]巨大：12[NEWLINE]极大：14</Text>
+		</Replace>
+	
+		<!-- == Min distance == -->
+		<Replace Tag="LOC_GAME_BBS_MIN_DISTANCE_NAME" Language="zh_Hans_CN">
+			<Text>玩家间最小距离</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_AUTO_NAME" Language="zh_Hans_CN">
+			<Text>标准</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_AUTO_DESC" Language="zh_Hans_CN">
+			<Text>标准距离，取决于地图尺寸。</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SIX_NAME" Language="zh_Hans_CN">
+			<Text>6</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SIX_DESC" Language="zh_Hans_CN">
+			<Text>6单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SEVEN_NAME" Language="zh_Hans_CN">
+			<Text>7</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SEVEN_DESC" Language="zh_Hans_CN">
+			<Text>7单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_EIGHT_NAME" Language="zh_Hans_CN">
+			<Text>8</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_EIGHT_DESC" Language="zh_Hans_CN">
+			<Text>8单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_NINE_NAME" Language="zh_Hans_CN">
+			<Text>9</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_NINE_DESC" Language="zh_Hans_CN">
+			<Text>9单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TEN_NAME" Language="zh_Hans_CN">
+			<Text>10</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TEN_DESC" Language="zh_Hans_CN">
+			<Text>10单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_ELEVEN_NAME" Language="zh_Hans_CN">
+			<Text>11</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_ELEVEN_DESC" Language="zh_Hans_CN">
+			<Text>11单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWELVE_NAME" Language="zh_Hans_CN">
+			<Text>12</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWELVE_DESC" Language="zh_Hans_CN">
+			<Text>12单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_THIRTEEN_NAME" Language="zh_Hans_CN">
+			<Text>13</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_THIRTEEN_DESC" Language="zh_Hans_CN">
+			<Text>13单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_FOURTEEN_NAME" Language="zh_Hans_CN">
+			<Text>14</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_FOURTEEN_DESC" Language="zh_Hans_CN">
+			<Text>14单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_FIFTEEN_NAME" Language="zh_Hans_CN">
+			<Text>15</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_FIFTEEN_DESC" Language="zh_Hans_CN">
+			<Text>15单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SIXTEEN_NAME" Language="zh_Hans_CN">
+			<Text>16</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SIXTEEN_DESC" Language="zh_Hans_CN">
+			<Text>16单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SEVENTEEN_NAME" Language="zh_Hans_CN">
+			<Text>17</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_SEVENTEEN_DESC" Language="zh_Hans_CN">
+			<Text>17单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_EIGHTEEN_NAME" Language="zh_Hans_CN">
+			<Text>18</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_EIGHTEEN_DESC" Language="zh_Hans_CN">
+			<Text>18单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_NINETEEN_NAME" Language="zh_Hans_CN">
+			<Text>19</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_NINETEEN_DESC" Language="zh_Hans_CN">
+			<Text>19单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTY_NAME" Language="zh_Hans_CN">
+			<Text>20</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTY_DESC" Language="zh_Hans_CN">
+			<Text>20单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYONE_NAME" Language="zh_Hans_CN">
+			<Text>21</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYONE_DESC" Language="zh_Hans_CN">
+			<Text>21单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYTWO_NAME" Language="zh_Hans_CN">
+			<Text>22</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYTWO_DESC" Language="zh_Hans_CN">
+			<Text>22单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYTHREE_NAME" Language="zh_Hans_CN">
+			<Text>23</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYTHREE_DESC" Language="zh_Hans_CN">
+			<Text>23单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYFOUR_NAME" Language="zh_Hans_CN">
+			<Text>24</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYFOUR_DESC" Language="zh_Hans_CN">
+			<Text>24单元格</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYFIVE_NAME" Language="zh_Hans_CN">
+			<Text>25</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_DISTANCE_TWENTYFIVE_DESC" Language="zh_Hans_CN">
+			<Text>25单元格</Text>
+		</Replace>
+
+		<!-- == Players options == -->
+		<!-- = Attempts = -->
+		<Replace Tag="LOC_GAME_BBS_MIN_ATTEMPTS_NAME" Language="zh_Hans_CN">
+			<Text>BBS最小尝试次数</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_ONE_NAME" Language="zh_Hans_CN">
+			<Text>1</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_ONE_DESC" Language="zh_Hans_CN">
+			<Text>1次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_TWO_NAME" Language="zh_Hans_CN">
+			<Text>2</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_TWO_DESC" Language="zh_Hans_CN">
+			<Text>2次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_THREE_NAME" Language="zh_Hans_CN">
+			<Text>3</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_THREE_DESC" Language="zh_Hans_CN">
+			<Text>3次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_FOUR_NAME" Language="zh_Hans_CN">
+			<Text>4</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_FOUR_DESC" Language="zh_Hans_CN">
+			<Text>4次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_FIVE_NAME" Language="zh_Hans_CN">
+			<Text>5</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_FIVE_DESC" Language="zh_Hans_CN">
+			<Text>5次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_SIX_NAME" Language="zh_Hans_CN">
+			<Text>6</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_SIX_DESC" Language="zh_Hans_CN">
+			<Text>6次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_SEVEN_NAME" Language="zh_Hans_CN">
+			<Text>7</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_SEVEN_DESC" Language="zh_Hans_CN">
+			<Text>7次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_EIGHT_NAME" Language="zh_Hans_CN">
+			<Text>8</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_EIGHT_DESC" Language="zh_Hans_CN">
+			<Text>8次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_NINE_NAME" Language="zh_Hans_CN">
+			<Text>9</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_NINE_DESC" Language="zh_Hans_CN">
+			<Text>9次</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_TEN_NAME" Language="zh_Hans_CN">
+			<Text>10</Text>
+		</Replace>
+		<Replace Tag="BBS_MIN_ATTEMPTS_TEN_DESC" Language="zh_Hans_CN">
+			<Text>10次</Text>
+		</Replace>
+		<!-- = Teamers start position = -->
+		<Replace Tag="LOC_BBS_Team_Spawn_NAME" Language="zh_Hans_CN">
+			<Text>团队战初始位置</Text>
+		</Replace>
+		<Replace Tag="LOC_BBS_Team_Spawn_DESC" Language="zh_Hans_CN">
+			<Text>控制主要文明在团队战地图上的初始位置。</Text>
+		</Replace>
+		<Replace Tag="BBS_Team_Spawn_NORMAL_NAME" Language="zh_Hans_CN">
+			<Text>标准</Text>
+		</Replace>
+		<Replace Tag="BBS_Team_Spawn_NORMAL_DESC" Language="zh_Hans_CN">
+			<Text>原版设定：各文明位置随机分配</Text>
+		</Replace>
+		<Replace Tag="BBS_Team_Spawn_EW_NAME" Language="zh_Hans_CN">
+			<Text>东西对战</Text>
+		</Replace>
+		<Replace Tag="BBS_Team_Spawn_EW_DESC" Language="zh_Hans_CN">
+			<Text>2v2或4v4时同一队伍的文明很大概率共同位于东侧或西侧。</Text>
+		</Replace>
+		<Replace Tag="BBS_Team_Spawn_NS_NAME" Language="zh_Hans_CN">
+			<Text>南北对战</Text>
+		</Replace>
+		<Replace Tag="BBS_Team_Spawn_NS_DESC" Language="zh_Hans_CN">
+			<Text>2v2或4v4时同一队伍的文明很大概率共同位于南侧或北侧。</Text>
+		</Replace>
+		
+		
+
+		<!-- === NATURAL WONDERS === -->
+		<!-- = Barringer Crater = -->
+		<Replace Tag="LOC_FEATURE_BARRINGER_CRATER_NAME" Language="zh_Hans_CN">
+		    <Text>巴林格陨石坑</Text>
+        </Replace>
+        <Replace Tag="LOC_FEATURE_BARRINGER_CRATER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>占1个单元格的自然奇观。提供+3 [ICON_SCIENCE] 科技值、+2 [ICON_FOOD] 食物、+3 [ICON_GOLD] 金币。若文明拥有至少1个该奇观单元格，则生产太空竞赛项目时+10% [ICON_PRODUCTION] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_FEATURE_BARRINGER_CRATER_QUOTE" Language="zh_Hans_CN">
+            <Text>“我们现在可以证明，这个陨石坑是地球与一个外星物体——可能是一个小行星——碰撞所致，这个物体可能是金属的。”[NEWLINE]——丹尼尔·巴林格</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_BARRINGER_CRATER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>巴林格陨石坑是位于美国亚利桑那州的一座巨大的陨石坑。该陨石坑直径1,200米（4,000英尺），科学家认为它是大约5万年前被一颗重约16万吨、速度可达每小时4.4万公里（每小时2.7万英里）的大型铁镍陨石击中而形成的。</Text>
+        </Replace>
+        <!-- = Bioluminescent Bay = -->
+        <Replace Tag="LOC_FEATURE_BIOLUMINESCENT_BAY_NAME" Language="zh_Hans_CN">
+            <Text>生物荧光海湾</Text>
+        </Replace>
+        <Replace Tag="LOC_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>占1个单元格的自然奇观，表现为礁石。提供+3 [ICON_SCIENCE] 科技值、+1 [ICON_FOOD] 食物、+1 [ICON_GOLD] 金币。若文明拥有至少1个该奇观单元格，则渔船+1 [ICON_GOLD] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_FEATURE_BIOLUMINESCENT_BAY_QUOTE" Language="zh_Hans_CN">
+            <Text>“火焰、闪电、星星或生物发光会引起任何人的注意。在生物发光中，光线有一种奇怪的色泽，显得神秘而有魔力。”[NEWLINE]——卡西乌斯·斯特凡尼</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>生物荧光海湾（又称蚊子湾，Puerto Mosquito或Mosquito Bay）被认为是美国最好的生物发光湾之一，是位于波多黎各的五个国家自然地标之一。湾里的发光由双鞭毛虫门微生物红潮荧光藻（Pyrodinium bahamense）引起，每当水体受到扰动时会留下霓虹蓝的尾迹。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>生物发光需要满足一系列必要条件：红树林环绕水域，湾区周围完全没有现代开发，水足够冷且深，而且通向大海的小渠道使甲藻留在了湾区内。这个小渠道是人工建造的，是西班牙船只的水手试图阻塞海水进入湾区的结果。西班牙人认为他们在首次探索这个地区时遇到的生物发光是魔鬼的作品，试图通过在水道中放置巨石来阻止海水进入湾区。但是，西班牙人孤立湾区的行为反而增加了生物发光现象。</Text>
+		</Replace>
+		<!-- = Cerro de Potosi = -->
+		<Replace Tag="LOC_FEATURE_CERRO_DE_POTOSI_NAME" Language="zh_Hans_CN">
+			<Text>富饶山</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CERRO_DE_POTOSI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行，表现为山脉。为相邻单元格+1 [ICON_PRODUCTION] 生产力、+3 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_CERRO_DE_POTOSI_QUOTE" Language="zh_Hans_CN">
+			<Text>“我是富饶的波托西，世界的宝藏，万山之王和万王之妒。”[NEWLINE]——第一版波托西市徽</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_CERRO_DE_POTOSI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于南玻利维亚的波托西山几乎生产出了西班牙帝国所有的银矿。银矿采出后，经过骆驼和骡子运到海岸，然后装载到返航欧洲的运宝船上。200年间，从山上开采了几近41000吨纯银，其中8200吨直接归西班牙皇室所有。1800年之后，主要的银矿枯竭，但是波托西山的采矿活动仍在进行——仍然存在采银，但主要是为了锡。</Text>
+		</Replace>
+		<!-- = Dallol = -->
+		<Replace Tag="LOC_FEATURE_DALLOL_NAME" Language="zh_Hans_CN">
+			<Text>达洛尔火山</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DALLOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，表现为火山。提供+2 [ICON_SCIENCE] 科技值, +2 [ICON_PRODUCTION] 生产力、+2 [ICON_FOOD] 食物、+1 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DALLOL_QUOTE" Language="zh_Hans_CN">
+			<Text>“有地狱，有黑暗，有硫磺坑——燃烧，灼热，恶臭，消耗！”[NEWLINE]——威廉·莎士比亚，《李尔王》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>达洛尔火山是埃塞俄比亚达纳基尔沉降区的恩达阿勒山脉东北部的一座熔岩锥火山。它是由玄武质熔岩侵入中新世盐层与随后的热液活动形成的。1926年的蒸汽爆炸形成了达洛尔火山，而附近许多喷发口散布在盐沼上。这些火山口位于海平面下方45米（150英尺），是世界上已知海拔最低的陆地火山口。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>这里，许多温泉涌出卤水和酸性液体。广布的小型临时间歇泉形成盐锥。达洛尔火山喷出物包括裸露地表的大规模钾盐。达洛尔火山由阿法尔人命名，意指“溶解”或“瓦解”，描述了一个由绿色酸性池塘（pH值小于1）、铁氧化物、硫和盐的沙漠平原组成的景观。</Text>
+		</Replace>
+		<!-- = Grand Mesa = -->
+		<Replace Tag="LOC_FEATURE_GRAND_MESA_NAME" Language="zh_Hans_CN">
+			<Text>大平顶山</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GRAND_MESA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行。为相邻单元格+1 [ICON_FOOD] 食物、+1 [ICON_CULTURE] 文化。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GRAND_MESA_QUOTE" Language="zh_Hans_CN">
+			<Text>“保护地球意味着明智地利用土地和资源，以持久地造福人类。”[NEWLINE]——吉福德·平尼舍</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_GRAND_MESA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>大平顶山位于美国科罗拉多州一个大型地质构造，比周边地区高出约1500米（5000英尺），面积1300平方千米（500平方英里），是世界上最大的平顶山。大平顶山没有随时间的推移而上升，而是运用其顶部的一层抗侵蚀的火山玄武岩抵抗了使周围的地形不断下降的科罗拉多河和冈尼森河的侵蚀作用。大平顶山国家森林（最初称为巴特尔门萨森林保护区）于1892年12月24日由本杰明·哈里森创建。它是美国创建的第三个森林保护区。</Text>
+		</Replace>
+		<!-- = Mount Kailash = -->
+		<Replace Tag="LOC_FEATURE_KAILASH_NAME" Language="zh_Hans_CN">
+			<Text>冈仁波齐峰</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_KAILASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行，表现为山脉。为相邻单元格+1 [ICON_Faith] 信仰、+1 [ICON_CULTURE] 文化。若文明拥有至少1个该奇观单元格，则每座信奉您 [ICON_RELIGION] 宗教的外国城市+1 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_KAILASH_QUOTE" Language="zh_Hans_CN">
+			<Text>“在如此教导了虔诚的人们后，梵天离开了，将他从他自己的位置带到珍贵的万山之首，众神之主湿婆的居所——冈仁波齐峰的人民的先祖和领袖留下了。”[NEWLINE]——薄伽梵往世书</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_KAILASH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于喜马拉雅山的西藏圣山冈仁波齐峰，受到包括印度教在内的多种宗教的信徒珍视。人们相信它是湿婆神享受永恒极乐的家园。据说前往冈仁波齐峰是所有宗教朝圣之中最为艰难的之一，恶劣的条件使得许多有意朝圣者望而却步，而即使是现代交通工具也无法到达这座山。</Text>
+		</Replace>
+		<!-- = Lake Victoria = -->
+		<Replace Tag="LOC_FEATURE_LAKE_VICTORIA_NAME" Language="zh_Hans_CN">
+			<Text>维多利亚湖</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LAKE_VICTORIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占4个单元格的自然奇观，表现为湖泊。提供+3 [ICON_FOOD] 食物、+1 [ICON_CULTURE] 文化、+1 [ICON_PRODUCTION] 生产力、+1 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LAKE_VICTORIA_QUOTE" Language="zh_Hans_CN">
+			<Text>“我毫不怀疑地看到尼罗河老父亲起源于维多利亚湖中，正如我所预言的，那个湖是孕育了我们宗教信仰的第一位阐述者的神圣河流的伟大源头。”[NEWLINE]——约翰·汉宁·斯派克</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_LAKE_VICTORIA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>面积超过68,800平方千米（26,000平方英里）的维多利亚湖是非洲第一大湖，世界第二大淡水湖，也是世界最大的热带湖泊。两条大河白尼罗河和卡通加河源于该湖泊。对该湖的第一批历史记录来自阿拉伯商人，他们为了从土著人那里获取黄金、象牙和其他商品而从海岸向内陆推进。欧洲探险家对尼罗河源的探查导致了英国人约翰·斯派克在1858年发现了这个湖，他以当时的英国君主之名命名了这个湖。</Text>
+		</Replace>
+		<!-- = Lençóis Maranhenses = -->
+		<Replace Tag="LOC_FEATURE_LENCOIS_MARANHENSES_NAME" Language="zh_Hans_CN">
+			<Text>伦索伊斯·马拉年塞斯国家公园</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LENCOIS_MARANHENSES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占2个单元格的自然奇观，提供淡水。提供+2 [ICON_FOOD] 食物、+2 [ICON_CULTURE] 文化值、+2 [ICON_GOLD] 金币。若文明拥有至少1个该奇观单元格，则所有沙漠和平原泛滥平原单元格+1 [ICON_CULTURE] 文化值。可提供淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_LENCOIS_MARANHENSES_QUOTE" Language="zh_Hans_CN">
+			<Text>“我看到了白色和金色沙子铺成的草地，它们的形状随着风的创造力和奇想不断变化。”[NEWLINE]——Geert Mauricio Bas</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_LENCOIS_MARANHENSES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于巴西东北部的马拉尼昂州，伦索伊斯·马拉年塞斯国家公园由380,000英亩的滚动沙丘组成，在雨季会被淡水淹没。公园是多种生物的家园，包括四种濒危物种。由于其独特的地理属性，它已成为生态旅游者的热门目的地。</Text>
+		</Replace>
+		<!-- = Krakatoa = -->
+		<Replace Tag="LOC_FEATURE_KRAKATOA_NAME" Language="zh_Hans_CN">
+			<Text>喀拉喀托火山</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_KRAKATOA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行，表现为火山。为相邻单元格+2 [ICON_SCIENCE] 科技值。喷发时为相邻单元格提供产出，但会造成 [ICON_Citizen] 人口减少和建筑损坏。总为活跃状态。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_KRAKATOA_QUOTE" Language="zh_Hans_CN">
+			<Text>“我惊奇地看到喀拉喀托火山岛变得焚毁、荒芜，同时从四个地方喷出巨大的火块。”[NEWLINE]——约翰·威廉·沃格尔</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>喀拉喀托火山岛位于印度尼西亚的爪哇岛和苏门答腊岛之间。该火山于1883年8月剧烈爆发，放出广岛核弹的13000倍的能量。这次爆炸被公认为有史以来记录到的最响的声音。爆发摧毁了该岛超过一半的地区，声音传到了约3200公里（2000英里）之外的澳大利亚。此次喷发和随后的海啸导致了约3.7万人死亡。过去80年来，该火山一直在稳定地喷发熔岩，以每年约5米（15英尺）的速度重建岛上的火山锥。</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME" Language="zh_Hans_CN">
+			<Text>温和喷发</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>烟雾从人们称为喀拉喀托的火山上升腾，这会是何事的预兆吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME" Language="zh_Hans_CN">
+			<Text>灾难性喷发</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>我们一定背弃了我们的神，因为当我们向着蓝天祈求雨水时，是喀拉喀托用火回应了我们的请求。</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME" Language="zh_Hans_CN">
+			<Text>超大规模喷发</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喀拉喀托火山所掩盖的大地将受到诅咒。火山带给我们烈火和岩石，我们从这片土地的灰烬中诞生，最终又归于灰烬。</Text>
+		</Replace>
+		<!-- = Mosi-oa-Tunya = -->
+		<Replace Tag="LOC_FEATURE_MOSI_OA_TUNYA_NAME" Language="zh_Hans_CN">
+			<Text>莫西奥图尼亚瀑布</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOSI_OA_TUNYA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行。为相邻单元格+2 [ICON_FOOD] 食物。为相邻单元格提供+4魅力，而非自然奇观标准的+2魅力。可提供淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOSI_OA_TUNYA_QUOTE" Language="zh_Hans_CN">
+			<Text>“我敬畏地爬到瀑布的边缘，向下凝视一条宽千码的河流跃下一百英尺，然后突然被挤压进十五或二十码的空间，这是我在非洲看到的最美妙的景象。”[NEWLINE]——大卫·李文斯顿</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>莫西奥图尼亚瀑布，又称维多利亚瀑布，是世界上最壮观的瀑布之一。在这里，宽度超过2公里的赞比西河，嘈杂地跌落到一系列玄武岩峡谷中，激起一道可以在50公里外看到的彩虹般的水雾。它的名字意为“轰响的烟雾”，来自于赞比亚全境和津巴布韦部分地区居民使用的科洛罗语或洛济语，尽管由于苏格兰传教士和探险家大卫·李文斯顿（David Livingstone），它在全球更多被称为维多利亚瀑布，他也因为给已经有名字的瀑布命名而出名。</Text>
+		</Replace>
+		<!-- = Motlatse Canyon = -->
+		<Replace Tag="LOC_FEATURE_MOTLATSE_CANYON_NAME" Language="zh_Hans_CN">
+			<Text>布莱德河峡谷</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOTLATSE_CANYON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占4个单元格的自然奇观，无法通行。为相邻单元格+1 [ICON_CULTURE] 文化值、+1 [ICON_FAITH] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOTLATSE_CANYON_QUOTE" Language="zh_Hans_CN">
+			<Text>"我相信南非是世界上最美丽的地方。诚然，我有偏见，但我认为即使是最一丝不苟的批评者也会同意我们拥有一片真正美妙的土地。"[NEWLINE]——尼尔森·曼德拉</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>布莱德河峡谷是南非的一处重要自然景观，位于姆普马兰加省，是德拉肯斯山脉的北缘。它位于布莱德河峡谷自然保护区，全长25公里，平均约750米深，拥有一些全球最深而陡峭的峭壁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>虽然很难比较全球的峡谷，不过布莱德河峡谷是地球上最大的峡谷之一，也可能是最大的绿色峡谷，因为它拥有茂密的亚热带植被。它养育多样的动植物群落，包括许多鱼类、羚羊、河马、鳄鱼以及南非所有灵长类动物，使得该地区成为旅游的热门景点。</Text>
+		</Replace>
+		<!-- = Namib Sand Sea = -->
+		<Replace Tag="LOC_FEATURE_NAMIB_NAME" Language="zh_Hans_CN">
+			<Text>纳米布沙海</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_NAMIB_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占3个单元格的自然奇观。提供+2 [ICON_CULTURE] 文化值、+2 [ICON_PRODUCTION] 生产力、+2 [ICON_GOLD] 金币。侦察单位进入奇观单元格后将获得能力“沙漠游牧民”（+1 [ICON_Movement] 移动力）。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_NAMIB_QUOTE" Language="zh_Hans_CN">
+			<Text>"我喜欢听沙丘的声音，我能够感受到画作中风景的节奏。和成千上万的人一样，我知道我终于回家了。"[NEWLINE]——姆武拉·亚·南戈洛</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>纳米布沙海是非洲南部的一个沿海沙漠，其名称源于纳马语，意为“广阔之地”。纳米布沙海横跨安哥拉、纳米比亚和南非，沿大西洋海岸线延伸超过2,000公里。经受了大约5500-8000万年的干旱或半干旱气候，纳米布可能是世界上最古老的沙漠之一，包含一些世界上最干燥的地区。由于其干旱，纳米布几乎完全无人居住，除了少数分散的定居点，这些地方曾经是商人和传教士穿越沙漠路途上的贸易站。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NAMIB_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>沙漠游牧民</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NAMIB_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>沙漠游牧民：+1 [ICON_Movement] 移动力</Text>
+		</Replace>
+		<!-- = Rock of Gibraltar = -->
+		<Replace Tag="LOC_FEATURE_GIBRALTAR_NAME" Language="zh_Hans_CN">
+			<Text>直布罗陀巨岩</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GIBRALTAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行。为相邻单元格+1 [ICON_FOOD] 食物、+1 [ICON_GOLD] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GIBRALTAR_QUOTE" Language="zh_Hans_CN">
+			<Text>"我的战友们，看看周围吧，看看这块石头在辉煌的火光照耀下显得多么美丽。"[NEWLINE]——乔治·奥古斯都·艾略特</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_GIBRALTAR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>直布罗陀是地中海口处一个半岛，包含一个宏伟的岩石地貌。它于1704年被英国和荷兰从西班牙夺取，并于1713年被割给英国，自那以后一直是英国的领土，这让意欲收复它的西班牙非常不满。直布罗陀控制着地中海通往大西洋的入口，三百年来被英国作为主要海军基地。直布罗陀大部分地区都被巨岩所覆盖，这是由板块运动的伟力抬起的页岩、砂岩和石灰岩组成的巨大地貌。岩石高约430米（1400英尺）。直布罗陀曾经是一座庞大的要塞，让英国能够支配狭窄的地中海-大西洋通道，但今天该岛更多地作为自然保护区和旅游胜地而不是军事基地。</Text>
+		</Replace>
+		<!-- = Old Faithful = -->
+		<Replace Tag="LOC_FEATURE_OLD_FAITHFUL_NAME" Language="zh_Hans_CN">
+			<Text>老实泉</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_OLD_FAITHFUL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观。提供+3 [ICON_SCIENCE] 科技值、+2 [ICON_FOOD] 食物、+1 [ICON_Faith] 信仰值、+1 [ICON_GOLD] 金币。为学院提供大量相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_OLD_FAITHFUL_QUOTE" Language="zh_Hans_CN">
+			<Text>“它在我们逗留期间以规律的间隔喷发了九次，每次喷发时沸水都被喷到90至125英尺高的空中，每次持续15至20分钟。我们给它取名‘老实泉’。”[NEWLINE]——纳撒尼尔·P·朗福德</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>老实泉是美国怀俄明州黄石国家公园内的一座间歇泉。它于一万年前被原住民首先发现，又于1870年被欧洲人发现，并因其喷发的规律性而得名。该泉每隔60-90分钟喷发一次，将一柱热水喷射到约30-50米（100-175英尺）的高度（间隔时间取决于前一次喷发的猛烈程度）。间歇泉是由于地下水与熔岩相遇而产生的。水瞬间被转化为蒸汽，以极高的压力冲出最近的开口。老忠实泉和黄石国家公园内的其他250个间歇泉每年吸引约300万名游客。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_OLD_FAITHFUL_SCIENCE" Language="zh_Hans_CN">
+				<Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻奇观老实泉。</Text>
+		</Replace>
+		<!-- = Lakes of Ounianga = -->
+		<Replace Tag="LOC_FEATURE_OUNIANGA_NAME" Language="zh_Hans_CN">
+			<Text>乌尼昂加湖泊群</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_OUNIANGA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占2个单元格的自然奇观。提供+2 [ICON_FOOD] 食物、+2 [ICON_CULTURE] 文化值、+2 [ICON_GOLD] 金币。为相邻单元格+1 [ICON_FOOD] 食物。可提供淡水。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_OUNIANGA_QUOTE" Language="zh_Hans_CN">
+			<Text>“起初，沙漠的语言是风墙上盛开的草，是播种季节摇曳的高棕榈，是被风带来在温暖沙漠蓝天下飘落的灰烬。她是我们的第一个泉源，我们的母亲，曾拥抱我们，把我们送到等待城市的时代。”[NEWLINE]——阿尔-蒙西夫·艾-瓦哈伊比</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>"西提贝斯提和恩内迪东部的盆地中，有十八个相互连接的湖泊，称为乌尼昂加湖泊群。这是撒哈拉沙漠极干旱区域中一个特殊的自然景观，拥有极美的颜色和形状，湖泊分为相距40公里的两组，其中淡水，咸水和超咸水湖的水源都由地下水提供。乌尼昂加凯比尔由四个湖泊组成，最大的是约安湖，占地358公顷，深27米。它的高盐水只允许藻类和一些微生物生存。第二组湖泊名为乌尼昂加塞里尔，由14个被沙丘隔开的湖泊组成。漂浮的芦苇覆盖了这些湖泊的近一半表面，减少了蒸发。特利湖面积最大，但不到10米深。由于水质优良，一些湖泊是鱼类等水生动物的栖息地。"</Text>
+		</Replace>
+		<!-- = Salar de Uyuni = -->
+		<Replace Tag="LOC_FEATURE_SALAR_DE_UYUNI_NAME" Language="zh_Hans_CN">
+			<Text>乌尤尼盐沼</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_SALAR_DE_UYUNI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占4个单元格的自然奇观。提供+2 [ICON_SCIENCE] 科技值、+2 [ICON_PRODUCTION] 生产力、+4 [ICON_GOLD] 金币。为商业中心提供大量相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_SALAR_DE_UYUNI_QUOTE" Language="zh_Hans_CN">
+			<Text>“我听到沙漠中盐的声音时，我在那孤独中颤栗。”[NEWLINE]——巴勃罗·聂鲁达，《盐的颂歌》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_SALAR_DE_UYUNI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于南玻利维亚、靠近智利边界和阿塔卡马沙漠的乌尤尼盐沼是地球上最大的盐沼，面积为10,582平方千米，是美国博尼维尔盐沼的约100倍。该盐沼是数个史前湖泊互相转化的结果。由几米厚的盐壳覆盖，在整个盐沼范围内，平均高程变化不到1米。广阔的区域、晴朗的天空和异常平坦的表面，使其成为校准地球观测卫星高度计的理想对象。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SALAR_DE_UYUNI_GOLD" Language="zh_Hans_CN">
+				<Text>+{1_num} [ICON_GOLD] 金币来自相邻奇观“乌尤尼盐沼”。</Text>
+		</Replace>
+		<!-- = Mount Sinai = -->
+		<Replace Tag="LOC_FEATURE_SINAI_NAME" Language="zh_Hans_CN">
+			<Text>西奈山</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_SINAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行，表现为山脉。为相邻单元格+2 [ICON_Faith] 信仰值。移动到西奈山附近的宗教单位将获得能力“十诫”（+15 [ICON_RELIGION] 宗教战斗力）。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_SINAI_QUOTE" Language="zh_Hans_CN">
+			<Text>"耶和华在西奈山和摩西说完了话，就把两块法版交给他，是神用指头写的石版。"[NEWLINE]——出埃及记 31:18</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_SINAI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于埃及西奈半岛上的西奈山是犹太教、基督教和伊斯兰教信徒的圣地之一。据信西奈山是摩西在以色列人从埃及出走时从上帝那里首次领受十诫的地方，使得这座山峰成为世界各地宗教朝圣者的重要朝圣地。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SINAI_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>十诫</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SINAI_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>十诫：+15 [ICON_RELIGION] 宗教战斗力。</Text>
+		</Replace>
+		<!-- = Sri Pada = -->
+		<Replace Tag="LOC_FEATURE_SRI_PADA_NAME" Language="zh_Hans_CN">
+			<Text>圣足峰</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_SRI_PADA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占1个单元格的自然奇观，无法通行，表现为山脉。为相邻单元格+1 [ICON_FOOD] 食物、+1 [ICON_Faith] 信仰值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_SRI_PADA_QUOTE" Language="zh_Hans_CN">
+			<Text>“非常奇妙的景象，具有无上的光彩。”[NEWLINE]——《摩诃婆罗多》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_SRI_PADA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>高耸于斯里兰卡的锡里帕达峰，形成近乎完美的锥形，其山顶的足迹被多个宗教认为是神圣的。这个足迹是在山顶上的岩石形成的凹陷，被归功于佛陀、湿婆神和圣经人物亚当，因此受到佛教、印度教和伊斯兰教信徒的崇敬。每年，成千上万的朝圣者要花费数小时爬上山顶，在圣地表示敬意。</Text>
+		</Replace>
+		<!-- = Vredefort Dome = -->
+		<Replace Tag="LOC_FEATURE_VREDEFORT_DOME_NAME" Language="zh_Hans_CN">
+			<Text>弗里德堡陨石坑</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_VREDEFORT_DOME_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占2个单元格的自然奇观。提供+2 [ICON_FOOD] 食物、+1 [ICON_PRODUCTION] 生产力、+2 [ICON_SCIENCE] 科技值、+1 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_VREDEFORT_DOME_QUOTE" Language="zh_Hans_CN">
+			<Text>“近150年前，地质学家们第一次游荡在弗里德堡以北法尔河畔壮丽的山环之间。他们立刻认识到，这些异常破裂和倾斜的岩石见证了遥远过去一个极度暴力的事件。”[NEWLINE]——沃尔夫·乌韦·雷莫尔德</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>弗里德堡陨石坑是地球上已验证的最大撞击坑，形成时直径超过300千米。它的残留位于南非自由邦省，耕作农业主导着这片土地。据估计，这个陨石坑有超过20亿年的历史，撞击事件发生在古元古宙，是地球上已知第二古老的撞击坑。</Text>
+		</Replace>
+		<!-- = Wulingyuan = -->
+		<Replace Tag="LOC_FEATURE_WULINGYUAN_NAME" Language="zh_Hans_CN">
+			<Text>武陵源</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_WULINGYUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>占2个单元格的自然奇观，无法通行。为相邻单元格+1 [ICON_CULTURE] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_WULINGYUAN_QUOTE" Language="zh_Hans_CN">
+			<Text>“万壑树参天，千山响杜鹃。山中一夜雨，树杪百重泉。”[NEWLINE]——王维，《送梓州李使君》</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_FEATURES_PAGE_FEATURE_WULINGYUAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>武陵源是中国中南部的一处景点和历史遗产，以其3000多个石英质砂岩石柱和峰丘而闻名，其中许多高度超过200米，并且还有峡谷、沟壑、池塘、湖泊、河流和瀑布。它拥有40多个洞穴和两座天然桥梁，被称为仙人桥和天桥神洞。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
