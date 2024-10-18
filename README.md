@@ -32,6 +32,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Basic Buildings (carterrosenberg | H.Humpel)
 1. Bear's Mods - Governor Overhaul (MarshmallowBear | Junky)
 1. Bermuda Triangle++ (p0kiehl | ASM590319)
+1. Better Balanced Game (github.com/CivilizationVIBetterBalancedGame | onyxum)
 1. Better Balanced Maps (BaNiPouZ, Talasta | onyxum)
 1. Better Balanced Starts (BBS) (57F@n, D. / Jack The Narrator | onyxum)
 1. Better Civilopedia (UI) (Infixo | Junky)

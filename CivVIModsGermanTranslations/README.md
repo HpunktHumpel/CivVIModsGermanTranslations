@@ -234,6 +234,7 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 2860524257 | Civilization Conquer Mode | muyyi & Flactine | Junky | #21
 2862851843 | All Vikings Scenario units | Mikecro | Junky | #25
 2863225264 | Bear's Mods - Governor Overhaul | MarshmallowBear | Junky | #21
+2865001760 | Better Balanced Game 6.1.0 | github.com/CivilizationVIBetterBalancedGame | onyxum | **NEW**
 2868168019 | Deity ++ | MyopicCat, Fuzzle | onyxum | **NEW**
 2871386431 | Statue of Zeus+ | Sailor Cat | Junky | #25
 2873617380 | Unit-Shield Warrior | Camille | H.Humpel | #20

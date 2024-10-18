@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="30">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]277[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]278[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1729273776</Created>
+    <Created>1729274598</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>57F@n, A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, BaNiPouZ, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, Cisco, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, FlashyFeeds, Friend, Fuzzle, Fuzzletop, Gedemon, HktkNban, HoneyTheBear, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, MyopicCat, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, peter.spjuth, Phantagonist, Phyrax, Plati, Rdner, RomanHoliday, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, Talasta, TC, Technoluddite, Teddyk, thecrazyscotsman, totalslacker, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky,  onyxum, Phyrax, SprachZauberer and Stevie for their translations.</SpecialThanks>
@@ -52,6 +52,9 @@
     </Criteria>
     <Criteria id="BBS_FrontEnd">
       <ModIsEnabled>c88cba8b-8311-4d35-90c3-51a4a5d66550</ModIsEnabled>
+    </Criteria>
+    <Criteria id="BetterBalancedGame_FrontEnd">
+      <ModIsEnabled>cb84075d-5007-4207-b662-c35a5f7be260</ModIsEnabled>
     </Criteria>
     <Criteria id="BetterBalancedMaps_FrontEnd">
       <ModIsEnabled>c88cba8b-8311-4d35-90c3-51a4a5d66542</ModIsEnabled>
@@ -422,6 +425,9 @@
     </Criteria>
     <Criteria id="BermudaTriangle">
       <ModInUse>57fd839b-e4bc-4e4e-b43a-6322d869ec5e</ModInUse>
+    </Criteria>
+    <Criteria id="BetterBalancedGame">
+      <ModInUse>cb84075d-5007-4207-b662-c35a5f7be260</ModInUse>
     </Criteria>
     <Criteria id="BetterBalancedMaps">
       <ModInUse>c88cba8b-8311-4d35-90c3-51a4a5d66542</ModInUse>
@@ -1568,6 +1574,13 @@
       <Criteria>BBS_FrontEnd</Criteria>
       <File>2749991372/Lang/german_de_DE.xml</File>
     </UpdateText>
+    <UpdateText id="BetterBalancedGame_bbg_pregame_text_updates_FrontEnd_de_DE">
+      <Criteria>BetterBalancedGame_FrontEnd</Criteria>
+      <Properties>
+        <LoadOrder>150</LoadOrder>
+      </Properties>
+      <File>2865001760/lang/german_de_DE.xml</File>
+    </UpdateText>
     <UpdateText id="BetterBalancedMaps_BBS_SETTINGS_TEXTS_FrontEnd_de_DE">
       <Criteria>BetterBalancedMaps_FrontEnd</Criteria>
       <File>3179425402/Lang/german.xml</File>
@@ -2337,6 +2350,13 @@
       </Properties>
       <Criteria>BermudaTriangle</Criteria>
       <File>2197566393/Bermuda_Text_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="BetterBalancedGame_BBG_TextUpdate_de_DE">
+      <Criteria>BetterBalancedGame</Criteria>
+      <Properties>
+        <LoadOrder>152</LoadOrder>
+      </Properties>
+      <File>2865001760/lang/german_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="BetterBalancedMaps_BBS_Gameplay_test_de_DE">
       <Criteria>BetterBalancedMaps</Criteria>
@@ -4929,6 +4949,7 @@
     <File>2860524257/CC_text_de_DE.xml</File>
     <File>2862851843/Joint_Localisation_de_DE.sql</File>
     <File>2863225264/Text/Localization_de_DE.sql</File>
+    <File>2865001760/lang/german_de_DE.xml</File>
     <File>2868168019/DeityPlusPlus_LocalizedText_de_DE.xml</File>
     <File>2871386431/Loc_de_DE.xml</File>
     <File>2873617380/UNIT_XIANZHEN_Text_de_DE.xml</File>
