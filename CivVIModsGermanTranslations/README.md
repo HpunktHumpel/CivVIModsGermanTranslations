@@ -3,6 +3,7 @@
 Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 ---------- | -------- | ----- | ---------- | :-----:
 871712879  | More Lenses | astog | Junky | #15
+871861883 | Yet (not) Another Maps Pack | Gedemon | onyxum | **NEW**
 880843004  | Real Era Stop | infixo | Junky | #12
 881541733  | Better Coastal Cities and Water Tiles | p0kiehl | Junky | #15
 891130600  | Trading Post Improvement | joshmanisdabomb | H.Humpel | #9

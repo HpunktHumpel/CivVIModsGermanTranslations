@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+
+	<!-- Replacing -->
+
+    <Replace Tag="LOC_MAP_RESOURCES_NAME" Language="de_DE">
+      <Text>Ressourcenmenge</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_START_POSITION_NAME" Language="de_DE">
+      <Text>Startpositionsbilanz</Text>
+    </Replace>
+
+	<Replace Tag="LOC_CITYSTATE_COUNT_DESCRIPTION" Language="de_DE">
+		<Text>Die Anzahl der Stadtstaaten, die im Spiel enthalten sind.[NEWLINE][NEWLINE]Diese Anzahl ist durch die bereits verwendeten Slots begrenzt; das Spiel kann 64 Slots verwalten, ein Slot wird für die Barbaren verwendet, ein Slot wird für die Freien Städte verwendet.[NEWLINE][NEWLINE]Es sind noch 62 Slots für die Gesamtzahl der Stadtstaaten und Zivilisationen verfügbar. Wenn diese Gesamtzahl höher als 62 ist, wird die Anzahl der Stadtstaaten verringert, um das Limit einzuhalten.</Text>
+	</Replace>
+
+	<!-- New entries -->
+
+	<Replace Tag="LOC_YNAGEM_NAME" Language="de_DE">
+      <Text>[COLOR_Civ6Blue]YnAMP[ENDCOLOR] - [COLOR_RED]Gigantische Erde[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_YNAGEM_DESC" Language="de_DE">
+      <Text>Genghis Kai's GEM (Hormigas-Version) (180x94 - Gigantisch)[NEWLINE][ICON_Exclamation] [COLOR_RED]UNSTABIL im späten Spiel[ENDCOLOR][NEWLINE]Reduziere deine Grafikeinstellungen, um zufällige Abstürze zu vermeiden.[NEWLINE]6+ GB VRAM empfohlen</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATESTEARTH_NAME" Language="de_DE">
+      <Text>[COLOR_Civ6Blue]YnAMP[ENDCOLOR] - "Beste Erde"-Karte</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATESTEARTH_DESC" Language="de_DE">
+      <Text>"Beste Erde"-Karte von djvandyke (104x64 - Groß)</Text>
+    </Replace>
+    <Replace Tag="LOC_PLAYEUROPEAGAIN_NAME" Language="de_DE">
+      <Text>[COLOR_Civ6Blue]YnAMP[ENDCOLOR] - Europa Wieder Spielen</Text>
+    </Replace>
+    <Replace Tag="LOC_PLAYEUROPEAGAIN_DESC" Language="de_DE">
+      <Text>NiRv4n4's Europa (Hormigas-Version) (108x98 - Riesig)</Text>
+    </Replace>
+	<Replace Tag="LOC_LARGE_EUROPE_NAME" Language="de_DE">
+      <Text>[COLOR_Civ6Blue]YnAMP[ENDCOLOR] - Großes Europa</Text>
+    </Replace>
+    <Replace Tag="LOC_LARGE_EUROPE_DESC" Language="de_DE">
+      <Text>Dieter VonClam's Großes Europa (79x73 - Groß)</Text>
+    </Replace>
+    <Replace Tag="LOC_TERRAMAP_NAME" Language="de_DE">
+      <Text>[COLOR_Civ6Blue]YnAMP[ENDCOLOR] - Terra Karte</Text>
+    </Replace>
+    <Replace Tag="LOC_TERRAMAP_DESC" Language="de_DE">
+      <Text>Eine Karte mit anpassbarer Landmasseplatzierung basierend auf einer skalierbaren Erde</Text>
+    </Replace>
+	<Replace Tag="LOC_LARGESTEARTHCUSTOM_NAME" Language="de_DE">
+      <Text>[COLOR_Civ6Blue]YnAMP[ENDCOLOR] - [COLOR_RED]Größte-Erde-Karte Benutzerdefiniert[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_LARGESTEARTHCUSTOM_DESC" Language="de_DE">
+      <Text>Größte-Erde-Karte Benutzerdefiniert (230x116 - Überdimensioniert)[NEWLINE][ICON_Exclamation] [COLOR_RED]WIRD NICHT IN VOLLER GRÖSSE GELADEN ![ENDCOLOR][NEWLINE]Verwende die Anpassungsoptionen, um ein Spiel auf kleineren Regionen der Karte festzulegen.</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MAP_CIVILIZATION_PLACEMENT_NAME" Language="de_DE">
+      <Text>Zivilisation Platzierung</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_CIVILIZATION_PLACEMENT_DESCRIPTION" Language="de_DE">
+      <Text>Wie Zivilisationen auf der Karte platziert werden</Text>
+    </Replace>
+    <Replace Tag="LOC_CULTURALLY_LINKED_START_NAME" Language="de_DE">
+      <Text>Startpositionslink</Text>
+    </Replace>
+    <Replace Tag="LOC_CULTURALLY_LINKED_START_DESCRIPTION" Language="de_DE">
+      <Text>Verlinkung der Startpositionen zwischen Zivilisationen</Text>
+    </Replace>
+    <Replace Tag="LOC_TEAM_LINKED_NAME" Language="de_DE">
+      <Text>Teams starten näher</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MAP_PLACEMENT_RANDOM_NAME" Language="de_DE">
+      <Text>Zufällig</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_LINKED_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+      <Text>Verwende die normale Platzierung des Karten-Generators (mit Terrains/Funktionen Startbias)</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_LINKED_PLACEMENT_ETHNIC_NAME" Language="de_DE">
+      <Text>Kulturell</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_LINKED_PLACEMENT_ETHNIC_DESCRIPTION" Language="de_DE">
+      <Text>Versuche, Zivilisationen nach Ethnie bei den Startpositionen zu gruppieren (dieses Setting deaktiviert die anderen Startbiases)</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_LINKED_PLACEMENT_DISTANCE_NAME" Language="de_DE">
+      <Text>Entfernung-Relativ</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_LINKED_PLACEMENT_DISTANCE_DESCRIPTION" Language="de_DE">
+      <Text>Versuche, Zivilisationen nach relativem Abstand zur realen Welt bei den Startpositionen zu gruppieren (dieses Setting deaktiviert die anderen Startbiases)</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_NAME" Language="de_DE">
+      <Text>TSL Ersatzbereich</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_DESCRIPTION" Language="de_DE">
+      <Text>Entfernung, in der ein TSL verschoben werden kann, wenn die relative Position nicht gut genug ist. Diese Parameter skaliert mit der Kartengröße.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_SHORT_NAME" Language="de_DE">
+      <Text>Kurzbereich</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_SHORT_DESCRIPTION" Language="de_DE">
+      <Text>Bleibe relativ nah an der Position von der Referenzkarte, aber dies kann verhindern, dass eine Zivilisation im Spiel ist.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_MEDIUM_NAME" Language="de_DE">
+      <Text>Mittelbereich</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_MEDIUM_DESCRIPTION" Language="de_DE">
+      <Text>Dies ermöglicht einen TSL-Ersatz in den meisten Fällen.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_HIGH_NAME" Language="de_DE">
+      <Text>Hoher Bereich</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_ALTERNATE_TSL_RANGE_HIGH_DESCRIPTION" Language="de_DE">
+      <Text>Eine Zivilisation kann relativ weit von ihrer ursprünglichen Region platziert werden.</Text>
+    </Replace>
+
+        <Replace Tag="LOC_MAPSIZE_ENORMOUS_NAME" Language="de_DE">
+            <Text>Enorm</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_ENORMOUS_DESCRIPTION" Language="de_DE">
+            <Text>Wirklich enorme Karte für 16 Spieler (128x80)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_GIANT_NAME" Language="de_DE">
+            <Text>[COLOR_RED]Gigantisch[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_GIANT_DESCRIPTION" Language="de_DE">
+            <Text>Riesige Karte für 20+ Spieler (180x94)[NEWLINE][ICON_Exclamation] [COLOR_RED]INSTABIL im späten Spiel[ENDCOLOR][NEWLINE]Reduzieren Sie Ihre Grafikeinstellungen, um zufällige Abstürze zu vermeiden.[NEWLINE]6+ GB VRAM empfohlen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_LUDICROUS_NAME" Language="de_DE">
+            <Text>[COLOR_RED]Irrsinnig[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_LUDICROUS_DESCRIPTION" Language="de_DE">
+            <Text>Wirst du die Geduld haben, während die Karte lädt? (200x104)[NEWLINE][ICON_Exclamation] [COLOR_RED]INSTABIL im späten Spiel[ENDCOLOR][NEWLINE]Reduzieren Sie Ihre Grafikeinstellungen, um zufällige Abstürze zu vermeiden.[NEWLINE]8+ GB VRAM empfohlen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_MAX_NAME" Language="de_DE">
+            <Text>Maximal</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_MAX_DESCRIPTION" Language="de_DE">
+            <Text>Maximale Arbeitsgröße auf meinem PC (i7 4770K + MSI GTX 1080 Ti + 16 GB RAM) (215x112) (Ich hätte das Datum des Tests hier angeben sollen, denn es ist schon lange her...)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_OVERSIZED_NAME" Language="de_DE">
+            <Text>Überdimensioniert</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_OVERSIZED_DESCRIPTION" Language="de_DE">
+            <Text>Überdimensioniert (230x116)</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAPSIZE_SMALL21_NAME" Language="de_DE">
+            <Text>Klein (2:1)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_SMALL21_DESCRIPTION" Language="de_DE">
+            <Text>Kleine Karte für 6 Spieler (84x44)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_STANDARD21_NAME" Language="de_DE">
+            <Text>Standard (2:1)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_STANDARD21_DESCRIPTION" Language="de_DE">
+            <Text>Durchschnittliche Karte für 8 Spieler (96x50)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_LARGE21_NAME" Language="de_DE">
+            <Text>Groß (2:1)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_LARGE21_DESCRIPTION" Language="de_DE">
+            <Text>Große Karte für 10 Spieler (108x56)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_HUGE21_NAME" Language="de_DE">
+            <Text>Riesig (2:1)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_HUGE21_DESCRIPTION" Language="de_DE">
+            <Text>Riesige Karte für 12 Spieler (120x62)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_ENORMOUS21_NAME" Language="de_DE">
+            <Text>Enorm (2:1)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAPSIZE_ENORMOUS21_DESCRIPTION" Language="de_DE">
+            <Text>Wirklich enorme Karte für 16 Spieler (140x74)</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_NAME" Language="de_DE">
+            <Text>Ressourcenplatzierung</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_DESCRIPTION" Language="de_DE">
+            <Text>Wie Ressourcen auf der Karte platziert werden</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_DEFAULT_NAME" Language="de_DE">
+            <Text>Kartengenerator</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Ressourcen werden mit dem Civ6-Kartengenerator platziert (zufällig)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_IMPORT_NAME" Language="de_DE">
+            <Text>Importieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_IMPORT_DESCRIPTION" Language="de_DE">
+            <Text>Ressourcenpositionen werden aus den Originalkartendaten importiert</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_EXCLUDE_NAME" Language="de_DE">
+            <Text>Ressourcenausschlusszonen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_EXCLUDE_DESCRIPTION" Language="de_DE">
+            <Text>Einige Ressourcen werden nur in vordefinierten Bereichen der Karte platziert</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_RWDEPOSIT_NAME" Language="de_DE">
+            <Text>Echte Weltvorkommen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_PLACEMENT_RWDEPOSIT_DESCRIPTION" Language="de_DE">
+            <Text>Einige Ressourcenlagerstätten werden in entsprechenden echten Weltgebieten platziert</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_ACTIVATED_NAME" Language="de_DE">
+            <Text>Aktiviert</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_DEACTIVATED_NAME" Language="de_DE">
+            <Text>Deaktiviert</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_REQUESTED_NAME" Language="de_DE">
+            <Text>Zivilisationsressourcen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RESOURCES_REQUESTED_DESCRIPTION" Language="de_DE">
+            <Text>Platziere einige spezifische Ressourcen rund um die Startposition spezifischer Zivilisationen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ALL_LUXURIES_NAME" Language="de_DE">
+            <Text>Alle Luxusgüter platzieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ALL_LUXURIES_DESCRIPTION" Language="de_DE">
+            <Text>Wenn dies aktiviert ist, versucht das Mod, mindestens einige jeder Luxusressource auf der Karte zu platzieren.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ALL_STRATEGICS_NAME" Language="de_DE">
+            <Text>Fehlende strategische Ressourcen hinzufügen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ALL_STRATEGICS_DESCRIPTION" Language="de_DE">
+            <Text>Beim Importieren einer Ressourcenkarte aus Civ5 können einige strategische Ressourcen fehlen; diese Option ermöglicht das zufällige Platzieren der fehlenden Ressourcen.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_FEATURES_PLACEMENT_NAME" Language="de_DE">
+            <Text>Merkmale Platzierung</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FEATURES_PLACEMENT_DESCRIPTION" Language="de_DE">
+            <Text>Wie Merkmale (Wälder, Dschungel, ...) auf der Karte platziert werden</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FEATURES_PLACEMENT_DEFAULT_NAME" Language="de_DE">
+            <Text>Kartengenerator</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FEATURES_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Merkmale werden mit dem Civ6-Kartengenerator platziert (zufällig)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FEATURES_PLACEMENT_IMPORT_NAME" Language="de_DE">
+            <Text>Importieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FEATURES_PLACEMENT_IMPORT_DESCRIPTION" Language="de_DE">
+            <Text>Merkmalepositionen werden aus den Originalkartendaten importiert</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_DEFAULT_NAME" Language="de_DE">
+            <Text>Kartengenerator</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Zivilisationen werden mit dem Civ6-Kartengenerator platziert (zufällig)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_TSL_NAME" Language="de_DE">
+            <Text>Echte Startpositionen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_TSL_DESCRIPTION" Language="de_DE">
+            <Text>Zivilisationen werden an realen Weltstandorten platziert, wenn verfügbar</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_OLD_WORLD_NAME" Language="de_DE">
+            <Text>Kartengenerator (alte Welt)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CIVILIZATIONS_PLACEMENT_OLD_WORLD_DESCRIPTION" Language="de_DE">
+            <Text>Zivilisationen werden nur auf dem Landmassen der alten Welt platziert</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_ALLOW_NW_CS_NAME" Language="de_DE">
+            <Text>Stadtstaaten in der neuen Welt zulassen</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_CONTINENT_PLACEMENT_NAME" Language="de_DE">
+            <Text>Kontinente Platzierung</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENT_PLACEMENT_DESCRIPTION" Language="de_DE">
+            <Text>Wie Kontinentsnamen auf der Karte platziert werden</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_PLACEMENT_DEFAULT_NAME" Language="de_DE">
+            <Text>Kartengenerator</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Kontinente werden mit dem Civ6-Kartengenerator benannt (zufälliger Name)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_PLACEMENT_IMPORT_NAME" Language="de_DE">
+            <Text>Importieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_PLACEMENT_IMPORT_DESCRIPTION" Language="de_DE">
+            <Text>Kontinentsnamen werden aus den Originalkartendaten importiert</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_CONTINENT_MODEL_NAME" Language="de_DE">
+            <Text>Kontinentenmodell</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENT_MODEL_DESCRIPTION" Language="de_DE">
+            <Text>Wählen Sie das zu verwendende Kontinentenmodell aus</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_MODEL_SEVEN_CONTINENT_NAME" Language="de_DE">
+            <Text>Sieben Kontinente</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_MODEL_SEVEN_CONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Das Modell der sieben Kontinente (Afrika, Asien, Europa, Nordamerika, Südamerika, Antarktis, Ozeanien)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_MODEL_SUBCONTINENT_NAME" Language="de_DE">
+            <Text>Subkontinente und Regionen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENTS_MODEL_SUBCONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Mehrere Subkontinente und Regionen festlegen</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_RIVERS_PLACEMENT_NAME" Language="de_DE">
+            <Text>Flüsse Platzierung</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RIVERS_PLACEMENT_DESCRIPTION" Language="de_DE">
+            <Text>Wie Flüsse auf der Karte platziert werden</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RIVERS_PLACEMENT_DEFAULT_NAME" Language="de_DE">
+            <Text>Kartengenerator</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RIVERS_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Flüsse werden mit dem Civ6-Kartengenerator platziert (zufällig)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RIVERS_PLACEMENT_IMPORT_NAME" Language="de_DE">
+            <Text>Importieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_RIVERS_PLACEMENT_IMPORT_DESCRIPTION" Language="de_DE">
+            <Text>Flüsse werden aus den Originalkartendaten importiert</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_NAME" Language="de_DE">
+            <Text>Platzierung natürlicher Wunder</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_DESCRIPTION" Language="de_DE">
+            <Text>Wie natürliche Wunder auf der Karte platziert werden</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_DEFAULT_NAME" Language="de_DE">
+            <Text>Kartengenerator</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Natürliche Wunder werden mit dem Civ6-Kartengenerator platziert (zufällig)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_IMPORT_NAME" Language="de_DE">
+            <Text>Importieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NATURAL_WONDERS_PLACEMENT_IMPORT_DESCRIPTION" Language="de_DE">
+            <Text>Natürliche Wunder werden aus den Kartendaten importiert</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_NAME" Language="de_DE">
+            <Text>Küsten-Niederungen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_DESCRIPTION" Language="de_DE">
+            <Text>Wie die Höhenlage des Landes (für steigendes Wasser) bestimmt wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Niederungsparzellen werden mit dem Civ6-Kartengenerator bestimmt (zufällig)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_IMPORT_NAME" Language="de_DE">
+            <Text>Importieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_IMPORT_DESCRIPTION" Language="de_DE">
+            <Text>Niederungsparzellen werden aus den Kartendaten importiert, wenn sie vorhanden sind</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_DEEP_NAME" Language="de_DE">
+            <Text>Entsprechende Flachlandflächen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_DEEP_DESCRIPTION" Language="de_DE">
+            <Text>Das steigende Meer kann weiter ins Landesinnere vordringen und folgt dabei den Flachlandflächen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LOWLAND_PLACEMENT_EMPTY_DESCRIPTION" Language="de_DE">
+            <Text>Keine Niederungsplatzierung (kein Anstieg des Meeres)</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_FLOODPLAINS_PLACEMENT_NAME" Language="de_DE">
+            <Text>Flussüberschwemmungen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FLOODPLAINS_PLACEMENT_DESCRIPTION" Language="de_DE">
+            <Text>Wie die Platzierung spezieller Überschwemmungsgebiete (für Flussüberschwemmungen) bestimmt wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FLOODPLAINS_PLACEMENT_DEFAULT_DESCRIPTION" Language="de_DE">
+            <Text>Spezielle Überschwemmungsgebiete werden mit dem Civ6-Kartengenerator platziert (zufällig)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FLOODPLAINS_PLACEMENT_EMPTY_DESCRIPTION" Language="de_DE">
+            <Text>Keine speziellen Überschwemmungsgebiete (keine Flussüberschwemmungen)</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_PLACEMENT_EMPTY_NAME" Language="de_DE">
+            <Text>Leer</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_PLACEMENT_EMPTY_DESCRIPTION" Language="de_DE">
+            <Text>Keine Platzierung</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_PLACEMENT_DEFAULT_NAME" Language="de_DE">
+            <Text>Kartengenerator</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_CLOSED_BOSPHORUS_NAME" Language="de_DE">
+            <Text>Bosphorusstraße schließen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_MONT_SAINT_MICHEL_MARSH_NAME" Language="de_DE">
+            <Text>Moore für Mont Saint Michel platzieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_STONEHENGE_STONE_NAME" Language="de_DE">
+            <Text>Stein für Stonehenge platzieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ARTEMIS_TEMPLE_DEER_NAME" Language="de_DE">
+            <Text>Rehe für den Tempel der Artemis platzieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_GREAT_ZIMBABWE_CATTLE_NAME" Language="de_DE">
+            <Text>Rinder für Groß-Zimbabwe platzieren</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_JEBEL_BARKAL_HILLS_NAME" Language="de_DE">
+            <Text>Überschwemmungsgebiete durch Hügel für Jebel Barkal ersetzen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_PANAMA_CANAL_NAME" Language="de_DE">
+            <Text>Hügel durch Flachland für einen Kanal in Panama ersetzen</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_NO_ICE_ADJACENT_TO_LAND_NAME" Language="de_DE">
+            <Text>Kein Eis in der Nähe von Land (zur Unterstützung der Umsegelung)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NO_ICE_ADJACENT_TO_LAND_DESC" Language="de_DE">
+            <Text>Dies entfernt Eismerkmale, die in der Nähe von Landflächen platziert sind, um die Umsegelung zu unterstützen. Dies entfernt keine Landflächen an der nördlichen und südlichen Kante der Karte.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NO_CITY_STATE_NAME" Language="de_DE">
+            <Text>Keine Stadtstaaten</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_FORCE_TSL_NAME" Language="de_DE">
+            <Text>TSL erzwingen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_DESCRIPTION" Language="de_DE">
+            <Text>Den ursprünglichen Siedler durch eine Stadt an TSL ersetzen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_OFF" Language="de_DE">
+            <Text>Aus</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_OFF_DESCRIPTION" Language="de_DE">
+            <Text>Ursprüngliche Siedler können sich frei bewegen, bevor sie eine Stadt gründen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_CS" Language="de_DE">
+            <Text>Stadtstaaten</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_CS_DESCRIPTION" Language="de_DE">
+            <Text>Siedler von Stadtstaaten werden durch eine Stadt an TSL ersetzt</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_AI" Language="de_DE">
+            <Text>K.I.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_AI_DESCRIPTION" Language="de_DE">
+            <Text>Siedler von K.I. (Zivilisationen und Stadtstaaten) werden durch eine Stadt an TSL ersetzt</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_ALL" Language="de_DE">
+            <Text>Alle</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_FORCE_TSL_ALL_DESCRIPTION" Language="de_DE">
+            <Text>Alle Siedler (einschließlich menschlicher Spieler) werden durch eine Stadt an TSL ersetzt</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_AUTO_CITY_NAMING_NAME" Language="de_DE">
+            <Text>Echte Städtenamen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_AUTO_CITY_NAMING_DESC" Language="de_DE">
+            <Text>Wenn aktiviert, versucht das Mod, den Namen einer Stadt basierend auf den echten Namen der Umgebung festzulegen. Deaktivieren Sie dies, um die Standard-Stadtliste für jede Zivilisation zu verwenden.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ONLY_GENERIC_CITY_NAMES_NAME" Language="de_DE">
+            <Text>Nur generische Städtenamen verwenden</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ONLY_GENERIC_CITY_NAMES_DESC" Language="de_DE">
+            <Text>Wenn deaktiviert, versucht das Mod, den Namen einer Stadt basierend auf dem realen Namen einer Stadt zu setzen, die von einer Zivilisation an ihrem Standort gegründet wurde. Aktivieren Sie dies, um den Standard-(d.h. englischen) Städtenamen an dem Standort der Stadt zu verwenden.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_LEADER_TSL_NAME" Language="de_DE">
+            <Text>Leiter-TSL verwenden, wenn verfügbar</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ALTERNATE_TSL_NAME" Language="de_DE">
+            <Text>Alternativen TSL verwenden, wenn erforderlich und verfügbar</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ALTERNATE_PLACEMENT_NAME" Language="de_DE">
+            <Text>Zufällige Platzierung für Zivilisationen ohne TSL erlauben</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ALTERNATE_PLACEMENT_DESC" Language="de_DE">
+            <Text>Zivilisationen ohne TSL werden zufällig auf der Karte platziert. Dies ermöglicht allen ausgewählten Spielern, eine Startposition zu haben. Deaktivieren Sie dies, wenn Sie zufällige Slots verwenden möchten, wenn Sie nur TSL-Zivilisationen im Spiel haben möchten und es Ihnen nichts ausmacht, wenn die Anzahl der Spieler geringer ist als die, die Sie ausgewählt haben.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_LAND_AROUND_TSL_NAME" Language="de_DE">
+            <Text>Mehr Land um TSL herum</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LAND_AROUND_TSL_DESC" Language="de_DE">
+            <Text>Versuchen Sie, die Wahrscheinlichkeit zu erhöhen, dass Land um eine Zivilisation relativ zu TSL vorhanden ist, außer bei Zivilisationen, die auf See starten.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_HISTORICAL_SPAWN_NAME" Language="de_DE">
+            <Text>Historische Spawn-Daten verwenden</Text>
+        </Replace>
+
+        <Replace Tag="LOC_TURNS_BEFORE_BARBARIANS_NAME" Language="de_DE">
+            <Text>Barbaren-Scout-Runde</Text>
+        </Replace>
+        <Replace Tag="LOC_TURNS_BEFORE_BARBARIANS_DESCRIPTION" Language="de_DE">
+            <Text>Minimale Anzahl an Runden, bevor Barbaren-Scouts erlaubt sind</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAJOR_CIVILIZATION_COUNT_NAME" Language="de_DE">
+            <Text>Slots für Zivilisationen</Text>
+        </Replace>
+        <Replace Tag="LOC_MAJOR_CIVILIZATION_COUNT_DESCRIPTION" Language="de_DE">
+            <Text>Anzahl der Slots für große Zivilisationen.[NEWLINE][NEWLINE]Um Benutzeroberflächenverzögerungen oder versehentliche Änderungen bei der Verwendung des Mausrads im Menü zu verhindern, wird diese Einstellung nicht sofort angewendet.[NEWLINE][NEWLINE]Verwendung: Stellen Sie eine höhere Zahl ein und klicken Sie auf die "+" (Hinzufügen)-Taste oder stellen Sie eine niedrigere Zahl ein und klicken Sie auf eine der "X" (Löschen)-Tasten im Abschnitt "Spieler".</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_BAN_LEADERS_NAME" Language="de_DE">
+            <Text>Verbotsliste für Führer für zufällige Slots</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_BAN_LEADERS_DESCRIPTION" Language="de_DE">
+            <Text>Wählen Sie Führer aus, die für zufällige Slots verboten werden, Sie können sie weiterhin manuell für den Spieler oder die K.I. auswählen.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_TSL_LEADERS_NAME" Language="de_DE">
+            <Text>Nur Zivilisationen/Stadtstaaten mit TSL</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_TSL_LEADERS_DESCRIPTION" Language="de_DE">
+            <Text>Nur Führer von Zivilisationen/Stadtstaaten mit TSL für die ausgewählte Karte sind gültig, wenn dies aktiviert ist.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_TSL_LEADERS_NEED_DB_DESCRIPTION" Language="de_DE">
+            <Text>Nur Führer von Zivilisationen/Stadtstaaten mit TSL für die ausgewählte Karte sind gültig, wenn dies aktiviert ist.[NEWLINE][NEWLINE]Ein Spiel muss gestartet werden, um die Gameplay-Datenbank zu erhalten, die erforderlich ist, um diese Option zu aktivieren. Sie können die Schaltfläche "Datenbank laden" klicken, um ein schnelles Spiel im 2D-Modus zu starten und zum Hauptmenü zurückzukehren. Danach können Sie zu diesem Bildschirm zurückkehren und die Option aktivieren.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_DIMENSION_NAME" Language="de_DE">
+            <Text> </Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_DIMENSION_DESCRIPTION" Language="de_DE">
+            <Text>Kartendimensionen wie im Setup-Bildschirm bekannt. In Spiel-Dimensionen können unterschiedlich sein, da Worldbuilder-Karten und Kartenskripte unterschiedliche Größen verwenden können, als die, für die sie konfiguriert sind.[NEWLINE][NEWLINE]Wenn Sie mit YnAMP-Karten arbeiten, die benutzerdefinierte Abschnitte zulassen (wie die Gigantische Erde oder die Größte-Erde-Karte Benutzerdefiniert), sind die Dimensionen genau.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_DIMENSION_STRING" Language="de_DE">
+            <Text>Größe: {1_Num}x{2_Num} ({3_Num : number #,###} Felder)</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_REFERENCE_DB_NAME" Language="de_DE">
+            <Text>Referenzdatenbank</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_GIANT_DB_NAME" Language="de_DE">
+            <Text>Gigantische-Erde-Datenbank</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LARGESTEARTH_DB_NAME" Language="de_DE">
+            <Text>Größte-Erde-Datenbank</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_GIANT_DB_DESCRIPTION" Language="de_DE">
+            <Text>Verwenden Sie die Gigantische-Erde-Datenbank, um Stadtnamen, benutzerdefinierte Zivilisationen TSL, benutzerdefinierte NW-Positionen, ... zu erhalten.[NEWLINE][NEWLINE]Weniger Präzision für die Platzierung, aber viel mehr Daten verfügbar</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LARGESTEARTH_DB_DESCRIPTION" Language="de_DE">
+            <Text>Verwenden Sie die Größte-Erde-Datenbank[NEWLINE]Perfekte Platzierung, aber weniger Daten verfügbar.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_SCRIPT_REF_FOR_NW_NAME" Language="de_DE">
+            <Text>Direkte Referenz für natürliche Wunder</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SCRIPT_REF_FOR_NW_DESC" Language="de_DE">
+            <Text>Verwenden Sie keine relative Datenbank, um die Platzierung natürlicher Wunder zu erhalten, sondern holen Sie sie nur aus direkter Referenz zum Größte-Erde-Kartenskript.[NEWLINE][NEWLINE]Sie könnten einige natürliche Wunder ohne relative Referenz verpassen, aber alle, die eine direkte Referenz haben, sollten perfekt platziert sein.</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SCRIPT_REF_FOR_XT_NAME" Language="de_DE">
+            <Text>Direkte Referenz für zusätzliche Platzierung</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SCRIPT_REF_FOR_XT_DESC" Language="de_DE">
+            <Text>Verwenden Sie keine relative Datenbank, um zusätzliche Platzierungen (bedingte Änderungen an Gelände, Merkmale, Ressourcen,... wie Vulkane, wenn Gathering Storm aktiv ist) zu erhalten, sondern holen Sie sie nur aus direkter Referenz zum Größte-Erde-Kartenskript.</Text>
+        </Replace>
+
+	<!--
+    <Replace Tag="LOC_MAP_LANDMASS_OVERLAY_NAME" Language="en_US">
+      <Text>Randomized Landmass</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_LANDMASS_OVERLAY_DESCRIPTION" Language="en_US">
+      <Text>To generate Landmasses placed over real Earth continents position (randomize coastline)</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MAP_EARTH_LANDMASS_NAME" Language="en_US">
+      <Text>Use Base Earth</Text>
+    </Replace>
+    <Replace Tag="LOC_MAP_EARTH_LANDMASS_DESCRIPTION" Language="en_US">
+      <Text>Real Earth continents shape the landmasses (scaled down to map size)</Text>
+    </Replace>
+	-->
+
+        <Replace Tag="LOC_MAP_MAP_SHAPE_NAME" Language="de_DE">
+            <Text>Kartenform</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_MAP_SHAPE_DESCRIPTION" Language="de_DE">
+            <Text>Wie die Terra-Landmassen geformt sind</Text>
+        </Replace>
+
+        <Replace Tag="LOC_YNAMP_EARTH_ONLY_NAME" Language="de_DE">
+            <Text>Erde-ähnliche Kontinente</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_EARTH_ONLY_DESCRIPTION" Language="de_DE">
+            <Text>Die Landmassen werden wie die echten Erd-Kontinente geformt</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_EARTH_RNG_NAME" Language="de_DE">
+            <Text>Erde mit zufälliger Küstenlinie</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_EARTH_RNG_DESCRIPTION" Language="de_DE">
+            <Text>Die Kontinente werden wie die echte Erde geformt, aber die Küstenlinie wird zufällig gestaltet.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_2CONTINENTS_NAME" Language="de_DE">
+            <Text>Zwei Skripte >></Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_2CONTINENTS_DESCRIPTION" Language="de_DE">
+            <Text>Zwei Landmassen werden in getrennten Bereichen erzeugt: Alte und Neue Welt. (weitere Optionen hinzufügen)</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_MULTIPLE_CONTINENT_NAME" Language="de_DE">
+            <Text>Mehrere Skripte >></Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_MULTIPLE_CONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Mehrere Landmassen werden in den relativen Positionen der echten Erd-Kontinente erzeugt. (weitere Optionen hinzufügen)</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MAP_OLD_WORLD_SHAPE_NAME" Language="de_DE">
+            <Text>Form der alten Welt</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_OLD_WORLD_DESCRIPTION" Language="de_DE">
+            <Text>Wie die Landmasse der alten Welt geformt ist</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NEW_WORLD_SHAPE_NAME" Language="de_DE">
+            <Text>Form der neuen Welt</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_NEW_WORLD_DESCRIPTION" Language="de_DE">
+            <Text>Wie die Landmasse der neuen Welt geformt ist</Text>
+        </Replace>
+
+        <Replace Tag="LOC_YNAMP_PANGEA_NAME" Language="de_DE">
+            <Text>Pangaea</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_PANGEA_DESCRIPTION" Language="de_DE">
+            <Text>Ein massiver Kontinent für einen großen Bereich der Karte, mit einigen Rissen.[NEWLINE][NEWLINE]Kann gerade Küsten erzeugen, wenn er für einen kleinen Bereich der Karte verwendet wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_PANGEA_REGION_NAME" Language="de_DE">
+            <Text>Pangaea (Region)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_PANGEA_REGION_DESCRIPTION" Language="de_DE">
+            <Text>Ein massiver Kontinent für einen kleinen Bereich der Karte, mit einigen Rissen.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_COMPACT_PANGEA_NAME" Language="de_DE">
+            <Text>Kompakte Pangaea</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_COMPACT_PANGEA_DESCRIPTION" Language="de_DE">
+            <Text>Ein massiver Kontinent für einen kleinen Bereich der Karte, ohne Riss.[NEWLINE][NEWLINE]Kann eine sehr einheitliche Landschaft erzeugen, wenn er für einen großen Bereich der Karte verwendet wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_CONTINENT_NAME" Language="de_DE">
+            <Text>Kontinent</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_CONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Ein Kontinent mit einigen möglichen kleineren getrennten Landmassen.[NEWLINE][NEWLINE]Kann eine sehr fragmentierte Landschaft erzeugen, wenn er für einen kleinen Bereich der Karte verwendet wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_MINI_CONTINENT_NAME" Language="de_DE">
+            <Text>Kontinent (Region)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_MINI_CONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Ein Kontinent für einen kleinen Bereich der Karte.[NEWLINE][NEWLINE]Kann eine sehr einheitliche Landschaft erzeugen, wenn er für einen großen Bereich der Karte verwendet wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_COMPACT_CONTINENT_NAME" Language="de_DE">
+            <Text>Kompakter Kontinent (Region)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_COMPACT_CONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Ein Kontinent für einen kleinen Bereich der Karte, ohne Riss.[NEWLINE][NEWLINE]Kann eine sehr einheitliche Landschaft erzeugen, wenn er für einen großen Bereich der Karte verwendet wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_SLIM_CONTINENT_NAME" Language="de_DE">
+            <Text>Hoher Kontinent</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SLIM_CONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Ein Kontinent für einen großen Bereich der Karte, der mehr Höhe als Breite hat, wo andere Kontinent-Skripte zu viele vertikale Risse erzeugen können.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_SLIM_CONTINENT_R_NAME" Language="de_DE">
+            <Text>Hoher Kontinent (Region)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SLIM_CONTINENT_R_DESCRIPTION" Language="de_DE">
+            <Text>Ein Kontinent für einen kleinen Bereich der Karte, der mehr Höhe als Breite hat.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_SMALL_CONTINENT_NAME" Language="de_DE">
+            <Text>Kleiner Kontinent</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SMALL_CONTINENT_DESCRIPTION" Language="de_DE">
+            <Text>Kleiner Kontinent mit einigen möglichen kleineren getrennten Landmassen.[NEWLINE][NEWLINE]Kann eine sehr fragmentierte Landschaft erzeugen, wenn er für einen kleinen Bereich der Karte verwendet wird.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_SMALL_CONTINENT_R_NAME" Language="de_DE">
+            <Text>Kleiner Kontinent (Region)</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SMALL_CONTINENT_R_DESCRIPTION" Language="de_DE">
+            <Text>Kleiner Kontinent für einen kleinen Bereich der Karte.</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_LARGE_ISLANDS_NAME" Language="de_DE">
+            <Text>Große Inseln</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_LARGE_ISLANDS_DESCRIPTION" Language="de_DE">
+            <Text>Eine Gruppe großer Inseln</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_ISLANDS_NAME" Language="de_DE">
+            <Text>Inseln</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_ISLANDS_DESCRIPTION" Language="de_DE">
+            <Text>Eine Gruppe von Inseln</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_SMALL_ISLANDS_NAME" Language="de_DE">
+            <Text>Kleine Inseln</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SMALL_ISLANDS_DESCRIPTION" Language="de_DE">
+            <Text>Eine Gruppe kleiner Inseln</Text>
+        </Replace>
+        <Replace Tag="LOC_YNAMP_SEA_NAME" Language="de_DE">
+            <Text>Meer</Text>
+        </Replace>
+        <Replace Tag="LOC_MAP_SEA_DESCRIPTION" Language="de_DE">
+            <Text>Isolierte kleine Inseln</Text>
+        </Replace>
+
+		<Replace Tag="LOC_YNAMP_RANDOM_NAME" Language="de_DE">
+			<Text>Zufalls-Skript</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RANDOM_DESCRIPTION" Language="de_DE">
+			<Text>Eines der oben genannten Skripte (aber keine echte Erdoption)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_RANDOM_VALUES_NAME" Language="de_DE">
+			<Text>Zufällige benutzerdefinierte Werte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RANDOM_VALUES_DESCRIPTION" Language="de_DE">
+			<Text>Könnte wirklich alles sein (einschließlich nichts)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_CUSTOM_NAME" Language="de_DE">
+			<Text>Benutzerdefiniert >></Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_DESCRIPTION" Language="de_DE">
+			<Text>Werte zur Landmasserzeugung anpassen</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_CUSTOM_TYPE_NAME" Language="de_DE">
+			<Text>Layer-Typ</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_TYPE_DESCRIPTION" Language="de_DE">
+			<Text>Wählen Sie, ob die Ebene Wasserfelder (Landebene) oder Landfelder (Wasserebene) ersetzen soll</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_WATER_PERCENT_NAME" Language="de_DE">
+			<Text>Wasseranteil</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_WATER_PERCENT_DESCRIPTION" Language="de_DE">
+			<Text>Prozentsatz des Wassers für diese Ebene</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_GRAIN_NAME" Language="de_DE">
+			<Text>Fraktal-Korn (0-7)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_GRAIN_DESCRIPTION" Language="de_DE">
+			<Text>Menge an Korn, die dem Fraktal hinzugefügt werden soll. 0 ist kein Korn (glatt), 7 ist viel Korn (gezackt).</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_RIFT_GRAIN_NAME" Language="de_DE">
+			<Text>Riss-Korn (0-4)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_RIFT_GRAIN_DESCRIPTION" Language="de_DE">
+			<Text>Was ist das, fragst du? Das ist eine gute Frage!</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_FRACTX_EXP_NAME" Language="de_DE">
+			<Text>FracXExp</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_FRACTX_EXP_DESCRIPTION" Language="de_DE">
+			<Text>Fraktale Breitenauflösung. Höhere Werte erzeugen schärfere Fraktale, während niedrigere Werte verschwommene erzeugen. Diese sind Exponenten, die auf Potenzen von zwei erhöht werden. Ein Wert von FracXExp = 7 bedeutet 2^7, was 128 Einheiten breit wäre. FracXExp = 6 wäre 64 Einheiten breit.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_FRACTY_EXP_NAME" Language="de_DE">
+			<Text>FracYExp</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_FRACTY_EXP_DESCRIPTION" Language="de_DE">
+			<Text>Fraktale Höhenauflösung. Höhere Werte erzeugen schärfere Fraktale, während niedrigere Werte verschwommene erzeugen. Diese sind Exponenten, die auf Potenzen von zwei erhöht werden. Ein Wert von FracYExp = 7 bedeutet 2^7, was 128 Einheiten hoch wäre. FracYExp = 6 wäre 64 Einheiten hoch.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_YNAMP_LAND_NAME" Language="de_DE">
+			<Text>Land</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LAND_DESCRIPTION" Language="de_DE">
+			<Text>Diese Ebene fügt Wasser hinzu (ändert jedoch kein bestehendes Land)</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_WATER_NAME" Language="de_DE">
+			<Text>Wasser</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WATER_DESCRIPTION" Language="de_DE">
+			<Text>Diese Ebene fügt Land über Wasser hinzu (ändert jedoch kein bestehendes Wasser)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_YNAMP_DEFAULT_LANDMASS_NAME" Language="de_DE">
+			<Text>Standard-Landmassen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_DEFAULT_LANDMASS_DESCRIPTION" Language="de_DE">
+			<Text>Verwenden Sie Standard-Skripte für jede Landmasse.</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_SELECT_LANDMASS_NAME" Language="de_DE">
+			<Text>Landmassen auswählen >></Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SELECT_LANDMASS_DESCRIPTION" Language="de_DE">
+			<Text>Wählen Sie jedes Landmassenskript aus. (Weitere Optionen hinzufügen)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_REAL_LAND_BLEND_NAME" Language="de_DE">
+			<Text>[ICON_PressureHigh] Echte Landmischung [ICON_PressureHigh]</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_LAND_BLEND_DESCRIPTION" Language="de_DE">
+			<Text>Mischen Sie die echte Landform über die ausgewählten Skripte (0 = keine Mischung, 100 = echte Weltform)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_SEA_BLEND_NAME" Language="de_DE">
+			<Text>[ICON_PressureHigh] Echte Seemischung [ICON_PressureHigh]</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_SEA_BLEND_DESCRIPTION" Language="de_DE">
+			<Text>Mischen Sie die echte Seefläche über die ausgewählten Skripte (0 = keine Mischung, 100 = echte Weltform)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_ADD_LAKES_NAME" Language="de_DE">
+			<Text>Zusätzliche große Seen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADD_LAKES_DESC" Language="de_DE">
+			<Text>Fügen Sie einige große Seen auf der Karte hinzu.[NEWLINE][NEWLINE]Dieser Parameter wird nicht von der echten Land-/Seemischung beeinflusst.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADD_ISLANDS_NAME" Language="de_DE">
+			<Text>Inseln erlauben</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADD_ISLANDS_DESC" Language="de_DE">
+			<Text>Erlaubt die Platzierung von Inseln auf der Karte. Dies könnte die Wahrscheinlichkeit erhöhen, die neue Welt zu erreichen, bevor ozeanische Reisen verfügbar sind.[NEWLINE][NEWLINE]Dieser Parameter wird von der echten Land-/Seemischung beeinflusst.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADDITIONAL_SEAS_NAME" Language="de_DE">
+			<Text>Zusätzliche Meere</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ADDITIONAL_SEAS_DESC" Language="de_DE">
+			<Text>Fügen Sie zufällig geformte Meere an diesen Positionen (im Verhältnis zur realen Welt) hinzu:[NEWLINE][NEWLINE][ICON_BULLET]Okhotsksee[NEWLINE][ICON_BULLET]Nordsee[NEWLINE][ICON_BULLET]Ostsee[NEWLINE][ICON_BULLET]Bengalische Bucht[NEWLINE][ICON_BULLET]Japanisches Meer[NEWLINE][ICON_BULLET]Gelbes Meer[NEWLINE][ICON_BULLET]Golf von Mexiko[NEWLINE][NEWLINE]Die Form dieser Meere wird von der echten Land-/Seemischung beeinflusst.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LIMIT_TUNDRA_NAME" Language="de_DE">
+			<Text>Tundra und Schnee begrenzen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LIMIT_TUNDRA_DESC" Language="de_DE">
+			<Text>Der Karten-Generator kann in einigen Bereichen zu viele Tundra- und Schneeterrains platzieren, wenn eine Landform verwendet wird, die der echten Welt ähnlich ist (insbesondere im Süden, der etwas beschnitten ist, um Platz auf der Referenzkarte zu sparen). Wenn diese Option aktiviert ist, wird die Tundra- und Schneebreite relativ zur echten Weltkarte begrenzt.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LAND_ON_POLES_NAME" Language="de_DE">
+			<Text>Landfelder an den Polen erlauben</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LAND_ON_POLES_DESC" Language="de_DE">
+			<Text>Standardmäßig verwenden die Terra-Karten-Skripte einen kleinen Puffer nach Norden und Süden, um zu verhindern, dass Landfelder die Umrundung blockieren. Wenn diese Option aktiviert ist, können Landfelder auch in den Nord- und Südpolgebieten platziert werden. Dies zwingt jedoch nicht zur Platzierung von Landfeldern, wenn die Fraktalfunktion eine Landmasse ohne Land auf den Polen erzeugt hat.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_TERRAIN_NAME" Language="de_DE">
+			<Text>Echte Geländearten verwenden, wenn möglich</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_TERRAIN_DESC" Language="de_DE">
+			<Text>Verwenden Sie die Referenzkarte der echten Welt, um den Geländetyp (Gras, Ebenen, Wüste, Tundra, Schnee und Hügel/Berge) eines Landfeldes zu bestimmen, basierend auf seiner relativen (zur echten Erde) Position, wenn möglich.[NEWLINE][NEWLINE]Diese Einstellung beeinflusst keine Landfelder, die dort erzeugt werden, wo auf der Referenzkarte Wasser ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_FEATURES_NAME" Language="de_DE">
+			<Text>Echte Merkmale verwenden, wenn möglich</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_REAL_FEATURES_DESC" Language="de_DE">
+			<Text>Verwenden Sie die Referenzkarte der echten Welt, um den Merkmals-Typ (Wald, Dschungel, Oase, ...) eines Landfeldes zu bestimmen, basierend auf seiner relativen (zur echten Erde) Position, wenn möglich.[NEWLINE][NEWLINE]Diese Einstellung beeinflusst keine Landfelder, die dort erzeugt werden, wo auf der Referenzkarte Wasser ist, und schließt keine Naturwunder ein.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_AUSTRALIA_NAME" Language="de_DE">
+			<Text>Australien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_OCEANIA_NAME" Language="de_DE">
+			<Text>Ozeanien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_ASIA_NAME" Language="de_DE">
+			<Text>Süd-Asien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CENTRAL_ASIA_NAME" Language="de_DE">
+			<Text>Zentral-Asien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_ASIA_NAME" Language="de_DE">
+			<Text>Ost-Asien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_JAPAN_NAME" Language="de_DE">
+			<Text>Japan</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_ASIA_NAME" Language="de_DE">
+			<Text>Nord-Asien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MIDDLE_EAST_NAME" Language="de_DE">
+			<Text>Mittlerer Osten</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_TURKEY_NAME" Language="de_DE">
+			<Text>Türkei</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_EUROPA_NAME" Language="de_DE">
+			<Text>Süd-Europa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WEST_EUROPA_NAME" Language="de_DE">
+			<Text>West-Europa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CENTRAL_EUROPA_NAME" Language="de_DE">
+			<Text>Zentral-Europa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_EUROPA_NAME" Language="de_DE">
+			<Text>Nord-Europa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_EUROPA_NAME" Language="de_DE">
+			<Text>Ost-Europa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_AFRICA_NAME" Language="de_DE">
+			<Text>Nord-Afrika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CENTRAL_AFRICA_NAME" Language="de_DE">
+			<Text>Zentral-Afrika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_AFRICA_NAME" Language="de_DE">
+			<Text>Süd-Afrika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MADAGASCAR_NAME" Language="de_DE">
+			<Text>Madagaskar</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_AMERICA_NAME" Language="de_DE">
+			<Text>Nordamerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ARCTIC_AMERICA_NAME" Language="de_DE">
+			<Text>Arktisches Amerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CENTRAL_AMERICA_NAME" Language="de_DE">
+			<Text>Zentralamerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_AMERICA_WEST_NAME" Language="de_DE">
+			<Text>Südamerika (Osten)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_AMERICA_EAST_NAME" Language="de_DE">
+			<Text>Südamerika (Westen)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ANTARCTIC_AMERICA_NAME" Language="de_DE">
+			<Text>Antarktisches Amerika</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_SECTION_NAME" Language="de_DE">
+			<Text>Kartenbereich</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_DESCRIPTION" Language="de_DE">
+			<Text>Wählen Sie den Kartenbereich, auf dem Sie spielen möchten</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_FULL_NAME" Language="de_DE">
+			<Text>Vollständige Karte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_FULL_DESCRIPTION" Language="de_DE">
+			<Text>Originale vollständige Karte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_CUSTOM_NAME" Language="de_DE">
+			<Text>Benutzerdefiniert</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_CUSTOM_DESCRIPTION" Language="de_DE">
+			<Text>Wählen Sie die Grenzen Ost/West/Süd/Nord der Region, in der Sie spielen möchten</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_EUROPE_NAME" Language="de_DE">
+			<Text>Europa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_EUROPE_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie im europäischen Gebiet der Karte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_MEDITERRANEA_NAME" Language="de_DE">
+			<Text>Mittelmeerregion</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_MEDITERRANEA_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie rund um das Mittelmeer</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_MIDDLE_EAST_NAME" Language="de_DE">
+			<Text>Mittlerer Osten</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_MIDDLE_EAST_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie im mittleren Osten der Karte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_AMERICAS_NAME" Language="de_DE">
+			<Text>Amerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_AMERICAS_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie auf den amerikanischen Kontinenten</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_COLONIZATION_NAME" Language="de_DE">
+			<Text>Kolonisation</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_COLONIZATION_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie auf einer Karte des Atlantischen Ozeans, mit Teilen von Europa und Amerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_OLD_WORLD_NAME" Language="de_DE">
+			<Text>Alte Welt</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_OLD_WORLD_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie in der alten Welt (Europa, Afrika, Asien)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_AFRICA_NAME" Language="de_DE">
+			<Text>Afrika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_AFRICA_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie in Afrika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_LARGE_ASIA_NAME" Language="de_DE">
+			<Text>Großasien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_LARGE_ASIA_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie in ganz Asien, vom Mittleren Osten bis Japan, einschließlich Australien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_SOUTH_EAST_ASIA_NAME" Language="de_DE">
+			<Text>Südostasien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_SOUTH_EAST_ASIA_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie in einer kleineren Version Asiens, mit Ausnahme des größten Teils von Australien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_PACIFIC_NAME" Language="de_DE">
+			<Text>Pazifik</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SECTION_PACIFIC_DESCRIPTION" Language="de_DE">
+			<Text>Spielen Sie auf einer Karte, die auf den Pazifik zentriert ist, einschließlich Teilen von Asien und Amerika</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_STARTX_NAME" Language="de_DE">
+			<Text>WEST Grenze</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ENDX_NAME" Language="de_DE">
+			<Text>OST Grenze</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_STARTY_NAME" Language="de_DE">
+			<Text>SÜD Grenze</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ENDY_NAME" Language="de_DE">
+			<Text>NORD Grenze</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_LATITUDE_NAME" Language="de_DE">
+			<Text>Breitengrad</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_LONGITUDE_NAME" Language="de_DE">
+			<Text>Längengrad</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_WEST_EUROPE_NAME" Language="de_DE">
+			<Text>Westeuropa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_AMERICA_NAME" Language="de_DE">
+			<Text>Ostamerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_POLE_NAME" Language="de_DE">
+			<Text>Südpol</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_POLE_NAME" Language="de_DE">
+			<Text>Nordpol</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EQUATOR_NAME" Language="de_DE">
+			<Text>Äquator</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_EAST_MEDITERRANEA_NAME" Language="de_DE">
+			<Text>Ost-Mittelmeerregion</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_EUROPE_AFRICA_NAME" Language="de_DE">
+			<Text>Ost-Europa/Afrika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_THE_URALS_WEST_INDIA_NAME" Language="de_DE">
+			<Text>Die Ural, Westindien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CENTRAL_ASIA_NAME" Language="de_DE">
+			<Text>Zentral-Asien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_EAST_ASIA_WEST_AUSTRALIA_NAME" Language="de_DE">
+			<Text>Ost-Asien, West-Australien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BERING_STRAIT_NAME" Language="de_DE">
+			<Text>Beringstraße</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_WEST_COAST_NAME" Language="de_DE">
+			<Text>Westküste</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GULF_OF_MEXICO_NAME" Language="de_DE">
+			<Text>Golf von Mexiko</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_AFRICA_SOUTH_ASIA_CARIBBEAN_NAME" Language="de_DE">
+			<Text>Nordafrika, Süd-Asien, Karibik</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GIBRALTAR_SOUTH_JAPAN_CENTRAL_AMERICA_NAME" Language="de_DE">
+			<Text>Gibraltar, Südpazifik, Zentralamerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_MEDITERRANEA_ASIA_NAME" Language="de_DE">
+			<Text>Nord-Mittelmeerregion/Asien</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SOUTH_AFRICA_AMERICA_NAME" Language="de_DE">
+			<Text>Südafrika/Amerika</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NORTH_AMERICA_EUROPE_NAME" Language="de_DE">
+			<Text>Nordamerika/Europa</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MID_MEDITERRANEA_NAME" Language="de_DE">
+			<Text>Mitte Mittelmeerregion (Westgriechenland)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ALPS_NAME" Language="de_DE">
+			<Text>Alpen (Westitalien)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_SELECT_CITY_STATES_NAME" Language="de_DE">
+			<Text>Manuelle Auswahl der Stadtstaaten</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SELECT_CITY_STATES_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, können Sie manuell auswählen, welche Stadtstaaten Sie auf der Karte platzieren möchten.[NEWLINE][NEWLINE]Beachten Sie, dass DLCs, Erweiterungen, Szenarien und Mods Stadtstaaten hinzufügen oder entfernen können, die Liste spiegelt nicht wider, welche tatsächlich verfügbar sind.[NEWLINE][NEWLINE]Wenn ein Stadtstaat nicht verfügbar ist, ist sein Slot frei für einen zufälligen Stadtstaat.</Text>
+		</Replace>
+		<Replace Tag="LOC_FAKE_SELECT_CITY_STATES_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, können Sie manuell auswählen, welche Stadtstaaten Sie auf der Karte platzieren möchten.[NEWLINE][NEWLINE]Ein Spiel muss gestartet werden, um die Gameplay-Datenbank zu aktualisieren, die erforderlich ist, um diese Option zu aktivieren. Sie können auf die Schaltfläche "Datenbank laden" klicken, um ein schnelles Spiel im 2D-Modus zu starten und zum Hauptmenü zurückzukehren. Dann können Sie zu diesem Bildschirm zurückkehren und die Option aktivieren.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CITYSTATES_OPTIONS_NAME" Language="de_DE">
+			<Text>CS Auswahl Nutzung</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_DEFAULT_NAME" Language="de_DE">
+			<Text>Civ6 Standard</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_DEFAULT_DESCRIPTION" Language="de_DE">
+			<Text>Verwenden Sie die Standardmethode von Civ6 zur Auswahl der Stadtstaaten. Wenn Sie weniger Stadtstaaten in der Liste auswählen als der Schiebereglerwert, haben nur die ausgewählten Stadtstaaten einen Slot im Spiel.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_SELECTION_NAME" Language="de_DE">
+			<Text>Auswahl und Zufall</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_SELECTION_DESCRIPTION" Language="de_DE">
+			<Text>Ihre Auswahl der Stadtstaaten hat Vorrang, die Gesamtzahl der Stadtstaaten wird jedoch weiterhin auf den Schiebereglerwert begrenzt. Wenn Sie weniger Stadtstaaten in der Liste auswählen als der Schiebereglerwert, werden die leeren Slots mit zufälligen Stadtstaaten gefüllt. Wenn Sie mehr Stadtstaaten als der Schiebereglerwert auswählen, wählt das Mod eine begrenzte zufällige Liste aus Ihrer Auswahl aus.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_UNCAPPED_SELECTION_NAME" Language="de_DE">
+			<Text>Unbegrenzte Auswahl</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_UNCAPPED_SELECTION_DESCRIPTION" Language="de_DE">
+			<Text>Alle Stadtstaaten Ihrer Auswahl werden auf der Karte platziert, bis zur maximalen Anzahl erlaubter Spieler. Das Mod versucht, für alle ausgewählten Stadtstaaten einen Slot zu finden und ignoriert den Schiebereglerwert, wenn Sie mehr auswählen. Wenn Sie weniger Stadtstaaten in der Liste auswählen als der Schiebereglerwert, werden die leeren Slots mit zufälligen Stadtstaaten gefüllt.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_ONLY_SELECTION_NAME" Language="de_DE">
+			<Text>Nur Auswahl</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_ONLY_SELECTION_DESCRIPTION" Language="de_DE">
+			<Text>Nur die Stadtstaaten aus Ihrer Auswahl werden auf der Karte platziert, bis zur maximalen Anzahl erlaubter Spieler. Das Mod versucht, nur für die ausgewählten Stadtstaaten einen Slot zu finden und ignoriert den Schiebereglerwert, wenn Sie mehr oder weniger auswählen.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_EXCLUSION_NAME" Language="de_DE">
+			<Text>Ausschlussliste</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CS_OPTION_EXCLUSION_DESCRIPTION" Language="de_DE">
+			<Text>Ihre Auswahl wird im Ausschlussmodus verwendet. YnAMP versucht, nur für die nicht ausgewählten Stadtstaaten einen Slot zu finden, bis zum Schiebereglerwert.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_XP1_CHECK_NAME" Language="de_DE">
+			<Text>CS-Liste für Aufstieg und Fall aktualisieren</Text>
+		</Replace>
+		<Replace Tag="LOC_XP1_CHECK_DESCRIPTION" Language="de_DE">
+			<Text>Aktivieren Sie dies, wenn die Aufstieg und Fall Erweiterung aktiv ist.[NEWLINE]Deaktivieren Sie dies, wenn die Aufstieg und Fall Erweiterung nicht installiert oder inaktiv ist.[NEWLINE]Die Liste der Stadtstaaten wird basierend auf Ihrer Auswahl aktualisiert.</Text>
+		</Replace>
+		<Replace Tag="LOC_XP2_CHECK_NAME" Language="de_DE">
+			<Text>CS-Liste für Sturm des Gathering aktualisieren</Text>
+		</Replace>
+		<Replace Tag="LOC_XP2_CHECK_DESCRIPTION" Language="de_DE">
+			<Text>Aktivieren Sie dies, wenn die Sturm des Gathering Erweiterung aktiv ist.[NEWLINE]Deaktivieren Sie dies, wenn die Sturm des Gathering Erweiterung nicht installiert oder inaktiv ist.[NEWLINE]Die Liste der Stadtstaaten wird basierend auf Ihrer Auswahl aktualisiert.</Text>
+		</Replace>
+		<Replace Tag="LOC_DLC2_CHECK_NAME" Language="de_DE">
+			<Text>CS-Liste für das Wikinger-DLC aktualisieren</Text>
+		</Replace>
+		<Replace Tag="LOC_DLC2_CHECK_DESCRIPTION" Language="de_DE">
+			<Text>Aktivieren Sie dies, wenn das Wikinger-DLC aktiv ist.[NEWLINE]Deaktivieren Sie dies, wenn das Wikinger-DLC nicht installiert oder inaktiv ist.[NEWLINE]Die Liste der Stadtstaaten wird basierend auf Ihrer Auswahl aktualisiert.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_SCENARIO_OPTIONS" Language="de_DE">
+			<Text>[ICON_DownloadContent] SZENARIOOPTIONEN [ICON_DownloadContent]</Text>
+		</Replace>
+		<Replace Tag="LOC_SCENARIO_OPTIONS_DESCRIPTION" Language="de_DE">
+			<Text>Szenariooptionen unten[NEWLINE][ICON_Exclamation][COLOR_RED] Alpha-Test [ENDCOLOR][ICON_Exclamation]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_SCENARIO_TYPE_NAME" Language="de_DE">
+			<Text>Szenario</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SCENARIO_NONE_NAME" Language="de_DE">
+			<Text>Keine</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SCENARIO_NONE_DESCRIPTION" Language="de_DE">
+			<Text>Keine Szenarioplatzierung zulassen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SCENARIO_DEFAULT_NAME" Language="de_DE">
+			<Text>Standard</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SCENARIO_DEFAULT_DESCRIPTION" Language="de_DE">
+			<Text>Szenario aus der Datenbank importiert, wenn verfügbar</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SCENARIO_GENERATED_NAME" Language="de_DE">
+			<Text>Generiert/Gemischt (Beta-Test)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SCENARIO_GENERATED_DESCRIPTION" Language="de_DE">
+			<Text>Szenario, das automatisch generiert und/oder aus der Datenbank importiert wird</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GENERATED_NAME" Language="de_DE">
+			<Text>Generiert</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_GENERATED_DESCRIPTION" Language="de_DE">
+			<Text>Automatische Platzierung durch den Szenario-Generator</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_GENERATED_PRESET_NAME" Language="de_DE">
+			<Text>YnAMP generierte Platzierung</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_GENERATED_PRESET_DESC" Language="de_DE">
+			<Text>Platzierungsvoreinstellungen zur Generierung von Startzivilisationen[NEWLINE][NEWLINE]Dieses Szenario ersetzt die Standardwerte des Setup-Bildschirms durch zivilisationsspezifische Werte für die folgenden Einstellungen:[NEWLINE][ICON_BULLET]Platzierung der Städte[NEWLINE][ICON_BULLET]Anzahl der Städte[NEWLINE][ICON_BULLET]Maximale Entfernung zur Hauptstadt[NEWLINE][ICON_BULLET]Nur auf demselben Kontinent[NEWLINE][NEWLINE]Benutzerdefinierte Zivilisationen verwenden die Standardeinstellungen (es sei denn, sie werden separat durch das benutzerdefinierte Zivilisationsmod hinzugefügt).[NEWLINE][NEWLINE]Die Einstellungen sind für die Karte "Gigantische Erde" (oder Teile davon) optimiert, können aber auch mit jeder Karte verwendet werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_CITYMAP_PRESET_NAME" Language="de_DE">
+			<Text>YnAMP CityMap Platzierung</Text>
+		</Replace>
+		<Replace Tag="LOC_YNAMP_CITYMAP_PRESET_DESC" Language="de_DE">
+			<Text>Platzierungsvoreinstellungen zur Generierung von Startzivilisationen mit der Datenbank der Stadtnamen (ursprünglich verwendet für die automatische Benennung von Städten basierend auf der Position)[NEWLINE][NEWLINE]Dieses Szenario ersetzt die Standardwerte des Setup-Bildschirms durch zivilisationsspezifische Werte für die folgenden Einstellungen:[NEWLINE][ICON_BULLET]Platzierung der Städte[NEWLINE][ICON_BULLET]Anzahl der Städte[NEWLINE][ICON_BULLET]Maximale Entfernung zur Hauptstadt[NEWLINE][ICON_BULLET]Nur auf demselben Kontinent[NEWLINE][NEWLINE]Benutzerdefinierte Zivilisationen verwenden die Standardeinstellungen (es sei denn, sie werden separat durch das benutzerdefinierte Zivilisationsmod hinzugefügt).[NEWLINE][NEWLINE]Die Einstellungen sind für die Karte "Gigantische Erde" (oder Teile davon) optimiert, können aber auch mit anderen Karten verwendet werden, die eine Stadtname-Datenbank haben (wie "Europa Wieder Spielen", "Größte-Erde-Karte" mit Bezug auf die Gigantische-Erde-Datenbank oder sogar "Terra Karte" mit einem hohen realen Landmischungsverhältnis).[NEWLINE][NEWLINE]Dieses Szenario sollte nicht für Karten ohne zugeordnete Stadtnamen verfügbar sein.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_NAME" Language="de_DE">
+			<Text>Städte Platzierung</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_TERRAIN_NAME" Language="de_DE">
+			<Text>Standard: Terrain</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_TERRAIN_DESCRIPTION" Language="de_DE">
+			<Text>Verwenden Sie die Fruchtbarkeitswerte des Terrains für die Platzierung von Städten für Zivilisationen, die keinen Platzierungstyp in der Tabelle SzenarioZivilisationen definiert haben.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_CITY_MAP_NAME" Language="de_DE">
+			<Text>Standard: Stadtkarte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_CITY_MAP_DESCRIPTION" Language="de_DE">
+			<Text>Stadtpositionen aus der Stadtkarte-Tabelle für Zivilisationen abrufen, die keinen Platzierungstyp in der Tabelle SzenarioZivilisationen definiert haben.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_MIXED_NAME" Language="de_DE">
+			<Text>Standard: Gemischt</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_MIXED_DESCRIPTION" Language="de_DE">
+			<Text>Stadtpositionen aus allen möglichen Quellen abrufen (zuerst SzenarioStädte, dann Stadtkarte, dann Fruchtbarkeitswerte) für Zivilisationen, die keinen Platzierungstyp in der Tabelle SzenarioZivilisationen definiert haben.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_IMPORT_NAME" Language="de_DE">
+			<Text>Standard: Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_IMPORT_DESCRIPTION" Language="de_DE">
+			<Text>Stadtpositionen aus der Tabelle SzenarioStädte für Zivilisationen abrufen, die keinen Platzierungstyp in der Tabelle SzenarioZivilisationen definiert haben.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_TERRAIN_ONLY_NAME" Language="de_DE">
+			<Text>Beschränkt: Terrain</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_TERRAIN_ONLY_DESCRIPTION" Language="de_DE">
+			<Text>Nur die Fruchtbarkeitswerte des Terrains für die Stadtplatzierung verwenden, wobei alle Platzierungstypen aus der Tabelle SzenarioZivilisationen überschrieben werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_CITY_MAP_ONLY_NAME" Language="de_DE">
+			<Text>Beschränkt: Stadtkarte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_CITY_MAP_ONLY_DESCRIPTION" Language="de_DE">
+			<Text>Nur Stadtpositionen aus der Stadtkarte-Tabelle abrufen, wobei alle Platzierungstypen aus der Tabelle SzenarioZivilisationen überschrieben werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_IMPORT_ONLY_NAME" Language="de_DE">
+			<Text>Beschränkt: Import</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_PLACEMENT_IMPORT_ONLY_DESCRIPTION" Language="de_DE">
+			<Text>Nur Städte platzieren, die in der Tabelle SzenarioStädte definiert sind, wobei alle Platzierungstypen aus der Tabelle SzenarioZivilisationen überschrieben werden.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_CUSTOM_SCENARIO_VALUES_NAME" Language="de_DE">
+			<Text>Verwenden Sie Eingabefelder ([ICON_Exclamation] Werte zurücksetzen!)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CUSTOM_SCENARIO_VALUES_DESCRIPTION" Language="de_DE">
+			<Text>Verwenden Sie Eingabefelder anstelle von Dropdown-Menüs für Szenarioparameter, wenn möglich</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_NUMBER_OF_CITY_NAME" Language="de_DE">
+			<Text>Max. Anzahl der Städte (Haupt)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NUMBER_OF_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Der Szenariengenerator wird versuchen, diese Anzahl von Städten für Hauptzivilisationen zu platzieren</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NUMBER_OF_MINOR_CITY_NAME" Language="de_DE">
+			<Text>Max. Anzahl der Städte (Neben)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NUMBER_OF_MINOR_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Der Szenariengenerator wird versuchen, diese Anzahl von Städten für Neben-Zivilisationen zu platzieren</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_CAPITAL_SIZE_NAME" Language="de_DE">
+			<Text>Größe der Hauptstadt</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CAPITAL_SIZE_DESCRIPTION" Language="de_DE">
+			<Text>Größe der Hauptstädte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_OTHER_CITY_SIZE_NAME" Language="de_DE">
+			<Text>Größe anderer Städte</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_OTHER_CITY_SIZE_DESCRIPTION" Language="de_DE">
+			<Text>Maximale Größe der anderen Städte</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_DECREASE_OTHER_CITY_SIZE" Language="de_DE">
+			<Text>Größe anderer Städte verringern</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_DECREASE_OTHER_CITY_SIZE_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, sind zuerst platzierte Städte größer als zuletzt platzierte Städte; die Anfangsstädte verwenden die Werte "Größe anderer Städte", danach wird die Größe gemäß dem Verhältnis "Reduktion nach platzierten Städten" verringert.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_CITY_SIZE_DECREMENT" Language="de_DE">
+			<Text>Größenverringerung</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_CITY_SIZE_DECREMENT_DESCRIPTION" Language="de_DE">
+			<Text>Stadtgröße um diesen Wert verringern</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_NUM_CITY_PER_DECREMENT" Language="de_DE">
+			<Text>Städte pro Verringerung</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_NUM_CITY_PER_DECREMENT_DESCRIPTION" Language="de_DE">
+			<Text>Anzahl der Städte, die für jede Größenverringerung platziert werden</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_MAX_CAPITAL_DISTANCE" Language="de_DE">
+			<Text>Max. Entfernung von der Hauptstadt</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MAX_CAPITAL_DISTANCE_DESCRIPTION" Language="de_DE">
+			<Text>Maximale Entfernung von der Hauptstadt für die anderen Städte (dies wird nicht für Städte überprüft, die aus der Tabelle SzenarioStädte importiert wurden)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MIN_CITY_SEPARATION" Language="de_DE">
+			<Text>Min. Abstände zwischen Städten</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MIN_CITY_SEPARATION_DESCRIPTION" Language="de_DE">
+			<Text>Minimale Entfernung zwischen Städten (dies wird nicht für Städte überprüft, die aus der Tabelle SzenarioStädte importiert wurden, und wird ignoriert, wenn sie geringer ist als das Limit des Grundspiels)</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SAME_LANDMASS" Language="de_DE">
+			<Text>Nur auf derselben Landmasse</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_SAME_LANDMASS_DESCRIPTION" Language="de_DE">
+			<Text>Städte müssen auf derselben Landmasse wie die Hauptstadt platziert werden (dies wird nicht für Städte überprüft, die aus der Tabelle SzenarioStädte importiert wurden)</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RATIO_2_PER_1" Language="de_DE">
+			<Text>2 pro 1</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_2_PER_1_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein 2/1-Verhältnis zur Änderung dieses Wertes</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_1" Language="de_DE">
+			<Text>1 pro 1</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_1_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein 1/1-Verhältnis zur Änderung dieses Wertes</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_2" Language="de_DE">
+			<Text>1 pro 2</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_2_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein 1/2-Verhältnis zur Änderung dieses Wertes</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_3" Language="de_DE">
+			<Text>1 pro 3</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_3_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein 1/3-Verhältnis zur Änderung dieses Wertes</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_6" Language="de_DE">
+			<Text>1 pro 6</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_6_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein 1/6-Verhältnis zur Änderung dieses Wertes</Text>
+		</Replace>
+		<Replace Tag="LOC_RATIO_1_PER_10_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein 1/10-Verhältnis zur Änderung dieses Wertes</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_RATIO_PLACEMENT_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein 1/X-Verhältnis für diesen Wert. Höheres X bedeutet weniger Platzierungen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_RATIO_PER_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Verwende ein X/Y-Verhältnis für diesen Wert. Höheres Y bedeutet, dass die Größen später platzierter Städte langsamer abnehmen.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_BORDER_PLACEMENT_NAME" Language="de_DE">
+			<Text>Grenzenplatzierung</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BORDER_PLACEMENT_DESCRIPTION" Language="de_DE">
+			<Text>Wie die Grenzen auf der Karte platziert werden</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_BORDER_DISTANCE_NAME" Language="de_DE">
+			<Text>Max. Abstand der Grenzen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_BORDER_DISTANCE_DESCRIPTION" Language="de_DE">
+			<Text>Maximaler Abstand vom Stadtzentrum für die Gebietsgrenze.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_PLACEMENT_EXPAND_NAME" Language="de_DE">
+			<Text>Expansion</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_EXPAND_DESCRIPTION" Language="de_DE">
+			<Text>Expansion auf freiem Gebiet in Ringen von jedem Stadtzentrum, bis die maximale Entfernung erreicht ist</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_INFRASTRUCTURE_NAME" Language="de_DE">
+			<Text>Platzierung der Infrastruktur</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_INFRASTRUCTURE_DESCRIPTION" Language="de_DE">
+			<Text>Wie die Infrastruktur (Straßen, Gleise, Verbesserungen, Distrikte, Gebäude) auf der Karte platziert wird</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_ROAD_PLACEMENT_NAME" Language="de_DE">
+			<Text>Platzierung der Straßen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ROAD_PLACEMENT_DESCRIPTION" Language="de_DE">
+			<Text>Wie die Straßen auf der Karte platziert werden</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_ROAD_DISTANCE_NAME" Language="de_DE">
+			<Text>Unbegrenzte Straßenlänge</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_ROAD_DISTANCE_DESCRIPTION" Language="de_DE">
+			<Text>Kein Entfernungslimit zwischen zwei Städten, um zu versuchen, eine Straße zu platzieren</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_MAX_ROAD_DISTANCE_NAME" Language="de_DE">
+			<Text>Max. Entfernung für Straßen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MAX_ROAD_DISTANCE_DESCRIPTION" Language="de_DE">
+			<Text>Maximale Entfernung zwischen zwei Städten, um zu versuchen, eine Straße zu platzieren</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_MAX_ROAD_PER_CITY_NAME" Language="de_DE">
+			<Text>Max. Straßen pro Stadt</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_MAX_ROAD_PER_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Maximale Anzahl von Straßen, die aus einer Stadt führen</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_PLACEMENT_CENTRALIZED_NAME" Language="de_DE">
+			<Text>Zentralisiert</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_CENTRALIZED_DESCRIPTION" Language="de_DE">
+			<Text>Von Hauptstädten zu allen anderen Städten</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_PLACEMENT_PER_CITY_NAME" Language="de_DE">
+			<Text>Stadt zu Stadt</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_PLACEMENT_PER_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Jede Stadt zu den nächstgelegenen Städten</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_INTERNATIONAL_ROADS_NAME" Language="de_DE">
+			<Text>Internationale Straßen</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_INTERNATIONAL_ROADS_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird die Platzierung von Straßen zu ausländischen Städten erlaubt (nur Hauptstadt zu Hauptstadt, wenn die Option "Zentralisierte" Straßenplatzierung gewählt wird).</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MAP_UNLIMITED_ROAD_DISTANCE_NAME" Language="de_DE">
+			<Text>Unbegrenzte Straßenentfernung</Text>
+		</Replace>
+		<Replace Tag="LOC_MAP_UNLIMITED_ROAD_DISTANCE_DESCRIPTION" Language="de_DE">
+			<Text>Wenn aktiviert, wird kein Entfernungslimit verwendet, wenn versucht wird, eine Straße zwischen zwei Städten zu platzieren. Kann die Szenario-Generierung auf größeren Karten verlangsamen.</Text>
+		</Replace>
+
+		<!--Stadtstaaten-->
+		<Replace Tag="LOC_CIVILIZATION_AKKAD_NAME" Language="de_DE">
+			<Text>Akkad</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AKKAD_DESCRIPTION" Language="de_DE">
+			<Text>Akkad Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BOLOGNA_NAME" Language="de_DE">
+			<Text>Bologna</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BOLOGNA_DESCRIPTION" Language="de_DE">
+			<Text>Bologna Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAHOKIA_NAME" Language="de_DE">
+			<Text>Cahokia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAHOKIA_DESCRIPTION" Language="de_DE">
+			<Text>Cahokia Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CARDIFF_NAME" Language="de_DE">
+			<Text>Cardiff</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CARDIFF_DESCRIPTION" Language="de_DE">
+			<Text>Cardiff Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FEZ_NAME" Language="de_DE">
+			<Text>Fès</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FEZ_DESCRIPTION" Language="de_DE">
+			<Text>Fès Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MEXICO_CITY_NAME" Language="de_DE">
+			<Text>Mexiko-Stadt</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MEXICO_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Mexiko-Stadt Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NAZCA_NAME" Language="de_DE">
+			<Text>Nazca</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NAZCA_DESCRIPTION" Language="de_DE">
+			<Text>Nazca Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NGAZARGAMU_NAME" Language="de_DE">
+			<Text>Ngazargamu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NGAZARGAMU_DESCRIPTION" Language="de_DE">
+			<Text>Ngazargamu Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RAPA_NUI_NAME" Language="de_DE">
+			<Text>Rapa Nui</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RAPA_NUI_DESCRIPTION" Language="de_DE">
+			<Text>Rapa Nui Stadtstaat</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_ANTIOCH_NAME" Language="de_DE">
+			<Text>Venedig</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTIOCH_DESCRIPTION" Language="de_DE">
+			<Text>Venedig Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BABYLON_NAME" Language="de_DE">
+			<Text>Anshan</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BABYLON_DESCRIPTION" Language="de_DE">
+			<Text>Anshan Stadtstaat</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_AUCKLAND_NAME" Language="de_DE">
+			<Text>Auckland</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTANANARIVO_NAME" Language="de_DE">
+			<Text>Antananarivo</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ARMAGH_NAME" Language="de_DE">
+			<Text>Armagh</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GRANADA_NAME" Language="de_DE">
+			<Text>Granada</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MUSCAT_NAME" Language="de_DE">
+			<Text>Muscat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PALENQUE_NAME" Language="de_DE">
+			<Text>Mitla</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AUCKLAND_DESCRIPTION" Language="de_DE">
+			<Text>Auckland Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ANTANANARIVO_DESCRIPTION" Language="de_DE">
+			<Text>Antananarivo Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ARMAGH_DESCRIPTION" Language="de_DE">
+			<Text>Armagh Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_GRANADA_DESCRIPTION" Language="de_DE">
+			<Text>Granada Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_MUSCAT_DESCRIPTION" Language="de_DE">
+			<Text>Muscat Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_PALENQUE_DESCRIPTION" Language="de_DE">
+			<Text>Mitla Stadtstaat</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_CAGUANA_NAME" Language="de_DE">
+			<Text>Caguana</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HUNZA_NAME" Language="de_DE">
+			<Text>Hunza</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAHORE_NAME" Language="de_DE">
+			<Text>Lahore</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_NAME" Language="de_DE">
+			<Text>Singapur</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TARUGA_NAME" Language="de_DE">
+			<Text>Taruga</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VATICAN_CITY_NAME" Language="de_DE">
+			<Text>Vaticanstadt</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CAGUANA_DESCRIPTION" Language="de_DE">
+			<Text>Caguana Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HUNZA_DESCRIPTION" Language="de_DE">
+			<Text>Hunza Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAHORE_DESCRIPTION" Language="de_DE">
+			<Text>Lahore Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SINGAPORE_DESCRIPTION" Language="de_DE">
+			<Text>Singapur Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_TARUGA_DESCRIPTION" Language="de_DE">
+			<Text>Taruga Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VATICAN_CITY_DESCRIPTION" Language="de_DE">
+			<Text>Vaticanstadt Stadtstaat</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_AYUTTHAYA_NAME" Language="de_DE">
+			<Text>Ayutthaya</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CHINGUETTI_NAME" Language="de_DE">
+			<Text>Chinguetti</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JOHANNESBURG_NAME" Language="de_DE">
+			<Text>Johannesburg</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NALANDA_NAME" Language="de_DE">
+			<Text>Nalanda</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SAMARKAND_NAME" Language="de_DE">
+			<Text>Samarkand</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_WOLIN_NAME" Language="de_DE">
+			<Text>Wolin</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_AYUTTHAYA_DESCRIPTION" Language="de_DE">
+			<Text>Ayutthaya Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_CHINGUETTI_DESCRIPTION" Language="de_DE">
+			<Text>Chinguetti Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_JOHANNESBURG_DESCRIPTION" Language="de_DE">
+			<Text>Johannesburg Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NALANDA_DESCRIPTION" Language="de_DE">
+			<Text>Nalanda Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_SAMARKAND_DESCRIPTION" Language="de_DE">
+			<Text>Samarkand Stadtstaat</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_WOLIN_DESCRIPTION" Language="de_DE">
+			<Text>Wolin Stadtstaat</Text>
+		</Replace>
+
+		<Replace Tag="LOC_SETUP_CREATE_MAP" Language="de_DE">
+			<Text>Karte erstellen</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_YNAMP_REPORT" Language="de_DE">
+			<Text>Überprüfungsbericht der Einstellungen:</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_SEVERITY_YNAMP" Language="de_DE">
+			<Text>(Schweregrad = {1_Num})</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_BLOCKING_YNAMP" Language="de_DE">
+			<Text>(Blockiert Start)</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_IGNORE_BLOCK_YNAMP" Language="de_DE">
+			<Text>(Blockierung durch Benutzer überschrieben)</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_DATABASE_LOADED_YNAMP" Language="de_DE">
+			<Text>Datenbank geladen</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_DATABASE_LOADED_YNAMP_TT" Language="de_DE">
+			<Text>Die Gameplay-Datenbank wurde geladen und steht für die erweiterten YnAMP-Setup-Optionen zur Verfügung.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_DATABASE_NOT_LOADED_YNAMP" Language="de_DE">
+			<Text>Datenbank nicht geladen</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_DATABASE_NOT_LOADED_YNAMP_TT" Language="de_DE">
+			<Text>Die Gameplay-Datenbank wurde während dieser Sitzung noch nicht geladen. Ein Spiel muss gestartet werden, um die erforderlichen Daten für einige der erweiterten YnAMP-Optionen zu erhalten.[NEWLINE][NEWLINE]Sie können die Schaltfläche "Datenbank laden" klicken, um ein schnelles Spiel im 2D-Modus zu starten, oder Sie können Ihr Spiel wie gewohnt starten, wenn Sie die neuen Optionen nicht benötigen.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_DATABASE_CHANGED_YNAMP" Language="de_DE">
+			<Text>Datenbank geändert</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_DATABASE_CHANGED_YNAMP_TT" Language="de_DE">
+			<Text>Die Gameplay-Datenbank wurde geändert (durch Aktivierung von Mods, DLCs oder Erweiterungen). Ein neues leeres Spiel muss gestartet werden, um die erforderlichen Daten für einige der erweiterten YnAMP-Optionen zu aktualisieren.[NEWLINE][NEWLINE]Sie können die Schaltfläche "Datenbank laden" klicken, um ein schnelles Spiel im 2D-Modus zu starten, oder Sie können Ihr Spiel wie gewohnt starten, wenn Sie die neuen Optionen nicht benötigen.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_RULESET_CHANGED_YNAMP" Language="de_DE">
+			<Text>Regelsatz geändert</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_RULESET_CHANGED_YNAMP_TT" Language="de_DE">
+			<Text>Der Regelsatz, der beim Laden der Gameplay-Datenbank verwendet wurde, wurde geändert. Ein neues leeres Spiel muss gestartet werden, um die erforderlichen Daten für einige der erweiterten YnAMP-Optionen zu aktualisieren.[NEWLINE][NEWLINE]Sie können die Schaltfläche "Datenbank laden" klicken, um ein schnelles Spiel im 2D-Modus zu starten und den aktiven Regelsatz zu verwenden, zum vorherigen Regelsatz zurückzukehren oder Ihr Spiel wie gewohnt zu starten, wenn Sie die neuen Optionen nicht benötigen.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAP_SIZE_UNOFFICIAL_YNAMP" Language="de_DE">
+			<Text>Kartengröße inoffiziell</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAP_SIZE_UNOFFICIAL_YNAMP_TT" Language="de_DE">
+			<Text>Diese Kartengröße ist größer als die offiziellen Karten.[NEWLINE][NEWLINE]Sie wird geladen, aber Sie können zufällige Abstürze im späten Spiel erleben.[NEWLINE][NEWLINE]Es wurde bei dieser Art von Größen nicht berichtet, aber beachten Sie bitte, dass mit Gathering Storm der Anstieg des Wasserspiegels möglicherweise einen nicht wiederherstellbaren Absturz auf Karten verursacht, die etwas größer sind.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAP_SIZE_LOCK_YNAMP" Language="de_DE">
+			<Text>Kartengröße nicht unterstützt</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAP_SIZE_LOCK_YNAMP_TT" Language="de_DE">
+			<Text>Diese Kartengröße ist größer als die größte bekannte Karte, die für 500 Züge gespielt werden kann. Wenn die Karte es zulässt, können Sie einen kleineren Abschnitt auswählen, auf dem Sie spielen möchten, wodurch die Größe angepasst wird.[NEWLINE][NEWLINE]Es kann geladen werden, aber Sie werden sicherlich zufällige Abstürze im späten Spiel erleben, Sie sollten oft speichern.[NEWLINE][NEWLINE]Mit Gathering Storm wird der Anstieg des Wasserspiegels einen nicht wiederherstellbaren Absturz verursachen.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAP_OVERSIZE_YNAMP_TT" Language="de_DE">
+			<Text>Diese Kartengröße ist größer als die größte bekannte Karte, die ohne Absturz beim Laden gestartet werden kann. Wenn die Karte es zulässt, können Sie einen kleineren Abschnitt auswählen, auf dem Sie spielen möchten, wodurch die Größe angepasst wird.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAP_SIZE_UNKNOWN_YNAMP" Language="de_DE">
+			<Text>Kartengröße unbekannt</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAP_SIZE_UNKNOWN_YNAMP_TT" Language="de_DE">
+			<Text>Diese Kartengröße ist unbekannt. YnAMP kann noch nicht feststellen, ob sie ein stabiles Spiel erlauben wird. Dies kann behoben werden, indem die Datenbank geladen wird.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_LOAD_DATA_YNAMP" Language="de_DE">
+			<Text>Datenbank laden</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_LOAD_DATA_YNAMP_TT" Language="de_DE">
+			<Text>Starten Sie ein schnelles Spiel im 2D-Modus, um alle von YnAMP für das Einstellungsmenü verwendeten Daten zu laden, und beenden Sie dann automatisch und kehren Sie zum Hauptmenü zurück.[NEWLINE][NEWLINE]Navigieren Sie zurück zu diesem Setup-Bildschirm. Es sollte dann "Datenbank geladen" anzeigen und die entsprechenden erweiterten YnAMP-Optionen aktivieren.[NEWLINE][NEWLINE]Eine gespeicherte Datei mit den aktuellen Einstellungen namens "AutoSaveYnAMP" sollte verfügbar sein, um sie bei Bedarf neu zu laden. Die empfohlene Reihenfolge der Aktionen sollte jedoch sein:[NEWLINE][ICON_BULLET] Mods aktivieren[NEWLINE][ICON_BULLET] Datenbank laden[NEWLINE][ICON_BULLET] Ihre Einstellungen ändern[NEWLINE][NEWLINE]Dies ist optional, und Sie können Ihr Spiel wie gewohnt starten, wenn Sie die neuen Optionen nicht benötigen.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_IGNORE_WARNING_YNAMP" Language="de_DE">
+			<Text>Warnung ignorieren</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_IGNORE_WARNING_YNAMP_TT" Language="de_DE">
+			<Text>Klicken Sie auf die Schaltfläche "Ignorieren", wenn Sie das Problem verstehen und es ignorieren möchten.</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAJOR_COUNT_DIFFERENCE" Language="de_DE">
+			<Text>Anzahl der Zivilisationen anwenden</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_MAJOR_COUNT_DIFFERENCE_TT" Language="de_DE">
+			<Text>Die tatsächliche Anzahl der Spielerplätze und der Wert des Schiebereglers für Zivilisationen stimmen nicht überein.[NEWLINE][NEWLINE]Um Benutzeroberflächenverzögerungen oder versehentliche Änderungen beim Scrollen mit dem Mausrad im Menü zu vermeiden, wird der Schiebereglerwert nicht sofort angewendet. Es kann auch durch das Verlassen und Zurückkehren zum Setup-Bildschirm geändert worden sein.[NEWLINE][NEWLINE]Wenn Sie den Schiebereglerwert anwenden möchten, klicken Sie auf die "+" (Hinzufügen)-Schaltfläche oder auf eine der "X" (Löschen)-Schaltflächen im Abschnitt "Spieler".</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_ERROR_NO_TSL" Language="de_DE">
+			<Text>Kein TSL für diese Karte</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_ERROR_NO_TSL_IN_SECTION" Language="de_DE">
+			<Text>Kein TSL für diesen Kartenabschnitt</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_ARTICLE_TITLE_YNAMP" Language="de_DE">
+			<Text>[ICON_Whisper] "Zu diesem Zeitpunkt haben wir keine Pläne, den DLL-Quellcode zu veröffentlichen"</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_ARTICLE_RESUME_YNAMP" Language="de_DE">
+			<Text>[NEWLINE]Firaxis plant nicht, die Tools zur Unterstützung von Vox Populi oder anderen umfassenden Modifikationen für Civilization VI zu veröffentlichen[NEWLINE]Ich habe kein Interesse an einem solchen Spiel, also ist dies mein letztes Update für [COLOR_Civ6Blue]YnAMP[ENDCOLOR], danke für Ihre bisherige Unterstützung.[NEWLINE](Zitat aus dem Interview mit Anton Strenger, leitender Designer, auf pcgamesn.com)</Text>
+		</Replace>
+		<Replace Tag="LOC_SETUP_ARTICLE_RESUME_STEAM_ON_YNAMP" Language="de_DE">
+			<Text>[NEWLINE]Firaxis plant nicht, die Tools zur Unterstützung von Vox Populi oder anderen umfassenden Modifikationen für Civilization VI zu veröffentlichen[NEWLINE]Ich habe kein Interesse an einem solchen Spiel, also ist dies mein letztes Update für [COLOR_Civ6Blue]YnAMP[ENDCOLOR], danke für Ihre bisherige Unterstützung.[NEWLINE](Hier klicken für den Artikel über den DLL-Quellcode auf pcgamesn.com, rechtsklicken für das Interview)</Text>
+		</Replace>
+
+  </LocalizedText>
+</GameData>
