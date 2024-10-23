@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_AL_GYEONGBOK_NAME" Language="en_US">
+			<Text>Gyeongbokgung Palace</Text>
+		</Replace>
+
+			<Replace Tag="LOC_PEDIA_BUILDING_AL_GYEONGBOK_1" Language="en_US">
+				<Text>Gyeongbokgung Palace, founded in 1395 during the Joseon Dynasty, holds a significant place in Korean history as the primary royal residence and administrative center. Despite weathering periods of turmoil, such as the Japanese invasions of the late 16th century and the challenges of the colonial era in the early 20th century, Gyeongbokgung Palace remained a beacon of Korean history and culture. In modern times, restoration initiatives were launched, leading to the meticulous reconstruction of some structures, reaffirming the palace's significance as a testament to Korea's enduring legacy.
+				</Text>
+			</Replace>
+
+			<Replace Tag="LOC_BUILDING_AL_GYEONGBOK_DESCRIPTION" Language="en_US">
+				<Text>Provides all Library and University buildings 1 slot for Great Works of Writing, and +1 [ICON_GreatWriter] Great Writer Points from all Campus districts. Grants a free [ICON_GreatWriter] Great Writer.[NEWLINE][NEWLINE]Must be built on flat terrain adjacent to a mountain.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_BUILDING_AL_GYEONGBOK_QUOTE" Language="en_US">
+					<Text>"If the people prosper, how can the king not prosper with them? And if the people do not prosper, how may the king prosper without them?"[NEWLINE]-King Sejong</Text>
+				</Replace>
+				
+		
+	</LocalizedText>
+</GameData>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_AL_GYEONGBOK_NAME" Language="de_DE" Gender="masculine" Plurality="1">
+			<Text>Gyeongbokgung-Palast|Gyeongbokgung-Palast|Gyeongbokgung-Palast|Gyeongbokgung-Palastes|Gyeongbokgung-Palast</Text>
+		</Replace>
+
+			<Replace Tag="LOC_PEDIA_BUILDING_AL_GYEONGBOK_1" Language="de_DE">
+				<Text>Der Gyeongbokgung-Palast, der 1395 während der Joseon-Dynastie gegründet wurde, nimmt als wichtigste königliche Residenz und Verwaltungszentrum einen bedeutenden Platz in der koreanischen Geschichte ein. Trotz turbulenter Zeiten, wie der japanischen Invasion im späten 16. Jahrhundert und den Herausforderungen der Kolonialzeit im frühen 20. Jahrhundert, blieb der Gyeongbokgung-Palast ein Leuchtturm der koreanischen Geschichte und Kultur. In der Neuzeit wurden Restaurierungsinitiativen gestartet, die zur sorgfältigen Rekonstruktion einiger Bauwerke führten und die Bedeutung des Palastes als Zeugnis des bleibenden Erbes Koreas bekräftigten.
+				</Text>
+			</Replace>
+
+			<Replace Tag="LOC_BUILDING_AL_GYEONGBOK_DESCRIPTION" Language="de_DE">
+				<Text>Bietet allen Bibliotheks- und Universitätsgebäuden 1 Großes-Literaturwerk-Platz und +1 [ICON_GreatWriter] Großer-Schriftsteller-Punkt in allen Campus-Bezirken. Gewährt einen kostenlosen [ICON_GreatWriter] Großen Schriftsteller.[NEWLINE][NEWLINE]Muss auf flachem Land neben einem Berg gebaut werden.</Text>
+			</Replace>
+
+			<Replace Tag="LOC_BUILDING_AL_GYEONGBOK_QUOTE" Language="de_DE">
+				<Text>"Wenn es dem Volk gut geht, wie kann es dem König dann nicht mit ihm gut gehen? Und wenn es dem Volk nicht gut geht, wie kann es dem König dann ohne ihm gut gehen?"[NEWLINE]-König Sejong</Text>
+			</Replace>
+
+
+	</LocalizedText>
+</GameData>

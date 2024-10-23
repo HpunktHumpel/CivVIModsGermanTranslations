@@ -64,6 +64,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. CIVILIZATION VI: ARECIBO OBSERVATORY (Albro & Deliverator23 | H.Humpel)
 1. CIVILIZATION VI: CN Tower (Albro | H.Humpel)
 1. CIVILIZATION VI: EMPIRE STATE BUILDING (Albro & A CityMaker | H.Humpel)
+1. CIVILIZATION VI: GYEONGBOK PALACE (Albro | H.Humpel)
 1. CIVILIZATION VI: KINKAKU-JI (Albro & Deliverator23 | H.Humpel)
 1. CIVILIZATION VI: NATIONAL WONDERS (Albro | H.Humpel)
 1. CIVILIZATION VI: NATIONAL WONDERS PACK 1 (Albro | H.Humpel)
