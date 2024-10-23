@@ -60,6 +60,7 @@ Folgende Mods - in alphabetischer Reihenfolge - wurden in diesem Mod übersetzt 
 1. Cheat Menu Panel (R&F - GS) (Sparrow | Junky)
 1. City Original Owner Info (Imhotep | Stevie)
 1. Civ VI Beer (AOM | H.Humpel)
+1. CIV VI WONDER: MONG KOK (Albro | H.Humpel)
 1. Civilization Conquer Mode (muyyi & Flactine | Junky)
 1. CIVILIZATION VI: ARECIBO OBSERVATORY (Albro & Deliverator23 | H.Humpel)
 1. CIVILIZATION VI: CN Tower (Albro | H.Humpel)

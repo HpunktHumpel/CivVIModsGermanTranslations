@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_WON_MONGKOK_NAME" Language="de_DE">
+			<Text>Mong Kok</Text>
+		</Replace>
+
+			<Replace Tag="LOC_PEDIA_BUILDING_WON_MONGKOK_1" Language="de_DE">
+				<Text>Mong Kok ist ein pulsierender Bezirk in Hongkong und kann auf eine reiche, jahrhundertealte Geschichte zurückblicken. Ursprünglich war Mong Kok ein Fischerdorf und sein Name bedeutet auf Kantonesisch „belebte Ecke“, was seine geschäftige Natur widerspiegelt. Im späten 19. Jahrhundert erlebte Mong Kok aufgrund seiner strategischen Lage und Erreichbarkeit eine rasche Urbanisierung und entwickelte sich zu einem wichtigen Knotenpunkt für Handel und Gewerbe. Während der Kolonialzeit blühte Mong Kok als Zentrum für Produktion und Einzelhandel auf und zog Händler und Unternehmer aus der ganzen Region an. Die überfüllten Straßen und lebhaften Märkte wurden zu Symbolen der dynamischen Kultur und wirtschaftlichen Leistungsfähigkeit Hongkongs.
+				</Text>
+			</Replace>
+
+			<Replace Tag="LOC_PEDIA_BUILDING_WON_MONGKOK_2" Language="de_DE">
+				<Text>Die Geschichte Mong Koks ist auch von ihrer Widerstandsfähigkeit und ihrem kulturellen Reichtum geprägt. Im Laufe der Jahre hat es sich zu einem Schmelztiegel vielfältiger Gemeinschaften entwickelt, in dem Menschen unterschiedlicher Herkunft zu seiner lebendigen Vielfalt beitragen. Die geschäftigen Straßen und lebhaften Märkte des Viertels sind zum Sinnbild für den dynamischen Geist Hongkongs geworden und ziehen Besucher aus aller Welt an, die seinen einzigartigen Charme erleben möchten. Trotz aller Herausforderungen hat Mong Kok seinen Status als dynamisches Zentrum für Handel und Kultur bewahrt, wo Tradition nahtlos mit Moderne verschmilzt und eine Atmosphäre entsteht, die sowohl zeitlos als auch fesselnd ist. Heute ist Mong Kok ein Beweis für die anhaltende Vitalität Hongkongs und dient als Inspirationsquelle für diejenigen, die die dynamische Stadtlandschaft erkunden möchten.
+				</Text>
+			</Replace>
+
+			<Replace Tag="LOC_BUILDING_WON_MONGKOK_DESCRIPTION" Language="de_DE">
+				<Text>Alle Bezirke und Wunder in dieser Stadt bringen +15 [ICON_TOURISM] Tourismus und einen einmaligen Bonus von 300 [ICON_GOLD] Gold und 150 [ICON_CULTURE] Kultur (basierend auf der Spielgeschwindigkeit).[NEWLINE][NEWLINE]Muss an der Küste neben dem Stadtzentrum gebaut werden.</Text>
+			</Replace>
+
+				<Replace Tag="LOC_BUILDING_WON_MONGKOK_QUOTE" Language="de_DE">
+					<Text>"Wenn Sie den Kapitalismus in Aktion sehen möchten, reisen Sie nach Hongkong."[NEWLINE]-Milton Friedman</Text>
+				</Replace>
+
+
+	</LocalizedText>
+</GameData>

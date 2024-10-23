@@ -280,4 +280,5 @@ Mod-Nummer | Mod-Name | Autor | Übersetzer | Release
 3090525411 | Unique Building: Kūrag (Scythia) | JNR | Junky | #29
 3130103214 | Policy Pack: Maritime | JNR | SprachZauberer | **NEW**
 3153339483 | CIVILIZATION VI: GYEONGBOK PALACE | Albro | H.Humpel | **NEW**
+3158034476 | CIV VI WONDER: MONG KOK | Albro | H.Humpel | **NEW**
 3179425402 | Better Balanced Maps | BaNiPouZ, Talasta | onyxum | **NEW**

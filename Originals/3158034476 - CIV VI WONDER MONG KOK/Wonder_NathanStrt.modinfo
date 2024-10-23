@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b8058a9f-d5f8-47a9-8e28-51e8386670b1" version="1">
+  <Properties>
+    <Name>CIV VI WONDER: MONG KOK</Name>
+    <Description>Adds Mong Kok as a new wonder</Description>
+    <Created>1707593634</Created>
+    <Teaser>Adds Mong Kok as a new wonder</Teaser>
+    <Authors>Albro</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateArt id="NewAction">
+      <File>Wonder_NathanStrt.dep</File>
+      <File>Wonder_NathanStrt.Art.xml</File>
+      <File>ArtDefs/Buildings.artdef</File>
+      <File>ArtDefs/WonderMovie.artdef</File>
+    </UpdateArt>
+    <UpdateDatabase id="NewAction">
+      <File>Gameplay/AL_MONGKOK.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>Text/AL_MONGKOK_TEXT.xml</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>Art/ICONs_Art.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Art/ICONs_Art.xml</File>
+    <File>Gameplay/AL_MONGKOK.sql</File>
+    <File>Platforms/MacOS/BLPs/Light.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_MG_Base_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Industrial_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_MONGKOK_Base_b_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MGG_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_E</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Industrial_01_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Industrial_01_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foundation_Industrial_01_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_a</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_e</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_n1</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/Light.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Modern_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Modern_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_MG_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foundation_Industrial_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_WON_MONGKOK_Base_b_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MGG_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_MG_Base_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Industrial_01_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Industrial_01_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foundation_Industrial_01_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_e</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_WON_MONGKOK_Base_n1</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+    <File>Text/AL_MONGKOK_TEXT.xml</File>
+    <File>Wonder_NathanStrt.dep</File>
+    <File>XLPs/icons.xlp</File>
+    <File>XLPs/Lights.xlp</File>
+    <File>XLPs/WonderMovie.xlp</File>
+  </Files>
+</Mod>

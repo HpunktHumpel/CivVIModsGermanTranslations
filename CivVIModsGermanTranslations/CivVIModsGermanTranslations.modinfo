@@ -2,9 +2,9 @@
 <Mod id="2518b634-dcc2-44b6-8fa7-2bef6202a400" version="30">
   <Properties>
     <Name>Civilization VI Mods - [ICON_WHISPER] German translations</Name>
-    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]279[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
+    <Description>Deutsche Übersetzungen für diverse Civilization VI Mods.[NEWLINE][NEWLINE]Für dieses Mod wurden bisher [COLOR:ResGoldLabelCS]280[ENDCOLOR] Mods ins Deutsche übersetzt.[NEWLINE][NEWLINE]Die vollständige Liste findet man auf der Workshop-Seite dieses Mods auf Steam. In Civilization VI würde diese Liste hier wegen der Länge leider abgeschnitten werden.</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003"></CustomProperties>
-    <Created>1729698150</Created>
+    <Created>1729700316</Created>
     <Teaser>A collection of German translations for Civilization VI mods.</Teaser>
     <Authors>H.Humpel</Authors>
     <SpecialThanks>57F@n, A CityMaker, Adriaman, aioli, Albro, Alf.Net, Alterd-Rushnano, anders, Angryr, AOM, ARCANE, Arstahd, astog, BaNiPouZ, blkbutterfly, Boom, Burkart, C1sen, Camille, Captain Lime, carterrosenberg, ChessPro2007, chimp, Chrisy15, Cisco, cyj, D, DB, Deliverator23, DesertMoonGW, Desucrate, Digihuman, dreadanddespair, Eps, Faron, FinalFreak16, Flactine, FlashyFeeds, Friend, Fuzzle, Fuzzletop, Gedemon, HktkNban, HoneyTheBear, Ian G, Imhotep, infixo, janboruta, Jewbery, J_Kovic, JNR, joshmanisdabomb, KCucumber, Konomi, Liam, Leugi, Linguaphile, Luke Vo, MarshmallowBear, Masked Man, MC, Merrick, Mgwska, Mikecro, muyyi, MyopicCat, naed21, nea_baraja, Neicureuil, Nerevatar, NHC, Nightemaire, NullSpace, Nundge, Nut9931, Oni, Ophidy, p0kiehl, peter.spjuth, Phantagonist, Phyrax, Plati, Rdner, RomanHoliday, Sailor Cat, Scrum Lord, Searching..., SeelingCat, Shadow, sharpNd, Shirohô, Shirotora Kenshin, Shuricas, Skunk, Skylar Saphyr, Sparrow, Stack Man, sukritact, Surt Ignir Magnis, Talasta, TC, Technoluddite, Teddyk, thecrazyscotsman, totalslacker, Trexatron, VanillaThunder, Vinrock, weraptor, WindFly, wltk, yiboy, _Zee, Zegangani, Zharques, Zur13 and 号码菌 for their original Mods.[NEWLINE]ASM590319, duestere Legende, Gorowynn, Junky,  onyxum, Phyrax, SprachZauberer and Stevie for their translations.</SpecialThanks>
@@ -518,6 +518,9 @@
     </Criteria>
     <Criteria id="CIVITASResources">
       <ModInUse>664d17a5-f3be-493a-9332-8e20da1166fa</ModInUse>
+    </Criteria>
+    <Criteria id="CIVVIWONDERMONGKOK">
+      <ModInUse>b8058a9f-d5f8-47a9-8e28-51e8386670b1</ModInUse>
     </Criteria>
     <Criteria id="CNTower">
       <ModInUse>ffa02d2f-e5d4-43fd-bb97-0a4868c7b3a7</ModInUse>
@@ -2586,6 +2589,10 @@
         <LoadOrder>10</LoadOrder>
       </Properties>
       <File>1293801965/Core_MODE/p0k_Resources_MODE_Localisation_de_DE.sql</File>
+    </UpdateText>
+    <UpdateText id="CIVVIWONDERMONGKOK_NewAction_de_DE">
+      <Criteria>CIVVIWONDERMONGKOK</Criteria>
+      <File>3158034476/Text/AL_MONGKOK_TEXT_de_DE.xml</File>
     </UpdateText>
     <UpdateText id="CL_EMPIRE_UpdateText_de_DE">
       <Criteria>EmpireStateBuilding</Criteria>
@@ -5025,6 +5032,7 @@
     <File>3090525411/Core/RECIV_Kurag_Text_de_DE.sql</File>
     <File>3130103214/Core/PP_Maritime_Text_de_DE.sql</File>
     <File>3153339483/Text/AL_GYONGBAK_TEXT_de_DE.xml</File>
+    <File>3158034476/Text/AL_MONGKOK_TEXT_de_DE.xml</File>
     <File>3179425402/Lang/german.xml</File>
     <File>871712879/Text/MoreLenses_Text_de_DE.xml</File>
     <File>871861883/Configuration/ConfigText_de_DE.xml</File>

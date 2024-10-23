@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- WONDERS -->
+
+		<Replace Tag="LOC_BUILDING_WON_MONGKOK_NAME" Language="en_US">
+			<Text>Mong Kok</Text>
+		</Replace>
+
+			<Replace Tag="LOC_PEDIA_BUILDING_WON_MONGKOK_1" Language="en_US">
+				<Text>Mong Kok, a vibrant district in Hong Kong, boasts a rich history dating back centuries. Originally a fishing village, Mong Kok's name translates to "busy corner" in Cantonese, reflecting its bustling nature. In the late 19th century, Mong Kok experienced rapid urbanization due to its strategic location and accessibility, becoming a key hub for trade and commerce. During the colonial era, Mong Kok flourished as a center for manufacturing and retail, attracting merchants and entrepreneurs from all over the region. Its crowded streets and lively markets became iconic symbols of Hong Kong's dynamic culture and economic prowess.
+				</Text>
+			</Replace>
+
+			<Replace Tag="LOC_PEDIA_BUILDING_WON_MONGKOK_2" Language="en_US">
+				<Text>Mong Kok's history is also characterized by its resilience and cultural richness. Over the years, it has evolved into a melting pot of diverse communities, with people from different backgrounds contributing to its vibrant tapestry. The district's bustling streets and lively markets have become emblematic of Hong Kong's energetic spirit, drawing visitors from far and wide to experience its unique charm. Despite facing challenges, Mong Kok has maintained its status as a dynamic hub of commerce and culture, where tradition blends seamlessly with modernity, creating an atmosphere that is both timeless and captivating. Today, Mong Kok stands as a testament to Hong Kong's enduring vitality and serves as a beacon of inspiration for those who seek to explore its dynamic urban landscape.
+				</Text>
+			</Replace>			
+
+			<Replace Tag="LOC_BUILDING_WON_MONGKOK_DESCRIPTION" Language="en_US">
+				<Text>All ditricts and wonders in this city provide +15 [ICON_TOURISM] Tourism and a one time bonus of 300 [ICON_GOLD] Gold and 150 [ICON_CULTURE] Culture (based on game speed).[NEWLINE][NEWLINE]Must be built adjacent to the City Center and the Coast </Text>
+			</Replace>
+
+				<Replace Tag="LOC_BUILDING_WON_MONGKOK_QUOTE" Language="en_US">
+					<Text>"If you want to see capitalism in action, go to Hong Kong."[NEWLINE]-Milton Friedman</Text>
+				</Replace>
+				
+		
+	</LocalizedText>
+</GameData>
+
